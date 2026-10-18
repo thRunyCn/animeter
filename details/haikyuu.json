@@ -1,0 +1,120 @@
+{
+ "id": "haikyuu",
+ "numbering": "TV episodes numbered continuously 1–85 across all four seasons; the Dumpster Battle film has no episode numbers.",
+ "arcs": [
+  {
+   "name": "Karasuno's Revival and the Inter-High",
+   "part": "Season 1",
+   "eps": [
+    1,
+    25
+   ],
+   "ch": [
+    1,
+    71
+   ],
+   "summary": "Short but explosive Shoyo Hinata joins Karasuno High's fallen volleyball club, only to find his middle-school rival, the genius setter Tobio Kageyama, on the same team.",
+   "events": [
+    "Hinata and Kageyama develop their lightning-fast 'freak quick' attack.",
+    "Karasuno plays practice matches against Aoba Johsai and its old rival Nekoma.",
+    "Karasuno loses to Aoba Johsai in the Inter-High prefectural tournament."
+   ]
+  },
+  {
+   "name": "Tokyo Training Camp and Spring High Qualifiers",
+   "part": "Season 2",
+   "eps": [
+    26,
+    50
+   ],
+   "ch": [
+    71,
+    149
+   ],
+   "summary": "Karasuno joins a summer training camp with strong Tokyo schools, then enters the Spring High qualifiers.",
+   "events": [
+    "Hinata and Kageyama clash over changing their quick attack.",
+    "Karasuno gets revenge on Aoba Johsai in the prefectural semifinal.",
+    "Karasuno reaches the final against powerhouse Shiratorizawa."
+   ]
+  },
+  {
+   "name": "Karasuno vs. Shiratorizawa",
+   "part": "Season 3",
+   "eps": [
+    51,
+    60
+   ],
+   "ch": [
+    151,
+    190
+   ],
+   "summary": "The whole season is one five-set final for a ticket to the national Spring High tournament.",
+   "events": [
+    "Tsukishima blocks ace Ushijima and finally falls in love with volleyball.",
+    "Karasuno beats Shiratorizawa to earn a trip to nationals."
+   ]
+  },
+  {
+   "name": "To the Top: Training Camps and Nationals Begin",
+   "part": "Season 4 Part 1",
+   "eps": [
+    61,
+    73
+   ],
+   "ch": [
+    207,
+    249
+   ],
+   "summary": "Before nationals, Kageyama is invited to an all-Japan youth camp while Hinata, left out, sneaks into a rookie camp.",
+   "events": [
+    "Hinata works as a ball boy at Shiratorizawa's camp to learn by watching.",
+    "Karasuno opens the Spring High at Tokyo with a win over Tsubakihara."
+   ]
+  },
+  {
+   "name": "To the Top: Inarizaki",
+   "part": "Season 4 Part 2",
+   "eps": [
+    74,
+    85
+   ],
+   "ch": [
+    250,
+    292
+   ],
+   "summary": "Karasuno faces Inarizaki, a top-seeded team led by the Miya twins.",
+   "events": [
+    "Atsumu and Osamu Miya copy Karasuno's freak quick.",
+    "Karasuno beats Inarizaki in a tight third set."
+   ]
+  },
+  {
+   "name": "The Dumpster Battle",
+   "part": "Film",
+   "eps": null,
+   "ch": [
+    293,
+    326
+   ],
+   "summary": "Karasuno finally meets Nekoma in an official match at nationals, the 'Battle at the Garbage Dump' the two schools have chased for years.",
+   "events": [
+    "Kenma Kozume sets out to stop Hinata by shutting down his movement.",
+    "Hinata pushes through the pressure, and Kenma admits volleyball was fun.",
+    "Karasuno wins the long-awaited match."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga (OVAs sit outside the numbering)."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/haikyuu/"
+  ]
+ ]
+}

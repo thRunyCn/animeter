@@ -1,0 +1,5365 @@
+{
+ "frieren": {
+  "anime": {
+   "id": 154587,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Sousou no Frieren",
+    "english": "Frieren: Beyond Journey’s End",
+    "native": "葬送のフリーレン"
+   },
+   "averageScore": 91,
+   "meanScore": 91,
+   "popularity": 491032,
+   "episodes": 28,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/154587",
+   "color": "#bbf1a1"
+  },
+  "manga": {
+   "id": 118586,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Sousou no Frieren",
+    "english": "Frieren: Beyond Journey’s End",
+    "native": "葬送のフリーレン"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 86306,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/118586",
+   "color": "#e4ae5d"
+  }
+ },
+ "jjk": {
+  "anime": {
+   "id": 113415,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Jujutsu Kaisen",
+    "english": "JUJUTSU KAISEN",
+    "native": "呪術廻戦"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 985855,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2020,
+   "genres": [
+    "Action",
+    "Drama",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/113415",
+   "color": "#e45d5d"
+  },
+  "manga": {
+   "id": 101517,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Jujutsu Kaisen",
+    "english": "Jujutsu Kaisen",
+    "native": "呪術廻戦"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 255167,
+   "episodes": null,
+   "chapters": 272,
+   "volumes": 30,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/101517",
+   "color": "#e4a15d"
+  }
+ },
+ "csm": {
+  "anime": {
+   "id": 127230,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Chainsaw Man",
+    "english": "Chainsaw Man",
+    "native": "チェンソーマン"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 643966,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Action",
+    "Drama",
+    "Horror",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/127230",
+   "color": "#6b1a1a"
+  },
+  "manga": {
+   "id": 105778,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Chainsaw Man",
+    "english": "Chainsaw Man",
+    "native": "チェンソーマン"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 335069,
+   "episodes": null,
+   "chapters": 232,
+   "volumes": 24,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Horror",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/105778",
+   "color": "#f1c90d"
+  }
+ },
+ "kny": {
+  "anime": {
+   "id": 101922,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kimetsu no Yaiba",
+    "english": "Demon Slayer: Kimetsu no Yaiba",
+    "native": "鬼滅の刃"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 1005475,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/101922",
+   "color": "#f1c9ae"
+  },
+  "manga": {
+   "id": 87216,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kimetsu no Yaiba",
+    "english": "Demon Slayer: Kimetsu no Yaiba",
+    "native": "鬼滅の刃"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 211586,
+   "episodes": null,
+   "chapters": 207,
+   "volumes": 23,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/87216",
+   "color": "#f1d628"
+  }
+ },
+ "vinland": {
+  "anime": {
+   "id": 101348,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "VINLAND SAGA",
+    "english": "Vinland Saga",
+    "native": "ヴィンランド・サガ"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 553694,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/anime/101348",
+   "color": "#f16b5d"
+  },
+  "manga": {
+   "id": 30642,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Vinland Saga",
+    "english": "Vinland Saga",
+    "native": "ヴィンランド・サガ"
+   },
+   "averageScore": 90,
+   "meanScore": 90,
+   "popularity": 139672,
+   "episodes": null,
+   "chapters": 224,
+   "volumes": 29,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/manga/30642",
+   "color": "#f16b43"
+  }
+ },
+ "sololeveling": {
+  "anime": {
+   "id": 151807,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "OTHER",
+   "title": {
+    "romaji": "Ore dake Level Up na Ken",
+    "english": "Solo Leveling",
+    "native": "俺だけレベルアップな件"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 455710,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/151807",
+   "color": "#35bbf1"
+  },
+  "manga": {
+   "id": 105398,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "OTHER",
+   "title": {
+    "romaji": "Na Honjaman Level Up",
+    "english": "Solo Leveling",
+    "native": "나 혼자만 레벨업"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 287284,
+   "episodes": null,
+   "chapters": 201,
+   "volumes": 15,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/105398",
+   "color": null
+  }
+ },
+ "dandadan": {
+  "anime": {
+   "id": 171018,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Dandadan",
+    "english": "DAN DA DAN",
+    "native": "ダンダダン"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 393236,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/171018",
+   "color": "#e47850"
+  },
+  "manga": {
+   "id": 132029,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Dandadan",
+    "english": "Dandadan",
+    "native": "ダンダダン"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 117665,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/132029",
+   "color": "#f1d60d"
+  }
+ },
+ "oshinoko": {
+  "anime": {
+   "id": 150672,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "[Oshi no Ko]",
+    "english": "OSHI NO KO",
+    "native": "【推しの子】"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 334336,
+   "episodes": 11,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/150672",
+   "color": "#ff35c9"
+  },
+  "manga": {
+   "id": 117195,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "[Oshi no Ko]",
+    "english": "[Oshi no Ko]",
+    "native": "【推しの子】"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 107444,
+   "episodes": null,
+   "chapters": 171,
+   "volumes": 16,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/117195",
+   "color": "#e450a1"
+  }
+ },
+ "spyfamily": {
+  "anime": {
+   "id": 140960,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "SPY×FAMILY",
+    "english": "SPY x FAMILY",
+    "native": "SPY×FAMILY"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 577887,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/140960",
+   "color": "#c9f1f1"
+  },
+  "manga": {
+   "id": 108556,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "SPY×FAMILY",
+    "english": "SPY x FAMILY",
+    "native": "SPY×FAMILY"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 160545,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/108556",
+   "color": "#e4505d"
+  }
+ },
+ "hxh": {
+  "anime": {
+   "id": 11061,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "HUNTER×HUNTER (2011)",
+    "english": "Hunter x Hunter (2011)",
+    "native": "HUNTER×HUNTER (2011)"
+   },
+   "averageScore": 89,
+   "meanScore": 89,
+   "popularity": 850116,
+   "episodes": 148,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2011,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/11061",
+   "color": "#f1d65d"
+  },
+  "manga": {
+   "id": 30026,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "HUNTER×HUNTER",
+    "english": "Hunter x Hunter",
+    "native": "HUNTER×HUNTER"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 110444,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/30026",
+   "color": "#ffbb43"
+  }
+ },
+ "neverland": {
+  "anime": {
+   "id": 101759,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Yakusoku no Neverland",
+    "english": "The Promised Neverland",
+    "native": "約束のネバーランド"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 638839,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/101759",
+   "color": "#e4ae50"
+  },
+  "manga": {
+   "id": 87423,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Yakusoku no Neverland",
+    "english": "The Promised Neverland",
+    "native": "約束のネバーランド"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 134427,
+   "episodes": null,
+   "chapters": 181,
+   "volumes": 20,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/87423",
+   "color": "#e4d650"
+  }
+ },
+ "aot": {
+  "anime": {
+   "id": 16498,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Shingeki no Kyojin",
+    "english": "Attack on Titan",
+    "native": "進撃の巨人"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 1067593,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2013,
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/anime/16498",
+   "color": "#f1a143"
+  },
+  "manga": {
+   "id": 53390,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Shingeki no Kyojin",
+    "english": "Attack on Titan",
+    "native": "進撃の巨人"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 228030,
+   "episodes": null,
+   "chapters": 141,
+   "volumes": 34,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/manga/53390",
+   "color": "#d6431a"
+  }
+ },
+ "fmab": {
+  "anime": {
+   "id": 5114,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+    "english": "Fullmetal Alchemist: Brotherhood",
+    "native": "鋼の錬金術師 FULLMETAL ALCHEMIST"
+   },
+   "averageScore": 90,
+   "meanScore": 90,
+   "popularity": 737485,
+   "episodes": 64,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2009,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/5114",
+   "color": "#e4c993"
+  },
+  "manga": {
+   "id": 30025,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Hagane no Renkinjutsushi",
+    "english": "Fullmetal Alchemist",
+    "native": "鋼の錬金術師"
+   },
+   "averageScore": 89,
+   "meanScore": 89,
+   "popularity": 80924,
+   "episodes": null,
+   "chapters": 116,
+   "volumes": 27,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/30025",
+   "color": "#f1ae5d"
+  }
+ },
+ "deathnote": {
+  "anime": {
+   "id": 1535,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "DEATH NOTE",
+    "english": "Death Note",
+    "native": "DEATH NOTE"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 973274,
+   "episodes": 37,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2006,
+   "genres": [
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/1535",
+   "color": null
+  },
+  "manga": {
+   "id": 30021,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "DEATH NOTE",
+    "english": "Death Note",
+    "native": "DEATH NOTE"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 100629,
+   "episodes": null,
+   "chapters": 108,
+   "volumes": 12,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/30021",
+   "color": "#f1e4ae"
+  }
+ },
+ "naruto": {
+  "anime": {
+   "id": 20,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "NARUTO",
+    "english": "Naruto",
+    "native": "NARUTO -ナルト-"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 734249,
+   "episodes": 220,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2002,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/20",
+   "color": "#e47850"
+  },
+  "manga": {
+   "id": 30011,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "NARUTO",
+    "english": "Naruto",
+    "native": "NARUTO -ナルト-"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 100186,
+   "episodes": null,
+   "chapters": 700,
+   "volumes": 72,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30011",
+   "color": "#fe7828"
+  }
+ },
+ "mob": {
+  "anime": {
+   "id": 21507,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Mob Psycho 100",
+    "english": "Mob Psycho 100",
+    "native": "モブサイコ100"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 633465,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Psychological",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/21507",
+   "color": "#d65d1a"
+  },
+  "manga": {
+   "id": 85189,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Mob Psycho 100",
+    "english": "Mob Psycho 100",
+    "native": "モブサイコ100"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 49650,
+   "episodes": null,
+   "chapters": 201,
+   "volumes": 16,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Psychological",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/85189",
+   "color": "#ff0d00"
+  }
+ },
+ "mha": {
+  "anime": {
+   "id": 21459,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Boku no Hero Academia",
+    "english": "My Hero Academia",
+    "native": "僕のヒーローアカデミア"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 883078,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+   ],
+   "siteUrl": "https://anilist.co/anime/21459",
+   "color": "#f1d643"
+  },
+  "manga": {
+   "id": 85486,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Boku no Hero Academia",
+    "english": "My Hero Academia",
+    "native": "僕のヒーローアカデミア"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 179031,
+   "episodes": null,
+   "chapters": 432,
+   "volumes": 42,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/85486",
+   "color": "#f1d650"
+  }
+ },
+ "bleach": {
+  "anime": {
+   "id": 269,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "BLEACH",
+    "english": "Bleach",
+    "native": "BLEACH"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 529856,
+   "episodes": 366,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2004,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/269",
+   "color": "#f1a150"
+  },
+  "manga": {
+   "id": 30012,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "BLEACH",
+    "english": "Bleach",
+    "native": "BLEACH"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 122371,
+   "episodes": null,
+   "chapters": 706,
+   "volumes": 74,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30012",
+   "color": "#5da1f1"
+  }
+ },
+ "haikyuu": {
+  "anime": {
+   "id": 20464,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Haikyuu!!",
+    "english": "HAIKYU!!",
+    "native": "ハイキュー!!"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 589125,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/20464",
+   "color": "#e48635"
+  },
+  "manga": {
+   "id": 65243,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Haikyuu!!",
+    "english": "Haikyu!!",
+    "native": "ハイキュー！！"
+   },
+   "averageScore": 88,
+   "meanScore": 89,
+   "popularity": 102598,
+   "episodes": null,
+   "chapters": 404,
+   "volumes": 45,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/65243",
+   "color": "#f17843"
+  }
+ },
+ "opm": {
+  "anime": {
+   "id": 21087,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "One Punch Man",
+    "english": "One-Punch Man",
+    "native": "ワンパンマン"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 774572,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2015,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/21087",
+   "color": "#e4ae5d"
+  },
+  "manga": {
+   "id": 74347,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "One Punch-Man",
+    "english": "One-Punch Man",
+    "native": "ワンパンマン"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 174812,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/74347",
+   "color": null
+  }
+ },
+ "bluelock": {
+  "anime": {
+   "id": 137822,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Blue Lock",
+    "english": "BLUE LOCK",
+    "native": "ブルーロック"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 330747,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/137822",
+   "color": "#286be4"
+  },
+  "manga": {
+   "id": 106130,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Blue Lock",
+    "english": "Blue Lock",
+    "native": "ブルーロック"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 125753,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/106130",
+   "color": "#86d61a"
+  }
+ },
+ "kaiju8": {
+  "anime": {
+   "id": 153288,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kaijuu 8-gou",
+    "english": "Kaiju No. 8",
+    "native": "怪獣８号"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 288269,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Action",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/153288",
+   "color": "#f1e4ae"
+  },
+  "manga": {
+   "id": 120760,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kaijuu 8-gou",
+    "english": "Kaiju No.8",
+    "native": "怪獣８号"
+   },
+   "averageScore": 75,
+   "meanScore": 75,
+   "popularity": 107274,
+   "episodes": null,
+   "chapters": 129,
+   "volumes": 16,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/120760",
+   "color": "#e4280d"
+  }
+ },
+ "hellsparadise": {
+  "anime": {
+   "id": 128893,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Jigokuraku",
+    "english": "Hell’s Paradise",
+    "native": "地獄楽"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 368353,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Mystery",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/128893",
+   "color": "#e4bb35"
+  },
+  "manga": {
+   "id": 100994,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Jigokuraku",
+    "english": "Hell’s Paradise: Jigokuraku",
+    "native": "地獄楽"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 98793,
+   "episodes": null,
+   "chapters": 127,
+   "volumes": 13,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Mystery",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/100994",
+   "color": "#d61a86"
+  }
+ },
+ "tokyorev": {
+  "anime": {
+   "id": 120120,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Tokyo Revengers",
+    "english": "Tokyo Revengers",
+    "native": "東京リベンジャーズ"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 451144,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Action",
+    "Drama",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/120120",
+   "color": "#f1865d"
+  },
+  "manga": {
+   "id": 102988,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Tokyo卍Revengers",
+    "english": "Tokyo Revengers",
+    "native": "東京卍リベンジャーズ"
+   },
+   "averageScore": 74,
+   "meanScore": 74,
+   "popularity": 118445,
+   "episodes": null,
+   "chapters": 279,
+   "volumes": 31,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/102988",
+   "color": "#e45d50"
+  }
+ },
+ "kaguya": {
+  "anime": {
+   "id": 101921,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+    "english": "Kaguya-sama: Love is War",
+    "native": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 565350,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/101921",
+   "color": "#e45086"
+  },
+  "manga": {
+   "id": 86635,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+    "english": "Kaguya-sama: Love is War",
+    "native": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 120174,
+   "episodes": null,
+   "chapters": 281,
+   "volumes": 28,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/86635",
+   "color": "#d61a35"
+  }
+ },
+ "drstone": {
+  "anime": {
+   "id": 105333,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Dr. STONE",
+    "english": "Dr. STONE",
+    "native": "Dr.STONE"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 560845,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/105333",
+   "color": "#c9d678"
+  },
+  "manga": {
+   "id": 98416,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Dr. STONE",
+    "english": "Dr. STONE",
+    "native": "Dr.STONE"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 89444,
+   "episodes": null,
+   "chapters": 236,
+   "volumes": 27,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/98416",
+   "color": "#e4ae28"
+  }
+ },
+ "sakamoto": {
+  "anime": {
+   "id": 177709,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "SAKAMOTO DAYS",
+    "english": "SAKAMOTO DAYS",
+    "native": "SAKAMOTO DAYS"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 225374,
+   "episodes": 11,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Action",
+    "Comedy"
+   ],
+   "siteUrl": "https://anilist.co/anime/177709",
+   "color": "#c9f1f1"
+  },
+  "manga": {
+   "id": 125828,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "SAKAMOTO DAYS",
+    "english": "Sakamoto Days",
+    "native": "SAKAMOTO DAYS"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 89813,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy"
+   ],
+   "siteUrl": "https://anilist.co/manga/125828",
+   "color": "#f1930d"
+  }
+ },
+ "fireforce": {
+  "anime": {
+   "id": 105310,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Enen no Shouboutai",
+    "english": "Fire Force",
+    "native": "炎炎ノ消防隊"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 489355,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/105310",
+   "color": "#f1bb28"
+  },
+  "manga": {
+   "id": 86310,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Enen no Shouboutai",
+    "english": "Fire Force",
+    "native": "炎炎ノ消防隊"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 66537,
+   "episodes": null,
+   "chapters": 305,
+   "volumes": 34,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/86310",
+   "color": "#e49328"
+  }
+ },
+ "mashle": {
+  "anime": {
+   "id": 151801,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "MASHLE",
+    "english": "MASHLE: MAGIC AND MUSCLES",
+    "native": "マッシュル-MASHLE-"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 294275,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/151801",
+   "color": "#f1bb5d"
+  },
+  "manga": {
+   "id": 114960,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "MASHLE",
+    "english": "Mashle: Magic and Muscles",
+    "native": "マッシュル-MASHLE-"
+   },
+   "averageScore": 75,
+   "meanScore": 75,
+   "popularity": 60385,
+   "episodes": null,
+   "chapters": 162,
+   "volumes": 18,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/114960",
+   "color": "#d61a1a"
+  }
+ },
+ "tokyoghoul": {
+  "anime": {
+   "id": 20605,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Tokyo Ghoul",
+    "english": "Tokyo Ghoul",
+    "native": "東京喰種 トーキョーグール"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 748043,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Action",
+    "Drama",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/20605",
+   "color": "#ff6b35"
+  },
+  "manga": {
+   "id": 63327,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Tokyo Ghoul",
+    "english": "Tokyo Ghoul",
+    "native": "東京喰種 トーキョーグール"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 198420,
+   "episodes": null,
+   "chapters": 144,
+   "volumes": 14,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/63327",
+   "color": "#e46b5d"
+  }
+ },
+ "onepiece": {
+  "anime": {
+   "id": 21,
+   "format": "TV",
+   "status": "RELEASING",
+   "source": "MANGA",
+   "title": {
+    "romaji": "ONE PIECE",
+    "english": "ONE PIECE",
+    "native": "ONE PIECE"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 760833,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1999,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/21",
+   "color": "#e49335"
+  },
+  "manga": {
+   "id": 30013,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "ONE PIECE",
+    "english": "One Piece",
+    "native": "ONE PIECE"
+   },
+   "averageScore": 91,
+   "meanScore": 91,
+   "popularity": 235108,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/30013",
+   "color": "#f1935d"
+  }
+ },
+ "jojo": {
+  "anime": {
+   "id": 14719,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "JoJo no Kimyou na Bouken (TV)",
+    "english": "JoJo's Bizarre Adventure (TV)",
+    "native": "ジョジョの奇妙な冒険 (TV)"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 484439,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2012,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/14719",
+   "color": "#e49343"
+  },
+  "manga": {
+   "id": 31517,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "JoJo no Kimyou na Bouken: Phantom Blood",
+    "english": "JoJo's Bizarre Adventure Part 1: Phantom Blood",
+    "native": "ジョジョの奇妙な冒険 ファントムブラッド"
+   },
+   "averageScore": 70,
+   "meanScore": 70,
+   "popularity": 48451,
+   "episodes": null,
+   "chapters": 44,
+   "volumes": 5,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/31517",
+   "color": "#50a1f1"
+  }
+ },
+ "blackclover": {
+  "anime": {
+   "id": 97940,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Black Clover",
+    "english": "Black Clover",
+    "native": "ブラッククローバー"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 595413,
+   "episodes": 170,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2017,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/97940",
+   "color": "#d6c96b"
+  },
+  "manga": {
+   "id": 86123,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Black Clover",
+    "english": "Black Clover",
+    "native": "ブラッククローバー"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 108595,
+   "episodes": null,
+   "chapters": 392,
+   "volumes": 38,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/86123",
+   "color": "#e47828"
+  }
+ },
+ "fairytail": {
+  "anime": {
+   "id": 6702,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "FAIRY TAIL",
+    "english": "Fairy Tail",
+    "native": "FAIRY TAIL"
+   },
+   "averageScore": 72,
+   "meanScore": 72,
+   "popularity": 383892,
+   "episodes": 175,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2009,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/6702",
+   "color": "#e45d50"
+  },
+  "manga": {
+   "id": 30598,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "FAIRY TAIL",
+    "english": "Fairy Tail",
+    "native": "FAIRY TAIL"
+   },
+   "averageScore": 71,
+   "meanScore": 71,
+   "popularity": 57445,
+   "episodes": null,
+   "chapters": 549,
+   "volumes": 63,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/30598",
+   "color": "#d6781a"
+  }
+ },
+ "parasyte": {
+  "anime": {
+   "id": 20623,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kiseijuu: Sei no Kakuritsu",
+    "english": "Parasyte -the maxim-",
+    "native": "寄生獣 セイの格率"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 505551,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Action",
+    "Drama",
+    "Horror",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/20623",
+   "color": "#285086"
+  },
+  "manga": {
+   "id": 30401,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kiseijuu",
+    "english": "Parasyte",
+    "native": "寄生獣"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 33179,
+   "episodes": null,
+   "chapters": 64,
+   "volumes": 10,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Horror",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/30401",
+   "color": "#f1a128"
+  }
+ },
+ "monster": {
+  "anime": {
+   "id": 19,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "MONSTER",
+    "english": "Monster",
+    "native": "MONSTER"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 347228,
+   "episodes": 74,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2004,
+   "genres": [
+    "Drama",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/19",
+   "color": null
+  },
+  "manga": {
+   "id": 30001,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "MONSTER",
+    "english": "Monster",
+    "native": "MONSTER"
+   },
+   "averageScore": 90,
+   "meanScore": 90,
+   "popularity": 108381,
+   "episodes": null,
+   "chapters": 162,
+   "volumes": 18,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/30001",
+   "color": "#50a1e4"
+  }
+ },
+ "berserk": {
+  "anime": {
+   "id": 33,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kenpuu Denki Berserk",
+    "english": "Berserk",
+    "native": "剣風伝奇ベルセルク"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 187816,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1997,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/33",
+   "color": "#e49350"
+  },
+  "manga": {
+   "id": 30002,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Berserk",
+    "english": "Berserk",
+    "native": "ベルセルク"
+   },
+   "averageScore": 92,
+   "meanScore": 92,
+   "popularity": 247307,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Psychological"
+   ],
+   "siteUrl": "https://anilist.co/manga/30002",
+   "color": "#d6861a"
+  }
+ },
+ "gintama": {
+  "anime": {
+   "id": 918,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Gintama",
+    "english": "Gintama",
+    "native": "銀魂"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 299359,
+   "episodes": 201,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2006,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/918",
+   "color": "#f1865d"
+  },
+  "manga": {
+   "id": 30044,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Gintama",
+    "english": "Gin Tama",
+    "native": "銀魂"
+   },
+   "averageScore": 86,
+   "meanScore": 87,
+   "popularity": 32021,
+   "episodes": null,
+   "chapters": 709,
+   "volumes": 77,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/30044",
+   "color": "#e4435d"
+  }
+ },
+ "assclass": {
+  "anime": {
+   "id": 20755,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Ansatsu Kyoushitsu",
+    "english": "Assassination Classroom",
+    "native": "暗殺教室"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 634590,
+   "episodes": 22,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2015,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/20755",
+   "color": "#f1e45d"
+  },
+  "manga": {
+   "id": 69883,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ansatsu Kyoushitsu",
+    "english": "Assassination Classroom",
+    "native": "暗殺教室"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 55050,
+   "episodes": null,
+   "chapters": 188,
+   "volumes": 21,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/69883",
+   "color": "#f1ae43"
+  }
+ },
+ "fruitsbasket": {
+  "anime": {
+   "id": 105334,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Fruits Basket: 1st Season",
+    "english": "Fruits Basket (2019)",
+    "native": "フルーツバスケット 1st Season"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 314513,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2019,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/105334",
+   "color": "#e4d6a1"
+  },
+  "manga": {
+   "id": 30102,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Fruits Basket",
+    "english": "Fruits Basket",
+    "native": "フルーツバスケット"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 35286,
+   "episodes": null,
+   "chapters": 137,
+   "volumes": 23,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Psychological",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30102",
+   "color": "#f15d43"
+  }
+ },
+ "nana": {
+  "anime": {
+   "id": 877,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "NANA",
+    "english": "NANA",
+    "native": "NANA-ナナ-"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 210571,
+   "episodes": 47,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2006,
+   "genres": [
+    "Drama",
+    "Music",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/877",
+   "color": "#f14386"
+  },
+  "manga": {
+   "id": 30028,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "NANA",
+    "english": "Nana",
+    "native": "NANA"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 59113,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Music",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/30028",
+   "color": "#781a6b"
+  }
+ },
+ "madeinabyss": {
+  "anime": {
+   "id": 97986,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Made in Abyss",
+    "english": "Made in Abyss",
+    "native": "メイドインアビス"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 409726,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2017,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/97986",
+   "color": "#e4c9ae"
+  },
+  "manga": {
+   "id": 86551,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Made in Abyss",
+    "english": "Made in Abyss",
+    "native": "メイドインアビス"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 58308,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/86551",
+   "color": "#e4a15d"
+  }
+ },
+ "goldenkamuy": {
+  "anime": {
+   "id": 99699,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Golden Kamuy",
+    "english": "Golden Kamuy",
+    "native": "ゴールデンカムイ"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 140957,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2018,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+   ],
+   "siteUrl": "https://anilist.co/anime/99699",
+   "color": "#78281a"
+  },
+  "manga": {
+   "id": 86559,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Golden Kamuy",
+    "english": "Golden Kamuy",
+    "native": "ゴールデンカムイ"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 51757,
+   "episodes": null,
+   "chapters": 314,
+   "volumes": 31,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/manga/86559",
+   "color": "#f1860d"
+  }
+ },
+ "march": {
+  "anime": {
+   "id": 21366,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "3-gatsu no Lion",
+    "english": "March comes in like a lion",
+    "native": "３月のライオン"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 215930,
+   "episodes": 22,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Drama",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/21366",
+   "color": "#e4865d"
+  },
+  "manga": {
+   "id": 31224,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "3-gatsu no Lion",
+    "english": "March Comes in Like a Lion",
+    "native": "3月のライオン"
+   },
+   "averageScore": 87,
+   "meanScore": 88,
+   "popularity": 34745,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/31224",
+   "color": "#f1c95d"
+  }
+ },
+ "mushishi": {
+  "anime": {
+   "id": 457,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Mushishi",
+    "english": "MUSHI-SHI",
+    "native": "蟲師"
+   },
+   "averageScore": 84,
+   "meanScore": 85,
+   "popularity": 196279,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2005,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Mystery",
+    "Psychological",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/457",
+   "color": "#d6bb78"
+  },
+  "manga": {
+   "id": 30418,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Mushishi",
+    "english": "Mushishi",
+    "native": "蟲師"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 29651,
+   "episodes": null,
+   "chapters": 50,
+   "volumes": 10,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Mystery",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30418",
+   "color": "#f1e486"
+  }
+ },
+ "bocchi": {
+  "anime": {
+   "id": 130003,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Bocchi the Rock!",
+    "english": "BOCCHI THE ROCK!",
+    "native": "ぼっち・ざ・ろっく！"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 270343,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Comedy",
+    "Music",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/130003",
+   "color": "#e4bb50"
+  },
+  "manga": {
+   "id": 111258,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Bocchi the Rock!",
+    "english": "Bocchi the Rock!",
+    "native": "ぼっち・ざ・ろっく！"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 20544,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Music",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/111258",
+   "color": "#e4d61a"
+  }
+ },
+ "komi": {
+  "anime": {
+   "id": 133965,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Komi-san wa, Komyushou desu.",
+    "english": "Komi Can’t Communicate",
+    "native": "古見さんは、コミュ症です。"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 324936,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/133965",
+   "color": null
+  },
+  "manga": {
+   "id": 97852,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Komi-san wa, Komyushou desu.",
+    "english": "Komi Can't Communicate",
+    "native": "古見さんは、コミュ症です。"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 107546,
+   "episodes": null,
+   "chapters": 537,
+   "volumes": 37,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/97852",
+   "color": "#e4aea1"
+  }
+ },
+ "horimiya": {
+  "anime": {
+   "id": 124080,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Horimiya",
+    "english": "Horimiya",
+    "native": "ホリミヤ"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 549656,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/124080",
+   "color": "#5dc9f1"
+  },
+  "manga": {
+   "id": 72451,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Horimiya",
+    "english": "Horimiya",
+    "native": "ホリミヤ"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 123773,
+   "episodes": null,
+   "chapters": 152,
+   "volumes": 17,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/72451",
+   "color": "#e45d93"
+  }
+ },
+ "blueperiod": {
+  "anime": {
+   "id": 128705,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Blue Period",
+    "english": "Blue Period",
+    "native": "ブルーピリオド"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 156268,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Drama",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/128705",
+   "color": "#5078e4"
+  },
+  "manga": {
+   "id": 107237,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Blue Period",
+    "english": "Blue Period",
+    "native": "ブルーピリオド"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 77507,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/107237",
+   "color": "#5dc9e4"
+  }
+ },
+ "ippo": {
+  "anime": {
+   "id": 263,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Hajime no Ippo: THE FIGHTING!",
+    "english": "Hajime no Ippo: The Fighting!",
+    "native": "はじめの一歩 THE FIGHTING!"
+   },
+   "averageScore": 87,
+   "meanScore": 87,
+   "popularity": 146967,
+   "episodes": 75,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2000,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/263",
+   "color": "#f1935d"
+  },
+  "manga": {
+   "id": 30007,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Hajime no Ippo",
+    "english": "Hajime no Ippo: Fighting Spirit!",
+    "native": "はじめの一歩"
+   },
+   "averageScore": 87,
+   "meanScore": 88,
+   "popularity": 35953,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/30007",
+   "color": "#e49350"
+  }
+ },
+ "slamdunk": {
+  "anime": {
+   "id": 170,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "SLAM DUNK",
+    "english": "Slam Dunk",
+    "native": "SLAM DUNK"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 74323,
+   "episodes": 101,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1993,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Slice of Life",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/170",
+   "color": "#ae4328"
+  },
+  "manga": {
+   "id": 30051,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "SLAM DUNK",
+    "english": "Slam Dunk",
+    "native": "SLAM DUNK"
+   },
+   "averageScore": 90,
+   "meanScore": 90,
+   "popularity": 74917,
+   "episodes": null,
+   "chapters": 276,
+   "volumes": 31,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/30051",
+   "color": "#f18650"
+  }
+ },
+ "pingpong": {
+  "anime": {
+   "id": 20607,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Ping Pong THE ANIMATION",
+    "english": "Ping Pong the Animation",
+    "native": "ピンポン THE ANIMATION"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 126165,
+   "episodes": 11,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/20607",
+   "color": "#e47843"
+  },
+  "manga": {
+   "id": 35744,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ping Pong",
+    "english": "Ping Pong",
+    "native": "ピンポン"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 12905,
+   "episodes": null,
+   "chapters": 55,
+   "volumes": 5,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/35744",
+   "color": "#fe9350"
+  }
+ },
+ "dorohedoro": {
+  "anime": {
+   "id": 105228,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Dorohedoro",
+    "english": "Dorohedoro",
+    "native": "ドロヘドロ"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 192950,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2020,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Horror",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/anime/105228",
+   "color": "#6b431a"
+  },
+  "manga": {
+   "id": 31133,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Dorohedoro",
+    "english": "Dorohedoro",
+    "native": "ドロヘドロ"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 89125,
+   "episodes": null,
+   "chapters": 191,
+   "volumes": 23,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Horror",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/manga/31133",
+   "color": "#a15d28"
+  }
+ },
+ "dungeonmeshi": {
+  "anime": {
+   "id": 153518,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Dungeon Meshi",
+    "english": "Delicious in Dungeon",
+    "native": "ダンジョン飯"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 230092,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/153518",
+   "color": "#e48650"
+  },
+  "manga": {
+   "id": 86082,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Dungeon Meshi",
+    "english": "Delicious in Dungeon",
+    "native": "ダンジョン飯"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 56423,
+   "episodes": null,
+   "chapters": 111,
+   "volumes": 14,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/86082",
+   "color": "#f1c993"
+  }
+ },
+ "undeadunluck": {
+  "anime": {
+   "id": 154116,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Undead Unluck",
+    "english": "Undead Unluck",
+    "native": "アンデッドアンラック"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 133714,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/154116",
+   "color": "#e44343"
+  },
+  "manga": {
+   "id": 114791,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Undead Unluck",
+    "english": "Undead Unluck",
+    "native": "アンデッドアンラック"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 29653,
+   "episodes": null,
+   "chapters": 244,
+   "volumes": 27,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/114791",
+   "color": "#f15da1"
+  }
+ },
+ "zom100": {
+  "anime": {
+   "id": 159831,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+    "english": "Zom 100: Bucket List of the Dead",
+    "native": "ゾン100～ゾンビになるまでにしたい100のこと～"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 244992,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Horror",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/159831",
+   "color": "#e4f135"
+  },
+  "manga": {
+   "id": 104660,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+    "english": "Zom 100: Bucket List of the Dead",
+    "native": "ゾン100 ～ゾンビになるまでにしたい100のこと～"
+   },
+   "averageScore": 74,
+   "meanScore": 75,
+   "popularity": 30705,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Horror"
+   ],
+   "siteUrl": "https://anilist.co/manga/104660",
+   "color": "#fe2886"
+  }
+ },
+ "bsd": {
+  "anime": {
+   "id": 21311,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Bungou Stray Dogs",
+    "english": "Bungo Stray Dogs",
+    "native": "文豪ストレイドッグス"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 425012,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Mystery",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/21311",
+   "color": "#e4bb50"
+  },
+  "manga": {
+   "id": 85307,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Bungou Stray Dogs",
+    "english": "Bungo Stray Dogs",
+    "native": "文豪ストレイドッグス"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 46821,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mystery",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/85307",
+   "color": null
+  }
+ },
+ "akame": {
+  "anime": {
+   "id": 20613,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Akame ga Kill!",
+    "english": "Akame ga Kill!",
+    "native": "アカメが斬る！"
+   },
+   "averageScore": 73,
+   "meanScore": 73,
+   "popularity": 545014,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/20613",
+   "color": "#e45d43"
+  },
+  "manga": {
+   "id": 55132,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Akame ga Kill!",
+    "english": "Akame ga KILL!",
+    "native": "アカメが斬る！"
+   },
+   "averageScore": 74,
+   "meanScore": 74,
+   "popularity": 48599,
+   "episodes": null,
+   "chapters": 80,
+   "volumes": 15,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror"
+   ],
+   "siteUrl": "https://anilist.co/manga/55132",
+   "color": null
+  }
+ },
+ "souleater": {
+  "anime": {
+   "id": 3588,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Soul Eater",
+    "english": "Soul Eater",
+    "native": "ソウルイーター"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 398036,
+   "episodes": 51,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2008,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/3588",
+   "color": "#e4bb5d"
+  },
+  "manga": {
+   "id": 30908,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Soul Eater",
+    "english": "Soul Eater",
+    "native": "ソウルイーター"
+   },
+   "averageScore": 80,
+   "meanScore": 81,
+   "popularity": 69733,
+   "episodes": null,
+   "chapters": 117,
+   "volumes": 25,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30908",
+   "color": "#f1ae50"
+  }
+ },
+ "noragami": {
+  "anime": {
+   "id": 20447,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Noragami",
+    "english": "Noragami",
+    "native": "ノラガミ"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 543678,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/20447",
+   "color": "#bbe4f1"
+  },
+  "manga": {
+   "id": 54692,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Noragami",
+    "english": "Noragami: Stray God",
+    "native": "ノラガミ"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 62998,
+   "episodes": null,
+   "chapters": 109,
+   "volumes": 27,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/54692",
+   "color": "#f1d6ae"
+  }
+ },
+ "blueexorcist": {
+  "anime": {
+   "id": 9919,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Ao no Exorcist",
+    "english": "Blue Exorcist",
+    "native": "青の祓魔師"
+   },
+   "averageScore": 72,
+   "meanScore": 72,
+   "popularity": 465139,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2011,
+   "genres": [
+    "Action",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/9919",
+   "color": "#aed6f1"
+  },
+  "manga": {
+   "id": 43492,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ao no Exorcist",
+    "english": "Blue Exorcist",
+    "native": "青の祓魔師"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 43048,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/43492",
+   "color": "#f18650"
+  }
+ },
+ "inuyasha": {
+  "anime": {
+   "id": 249,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Inuyasha",
+    "english": "InuYasha",
+    "native": "犬夜叉"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 174892,
+   "episodes": 167,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/anime/249",
+   "color": "#f15093"
+  },
+  "manga": {
+   "id": 30676,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Inuyasha",
+    "english": "InuYasha",
+    "native": "犬夜叉"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 17444,
+   "episodes": null,
+   "chapters": 558,
+   "volumes": 56,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/30676",
+   "color": "#d6351a"
+  }
+ },
+ "yyh": {
+  "anime": {
+   "id": 392,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Yuu☆Yuu☆Hakusho",
+    "english": "Yu Yu Hakusho: Ghostfiles",
+    "native": "幽☆遊☆白書"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 160294,
+   "episodes": 112,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1992,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/392",
+   "color": "#e49343"
+  },
+  "manga": {
+   "id": 30053,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Yuu☆Yuu☆Hakusho",
+    "english": "Yu Yu Hakusho",
+    "native": "幽☆遊☆白書"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 27587,
+   "episodes": null,
+   "chapters": 176,
+   "volumes": 19,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30053",
+   "color": "#e4ae28"
+  }
+ },
+ "kenshin": {
+  "anime": {
+   "id": 142877,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+    "english": "Rurouni Kenshin (2023)",
+    "native": "るろうに剣心 －明治剣客浪漫譚－(2023)"
+   },
+   "averageScore": 74,
+   "meanScore": 75,
+   "popularity": 61936,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Drama",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/anime/142877",
+   "color": "#e48650"
+  },
+  "manga": {
+   "id": 30022,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+    "english": "Rurouni Kenshin",
+    "native": "るろうに剣心 -明治剣客浪漫譚-"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 26223,
+   "episodes": null,
+   "chapters": 259,
+   "volumes": 28,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/manga/30022",
+   "color": "#e4865d"
+  }
+ },
+ "kingdom": {
+  "anime": {
+   "id": 12031,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kingdom",
+    "english": "Kingdom",
+    "native": "キングダム"
+   },
+   "averageScore": 74,
+   "meanScore": 74,
+   "popularity": 61032,
+   "episodes": 38,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2012,
+   "genres": [
+    "Action",
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/anime/12031",
+   "color": "#936b28"
+  },
+  "manga": {
+   "id": 46765,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kingdom",
+    "english": "Kingdom",
+    "native": "キングダム"
+   },
+   "averageScore": 89,
+   "meanScore": 89,
+   "popularity": 77015,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/manga/46765",
+   "color": "#e46b43"
+  }
+ },
+ "gachiakuta": {
+  "anime": {
+   "id": 178025,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Gachiakuta",
+    "english": "Gachiakuta",
+    "native": "ガチアクタ"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 263612,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/178025",
+   "color": "#e4a150"
+  },
+  "manga": {
+   "id": 144946,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Gachiakuta",
+    "english": "Gachiakuta",
+    "native": "ガチアクタ"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 67806,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/144946",
+   "color": null
+  }
+ },
+ "kowloon": {
+  "anime": {
+   "id": 182814,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kowloon Generic Romance",
+    "english": "KOWLOON GENERIC ROMANCE",
+    "native": "九龍ジェネリックロマンス"
+   },
+   "averageScore": 72,
+   "meanScore": 72,
+   "popularity": 68006,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/182814",
+   "color": "#6baee4"
+  },
+  "manga": {
+   "id": 112544,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kowloon Generic Romance",
+    "english": "Kowloon Generic Romance",
+    "native": "九龍ジェネリックロマンス"
+   },
+   "averageScore": 77,
+   "meanScore": 78,
+   "popularity": 20507,
+   "episodes": null,
+   "chapters": 108,
+   "volumes": 12,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/112544",
+   "color": "#5da1e4"
+  }
+ },
+ "orb": {
+  "anime": {
+   "id": 151514,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Chi. Chikyuu no Undou ni Tsuite",
+    "english": "Orb: On the Movements of the Earth",
+    "native": "チ。-地球の運動について-"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 126026,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/anime/151514",
+   "color": null
+  },
+  "manga": {
+   "id": 124139,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Chi. Chikyuu no Undou ni Tsuite",
+    "english": "Orb: On the Movements of the Earth",
+    "native": "チ。―地球の運動について―"
+   },
+   "averageScore": 82,
+   "meanScore": 83,
+   "popularity": 10679,
+   "episodes": null,
+   "chapters": 62,
+   "volumes": 8,
+   "seasonYear": null,
+   "genres": [
+    "Drama"
+   ],
+   "siteUrl": "https://anilist.co/manga/124139",
+   "color": "#43aee4"
+  }
+ },
+ "pluto": {
+  "anime": {
+   "id": 99088,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "PLUTO",
+    "english": "PLUTO",
+    "native": "PLUTO"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 106892,
+   "episodes": 8,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/99088",
+   "color": "#e43535"
+  },
+  "manga": {
+   "id": 30745,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "PLUTO",
+    "english": "Pluto",
+    "native": "PLUTO"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 53796,
+   "episodes": null,
+   "chapters": 65,
+   "volumes": 8,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mecha",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/30745",
+   "color": "#d6ae78"
+  }
+ },
+ "dressup": {
+  "anime": {
+   "id": 132405,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Sono Bisque Doll wa Koi wo Suru",
+    "english": "My Dress-Up Darling",
+    "native": "その着せ替え人形は恋をする"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 437243,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/132405",
+   "color": "#e46b5d"
+  },
+  "manga": {
+   "id": 101583,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Sono Bisque Doll wa Koi wo Suru",
+    "english": "My Dress-Up Darling",
+    "native": "その着せ替え人形は恋をする"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 101026,
+   "episodes": null,
+   "chapters": 119,
+   "volumes": 15,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/101583",
+   "color": "#f1bb35"
+  }
+ },
+ "skiploafer": {
+  "anime": {
+   "id": 141911,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Skip to Loafer",
+    "english": "Skip and Loafer",
+    "native": "スキップとローファー"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 135123,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/141911",
+   "color": "#e4d6a1"
+  },
+  "manga": {
+   "id": 109285,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Skip to Loafer",
+    "english": "Skip and Loafer",
+    "native": "スキップとローファー"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 33521,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/109285",
+   "color": null
+  }
+ },
+ "callnight": {
+  "anime": {
+   "id": 141391,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Yofukashi no Uta",
+    "english": "Call of the Night",
+    "native": "よふかしのうた"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 287311,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/141391",
+   "color": "#5d5de4"
+  },
+  "manga": {
+   "id": 111233,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Yofukashi no Uta",
+    "english": "Call of the Night",
+    "native": "よふかしのうた"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 66461,
+   "episodes": null,
+   "chapters": 203,
+   "volumes": 20,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/111233",
+   "color": "#5dd6d6"
+  }
+ },
+ "hikaru": {
+  "anime": {
+   "id": 177689,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Hikaru ga Shinda Natsu",
+    "english": "The Summer Hikaru Died",
+    "native": "光が死んだ夏"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 146042,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/177689",
+   "color": "#bbe4f1"
+  },
+  "manga": {
+   "id": 138603,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Hikaru ga Shinda Natsu",
+    "english": "The Summer Hikaru Died",
+    "native": "光が死んだ夏"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 42737,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/138603",
+   "color": "#e46b0d"
+  }
+ },
+ "takopi": {
+  "anime": {
+   "id": 185407,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Takopii no Genzai",
+    "english": "Takopi's Original Sin",
+    "native": "タコピーの原罪"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 146529,
+   "episodes": 6,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/185407",
+   "color": "#e4435d"
+  },
+  "manga": {
+   "id": 142568,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Takopii no Genzai",
+    "english": "Takopi's Original Sin",
+    "native": "タコピーの原罪"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 31945,
+   "episodes": null,
+   "chapters": 16,
+   "volumes": 2,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/142568",
+   "color": "#e4355d"
+  }
+ },
+ "shangrila": {
+  "anime": {
+   "id": 151970,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Shangri-La Frontier",
+    "english": "Shangri-La Frontier",
+    "native": "シャングリラ・フロンティア"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 193581,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/151970",
+   "color": "#5da1e4"
+  },
+  "manga": {
+   "id": 122063,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "OTHER",
+   "title": {
+    "romaji": "Shangri-La Frontier: Kusoge Hunter, Kami ge ni Idoman to su",
+    "english": "Shangri-La Frontier",
+    "native": "シャングリラ・フロンティア〜クソゲーハンター, 神ゲーに挑まんとす〜"
+   },
+   "averageScore": 81,
+   "meanScore": 82,
+   "popularity": 23267,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/122063",
+   "color": "#50bbf1"
+  }
+ },
+ "medalist": {
+  "anime": {
+   "id": 165171,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Medalist",
+    "english": "Medalist",
+    "native": "メダリスト"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 41945,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/165171",
+   "color": "#e4ae5d"
+  },
+  "manga": {
+   "id": 118371,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Medalist",
+    "english": "Medalist",
+    "native": "メダリスト"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 13817,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/118371",
+   "color": "#35c9f1"
+  }
+ },
+ "bluebox": {
+  "anime": {
+   "id": 170942,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Ao no Hako",
+    "english": "Blue Box",
+    "native": "アオのハコ"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 154098,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Romance",
+    "Slice of Life",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/anime/170942",
+   "color": "#5daee4"
+  },
+  "manga": {
+   "id": 132182,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ao no Hako",
+    "english": "Blue Box",
+    "native": "アオのハコ"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 56082,
+   "episodes": null,
+   "chapters": 250,
+   "volumes": 28,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life",
+    "Sports"
+   ],
+   "siteUrl": "https://anilist.co/manga/132182",
+   "color": "#e47843"
+  }
+ },
+ "kaoruhana": {
+  "anime": {
+   "id": 181444,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Kaoru Hana wa Rin to Saku",
+    "english": "The Fragrant Flower Blooms With Dignity",
+    "native": "薫る花は凛と咲く"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 216264,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2025,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/anime/181444",
+   "color": "#6baed6"
+  },
+  "manga": {
+   "id": 140475,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kaoru Hana wa Rin to Saku",
+    "english": "The Fragrant Flower Blooms With Dignity",
+    "native": "薫る花は凛と咲く"
+   },
+   "averageScore": 86,
+   "meanScore": 87,
+   "popularity": 81013,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/manga/140475",
+   "color": null
+  }
+ },
+ "erased": {
+  "anime": {
+   "id": 21234,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Boku dake ga Inai Machi",
+    "english": "ERASED",
+    "native": "僕だけがいない街"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 611578,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/21234",
+   "color": "#f1a150"
+  },
+  "manga": {
+   "id": 69325,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Boku dake ga Inai Machi",
+    "english": "Erased",
+    "native": "僕だけがいない街"
+   },
+   "averageScore": 80,
+   "meanScore": 80,
+   "popularity": 29715,
+   "episodes": null,
+   "chapters": 49,
+   "volumes": 9,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/69325",
+   "color": "#e45043"
+  }
+ },
+ "yourlie": {
+  "anime": {
+   "id": 20665,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Shigatsu wa Kimi no Uso",
+    "english": "Your lie in April",
+    "native": "四月は君の嘘"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 620008,
+   "episodes": 22,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2014,
+   "genres": [
+    "Drama",
+    "Music",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/20665",
+   "color": "#e4bb50"
+  },
+  "manga": {
+   "id": 67707,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Shigatsu wa Kimi no Uso",
+    "english": "Your Lie in April",
+    "native": "四月は君の嘘"
+   },
+   "averageScore": 82,
+   "meanScore": 83,
+   "popularity": 22813,
+   "episodes": null,
+   "chapters": 44,
+   "volumes": 11,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Music",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/67707",
+   "color": "#f150a1"
+  }
+ },
+ "dbz": {
+  "anime": {
+   "id": 813,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Dragon Ball Z",
+    "english": "Dragon Ball Z",
+    "native": "ドラゴンボールZ"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 262292,
+   "episodes": 291,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1989,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/813",
+   "color": "#e49343"
+  },
+  "manga": {
+   "id": 30042,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Dragon Ball",
+    "english": "Dragon Ball",
+    "native": "ドラゴンボール"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 54566,
+   "episodes": null,
+   "chapters": 520,
+   "volumes": 42,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/30042",
+   "color": "#fee40d"
+  }
+ },
+ "bananafish": {
+  "anime": {
+   "id": 100388,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "BANANA FISH",
+    "english": "BANANA FISH",
+    "native": "BANANA FISH"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 311945,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2018,
+   "genres": [
+    "Action",
+    "Drama",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/100388",
+   "color": "#ffd643"
+  },
+  "manga": {
+   "id": 30756,
+   "format": "MANGA",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "BANANA FISH",
+    "english": "Banana Fish",
+    "native": "BANANA FISH"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 30741,
+   "episodes": null,
+   "chapters": 110,
+   "volumes": 19,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/30756",
+   "color": "#ffbb35"
+  }
+ },
+ "rankingkings": {
+  "anime": {
+   "id": 113717,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "MANGA",
+   "title": {
+    "romaji": "Ousama Ranking",
+    "english": "Ranking of Kings",
+    "native": "王様ランキング"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 226762,
+   "episodes": 23,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/113717",
+   "color": "#e4935d"
+  },
+  "manga": {
+   "id": 114388,
+   "format": "MANGA",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ousama Ranking",
+    "english": "Ranking of Kings",
+    "native": "王様ランキング"
+   },
+   "averageScore": 77,
+   "meanScore": 79,
+   "popularity": 6955,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/114388",
+   "color": "#fee450"
+  }
+ },
+ "bebop": {
+  "anime": {
+   "id": 1,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Cowboy Bebop",
+    "english": "Cowboy Bebop",
+    "native": "カウボーイビバップ"
+   },
+   "averageScore": 86,
+   "meanScore": 86,
+   "popularity": 472595,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1998,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/1",
+   "color": "#f16b50"
+  }
+ },
+ "eva": {
+  "anime": {
+   "id": 30,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Shin Seiki Evangelion",
+    "english": "Neon Genesis Evangelion",
+    "native": "新世紀エヴァンゲリオン"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 501047,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 1995,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/30",
+   "color": "#f17843"
+  }
+ },
+ "codegeass": {
+  "anime": {
+   "id": 1575,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Code Geass: Hangyaku no Lelouch",
+    "english": "Code Geass: Lelouch of the Rebellion",
+    "native": "コードギアス 反逆のルルーシュ"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 507735,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2006,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/1575",
+   "color": "#c9d678"
+  }
+ },
+ "gurrenlagann": {
+  "anime": {
+   "id": 2001,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Tengen Toppa Gurren Lagann",
+    "english": "Gurren Lagann",
+    "native": "天元突破グレンラガン"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 384821,
+   "episodes": 27,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2007,
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/2001",
+   "color": "#f15d35"
+  }
+ },
+ "madoka": {
+  "anime": {
+   "id": 9756,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Mahou Shoujo Madoka☆Magica",
+    "english": "Puella Magi Madoka Magica",
+    "native": "魔法少女まどか☆マギカ"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 330598,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2011,
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Mahou Shoujo",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/9756",
+   "color": "#f1c95d"
+  }
+ },
+ "champloo": {
+  "anime": {
+   "id": 205,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Samurai Champloo",
+    "english": "Samurai Champloo",
+    "native": "サムライチャンプルー"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 283330,
+   "episodes": 26,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2004,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+   ],
+   "siteUrl": "https://anilist.co/anime/205",
+   "color": null
+  }
+ },
+ "edgerunners": {
+  "anime": {
+   "id": 120377,
+   "format": "ONA",
+   "status": "FINISHED",
+   "source": "VIDEO_GAME",
+   "title": {
+    "romaji": "Cyberpunk: Edgerunners",
+    "english": "Cyberpunk: Edgerunners",
+    "native": "サイバーパンク エッジランナーズ"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 397430,
+   "episodes": 10,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Action",
+    "Drama",
+    "Psychological",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/120377",
+   "color": "#78f150"
+  }
+ },
+ "oddtaxi": {
+  "anime": {
+   "id": 128547,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Odd Taxi",
+    "english": "ODDTAXI",
+    "native": "オッドタクシー"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 152440,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/128547",
+   "color": "#f1bb00"
+  }
+ },
+ "sonnyboy": {
+  "anime": {
+   "id": 132126,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Sonny Boy",
+    "english": "Sonny Boy",
+    "native": "Sonny Boy"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 137911,
+   "episodes": 12,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/132126",
+   "color": null
+  }
+ },
+ "lycoris": {
+  "anime": {
+   "id": 143270,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Lycoris Recoil",
+    "english": "Lycoris Recoil",
+    "native": "リコリス・リコイル"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 213758,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2022,
+   "genres": [
+    "Action",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/143270",
+   "color": "#e45078"
+  }
+ },
+ "steinsgate": {
+  "anime": {
+   "id": 9253,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "VISUAL_NOVEL",
+   "title": {
+    "romaji": "Steins;Gate",
+    "english": "Steins;Gate",
+    "native": "シュタインズ・ゲート"
+   },
+   "averageScore": 89,
+   "meanScore": 89,
+   "popularity": 601724,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2011,
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/9253",
+   "color": "#ffd6ae"
+  }
+ },
+ "clannad": {
+  "anime": {
+   "id": 2167,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "VISUAL_NOVEL",
+   "title": {
+    "romaji": "CLANNAD",
+    "english": "Clannad",
+    "native": "ＣＬＡＮＮＡＤ -クラナド-"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 303727,
+   "episodes": 23,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2007,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/2167",
+   "color": "#bbbbff"
+  }
+ },
+ "rezero": {
+  "anime": {
+   "id": 21355,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "english": "Re:ZERO -Starting Life in Another World-",
+    "native": "Re:ゼロから始める異世界生活"
+   },
+   "averageScore": 81,
+   "meanScore": 81,
+   "popularity": 631470,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Psychological",
+    "Romance",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/anime/21355",
+   "color": "#f150ae"
+  },
+  "manga": {
+   "id": 85737,
+   "format": "NOVEL",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "english": "Re:ZERO -Starting Life in Another World-",
+    "native": "Re:ゼロから始める異世界生活"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 30725,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Mystery",
+    "Psychological",
+    "Romance",
+    "Thriller"
+   ],
+   "siteUrl": "https://anilist.co/manga/85737",
+   "color": null
+  }
+ },
+ "mushoku": {
+  "anime": {
+   "id": 108465,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "english": "Mushoku Tensei: Jobless Reincarnation",
+    "native": "無職転生 ～異世界行ったら本気だす～"
+   },
+   "averageScore": 82,
+   "meanScore": 82,
+   "popularity": 466703,
+   "episodes": 11,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/108465",
+   "color": "#43a1e4"
+  },
+  "manga": {
+   "id": 85470,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "english": "Mushoku Tensei: Jobless Reincarnation",
+    "native": "無職転生 ～異世界行ったら本気だす～"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 39148,
+   "episodes": null,
+   "chapters": 334,
+   "volumes": 26,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/85470",
+   "color": "#f1bb1a"
+  }
+ },
+ "apothecary": {
+  "anime": {
+   "id": 161645,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Kusuriya no Hitorigoto",
+    "english": "The Apothecary Diaries",
+    "native": "薬屋のひとりごと"
+   },
+   "averageScore": 88,
+   "meanScore": 88,
+   "popularity": 336551,
+   "episodes": 24,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2023,
+   "genres": [
+    "Drama",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/anime/161645",
+   "color": "#f1865d"
+  },
+  "manga": {
+   "id": 99026,
+   "format": "NOVEL",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kusuriya no Hitorigoto",
+    "english": "The Apothecary Diaries",
+    "native": "薬屋のひとりごと"
+   },
+   "averageScore": 87,
+   "meanScore": 88,
+   "popularity": 14197,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Mystery"
+   ],
+   "siteUrl": "https://anilist.co/manga/99026",
+   "color": "#e4d6a1"
+  }
+ },
+ "spicewolf": {
+  "anime": {
+   "id": 145728,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Ookami to Koushinryou: MERCHANT MEETS THE WISE WOLF",
+    "english": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF",
+    "native": "狼と香辛料 MERCHANT MEETS THE WISE WOLF"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 100806,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2024,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/145728",
+   "color": "#5093f1"
+  },
+  "manga": {
+   "id": 39115,
+   "format": "NOVEL",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Ookami to Koushinryou",
+    "english": "Spice & Wolf",
+    "native": "狼と香辛料"
+   },
+   "averageScore": 86,
+   "meanScore": 87,
+   "popularity": 18761,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/39115",
+   "color": null
+  }
+ },
+ "konosuba": {
+  "anime": {
+   "id": 21202,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+    "english": "KONOSUBA -God's blessing on this wonderful world!",
+    "native": "この素晴らしい世界に祝福を！"
+   },
+   "averageScore": 79,
+   "meanScore": 79,
+   "popularity": 524257,
+   "episodes": 10,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2016,
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/anime/21202",
+   "color": "#5daee4"
+  },
+  "manga": {
+   "id": 86238,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+    "english": "Konosuba: God's Blessing on This Wonderful World!",
+    "native": "この素晴らしい世界に祝福を!"
+   },
+   "averageScore": 84,
+   "meanScore": 84,
+   "popularity": 18000,
+   "episodes": null,
+   "chapters": 127,
+   "volumes": 17,
+   "seasonYear": null,
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/manga/86238",
+   "color": "#e4860d"
+  }
+ },
+ "eightysix": {
+  "anime": {
+   "id": 116589,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "86: Eighty Six",
+    "english": "86 EIGHTY-SIX",
+    "native": "86－エイティシックス－"
+   },
+   "averageScore": 83,
+   "meanScore": 83,
+   "popularity": 329906,
+   "episodes": 11,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2021,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/anime/116589",
+   "color": "#bbd6f1"
+  },
+  "manga": {
+   "id": 98610,
+   "format": "NOVEL",
+   "status": "RELEASING",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "86: Eighty Six",
+    "english": "86―EIGHTY-SIX",
+    "native": "86―エイティシックス―"
+   },
+   "averageScore": 88,
+   "meanScore": 89,
+   "popularity": 22319,
+   "episodes": null,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": null,
+   "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "siteUrl": "https://anilist.co/manga/98610",
+   "color": "#e46b28"
+  }
+ },
+ "violet": {
+  "anime": {
+   "id": 21827,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Violet Evergarden",
+    "english": "Violet Evergarden",
+    "native": "ヴァイオレット・エヴァーガーデン"
+   },
+   "averageScore": 85,
+   "meanScore": 85,
+   "popularity": 553320,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2018,
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/21827",
+   "color": "#3586e4"
+  },
+  "manga": {
+   "id": 97298,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Violet Evergarden",
+    "english": null,
+    "native": "ヴァイオレット・エヴァーガーデン"
+   },
+   "averageScore": 83,
+   "meanScore": 85,
+   "popularity": 10054,
+   "episodes": null,
+   "chapters": 13,
+   "volumes": 2,
+   "seasonYear": null,
+   "genres": [
+    "Drama",
+    "Fantasy"
+   ],
+   "siteUrl": "https://anilist.co/manga/97298",
+   "color": "#f1e4c9"
+  }
+ },
+ "toradora": {
+  "anime": {
+   "id": 4224,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Toradora!",
+    "english": "Toradora!",
+    "native": "とらドラ！"
+   },
+   "averageScore": 77,
+   "meanScore": 77,
+   "popularity": 547718,
+   "episodes": 25,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2008,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/4224",
+   "color": "#e45d78"
+  },
+  "manga": {
+   "id": 37149,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Toradora!",
+    "english": "Toradora!",
+    "native": "とらドラ!"
+   },
+   "averageScore": 79,
+   "meanScore": 80,
+   "popularity": 7991,
+   "episodes": null,
+   "chapters": 62,
+   "volumes": 10,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "siteUrl": "https://anilist.co/manga/37149",
+   "color": "#f1bb28"
+  }
+ },
+ "haruhi": {
+  "anime": {
+   "id": 849,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Suzumiya Haruhi no Yuuutsu",
+    "english": "The Melancholy of Haruhi Suzumiya",
+    "native": "涼宮ハルヒの憂鬱"
+   },
+   "averageScore": 76,
+   "meanScore": 76,
+   "popularity": 202824,
+   "episodes": 14,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2006,
+   "genres": [
+    "Comedy",
+    "Mystery",
+    "Sci-Fi",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/anime/849",
+   "color": "#3593e4"
+  },
+  "manga": {
+   "id": 33083,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Suzumiya Haruhi no Yuuutsu",
+    "english": "The Melancholy of Haruhi Suzumiya",
+    "native": "涼宮ハルヒの憂鬱"
+   },
+   "averageScore": 83,
+   "meanScore": 84,
+   "popularity": 10494,
+   "episodes": null,
+   "chapters": 9,
+   "volumes": 1,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Sci-Fi",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "siteUrl": "https://anilist.co/manga/33083",
+   "color": "#f14343"
+  }
+ },
+ "oregairu": {
+  "anime": {
+   "id": 14813,
+   "format": "TV",
+   "status": "FINISHED",
+   "source": "LIGHT_NOVEL",
+   "title": {
+    "romaji": "Yahari Ore no Seishun Love Come wa Machigatteiru.",
+    "english": "My Teen Romantic Comedy SNAFU",
+    "native": "やはり俺の青春ラブコメはまちがっている。"
+   },
+   "averageScore": 78,
+   "meanScore": 78,
+   "popularity": 386544,
+   "episodes": 13,
+   "chapters": null,
+   "volumes": null,
+   "seasonYear": 2013,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/anime/14813",
+   "color": "#e4780d"
+  },
+  "manga": {
+   "id": 70171,
+   "format": "NOVEL",
+   "status": "FINISHED",
+   "source": "ORIGINAL",
+   "title": {
+    "romaji": "Yahari Ore no Seishun Love Come wa Machigatteiru.",
+    "english": "My Youth Romantic Comedy Is Wrong, As I Expected",
+    "native": "やはり俺の青春ラブコメはまちがっている。"
+   },
+   "averageScore": 85,
+   "meanScore": 86,
+   "popularity": 20875,
+   "episodes": null,
+   "chapters": 168,
+   "volumes": 18,
+   "seasonYear": null,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "siteUrl": "https://anilist.co/manga/70171",
+   "color": null
+  }
+ },
+ "_fetched": "2026-10-18"
+}

@@ -1,0 +1,92 @@
+{
+ "id": "takopi",
+ "numbering": "Single six-episode ONA numbered 1-6.",
+ "arcs": [
+  {
+   "name": "Takopi Meets Shizuka",
+   "part": "ONA",
+   "eps": [
+    1,
+    2
+   ],
+   "ch": [
+    1,
+    6
+   ],
+   "summary": "In 2016, a cheerful alien from the Happy Planet befriends Shizuka, a bullied girl whose only comfort is her dog Chappy.",
+   "events": [
+    "Takopi's Happy Gadgets fail to fix Shizuka's misery, and he uses a time-rewinding camera after she takes her own life.",
+    "Takopi keeps rewinding time to protect her, but his naive help has dangerous blind spots.",
+    "Escalating tension with bully Marina ends with Marina's death."
+   ]
+  },
+  {
+   "name": "The Cover-Up",
+   "part": "ONA",
+   "eps": [
+    3,
+    4
+   ],
+   "ch": [
+    7,
+    12
+   ],
+   "summary": "Takopi and Shizuka's classmate Naoki Azuma scramble to hide what happened.",
+   "events": [
+    "Takopi and Naoki conceal Marina's body.",
+    "Shizuka manipulates the guilt-ridden Naoki to her own ends.",
+    "The cover-up unravels as Naoki breaks down under the strain."
+   ]
+  },
+  {
+   "name": "To You in 2022",
+   "part": "ONA",
+   "eps": [
+    5,
+    5
+   ],
+   "ch": [
+    13,
+    14
+   ],
+   "summary": "Takopi begins to recover memories he had lost.",
+   "events": [
+    "Takopi's returning memories reveal Marina's abusive home life.",
+    "He learns of an earlier timeline in which he planned Shizuka's death at Marina's urging."
+   ]
+  },
+  {
+   "name": "Takopi's Original Sin",
+   "part": "ONA",
+   "eps": [
+    6,
+    6
+   ],
+   "ch": [
+    15,
+    16
+   ],
+   "summary": "Facing what he has done, Takopi makes a final choice.",
+   "events": [
+    "Takopi sacrifices himself to reset time to 2016.",
+    "Shizuka, Marina and Naoki get a chance at a better future."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Takopi%27s_Original_Sin"
+  ],
+  [
+   "AnimeOshi",
+   "https://www.animeoshi.com/anime/takopis-original-sin/episode/4"
+  ]
+ ]
+}

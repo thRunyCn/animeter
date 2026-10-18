@@ -1,0 +1,24 @@
+{
+ "id": "neverland",
+ "numbering": "Episodes numbered continuously across seasons: Season 1 is 1-12 and Season 2 is 13-23 (Anime Filler List numbering).",
+ "arcs": [
+  {"name": "Grace Field House Escape", "part": "Season 1", "eps": [1, 12], "ch": [1, 37],
+   "summary": "Emma, Norman and Ray are gifted orphans at Grace Field House, a loving home run by their 'Mom' Isabella, until a forbidden trip to the gate shows them what the orphanage really is.",
+   "events": ["Emma and Norman discover that the orphanage raises children as food for demons, and that Isabella works for the demons.", "The three start planning an escape while Isabella and the new caretaker Sister Krone watch them.", "Norman is shipped out, and Ray is revealed to have been Isabella's spy.", "Emma and Ray burn down the house and escape over the wall with the older children."]},
+  {"name": "Sonju and Mujika", "part": "Season 2", "eps": [13, 14], "ch": [38, null],
+   "summary": "Outside the walls for the first time, the escaped children struggle to survive in a world ruled by demons.",
+   "events": ["The children are rescued by Sonju and Mujika, demons who don't eat humans.", "The children follow clues left by the mysterious William Minerva."]},
+  {"name": "The Shelter and Norman's Return", "part": "Season 2", "eps": [15, 19], "ch": null,
+   "summary": "The children find a hideout and try to plan their next steps, as the season begins departing from the manga.",
+   "events": ["The group reaches a shelter left by Minerva.", "The season skips the manga's Goldy Pond arc entirely.", "Norman returns, alive, with a plan to wipe out the demons."]},
+  {"name": "Anime-Original Ending", "part": "Season 2", "eps": [20, 23], "ch": null,
+   "summary": "The final episodes tell their own condensed version of the ending, moving quickly toward a resolution.",
+   "events": ["Emma seeks a peaceful way to free humans without genocide.", "The children return to the farms to rescue those left behind.", "The final episode ends with a still-image epilogue of the children's lives in the human world."]}
+ ],
+ "filler": {"filler": [], "mixed": [[15, 17], [19, 19]], "recap": [], "note": "Season 2 has no filler as such, but episodes 15-17 and 19 mix manga material with new content and episodes 20-23 are an anime-original ending that departs from the manga."},
+ "src": [
+  ["Anime Filler List", "https://www.animefillerlist.com/shows/promised-neverland"],
+  ["QuoteTheAnime", "https://quotetheanime.com/filler-list/promised-neverland/"],
+  ["Wikipedia", "https://en.wikipedia.org/wiki/List_of_The_Promised_Neverland_episodes"]
+ ]
+}

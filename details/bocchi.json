@@ -1,0 +1,70 @@
+{
+ "id": "bocchi",
+ "numbering": "Episodes numbered 1–12 (single season, 2022); a second season was announced in 2025 but has not aired.",
+ "arcs": [
+  {
+   "name": "Joining Kessoku Band",
+   "part": "Season 1",
+   "eps": [
+    1,
+    4
+   ],
+   "ch": null,
+   "summary": "Hitori Gotō, a painfully shy high schooler who is secretly a skilled online guitarist, gets pulled into a band as an emergency fill-in.",
+   "events": [
+    "Nijika recruits Hitori, nicknamed Bocchi, as Kessoku Band's guitarist.",
+    "Bocchi starts working at the live house Starry despite her terror of customers.",
+    "Bocchi brings in Ikuyo Kita, the guitarist who previously ran away from the band.",
+    "Bocchi writes the band's lyrics with Ryō's advice to be herself."
+   ]
+  },
+  {
+   "name": "The First Live",
+   "part": "Season 1",
+   "eps": [
+    5,
+    8
+   ],
+   "ch": null,
+   "summary": "Kessoku Band tries to pass Starry's audition and sell enough tickets for its first real show.",
+   "events": [
+    "The band passes Seika's audition, and Bocchi has to sell her share of tickets.",
+    "Drunken bassist Kikuri Hiroi helps Bocchi through an impromptu street performance.",
+    "A typhoon thins the crowd, but Bocchi's spontaneous solo saves the first live.",
+    "Nijika reveals she knows Bocchi is the online guitarist 'guitarhero'."
+   ]
+  },
+  {
+   "name": "Summer and the School Festival",
+   "part": "Season 1",
+   "eps": [
+    9,
+    12
+   ],
+   "ch": null,
+   "summary": "After a lonely summer, Bocchi decides to perform at her own school's cultural festival.",
+   "events": [
+    "The band drags Bocchi on a trip to Enoshima.",
+    "Bocchi submits the band's entry for the cultural festival.",
+    "A string breaks mid-song, and Bocchi improvises with a bottleneck while Kita covers for her.",
+    "Bocchi ends the show with a stage dive and later buys a new guitar."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga (the two 2024 films are recap compilations)."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Bocchi_the_Rock!_episodes"
+  ],
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Bocchi_the_Rock!"
+  ]
+ ]
+}

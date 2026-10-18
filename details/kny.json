@@ -1,0 +1,40 @@
+{
+ "id": "kny",
+ "numbering": "Episodes numbered continuously across all TV seasons, 1-63, with the Mugen Train TV arc as 27-33 (Anime Filler Guide numbering); films have no episode numbers.",
+ "arcs": [
+  {"name": "Final Selection", "part": "Season 1", "eps": [1, 5], "ch": [1, 9],
+   "summary": "After demons slaughter his family and turn his sister Nezuko into a demon, Tanjiro Kamado trains to join the Demon Slayer Corps and find a cure.",
+   "events": ["Giyu Tomioka spares Nezuko after seeing her protect Tanjiro.", "Tanjiro trains under Sakonji Urokodaki with help from the spirits of Sabito and Makomo.", "Tanjiro survives Final Selection and kills the Hand Demon that killed Urokodaki's pupils."]},
+  {"name": "First Mission & Asakusa", "part": "Season 1", "eps": [6, 10], "ch": [10, 19],
+   "summary": "On his first assignments, Tanjiro hunts a demon kidnapping girls and then crosses paths with the demon he is truly after.",
+   "events": ["Tanjiro comes face to face with Muzan Kibutsuji in Asakusa.", "He meets the demon doctor Tamayo and her assistant Yushiro, who agree to work on a cure.", "Tanjiro and Nezuko defeat the Temari and Arrow demons sent by Muzan."]},
+  {"name": "Tsuzumi Mansion", "part": "Season 1", "eps": [11, 14], "ch": [20, 27],
+   "summary": "Tanjiro enters a mansion whose rooms shift at the beat of a drum and meets two very different fellow slayers.",
+   "events": ["Zenitsu Agatsuma reveals his skill only while asleep.", "Tanjiro defeats the former Lower Moon Kyogai.", "Inosuke Hashibira, a boar-masked fighter, joins the group."]},
+  {"name": "Mount Natagumo", "part": "Season 1", "eps": [15, 21], "ch": [28, 44],
+   "summary": "The trio is sent to a mountain where many slayers have vanished, the home of a 'family' of spider demons.",
+   "events": ["Tanjiro unlocks Hinokami Kagura against Lower Moon Five, Rui.", "Nezuko uses her Blood Demon Art to save Tanjiro.", "Hashira Giyu and Shinobu arrive, and Giyu kills Rui."]},
+  {"name": "Rehabilitation Training", "part": "Season 1", "eps": [22, 26], "ch": [45, 53],
+   "summary": "Brought before the Hashira for traveling with a demon, Tanjiro must justify Nezuko's existence, then recovers at the Butterfly Mansion.",
+   "events": ["The Hashira meet and Sanemi stabs Nezuko to test her, but she refuses to bite.", "The trio trains with Kanao at the Butterfly Mansion and learns Total Concentration Constant.", "Muzan dissolves the Lower Moons, keeping only Enmu."]},
+  {"name": "Mugen Train", "part": "Season 2 (TV version of the Mugen Train film)", "eps": [27, 33], "ch": [54, 66],
+   "summary": "Tanjiro's group joins Flame Hashira Kyojuro Rengoku aboard a train where passengers keep disappearing (episode 27 is an anime-original Rengoku prologue).",
+   "events": ["Lower Moon One Enmu traps everyone in dream worlds.", "The group defeats Enmu, who had fused with the train.", "Upper Moon Three Akaza appears and Rengoku dies fighting him until dawn."]},
+  {"name": "Entertainment District", "part": "Season 2", "eps": [34, 44], "ch": [67, 97],
+   "summary": "Sound Hashira Tengen Uzui takes the trio undercover into the red-light district to find his missing wives and the demon hiding there.",
+   "events": ["The trio goes undercover as courtesans and boys of the district.", "Upper Moon Six turns out to be a pair of siblings, Daki and Gyutaro.", "Tanjiro, Zenitsu, Inosuke and Uzui behead both siblings at once.", "Uzui retires after losing an eye and a hand."]},
+  {"name": "Swordsmith Village", "part": "Season 3", "eps": [45, 55], "ch": [98, 127],
+   "summary": "Tanjiro goes to the hidden village of swordsmiths to have his blade replaced, where two Hashira are also staying.",
+   "events": ["Upper Moons Four and Five, Hantengu and Gyokko, attack the village.", "Muichiro Tokito regains his memories and awakens his Demon Slayer mark.", "Nezuko conquers the sun.", "Mitsuri Kanroji defends the villagers against Hantengu's strongest form."]},
+  {"name": "Hashira Training", "part": "Season 4", "eps": [56, 63], "ch": [128, 139],
+   "summary": "With Nezuko immune to sunlight, Muzan is expected to strike soon, so the Hashira put the corps through a gauntlet of training.",
+   "events": ["Tanjiro trains under multiple Hashira.", "Gyomei Himejima reveals his strength.", "Muzan finds the Ubuyashiki estate, and the Hashira fall into the Infinity Castle."]},
+  {"name": "Infinity Castle Part 1: Akaza Returns", "part": "Film", "eps": null, "ch": [140, 157],
+   "summary": "The Demon Slayer Corps is pulled into Muzan's shifting fortress and must face the Upper Moons on their home ground.",
+   "events": ["Shinobu Kocho fights Upper Moon Two Doma.", "Zenitsu faces his former senior Kaigaku.", "Tanjiro and Giyu fight Akaza, and Akaza's tragic past is revealed."]}
+ ],
+ "filler": {"filler": [[27, 27]], "mixed": [], "recap": [], "note": "Only episode 27, an anime-original Rengoku prologue to the Mugen Train arc, is filler."},
+ "src": [
+  ["Anime Filler Guide", "https://www.animefillerguide.com/anime/demon-slayer/"]
+ ]
+}

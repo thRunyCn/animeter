@@ -1,0 +1,242 @@
+{
+ "frieren-anime": {
+  "anilistId": 154587,
+  "title": {
+   "romaji": "Sousou no Frieren",
+   "english": "Frieren: Beyond Journey’s End"
+  },
+  "format": "TV",
+  "color": "#bbf1a1",
+  "bytes": 136267
+ },
+ "frieren-manga": {
+  "anilistId": 118586,
+  "title": {
+   "romaji": "Sousou no Frieren",
+   "english": "Frieren: Beyond Journey’s End"
+  },
+  "format": "MANGA",
+  "color": "#e4ae5d",
+  "bytes": 210619
+ },
+ "jjk-anime": {
+  "anilistId": 113415,
+  "title": {
+   "romaji": "Jujutsu Kaisen",
+   "english": "JUJUTSU KAISEN"
+  },
+  "format": "TV",
+  "color": "#e45d5d",
+  "bytes": 144853
+ },
+ "jjk-manga": {
+  "anilistId": 101517,
+  "title": {
+   "romaji": "Jujutsu Kaisen",
+   "english": "Jujutsu Kaisen"
+  },
+  "format": "MANGA",
+  "color": "#e4a15d",
+  "bytes": 95464
+ },
+ "csm-anime": {
+  "anilistId": 127230,
+  "title": {
+   "romaji": "Chainsaw Man",
+   "english": "Chainsaw Man"
+  },
+  "format": "TV",
+  "color": "#6b1a1a",
+  "bytes": 550035
+ },
+ "csm-manga": {
+  "anilistId": 105778,
+  "title": {
+   "romaji": "Chainsaw Man",
+   "english": "Chainsaw Man"
+  },
+  "format": "MANGA",
+  "color": "#f1c90d",
+  "bytes": 609084
+ },
+ "kny-anime": {
+  "anilistId": 101922,
+  "title": {
+   "romaji": "Kimetsu no Yaiba",
+   "english": "Demon Slayer: Kimetsu no Yaiba"
+  },
+  "format": "TV",
+  "color": "#f1c9ae",
+  "bytes": 69697
+ },
+ "kny-manga": {
+  "anilistId": 87216,
+  "title": {
+   "romaji": "Kimetsu no Yaiba",
+   "english": "Demon Slayer: Kimetsu no Yaiba"
+  },
+  "format": "MANGA",
+  "color": "#f1d628",
+  "bytes": 586433
+ },
+ "vinland-anime": {
+  "anilistId": 101348,
+  "title": {
+   "romaji": "VINLAND SAGA",
+   "english": "Vinland Saga"
+  },
+  "format": "TV",
+  "color": "#f16b5d",
+  "bytes": 103714
+ },
+ "vinland-manga": {
+  "anilistId": 30642,
+  "title": {
+   "romaji": "Vinland Saga",
+   "english": "Vinland Saga"
+  },
+  "format": "MANGA",
+  "color": "#f16b43",
+  "bytes": 154200
+ },
+ "sololeveling-anime": {
+  "anilistId": 151807,
+  "title": {
+   "romaji": "Ore dake Level Up na Ken",
+   "english": "Solo Leveling"
+  },
+  "format": "TV",
+  "color": "#35bbf1",
+  "bytes": 505905
+ },
+ "sololeveling-manga": {
+  "anilistId": 105398,
+  "title": {
+   "romaji": "Na Honjaman Level Up",
+   "english": "Solo Leveling"
+  },
+  "format": "MANGA",
+  "color": null,
+  "bytes": 94068
+ },
+ "dandadan-anime": {
+  "anilistId": 171018,
+  "title": {
+   "romaji": "Dandadan",
+   "english": "DAN DA DAN"
+  },
+  "format": "TV",
+  "color": "#e47850",
+  "bytes": 119040
+ },
+ "dandadan-manga": {
+  "anilistId": 132029,
+  "title": {
+   "romaji": "Dandadan",
+   "english": "Dandadan"
+  },
+  "format": "MANGA",
+  "color": "#f1d60d",
+  "bytes": 225817
+ },
+ "oshinoko-anime": {
+  "anilistId": 150672,
+  "title": {
+   "romaji": "[Oshi no Ko]",
+   "english": "OSHI NO KO"
+  },
+  "format": "TV",
+  "color": "#ff35c9",
+  "bytes": 586833
+ },
+ "oshinoko-manga": {
+  "anilistId": 117195,
+  "title": {
+   "romaji": "[Oshi no Ko]",
+   "english": "[Oshi no Ko]"
+  },
+  "format": "MANGA",
+  "color": "#e450a1",
+  "bytes": 443583
+ },
+ "spyfamily-anime": {
+  "anilistId": 140960,
+  "title": {
+   "romaji": "SPY×FAMILY",
+   "english": "SPY x FAMILY"
+  },
+  "format": "TV",
+  "color": "#c9f1f1",
+  "bytes": 109227
+ },
+ "spyfamily-manga": {
+  "anilistId": 108556,
+  "title": {
+   "romaji": "SPY×FAMILY",
+   "english": "SPY x FAMILY"
+  },
+  "format": "MANGA",
+  "color": "#e4505d",
+  "bytes": 62651
+ },
+ "hxh-anime": {
+  "anilistId": 11061,
+  "title": {
+   "romaji": "HUNTER×HUNTER (2011)",
+   "english": "Hunter x Hunter (2011)"
+  },
+  "format": "TV",
+  "color": "#f1d65d",
+  "bytes": 691148
+ },
+ "hxh-manga": {
+  "anilistId": 30026,
+  "title": {
+   "romaji": "HUNTER×HUNTER",
+   "english": "Hunter x Hunter"
+  },
+  "format": "MANGA",
+  "color": "#ffbb43",
+  "bytes": 121804
+ },
+ "neverland-anime": {
+  "anilistId": 101759,
+  "title": {
+   "romaji": "Yakusoku no Neverland",
+   "english": "The Promised Neverland"
+  },
+  "format": "TV",
+  "color": "#e4ae50",
+  "bytes": 81807
+ },
+ "neverland-manga": {
+  "anilistId": 87423,
+  "title": {
+   "romaji": "Yakusoku no Neverland",
+   "english": "The Promised Neverland"
+  },
+  "format": "MANGA",
+  "color": "#e4d650",
+  "bytes": 120050
+ },
+ "aot-anime": {
+  "anilistId": 16498,
+  "title": {
+   "romaji": "Shingeki no Kyojin",
+   "english": "Attack on Titan"
+  },
+  "format": "TV",
+  "color": "#f1a143",
+  "bytes": 83333
+ },
+ "aot-manga": {
+  "anilistId": 53390,
+  "title": {
+   "romaji": "Shingeki no Kyojin",
+   "english": "Attack on Titan"
+  },
+  "format": "MANGA",
+  "color": "#d6431a",
+  "bytes": 104686
+ }
+}

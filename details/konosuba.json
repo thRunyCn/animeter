@@ -1,0 +1,29 @@
+{
+ "id": "konosuba",
+ "numbering": "Episodes numbered continuously across the three TV seasons (S1 1-10, S2 11-20, S3 21-31), with the Legend of Crimson film between seasons 2 and 3 and the OVAs not counted.",
+ "arcs": [
+  {"name": "Arrival in Axel and Beldia", "part": "Season 1", "eps": [1, 6], "ch": null,
+   "summary": "After a deeply embarrassing death, shut-in Kazuma Sato is sent to a fantasy world and drags the goddess Aqua along with him as his 'cheat item'. Adapts the first light novel volume.",
+   "events": ["Kazuma and a useless Aqua start as broke adventurers in the beginner town of Axel.", "They recruit Megumin, who can only cast one Explosion a day, and Darkness, a masochistic crusader.", "Megumin's daily explosions provoke the Devil King's general Beldia, whom the party defeats by flooding him with Aqua's water."]},
+  {"name": "Winter and the Destroyer", "part": "Season 1", "eps": [7, 10], "ch": null,
+   "summary": "Winter brings dangerous quests and money troubles as the party settles into Axel. Adapts the second light novel volume.",
+   "events": ["Kazuma is killed by the Winter Shogun and revived by Aqua.", "The party visits the magic shop run by Wiz, a gentle lich living in Axel.", "The town stops the giant walking fortress Mobile Fortress Destroyer, but its collapse leaves Kazuma in trouble."]},
+  {"name": "Kazuma's Trial and Vanir", "part": "Season 2", "eps": [11, 16], "ch": null,
+   "summary": "Kazuma is accused of treason over the Destroyer's fallout, and things only get stranger from there. Adapts the third light novel volume.",
+   "events": ["Kazuma is put on trial and saddled with a huge debt.", "Kazuma duels Darkness to help her escape an arranged marriage.", "The demon Vanir possesses Darkness before Megumin blasts him, clearing Kazuma's debt.", "Vanir becomes Wiz's business partner, offering to sell Kazuma's modern-world inventions."]},
+  {"name": "Alcanretia", "part": "Season 2", "eps": [17, 20], "ch": null,
+   "summary": "The party takes a trip to the hot-spring town of Alcanretia, home of Aqua's fanatical Axis Church. Adapts the fourth light novel volume.",
+   "events": ["Axis Church followers aggressively try to convert Kazuma and Darkness.", "Someone is poisoning the town's hot springs, and the townspeople blame Aqua.", "The culprit turns out to be Hans, a Devil King general, whom the party defeats before being chased out of town."]},
+  {"name": "Legend of Crimson", "part": "Film", "eps": null, "ch": null,
+   "summary": "Yunyun asks the party for help and takes them to the Crimson Demon village, Megumin's home. Adapts the fifth light novel volume.",
+   "events": ["Kazuma meets Megumin's family in the Crimson Demon village.", "The Devil King's general Sylvia attacks the village.", "Megumin and Kazuma grow closer, and the village defeats Sylvia with a final Explosion."]},
+  {"name": "The Royal Capital and Princess Iris", "part": "Season 3", "eps": [21, 26], "ch": null,
+   "summary": "Kazuma's reputation earns him a royal dinner invitation, where young Princess Iris becomes fascinated by him. Adapts the sixth light novel volume.",
+   "events": ["Kazuma stays at the palace as Iris's playmate and learns how lonely she is.", "Kazuma joins forces with the gentleman thief Chris to steal dangerous divine treasures.", "Iris reveals she knew all along that Kazuma was the thief."]},
+  {"name": "Darkness's Wedding", "part": "Season 3", "eps": [27, 31], "ch": null,
+   "summary": "Back in Axel as a hero, Kazuma's party fights a giant hydra, and Darkness suddenly leaves. Adapts the seventh light novel volume.",
+   "events": ["The adventurers of Axel team up to kill a Kowloon Hydra.", "Darkness agrees to marry the corrupt Lord Alderp to pay off her family's debt.", "Kazuma and Aqua crash the wedding, Kazuma pays off the debt, and Alderp's crimes are exposed.", "Darkness rejoins the party."]}
+ ],
+ "filler": {"filler": [], "mixed": [], "recap": [], "note": "No filler: every episode adapts the light novels."},
+ "src": [["Wikipedia", "https://en.wikipedia.org/wiki/List_of_KonoSuba_episodes"], ["Wikipedia", "https://en.wikipedia.org/wiki/KonoSuba_season_2"], ["Wikipedia", "https://en.wikipedia.org/wiki/KonoSuba_season_3"], ["Anime Filler List", "https://www.animefillerlist.com/shows/konosuba-gods-blessing-wonderful-world"]]
+}

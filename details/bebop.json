@@ -1,0 +1,131 @@
+{
+ "id": "bebop",
+ "numbering": "Sessions numbered 1-26 in broadcast order; the film sits between sessions 22 and 23 and has no episode number.",
+ "arcs": [
+  {
+   "name": "Assembling the Crew",
+   "part": "Season 1",
+   "eps": [
+    1,
+    4
+   ],
+   "ch": null,
+   "summary": "Standalone bounty hunts introduce Spike and Jet aboard the Bebop as stragglers start joining their ship.",
+   "events": [
+    "Spike and Jet chase bounties across the solar system, usually ending up broke.",
+    "A data dog, Ein, ends up with the crew after a botched bounty.",
+    "The con artist Faye Valentine crosses paths with the crew and attaches herself to the Bebop."
+   ]
+  },
+  {
+   "name": "Ballad of Fallen Angels",
+   "part": "Main plot",
+   "eps": [
+    5,
+    5
+   ],
+   "ch": null,
+   "summary": "Spike's past with the Red Dragon Syndicate surfaces for the first time.",
+   "events": [
+    "Spike walks into a trap set by his former partner Vicious and survives a fall through a cathedral window.",
+    "Spike's memories of Julia are first hinted at."
+   ]
+  },
+  {
+   "name": "On the Road (standalone sessions)",
+   "part": "Standalone",
+   "eps": [
+    6,
+    11
+   ],
+   "ch": null,
+   "summary": "Mostly self-contained bounty episodes, during which the crew gains its final member.",
+   "events": [
+    "The genius hacker Radical Ed joins the crew after the hunt for an AI hacker.",
+    "Jet's past in Ganymede resurfaces when he meets his ex-girlfriend Alisa."
+   ]
+  },
+  {
+   "name": "Jupiter Jazz",
+   "part": "Main plot",
+   "eps": [
+    12,
+    13
+   ],
+   "ch": null,
+   "summary": "A two-parter on Callisto pulls Spike back toward Julia and Vicious.",
+   "events": [
+    "Faye leaves with the crew's money, and Spike follows a lead on Julia to Callisto.",
+    "Vicious's attempted coup against the Red Dragon elders is set in motion.",
+    "Spike and Vicious clash, and Gren's story ends in tragedy."
+   ]
+  },
+  {
+   "name": "Pasts Catching Up (mostly standalone)",
+   "part": "Standalone",
+   "eps": [
+    14,
+    22
+   ],
+   "ch": null,
+   "summary": "Standalone adventures continue, but several episodes dig into the crew's personal histories.",
+   "events": [
+    "Faye's past as a woman frozen in cryosleep for decades is revealed.",
+    "Jet confronts the truth behind the betrayal that cost him his arm.",
+    "Faye receives a videotape from her younger self, recorded long before."
+   ]
+  },
+  {
+   "name": "Knockin' on Heaven's Door",
+   "part": "Film",
+   "eps": null,
+   "ch": null,
+   "summary": "The crew chases a record bounty after a bioterror attack on Mars, in a story set between sessions 22 and 23.",
+   "events": [
+    "A mysterious man, Vincent, releases a deadly nanomachine pathogen on Mars.",
+    "Spike, Faye, Jet and Ed race to stop a larger attack during Halloween."
+   ]
+  },
+  {
+   "name": "The Crew Drifts Apart",
+   "part": "Main plot",
+   "eps": [
+    23,
+    24
+   ],
+   "ch": null,
+   "summary": "Late-season episodes begin breaking up the family the Bebop had become.",
+   "events": [
+    "Faye finally tracks down her childhood home, but finds it gone.",
+    "Ed leaves the Bebop to follow her father, and Ein goes with her."
+   ]
+  },
+  {
+   "name": "The Real Folk Blues",
+   "part": "Main plot",
+   "eps": [
+    25,
+    26
+   ],
+   "ch": null,
+   "summary": "The two-part finale as Spike's Syndicate past comes to collect.",
+   "events": [
+    "Vicious seizes control of the Red Dragon Syndicate and hunts Spike's old associates.",
+    "Spike reunites with Julia, who is killed soon after.",
+    "Spike storms the Syndicate headquarters, kills Vicious, and collapses after the fight."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "Anime original, so there's no filler."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Cowboy_Bebop_episodes"
+  ]
+ ]
+}

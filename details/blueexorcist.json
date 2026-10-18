@@ -1,0 +1,148 @@
+{
+ "id": "blueexorcist",
+ "numbering": "Episodes numbered continuously across all seasons: Season 1 is 1-25, Kyoto Saga 26-37, Shimane Illuminati Saga 38-49, Beyond the Snow Saga 50-61, The Blue Night Saga 62-73.",
+ "arcs": [
+  {
+   "name": "Exorcist Cram School",
+   "part": "Season 1",
+   "eps": [
+    1,
+    17
+   ],
+   "ch": [
+    1,
+    15
+   ],
+   "summary": "Rin Okumura learns he is the son of Satan and enrolls in True Cross Academy's cram school to become an exorcist alongside his twin brother Yukio.",
+   "events": [
+    "Rin's blue flames awaken and his guardian Father Fujimoto dies protecting him.",
+    "Rin discovers that Yukio is already an exorcist and will be his teacher.",
+    "During a training camp the class learns that Rin carries Satan's flames, and the Vatican puts him on trial."
+   ]
+  },
+  {
+   "name": "Anime-original ending",
+   "part": "Season 1",
+   "eps": [
+    18,
+    25
+   ],
+   "ch": null,
+   "summary": "The first season departs from the manga with its own story about Rin's place among exorcists and a direct threat from Satan.",
+   "events": [
+    "The Order treats Rin as a threat and debates whether he should be executed.",
+    "Satan possesses a body and opens a Gehenna Gate over the academy.",
+    "Rin and Yukio confront Satan together to close the gate."
+   ]
+  },
+  {
+   "name": "Kyoto Impure King",
+   "part": "Kyoto Saga",
+   "eps": [
+    26,
+    37
+   ],
+   "ch": [
+    16,
+    34
+   ],
+   "summary": "After his powers are exposed, Rin must win back his classmates' trust while the stolen eye of the Impure King draws the group to Kyoto.",
+   "events": [
+    "The Impure King's left eye is stolen from the academy and a traitor is suspected among the Myoo Dharani sect.",
+    "Rin trains to master his flames with Shura's help and makes peace with Suguro.",
+    "The Impure King is revived and Rin destroys it with his controlled flames."
+   ]
+  },
+  {
+   "name": "Academy Seven Wonders and Shimane Illuminati",
+   "part": "Shimane Illuminati Saga",
+   "eps": [
+    38,
+    49
+   ],
+   "ch": null,
+   "summary": "Back at the academy a festival is underway, but the secret society Illuminati makes its move and Izumo is taken to Shimane.",
+   "events": [
+    "Renzo Shima is revealed to be working for the Illuminati as a double agent.",
+    "Izumo is abducted and learns the truth about her mother and her sister Tsukumo.",
+    "Rin and the class storm the Illuminati facility in Shimane to rescue Izumo."
+   ]
+  },
+  {
+   "name": "Beyond the Snow",
+   "part": "Beyond the Snow Saga",
+   "eps": [
+    50,
+    61
+   ],
+   "ch": null,
+   "summary": "Yukio grows increasingly secretive about his own body and their father's past, and the bond between the twins begins to fracture.",
+   "events": [
+    "Yukio's left eye shows signs of Satan's flames.",
+    "Rin's and Yukio's birthday turns into a confrontation over the secrets Yukio keeps.",
+    "Yukio leaves the Order and joins the Illuminati."
+   ]
+  },
+  {
+   "name": "The Blue Night",
+   "part": "The Blue Night Saga",
+   "eps": [
+    62,
+    73
+   ],
+   "ch": null,
+   "summary": "Rin searches for the truth about the Blue Night and his birth by delving into the memories of the past.",
+   "events": [
+    "Rin witnesses the history of Shiro Fujimoto and his mother Yuri Egin.",
+    "The origin of Satan's possession and the events of the Blue Night are revealed.",
+    "Rin returns to the present resolved to bring Yukio back."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [
+   [
+    6,
+    6
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    18,
+    25
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    3
+   ],
+   [
+    16,
+    17
+   ]
+  ],
+  "recap": [],
+  "note": "Episodes 18-25 are an anime-original ending to Season 1 plus a couple of standalone filler episodes; from the Kyoto Saga onward the anime follows the manga (animefillerlist covers episodes 1-37)."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Blue_Exorcist_episodes"
+  ],
+  [
+   "Anime Filler List",
+   "https://www.animefillerlist.com/shows/blue-exorcist"
+  ],
+  [
+   "Ao no Exorcist Wiki (Fandom)",
+   "https://aonoexorcist.fandom.com/wiki/Kyoto_Impure_King_arc"
+  ],
+  [
+   "Ao no Exorcist Wiki (Fandom)",
+   "https://aonoexorcist.fandom.com/wiki/Story_Arcs"
+  ]
+ ]
+}

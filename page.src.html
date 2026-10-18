@@ -1,0 +1,717 @@
+<title>Animeter</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a riso-printed anime guide. Home = centered masthead + paged ranking table.
+   Series page = header (covers, scores) + tabs: Overview, Arcs, Key events, Filler, Manga.
+   Two inks: blue = canon / it clicked / score, pink = filler / people quit / start here. */
+:root{
+  --paper:#eef0f3; --paper-2:#e2e6ec; --ink:#16181d; --ink-soft:#4a5160; --rule:#c6ccd6;
+  --blue:#2346e8; --blue-2:#8c9ff2; --pink:#e8336f; --pink-2:#f3a3bd; --gold:#b98a00; --grey:#9aa1ad;
+  --dot:rgba(22,24,29,.16);
+  --f-display:"Dela Gothic One","Arial Black",Impact,sans-serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --f-mono:"DM Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14161b; --paper-2:#1d2027; --ink:#eceef2; --ink-soft:#a3aab8; --rule:#323743;
+  --blue:#6f8bff; --blue-2:#3a4a8f; --pink:#ff5c93; --pink-2:#7a2f4a; --gold:#f2c14e; --grey:#5a6070; --dot:rgba(236,238,242,.10); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#14161b; --paper-2:#1d2027; --ink:#eceef2; --ink-soft:#a3aab8; --rule:#323743;
+  --blue:#6f8bff; --blue-2:#3a4a8f; --pink:#ff5c93; --pink-2:#7a2f4a; --gold:#f2c14e; --grey:#5a6070; --dot:rgba(236,238,242,.10); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:1120px;margin:0 auto}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.label{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.sw{width:12px;height:12px;display:inline-block;flex:none}
+.empty{padding:20px 16px;background:radial-gradient(var(--dot) 1px,transparent 1.2px) 0 0/8px 8px;border:1px dashed var(--rule);font-size:15px}
+.empty b{font-family:var(--f-display);font-weight:400;font-size:18px;display:block;margin-bottom:4px}
+
+/* masthead */
+.mast{text-align:center;padding-block:40px 22px;border-bottom:3px solid var(--ink)}
+.mast h1{font-family:var(--f-display);font-weight:400;font-size:clamp(44px,9vw,104px);line-height:.9;margin:0;letter-spacing:-.01em}
+.mast h1 a{text-decoration:none}
+.mast h1 .num{color:var(--pink)}
+.mast.compact{padding-block:18px 12px;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left}
+.mast.compact h1{font-size:32px}
+.back{font-family:var(--f-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid transparent}
+.back:hover{border-color:var(--pink)}
+
+/* covers */
+.cover{position:relative;aspect-ratio:2/3;max-width:100%;overflow:hidden;background:var(--paper-2);border:2px solid var(--ink)}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.cover .ph{position:absolute;inset:0;display:none;padding:10px;background:radial-gradient(var(--dot) 1.2px,transparent 1.4px) 0 0/7px 7px,var(--tone,var(--paper-2))}
+.cover.nocover .ph{display:flex;flex-direction:column;justify-content:flex-end}
+.cover.nocover img{display:none}
+.ph b{font-family:var(--f-display);font-weight:400;font-size:18px;line-height:1.05;color:#fff;text-wrap:balance}
+.cover .tag{position:absolute;left:0;bottom:0;background:var(--ink);color:var(--paper);font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px}
+
+/* series header */
+.sh{display:grid;grid-template-columns:300px minmax(0,1fr);gap:28px;padding-block:26px 8px;align-items:start}
+.sh .covers{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-content:start}
+.sh .covers:has(> :only-child){grid-template-columns:1fr;max-width:170px}
+@media (max-width:760px){.sh{grid-template-columns:1fr}.sh .covers{grid-template-columns:1fr 1fr;max-width:340px}}
+.sh h2{font-family:var(--f-display);font-weight:400;font-size:clamp(28px,4.6vw,48px);line-height:1.02;margin:6px 0 4px;text-wrap:balance}
+.sh .jp{font-size:15px;color:var(--ink-soft)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:14px}
+.facts b{display:block;font-family:var(--f-display);font-weight:400;font-size:24px;line-height:1.1}
+.facts .gold{color:var(--gold)}
+.rate{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:16px}
+.rate .label{margin-right:6px}
+.rate button{all:unset;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;border:2px solid var(--ink);font-family:var(--f-mono);font-size:14px}
+.rate button[aria-pressed="true"],.rate button.fill{background:var(--gold);border-color:var(--gold);color:#16181d}
+.rate button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.signin{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+.signin .label{flex-basis:100%}
+.signin input{flex:1 1 220px;max-width:300px;font:inherit;font-size:15px;padding:8px 10px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:0}
+.who{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:8px}
+.who button{all:unset;cursor:pointer;text-decoration:underline;margin-left:6px}
+.rate .clear{width:auto;padding:0 10px;border-color:var(--rule);color:var(--ink-soft)}
+.note{font-size:13px;color:var(--ink-soft);margin-top:8px;min-height:1.2em}
+
+/* tabs */
+.tabs{display:flex;gap:0;border-bottom:3px solid var(--ink);margin-top:18px;overflow-x:auto;scrollbar-width:none}
+.tabs a{flex:none;text-decoration:none;font-family:var(--f-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:10px 14px;border:2px solid transparent;border-bottom:0;margin-bottom:-3px}
+.tabs a[aria-current="page"]{background:var(--ink);color:var(--paper)}
+.tabs a:not([aria-current="page"]):hover{border-color:var(--rule)}
+.tabs .n{opacity:.65;margin-left:4px}
+.pane{padding-top:22px}
+.pane h3{font-family:var(--f-display);font-weight:400;font-size:20px;margin:0 0 4px}
+.pane .sub{color:var(--ink-soft);font-size:14px;margin:0 0 14px;max-width:66ch}
+.src{font-size:13px;color:var(--ink-soft);margin-top:14px}
+
+/* manga hand-off */
+.handoff{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px;align-items:center;border:2px solid var(--ink);padding:16px 18px}
+.big{font-family:var(--f-display);font-size:clamp(44px,7vw,68px);line-height:.9;color:var(--blue)}
+.big.word{font-size:clamp(30px,4.4vw,42px)}
+.big small{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
+.handoff p{margin:0;min-width:0}
+@media (max-width:520px){.handoff{grid-template-columns:1fr}}
+.tl{margin-top:16px}
+.tl-track{position:relative;height:30px;background:repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 10px);border-bottom:2px solid var(--ink)}
+.tl-seg{position:absolute;top:4px;bottom:0;background:var(--blue);border-right:2px solid var(--paper)}
+.tl-seg.alt{background:var(--blue-2)}
+.tl-next{position:absolute;top:-6px;bottom:-6px;width:3px;background:var(--pink)}
+.tl-tail{position:absolute;top:4px;bottom:0;right:0;background:linear-gradient(90deg,transparent,var(--paper))}
+.tl-labels{position:relative;height:36px;font-family:var(--f-mono);font-size:11px;color:var(--ink-soft)}
+.tl-labels span{position:absolute;top:6px;transform:translateX(-50%);white-space:nowrap}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+.key span{display:flex;gap:6px;align-items:center}
+
+/* drop map */
+.dm{border:2px solid var(--ink);padding:14px 14px 10px}
+.dm .key{margin-bottom:10px}
+.dm-stats{display:flex;flex-wrap:wrap;gap:8px 28px;margin-bottom:12px}
+.dm-stats b{display:block;font-family:var(--f-display);font-weight:400;font-size:26px;line-height:1.1}
+.dm-stats .b{color:var(--blue)} .dm-stats .p{color:var(--pink)}
+.chart{overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:320px;height:auto}
+.chart text{font-family:var(--f-mono);font-size:10px;fill:var(--ink-soft)}
+form.vote{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:14px;align-items:end}
+form.vote label{display:flex;flex-direction:column;gap:4px;font-size:14px;font-weight:500}
+select,input[type=search]{font:inherit;font-size:15px;padding:9px 10px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:0;width:100%}
+.btn{font:inherit;font-weight:700;font-size:15px;padding:10px 16px;border:2px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;border-radius:0}
+.btn:hover{background:var(--blue);border-color:var(--blue)}
+.btn:disabled{opacity:.5;cursor:default}
+.ghost{all:unset;cursor:pointer;font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border:2px solid var(--ink)}
+.ghost:hover{background:var(--ink);color:var(--paper)}
+.ghost:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+
+/* arcs */
+.arcbar{display:flex;height:22px;border:2px solid var(--ink);margin-bottom:6px;overflow:hidden}
+.arcbar i{display:block;height:100%;border-right:1px solid var(--paper);min-width:2px}
+.arcbar i.f{background:var(--pink)} .arcbar i.c{background:var(--blue)} .arcbar i.c.alt{background:var(--blue-2)} .arcbar i.m{background:var(--pink-2)}
+.arcs{display:flex;flex-direction:column;border-top:2px solid var(--ink);margin-top:14px}
+.arc{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:14px;padding:14px 2px;border-bottom:1px solid var(--rule);align-items:start}
+.arc .no{font-family:var(--f-display);font-size:22px;line-height:1;text-align:right;color:var(--ink-soft)}
+.arc h4{margin:0;font-size:17px;line-height:1.3}
+.arc .part{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);letter-spacing:.04em}
+.arc p{margin:4px 0 0;font-size:15px;max-width:68ch}
+.arc .rng{font-family:var(--f-mono);font-size:12px;text-align:right;white-space:nowrap;color:var(--ink-soft);display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.chip{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border:1.5px solid currentColor;white-space:nowrap}
+.chip.b{color:var(--blue)} .chip.k{color:var(--ink-soft)} .chip.p{color:var(--pink)}
+@media (max-width:560px){.arc{grid-template-columns:30px minmax(0,1fr)}.arc .rng{grid-column:2;align-items:flex-start;flex-direction:row;flex-wrap:wrap}}
+
+/* events */
+.ev-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
+.evgroup{border-top:1px solid var(--rule);padding:14px 0}
+.evgroup h4{margin:0 0 8px;font-size:16px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.evgroup ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.evgroup li{max-width:70ch}
+.spoil{filter:blur(6px);user-select:none;cursor:pointer;transition:filter .15s}
+.spoil:focus-visible{outline:3px solid var(--blue)}
+.shown .spoil{filter:none;user-select:auto;cursor:auto}
+
+/* filler */
+.fstats{display:flex;flex-wrap:wrap;gap:8px 28px;margin-bottom:14px}
+.fstats b{display:block;font-family:var(--f-display);font-weight:400;font-size:28px;line-height:1.1}
+.fstats .c{color:var(--blue)} .fstats .f{color:var(--pink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--cell,26px),1fr));gap:3px;margin-top:10px}
+.grid span{aspect-ratio:1;display:grid;place-items:center;font-family:var(--f-mono);font-size:10px;background:var(--blue);color:#fff}
+.grid span.f{background:var(--pink)} .grid span.m{background:var(--pink-2);color:var(--ink)} .grid span.r{background:var(--grey)}
+.grid.tiny span{font-size:0}
+.skip{margin-top:16px;border:2px solid var(--ink);padding:12px 14px}
+.skip code{font-family:var(--f-mono);font-size:13px;word-break:break-word;display:block;margin-top:6px}
+
+/* rankings */
+.rk-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;padding-block:30px 14px}
+.rk-head h2{font-family:var(--f-display);font-weight:400;font-size:clamp(28px,4vw,40px);margin:0;line-height:1}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.controls input[type=search]{width:200px;padding:7px 10px;font-size:14px}
+.seg{display:inline-flex;border:2px solid var(--ink)}
+.seg button{all:unset;cursor:pointer;padding:6px 10px;font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.seg button:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}
+.rk-basis{font-size:13px;color:var(--ink-soft);margin:0 0 10px}
+.list{display:flex;flex-direction:column;border-top:2px solid var(--ink)}
+.row{text-decoration:none;display:grid;grid-template-columns:56px 52px minmax(0,1fr) 92px 110px 84px;gap:14px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--rule)}
+.row:hover{background:var(--paper-2)}
+.row:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}
+.row .rank{font-family:var(--f-display);font-size:28px;text-align:right;line-height:1}
+.row .cover{border-width:1.5px}
+.row .ph b{font-size:10px}
+.row .t{font-weight:700;font-size:16px;line-height:1.25}
+.row .meta{font-size:13px;color:var(--ink-soft)}
+.row .sc{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right}
+.row .sc b{font-family:var(--f-display);font-weight:400;font-size:22px;display:block;line-height:1.1}
+.row .sc small{font-size:11px;color:var(--ink-soft);display:block}
+.row .sc.gold b{color:var(--gold)}
+.row .ch{justify-self:end}
+.hdr{display:grid;grid-template-columns:56px 52px minmax(0,1fr) 92px 110px 84px;gap:14px;padding:0 4px 6px}
+.hdr span:nth-child(n+4){text-align:right}
+@media (max-width:720px){
+  .row,.hdr{grid-template-columns:34px 44px minmax(0,1fr) 64px}
+  .row .rank{font-size:20px}
+  .row .site,.row .ch,.hdr .site,.hdr .ch{display:none}
+}
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:22px 18px;border-top:2px solid var(--ink);padding-top:18px}
+.card{text-decoration:none;display:flex;flex-direction:column;gap:6px;min-width:0}
+.card .cover{transition:transform .15s}
+.card:hover .cover{transform:translate(-3px,-3px);box-shadow:3px 3px 0 var(--ink)}
+.card:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+.card .cover .rk{position:absolute;top:0;left:0;background:var(--paper);color:var(--ink);font-family:var(--f-display);font-size:18px;padding:2px 8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.card .t{font-weight:700;font-size:15px;line-height:1.25}
+.card .m{display:flex;justify-content:space-between;gap:8px;font-family:var(--f-mono);font-size:12px;color:var(--ink-soft)}
+.pager{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px;margin-top:22px}
+.pager button{all:unset;cursor:pointer;min-width:36px;height:36px;padding:0 8px;box-sizing:border-box;display:grid;place-items:center;border:2px solid var(--ink);font-family:var(--f-mono);font-size:13px}
+.pager button[aria-current="page"]{background:var(--ink);color:var(--paper)}
+.pager button:disabled{opacity:.35;cursor:default}
+.pager button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.pager .info{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-left:8px}
+.none{padding:24px 0;color:var(--ink-soft)}
+footer{margin-top:40px;padding-top:14px;border-top:3px solid var(--ink);font-size:13px;color:var(--ink-soft);text-align:center}
+@media (prefers-reduced-motion:reduce){.card .cover,.spoil{transition:none}}
+
+/* manga backdrop: screentone corners, focus lines, vertical katakana. Fixed, behind everything. */
+html{background:var(--paper)}
+body{background:transparent}
+.bg{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;--tone-ink:var(--tone,var(--blue))}
+.bg i{position:absolute;display:block}
+.bg .focus{inset:-20%;opacity:.13;
+  background:repeating-conic-gradient(from 0deg at 50% 42%,var(--tone-ink) 0deg .35deg,transparent .35deg 2.2deg,var(--tone-ink) 2.2deg 2.4deg,transparent 2.4deg 4.1deg,var(--ink) 4.1deg 4.25deg,transparent 4.25deg 6deg);
+  -webkit-mask:radial-gradient(ellipse 52% 46% at 50% 42%,transparent 62%,#000 100%);mask:radial-gradient(ellipse 52% 46% at 50% 42%,transparent 62%,#000 100%)}
+.bg .tone-a{top:-8%;right:-6%;width:62vmax;height:62vmax;
+  background:radial-gradient(var(--blue) 30%,transparent 33%) 0 0/9px 9px;opacity:.22;
+  -webkit-mask:radial-gradient(circle at 78% 18%,#000 0,transparent 62%);mask:radial-gradient(circle at 78% 18%,#000 0,transparent 62%)}
+.bg .tone-b{bottom:-10%;left:-8%;width:55vmax;height:55vmax;
+  background:radial-gradient(var(--pink) 30%,transparent 33%) 0 0/11px 11px;opacity:.2;transform:rotate(15deg);
+  -webkit-mask:radial-gradient(circle at 25% 80%,#000 0,transparent 60%);mask:radial-gradient(circle at 25% 80%,#000 0,transparent 60%)}
+.bg .kata{top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:var(--f-display);font-size:clamp(70px,9vw,150px);line-height:1;
+  color:transparent;-webkit-text-stroke:1.5px var(--pink);opacity:.45;letter-spacing:.02em;white-space:nowrap}
+.bg .kata.r{right:max(8px,calc((100vw - 1120px)/2 - 175px))}
+.bg .kata.l{left:max(8px,calc((100vw - 1120px)/2 - 160px));-webkit-text-stroke-color:var(--blue);font-size:clamp(40px,5vw,84px);opacity:.38}
+@media (max-width:1400px){.bg .kata{display:none}}
+@media (max-width:720px){.bg .focus{opacity:.08}.bg .tone-a,.bg .tone-b{opacity:.14}}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .bg .focus{opacity:.16}}
+:root[data-theme="dark"] .bg .focus{opacity:.16}
+</style>
+
+<div class="bg" aria-hidden="true"><i class="focus"></i><i class="tone-a"></i><i class="tone-b"></i><i class="kata r">アニメーター</i><i class="kata l">見る・止める・続ける</i></div>
+<div class="wrap">
+  <div id="app"></div>
+  <footer>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</footer>
+</div>
+
+<script>
+/* Two builds share this file: the claude.ai artifact (hash routes, built-in db) and the standalone
+   web/ site (one static page per route, data.js + config.js alongside, Supabase for reports). */
+const STATIC = !!window.ANIMETER;
+const SERIES = STATIC ? window.ANIMETER.series : /*SERIES*/[];
+const DETAILS = STATIC ? window.ANIMETER.details : /*DETAILS*/{};
+const FETCHED = STATIC ? window.ANIMETER.fetched : /*FETCHED*/"";
+const ROOT = STATIC ? (document.body.dataset.root || "") : "";
+const homeHref = () => STATIC ? (ROOT || "./") : "#";
+const seriesHref = (id, tab) => { const t = tab && tab!=="overview" ? tab : "";
+  return STATIC ? `${ROOT}${id}/${t ? t+"/" : ""}` : `#${id}${t ? "."+t : ""}`; };
+const byId = Object.fromEntries(SERIES.map(s=>[s.id,s]));
+const M_MIN = 5, PER_PAGE = 25;
+const TABS = [["overview","Overview"],["arcs","Arcs"],["events","Key events"],["filler","Filler"],["manga","Manga"]];
+let sortBy = "anilist", view = "list", query = "", page = 1, spoilers = false;
+let reports = {}, myId = null, db = null, canWrite = true, dbState = "loading";
+try { const v = localStorage.getItem("view"); if (v==="list"||v==="wall") view = v; } catch(_) {}
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt10 = n => (Math.round(n*10)/10).toFixed(1);
+const rangeTxt = r => !r || r[0]==null ? "" : r[1]==null ? `${r[0]}+` : r[0]===r[1] ? String(r[0]) : `${r[0]}–${r[1]}`;
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function coverHTML(s, kind, tag, extra=""){
+  return `<div class="cover" style="--tone:${s.tone||'#4a5160'}">
+    <img src="${ROOT}covers/${s.id}-${kind}.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('nocover')">
+    <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
+    ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
+}
+const handoffShort = s => s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
+
+/* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
+function route(){
+  const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
+  const [id, tab] = h.split(".");
+  if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) ? tab : "overview"};
+  return {id:null};
+}
+function go(hash){ if (location.hash !== hash) location.hash = hash; else render(); }
+if (STATIC) window.addEventListener("hashchange", ()=>{ if (/access_token|error_description/.test(location.hash) && SB.supabaseUrl){ const err = sbFromLink(); render();
+  const n = err && document.getElementById("snote"); if (n) n.textContent = "That sign-in link didn't work (" + err + "). Ask for a new one."; } });
+if (!STATIC) window.addEventListener("hashchange", ()=>{ render(); window.scrollTo({top:0, behavior:"auto"}); });
+
+/* ---------- aggregates from visitor reports ---------- */
+function stats(id){
+  const s = byId[id], N = s.eps, clicked = new Array(N+1).fill(0), stopped = new Array(N+1).fill(0);
+  let n=0, never=0, clickList=[], ratings=[];
+  for (const uid in reports){
+    const r = reports[uid] && reports[uid][id]; if (!r) continue;
+    if (Number.isInteger(r.rating) && r.rating>=1 && r.rating<=10) ratings.push(r.rating);
+    if (r.clicked==null && r.stopped==null) continue;
+    n++;
+    if (r.clicked === "never") never++;
+    else if (Number.isInteger(r.clicked) && r.clicked>=1 && r.clicked<=N){ clicked[r.clicked]++; clickList.push(r.clicked); }
+    if (Number.isInteger(r.stopped) && r.stopped>=1 && r.stopped<=N) stopped[r.stopped]++;
+  }
+  clickList.sort((a,b)=>a-b);
+  const median = clickList.length ? clickList[Math.floor((clickList.length-1)/2)] : null;
+  const dropTotal = stopped.reduce((a,b)=>a+b,0);
+  let peak = null; stopped.forEach((v,i)=>{ if(v && (peak===null || v>stopped[peak])) peak=i; });
+  const avg = ratings.length ? ratings.reduce((a,b)=>a+b,0)/ratings.length : null;
+  return {n, never, clicked, stopped, median, dropTotal, peak, votes:ratings.length, avg};
+}
+let _site = null;
+function siteScores(){
+  if (_site) return _site;
+  const all = SERIES.map(s=>({id:s.id, ...stats(s.id)}));
+  const total = all.reduce((t,a)=>t+a.votes,0), sum = all.reduce((t,a)=>t+(a.votes?a.avg*a.votes:0),0);
+  const C = total ? sum/total : 0, out = {};
+  all.forEach(a=>{ out[a.id] = {votes:a.votes, avg:a.avg, wr: a.votes ? (a.votes/(a.votes+M_MIN))*a.avg + (M_MIN/(a.votes+M_MIN))*C : null}; });
+  return _site = out;
+}
+
+/* ---------- rankings (home) ---------- */
+function ranked(){
+  const site = siteScores();
+  const items = SERIES.map(s=>({s, site:site[s.id]}));
+  const key = {anilist: x => x.s.score ?? -1, site: x => x.site.wr ?? -1, popular: x => x.s.popularity ?? -1}[sortBy];
+  items.sort((a,b)=> key(b)-key(a) || (b.s.score??0)-(a.s.score??0) || a.s.title.localeCompare(b.s.title));
+  items.forEach((x,i)=>x.rank=i+1);
+  const q = query.trim().toLowerCase();
+  return q ? items.filter(x=>x.s.title.toLowerCase().includes(q) || (x.s.jp||"").includes(q)) : items;
+}
+function renderHome(){
+  const app = document.getElementById("app");
+  if (!document.getElementById("rk")){
+    app.innerHTML = `
+      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1></header>
+      <section id="rankings">
+        <div class="rk-head">
+          <h2>Rankings</h2>
+          <div class="controls">
+            <input type="search" id="q" placeholder="Find a series" aria-label="Find a series" value="${esc(query)}">
+            <div class="seg" role="group" aria-label="Rank by">
+              <button type="button" data-sort="anilist">AniList</button>
+              <button type="button" data-sort="site">Animeter</button>
+              <button type="button" data-sort="popular">Popular</button>
+            </div>
+            <div class="seg" role="group" aria-label="View">
+              <button type="button" data-view="list">List</button>
+              <button type="button" data-view="wall">Covers</button>
+            </div>
+          </div>
+        </div>
+        <p class="rk-basis" id="basis"></p>
+        <div id="rk"></div>
+        <nav class="pager" id="pager" aria-label="Pages"></nav>
+      </section>`;
+    document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
+    app.querySelectorAll("[data-sort]").forEach(b=>b.addEventListener("click", ()=>{ sortBy=b.dataset.sort; page=1; renderRankings(); }));
+    app.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click", ()=>{ view=b.dataset.view; try{localStorage.setItem("view",view)}catch(_){}; renderRankings(); }));
+    document.getElementById("pager").addEventListener("click", e=>{
+      const b = e.target.closest("button[data-page]"); if (!b || b.disabled) return;
+      page = Number(b.dataset.page); renderRankings();
+      document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"});
+    });
+  }
+  renderRankings();
+}
+function renderRankings(){
+  const all = ranked(), site = siteScores();
+  const pages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+  page = Math.min(Math.max(1, page), pages);
+  const items = all.slice((page-1)*PER_PAGE, page*PER_PAGE);
+  const anyVotes = Object.values(site).some(v=>v.votes);
+  document.getElementById("basis").textContent = {
+    anilist: "Ordered by AniList's average user score.",
+    site: anyVotes ? `Ordered by Animeter ratings from visitors, weighted so a series needs about ${M_MIN} votes before it can top the list (the IMDb method). Unrated series sit at the bottom.` : "No Animeter ratings yet. Open a series and rate it 1 to 10 to start this list.",
+    popular: "Ordered by how many AniList users have the series on their list.",
+  }[sortBy];
+  document.querySelectorAll("[data-sort]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.sort===sortBy));
+  document.querySelectorAll("[data-view]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.view===view));
+  const box = document.getElementById("rk");
+  if (!items.length){ box.innerHTML = `<div class="none">No series matches "${esc(query)}".</div>`; document.getElementById("pager").innerHTML=""; return; }
+  const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
+  if (view==="list"){
+    box.innerHTML = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
+      <a class="row" href="${seriesHref(s.id)}">
+        <span class="rank">${rank}</span>
+        ${coverHTML(s,"anime")}
+        <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · ")}</span></span>
+        <span class="sc gold"><b>${s.score?fmt10(s.score/10):"—"}</b></span>
+        <span class="sc site"><b>${site.votes?fmt10(site.avg):"—"}</b><small>${site.votes} vote${site.votes===1?"":"s"}</small></span>
+        <span class="ch">${chip(s)}</span>
+      </a>`).join("") + `</div>`;
+  } else {
+    box.innerHTML = `<div class="wall">` + items.map(({s,site,rank})=>`
+      <a class="card" href="${seriesHref(s.id)}">
+        ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>`)}
+        <span class="t">${esc(s.title)}</span>
+        <span class="m">${chip(s)}<span>${sortBy==="site" ? (site.votes?"★ "+fmt10(site.avg):"") : (s.score?"★ "+fmt10(s.score/10):"")}</span></span>
+      </a>`).join("") + `</div>`;
+  }
+  const nums = [];
+  for (let p=1;p<=pages;p++) if (p===1 || p===pages || Math.abs(p-page)<=1) nums.push(p); else if (nums.at(-1)!=="…") nums.push("…");
+  document.getElementById("pager").innerHTML = pages<2 ? "" :
+    `<button type="button" data-page="${page-1}" ${page===1?"disabled":""} aria-label="Previous page">←</button>` +
+    nums.map(p=> p==="…" ? `<span class="info">…</span>` : `<button type="button" data-page="${p}" ${p===page?'aria-current="page"':""}>${p}</button>`).join("") +
+    `<button type="button" data-page="${page+1}" ${page===pages?"disabled":""} aria-label="Next page">→</button>` +
+    `<span class="info">${(page-1)*PER_PAGE+1}–${Math.min(page*PER_PAGE, all.length)} of ${all.length}</span>`;
+}
+
+/* ---------- series page ---------- */
+function chartSVG(s, st){
+  const W=720, H=210, padL=28, padR=10, mid=104, h=78, eps=s.eps, bw=(W-padL-padR)/eps;
+  const max = Math.max(1, ...st.clicked, ...st.stopped);
+  let g = `<line x1="${padL}" x2="${W-padR}" y1="${mid}" y2="${mid}" stroke="var(--ink)" stroke-width="2"/>`;
+  if (eps>=3){ const x = padL + 3*bw; g += `<line x1="${x}" x2="${x}" y1="14" y2="${H-22}" stroke="var(--ink-soft)" stroke-dasharray="3 3"/><text x="${x+4}" y="22">3-episode mark</text>`; }
+  for (let e=1;e<=eps;e++){
+    const x = padL + (e-1)*bw + bw*0.12, w = Math.max(1, bw*0.76), c = st.clicked[e], d = st.stopped[e];
+    if (c) g += `<rect x="${x}" y="${mid - c/max*h}" width="${w}" height="${c/max*h}" fill="var(--blue)"><title>Ep ${e}: ${c} said it clicked</title></rect>`;
+    if (d) g += `<rect x="${x}" y="${mid+2}" width="${w}" height="${d/max*h}" fill="var(--pink)"><title>Ep ${e}: ${d} stopped</title></rect>`;
+  }
+  const step = eps<=14?1: eps<=30?3: eps<=60?6: eps<=150?12: 30;
+  for (let e=1;e<=eps;e++){ if (e===1 || e%step===0) g += `<text x="${padL+(e-0.5)*bw}" y="${H-6}" text-anchor="middle">${e}</text>`; }
+  g += `<text x="2" y="${mid-h+6}">${max}</text><text x="2" y="${mid+h}">${max}</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Episodes where people said ${esc(s.title)} clicked (above the line) and where they stopped (below)">${g}</svg>`;
+}
+function timelineHTML(s){
+  const end = s.total || Math.round((s.nextNum||s.seasons.at(-1).end) * 1.3);
+  let prev = 0, segs = "", labels = `<span style="left:2%">1</span>`;
+  s.seasons.forEach((se,i)=>{
+    segs += `<div class="tl-seg${i%2?' alt':''}" style="left:${prev/end*100}%;width:${Math.max(0,se.end-prev)/end*100}%"></div>`;
+    labels += `<span style="left:${Math.min(Math.max(se.end/end*100,8),92)}%">${se.end}</span>`;
+    prev = Math.max(prev, se.end);
+  });
+  if (!s.total) segs += `<div class="tl-tail" style="left:${prev/end*100}%"></div>`;
+  if (s.nextNum) segs += `<div class="tl-next" style="left:calc(${Math.min((s.nextNum-0.5)/end*100,99.5)}% - 1px)"></div>`;
+  if (s.total && s.total !== prev) labels += `<span style="left:96%">${s.total} end</span>`;
+  else if (!s.total) labels += `<span style="left:94%">ongoing</span>`;
+  const key = s.seasons.map((se,i)=>`<span><i class="sw" style="background:var(${i%2?'--blue-2':'--blue'})"></i>${esc(se.l)}</span>`).join("")
+    + (s.nextNum?`<span><i class="sw" style="background:var(--pink)"></i>Start reading here</span>`:"");
+  return `<div class="tl"><div class="tl-track">${segs}</div><div class="tl-labels">${labels}</div><div class="key">${key}</div></div>`;
+}
+const srcHTML = src => src?.length ? `<div class="src">Sources: ${src.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(", ")}</div>` : "";
+
+function epKinds(d){
+  // map episode -> "f" | "m" | "r" from filler data; return {total, kinds}
+  const kinds = {}, f = d?.filler || {};
+  const mark = (rs, k) => (rs||[]).forEach(([a,b])=>{ if (!Number.isInteger(a) || !Number.isInteger(b)) return; for (let e=a;e<=b;e++) kinds[e]=k; });
+  mark(f.mixed,"m"); mark(f.recap,"r"); mark(f.filler,"f");
+  let total = 0;
+  (d?.arcs||[]).forEach(a=>{ if (a.eps && a.eps[1]!=null) total = Math.max(total, a.eps[1]); });
+  ["filler","mixed","recap"].forEach(k=>(f[k]||[]).forEach(([,b])=>{ total = Math.max(total,b); }));
+  return {total, kinds};
+}
+
+function paneOverview(s){
+  const st = stats(s.id), mine = (myId && reports[myId] && reports[myId][s.id]) || {};
+  const epOpts = sel => Array.from({length:s.eps},(_,i)=>`<option value="${i+1}" ${sel===i+1?"selected":""}>Episode ${i+1}</option>`).join("");
+  const dmKey = `<div class="key"><span><i class="sw" style="background:var(--blue)"></i>It clicked for me here</span><span><i class="sw" style="background:var(--pink)"></i>I stopped watching here</span></div>`;
+  const body = dbState==="loading" ? `<div class="empty"><b>Loading reports…</b>Checking what other people said about this one.</div>`
+    : dbState==="off" ? `<div class="empty"><b>Reports aren't available in this view.</b>${STATIC ? "Voting isn't switched on yet. Check back soon." : "Sign in to claude.ai to see and add drop-map reports."}</div>`
+    : st.n===0 ? `<div class="empty"><b>No reports yet.</b>Be the first: pick the episode where ${esc(s.title)} clicked for you, or where you gave up, and save.</div>`
+    : `${dmKey}<div class="dm-stats">
+        <div><span class="label">Reports</span><b class="mono">${st.n}</b></div>
+        <div><span class="label">Clicks by</span><b class="b">${st.median ? "Ep "+st.median : "—"}</b></div>
+        <div><span class="label">Stopped</span><b class="p">${Math.round(st.dropTotal/st.n*100)}%</b></div>
+        <div><span class="label">Never clicked</span><b>${st.never}</b></div>
+      </div><div class="chart">${chartSVG(s, st)}</div>`;
+  const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report about ${s.epsLabel==="Season 1" ? "the first season" : "the "+s.epsLabel.toLowerCase()}.`)
+    : [st.median && `Half of the people who say it clicked felt it by episode ${st.median}.`, st.peak && `The most common place to stop is episode ${st.peak}.`].filter(Boolean).join(" ");
+  const writable = dbState==="on" && canWrite && (!STATIC || !!myId);
+  const form = !writable ? (dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
+    <form class="vote" id="vote">
+      <label for="clicked">It clicked for me at
+        <select id="clicked"><option value="">Choose…</option><option value="never" ${mine.clicked==="never"?"selected":""}>It never clicked</option>${epOpts(mine.clicked)}</select></label>
+      <label for="stopped">I stopped watching at
+        <select id="stopped"><option value="">Choose…</option><option value="no" ${mine.stopped==="no"?"selected":""}>I didn't stop</option>${epOpts(mine.stopped)}</select></label>
+      <button class="btn" type="submit" id="save">${mine.clicked||mine.stopped ? "Update my report" : "Save my report"}</button>
+    </form><div class="note" id="note"></div>`;
+  return `<h3>Is it worth pushing through?</h3><p class="sub">${esc(verdict)}</p><div class="dm">${body}</div>${form}`;
+}
+function paneArcs(s, d){
+  if (!d?.arcs?.length) return `<div class="empty"><b>Arc guide coming soon.</b>We haven't finished the arc list for ${esc(s.title)} yet.</div>`;
+  const {total, kinds} = epKinds(d);
+  const fillerShare = a => { if (!a.eps || a.eps[0]==null || a.eps[1]==null) return 0; let f=0; for (let e=a.eps[0];e<=a.eps[1];e++) if (kinds[e]==="f") f++; return f/(a.eps[1]-a.eps[0]+1); };
+  const withEps = d.arcs.filter(a=>a.eps && a.eps[0]!=null && a.eps[1]!=null);
+  const bar = total && withEps.length ? `<div class="arcbar" aria-hidden="true">${withEps.map((a,i)=>{
+      const fs = fillerShare(a); const cls = fs>=0.8 ? "f" : `c${i%2?' alt':''}`;
+      return `<i class="${cls}" style="flex:${a.eps[1]-a.eps[0]+1}" title="${esc(a.name)}"></i>`; }).join("")}</div>
+      <div class="key"><span><i class="sw" style="background:var(--blue)"></i>Story arc</span><span><i class="sw" style="background:var(--pink)"></i>Filler arc</span><span class="label">${total} episodes</span></div>` : "";
+  return `<h3>Arcs</h3><p class="sub">${esc(d.numbering||"")}</p>${bar}
+    <div class="arcs">${d.arcs.map((a,i)=>{ const fs = fillerShare(a); return `
+      <div class="arc"><span class="no">${i+1}</span>
+        <div style="min-width:0"><span class="part">${esc(a.part||"")}</span><h4>${esc(a.name)}</h4><p>${esc(a.summary||"")}</p></div>
+        <div class="rng">${a.eps&&a.eps[0]!=null?`<span>Ep ${rangeTxt(a.eps)}</span>`:`<span>Film</span>`}${a.ch&&a.ch[0]!=null?`<span>Ch ${rangeTxt(a.ch)}</span>`:""}${fs>=0.8?`<span class="chip p">Filler</span>`:fs>0?`<span class="chip k">Some filler</span>`:""}</div>
+      </div>`; }).join("")}</div>${srcHTML(d.src)}`;
+}
+function paneEvents(s, d){
+  const groups = (d?.arcs||[]).filter(a=>a.events?.length);
+  if (!groups.length) return `<div class="empty"><b>Key events coming soon.</b>We haven't written up the big moments for ${esc(s.title)} yet.</div>`;
+  return `<h3>Key events</h3><p class="sub">These are spoilers. They stay blurred until you reveal them, one at a time or all at once.</p>
+    <div class="ev-tools"><button type="button" class="ghost" id="spoilAll">${spoilers?"Hide spoilers":"Show all spoilers"}</button></div>
+    <div class="${spoilers?"shown":""}" id="evs">${groups.map(a=>`
+      <div class="evgroup"><h4>${esc(a.name)} <span class="label">${a.eps?"Ep "+rangeTxt(a.eps):"Film"}</span></h4>
+        <ol>${a.events.map(e=>`<li><span class="spoil" tabindex="0" role="button" aria-label="Reveal spoiler">${esc(e)}</span></li>`).join("")}</ol></div>`).join("")}</div>`;
+}
+function paneFiller(s, d){
+  if (!d?.filler) return `<div class="empty"><b>Filler guide coming soon.</b>We haven't checked the filler episodes for ${esc(s.title)} yet.</div>`;
+  const {total, kinds} = epKinds(d);
+  const count = k => Object.values(kinds).filter(v=>v===k).length;
+  const nf = count("f"), nm = count("m"), nr = count("r");
+  const none = !nf && !nm && !nr;
+  const ranges = (d.filler.filler||[]).map(rangeTxt).join(", ");
+  const grid = total ? `<div class="grid${total>400?" tiny":""}" style="--cell:${total>400?"10px":total>120?"18px":"28px"}" role="img" aria-label="${total} episodes: ${nf} filler, ${nm} mixed, ${nr} recap">${
+      Array.from({length:total},(_,i)=>{ const k = kinds[i+1]||""; return `<span class="${k}" title="Ep ${i+1}${k==="f"?" · filler":k==="m"?" · mixed canon":k==="r"?" · recap":""}">${total<=400?i+1:""}</span>`; }).join("")}</div>
+      <div class="key" style="margin-top:8px"><span><i class="sw" style="background:var(--blue)"></i>Canon</span><span><i class="sw" style="background:var(--pink-2)"></i>Mixed</span><span><i class="sw" style="background:var(--pink)"></i>Filler</span><span><i class="sw" style="background:var(--grey)"></i>Recap</span></div>` : "";
+  return `<h3>Filler</h3><p class="sub">${esc(d.filler.note||"")}</p>
+    ${total?`<div class="fstats"><div><span class="label">Episodes</span><b>${total}</b></div><div><span class="label">Canon</span><b class="c">${total-nf-nm-nr}</b></div><div><span class="label">Filler</span><b class="f">${nf}</b></div><div><span class="label">Mixed</span><b>${nm}</b></div>${nr?`<div><span class="label">Recap</span><b>${nr}</b></div>`:""}</div>`:""}
+    ${none ? "" : grid}
+    ${ranges ? `<div class="skip"><span class="label">Skip list (filler episodes)</span><code>${esc(ranges)}</code></div>` : ""}
+    ${srcHTML(d.src)}`;
+}
+function paneManga(s){
+  const unit = s.unit || "Chapter";
+  const q = s.kind==="novel" ? "Anime finished. Where does the story go next?" : (s.kind==="original"||s.kind==="vn") ? "Is there a manga to continue?" : "Anime finished. Where does the manga pick up?";
+  return `<h3>${q}</h3>
+    <div class="handoff">
+      <div class="big${s.next?"":" word"}"><small>${s.next ? "Start at "+esc(unit) : "Status"}</small>${s.next ? esc(s.next) : esc({original:"Original",vn:"Game",novel:"Novel"}[s.kind]||"Done")}</div>
+      <p>${esc(s.note)}</p>
+    </div>
+    ${s.seasons?.length ? timelineHTML(s) : ""}${srcHTML(s.src)}`;
+}
+
+function renderSeries(id, tab){
+  const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
+  const mine = (myId && reports[myId] && reports[myId][id]) || {};
+  const writable = dbState==="on" && canWrite && (!STATIC || !!myId);
+  const counts = {arcs: d?.arcs?.length, events: (d?.arcs||[]).reduce((t,a)=>t+(a.events?.length||0),0), filler: d?.filler ? epKinds(d).total && Object.values(epKinds(d).kinds).filter(k=>k==="f").length : null};
+  const rateRow = !writable ? "" : `<div class="rate" role="group" aria-label="Rate ${esc(s.title)} from 1 to 10"><span class="label">Your rating</span>
+      ${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}
+      ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
+    + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
+  const gate = STATIC && dbState==="on" && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
+      <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
+  const pane = {overview:()=>paneOverview(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
+  document.getElementById("app").innerHTML = `
+    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back" href="${homeHref()}">← Rankings</a></header>
+    <section class="sh">
+      <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
+      <div style="min-width:0">
+        <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
+        <h2>${esc(s.title)}</h2><div class="jp">${esc(s.jp||"")}</div>
+        <div class="facts">
+          ${s.score?`<div><span class="label">AniList</span><b class="gold">${fmt10(s.score/10)}</b></div>`:""}
+          <div><span class="label">Animeter</span><b class="gold">${ss.votes ? fmt10(ss.avg) : "—"}</b></div>
+          <div><span class="label">${esc(s.epsLabel)}</span><b>${s.eps} ep</b></div>
+          <div><span class="label">${s.kind==="novel"?"Source":"Manga"}</span><b>${esc(handoffShort(s).replace("VN","Visual novel").replace("Novel","Light novel"))}</b></div>
+        </div>
+        ${rateRow}${gate}
+      </div>
+    </section>
+    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <section class="pane">${pane}</section>`;
+  document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
+  document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
+  document.getElementById("signin")?.addEventListener("submit", sendLink);
+  document.getElementById("signout")?.addEventListener("click", signOut);
+  document.getElementById("spoilAll")?.addEventListener("click", ()=>{ spoilers=!spoilers; renderSeries(id, tab); });
+  document.getElementById("evs")?.addEventListener("click", e=>{ const sp = e.target.closest(".spoil"); if (sp) sp.style.filter="none"; });
+  document.getElementById("evs")?.addEventListener("keydown", e=>{ if ((e.key==="Enter"||e.key===" ") && e.target.classList.contains("spoil")){ e.preventDefault(); e.target.style.filter="none"; } });
+}
+
+function render(){
+  _site = null;
+  const r = route();
+  document.title = r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
+  const tone = r.id && byId[r.id].tone;
+  if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
+  if (r.id) renderSeries(r.id, r.tab); else renderHome();
+}
+document.getElementById("fetched").textContent = FETCHED || "recently";
+
+/* ---------- writes ---------- */
+async function writeEntry(id, patch){
+  if (STATIC) return sbWrite(id, patch);
+  const ref = db.doc("reports/"+myId);
+  const snap = await ref.get();
+  const prev = snap.exists ? (snap.data()||{}) : {};
+  await ref.set({...prev, [id]: {...(prev[id]||{}), ...patch, at:new Date().toISOString()}});
+}
+function explain(err){
+  if (err && err.code==="signed_out") return "You were signed out. Sign in again to save.";
+  if (err && err.code==="invalid_argument"){ canWrite = false; return "Your access lets you read reports but not add them."; }
+  if (err && err.code==="quota_exceeded") return "The report store is full, so this couldn't be saved.";
+  return "Couldn't save just now. Try again in a moment.";
+}
+async function saveReport(e, id){
+  e.preventDefault();
+  const note = document.getElementById("note"), btn = document.getElementById("save");
+  const cv = document.getElementById("clicked").value, sv = document.getElementById("stopped").value;
+  if (!cv && !sv){ note.textContent = "Pick at least one of the two answers first."; return; }
+  btn.disabled = true; note.textContent = "Saving…";
+  try{
+    await writeEntry(id, {clicked: cv==="never" ? "never" : cv ? Number(cv) : null, stopped: sv==="no" ? "no" : sv ? Number(sv) : null});
+    const n = document.getElementById("note"); if (n) n.textContent = "Saved. Your report is in the drop map.";
+  }catch(err){ btn.disabled = false; note.textContent = explain(err); }
+}
+async function saveRating(id, v){
+  const rn = document.getElementById("rnote"); if (rn) rn.textContent = "Saving…";
+  try{
+    await writeEntry(id, {rating: v || null});
+    const n = document.getElementById("rnote"); if (n) n.textContent = v ? `Rated ${v}/10.` : "Rating cleared.";
+  }catch(err){ const n = document.getElementById("rnote"); if (n) n.textContent = explain(err); }
+}
+
+/* ---------- boot ---------- */
+/* Standalone backend: Supabase over plain REST. Reads are public; voting needs an email sign-in
+   (magic link), and row-level security lets each account change only its own rows. */
+const SB = (window.ANIMETER_CONFIG || {}), SB_KEY = "animeter.session";
+let sbSession = null;
+try { sbSession = JSON.parse(localStorage.getItem(SB_KEY) || "null"); } catch(_) {}
+if (STATIC && sbSession) myId = sbSession.user && sbSession.user.id;
+async function sbFetch(path, opts={}, token){
+  const r = await fetch(SB.supabaseUrl + path, {...opts, headers:{apikey:SB.supabaseKey, Authorization:"Bearer "+(token||SB.supabaseKey), "Content-Type":"application/json", ...(opts.headers||{})}});
+  if (!r.ok) throw Object.assign(new Error("supabase "+r.status), {status:r.status});
+  const t = await r.text(); return t ? JSON.parse(t) : null;
+}
+function sbKeep(sess){ if (!sess.user && sess.access_token){ const c = jwtClaims(sess.access_token); sess.user = {id:c.sub, email:c.email}; }
+  sbSession = sess; myId = sess.user.id; try{ localStorage.setItem(SB_KEY, JSON.stringify(sess)); }catch(_){} }
+async function sbToken(){
+  const now = Date.now()/1000;
+  if (sbSession && sbSession.expires_at > now + 60) return sbSession.access_token;
+  if (sbSession && sbSession.refresh_token){
+    try{ sbKeep(await sbFetch("/auth/v1/token?grant_type=refresh_token", {method:"POST", body:JSON.stringify({refresh_token:sbSession.refresh_token})})); return sbSession.access_token; }catch(_){}
+  }
+  signOut(); throw Object.assign(new Error("signed out"), {code:"signed_out"});
+}
+const jwtClaims = t => { try { return JSON.parse(atob(t.split(".")[1].replace(/-/g,"+").replace(/_/g,"/"))); } catch(_) { return {}; } };
+const sbEmail = () => (sbSession && (sbSession.user?.email || jwtClaims(sbSession.access_token).email)) || "your email";
+function sbFromLink(){                       // the emailed link lands here with the session in the hash
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (h.get("error_description")) { history.replaceState(null, "", location.pathname + location.search); return h.get("error_description"); }
+  if (!h.get("access_token")) return null;
+  const c = jwtClaims(h.get("access_token"));
+  sbKeep({access_token:h.get("access_token"), refresh_token:h.get("refresh_token"), expires_at:Number(h.get("expires_at")) || c.exp, user:{id:c.sub, email:c.email}});
+  history.replaceState(null, "", location.pathname + location.search);
+  return null;
+}
+async function sendLink(e){
+  e.preventDefault();
+  const email = document.getElementById("email").value.trim(), note = document.getElementById("snote"), btn = document.getElementById("sendlink");
+  if (!email) return;
+  btn.disabled = true; note.textContent = "Sending…";
+  try{
+    await sbFetch("/auth/v1/otp?redirect_to=" + encodeURIComponent(location.origin + location.pathname), {method:"POST", body:JSON.stringify({email, create_user:true})});
+    note.textContent = `Check ${email} for a sign-in link. Open it on this device.`;
+  }catch(err){ btn.disabled = false; note.textContent = err.status===429 ? "Too many sign-in emails just now. Try again in a few minutes." : "Couldn't send the email. Check the address and try again."; }
+}
+function signOut(){
+  sbSession = null; myId = null;
+  try{ localStorage.removeItem(SB_KEY); }catch(_){}
+  render();
+}
+const sbIn = v => v==null ? null : /^\d+$/.test(v) ? Number(v) : v;
+async function sbLoad(){
+  const next = {};
+  for (let off=0;; off+=1000){
+    const rows = await sbFetch(`/rest/v1/reports?select=uid,series,clicked,stopped,rating&order=uid,series&limit=1000&offset=${off}`);
+    rows.forEach(r=>{ (next[r.uid] ||= {})[r.series] = {clicked:sbIn(r.clicked), stopped:sbIn(r.stopped), rating:r.rating}; });
+    if (rows.length < 1000) break;
+  }
+  return next;
+}
+async function sbWrite(id, patch){
+  const token = await sbToken();
+  const row = {uid:myId, series:id};
+  if ("clicked" in patch) row.clicked = patch.clicked==null ? null : String(patch.clicked);
+  if ("stopped" in patch) row.stopped = patch.stopped==null ? null : String(patch.stopped);
+  if ("rating" in patch) row.rating = patch.rating;
+  await sbFetch("/rest/v1/reports?on_conflict=uid,series", {method:"POST", headers:{Prefer:"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify([row])}, token);
+  reports[myId] = {...(reports[myId]||{}), [id]: {...((reports[myId]||{})[id]||{}), ...patch}};
+  _site = null;
+  const a = document.activeElement && document.activeElement.id;
+  if (a!=="clicked" && a!=="stopped") render();
+}
+async function bootStatic(){
+  if (new URLSearchParams(location.search).has("prerender")) return;   // build-time snapshot: leave "loading"
+  if (!SB.supabaseUrl || !SB.supabaseKey){ dbState = "off"; render(); return; }
+  const linkErr = sbFromLink();
+  try{ reports = await sbLoad(); dbState = "on"; }catch(_){ dbState = "off"; }
+  const a = document.activeElement && document.activeElement.id;
+  if (a==="q"){ _site = null; renderRankings(); return; }
+  render();
+  if (linkErr){ const n = document.getElementById("snote"); if (n) n.textContent = "That sign-in link didn't work (" + linkErr + "). Ask for a new one."; }
+}
+
+(function init(){
+  render();
+  if (STATIC){ bootStatic(); return; }
+  const boot = async () => {
+    try{
+      const [dbNs, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]);
+      if (!dbNs || !user){ dbState = "off"; render(); return; }
+      db = dbNs; myId = await user.id();
+      const w = user.can ? await user.can("data.write") : null;
+      if (!myId || w === false) canWrite = false;
+      db.collection("reports").onSnapshot(qs=>{
+        const next = {}; qs.docs.forEach(d=>{ next[d.id] = d.data() || {}; });
+        reports = next; dbState = "on";
+        const a = document.activeElement && document.activeElement.id;
+        if (a==="clicked" || a==="stopped") return;               // don't yank a select mid-choice
+        if (a==="q"){ _site = null; renderRankings(); return; }
+        render();
+      }, () => { dbState = "off"; render(); });
+    }catch(_){ dbState = "off"; render(); }
+  };
+  let tries = 0;
+  (function wait(){
+    if (window.claude?.use) boot();
+    else if (++tries < 20) setTimeout(wait, 150);
+    else { dbState = "off"; render(); }
+  })();
+})();
+</script>

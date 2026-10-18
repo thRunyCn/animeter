@@ -1,0 +1,423 @@
+{
+ "id": "fairytail",
+ "numbering": "Episodes numbered continuously 1–328 across all seasons of the 2009–2019 TV series (Anime Filler Guide numbering).",
+ "arcs": [
+  {
+   "name": "Macao Arc",
+   "part": "Season 1",
+   "eps": [
+    1,
+    2
+   ],
+   "ch": [
+    1,
+    3
+   ],
+   "summary": "Lucy Heartfilia, an aspiring Celestial Spirit wizard, meets Natsu and Happy and finally gets into the famous guild Fairy Tail.",
+   "events": [
+    "Natsu rescues Lucy from a fake 'Salamander' who was trafficking girls, then brings her to Fairy Tail.",
+    "Lucy joins the guild and receives her guild mark.",
+    "Natsu climbs Mt. Hakobe alone and brings back Macao, Romeo's missing father."
+   ]
+  },
+  {
+   "name": "Daybreak Arc",
+   "part": "Season 1",
+   "eps": [
+    3,
+    4
+   ],
+   "ch": [
+    4,
+    9
+   ],
+   "summary": "Lucy's first proper job with Natsu and Happy sends her undercover as a maid to destroy a book in a lecherous duke's mansion.",
+   "events": [
+    "Lucy's maid disguise fails and the team storms Duke Everlue's mansion instead.",
+    "The book Daybreak turns out to hide a message from its author to his son, so the team refuses the reward."
+   ]
+  },
+  {
+   "name": "Lullaby Arc",
+   "part": "Season 1",
+   "eps": [
+    5,
+    10
+   ],
+   "ch": [
+    10,
+    24
+   ],
+   "summary": "Erza Scarlet returns from a mission and recruits Natsu, Gray and Lucy to stop the dark guild Eisenwald from using a deadly flute.",
+   "events": [
+    "Erza, Natsu, Gray and Lucy form what fans call Team Natsu.",
+    "Erigor of Eisenwald plans to play the death flute Lullaby at a meeting of guild masters.",
+    "Natsu defeats Erigor, and Lullaby reveals itself as a demon of Zeref that the guild masters help destroy.",
+    "Erza is briefly arrested by the Magic Council as a formality for the property damage."
+   ]
+  },
+  {
+   "name": "Galuna Island Arc",
+   "part": "Season 1",
+   "eps": [
+    11,
+    20
+   ],
+   "ch": [
+    25,
+    46
+   ],
+   "summary": "Natsu, Lucy and Happy steal an S-Class request and head to a cursed island, where Gray runs into his past.",
+   "events": [
+    "Gray meets his fellow apprentice Lyon, who wants to revive the demon Deliora frozen by their teacher Ur.",
+    "The island's 'cursed' villagers turn out to be demons whose memories were warped by the Moon Drip ritual.",
+    "Gray defeats Lyon and Deliora crumbles, already killed long ago by Ur's Iced Shell.",
+    "Erza arrives to drag the trio home but helps them finish the job first."
+   ]
+  },
+  {
+   "name": "Phantom Lord Arc",
+   "part": "Season 1",
+   "eps": [
+    21,
+    29
+   ],
+   "ch": [
+    46,
+    68
+   ],
+   "summary": "The rival guild Phantom Lord attacks Fairy Tail's hall and members, and an all-out guild war begins.",
+   "events": [
+    "Gajeel beats Levy's team and pins them to a tree, provoking Fairy Tail into war.",
+    "Phantom Lord was hired by Lucy's wealthy father to bring her home.",
+    "Natsu defeats Gajeel, and Makarov uses Fairy Law to defeat Master Jose.",
+    "Lucy confronts her father and cuts ties with him."
+   ]
+  },
+  {
+   "name": "Loke Arc",
+   "part": "Season 1",
+   "eps": [
+    30,
+    32
+   ],
+   "ch": [
+    69,
+    75
+   ],
+   "summary": "While the guild rebuilds, the womanizing wizard Loke keeps avoiding Lucy and seems to be fading away.",
+   "events": [
+    "Loke is revealed to be the Celestial Spirit Leo, banished to the human world after the death of his former owner Karen.",
+    "Lucy defies the Celestial Spirit King to save him, and Loke becomes her spirit."
+   ]
+  },
+  {
+   "name": "Tower of Heaven Arc",
+   "part": "Season 1",
+   "eps": [
+    33,
+    40
+   ],
+   "ch": [
+    75,
+    99
+   ],
+   "summary": "A beach vacation turns dark when Erza is kidnapped by her childhood friends and taken to the tower where she was once enslaved.",
+   "events": [
+    "Erza's past as a child slave building the Tower of Heaven is revealed.",
+    "Jellal, possessed by his obsession with Zeref, plans to use the tower as an R-System to revive him.",
+    "The Magic Council fires Etherion at the tower; Natsu eats the Etherion-infused lacrima and defeats Jellal.",
+    "Simon dies shielding Erza, and Erza is saved by Jellal as the tower collapses."
+   ]
+  },
+  {
+   "name": "Battle of Fairy Tail Arc",
+   "part": "Season 1",
+   "eps": [
+    41,
+    48
+   ],
+   "ch": [
+    100,
+    128
+   ],
+   "summary": "During the Harvest Festival, Makarov's grandson Laxus seizes control of the guild through a forced battle royale.",
+   "events": [
+    "Laxus turns the girls to stone and makes the members fight each other to win them back.",
+    "The Thunder God Tribe is defeated one by one.",
+    "Natsu and Gajeel together defeat Laxus, and Mystogan's identity is briefly glimpsed.",
+    "Makarov expels Laxus, who salutes the guild during the Fantasia parade."
+   ]
+  },
+  {
+   "name": "Oración Seis Arc",
+   "part": "Season 2",
+   "eps": [
+    49,
+    68
+   ],
+   "ch": [
+    129,
+    164
+   ],
+   "summary": "Fairy Tail joins an alliance of four light guilds to take down Oración Seis, one of the three great dark guilds.",
+   "events": [
+    "Wendy Marvell and Carla of Cait Shelter are introduced as allies.",
+    "Jellal is revived but has lost his memories and turns against Oración Seis.",
+    "Natsu defeats Zero to stop the superweapon Nirvana.",
+    "Cait Shelter is revealed to be an illusion, and Wendy and Carla join Fairy Tail."
+   ]
+  },
+  {
+   "name": "Daphne Arc",
+   "part": "Season 2–3 (anime original)",
+   "eps": [
+    69,
+    75
+   ],
+   "ch": null,
+   "summary": "An anime-original story in which a scientist named Daphne targets Natsu to power her artificial dragon project.",
+   "events": [
+    "Daphne lures Natsu with the promise of information about Igneel so she can drain his dragon power.",
+    "Fairy Tail fights her Dragonoid weapon, and Natsu breaks free to destroy it."
+   ]
+  },
+  {
+   "name": "Edolas Arc",
+   "part": "Season 3",
+   "eps": [
+    76,
+    95
+   ],
+   "ch": [
+    165,
+    199
+   ],
+   "summary": "Magnolia vanishes into an anima, and Natsu, Wendy, Happy and Carla cross into Edolas, a parallel world where magic is running out.",
+   "events": [
+    "Happy and Carla learn that Exceeds were sent to Earth Land on a mission to hunt Dragon Slayers.",
+    "The team meets alternate versions of their guildmates in Edolas.",
+    "Mystogan is revealed as Edolas's Prince Jellal and helps restore balance.",
+    "Lisanna, thought dead, is found alive in Edolas and returns to Earth Land."
+   ]
+  },
+  {
+   "name": "Tenrou Island Arc",
+   "part": "Season 3–4",
+   "eps": [
+    96,
+    122
+   ],
+   "ch": [
+    200,
+    253
+   ],
+   "summary": "Fairy Tail's S-Class promotion trial on the sacred Tenrou Island is interrupted by the dark guild Grimoire Heart.",
+   "events": [
+    "Zeref appears on the island, and Grimoire Heart's master Hades seeks to awaken him.",
+    "Gildarts reveals he is Cana's father.",
+    "Makarov and the guild defeat Hades, with Laxus returning to help.",
+    "The black dragon Acnologia attacks, and the members on the island vanish, frozen in time for seven years by Fairy Sphere."
+   ]
+  },
+  {
+   "name": "X791 Arc",
+   "part": "Season 4",
+   "eps": [
+    123,
+    124
+   ],
+   "ch": [
+    254,
+    257
+   ],
+   "summary": "Seven years later, the Tenrou group returns to a weakened Fairy Tail that has fallen from grace.",
+   "events": [
+    "Romeo and the remaining members have kept the struggling guild alive.",
+    "Lucy learns her father has died during her absence."
+   ]
+  },
+  {
+   "name": "Key of the Starry Sky Arc",
+   "part": "Season 4–5 (anime original)",
+   "eps": [
+    125,
+    150
+   ],
+   "ch": null,
+   "summary": "An anime-original story about the Infinity Clock, a dangerous artifact linked to Lucy's father, and the Legion Corps who want her for it.",
+   "events": [
+    "The Oración Seis remnants (Reborn Oración Seis) and the Legion fight over the clock's pieces.",
+    "Lucy is captured and used as part of the clock's activation.",
+    "Fairy Tail stops the clock and saves Lucy."
+   ]
+  },
+  {
+   "name": "Grand Magic Games Arc",
+   "part": "Season 6–7",
+   "eps": [
+    151,
+    203
+   ],
+   "ch": [
+    258,
+    340
+   ],
+   "summary": "Fairy Tail enters the kingdom's Grand Magic Games to reclaim its place as the top guild, while a conspiracy brews around the Eclipse Gate.",
+   "events": [
+    "Fairy Tail enters two teams and battles Sabertooth, led by Dragon Slayers Sting and Rogue.",
+    "Natsu and Gajeel defeat Sting and Rogue, and Fairy Tail wins the Games.",
+    "Future Rogue opens the Eclipse Gate, releasing seven dragons on Crocus.",
+    "Future Lucy dies protecting the present, and the Dragon Slayers fight the dragons until the gate is closed."
+   ]
+  },
+  {
+   "name": "Eclipse Celestial Spirits Arc",
+   "part": "Season 7 (anime original)",
+   "eps": [
+    204,
+    226
+   ],
+   "ch": null,
+   "summary": "An anime-original story in which Lucy's Celestial Spirits rebel against their owners after an Eclipse Gate side effect.",
+   "events": [
+    "Lucy's spirits break their contracts and attack Fairy Tail as 'Eclipse Spirits' with reversed personalities.",
+    "Lucy and the guild work to restore the spirits and return them to the Celestial Spirit World."
+   ]
+  },
+  {
+   "name": "Sun Village Arc",
+   "part": "Season 7",
+   "eps": [
+    227,
+    233
+   ],
+   "ch": [
+    341,
+    355
+   ],
+   "summary": "A frozen village of giants and its eternal flame lead Natsu's team into a conflict with the dark guild Tartaros.",
+   "events": [
+    "The village's eternal flame turns out to be the dragon Atlas Flame.",
+    "Natsu frees the dragon from the ice, and it tells him a cryptic message about Igneel."
+   ]
+  },
+  {
+   "name": "Tartaros Arc",
+   "part": "Season 7",
+   "eps": [
+    234,
+    265
+   ],
+   "ch": [
+    356,
+    416
+   ],
+   "summary": "The demon guild Tartaros, made of Zeref's Etherious, plans to wipe out all magic with the weapon Face.",
+   "events": [
+    "Tartaros kills most of the Magic Council and targets its former members.",
+    "Lucy sacrifices Aquarius' key to summon the Celestial Spirit King.",
+    "Igneel emerges from inside Natsu, fights Acnologia, and is killed by it.",
+    "Makarov disbands Fairy Tail after the battle."
+   ]
+  },
+  {
+   "name": "Fairy Tail Zero Arc",
+   "part": "Season 8",
+   "eps": [
+    266,
+    275
+   ],
+   "ch": null,
+   "summary": "A prequel told through Fairy Tail Zero manga (its own chapters 1–13) about Mavis Vermillion and the founding of the guild.",
+   "events": [
+    "Mavis meets Yuri, Precht and Warrod on Tenrou Island.",
+    "Mavis meets Zeref and learns from him.",
+    "The four found Fairy Tail together."
+   ]
+  },
+  {
+   "name": "Avatar Arc",
+   "part": "Season 8–9",
+   "eps": [
+    276,
+    284
+   ],
+   "ch": [
+    417,
+    437
+   ],
+   "summary": "A year after the disbanding, Natsu returns from training and starts gathering the scattered members to rebuild the guild.",
+   "events": [
+    "Natsu and Lucy find their friends living new lives across Fiore.",
+    "Gray, Juvia and Erza work to stop the dark cult Avatar from carrying out a mass sacrifice.",
+    "Fairy Tail is officially reformed and Makarov's whereabouts in Alvarez come to light."
+   ]
+  },
+  {
+   "name": "Alvarez Empire Arc",
+   "part": "Season 9",
+   "eps": [
+    285,
+    328
+   ],
+   "ch": [
+    438,
+    545
+   ],
+   "summary": "Emperor Spriggan of the Alvarez Empire invades Fiore to seize Mavis' body and Fairy Heart.",
+   "events": [
+    "Zeref is revealed as Emperor Spriggan and Natsu as his younger brother E.N.D.",
+    "Makarov sacrifices himself using Fairy Law against the Alvarez army.",
+    "Mavis and Zeref's curse is lifted when Natsu and Mavis confront Zeref together.",
+    "The Dragon Slayers defeat Acnologia in a final battle inside time, and the guild celebrates."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [
+   [
+    19,
+    19
+   ],
+   [
+    69,
+    75
+   ],
+   [
+    125,
+    150
+   ],
+   [
+    204,
+    218
+   ],
+   [
+    221,
+    221
+   ],
+   [
+    225,
+    225
+   ],
+   [
+    268,
+    268
+   ]
+  ],
+  "mixed": [
+   [
+    151,
+    151
+   ]
+  ],
+  "recap": [],
+  "note": "Filler includes the Daphne, Key of the Starry Sky and Eclipse Celestial Spirits anime-original arcs; omake episodes (9, 20, 50, 202, 203, 219, 220, 222, 226) and light-novel episodes (223, 224) are not counted as filler."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/fairy-tail/"
+  ]
+ ]
+}

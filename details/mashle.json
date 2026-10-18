@@ -1,0 +1,21 @@
+{
+ "id": "mashle",
+ "numbering": "Episodes numbered continuously across seasons (Season 2 starts at 13), as on Wikipedia and Anime Filler Guide; the 6.5 recap special is outside the numbering.",
+ "arcs": [
+  {"name": "Easton Enrollment Arc", "part": "Season 1", "eps": [1, 6], "ch": [1, 16],
+   "summary": "In a world where magic decides your social standing, Mash Burnedead was born without any and relies on his absurdly trained muscles instead; to protect his adoptive father, he has to become a Divine Visionary at Easton Magic Academy.",
+   "events": ["Mash fakes his way through the Easton entrance exam using sheer strength.", "He joins Adler House and befriends Lemon, Finn and Lance.", "Mash clashes with arrogant students, including the iron mage Silva Armstrong."]},
+  {"name": "Magia Lupus Arc", "part": "Season 1", "eps": [7, 12], "ch": [17, 38],
+   "summary": "Mash and his friends clash with Magia Lupus, an elitist group of students who look down on those with weak magic.",
+   "events": ["Mash takes on Magia Lupus leader Abel Walker and his puppet magic.", "Lance and Dot battle the group's other members.", "Mash defeats Abel, and his victories catch the Divine Visionaries' attention."]},
+  {"name": "Divine Visionary Candidate Exam Arc", "part": "Season 2", "eps": [13, 24], "ch": [39, 74],
+   "summary": "Mash competes in the selection exam for Divine Visionary candidates while the terrorist group Innocent Zero closes in on him.",
+   "events": ["Divine Visionary Rayne Ames, Finn's older brother, tests Mash.", "Mash and his friends advance through the exam's dangerous stages.", "Innocent Zero's agents strike, and Headmaster Wahlberg Baigan steps in to fight them."]}
+ ],
+ "filler": {"filler": [], "mixed": [], "recap": [], "note": "No filler: every episode adapts the manga; the unnumbered 6.5 special is a recap."},
+ "src": [
+  ["Anime Filler Guide", "https://www.animefillerguide.com/anime/mashle/"],
+  ["Wikipedia", "https://en.wikipedia.org/wiki/List_of_Mashle_episodes"],
+  ["ONE Esports", "https://www.oneesports.gg/anime/where-does-the-mashle-anime-end-in-the-manga"]
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "toradora",
+ "numbering": "Episodes numbered 1-25 as broadcast (the bento OVA is not counted).",
+ "arcs": [
+  {"name": "Tiger and Dragon", "part": "TV series", "eps": [1, 4], "ch": null,
+   "summary": "Gentle Ryuji Takasu is feared for his scary face, while tiny, short-tempered Taiga Aisaka is known as the 'Palmtop Tiger'. After learning each other's crushes, they agree to help each other win over their best friends.",
+   "events": ["A misdelivered love letter reveals that Taiga likes Ryuji's best friend Yusaku Kitamura.", "Ryuji admits he likes Taiga's best friend Minori Kushieda, and the two form an alliance.", "Ryuji learns why Minori works so many part-time jobs."]},
+  {"name": "Ami and Summer", "part": "TV series", "eps": [5, 10], "ch": null,
+   "summary": "Kitamura's childhood friend Ami Kawashima, a teen model with a fake sweet persona, transfers into their class and stirs things up.",
+   "events": ["Ami's two-faced personality is exposed, and she drops her act around the group.", "Ryuji saves Taiga, who can't swim, at the pool.", "The group spends a summer trip at Ami's beach house, where Minori and Kitamura stage fake ghost scares."]},
+  {"name": "The Cultural Festival", "part": "TV series", "eps": [11, 13], "ch": null,
+   "summary": "The school festival arrives at the same time as Taiga's estranged father, who wants to be back in her life.",
+   "events": ["Taiga's father Rikuro reappears and promises to come to the festival.", "Rikuro fails to show up, leaving Taiga hurt.", "Taiga wins the beauty pageant, and Ryuji and Minori finish the relay together."]},
+  {"name": "The Student Council Election", "part": "TV series", "eps": [14, 16], "ch": null,
+   "summary": "Kitamura suddenly rebels and quits the student council, and his friends try to find out why.",
+   "events": ["Kitamura runs away to Ryuji's home after quitting the student council.", "Taiga runs for student council president to help him.", "Kitamura confesses to council president Sumire Kano, who leaves to study abroad, and Taiga fights her."]},
+  {"name": "Christmas", "part": "TV series", "eps": [17, 19], "ch": null,
+   "summary": "As Christmas nears, Taiga tries to set Ryuji up with Minori at the class party.",
+   "events": ["Minori avoids the Christmas party and pulls away from Ryuji.", "Taiga realizes on Christmas Eve that she loves Ryuji.", "Minori rejects Ryuji's confession."]},
+  {"name": "The Ski Trip", "part": "TV series", "eps": [20, 22], "ch": null,
+   "summary": "Before classes are reshuffled, a school ski trip forces everyone to face their feelings.",
+   "events": ["Taiga falls during a blizzard and is rescued by Ryuji.", "A dazed Taiga confesses her feelings for Ryuji without realizing he can hear.", "Ryuji starts to realize what Taiga means to him."]},
+  {"name": "Valentine's and Graduation", "part": "TV series", "eps": [23, 25], "ch": null,
+   "summary": "Family trouble and unresolved feelings come to a head as the school year ends.",
+   "events": ["Ryuji's mother Yasuko collapses, and Taiga and Minori clash over hiding their feelings.", "Ryuji and Taiga confess to each other and decide to run away together.", "Taiga leaves to sort out her family, and the two reunite at graduation."]}
+ ],
+ "filler": {"filler": [], "mixed": [], "recap": [], "note": "No filler: every episode adapts the light novels."},
+ "src": [["Wikipedia", "https://en.wikipedia.org/wiki/List_of_Toradora!_episodes"]]
+}

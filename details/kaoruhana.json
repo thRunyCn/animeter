@@ -1,0 +1,94 @@
+{
+ "id": "kaoruhana",
+ "numbering": "Single 13-episode season numbered 1-13.",
+ "arcs": [
+  {
+   "name": "Rintaro and Kaoruko",
+   "part": "Season 1",
+   "eps": [
+    1,
+    3
+   ],
+   "ch": [
+    1,
+    6
+   ],
+   "summary": "Rintaro Tsumugi of the rough boys' school Chidori befriends Kaoruko Waguri, a student at the elite girls' school Kikyo next door.",
+   "events": [
+    "Rintaro learns the girl he helped at his family's bakery attends rival Kikyo.",
+    "Hostility between the two schools threatens their budding friendship.",
+    "Kaoruko's protective friend Subaru Hoshina confronts them."
+   ]
+  },
+  {
+   "name": "Subaru",
+   "part": "Season 1",
+   "eps": [
+    4,
+    6
+   ],
+   "ch": [
+    7,
+    12
+   ],
+   "summary": "Subaru tries to keep Rintaro away from Kaoruko, testing everyone's friendships.",
+   "events": [
+    "Subaru asks Rintaro to stop seeing Kaoruko.",
+    "Rintaro's friend Saku confronts him after discovering a note from Kaoruko.",
+    "Subaru and Kaoruko talk through their friendship and Subaru asks Rintaro to be friends."
+   ]
+  },
+  {
+   "name": "Bridging Chidori and Kikyo",
+   "part": "Season 1",
+   "eps": [
+    7,
+    10
+   ],
+   "ch": [
+    13,
+    20
+   ],
+   "summary": "The two friend groups begin to mix as Rintaro faces what he feels.",
+   "events": [
+    "Rintaro's friends defend the Kikyo girls, and a sports festival follows.",
+    "At the aquarium Rintaro realizes he loves Kaoruko.",
+    "His friends visit the bakery and learn about his past, and he admits his feelings to them."
+   ]
+  },
+  {
+   "name": "Summer Confession",
+   "part": "Season 1",
+   "eps": [
+    11,
+    13
+   ],
+   "ch": [
+    21,
+    30
+   ],
+   "summary": "Summer brings Kaoruko's birthday and a trip to the beach.",
+   "events": [
+    "Rintaro bakes Kaoruko a birthday cake with his father's help.",
+    "At the beach Rintaro accidentally confesses.",
+    "Kaoruko returns his feelings and they become a couple."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/The_Fragrant_Flower_Blooms_with_Dignity"
+  ],
+  [
+   "AnimeOshi",
+   "https://www.animeoshi.com/anime/the-fragrant-flower-blooms-with-dignity/episode/13"
+  ]
+ ]
+}

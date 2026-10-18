@@ -1,0 +1,138 @@
+{
+ "id": "medalist",
+ "numbering": "Episodes numbered continuously across both seasons (Season 2 episode 1 = episode 14), as on Wikipedia.",
+ "arcs": [
+  {
+   "name": "A Genius on the Ice",
+   "part": "Season 1",
+   "eps": [
+    1,
+    2
+   ],
+   "ch": [
+    1,
+    4
+   ],
+   "summary": "Failed ice dancer Tsukasa Akeuraji discovers 11-year-old Inori Yuitsuka skating in secret and sees a talent no one else noticed.",
+   "events": [
+    "Tsukasa persuades Inori's mother to let him coach her.",
+    "Inori passes her preliminary badge test and befriends prodigy Hikaru Kamisaki.",
+    "Inori tells Tsukasa she wants to win Olympic gold."
+   ]
+  },
+  {
+   "name": "Meikoh Cup",
+   "part": "Season 1",
+   "eps": [
+    3,
+    6
+   ],
+   "ch": [
+    5,
+    12
+   ],
+   "summary": "Tsukasa enters Inori in her first competition, where stage fright is her biggest opponent.",
+   "events": [
+    "Inori overcomes her nerves and adds a broken-leg sit spin to her program.",
+    "She takes first place, and Hikaru wins the Novice event.",
+    "Tsukasa's past with the Kago family and his rival Jun comes to light."
+   ]
+  },
+  {
+   "name": "West Japan Championship",
+   "part": "Season 1",
+   "eps": [
+    7,
+    9
+   ],
+   "ch": [
+    13,
+    18
+   ],
+   "summary": "After learning double jumps, Inori heads to a regional event packed with strong skaters.",
+   "events": [
+    "Inori passes her level one badge test but loses her skates just before the championship.",
+    "Tsukasa recovers the skates in time as rival skaters post high scores.",
+    "Inori wins first place despite a sprained ankle."
+   ]
+  },
+  {
+   "name": "Level Six Badge Test",
+   "part": "Season 1",
+   "eps": [
+    10,
+    13
+   ],
+   "ch": [
+    19,
+    26
+   ],
+   "summary": "A year later, Inori targets the level six test while Tsukasa takes on a second student, Rioh.",
+   "events": [
+    "Tsukasa earns the trust of the tough newcomer Rioh.",
+    "At a training camp Inori lands her first double Axel and triple Salchow.",
+    "Inori and Rioh both pass level six, and Inori renews her vow to become a gold medalist."
+   ]
+  },
+  {
+   "name": "Chubu Block Championship",
+   "part": "Season 2",
+   "eps": [
+    14,
+    17
+   ],
+   "ch": [
+    27,
+    34
+   ],
+   "summary": "Inori enters the regional block tournament on the road to All-Japan Novice.",
+   "events": [
+    "Olympian Riina Kojoh shares advice with the young skaters.",
+    "Rival Yuna takes a risky jump to lead the field.",
+    "Inori scores 81.20 to win Chubu Block gold."
+   ]
+  },
+  {
+   "name": "Road to All-Japan Novice",
+   "part": "Season 2",
+   "eps": [
+    18,
+    22
+   ],
+   "ch": [
+    35,
+    45
+   ],
+   "summary": "Inori trains for nationals with a clear goal: beat Hikaru.",
+   "events": [
+    "Jun challenges Tsukasa to help Inori surpass Hikaru.",
+    "Inori trains with a harness under Uobuchi and lands a quadruple Salchow.",
+    "Tsukasa cracks a rib, unsettling Inori before the trip to Niigata for the competition."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Medalist_(manga)"
+  ],
+  [
+   "AnimeOshi",
+   "https://www.animeoshi.com/anime/medalist/episode/13"
+  ],
+  [
+   "AnimeOshi",
+   "https://www.animeoshi.com/anime/medalist-season-2/episode/9"
+  ],
+  [
+   "toramp",
+   "https://www.toramp.com/shows/7233/"
+  ]
+ ]
+}

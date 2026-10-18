@@ -1,0 +1,100 @@
+{
+ "id": "apothecary",
+ "numbering": "Episodes numbered continuously across seasons as on Wikipedia (Season 1 is 1-24, Season 2 is 25-48, Season 3 starts at 49).",
+ "arcs": [
+  {
+   "name": "The Rear Palace",
+   "part": "Season 1",
+   "eps": [
+    1,
+    12
+   ],
+   "ch": null,
+   "summary": "Maomao, an apothecary's daughter from the pleasure district, is kidnapped and sold as a servant into the emperor's rear palace, where she tries to keep her head down. Her knowledge of medicine and poisons soon catches the eye of the beautiful eunuch Jinshi.",
+   "events": [
+    "Maomao discovers that lead-based face powder is what's been making the emperor's infant children sick.",
+    "Jinshi makes Maomao a food taster for Consort Gyokuyou at the Jade Pavilion.",
+    "Maomao untangles a poisoning at the garden party and the old secret behind Consort Ah-Duo's lost child.",
+    "Maomao is dismissed in a palace shake-up, but Jinshi buys her contract to bring her back."
+   ]
+  },
+  {
+   "name": "The Outer Court and Lakan",
+   "part": "Season 1",
+   "eps": [
+    13,
+    24
+   ],
+   "ch": null,
+   "summary": "Maomao now works directly for Jinshi in the outer court, solving cases among officials and soldiers. A strange military strategist seems very interested in her.",
+   "events": [
+    "Maomao links a string of accidents and thefts to a plot against Jinshi and saves him from a falling ornament.",
+    "She exposes the court lady Suirei's faked death, done with a resurrection drug.",
+    "Maomao learns that the strategist Lakan is her biological father, and she beats him in a high-stakes game of shogi.",
+    "Lakan buys out the contract of Maomao's mother, the sick courtesan Fengxian."
+   ]
+  },
+  {
+   "name": "Return to the Rear Palace",
+   "part": "Season 2",
+   "eps": [
+    25,
+    36
+   ],
+   "ch": null,
+   "summary": "Maomao goes back to the rear palace as the new Pure Consort Loulan arrives, and visiting foreign envoys bring new mysteries.",
+   "events": [
+    "Maomao finds that trendy perfumes are endangering pregnancies in the palace.",
+    "Maomao reveals how the 'moon fairy' illusion was done during the foreign envoys' visit.",
+    "The Empress Dowager asks Maomao to look into whether a curse killed the late emperor.",
+    "Assassins attack Jinshi on a northern hunt, and he and Maomao hide in a cave."
+   ]
+  },
+  {
+   "name": "The Shi Clan Rebellion",
+   "part": "Season 2",
+   "eps": [
+    37,
+    48
+   ],
+   "ch": null,
+   "summary": "As new pregnancies bring danger to the rear palace, Maomao follows a trail of clues toward a powerful clan's plans.",
+   "events": [
+    "Maomao helps Consort Gyokuyou safely through a breech birth.",
+    "Maomao is kidnapped to the Shi clan's stronghold, where she finds they are preparing for war.",
+    "Jinshi leads a force to rescue her, and the Shi clan's leaders die.",
+    "Gyokuyou becomes empress, while Loulan, thought dead, secretly survives and prepares to leave the country."
+   ]
+  },
+  {
+   "name": "The Locust Crisis",
+   "part": "Season 3",
+   "eps": [
+    49,
+    51
+   ],
+   "ch": null,
+   "summary": "A possible plague of locusts threatens the country, and Maomao is pulled into the problem alongside Jinshi. Season 3 is still airing (Part 1 began in October 2026, with Part 2 due in April 2027). An animated film, The Late Lady's Treasure, is due December 11, 2026.",
+   "events": [
+    "Jinshi faces warnings of a coming locust swarm, and Maomao finds a Shi clan book about preventing one.",
+    "Maomao links a fireproof 'fire-rat' robe to a possible spy."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the light novels."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_The_Apothecary_Diaries_episodes"
+  ],
+  [
+   "The Review Geek",
+   "https://www.thereviewgeek.com/theapothecarydiaries-s3e3releasedate/"
+  ]
+ ]
+}

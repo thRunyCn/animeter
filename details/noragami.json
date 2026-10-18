@@ -1,0 +1,26 @@
+{
+ "id": "noragami",
+ "numbering": "Episodes numbered continuously across both seasons: Noragami 1-12 and Aragoto 13-25 (OVAs unnumbered).",
+ "arcs": [
+  {"name": "The Stray God", "part": "Season 1", "eps": [1, 5], "ch": null,
+   "summary": "Yato, a minor god without a shrine, takes any job for five yen. After he saves schoolgirl Hiyori from a bus, her soul starts slipping out of her body, and she pesters him to fix it.",
+   "events": ["Hiyori becomes a half-phantom whose spirit leaves her body at random.", "Yato takes in the dead boy's spirit Yukine as his regalia weapon.", "Hiyori learns that Yato was once a god of calamity."]},
+  {"name": "Yukine's Blight", "part": "Season 1", "eps": [6, 9], "ch": null,
+   "summary": "An old enemy comes after Yato just as Yukine's resentment over being dead starts to poison his master.",
+   "events": ["The war god Bishamon attacks Yato over a long-held grudge.", "Yukine's stealing and bitterness blight Yato until he collapses.", "Yukine is put through a purifying ablution and finally apologizes to Yato."]},
+  {"name": "Rabo", "part": "Season 1", "eps": [10, 12], "ch": null,
+   "summary": "An anime-original finale in which a figure from Yato's bloody past resurfaces.",
+   "events": ["Nora steals Hiyori's memories of Yato and Yukine.", "The revived god-slayer Rabo tests Yato's strength.", "Yato defeats Rabo, and Hiyori recovers her memories and chooses to stay with him."]},
+  {"name": "Bishamon", "part": "Aragoto", "eps": [13, 18], "ch": null,
+   "summary": "Bishamon's family of regalia begins to crack under a traitor's schemes, pulling Yato's group into her tragic history.",
+   "events": ["A schemer among Bishamon's regalia, Kugaha, kills Suzuha and turns her family against her.", "Kazuma's tie to Yato and Bishamon's past is revealed.", "Yukine evolves into a Blessed Vessel to protect Yato.", "Yato and Bishamon finally make peace."]},
+  {"name": "Ebisu and the Underworld", "part": "Aragoto", "eps": [19, 25], "ch": null,
+   "summary": "The god of fortune Ebisu takes an interest in Yukine, while Yato's mysterious father pulls strings behind the scenes.",
+   "events": ["Hiyori builds Yato a tiny shrine of his own.", "Yato's father reappears and Yato disappears.", "Yato travels into the Underworld to rescue Ebisu from Izanami.", "Ebisu is reborn as a child, and Yato renounces his days as a god of calamity."]}
+ ],
+ "filler": {"filler": [], "mixed": [[10,10]], "recap": [], "note": "No filler episodes, but episode 10 is mixed and episodes 11-12 are an anime-original ending to season 1."},
+ "src": [
+  ["Anime Filler List", "https://www.animefillerlist.com/shows/noragami"],
+  ["Wikipedia", "https://en.wikipedia.org/wiki/List_of_Noragami_episodes"]
+ ]
+}

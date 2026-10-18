@@ -1,0 +1,132 @@
+{
+ "id": "gachiakuta",
+ "numbering": "Season 1 episodes numbered 1-24 (Anime Filler Guide numbering).",
+ "arcs": [
+  {
+   "name": "Into the Pit",
+   "part": "Season 1",
+   "eps": [
+    1,
+    3
+   ],
+   "ch": [
+    1,
+    6
+   ],
+   "summary": "Rudo, a boy from the slums of a sky-borne city, is wrongly convicted of murder and thrown down into the Pit, the world below where the city dumps its trash.",
+   "events": [
+    "Rudo is framed for killing his foster father Regto and cast into the Pit.",
+    "Rudo survives monstrous Trash Beasts and meets the Cleaner Enjin.",
+    "Rudo awakens as a Giver who can draw power from cherished objects."
+   ]
+  },
+  {
+   "name": "Cleaners and Raiders",
+   "part": "Season 1",
+   "eps": [
+    4,
+    8
+   ],
+   "ch": [
+    7,
+    24
+   ],
+   "summary": "Rudo joins the Cleaners, a group of Givers who hunt Trash Beasts, and runs into the rival Raiders.",
+   "events": [
+    "Rudo arrives at Cleaner headquarters and is partnered with Zanka.",
+    "A routine job is ambushed by the Raiders and their fighter Jabber.",
+    "Zanka is poisoned while fighting Jabber, and Rudo learns to channel his power properly."
+   ]
+  },
+  {
+   "name": "Canvas Town",
+   "part": "Season 1",
+   "eps": [
+    9,
+    9
+   ],
+   "ch": [
+    25,
+    27
+   ],
+   "summary": "The Cleaners visit a town covered in graffiti, home to a painter who supplies their gear.",
+   "events": [
+    "Rudo sees the artist Remlin's work and learns the meaning behind the graffiti.",
+    "Rudo starts to connect the graffiti to his own past."
+   ]
+  },
+  {
+   "name": "Penta",
+   "part": "Season 1",
+   "eps": [
+    10,
+    13
+   ],
+   "ch": [
+    28,
+    43
+   ],
+   "summary": "A job sends Rudo, Enjin and their teammates into the desert wasteland of Penta, where a strange girl lives alone in a tower.",
+   "events": [
+    "Enjin collapses in the desert and the team splits up.",
+    "Amo uses her Vital Instrument to make people see what they want to see.",
+    "Amo's tragic past explains her mistrust of others."
+   ]
+  },
+  {
+   "name": "Raid on Cleaner HQ",
+   "part": "Season 1",
+   "eps": [
+    14,
+    23
+   ],
+   "ch": [
+    44,
+    84
+   ],
+   "summary": "A trash storm strikes as the Raiders launch a full assault on the Cleaners' headquarters.",
+   "events": [
+    "Zanka fights Jabber again during the attack.",
+    "The Raiders' Zodyl reveals experiments creating artificial Trash Beasts.",
+    "Rudo battles Zodyl, and the Raider Noerde is killed in the fighting."
+   ]
+  },
+  {
+   "name": "Field Trip",
+   "part": "Season 1",
+   "eps": [
+    24,
+    24
+   ],
+   "ch": [
+    84,
+    87
+   ],
+   "summary": "After the battle, the Cleaners recover and take the newcomers on an outing.",
+   "events": [
+    "Zanka recovers and Remlin apologizes.",
+    "The team returns to Canvas Town while Amo is kept under restraint."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/gachiakuta/"
+  ],
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Gachiakuta_episodes"
+  ],
+  [
+   "Anime Filler List",
+   "https://www.animefillerlist.com/shows/gachiakuta"
+  ]
+ ]
+}

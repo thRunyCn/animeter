@@ -1,0 +1,87 @@
+{
+ "id": "blueperiod",
+ "numbering": "Episodes numbered 1–12 (single season, 2021).",
+ "arcs": [
+  {
+   "name": "Awakening to Painting",
+   "part": "Season 1",
+   "eps": [
+    1,
+    2
+   ],
+   "ch": null,
+   "summary": "Yatora Yaguchi, a popular student who coasts through life, is moved by a painting and finds his first real passion.",
+   "events": [
+    "Yatora paints Shibuya at dawn and decides to pursue art.",
+    "Yatora sets his sights on Tokyo University of the Arts, Japan's hardest art school to enter."
+   ]
+  },
+  {
+   "name": "Art Prep School",
+   "part": "Season 1",
+   "eps": [
+    3,
+    6
+   ],
+   "ch": null,
+   "summary": "Yatora joins a prep school for art entrance exams and meets far more experienced rivals.",
+   "events": [
+    "Yatora meets the gifted Yotasuke Takahashi and the talented Maki Kuwana.",
+    "Yatora's lack of experience leads to a mental breakdown over his work."
+   ]
+  },
+  {
+   "name": "The First Exam",
+   "part": "Season 1",
+   "eps": [
+    7,
+    8
+   ],
+   "ch": null,
+   "summary": "The first stage of the Tokyo University of the Arts entrance exam arrives.",
+   "events": [
+    "Yatora sits the first exam and passes to the second round."
+   ]
+  },
+  {
+   "name": "Ryuji's Escape",
+   "part": "Season 1",
+   "eps": [
+    9,
+    10
+   ],
+   "ch": null,
+   "summary": "Yatora's friend Ryuji, struggling with identity and family pressure, drops out of their exam and runs away.",
+   "events": [
+    "Yatora joins Ryuji on a trip to the sea.",
+    "The two paint nude portraits of each other, and Yatora finds his own blue."
+   ]
+  },
+  {
+   "name": "The Second Exam",
+   "part": "Season 1",
+   "eps": [
+    11,
+    12
+   ],
+   "ch": null,
+   "summary": "Yatora takes the multi-day second exam that decides his future.",
+   "events": [
+    "Yatora battles self-doubt through the second exam's painting task.",
+    "Yatora is accepted into Tokyo University of the Arts."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Blue_Period_(manga)"
+  ]
+ ]
+}

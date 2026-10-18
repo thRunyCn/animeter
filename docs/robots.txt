@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thrunycn.github.io/animeter/sitemap.xml

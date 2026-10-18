@@ -1,0 +1,76 @@
+{
+ "id": "pingpong",
+ "numbering": "Episodes numbered 1–11 (single season, 2014).",
+ "arcs": [
+  {
+   "name": "Peco and Smile",
+   "part": "Season 1",
+   "eps": [
+    1,
+    2
+   ],
+   "ch": null,
+   "summary": "Childhood friends Peco and the emotionless Smile play table tennis at Katase High, where Peco is the star and Smile hides his talent.",
+   "events": [
+    "Peco is easily beaten by Kong Wenge, a Chinese player who failed to make his national team.",
+    "Coach Koizumi pushes Smile to play seriously."
+   ]
+  },
+  {
+   "name": "First Inter-High Preliminaries",
+   "part": "Season 1",
+   "eps": [
+    3,
+    4
+   ],
+   "ch": null,
+   "summary": "The Inter-High preliminaries bring the friends up against Kong, Kaio Academy and its ace Dragon.",
+   "events": [
+    "Smile holds back and loses to Kong.",
+    "Peco is beaten by his old friend Akuma, and Dragon wins the tournament."
+   ]
+  },
+  {
+   "name": "Falling and Rising",
+   "part": "Season 1",
+   "eps": [
+    5,
+    7
+   ],
+   "ch": null,
+   "summary": "After the tournament, the friends' paths split as Peco quits and Smile grows colder and stronger.",
+   "events": [
+    "Peco quits table tennis while Akuma is expelled from Kaio after an assault.",
+    "Akuma urges Peco to return, and Peco trains with veteran Obaba.",
+    "Smile rises in reputation under Koizumi's coaching."
+   ]
+  },
+  {
+   "name": "Second Inter-High",
+   "part": "Season 1",
+   "eps": [
+    8,
+    11
+   ],
+   "ch": null,
+   "summary": "A year later, the Inter-High preliminaries bring Peco back as a new hero.",
+   "events": [
+    "Peco defeats Kong, who stays in Japan.",
+    "Peco plays through a knee injury and defeats Dragon.",
+    "Peco and Smile face each other in the final, and years later their careers have diverged."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: the series adapts the complete manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Ping_Pong_(manga)"
+  ]
+ ]
+}

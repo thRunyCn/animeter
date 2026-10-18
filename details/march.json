@@ -1,0 +1,159 @@
+{
+ "id": "march",
+ "numbering": "Episodes numbered continuously 1–44 across both seasons (Season 2 is 23–44); the separate recap special is unnumbered.",
+ "arcs": [
+  {
+   "name": "Rei and the Kawamoto Sisters",
+   "part": "Season 1",
+   "eps": [
+    1,
+    5
+   ],
+   "ch": null,
+   "summary": "Rei Kiriyama, a 17-year-old professional shogi player living alone in Tokyo, finds warmth with three sisters in a riverside town.",
+   "events": [
+    "Akari, Hinata and Momo Kawamoto regularly feed and look after the lonely Rei.",
+    "Rei's past as a foster child in the Kōda family and his tense relationship with Kyōko are revealed.",
+    "Harunobu Nikaidō proudly declares himself Rei's lifelong rival."
+   ]
+  },
+  {
+   "name": "Year-End Matches",
+   "part": "Season 1",
+   "eps": [
+    6,
+    11
+   ],
+   "ch": null,
+   "summary": "Rei keeps playing official matches against older professionals while struggling with what he is playing shogi for.",
+   "events": [
+    "Rei faces the veteran Matsunaga, who is fighting to stay in the pro ranks.",
+    "Rei defeats Yasui in a Christmas-season match, aware it costs Yasui's family dearly.",
+    "Rei falls ill over New Year and the Kawamoto sisters nurse him back to health."
+   ]
+  },
+  {
+   "name": "Shimada and the Lion King Tournament",
+   "part": "Season 1",
+   "eps": [
+    12,
+    16
+   ],
+   "ch": null,
+   "summary": "Rei meets Kai Shimada, a hardworking A-class player, and starts to see shogi as something he can grow in alongside others.",
+   "events": [
+    "Rei joins Shimada's study group together with Nikaidō.",
+    "Rei loses to Shimada in an official match and is shaken by how much he still lacks.",
+    "Kyōko's visits reopen old wounds from Rei's foster home."
+   ]
+  },
+  {
+   "name": "Shimada vs Sōya in Kyoto",
+   "part": "Season 1",
+   "eps": [
+    17,
+    20
+   ],
+   "ch": null,
+   "summary": "Shimada challenges the reigning Meijin Tōji Sōya for the Lion King title, and Rei follows the match to Kyoto.",
+   "events": [
+    "Shimada fights through chronic stomach pain to play the title match.",
+    "Sōya defeats Shimada and keeps the Lion King title.",
+    "Rei resolves to become strong enough to reach the top himself."
+   ]
+  },
+  {
+   "name": "New School Term",
+   "part": "Season 1",
+   "eps": [
+    21,
+    22
+   ],
+   "ch": null,
+   "summary": "Spring arrives and Rei begins his second year of high school with a little more connection to the people around him.",
+   "events": [
+    "Rei finds a place at school through his teacher Hayashida and a small club.",
+    "Rei recommits to fighting in shogi on his own terms."
+   ]
+  },
+  {
+   "name": "Hina's Ordeal and the Rookie Tournament",
+   "part": "Season 2",
+   "eps": [
+    23,
+    35
+   ],
+   "ch": null,
+   "summary": "Hinata stands up for a bullied classmate and becomes a target herself, while Rei pushes for his first tournament win.",
+   "events": [
+    "Hina defends her friend Chiho, who is driven out of school by bullying, and the bullies turn on Hina.",
+    "Rei vows to help Hina and throws himself into the Rookie Tournament.",
+    "Rei wins the Rookie Tournament, while Nikaidō's chronic illness becomes clear.",
+    "The school, with teacher Kokubu stepping in, confronts the bullies and Hina regains her footing."
+   ]
+  },
+  {
+   "name": "White Storm: Rei vs Sōya",
+   "part": "Season 2",
+   "eps": [
+    36,
+    38
+   ],
+   "ch": null,
+   "summary": "As Rookie King, Rei earns a commemorative match against Meijin Sōya in Morioka.",
+   "events": [
+    "Rei plays strongly but one slip lets Sōya win quickly.",
+    "A train stoppage leaves Rei and Sōya stranded together overnight, and Rei glimpses Sōya's hearing problem."
+   ]
+  },
+  {
+   "name": "Burnt Fields: The Kishō Title",
+   "part": "Season 2",
+   "eps": [
+    39,
+    40
+   ],
+   "ch": null,
+   "summary": "The aging champion Sakutarō Yanagihara defends his Kishō title against Shimada while carrying the hopes of his generation.",
+   "events": [
+    "Yanagihara struggles with age and the weight of his peers' expectations.",
+    "Yanagihara defeats Shimada and becomes Eternal Kishō."
+   ]
+  },
+  {
+   "name": "Summer to Spring",
+   "part": "Season 2",
+   "eps": [
+    41,
+    44
+   ],
+   "ch": null,
+   "summary": "Seasons pass for Rei and the Kawamoto family as Hina faces high school entrance exams.",
+   "events": [
+    "Rei helps Hina prepare for her high school entrance exams.",
+    "Hina passes and spring arrives with a fresh start for her and Rei.",
+    "An extra chapter looks at the Kōda household from another angle."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga (the recap special is a separate, unnumbered release)."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/3-gatsu-no-lion/"
+  ],
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_March_Comes_in_Like_a_Lion_episodes"
+  ],
+  [
+   "Random Curiosity",
+   "https://randomc.net/?p=17832"
+  ]
+ ]
+}

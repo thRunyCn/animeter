@@ -1,0 +1,1 @@
+window.ANIMETER_CONFIG={"supabaseUrl": "https://ktqchxzcgsnyfjahntjt.supabase.co", "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt0cWNoeHpjZ3NueWZqYWhudGp0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIzMzA1ODYsImV4cCI6MjEwNzkwNjU4Nn0.kZWU5_bE-tbeqCPp9FHJRUdGGftbqzynBuGMUgEUBew"};

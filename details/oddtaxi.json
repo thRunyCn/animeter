@@ -1,0 +1,77 @@
+{
+ "id": "oddtaxi",
+ "numbering": "Episodes numbered 1-13 in broadcast order; the film In the Woods has no episode number.",
+ "arcs": [
+  {
+   "name": "Fares and Strangers",
+   "part": "TV series",
+   "eps": [
+    1,
+    4
+   ],
+   "ch": null,
+   "summary": "Grumpy walrus taxi driver Odokawa gets entangled in a missing-girl case through his passengers.",
+   "events": [
+    "Gangster Dobu takes the SD card from Odokawa's dashcam.",
+    "Odokawa's doctor Goriki and nurse Shirakawa are introduced."
+   ]
+  },
+  {
+   "name": "The Net Tightens",
+   "part": "TV series",
+   "eps": [
+    5,
+    9
+   ],
+   "ch": null,
+   "summary": "The passengers' stories start to connect around Mystery Kiss's missing member.",
+   "events": [
+    "Yuki Mitsuya of Mystery Kiss goes missing.",
+    "Shirakawa is revealed to be selling stolen medication.",
+    "A shootout at Shibaura Wharf wounds Dobu."
+   ]
+  },
+  {
+   "name": "Endgame",
+   "part": "TV series",
+   "eps": [
+    10,
+    13
+   ],
+   "ch": null,
+   "summary": "Flashbacks reveal the truth about Mitsuya and the bank heist goes bad.",
+   "events": [
+    "Mitsuya's body is found and the cover-up is exposed.",
+    "The 'Odd Taxi' bank robbery ends in a chase.",
+    "Odokawa is shown to see people as animals due to visual agnosia, and the real killer gets into his taxi."
+   ]
+  },
+  {
+   "name": "Odd Taxi: In the Woods",
+   "part": "Film",
+   "eps": null,
+   "ch": null,
+   "summary": "A film that retells the series through interviews and adds events set after the TV finale.",
+   "events": [
+    "The case is reconstructed from the perspective of those involved.",
+    "The film continues past the TV ending."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "Anime original, so there's no filler."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/Odd_Taxi"
+  ],
+  [
+   "Anime Corner",
+   "https://animecorner.me/oddtaxi-anime-film-set-for-april-2022/"
+  ]
+ ]
+}

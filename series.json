@@ -1,0 +1,2327 @@
+[
+ {
+  "id": "frieren",
+  "title": "Frieren: Beyond Journey's End",
+  "jp": "葬送のフリーレン",
+  "tone": "#5b8f86",
+  "eps": 28,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 60
+   },
+   {
+    "l": "Season 2",
+    "end": 80
+   }
+  ],
+  "next": "81",
+  "nextNum": 81,
+  "total": null,
+  "note": "Season 2 stops partway through Volume 9, so start Chapter 81 inside that volume.",
+  "src": [
+   [
+    "Aniflixy",
+    "https://aniflixy.com/where-to-read-frieren-manga-after-season-2-the-ultimate-guide-for-fans/"
+   ],
+   [
+    "ONE Esports",
+    "https://www.oneesports.gg/anime/where-does-frieren-anime-end-in-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "jjk",
+  "title": "Jujutsu Kaisen",
+  "jp": "呪術廻戦",
+  "tone": "#3b3f8f",
+  "eps": 24,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 137
+   },
+   {
+    "l": "Season 3 Part 1",
+    "end": 180
+   }
+  ],
+  "next": "181",
+  "nextNum": 181,
+  "total": 271,
+  "note": "Chapter 181 opens the Tokyo No. 2 Colony. The manga is finished at 271 chapters.",
+  "src": [
+   [
+    "Bored Panda",
+    "https://www.boredpanda.com/finished-jujutsu-kaisen-season-3-where-to-continue-the-manga/"
+   ],
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/jujutsu-kaisen-where-start-manga-season-2-finale-explained"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/jujutsu-kaisen-manga-ends-with-chapter-271/"
+   ]
+  ]
+ },
+ {
+  "id": "csm",
+  "title": "Chainsaw Man",
+  "jp": "チェンソーマン",
+  "tone": "#c2462f",
+  "eps": 12,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   },
+   {
+    "l": "Reze Arc film",
+    "end": 52
+   }
+  ],
+  "next": "53",
+  "nextNum": 53,
+  "total": null,
+  "note": "The Reze Arc film covers Chapters 40 to 52, so the story picks up at Chapter 53.",
+  "src": [
+   [
+    "ONE Esports",
+    "https://www.oneesports.gg/anime/chainsaw-man-movie-reze-arc"
+   ],
+   [
+    "ComingSoon",
+    "https://www.comingsoon.net/?p=1448451"
+   ]
+  ]
+ },
+ {
+  "id": "kny",
+  "title": "Demon Slayer",
+  "jp": "鬼滅の刃",
+  "tone": "#2f7a5f",
+  "eps": 26,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–4",
+    "end": 139
+   },
+   {
+    "l": "Infinity Castle film 1",
+    "end": 157
+   }
+  ],
+  "next": "158",
+  "nextNum": 158,
+  "total": 205,
+  "note": "The first Infinity Castle film ends at Chapter 157. The manga is finished at 205 chapters.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-first-demon-slayer-infinity-castle-movie-leave-manga-explained"
+   ]
+  ]
+ },
+ {
+  "id": "vinland",
+  "title": "Vinland Saga",
+  "jp": "ヴィンランド・サガ",
+  "tone": "#7a6a4a",
+  "eps": 24,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 100
+   }
+  ],
+  "next": "101",
+  "nextNum": 101,
+  "total": null,
+  "note": "The Season 2 finale adapts Chapter 100. Re-read it for a smooth start, or jump to 101.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-pick-vinland-saga-manga-season-2-explained"
+   ]
+  ]
+ },
+ {
+  "id": "sololeveling",
+  "title": "Solo Leveling",
+  "jp": "나 혼자만 레벨업",
+  "tone": "#3a5fa8",
+  "eps": 12,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 110
+   }
+  ],
+  "next": "111",
+  "nextNum": 111,
+  "total": null,
+  "note": "Chapter numbers are for the webtoon (manhwa), which is the comic the anime adapts.",
+  "src": [
+   [
+    "The Mary Sue",
+    "https://www.themarysue.com/heres-exactly-where-solo-leveling-season-2-ends-in-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "dandadan",
+  "title": "Dandadan",
+  "jp": "ダンダダン",
+  "tone": "#b1418e",
+  "eps": 12,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   },
+   {
+    "l": "Season 2",
+    "end": 71
+   }
+  ],
+  "next": "72",
+  "nextNum": 72,
+  "total": null,
+  "note": "Chapter 72 starts a new arc and sits in Volume 9.",
+  "src": [
+   [
+    "Soap Central",
+    "https://ww4.soapcentral.com/anime/where-pick-up-dandadan-manga-after-season-2-ended-explained"
+   ]
+  ]
+ },
+ {
+  "id": "oshinoko",
+  "title": "Oshi no Ko",
+  "jp": "【推しの子】",
+  "tone": "#c94f7c",
+  "eps": 11,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 127
+   }
+  ],
+  "next": "127",
+  "nextNum": 127,
+  "total": 166,
+  "note": "Season 3 stops partway through Chapter 127, so start from the middle of it. The manga is finished at 166 chapters.",
+  "src": [
+   [
+    "Dexerto (FR)",
+    "https://www.dexerto.fr/anime/ou-reprendre-manga-oshi-no-ko-episode-final-saison-3-1643634/"
+   ]
+  ]
+ },
+ {
+  "id": "spyfamily",
+  "title": "Spy × Family",
+  "jp": "SPY×FAMILY",
+  "tone": "#5f7f3a",
+  "eps": 25,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 87
+   }
+  ],
+  "next": "88",
+  "nextNum": 88,
+  "total": null,
+  "unit": "Mission",
+  "note": "The manga numbers its chapters as Missions. Season 3 ends on Mission 87.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Spy_%C3%97_Family_season_3"
+   ]
+  ],
+  "unitShort": "M. "
+ },
+ {
+  "id": "hxh",
+  "title": "Hunter × Hunter",
+  "jp": "HUNTER×HUNTER",
+  "tone": "#3f8a4d",
+  "eps": 148,
+  "epsLabel": "2011 series",
+  "seasons": [
+   {
+    "l": "2011 series",
+    "end": 339
+   }
+  ],
+  "next": "340",
+  "nextNum": 340,
+  "total": null,
+  "note": "The 2011 anime ends with the Chairman Election. Chapter 340 begins the Dark Continent Expedition.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/hunter-x-hunter-where-pick-manga-anime"
+   ]
+  ]
+ },
+ {
+  "id": "neverland",
+  "title": "The Promised Neverland",
+  "jp": "約束のネバーランド",
+  "tone": "#4f6c8c",
+  "eps": 12,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 37
+   }
+  ],
+  "next": "38",
+  "nextNum": 38,
+  "total": 181,
+  "note": "Season 2 leaves the manga's story, so readers usually continue from Chapter 38 right after Season 1.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Promised_Neverland_season_1"
+   ]
+  ]
+ },
+ {
+  "id": "aot",
+  "title": "Attack on Titan",
+  "jp": "進撃の巨人",
+  "tone": "#6b5a4a",
+  "eps": 25,
+  "epsLabel": "Season 1",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 139
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 139,
+  "note": "The anime adapts the whole manga through its final Chapter 139, so there is nothing left to continue.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/attack-on-titan-anime-officially-ends/"
+   ]
+  ]
+ },
+ {
+  "id": "fmab",
+  "title": "Fullmetal Alchemist: Brotherhood",
+  "jp": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+  "eps": 64,
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "Brotherhood",
+    "end": 108
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 108,
+  "note": "Brotherhood follows the whole 27-volume manga to its ending, so there is nothing left to read.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Fullmetal_Alchemist"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist:_Brotherhood_episodes"
+   ]
+  ]
+ },
+ {
+  "id": "deathnote",
+  "title": "Death Note",
+  "jp": "デスノート",
+  "eps": 37,
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "Anime",
+    "end": 107
+   }
+  ],
+  "next": "108",
+  "nextNum": 108,
+  "total": 108,
+  "note": "The anime reaches the ending but compresses Chapters 60 to 108, changes the final scenes and skips the Chapter 108 epilogue in Volume 12.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Death_Note"
+   ],
+   [
+    "Mangashed",
+    "https://mangashed.com/does-death-note-anime-cover-the-whole-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "naruto",
+  "title": "Naruto",
+  "jp": "NARUTO -ナルト-",
+  "epsLabel": "Original series",
+  "seasons": [
+   {
+    "l": "Naruto",
+    "end": 238
+   },
+   {
+    "l": "Shippuden",
+    "end": 700
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 700,
+  "note": "Shippuden finishes the manga at Chapter 700 in episode 479. Skip the filler arcs and you lose nothing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2019/06/naruto-filler-list.html"
+   ],
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2019/06/naruto-shippuden-filler-list.html"
+   ]
+  ]
+ },
+ {
+  "id": "mob",
+  "title": "Mob Psycho 100",
+  "jp": "モブサイコ100",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 101
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 101,
+  "note": "Season 3 ends on Chapter 101, the manga's final chapter, so the anime tells the complete story.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/will-mob-psycho-100-season-4-explained"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Mob_Psycho_100"
+   ]
+  ]
+ },
+ {
+  "id": "mha",
+  "title": "My Hero Academia",
+  "jp": "僕のヒーローアカデミア",
+  "seasons": [
+   {
+    "l": "Seasons 1–8",
+    "end": 430
+   },
+   {
+    "l": "\"More\" special",
+    "end": 431
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 431,
+  "note": "Season 8 ended in December 2025 at Chapter 430 and the 2026 special adapts the bonus chapter, so nothing is left to read.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/My_Hero_Academia_season_8"
+   ]
+  ]
+ },
+ {
+  "id": "bleach",
+  "title": "Bleach",
+  "jp": "BLEACH",
+  "epsLabel": "2004 series",
+  "seasons": [
+   {
+    "l": "Bleach (2004)",
+    "end": 479
+   },
+   {
+    "l": "TYBW Parts 1–3",
+    "end": 661
+   }
+  ],
+  "next": "661",
+  "nextNum": 661,
+  "total": 686,
+  "note": "Part 3 stops partway through Chapter 661. Part 4 is airing now and its finale (26 Oct 2026) is expected to reach the end, so this point will move.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/where-bleach-thousand-year-blood-war-part-3-leave-manga-explained"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War"
+   ]
+  ]
+ },
+ {
+  "id": "haikyuu",
+  "title": "Haikyu!!",
+  "jp": "ハイキュー!!",
+  "seasons": [
+   {
+    "l": "Seasons 1–4",
+    "end": 292
+   },
+   {
+    "l": "The Dumpster Battle",
+    "end": 325
+   }
+  ],
+  "next": "326",
+  "nextNum": 326,
+  "total": 402,
+  "note": "Chapter 326 picks up a match the anime skips. Jump to 338 to stay with Karasuno. Guides differ by a chapter on where the film ends.",
+  "src": [
+   [
+    "Deltia's Gaming",
+    "https://deltiasgaming.com/?p=91406"
+   ],
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=281"
+   ]
+  ]
+ },
+ {
+  "id": "opm",
+  "title": "One-Punch Man",
+  "jp": "ワンパンマン",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 85
+   },
+   {
+    "l": "Season 3 Part 1",
+    "end": 116
+   }
+  ],
+  "next": "117",
+  "nextNum": 117,
+  "total": null,
+  "note": "Chapter numbers follow Yusuke Murata's manga, not ONE's webcomic. Chapter 117 is in VIZ Volume 24.",
+  "src": [
+   [
+    "OtakuPeople",
+    "https://otakupeople.com/read-next/one-punch-man"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/One-Punch_Man_season_3"
+   ]
+  ]
+ },
+ {
+  "id": "bluelock",
+  "title": "Blue Lock",
+  "jp": "ブルーロック",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 94
+   },
+   {
+    "l": "Season 2",
+    "end": 149
+   }
+  ],
+  "next": "150",
+  "nextNum": 150,
+  "total": null,
+  "note": "Chapter 150, \"Holiday\", opens Volume 18. The Episode Nagi film adapts a spin-off, so it doesn't move this point.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/where-to-continue-blue-lock-manga-after-season-2-of-the-anime/"
+   ],
+   [
+    "Soap Central",
+    "https://www.soapcentral.com/anime/where-pick-up-blue-lock-manga-after-anime"
+   ]
+  ]
+ },
+ {
+  "id": "kaiju8",
+  "title": "Kaiju No. 8",
+  "jp": "怪獣8号",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 38
+   },
+   {
+    "l": "Season 2",
+    "end": 83
+   }
+  ],
+  "next": "84",
+  "nextNum": 84,
+  "total": 129,
+  "note": "Season 2 trims the Kikoru fight, so starting at Chapter 80 in Volume 10 is worth it. The manga is finished at 129 chapters.",
+  "src": [
+   [
+    "ONE Esports",
+    "https://www.oneesports.gg/anime/where-does-the-kaiju-no-8-anime-end-in-the-manga"
+   ],
+   [
+    "Dexerto (FR)",
+    "https://www.dexerto.fr/anime/kaiju-no-8-saison-2-ou-reprendre-manga-1624075/"
+   ]
+  ]
+ },
+ {
+  "id": "hellsparadise",
+  "title": "Hell's Paradise",
+  "jp": "地獄楽",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 59
+   },
+   {
+    "l": "Season 2",
+    "end": 89
+   }
+  ],
+  "next": "90",
+  "nextNum": 90,
+  "total": 127,
+  "note": "Start at Chapter 90 in Volume 10. Season 2 borrowed one scene from Chapter 94, so you'll see it again.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hell%27s_Paradise_season_2"
+   ],
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-start-hell-s-paradise-jigokuraku-manga-anime-explained"
+   ]
+  ]
+ },
+ {
+  "id": "tokyorev",
+  "title": "Tokyo Revengers",
+  "jp": "東京卍リベンジャーズ",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 185
+   }
+  ],
+  "next": "186",
+  "nextNum": 186,
+  "total": 278,
+  "note": "Season 4, the final arc, started airing on 2 Oct 2026, so this point will move as it goes.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/where-read-tokyo-revengers-manga-season-3"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Tokyo_Revengers"
+   ]
+  ]
+ },
+ {
+  "id": "kaguya",
+  "title": "Kaguya-sama: Love Is War",
+  "jp": "かぐや様は告らせたい",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 138
+   },
+   {
+    "l": "The First Kiss Never Ends",
+    "end": 151
+   }
+  ],
+  "next": "152",
+  "nextNum": 152,
+  "total": 281,
+  "note": "Start at Chapter 152, around Volume 16. The 2025 TV special only picks a few later moments, so it doesn't replace the manga.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kaguya-sama-love-is-war-anime-leave-off-in-the-manga/"
+   ],
+   [
+    "AniTrendz",
+    "https://anitrendz.net/news/2025/12/31/kaguya-sama-love-is-war-anime-to-end-with-a-movie/"
+   ]
+  ]
+ },
+ {
+  "id": "drstone",
+  "title": "Dr. Stone",
+  "jp": "Dr.STONE",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 82
+   },
+   {
+    "l": "New World",
+    "end": 142
+   },
+   {
+    "l": "Science Future",
+    "end": 232
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 232,
+  "note": "The anime ended in June 2026 after covering the whole 232-chapter story. Only the short Byakuya spin-off is left to read.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/dr-stone-anime-ends-after-seven-years-and-95-episodes/"
+   ],
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-dr-stone-anime-leave-off-in-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "sakamoto",
+  "title": "Sakamoto Days",
+  "jp": "SAKAMOTO DAYS",
+  "seasons": [
+   {
+    "l": "Season 1 (Parts 1–2)",
+    "end": 73
+   }
+  ],
+  "next": "74",
+  "nextNum": 74,
+  "total": null,
+  "note": "Chapter 74 opens the JCC Infiltration arc. One guide says 76, so 74 is the safe start. Season 2 arrives January 2027.",
+  "src": [
+   [
+    "Anime Explained",
+    "https://www.animeexplained.com/news/sakamoto-days-season-2-reveals-2027-release-date/"
+   ],
+   [
+    "TechWiser",
+    "https://techwiser.com/where-to-start-sakamoto-days-manga-after-season-1-explained/"
+   ]
+  ]
+ },
+ {
+  "id": "fireforce",
+  "title": "Fire Force",
+  "jp": "炎炎ノ消防隊",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 174
+   },
+   {
+    "l": "Season 3 Part 1",
+    "end": 217
+   },
+   {
+    "l": "Season 3 Part 2",
+    "end": 304
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 304,
+  "note": "The anime finished the story in April 2026, but its last 13 episodes squeeze in about 88 chapters. Reading from Chapter 218 gives you a lot the anime cut.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/fire-force-anime-officially-ends-with-season-3-finale-reveals-special-opening-visual/"
+   ],
+   [
+    "Soap Central",
+    "https://www.soapcentral.com/anime/how-many-chapters-will-fire-force-final-season-adapt-episode-structure-breakdown"
+   ]
+  ]
+ },
+ {
+  "id": "mashle",
+  "title": "Mashle: Magic and Muscles",
+  "jp": "マッシュル-MASHLE-",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 38
+   },
+   {
+    "l": "Season 2",
+    "end": 74
+   }
+  ],
+  "next": "75",
+  "nextNum": 75,
+  "total": 162,
+  "note": "Chapter 75 starts the Divine Visionary final exam arc. Season 3 isn't due until January 2027.",
+  "src": [
+   [
+    "ONE Esports",
+    "https://www.oneesports.gg/anime/where-does-the-mashle-anime-end-in-the-manga"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/mashle-magic-and-muscles-season-3-first-trailer-and-january-2027-release-date-revealed/"
+   ]
+  ]
+ },
+ {
+  "id": "tokyoghoul",
+  "title": "Tokyo Ghoul",
+  "jp": "東京喰種トーキョーグール",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 69
+   }
+  ],
+  "next": "70",
+  "nextNum": 70,
+  "total": 143,
+  "note": "Season √A leaves the manga, so read the original from Chapter 70 to 143, then Tokyo Ghoul:re from Chapter 1. The :re anime cuts a lot.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2020/05/tokyo-ghoul-filler-list.html"
+   ]
+  ]
+ },
+ {
+  "id": "bebop",
+  "title": "Cowboy Bebop",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original. The film fits between episodes 22 and 23, and the manga versions are side stories.",
+  "src": []
+ },
+ {
+  "id": "eva",
+  "title": "Neon Genesis Evangelion",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original. Watch The End of Evangelion after the series for its full ending.",
+  "src": []
+ },
+ {
+  "id": "codegeass",
+  "title": "Code Geass: Lelouch of the Rebellion",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original. R2 finishes the story.",
+  "src": []
+ },
+ {
+  "id": "gurrenlagann",
+  "title": "Gurren Lagann",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original, so the show is the whole story.",
+  "src": []
+ },
+ {
+  "id": "madoka",
+  "title": "Puella Magi Madoka Magica",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original. The story continues in the film Rebellion.",
+  "src": []
+ },
+ {
+  "id": "champloo",
+  "title": "Samurai Champloo",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original, so the show is the whole story.",
+  "src": []
+ },
+ {
+  "id": "edgerunners",
+  "title": "Cyberpunk: Edgerunners",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original set in the world of the Cyberpunk 2077 game.",
+  "src": []
+ },
+ {
+  "id": "oddtaxi",
+  "title": "Odd Taxi",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original, so the show is the whole story.",
+  "src": []
+ },
+ {
+  "id": "sonnyboy",
+  "title": "Sonny Boy",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original, so the show is the whole story.",
+  "src": []
+ },
+ {
+  "id": "lycoris",
+  "title": "Lycoris Recoil",
+  "kind": "original",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "An anime original, so the show is the whole story.",
+  "src": []
+ },
+ {
+  "id": "steinsgate",
+  "title": "Steins;Gate",
+  "kind": "vn",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a visual novel. Steins;Gate 0 follows the alternate route from episode 23.",
+  "src": []
+ },
+ {
+  "id": "clannad",
+  "title": "Clannad",
+  "kind": "vn",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a visual novel. Watch Clannad: After Story next to finish it.",
+  "src": []
+ },
+ {
+  "id": "rezero",
+  "title": "Re:Zero − Starting Life in Another World",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
+  "src": []
+ },
+ {
+  "id": "mushoku",
+  "title": "Mushoku Tensei: Jobless Reincarnation",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
+  "src": []
+ },
+ {
+  "id": "apothecary",
+  "title": "The Apothecary Diaries",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues. There are also two separate manga versions.",
+  "src": []
+ },
+ {
+  "id": "spicewolf",
+  "title": "Spice and Wolf",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
+  "src": []
+ },
+ {
+  "id": "konosuba",
+  "title": "KonoSuba: God's Blessing on This Wonderful World!",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
+  "src": []
+ },
+ {
+  "id": "eightysix",
+  "title": "86 Eighty-Six",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
+  "src": []
+ },
+ {
+  "id": "violet",
+  "title": "Violet Evergarden",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel. The series and the 2020 film together finish the story.",
+  "src": []
+ },
+ {
+  "id": "toradora",
+  "title": "Toradora!",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel. The anime adapts the whole main story.",
+  "src": []
+ },
+ {
+  "id": "haruhi",
+  "title": "The Melancholy of Haruhi Suzumiya",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues. The Disappearance film comes after the 2009 broadcast.",
+  "src": []
+ },
+ {
+  "id": "oregairu",
+  "title": "My Teen Romantic Comedy SNAFU",
+  "kind": "novel",
+  "seasons": [],
+  "next": null,
+  "nextNum": null,
+  "total": null,
+  "note": "Based on a light novel. Season 3 finishes the main story, and a sequel novel series continues it.",
+  "src": []
+ },
+ {
+  "id": "onepiece",
+  "title": "One Piece",
+  "eps": 61,
+  "epsLabel": "East Blue arc",
+  "seasons": [
+   {
+    "l": "Through Wano",
+    "end": 1138
+   },
+   {
+    "l": "Elbaph Part 1",
+    "end": 1150
+   }
+  ],
+  "next": "1151",
+  "nextNum": 1151,
+  "total": null,
+  "note": "Episode 1180 ended the first Elbaph part and the anime is on break until 2027. Guides put the end at Chapter 1150 or 1151.",
+  "src": [
+   [
+    "Dexerto (FR)",
+    "https://www.dexerto.fr/anime/one-piece-episode-1180-final-elbaph-saison-1-informations-1659498/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/One_Piece_season_22"
+   ]
+  ]
+ },
+ {
+  "id": "jojo",
+  "title": "JoJo's Bizarre Adventure",
+  "unit": "Steel Ball Run chapter",
+  "unitShort": "SBR ",
+  "seasons": [
+   {
+    "l": "Steel Ball Run so far",
+    "end": 23
+   }
+  ],
+  "next": "24",
+  "nextNum": 24,
+  "total": null,
+  "note": "Parts 1 to 6 are fully animated. Steel Ball Run (Part 7) is airing weekly on Netflix, so this point moves every week. SBR Chapter 24 is overall Chapter 776.",
+  "src": [
+   [
+    "JoJo Wiki",
+    "https://jojowiki.com/SBR_Episode_5"
+   ],
+   [
+    "JoJo Wiki",
+    "https://jojowiki.com/Steel_Ball_Run_(Anime)"
+   ]
+  ]
+ },
+ {
+  "id": "blackclover",
+  "title": "Black Clover",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 270
+   }
+  ],
+  "next": "270",
+  "nextNum": 270,
+  "total": 392,
+  "note": "Episode 170 stops partway through Chapter 270, so start at page 14 of it. Season 2 started on 3 Oct 2026, so this point will move.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/what-chapter-does-black-clover-anime-end/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/black-clover-season-2-announces-october-3-premiere/"
+   ]
+  ]
+ },
+ {
+  "id": "fairytail",
+  "title": "Fairy Tail",
+  "seasons": [
+   {
+    "l": "Main series",
+    "end": 545
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 545,
+  "note": "The main anime covers the whole manga. The sequel, 100 Years Quest, has its own manga and a 2024 anime.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/fairy-tail/"
+   ]
+  ]
+ },
+ {
+  "id": "parasyte",
+  "title": "Parasyte -the maxim-",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 64
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 64,
+  "note": "The 24 episodes cover the whole 64-chapter manga. The setting moves to the present day, but the story is complete.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Parasyte"
+   ]
+  ]
+ },
+ {
+  "id": "monster",
+  "title": "Monster",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 162
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 162,
+  "note": "A faithful adaptation of all 162 chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Monster_episodes"
+   ]
+  ]
+ },
+ {
+  "id": "berserk",
+  "title": "Berserk",
+  "epsLabel": "1997 series",
+  "seasons": [
+   {
+    "l": "1997 series",
+    "end": 87
+   }
+  ],
+  "next": "88",
+  "nextNum": 88,
+  "total": null,
+  "note": "The anime ends at the Eclipse (Volume 13), so Chapter 88 picks up. Many fans start from Chapter 1 instead, because the anime skips the opening Black Swordsman arc.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-berserk-anime-leave-off-in-the-manga/"
+   ],
+   [
+    "Quote The Anime",
+    "https://quotetheanime.com/start-manga/berserk/"
+   ]
+  ]
+ },
+ {
+  "id": "gintama",
+  "title": "Gintama",
+  "seasons": [
+   {
+    "l": "TV series + The Very Final",
+    "end": 704
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 704,
+  "note": "The 2021 film The Very Final adapts the manga's ending, so the whole story is animated.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Gintama:_The_Very_Final"
+   ]
+  ]
+ },
+ {
+  "id": "assclass",
+  "title": "Assassination Classroom",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 180
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 180,
+  "note": "Season 2 runs to the final chapter. The 2026 film adds scenes the TV series cut.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Assassination_Classroom"
+   ]
+  ]
+ },
+ {
+  "id": "fruitsbasket",
+  "title": "Fruits Basket",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 136
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 136,
+  "note": "The 2019 remake covers all 23 volumes. For more, read the sequel manga Fruits Basket Another.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)"
+   ]
+  ]
+ },
+ {
+  "id": "nana",
+  "title": "NANA",
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "TV series",
+    "end": 42
+   }
+  ],
+  "next": "43",
+  "nextNum": 43,
+  "total": null,
+  "note": "The anime ends at the first chapter of Volume 12. The manga stops at Chapter 84 and has been on hiatus since 2009.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Nana_(manga)"
+   ],
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-nana-anime-leave-off-in-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "madeinabyss",
+  "title": "Made in Abyss",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 26
+   },
+   {
+    "l": "Deep Soul film",
+    "end": 38
+   },
+   {
+    "l": "The Golden City",
+    "end": 60
+   }
+  ],
+  "next": "61",
+  "nextNum": 61,
+  "total": null,
+  "note": "Chapter 61 opens Volume 11. Don't skip the Dawn of the Deep Soul film between the seasons.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=276"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Made_in_Abyss_volumes"
+   ]
+  ]
+ },
+ {
+  "id": "goldenkamuy",
+  "title": "Golden Kamuy",
+  "seasons": [
+   {
+    "l": "Seasons 1–4",
+    "end": 244
+   },
+   {
+    "l": "Final Season",
+    "end": 302
+   }
+  ],
+  "next": "303",
+  "nextNum": 303,
+  "total": 314,
+  "note": "The Final Season stops at Chapter 302. The last 12 chapters are due to be animated in an announced continuation, so read them now or wait.",
+  "src": [
+   [
+    "Anime Explained",
+    "https://www.animeexplained.com/?p=35283"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Golden_Kamuy"
+   ]
+  ]
+ },
+ {
+  "id": "march",
+  "title": "March Comes in Like a Lion",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 89
+   }
+  ],
+  "next": "90",
+  "nextNum": 90,
+  "total": null,
+  "note": "Chapter 90 is in Volume 9. No new anime has been announced.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/3-gatsu-no-lion/"
+   ]
+  ]
+ },
+ {
+  "id": "mushishi",
+  "title": "Mushishi",
+  "seasons": [
+   {
+    "l": "Both series + film",
+    "end": 50
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 50,
+  "note": "Mushishi is episodic and the anime tells the stories out of order, but nearly every chapter is animated. Read the manga from Volume 1 for the art.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Mushishi"
+   ],
+   [
+    "Mushishi Wiki",
+    "https://mushishi.fandom.com/wiki/Mushishi_(manga)"
+   ]
+  ]
+ },
+ {
+  "id": "bocchi",
+  "title": "Bocchi the Rock!",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "next": "22",
+  "nextNum": 22,
+  "total": null,
+  "note": "Guides differ by a chapter, so start at 21 to be safe. Season 2 is in production.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/bocchi-the-rock/"
+   ],
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/is-bocchi-rock-over-status-manga-anime-explained"
+   ]
+  ]
+ },
+ {
+  "id": "komi",
+  "title": "Komi Can't Communicate",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 129
+   }
+  ],
+  "next": "130",
+  "nextNum": 130,
+  "total": 499,
+  "note": "Season 2 ends after the Valentine's Day arc. The manga is finished at 499 chapters.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/is-komi-can-t-communicate-over-status-manga-anime-explained"
+   ]
+  ]
+ },
+ {
+  "id": "horimiya",
+  "title": "Horimiya",
+  "seasons": [
+   {
+    "l": "2021 series + The Missing Pieces",
+    "end": 122
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 122,
+  "note": "The 2021 series tells the main story and The Missing Pieces animates the side chapters it skipped, so together they cover the manga.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/horimiya-the-missing-pieces-episode-1-release-date-time-watch-chapters-adapted"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Horimiya"
+   ]
+  ]
+ },
+ {
+  "id": "blueperiod",
+  "title": "Blue Period",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 25
+   }
+  ],
+  "next": "26",
+  "nextNum": 26,
+  "total": null,
+  "note": "Chapter 26 opens Volume 6 and the university arc. No Season 2 has been announced.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/is-blue-period-over-status-manga-anime-explained"
+   ]
+  ]
+ },
+ {
+  "id": "ippo",
+  "title": "Hajime no Ippo",
+  "seasons": [
+   {
+    "l": "Seasons 1–3",
+    "end": 557
+   }
+  ],
+  "next": "558",
+  "nextNum": 558,
+  "total": null,
+  "note": "Rising (2013) is still the latest anime. Chapter 558 is in Volume 61.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/how-watch-hajime-ippo-complete-watch-order-explained"
+   ],
+   [
+    "Critical Hits",
+    "https://criticalhits.com.br/anime/hajime-no-ippo-lista-de-fillers-e-ordem-correta-para-assistir/"
+   ]
+  ]
+ },
+ {
+  "id": "slamdunk",
+  "title": "Slam Dunk",
+  "seasons": [
+   {
+    "l": "TV series",
+    "end": 197
+   }
+  ],
+  "next": "198",
+  "nextNum": 198,
+  "total": 276,
+  "note": "The TV anime stops after the Ryonan game. The First Slam Dunk film covers only the final Sannoh match, so read from Chapter 198 for everything in between.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/slam-dunk/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_First_Slam_Dunk"
+   ]
+  ]
+ },
+ {
+  "id": "pingpong",
+  "title": "Ping Pong the Animation",
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 55
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 55,
+  "note": "The 11 episodes adapt the whole 5-volume manga. Read it for Matsumoto's original art.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Ping_Pong_(manga)"
+   ]
+  ]
+ },
+ {
+  "id": "dorohedoro",
+  "title": "Dorohedoro",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 42
+   },
+   {
+    "l": "Season 2",
+    "end": 79
+   }
+  ],
+  "next": "80",
+  "nextNum": 80,
+  "total": 167,
+  "note": "Chapter 80 opens Volume 14. A third season has been announced.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=163"
+   ],
+   [
+    "Dexerto (FR)",
+    "https://www.dexerto.fr/anime/quel-chapitre-manga-dorohedoro-correspond-final-saison-2-anime-1649693/"
+   ]
+  ]
+ },
+ {
+  "id": "dungeonmeshi",
+  "title": "Delicious in Dungeon",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 52
+   }
+  ],
+  "next": "53",
+  "nextNum": 53,
+  "total": 97,
+  "note": "Chapter 53 opens Volume 8. Season 2 is set for October 2027.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-start-delicious-dungeon-manga-season-1-explained"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/delicious-in-dungeon-season-2-reveals-october-2027-netflix-release-date/"
+   ]
+  ]
+ },
+ {
+  "id": "undeadunluck",
+  "title": "Undead Unluck",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 52
+   },
+   {
+    "l": "Winter special",
+    "end": 56
+   }
+  ],
+  "next": "57",
+  "nextNum": 57,
+  "total": 239,
+  "note": "The December 2025 special covers the Winter arc. Chapter 57 starts the Summer arc, where Season 2 will pick up.",
+  "src": [
+   [
+    "Anime Explained",
+    "https://www.animeexplained.com/news/undead-unluck-season-2-announced/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/winter-2024-anime-where-to-continue-with-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "zom100",
+  "title": "Zom 100: Bucket List of the Dead",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 22
+   }
+  ],
+  "next": "23",
+  "nextNum": 23,
+  "total": null,
+  "note": "Chapter 23 opens Volume 7. No Season 2 has been announced.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/zom-100-bucket-list-dead-where-season-1-leave-manga"
+   ]
+  ]
+ },
+ {
+  "id": "bsd",
+  "title": "Bungo Stray Dogs",
+  "seasons": [
+   {
+    "l": "Seasons 1–5",
+    "end": 109
+   }
+  ],
+  "next": "110",
+  "nextNum": 110,
+  "total": null,
+  "note": "Season 5 caught up with the manga, so its exact end point is fuzzy. Start around Chapter 110 to be safe.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/bungo-stray-dogs-season-5-finale-confirmed-manga-content-adapt"
+   ],
+   [
+    "Dexerto",
+    "https://www.dexerto.com/anime/bungo-stray-dogs-is-the-manga-finished-2301015/"
+   ]
+  ]
+ },
+ {
+  "id": "akame",
+  "title": "Akame ga Kill!",
+  "seasons": [
+   {
+    "l": "Episodes 1–19",
+    "end": 38
+   }
+  ],
+  "next": "39",
+  "nextNum": 39,
+  "total": 78,
+  "note": "The anime goes its own way from episode 20 and ends differently. Chapter 39 in Volume 9 picks up the manga's version.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/akame-ga-kill/"
+   ]
+  ]
+ },
+ {
+  "id": "souleater",
+  "title": "Soul Eater",
+  "seasons": [
+   {
+    "l": "Episodes 1–35",
+    "end": 37
+   }
+  ],
+  "next": "37",
+  "nextNum": 37,
+  "total": 113,
+  "note": "The anime leaves the manga partway through Chapter 37, and the rest of it is anime-original. Pick up at page 31 of Chapter 37 in Volume 10.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2020/05/soul-eater-filler-list.html"
+   ]
+  ]
+ },
+ {
+  "id": "noragami",
+  "title": "Noragami",
+  "seasons": [
+   {
+    "l": "Noragami + Aragoto",
+    "end": 39
+   }
+  ],
+  "next": "40",
+  "nextNum": 40,
+  "total": 109,
+  "note": "Chapter 40 opens Volume 11. The last three episodes of Season 1 are filler. The manga finished in 2024.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/noragami/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/noragami-manga-ends-with-chapter-109/"
+   ]
+  ]
+ },
+ {
+  "id": "blueexorcist",
+  "title": "Blue Exorcist",
+  "seasons": [
+   {
+    "l": "Seasons 1–2",
+    "end": 34
+   },
+   {
+    "l": "Shimane Illuminati",
+    "end": 68
+   },
+   {
+    "l": "Snow + Blue Night",
+    "end": 120
+   }
+  ],
+  "next": "121",
+  "nextNum": 121,
+  "total": null,
+  "note": "Chapter 121 is in Volume 26. Season 1's second half is an anime-original ending that later seasons ignore.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=314"
+   ]
+  ]
+ },
+ {
+  "id": "inuyasha",
+  "title": "InuYasha",
+  "seasons": [
+   {
+    "l": "InuYasha",
+    "end": 356
+   },
+   {
+    "l": "The Final Act",
+    "end": 558
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 558,
+  "note": "The original series and The Final Act together adapt the whole manga. Skip the original's filler and you lose nothing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=319"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Inuyasha:_The_Final_Act"
+   ]
+  ]
+ },
+ {
+  "id": "yyh",
+  "title": "Yu Yu Hakusho",
+  "seasons": [
+   {
+    "l": "1992 series",
+    "end": 175
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 175,
+  "note": "The 1992 anime adapts all 175 chapters, with only 4 filler episodes.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=297"
+   ]
+  ]
+ },
+ {
+  "id": "kenshin",
+  "title": "Rurouni Kenshin",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 57
+   }
+  ],
+  "next": "?",
+  "nextNum": null,
+  "total": null,
+  "note": "Season 1 ends at Chapter 57. We couldn't confirm where Season 2 (Kyoto Disturbance) stops, so there's no start point here yet.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/rurouni-kenshin-season-2-what-expect-start-manga"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Rurouni_Kenshin_(2023_TV_series)"
+   ]
+  ]
+ },
+ {
+  "id": "kingdom",
+  "title": "Kingdom",
+  "seasons": [
+   {
+    "l": "Seasons 1–5",
+    "end": 489
+   },
+   {
+    "l": "Season 6",
+    "end": 540
+   }
+  ],
+  "next": "541",
+  "nextNum": 541,
+  "total": null,
+  "note": "Season 6 ended in December 2025 inside the Gyou invasion arc. A sequel is announced.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/kingdom-season-6"
+   ],
+   [
+    "AniTrendz",
+    "https://www.anitrendz.com/news/2025/12/27/kingdom-season-6-receives-sequel-anime-reveals-new-visual"
+   ]
+  ]
+ },
+ {
+  "id": "gachiakuta",
+  "title": "Gachiakuta",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 87
+   }
+  ],
+  "next": "88",
+  "nextNum": 88,
+  "total": null,
+  "note": "Guides differ by a chapter, so starting at 87 is safe. Season 2 is in production.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/gachiakuta/"
+   ],
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-gachiakuta-anime-end-in-the-manga/"
+   ]
+  ]
+ },
+ {
+  "id": "kowloon",
+  "title": "Kowloon Generic Romance",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 82
+   }
+  ],
+  "next": "83",
+  "nextNum": 83,
+  "total": 108,
+  "note": "The anime gives the story its own ending from episode 12. Start at Chapter 83 (Volume 10), or at 77 to read from where the changes begin. The manga is finished at 108 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/kowloon-generic-romance/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kowloon_Generic_Romance"
+   ]
+  ]
+ },
+ {
+  "id": "orb",
+  "title": "Orb: On the Movements of the Earth",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 62
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 62,
+  "note": "The 25 episodes adapt the whole 62-chapter manga, so nothing is left to read.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/orb-on-the-movements-of-the-earth/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Orb:_On_the_Movements_of_the_Earth"
+   ]
+  ]
+ },
+ {
+  "id": "pluto",
+  "title": "Pluto",
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "Netflix series",
+    "end": 65
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 65,
+  "note": "The 8 episodes adapt the whole 65-chapter manga. Read it for Urasawa's original pacing.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Pluto_(manga)"
+   ],
+   [
+    "What's on Netflix",
+    "https://whats-on-netflix.com/news/why-pluto-wont-be-returning-for-a-second-season-on-netflix"
+   ]
+  ]
+ },
+ {
+  "id": "dressup",
+  "title": "My Dress-Up Darling",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   },
+   {
+    "l": "Season 2",
+    "end": 86
+   }
+  ],
+  "next": "86",
+  "nextNum": 86,
+  "total": 115,
+  "note": "Season 2 stops a few pages into Chapter 86, so pick up there or at 87. The manga is finished at 115 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/my-dress-up-darling/"
+   ]
+  ]
+ },
+ {
+  "id": "skiploafer",
+  "title": "Skip and Loafer",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "next": "24",
+  "nextNum": 24,
+  "total": null,
+  "note": "Chapter 24 opens Volume 5. Season 2 is due in April 2027.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/skip-to-loafer/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/skip-and-loafer-season-2-teaser-trailer-reveals-april-2027-release/"
+   ]
+  ]
+ },
+ {
+  "id": "callnight",
+  "title": "Call of the Night",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 46
+   },
+   {
+    "l": "Season 2",
+    "end": 97
+   }
+  ],
+  "next": "98",
+  "nextNum": 98,
+  "total": 200,
+  "note": "Chapter 98 is a side chapter the anime skipped; the main story resumes at 99 in Volume 10.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/yofukashi-no-uta/"
+   ]
+  ]
+ },
+ {
+  "id": "hikaru",
+  "title": "The Summer Hikaru Died",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 26
+   }
+  ],
+  "next": "27",
+  "nextNum": 27,
+  "total": null,
+  "note": "Chapter 27 opens Volume 6. The manga's final chapter comes out on 20 Oct 2026, and Season 2 is announced.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/the-summer-hikaru-died/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/the-summer-hikaru-died-manga-to-end-in-2-chapters-final-release-on-october-20/"
+   ]
+  ]
+ },
+ {
+  "id": "takopi",
+  "title": "Takopi's Original Sin",
+  "epsLabel": "Full series",
+  "seasons": [
+   {
+    "l": "6-episode series",
+    "end": 16
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 16,
+  "note": "The 6 episodes adapt the whole 16-chapter manga.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Takopi%27s_Original_Sin"
+   ]
+  ]
+ },
+ {
+  "id": "shangrila",
+  "title": "Shangri-La Frontier",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 58
+   },
+   {
+    "l": "Season 2",
+    "end": 126
+   }
+  ],
+  "next": "127",
+  "nextNum": 127,
+  "total": null,
+  "note": "Chapter 127 opens Volume 14. Season 3 starts in January 2027.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/shangri-la-frontier/"
+   ],
+   [
+    "AniTrendz",
+    "https://www.anitrendz.com/news/2026/03/19/shangri-la-frontier-season-3-reveals-teaser-visual-january-2027-start"
+   ]
+  ]
+ },
+ {
+  "id": "medalist",
+  "title": "Medalist",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 15
+   },
+   {
+    "l": "Season 2",
+    "end": 28
+   }
+  ],
+  "next": "29",
+  "nextNum": 29,
+  "total": null,
+  "note": "Season 2 ends at the All-Japan opening ceremony, around the end of Volume 7. A film continues the story in February 2027.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Medalist_(manga)"
+   ],
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/news/2026-01-17/medalist-anime-gets-film-in-2027/.233172"
+   ]
+  ]
+ },
+ {
+  "id": "bluebox",
+  "title": "Blue Box",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 80
+   }
+  ],
+  "next": "81",
+  "nextNum": 81,
+  "total": 250,
+  "note": "Chapter 81 opens Volume 10. Season 2 started on 4 Oct 2026, so this point will move. The manga finished at 250 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/blue-box/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Blue_Box_(manga)"
+   ]
+  ]
+ },
+ {
+  "id": "kaoruhana",
+  "title": "The Fragrant Flower Blooms with Dignity",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "next": "40",
+  "nextNum": 40,
+  "total": null,
+  "note": "Chapter 40 is in Volume 6. No second season has been announced.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/the-fragrant-flower-blooms-with-dignity/"
+   ]
+  ]
+ },
+ {
+  "id": "erased",
+  "title": "Erased",
+  "seasons": [
+   {
+    "l": "Faithful part",
+    "end": 30
+   }
+  ],
+  "next": "31",
+  "nextNum": 31,
+  "total": 44,
+  "note": "The anime follows the manga to about the end of Volume 5, then rushes to its own ending. Read from about Chapter 31 for the manga's fuller ending.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Erased_(manga)"
+   ],
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/how-erased-anime-s-ending-ruined-whole-series-explained"
+   ]
+  ]
+ },
+ {
+  "id": "yourlie",
+  "title": "Your Lie in April",
+  "seasons": [
+   {
+    "l": "Full series",
+    "end": 44
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 44,
+  "note": "The 22 episodes adapt the whole manga. The Coda spin-off retells it from Kousei's friends' side.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Your_Lie_in_April"
+   ]
+  ]
+ },
+ {
+  "id": "dbz",
+  "title": "Dragon Ball Z",
+  "seasons": [
+   {
+    "l": "Dragon Ball",
+    "end": 194
+   },
+   {
+    "l": "Dragon Ball Z",
+    "end": 519
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 519,
+  "note": "DBZ adapts the rest of the original manga to its end. For more, the Dragon Ball Super manga is a separate series.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=240"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Dragon_Ball_Z_chapters"
+   ]
+  ]
+ },
+ {
+  "id": "bananafish",
+  "title": "Banana Fish",
+  "seasons": [
+   {
+    "l": "2018 series",
+    "end": 105
+   }
+  ],
+  "next": null,
+  "nextNum": null,
+  "total": 105,
+  "note": "The 2018 anime adapts the whole manga. The side story Garden of Light, set seven years later, was never animated and is worth reading.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Banana_Fish"
+   ]
+  ]
+ },
+ {
+  "id": "rankingkings",
+  "title": "Ranking of Kings",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 155
+   }
+  ],
+  "next": "156",
+  "nextNum": 156,
+  "total": null,
+  "note": "Season 1 covers Part 1, so Part 2 starts at Chapter 156 in Volume 12. Treasure Chest of Courage is side stories and doesn't move this point.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ranking-of-kings-anime-leave-off-in-the-manga/"
+   ]
+  ]
+ }
+]

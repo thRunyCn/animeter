@@ -1,0 +1,145 @@
+{
+ "id": "bluebox",
+ "numbering": "Episodes numbered continuously across seasons (Season 2 episode 1 = episode 26), as on Wikipedia; Season 2 is airing, covered through episode 27.",
+ "arcs": [
+  {
+   "name": "Under One Roof",
+   "part": "Season 1",
+   "eps": [
+    1,
+    4
+   ],
+   "ch": [
+    1,
+    12
+   ],
+   "summary": "Badminton player Taiki Inomata has a crush on basketball star Chinatsu Kano, who unexpectedly moves into his house.",
+   "events": [
+    "Chinatsu moves in with Taiki's family and they agree to keep it secret.",
+    "Taiki vows to reach nationals and Chinatsu gives him a good-luck bracelet.",
+    "Inspired by Chinatsu, Taiki beats Kishi in a preliminary match."
+   ]
+  },
+  {
+   "name": "Inter-High Qualifiers",
+   "part": "Season 1",
+   "eps": [
+    5,
+    8
+   ],
+   "ch": [
+    13,
+    24
+   ],
+   "summary": "Taiki's circle grows closer as both he and Chinatsu chase the Inter-High.",
+   "events": [
+    "Taiki's childhood friend Hina discovers the secret and hurts her ankle.",
+    "Taiki loses his qualifying matches while Chinatsu advances to nationals."
+   ]
+  },
+  {
+   "name": "Summer Festival",
+   "part": "Season 1",
+   "eps": [
+    9,
+    12
+   ],
+   "ch": [
+    25,
+    37
+   ],
+   "summary": "Summer break brings close calls at home and a festival that complicates everyone's feelings.",
+   "events": [
+    "Taiki falls ill and Chinatsu nurses him, nearly leading to a kiss.",
+    "Chinatsu sets boundaries before summer vacation.",
+    "Chinatsu sees Taiki with Hina at the festival and is hurt by his earlier lie."
+   ]
+  },
+  {
+   "name": "Nationals and Hina's Confession",
+   "part": "Season 1",
+   "eps": [
+    13,
+    16
+   ],
+   "ch": [
+    37,
+    51
+   ],
+   "summary": "Taiki cheers on his friends at nationals as the love triangle comes into the open.",
+   "events": [
+    "Hina confesses to Taiki.",
+    "On Chinatsu's birthday a storm strands the two at an inn where they clear up misunderstandings.",
+    "Chinatsu's mother returns and Hina tells Chinatsu about her confession."
+   ]
+  },
+  {
+   "name": "Yusa Match and Culture Festival",
+   "part": "Season 1",
+   "eps": [
+    17,
+    20
+   ],
+   "ch": [
+    52,
+    65
+   ],
+   "summary": "Taiki faces a strong rival on court while the school festival throws him into the spotlight.",
+   "events": [
+    "Taiki beats Yusa.",
+    "Taiki replaces the prince in the class play and a prop accident sparks rumors about him and Hina."
+   ]
+  },
+  {
+   "name": "Training Camp and Hina's Answer",
+   "part": "Season 1",
+   "eps": [
+    21,
+    25
+   ],
+   "ch": [
+    66,
+    80
+   ],
+   "summary": "A club training camp forces Taiki to face his feelings for both Chinatsu and Hina.",
+   "events": [
+    "Chinatsu admits to Karen that she is interested in Taiki.",
+    "At the campfire Taiki turns down Hina, who runs off in tears.",
+    "Taiki commits to pursuing Chinatsu, accepting that his friendship with Hina will change."
+   ]
+  },
+  {
+   "name": "Season 2",
+   "part": "Season 2",
+   "eps": [
+    26,
+    27
+   ],
+   "ch": [
+    81,
+    null
+   ],
+   "summary": "Taiki and Chinatsu's relationship moves into a new phase as Season 2 begins.",
+   "events": [
+    "Taiki and Chinatsu's outing is interrupted by Matsuoka and Kido.",
+    "Kido mocks Chinatsu for having quit basketball."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/blue-box/"
+  ],
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Blue_Box_episodes"
+  ]
+ ]
+}

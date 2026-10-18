@@ -1,0 +1,205 @@
+{
+ "id": "kenshin",
+ "numbering": "Episodes numbered continuously across the 2023 remake: Season 1 is 1-24 and Kyoto Disturbance is 25-47.",
+ "arcs": [
+  {
+   "name": "Tokyo beginnings",
+   "part": "Season 1",
+   "eps": [
+    1,
+    5
+   ],
+   "ch": null,
+   "summary": "In early Meiji Tokyo, a wandering swordsman with a reverse-blade sword meets Kaoru Kamiya, whose dojo is being smeared by an impostor.",
+   "events": [
+    "Kenshin is revealed as the legendary assassin Hitokiri Battosai and defends Kaoru's dojo.",
+    "Kenshin frees the boy Yahiko from a yakuza gang and Kaoru takes him in.",
+    "Brawler Sanosuke Sagara fights Kenshin and joins him after losing."
+   ]
+  },
+  {
+   "name": "Kurogasa",
+   "part": "Season 1",
+   "eps": [
+    6,
+    7
+   ],
+   "ch": null,
+   "summary": "A killer in a black hat is murdering officials, and he wants Kenshin to become a hitokiri again.",
+   "events": [
+    "Udo Jin-e kidnaps Kaoru to force Kenshin to fight as Battosai.",
+    "Kenshin defeats Jin-e, who takes his own life."
+   ]
+  },
+  {
+   "name": "Megumi and the Oniwabanshu",
+   "part": "Season 1",
+   "eps": [
+    8,
+    13
+   ],
+   "ch": null,
+   "summary": "A doctor fleeing an opium dealer comes to the dojo, and the dealer hires the elite Oniwabanshu to get her back.",
+   "events": [
+    "Megumi Takani is revealed to have been forced to make opium for Kanryu Takeda.",
+    "Kenshin battles the Oniwabanshu and their leader Aoshi Shinomori.",
+    "Aoshi's subordinates die protecting him, and Kanryu is defeated."
+   ]
+  },
+  {
+   "name": "Yahiko's Battle",
+   "part": "Season 1",
+   "eps": [
+    14,
+    14
+   ],
+   "ch": null,
+   "summary": "Yahiko faces a fight of his own when a young girl is dragged into a gang's crime.",
+   "events": [
+    "Yahiko defends Tsubame from former samurai thugs without Kenshin's help.",
+    "Yahiko wins the fight and earns Kenshin's respect as a budding swordsman."
+   ]
+  },
+  {
+   "name": "Raijuta",
+   "part": "Season 1",
+   "eps": [
+    15,
+    17
+   ],
+   "ch": null,
+   "summary": "A swordsman who wants to restore the old killing styles of kenjutsu tries to recruit Kenshin.",
+   "events": [
+    "Ishin Raijuta takes Yutaro as a student.",
+    "Kenshin defeats Raijuta and exposes him as a hollow fraud."
+   ]
+  },
+  {
+   "name": "Nishiki-e",
+   "part": "Season 1",
+   "eps": [
+    18,
+    19
+   ],
+   "ch": null,
+   "summary": "Sanosuke reunites with an old comrade from the Sekiho Army who now plots against the government.",
+   "events": [
+    "Tsunan Tsukioka plans a bombing to avenge Captain Sagara.",
+    "Kenshin and Sanosuke talk Tsunan out of his revenge."
+   ]
+  },
+  {
+   "name": "Act Zero",
+   "part": "Season 1",
+   "eps": [
+    20,
+    21
+   ],
+   "ch": null,
+   "summary": "A prequel tale set in Yokohama shows Kenshin's wandering days before he met Kaoru.",
+   "events": [
+    "Kenshin protects the boy Dankichi and the foreign doctor Elder from criminals targeting them.",
+    "Kenshin resumes his wandering and sets off toward Tokyo."
+   ]
+  },
+  {
+   "name": "Saito and Okubo",
+   "part": "Season 1",
+   "eps": [
+    22,
+    24
+   ],
+   "ch": null,
+   "summary": "An old enemy from Kenshin's Bakumatsu days reappears, bringing a summons from the government.",
+   "events": [
+    "Hajime Saito returns and nearly kills Sanosuke and Kenshin.",
+    "Okubo Toshimichi asks Kenshin to stop Makoto Shishio in Kyoto.",
+    "Sojiro Seta assassinates Okubo, and Kenshin leaves Tokyo for Kyoto."
+   ]
+  },
+  {
+   "name": "Road to Kyoto",
+   "part": "Kyoto Disturbance",
+   "eps": [
+    25,
+    30
+   ],
+   "ch": null,
+   "summary": "Kenshin travels along the Tokaido toward Kyoto, while his friends refuse to be left behind.",
+   "events": [
+    "Kenshin meets the young Oniwabanshu ninja Misao Makimachi.",
+    "Kenshin and Saito liberate a village terrorized by Shishio's men and meet Shishio and Seta Sojiro.",
+    "Sojiro breaks Kenshin's reverse-blade sword, and Sanosuke meets the monk Anji in the forest."
+   ]
+  },
+  {
+   "name": "Arrival in Kyoto",
+   "part": "Kyoto Disturbance",
+   "eps": [
+    31,
+    34
+   ],
+   "ch": null,
+   "summary": "In Kyoto Kenshin needs a new sword while Shishio's Juppongatana begin to move.",
+   "events": [
+    "Kenshin stays with Okina and the Aoiya.",
+    "Cho of the Juppongatana steals the last reverse-blade sword made by Arai Shakku.",
+    "Kenshin recovers the new sakabato and defeats Cho."
+   ]
+  },
+  {
+   "name": "Hiko's Training",
+   "part": "Kyoto Disturbance",
+   "eps": [
+    35,
+    40
+   ],
+   "ch": null,
+   "summary": "Kenshin seeks out his old master Hiko Seijuro to learn the final technique of his style.",
+   "events": [
+    "Aoshi allies with Shishio and badly wounds Okina.",
+    "Misao takes command of the Oniwabanshu in Kyoto.",
+    "Kenshin learns the succession technique Amakakeru Ryu no Hirameki."
+   ]
+  },
+  {
+   "name": "Great Kyoto Fire",
+   "part": "Kyoto Disturbance",
+   "eps": [
+    41,
+    47
+   ],
+   "ch": null,
+   "summary": "Shishio's plan to burn Kyoto is underway, but the fire hides a second objective.",
+   "events": [
+    "Kenshin, Sanosuke and Saito sink Shishio's ironclad Rengoku.",
+    "The Oniwabanshu, Kaoru, Yahiko and Hiko defend the Aoiya from the Juppongatana.",
+    "Hoji sends challenges that set up a final confrontation at Shishio's hideout."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga, including the Act Zero prequel."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Rurouni_Kenshin_(2023_TV_series)_episodes"
+  ],
+  [
+   "TheTVDB",
+   "https://www.thetvdb.com/series/rurouni-kenshin-2023/seasons/official/1"
+  ],
+  [
+   "TheTVDB",
+   "https://www.thetvdb.com/series/rurouni-kenshin-2023/seasons/official/2"
+  ],
+  [
+   "Lost in Anime",
+   "https://lostinanime.com/?p=284341"
+  ]
+ ]
+}

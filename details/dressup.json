@@ -1,0 +1,122 @@
+{
+ "id": "dressup",
+ "numbering": "Episodes numbered continuously across both seasons: Season 1 is 1-12 and Season 2 is 13-24.",
+ "arcs": [
+  {
+   "name": "Shizuku-tan",
+   "part": "Season 1",
+   "eps": [
+    1,
+    5
+   ],
+   "ch": null,
+   "summary": "Wakana Gojo, a shy boy who makes hina doll costumes, agrees to sew a cosplay outfit for his popular classmate Marin Kitagawa.",
+   "events": [
+    "Gojo agrees to make Marin's Shizuku Kuroe cosplay.",
+    "Gojo's grandfather collapses and Gojo finishes the outfit early.",
+    "Marin debuts the cosplay at her first event, and Gojo compliments her sincerely."
+   ]
+  },
+  {
+   "name": "Black Lobelia",
+   "part": "Season 1",
+   "eps": [
+    6,
+    9
+   ],
+   "ch": null,
+   "summary": "A cosplayer named Juju commissions Gojo, leading to a group cosplay with Juju's younger sister Shinju.",
+   "events": [
+    "Marin realizes she has fallen for Gojo.",
+    "Juju is revealed as Sajuna Inui, and her sister Shinju joins the shoot.",
+    "Shinju admits she wants to cosplay a male character."
+   ]
+  },
+  {
+   "name": "Veronica and Liz",
+   "part": "Season 1",
+   "eps": [
+    10,
+    11
+   ],
+   "ch": null,
+   "summary": "Marin wants to cosplay more daring characters, testing Gojo's limits.",
+   "events": [
+    "Gojo refuses to make the revealing Veronica outfit.",
+    "A Liz the Succubus photoshoot takes place at a love hotel and leads to a tense moment."
+   ]
+  },
+  {
+   "name": "Summer Festival",
+   "part": "Season 1",
+   "eps": [
+    12,
+    12
+   ],
+   "ch": null,
+   "summary": "Marin and Gojo spend a summer evening together at the festival.",
+   "events": [
+    "Marin and Gojo watch the fireworks together.",
+    "Marin confesses her love while Gojo is asleep."
+   ]
+  },
+  {
+   "name": "Halloween and Amane",
+   "part": "Season 2",
+   "eps": [
+    13,
+    15
+   ],
+   "ch": null,
+   "summary": "Gojo tackles new techniques for a bunny-girl outfit and meets a crossplaying cosplayer.",
+   "events": [
+    "The Arisha bunny-girl outfit debuts at a Halloween party.",
+    "Amane Himeno, a man who crossplays, appears at an aquarium event.",
+    "Gojo reflects on his feelings for Marin."
+   ]
+  },
+  {
+   "name": "Culture Festival Pageant",
+   "part": "Season 2",
+   "eps": [
+    16,
+    18
+   ],
+   "ch": null,
+   "summary": "Marin is entered into the school festival's crossdressing pageant, and Gojo must make a costume quickly.",
+   "events": [
+    "Marin chooses to cosplay Rei for the pageant.",
+    "Classmates help Gojo adjust the costume.",
+    "Marin wins the pageant."
+   ]
+  },
+  {
+   "name": "Akira and the Coffin Shoot",
+   "part": "Season 2",
+   "eps": [
+    19,
+    24
+   ],
+   "ch": null,
+   "summary": "A new camera and a new acquaintance lead to a group shoot themed on the series Coffin.",
+   "events": [
+    "Akira Ogata is revealed to be a woman.",
+    "Gojo stays at Marin's after trains are suspended.",
+    "Juju's inferiority complex and Akira's backstory come to light.",
+    "The group completes the Coffin shoot and Gojo and Marin walk home together."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [],
+  "mixed": [],
+  "recap": [],
+  "note": "No filler: every episode adapts the manga."
+ },
+ "src": [
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_My_Dress-Up_Darling_episodes"
+  ]
+ ]
+}

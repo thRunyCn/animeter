@@ -1,0 +1,182 @@
+{
+ "id": "fmab",
+ "numbering": "Episodes numbered 1–64 in broadcast order; the series is a single 64-episode run.",
+ "arcs": [
+  {
+   "name": "Liore and the Sewing-Life Alchemist",
+   "part": "Brotherhood",
+   "eps": [
+    1,
+    4
+   ],
+   "ch": null,
+   "summary": "Brothers Edward and Alphonse Elric lost their bodies trying to bring back their mother with alchemy, and now hunt for the Philosopher's Stone to fix it.",
+   "events": [
+    "Edward becomes the youngest State Alchemist to gain access to research.",
+    "The brothers expose Father Cornello's fake miracles in Liore.",
+    "Shou Tucker is revealed to have turned his daughter Nina into a chimera."
+   ]
+  },
+  {
+   "name": "Scar and Laboratory 5",
+   "part": "Brotherhood",
+   "eps": [
+    5,
+    9
+   ],
+   "ch": null,
+   "summary": "A scarred Ishvalan man is killing State Alchemists, and the brothers follow Dr. Marcoh's research to an abandoned lab.",
+   "events": [
+    "Scar destroys Edward's automail arm and nearly kills the brothers.",
+    "Marcoh's notes reveal that Philosopher's Stones are made from human lives.",
+    "The brothers fight guards bound to armor inside Laboratory 5."
+   ]
+  },
+  {
+   "name": "Hughes, Rush Valley and Dublith",
+   "part": "Brotherhood",
+   "eps": [
+    10,
+    14
+   ],
+   "ch": null,
+   "summary": "After a shocking loss in Central, the brothers return to their alchemy teacher Izumi for answers.",
+   "events": [
+    "Maes Hughes is murdered by Envy after uncovering the military's secret.",
+    "Izumi reveals she too attempted human transmutation.",
+    "The brothers clash with the homunculus Greed, and King Bradley's forces wipe out his gang."
+   ]
+  },
+  {
+   "name": "Visitors from Xing and Lust's End",
+   "part": "Brotherhood",
+   "eps": [
+    15,
+    19
+   ],
+   "ch": null,
+   "summary": "Travelers from the eastern country of Xing arrive seeking immortality as Roy Mustang closes in on Hughes's killers.",
+   "events": [
+    "Ling Yao and May Chang reach Amestris.",
+    "Lieutenant Ross is framed for Hughes's death and Mustang fakes her execution.",
+    "Mustang burns Lust to death beneath Central."
+   ]
+  },
+  {
+   "name": "Hunting Scar and Inside Gluttony",
+   "part": "Brotherhood",
+   "eps": [
+    20,
+    27
+   ],
+   "ch": null,
+   "summary": "The Elrics' father Hohenheim resurfaces while the brothers set a trap for Scar and the homunculi.",
+   "events": [
+    "The brothers learn the body they made was not their mother.",
+    "Winry learns Scar killed her parents.",
+    "Edward, Ling and Envy are swallowed by Gluttony and escape through a Gate.",
+    "Episode 27 is a recap-style interlude centered on Hohenheim."
+   ]
+  },
+  {
+   "name": "Father and the Ishval War",
+   "part": "Brotherhood",
+   "eps": [
+    28,
+    32
+   ],
+   "ch": null,
+   "summary": "The brothers meet the homunculi's creator and learn how the Ishval genocide fits a much larger plan.",
+   "events": [
+    "Ling is turned into the new host for Greed.",
+    "Bradley is revealed as the homunculus Wrath.",
+    "Flashbacks show the Ishval war and the alchemists who fought it."
+   ]
+  },
+  {
+   "name": "Fort Briggs",
+   "part": "Brotherhood",
+   "eps": [
+    33,
+    41
+   ],
+   "ch": null,
+   "summary": "The brothers head north to Fort Briggs, a fortress run by Major General Olivier Armstrong.",
+   "events": [
+    "Selim Bradley is revealed to be Pride, the first homunculus.",
+    "The tunnels under Amestris prove to be a nationwide transmutation circle.",
+    "Kimblee leads a hunt for Scar and the escaped Elric party."
+   ]
+  },
+  {
+   "name": "Preparing the Counterattack",
+   "part": "Brotherhood",
+   "eps": [
+    42,
+    48
+   ],
+   "ch": null,
+   "summary": "Allies across the country make their moves as the Promised Day approaches.",
+   "events": [
+    "Edward knocks out the lights to defeat Pride's shadows.",
+    "Greed regains his own memories and rebels.",
+    "Pride devours Gluttony to recover his powers."
+   ]
+  },
+  {
+   "name": "The Promised Day",
+   "part": "Brotherhood",
+   "eps": [
+    49,
+    58
+   ],
+   "ch": null,
+   "summary": "Mustang's coup and the homunculi's plans collide in Central on the day of the solar eclipse.",
+   "events": [
+    "Mustang takes revenge on Envy for Hughes.",
+    "Izumi, Armstrong and Sig defeat Sloth.",
+    "Bradley returns to Central and fights through the capital."
+   ]
+  },
+  {
+   "name": "Final Battle",
+   "part": "Brotherhood",
+   "eps": [
+    59,
+    64
+   ],
+   "ch": null,
+   "summary": "Father begins his nationwide transmutation, and everyone left must stop him.",
+   "events": [
+    "Mustang is forced into human transmutation and loses his sight.",
+    "Alphonse trades his soul to restore Edward's arm.",
+    "Edward gives up alchemy to bring Alphonse's body back, and Hohenheim dies at his wife's grave."
+   ]
+  }
+ ],
+ "filler": {
+  "filler": [
+   [
+    1,
+    1
+   ],
+   [
+    27,
+    27
+   ]
+  ],
+  "mixed": [],
+  "recap": [],
+  "note": "Per Anime Filler Guide, only episode 1 (an anime-original prologue) and episode 27 (an interlude clip show) are filler."
+ },
+ "src": [
+  [
+   "Anime Filler Guide",
+   "https://www.animefillerguide.com/anime/fullmetal-alchemist-brotherhood/"
+  ],
+  [
+   "Wikipedia",
+   "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist:_Brotherhood_episodes"
+  ]
+ ]
+}
