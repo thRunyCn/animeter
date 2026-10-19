@@ -1,0 +1,502 @@
+[
+ {
+  "id": "planetes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime began before the manga was finished and added new characters and settings, so it is not a straight adaptation. A clear chapter mapping was not found; the manga is finished at 4 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Planetes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "princessjellyfish",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 21 (Volume 4) with the first Jellyfish fashion show, so start at chapter 22 (Volume 5). The anime's finale resolves the Amamizukan threat differently from the manga, and the manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-princess-jellyfish-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "paradisekiss",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Episodes 1-11 cover the first four volumes and episode 12 compresses the fifth and final volume, so the manga is fully adapted, though heavily condensed and with a changed tone at the ending. Reading the manga gives the fuller version of the finale.",
+  "src": [
+   [
+    "Anime Feminist",
+    "https://animefeminist.com/parakiss-lost-the-reductive-adaptation-of-paradise-kiss"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iwanttoendthislovegame",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "Episode titles suggest the anime covers Games 1-30 (Volumes 1-4), leaving the last two chapters of Volume 4 unadapted, so start at Game 31. This mapping is inferred from episode titles rather than stated by a source.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/I_Want_to_End_This_Love_Game"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mybrideisamermaid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source stating where the anime ends was found. The manga is finished at 76 chapters in 16 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yakuzafiancraisewataning",
+  "unit": "Chapter",
+  "next": "27",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 26
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 26, the end of Volume 5, so start at chapter 27 (Volume 6). The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-yakuza-fiance-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theidatendeitiesknowonly",
+  "unit": "Chapter",
+  "next": "58",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 57
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of Volume 7 (chapter 57), so start at chapter 58 (Volume 8). The manga is finished at 73 chapters in 9 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-idaten-deities-know-only-peace-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "demonlord2099",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "Episode titles suggest the anime adapts the first two light novel volumes, ending mid-arc, so volume 3 is the likely place to continue. This is inferred and not confirmed by a source.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Demon_Lord_2099"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "saspeciala",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime ran 24 episodes and ended before the manga finished (99 chapters in 17 volumes per Wikipedia), so it likely does not cover the ending. No source stating the exact endpoint was found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/S.A_(manga)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "medakabox",
+  "unit": "Chapter",
+  "next": "56",
+  "seasons": [
+   {
+    "l": "Medaka Box Abnormal",
+    "end": 55
+   }
+  ],
+  "status": "continue",
+  "note": "Medaka Box Abnormal ends at the end of chapter 55, so start at chapter 56 (Volume 7), the start of the Kumagawa Incident arc. The manga is finished at 194 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-medaka-box-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ihaveacrushatwork",
+  "unit": "Chapter",
+  "next": "77",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 77
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends partway through chapter 77 (Volume 8) and skips a lot of side-character content, so reading from chapter 1 is recommended for the full story. The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-i-have-a-crush-at-work-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kumakumakumabear",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsurune",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shamanking",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "joshiraku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "schoolrumble",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "airgear",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thecafterraceanditsgodde",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nodamecantabile",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tonarinosekikunthemaster",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelegendofthelegendaryh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "honeyandclover",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ronkamonohashisforbidden",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "irinathevampirecosmonaut",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwanttoloveyoutillyourdy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myroommateisacat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "humanityhasdeclined",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themostnotorioustalkerru",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsugumomo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "senryugirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hellmodethehardcoregamer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theresnofreakingwayillbe",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hitorinoshitatheoutcast",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ariatheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "illbecomeavillainesswhog",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ranma",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sugarapplefairytale",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "servantxservice",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dealingwithmikadonosiste",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "taishootomefairytale",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kenganashuraparti",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ }
+]

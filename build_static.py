@@ -7,7 +7,7 @@ each series tab), shared style.css / app.js / data.js / config.js, covers, sitem
 
 Supabase settings live in web/config.json ({"supabaseUrl": "...", "supabaseKey": "<anon public key>"}).
 """
-import json, os, re, shutil, sys, html
+import json, os, re, shutil, sys, html, glob
 from build import load, load_runs, apply_seasons, HERE
 
 SITE = (sys.argv[1] if len(sys.argv) > 1 else "https://thrunycn.github.io/animeter/").rstrip("/") + "/"
@@ -22,6 +22,32 @@ RUNS = load_runs()
 try: top = json.load(open(os.path.join(HERE, "top.json")))
 except FileNotFoundError: top = []
 KIND_WORD = {"manga": "manga", "novel": "light novel"}
+# Where each anime ends in its source, researched per series (research/handoff/out_*.json).
+HANDOFF, TRIED = {}, set()
+t_src = {t["id"]: t.get("source") for t in top}
+for f in sorted(glob.glob(os.path.join(HERE, "research", "handoff", "*.json"))):
+    if os.path.basename(f) == "todo.json" or os.path.basename(f).startswith("in_"): continue
+    try:
+        rows = [h for h in json.load(open(f)) if isinstance(h, dict) and h.get("id")]
+        TRIED.update(h["id"] for h in rows if h.get("src") or "out_r2_" in f)   # round 2 searched every item
+        HANDOFF.update({h["id"]: h for h in rows if h.get("confidence") in ("high", "medium") and h.get("src")})
+    except Exception as e: print("skipping", f, e)
+END = {"fully_adapted": ("Fully adapted", "Done"), "anime_original_ending": ("Own ending", "Own end"), "unknown": ("Unclear", "Unclear")}
+def apply_handoff(s, h):
+    nxt = str(h["next"]).strip() if h.get("next") not in (None, "") else None
+    if not nxt and not h.get("note"): return
+    unit = (h.get("unit") or ("Volume" if s["kind"] == "novel" else "Chapter")).strip().capitalize()
+    s.update(mangaChecked=True, unit=unit, next=nxt, unitShort={"Chapter": "Ch. ", "Volume": "Vol. "}.get(unit, unit + " "),
+             note=h.get("note") or s["note"],
+             seasons=[x for x in h.get("seasons") or [] if isinstance(x, dict) and isinstance(x.get("end"), int) and x.get("l")])
+    m = re.match(r"\d+", nxt or "")
+    s["nextNum"] = int(m.group()) if m else None
+    src = t_src.get(s["id"]) or {}
+    if src.get("status") == "FINISHED": s["total"] = src.get("chapters") if unit == "Chapter" else src.get("volumes") if unit == "Volume" else None
+    if s["seasons"] and s.get("total") and s["total"] < s["seasons"][-1]["end"]: s["total"] = None
+    if not nxt: s["endWord"], s["endShort"] = END.get(h.get("status"), END["unknown"])
+    seen = {u for _, u in s["src"]}
+    s["src"] += [[n, u] for n, u in (h.get("src") or [])[:2] if isinstance(u, str) and u.startswith("http") and u not in seen]
 for t in top:
     src = t.get("source") or {}
     eps = t.get("eps")
@@ -30,7 +56,8 @@ for t in top:
         size = f'{src["chapters"]} chapters' if src.get("chapters") else f'{src["volumes"]} volumes' if src.get("volumes") else ""
         state = {"FINISHED": "finished", "RELEASING": "still running", "HIATUS": "on hiatus"}.get(src.get("status"), "")
         bits = ", ".join(b for b in (size, state) if b)
-        note = f'We haven\'t checked where the anime ends in the {KIND_WORD[t["kind"]]} yet.' + (f' The {KIND_WORD[t["kind"]]} is {bits}.' if bits else "")
+        note = (f'We looked for where the anime ends in the {KIND_WORD[t["kind"]]} but found no source we trust yet.' if t["id"] in TRIED else
+                f'We haven\'t checked where the anime ends in the {KIND_WORD[t["kind"]]} yet.') + (f' The {KIND_WORD[t["kind"]]} is {bits}.' if bits else "")
     elif t["kind"] == "original": note = "An anime original, so there is no manga to pick up from."
     else: note = "Adapted from a game, so there is no manga to pick up from."
     series.append({
@@ -43,6 +70,8 @@ for t in top:
                + ([["Source on AniList", src["url"]]] if src.get("url") else []),
     })
     if fmt != "MOVIE": apply_seasons(series[-1], RUNS)
+    if t["id"] in HANDOFF: apply_handoff(series[-1], HANDOFF[t["id"]])
+    elif t["id"] in TRIED and t["kind"] in KIND_WORD: series[-1].update(mangaChecked=True, endWord="No source yet", endShort="Unclear")
 src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
@@ -78,7 +107,7 @@ def meta_for(s, tab):
     t, d = s["title"], details.get(s["id"])
     n_arcs, fc, te = len((d or {}).get("arcs") or []), filler_count(d), total_eps(s, d)
     ho = handoff(s)
-    if tab == "overview" and s.get("unchecked"):
+    if tab == "overview" and s.get("unchecked") and not s.get("mangaChecked"):
         title = f"{t}: is it worth watching? Ratings and drop points"
         desc = f"Where people drop {t} and where it clicks, from viewer reports, plus Animeter ratings and lists."
     elif tab == "overview":

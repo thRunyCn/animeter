@@ -1,0 +1,2033 @@
+[
+ {
+  "id": "swordartonline",
+  "unit": "Volume",
+  "next": "19",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   },
+   {
+    "l": "Season 2",
+    "end": 8
+   },
+   {
+    "l": "Alicization",
+    "end": 14
+   },
+   {
+    "l": "War of Underworld",
+    "end": 18
+   }
+  ],
+  "status": "continue",
+  "note": "The Alicization and War of Underworld seasons finish volume 18 (Alicization Lasting), so start at volume 19 (Unital Ring I). The earlier seasons are an approximate mapping: Aincrad and Fairy Dance through volume 4, and Phantom Bullet, Calibur and Mother's Rosario through around volume 8.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Sword_Art_Online:_Alicization"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "another",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime covers the whole of the original novel, but it rewrites the climax at the summer lodge and changes who dies and how. Read the novel if you want the original ending.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/does-another-have-a-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tonikawaoverthemoonforyo",
+  "unit": "Chapter",
+  "next": "107",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 46
+   },
+   {
+    "l": "Season 2",
+    "end": 106
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends around chapter 106 with the school trip arc, so start at chapter 107. The High School Days mini-series covers scattered chapters from 110 to 136, so it does not change this.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/where-does-the-tonikawa-tonikaku-kawaii-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "arifuretafromcommonplace",
+  "unit": "Volume",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 6
+   },
+   {
+    "l": "Season 3",
+    "end": 10
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends at the end of light novel volume 10, so start at volume 11. Season 3 picked up around volume 7, which implies the earlier seasons ended around volume 6.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/is-arifureta-season-3-final-season-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bofuriidontwanttogethurt",
+  "unit": "Volume",
+  "next": "10",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   },
+   {
+    "l": "Season 2",
+    "end": 9
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at volume 9, so start at volume 10. The light novel is finished at 19 volumes.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/where-does-the-bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense-anime-leave-off-in-the-light-novel/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/bofuri-novel-ends-after-almost-9-years-of-serialization/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "drifters",
+  "unit": "Chapter",
+  "next": "45",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 44
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode TV series ends at chapter 44, so start at chapter 45. The OVA episodes cover roughly chapters 45-55, so start at chapter 56 if you watched them too.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/where-does-the-drifters-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "natsumesbookoffriendssea",
+  "unit": "Chapter",
+  "next": "109",
+  "seasons": [
+   {
+    "l": "Season 7",
+    "end": 108
+   }
+  ],
+  "status": "continue",
+  "note": "Season 7 covers around chapters 80-108, so start at chapter 109. The series is episodic, so you can pick it up from any chapter without losing much.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://animeoshi.com/anime/natsumes-book-of-friends-season-7"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "worldtrigger",
+  "unit": "Chapter",
+  "next": "197",
+  "seasons": [
+   {
+    "l": "Season 3",
+    "end": 196
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends at chapter 196, the end of the B-Rank Wars arc, so start at chapter 197 (volume 23). Season 1 also had a 15-episode anime-original filler arc.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/where-does-the-world-trigger-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thehelpfulfoxsenkosan",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 28 (episode 12 also borrows a beach trip from chapter 23), so start at chapter 29, the start of volume 3 in English.",
+  "src": [
+   [
+    "mangashed",
+    "https://mangashed.com/where-does-the-helpful-fox-senko-san-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "basilisk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Basilisk (2005)",
+    "end": 34
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 2005 series adapts the whole 34-chapter Kouga Ninpou-cho manga. The 2018 series, Basilisk: The Ouka Ninja Scrolls, adapts a separate sequel manga rather than continuing this one.",
+  "src": [
+   [
+    "AniList",
+    "https://anilist.co/manga/30221"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dororo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime rewrites the story and gives it its own ending, while the manga was cut short at about 17-19 chapters (4 volumes) and never reached a conclusion. Read the manga as an alternate take rather than a continuation.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/dororo-2019/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "highschooldxd",
+  "unit": "Volume",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   },
+   {
+    "l": "New",
+    "end": 4
+   },
+   {
+    "l": "BorN",
+    "end": 7
+   },
+   {
+    "l": "HERO",
+    "end": 10
+   }
+  ],
+  "status": "continue",
+  "note": "HERO ends around volume 10, so start at volume 11 (Uroboros and the Promotion Test). BorN is an unfaithful adaptation, so some material from its volumes is changed.",
+  "src": [
+   [
+    "Reddit wiki mirror: DxD reading guide",
+    "https://lr.in.psf.lt/r/HighschoolDxD/wiki/lightnovelreadingguide"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_High_School_DxD_volumes"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "snowwhitewiththeredhair",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends around chapter 32 (in volume 8), so start at chapter 33. Volume 9 is the first volume with only new material. The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-snow-white-with-the-red-hair-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "welcometodemonschoolirum",
+  "unit": "Chapter",
+  "next": "215",
+  "seasons": [
+   {
+    "l": "Season 4",
+    "end": 214
+   }
+  ],
+  "status": "continue",
+  "note": "Season 4 ends around chapter 214, so start at chapter 215 (in volume 25). The manga is still ongoing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/mairimashita-iruma-kun/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sayiloveyou",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 28, so start at chapter 29 (volume 8). The manga is finished at 73 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/suki-tte-ii-na-yo/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedisastrouslifeofsaiki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Reawakened",
+    "end": 281
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime, including the Final Special and the Netflix Reawakened series, reaches the manga's final chapters (281 in total across 26 volumes), though some middle comedy chapters were skipped. There is nothing left to continue with apart from a few short 4-koma extras.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/did-the-saiki-k-manga-end/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "goblinslayer",
+  "unit": "Volume",
+  "next": "9",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 8
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends with the adaptation of light novel volume 8, so start at volume 9. The light novel is still ongoing.",
+  "src": [
+   [
+    "Fiction Horizon",
+    "https://fictionhorizon.com/heres-where-to-continue-with-goblin-slayer-light-novel-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mylittlemonster",
+  "unit": "Chapter",
+  "next": "17",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 16
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 16 (in volume 4), so start at chapter 17. The anime skips some minor character moments, and the manga is finished at 69 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-little-monster-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "summertimerendering",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 139
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 25-episode anime adapts the entire manga, all 139 chapters, so there is nothing further to read. The pacing is fast, so the manga fills in details the anime rushes.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/summertime-rendering-why-fans-get-hopes-sequel"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "morethanamarriedcouplebu",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 29
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 29 (sources differ between 29 and 30), so start at chapter 30, in volume 5. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-more-than-a-married-couple-but-not-lovers-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "soimaspidersowhat",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel 5, so start at volume 6. Volumes 6 to 12 go back to tell the spider side of the story in flashback before the human side resumes.",
+  "src": [
+   [
+    "USAnime",
+    "https://usaanime.us/2022/02/18/special-so-im-a-spider-so-what-and-its-continuation-in-the-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tanakakunisalwayslistles",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with the culture festival arc at chapter 39, so start at chapter 40. The anime skipped several chapters (9, 16, 17, 25, 27, 32, 34 and 35). The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-tanaka-kun-is-always-listless-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mysenpaiisannoying",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 41 (the scarf scene), so start at chapter 42. The anime covers roughly the first four volumes, and the manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-senpai-is-annoying-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thesevendeadlysins",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The original Seven Deadly Sins manga is fully adapted; the final season, Dragon's Judgement, adapts its ending. The later seasons titled Four Knights of the Apocalypse adapt the separate sequel manga of that name, which is where to read on.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Seven_Deadly_Sins_(manga)"
+   ],
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/news-four-knights-apocalypse-manga-goes-hiatus-after-part-1-finale"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "devilmancrybaby",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 53
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Devilman Crybaby is a modernised retelling of the whole five-volume manga, so there is nothing left to read after it. Details and characters are changed, so the manga is still worth reading as its own take.",
+  "src": [
+   [
+    "AniList",
+    "https://anilist.co/manga/31474"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "durarara",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Durarara!!x2 (Sho, Ten, Ketsu)",
+    "end": 13
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The two anime series adapt the entire 13-volume light novel series, with Durarara!!x2 Ketsu covering volumes 11 to 13. To keep going, read the sequel Durarara!! SH, which is on hiatus after four volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-durarara-anime-end-in-the-light-novel/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Durarara!!"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bluespringride",
+  "unit": "Chapter",
+  "next": "15",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 14
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around the end of chapter 14, so start at chapter 15 (the first chapter of Viz volume 4). The manga is finished at 53 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-blue-spring-ride-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "monthlygirlsnozakikun",
+  "unit": "Chapter",
+  "next": "47",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 46
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers up to around chapter 46, though it skips and reorders many chapters, so reading from chapter 1 is worth considering. New material begins at chapter 47, and the manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-monthly-girls-nozaki-kun-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "trinityseven",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "The TV anime ends around chapter 30, though its final episodes are rushed. If you also watched the second movie (chapters 30 to 37), start at chapter 38 instead. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-trinity-seven-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tomodachigame",
+  "unit": "Chapter",
+  "next": "26",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 25
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends on the events of chapter 25, as the fourth game begins, so continue from chapter 26. The manga is finished at 130 chapters.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/where-start-tomodachi-game-manga-anime-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "maidsama",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 32, after the school festival arc, so start at chapter 33 (volume 8). The anime rearranges some later events, so reading from chapter 1 is also an option.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-maid-sama-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "relife",
+  "unit": "Report",
+  "next": "109",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 108
+   }
+  ],
+  "status": "continue",
+  "note": "The 13-episode TV season ends around report 108. The separate 4-episode finale OVAs rush through the rest of the story up to report 222, so reading from report 109 is recommended for the full story.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-relife-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yonaofthedawn",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 47
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 47, the last chapter of volume 8, so start at chapter 48 (volume 9).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-yona-of-the-dawn-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tsuredurechildren",
+  "unit": "Chapter",
+  "next": "82",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 81
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 81, the last chapter of volume 5, so start at chapter 82 (volume 6). The anime skips some couples and chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-tsurezure-children-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "barakamon",
+  "unit": "Chapter",
+  "next": "53",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 52
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 52, so start at chapter 53 (volume 7). It skips a few side chapters such as 15, 28, 39 and 45-46.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-barakamon-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "girlslasttour",
+  "unit": "Chapter",
+  "next": "35",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 34
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 34 ('Friends'), the end of volume 4, so start at chapter 35 (volume 5). The manga is complete at 47 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-girls-last-tour-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "schoollive",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 33 (volume 6) but changes the climax, so reading from chapter 30 is recommended to see the manga's version of the finale. The story continues after that.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-school-live-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "therisingoftheshieldhero",
+  "unit": "Volume",
+  "next": "15",
+  "seasons": [
+   {
+    "l": "Season 4",
+    "end": 14
+   }
+  ],
+  "status": "continue",
+  "note": "Season 4 adapts light novel volumes 13 to 14, so start at volume 15. The anime has been greatly inspired by the manga and condenses and changes some material, and the light novel is reportedly close to its conclusion.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Rising_of_the_Shield_Hero_season_4"
+   ],
+   [
+    "Attack of the Fanboy",
+    "https://attackofthefanboy.com/anime/is-the-rising-of-the-shield-hero-manga-finished-explained/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kurokosbasketball",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The manga is finished at 275 chapters, and the third season's finale ('Many Times Over') matches the final chapter title 'However Many Times', so the anime appears to cover the whole story. Exact per-season chapter ranges were not found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Kuroko%27s_Basketball_chapters"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kuroko%27s_Basketball_season_3"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tengokudaimakyo",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 39 (near the start of volume 7), so start at chapter 40. The manga is still ongoing; some sources say the anime rearranges and skips material, so reading from chapter 1 is also worthwhile.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-heavenly-delusion-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dailylivesofhighschoolbo",
+  "unit": "Chapter",
+  "next": "111",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 110
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode anime adapts up to around chapter 110, near the start of volume 7, so start at chapter 111. The manga is finished at 138 chapters, and the anime skips and rearranges many earlier chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-daily-lives-of-high-school-boys-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gtogreatteacheronizuka",
+  "unit": "Chapter",
+  "next": "107",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 106
+   }
+  ],
+  "status": "continue",
+  "note": "The anime follows the manga through the Okinawa arc, around chapter 106 (end of volume 12), so start at chapter 107 (volume 13). Episodes 42-43 are an anime-original ending, and the manga is finished at about 208 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-great-teacher-onizuka-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "amagibrilliantpark",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts volumes 1 and 2, plus a few scenes from volume 3, so start at volume 3. The anime ending is original to Kyoto Animation and does not match the novels' storyline.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-amagi-brilliant-park-anime-leave-off-in-the-light-novels/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Amagi_Brilliant_Park"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "uzakichanwantstohangout",
+  "unit": "Chapter",
+  "next": "62",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 61
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 reportedly ends around chapter 61 (end of volume 6), so start at chapter 62 (volume 7). The manga is still ongoing.",
+  "src": [
+   [
+    "Epicstream",
+    "https://epicstream.com/article/where-to-read-uzaki-chan-wants-to-hang-out-after-the-anime"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kakegurui",
+  "unit": "Chapter",
+  "next": "56",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 55
+   }
+  ],
+  "status": "continue",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kakegurui-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium",
+  "note": "Kakegurui xx (season 2) adapts up to around the middle of chapter 55, so start at chapter 56 (the start of volume 11). The manga is still ongoing."
+ },
+ {
+  "id": "towerofgod",
+  "unit": "Chapter",
+  "next": "111",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 78
+   },
+   {
+    "l": "Season 2",
+    "end": 110
+   }
+  ],
+  "status": "continue",
+  "src": [
+   [
+    "ONE Esports",
+    "https://www.oneesports.gg/anime/where-does-the-tower-of-god-anime-end-in-the-manga"
+   ]
+  ],
+  "confidence": "medium",
+  "note": "One source says season 2 ends around chapter 110 (Workshop Battle arc), so start around chapter 111; the webtoon's season-based numbering can differ between sources, so check the arc before continuing. The webtoon is still ongoing."
+ },
+ {
+  "id": "hinamatsuri",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 47
+   }
+  ],
+  "status": "continue",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-hinamatsuri-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium",
+  "note": "The anime ends at chapter 47, so start at chapter 48. The anime skipped and reordered some chapters, so reading from chapter 1 is also worthwhile. The manga is finished at 132 chapters."
+ },
+ {
+  "id": "lovelycomplex",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 47
+   }
+  ],
+  "status": "continue",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-lovely-complex-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium",
+  "note": "The anime ends around chapter 47, so start at chapter 48, though the finale condenses material and skips some moments. The manga is finished at 72 chapters."
+ },
+ {
+  "id": "classroomoftheelite",
+  "unit": "Volume",
+  "next": "4.5",
+  "seasons": [],
+  "status": "continue",
+  "note": "The 4th season ends around chapter 6 of Year 2 volume 4, so continue with Year 2 volume 4.5 and then volume 5. The light novel is already finished at around 14 Year 1 volumes plus the Year 2 volumes released so far, so the anime is still well behind.",
+  "src": [
+   [
+    "Dexerto FR",
+    "https://www.dexerto.fr/anime/quel-chapitre-classroom-of-the-elite-apres-final-saison-4-1651877/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "misskobayashisdragonmaid",
+  "unit": "Chapter",
+  "next": "87",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   },
+   {
+    "l": "Season 2",
+    "end": 86
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 (Dragon Maid S) covers the main story up to chapter 86, so start at chapter 87 (volume 9). The finale also borrows one scene from chapter 137, and the manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-miss-kobayashis-dragon-maid-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "Season 2 follows the main K-ON! manga to the graduation ending, so the original 4-volume, 57-chapter manga is essentially covered. Sequel manga such as K-ON! College and K-ON! Highschool continue the story, and the anime rearranges and adds original episodes.",
+  "src": [
+   [
+    "MyAnimePulse",
+    "https://myanimepulse.com/manga-after-anime/k-on"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "beastars",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The Final Season adapts the story through to the manga's ending (196 chapters, 22 volumes), so there is nothing left to continue with. Some chapters may be condensed or reordered in the anime.",
+  "src": [
+   [
+    "Netflix Tudum",
+    "https://www.netflix.com/tudum/articles/beastars-final-season-release-date-news"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "given",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 39 (volume 6), so start at chapter 40. The movie covers the rest of the manga, which is finished at 51 chapters; if you have watched the movie, start around chapter 51 for the epilogue material.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-given-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "acertainmagicalindex",
+  "unit": "Volume",
+  "next": "New Testament 1",
+  "seasons": [
+   {
+    "l": "Season 3",
+    "end": 22
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 adapts volumes 14 to 22, which completes the original Old Testament series. Continue with A Certain Magical Index: New Testament volume 1 (also look for the SS side volumes).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/A_Certain_Magical_Index_season_3"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "thedangersinmyheart",
+  "unit": "Chapter",
+  "next": "114",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 57
+   },
+   {
+    "l": "Season 2",
+    "end": 113
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 adapts around 56 chapters and ends at around chapter 113, so start at chapter 113 or 114. The manga has since ended (around 199 chapters, final volume 14).",
+  "src": [
+   [
+    "Coming Soon",
+    "https://www.comingsoon.net/anime/news/1632844-where-to-start-the-dangers-in-my-heart-manga-after-season-2-explained"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/the-dangers-in-my-heart-manga-has-officially-ended-after-8-years-of-serialization/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "asobiasobaseworkshopoffu",
+  "unit": "Chapter",
+  "next": "71",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 70
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts skits from chapters 1 to about 70 (reordered), so start at chapter 71. The manga is finished at 134 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-asobi-asobase-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gangsta",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 27
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 27 to 28 (sources differ slightly), so start at chapter 28 (volume 6). The manga is on extended hiatus and unfinished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-gangsta-anime-leave-off-in-the-manga/"
+   ],
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/gangsta/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sciencefellinlovesoitrie",
+  "unit": "Chapter",
+  "next": "62",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 61
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends around chapter 61, and the finale touches chapter 63 while skipping most of 62, so start around chapter 62. One source suggests reading roughly chapters 61 to 67 for context before moving on.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-science-fell-in-love-so-i-tried-to-prove-it-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dgrayman",
+  "unit": "Chapter",
+  "next": "206",
+  "seasons": [
+   {
+    "l": "Hallow",
+    "end": 205
+   }
+  ],
+  "status": "continue",
+  "note": "D.Gray-man Hallow adapts the manga up to chapter 205, so start at chapter 206. The original 2006 series diverged into anime-original material, so reading from around chapter 158 is suggested; the manga is ongoing with a slow schedule.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-d-gray-man-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "konoototomaresoundsoflif",
+  "unit": "Chapter",
+  "next": "55",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 54
+   }
+  ],
+  "status": "continue",
+  "note": "The two cours together adapt the manga up to chapter 54, so start at chapter 55 (the finale only touches its first few pages). The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-stop-this-sound-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "deadmountdeathplay",
+  "unit": "Chapter",
+  "next": "82",
+  "seasons": [
+   {
+    "l": "Part 2",
+    "end": 81
+   }
+  ],
+  "status": "continue",
+  "note": "Part 2 ends around chapters 77 to 81, so start at chapter 82 (volume 10). The manga is ongoing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/dead-mount-death-play/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "welcometotheballroom",
+  "unit": "Chapter",
+  "next": "55",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 54
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 54, so start at chapter 55 (volume 7). The manga is ongoing on an irregular schedule.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-welcome-to-the-ballroom-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nipponsangokuthethreenat",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "Episode 12 adapts chapters 20 and 21, so start at chapter 22 (volume 5). A sequel season has been announced.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=4224"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "skipbeat",
+  "unit": "Chapter",
+  "next": "67",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 66
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 66 (volume 12) in the middle of the Dark Moon arc, so start at chapter 67. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-skip-beat-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bigwindup",
+  "unit": "Chapter",
+  "next": "57",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 56
+   }
+  ],
+  "status": "continue",
+  "note": "The two seasons together adapt up to the end of chapter 56 (the fifth-round game against Sakitama), so start at chapter 57 (volume 15). The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-big-windup-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "overlord",
+  "unit": "Volume",
+  "next": "15",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Season 2",
+    "end": 6
+   },
+   {
+    "l": "Season 3",
+    "end": 9
+   },
+   {
+    "l": "Season 4",
+    "end": 14
+   }
+  ],
+  "status": "continue",
+  "note": "Season 4 ends with the end of volume 14 (it covers volumes 10-11 and 14), so start at volume 15. Volumes 12-13 were skipped by the TV series and are covered by the movie The Holy Kingdom Arc, so watch or read those too.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-overlord-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "seraphoftheendvampirerei",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 25
+   },
+   {
+    "l": "Season 2",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "Battle in Nagoya ends around chapter 41, the last chapter of volume 11, so start at chapter 42 (volume 12). Season 1's cutoff is given as around chapter 25.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-seraph-of-the-end-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "blacklagoon",
+  "unit": "Chapter",
+  "next": "77",
+  "seasons": [
+   {
+    "l": "Roberta's Blood Trail OVA",
+    "end": 76
+   }
+  ],
+  "status": "continue",
+  "note": "Counting the Roberta's Blood Trail OVA, the anime reaches around chapter 76 (end of the El Baile de la Muerte arc), so start at chapter 77 (volume 10). The two TV seasons alone stop earlier, around chapter 43, and the OVA differs from the manga in places.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-black-lagoon-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "alyasometimeshidesherfee",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the epilogue of volume 3, so continue with volume 4. Its prologue overlaps with the last episodes, so you can start with its first chapter.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/where-alya-sometimes-hides-her-feelings-russian-anime-leave-light-novel-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "haventyouheardimsakamoto",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The manga is only 4 volumes (24 chapters) and the 12-episode anime covers the whole story, with some added material. There is nothing further to read.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/news/2015-12-14/nami-sano-havent-you-heard-im-sakamoto-manga-ends/.96497"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "inuyashikilasthero",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 85
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The manga ended in 10 volumes and the 11-episode anime tells the whole story, with some changes to the later events, so there is nothing further to read.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/daily-briefs/2017-05-17/gantz-hiroya-oku-to-end-inuyashiki-manga-in-volume-10/.116209"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mierukochan",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers volumes 1-3 (chapters 1-23) and stops where the shrine arc begins. The author suggests starting at volume 4, chapter 24.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/mieruko-chan-author-reveals-where-you-should-start-reading-the-manga-after-the-anime/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "recoveryofanmmojunkie",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 87
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime adapts the manga all the way to chapter 87, its last chapter. The manga was cancelled in 2018 because of the author's health, so there is no more story.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-recovery-of-an-mmo-junkie-anime-end-in-the-manga/"
+   ],
+   [
+    "Anime News Network",
+    "https://admin.animenewsnetwork.com/news/2018-07-01/comico-ends-netoju-no-susume-recovery-of-an-mmo-junkie-manga-due-to-author-health/.133651"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "astralostinspace",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 49
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 12-episode anime covers the whole 5-volume manga, including the epilogue seven years later. The manga is finished.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Astra_Lost_in_Space"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theyakuzasguidetobabysit",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with volume 4, so start at chapter 40. It skipped or rearranged some earlier chapters (such as 3-4, 10, 18-19, 23-27 and 30-32).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-yakuzas-guide-to-babysitting-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "showagenrokurakugoshinju",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The two seasons together are understood to adapt the whole 10-volume manga, which is finished. We could not find a source stating this explicitly.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Showa_Genroku_Rakugo_Shinju"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "foodwars",
+  "unit": "Chapter",
+  "next": "316",
+  "seasons": [
+   {
+    "l": "The Fifth Plate",
+    "end": 315
+   }
+  ],
+  "status": "continue",
+  "note": "The final season ends after chapter 315 (the BLUE finals), so start at chapter 316. The remaining epilogue chapters ('Le Dessert', in the last volume) were not animated; the manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-food-wars-anime-end-in-the-manga/"
+   ],
+   [
+    "MyAnimePulse",
+    "https://myanimepulse.com/manga-after-anime/food-wars-shokugeki-no-soma"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kiminitodokefrommetoyou",
+  "unit": "Chapter",
+  "next": "76",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 27
+   },
+   {
+    "l": "Season 2",
+    "end": 46
+   },
+   {
+    "l": "Season 3",
+    "end": 75
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends around chapter 75, so start at chapter 76 (volume 18). Season 3 skips chapters 50 and 51, which are worth reading first.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kimi-ni-todoke-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kokoroconnect",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The 13 TV episodes cover volumes 1-3 and the OVA covers volume 4 (Michi Random), so continue with 'Clip Time'. Some listings number Clip Time as volume 4.5 rather than 5.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kokoro-connect-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hellsing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The 2001 TV series takes the characters and setting but tells a different story and ending, because the manga was unfinished. The 2006 OVA series follows the manga much more closely, so read the manga (92 chapters, finished) from the start for the real story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Hellsing_episodes"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bakuman",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 3",
+    "end": 176
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The manga ended in April 2012 at 176 chapters and the 75-episode anime finished after it, covering the whole story. Nothing is left to continue.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Bakuman"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "boardingschooljuliet",
+  "unit": "Chapter",
+  "next": "19",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 18
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the very start of chapter 19 (volume 5), so start at chapter 19. The manga is finished, with a 7-years-later epilogue chapter.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-boarding-school-juliet-anime-end-in-the-manga/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Boarding_School_Juliet"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yaboykongming",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga up to chapter 28, so start at chapter 29 (volume 7). The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-ya-boy-kongming-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nisekoi",
+  "unit": "Chapter",
+  "next": "107",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 50
+   },
+   {
+    "l": "Season 2",
+    "end": 106
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends on chapter 106, so start at chapter 107. The anime skips some character-focused chapters, so you may prefer to start at chapter 51. The manga is finished at around 229-240 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-nisekoi-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "prisonschool",
+  "unit": "Chapter",
+  "next": "82",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 81
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends on chapter 81, so start at chapter 82 (volume 9, School Festival arc). The manga is finished at 279 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-prison-school-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "magithelabyrinthofmagic",
+  "unit": "Chapter",
+  "next": "199",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 198
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 198 in the Magnostadt arc, so start at around chapter 199 (volume 20). The anime compresses and rearranges parts of the later arcs. The manga is finished at 369 chapters.",
+  "src": [
+   [
+    "MyAnimePulse",
+    "https://myanimepulse.com/manga-after-anime/magi-the-labyrinth-of-magic"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theworldsfinestassassing",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts light novel volume 1, so start at volume 2 (the Academy arc). The light novels are still releasing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "baccano",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime loosely adapts volumes 1-4 (volume 4 is heavily changed) plus OVAs based on the gaiden volume 14. Read volume 4 next, then continue from volume 5 in publication order.",
+  "src": [
+   [
+    "r/Baccano FAQ",
+    "https://lr.us.psf.lt/r/Baccano/wiki/faq"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kamisamakiss",
+  "unit": "Chapter",
+  "next": "65",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 64
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends around chapter 64, so start at chapter 65. The Kako-hen OVAs adapt chapters 86-100 if you want to jump ahead to chapter 101. The manga is finished at 154 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kamisama-kiss-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theworldgodonlyknows",
+  "unit": "Chapter",
+  "next": "190",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 41
+   },
+   {
+    "l": "Season 3",
+    "end": 189
+   }
+  ],
+  "status": "continue",
+  "note": "The Goddesses season ends on chapter 189, so start at chapter 190 (volume 19). The anime skips chapters 42-113, which add new heroines and context. The manga is finished at 271 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-world-god-only-knows-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "claymore",
+  "unit": "Chapter",
+  "next": "57",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 56
+   }
+  ],
+  "status": "continue",
+  "note": "The anime follows the manga to around chapter 56, then drifts and ends with an original ending from about episode 21-24. Start at chapter 57 (volume 10) to read the real ending. The manga is finished at 159 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/claymore/"
+   ],
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/does-claymore-anime-different-ending-manga-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "donttoywithmemissnagator",
+  "unit": "Chapter",
+  "next": "88",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 87
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends on chapter 87 (the aquarium date), so start at chapter 88. The manga is now finished.",
+  "src": [
+   [
+    "Epicstream",
+    "https://epicstream.com/article/where-to-start-reading-miss-nagatoro-after-anime"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "witchhatatelier",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The first season ends with episode 13, covering chapters 22-23, so start at chapter 24 (volume 5). The manga is still ongoing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=4240"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "welcometothenhk",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime adapts the whole Welcome to the N-H-K novel, though it changes details (it drops most of the drug content and the real NHK link). The manga follows the novel but diverges later in the story.",
+  "src": [
+   [
+    "Manga Wiki",
+    "https://manga.fandom.com/wiki/Welcome_to_the_N.H.K."
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "grimgaroffantasyandash",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 2 (technically at chapter 17 of volume 2), so most readers start at volume 3 for a clean arc break. The novels are still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-grimgar-of-fantasy-and-ash-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mylovestory",
+  "unit": "Chapter",
+  "next": "35",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 34
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 34 (the end of volume 9), so start at chapter 35, the first chapter of volume 10. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-love-story-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "unclefromanotherworld",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 33 (the end of volume 6), so start at chapter 34, the first chapter of volume 7. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-uncle-from-another-world-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ }
+]

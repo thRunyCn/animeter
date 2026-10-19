@@ -1,0 +1,581 @@
+[
+ {
+  "id": "pseudoharem",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kidsontheslope",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theiceguyandhiscoolfemal",
+  "unit": "Chapter",
+  "next": "41",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 40
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends on chapter 40, so start at chapter 41 (the first chapter of volume 6). The manga is still running.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/ice-guy-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kinosjourney",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "The 2003 anime mainly covers volumes 1 to 5 and ends with the story 'Her Journey' from volume 5. Start at volume 6, though the anime skipped some stories in earlier volumes (such as 'Land of Majority'), so reading from volume 1 is also recommended.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kinos-journey-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nolongerallowedinanother",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 29
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 29 (end of volume 5), so start at chapter 30. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-no-longer-allowed-in-another-world-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "heavenslostproperty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 1 adapts the manga up to the Nymph/Harpies storyline and Forte covers the Astraea arc to the Chaos arc; the movie adapts the Hiyori arc that Forte skips. The exact chapter to resume at was not found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Heaven%27s_Lost_Property_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "duskmaidenofamnesia",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime follows the manga to about chapter 23 and then jumps to a modified, anime-original happy ending. The manga's canon ending is bittersweet and skips roughly chapters 24 to 54 in the anime. Chapter numbers come from a single source with inconsistencies.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-dusk-maiden-of-amnesia-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "marriagetoxin",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aoashi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 117
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 reportedly ends at about chapter 117, but where Season 2 (still airing) ends was not found. The manga is finished at 410 chapters.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/ao-ashi-where-anime-leave-manga-explained"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "wagnaria",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theelusivesamurai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "clevatess",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chobits",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themagicalrevolutionofth",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "parallelworldpharmacy",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's single season ends with light novel volume 2, so start at volume 3. The light novel is finished at 10 volumes.",
+  "src": [
+   [
+    "Animefillerguide",
+    "https://www.animefillerguide.com/2024/03/isekai-yakkyoku.html"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "7thtimeloopthevillainess",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "edenszero",
+  "unit": "Chapter",
+  "next": "103",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 68
+   },
+   {
+    "l": "Season 2",
+    "end": 102
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers chapters 1 to 68 and Season 2 covers chapters 69 to 102, so start at chapter 103 (first chapter of volume 12, the Edens One arc). The manga is finished at 293 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-edens-zero-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rainbow",
+  "unit": "Chapter",
+  "next": "104",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 103
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 103 (about the first 10 volumes), so start at chapter 104 (volume 11). The manga is finished at 235 chapters, so over half remains unadapted.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-rainbow-the-seven-from-compound-two-cell-six-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "jormungand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yuruyuri",
+  "unit": "Chapter",
+  "next": "99",
+  "seasons": [],
+  "status": "continue",
+  "note": "After all three seasons and the OVAs, the suggested starting point is chapter 99 (volume 14), though the anime skips many chapters and gags, so reading from chapter 1 is also suggested. The manga has been on hiatus since 2018.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-yuruyuri-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nanbaka",
+  "unit": "Chapter",
+  "next": "69",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 69
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 reportedly ends at chapter 69, so continue from chapter 69. The manga has finished. This comes from a single source.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-nanbaka-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "dfrag",
+  "unit": "Chapter",
+  "next": "36",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 35, so start at chapter 36 (volume 5). The manga is still running.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/d-frag-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "afrosamurai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fromoldcountrybumpkintom",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lifelessonswithuramichio",
+  "unit": "Chapter",
+  "next": "37",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime reportedly adapts up to chapter 37; the source's volume numbers are inconsistent, so check your edition. The manga is still running.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-life-lessons-with-uramichi-oniisan-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "loveafterworlddomination",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 23, so start at chapter 24 (volume 4). The manga is finished at 37 chapters.",
+  "src": [
+   [
+    "Animefillerguide",
+    "https://www.animefillerguide.com/anime/koi-wa-sekai-seifuku-no-ato-de/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedukeofdeathandhismaid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theunwantedundeadadventu",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers volumes 1 to 3 of the light novel (episodes 1-5, 6-9, 10-12), so start at volume 4.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-unwanted-undead-adventurer-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sweetnesslightning",
+  "unit": "Chapter",
+  "next": "19",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime reportedly ends around chapter 19 (start of volume 5) and skips chapters 15, 16 and 18, which are worth reading. Chapter counts in the source conflict with AniList, so treat as approximate.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sweetness-and-lightning-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "therampartsofice",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "icantunderstandwhatmyhus",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "beckmongolianchopsquad",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime reportedly ends around chapter 33 as the band begins its American tour; the manga holds the full resolution. Chapter numbers come from a single source and may be unreliable.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-beck-mongolian-chop-squad-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "nyarukocrawlingwithlove",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dayswithmystepsister",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 4, so start at volume 5. The anime cuts much of the characters' inner monologue, so reading from volume 1 is also recommended.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-days-with-my-stepsister-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ghostintheshellstandalon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The Stand Alone Complex manga is an adaptation of the anime rather than its source, so there is no manga to continue from after the anime.",
+  "src": [
+   [
+    "Worlds Without End",
+    "https://blog.worldswithoutend.com/?p=10042"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sayonarazetsubousensei",
+  "unit": "Chapter",
+  "next": "161",
+  "seasons": [],
+  "status": "continue",
+  "note": "The TV seasons cover up to about chapter 160 and the anime has no conclusive ending; the final arc (chapters 292-301) is never adapted. The source recommends reading from chapter 1 for the full story.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sayonara-zetsubou-sensei-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theossannewbieadventurer",
+  "unit": "Volume",
+  "next": "9",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime ends around chapter 39 or 40 of the light novel, within volume 9, so start at volume 9 (or volume 1 for skipped details). The source is internally inconsistent.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-ossan-newbie-adventurer-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sasakiandmiyano",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [],
+  "status": "continue",
+  "note": "The TV series reportedly ends around chapter 33, so start at chapter 34; the Graduation movie covers up to chapter 40. The source contradicts itself in places.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sasaki-and-miyano-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "chainsmokercat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "anarchdemonsdilemmahowto",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime reportedly covers the first 24 manga chapters with an original finale episode. The matching light novel volume was not found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/An_Archdemon%27s_Dilemma:_How_to_Love_Your_Elf_Bride"
+   ]
+  ],
+  "confidence": "low"
+ }
+]

@@ -1,0 +1,491 @@
+[
+ {
+  "id": "thekawaicomplexguidetoma",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 28, the end of volume 3, so start at chapter 29. The manga is finished at about 93 chapters.",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-kawai-complex-guide-to-manors-and-hostel-behavior-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thesaintsmagicpowerisomn",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sleepyprincessinthedemon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "villainesslevel99imaybet",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime appears to cover roughly volumes 1 to 4, so volume 5 is the likely place to continue. This is inferred from the plot rather than stated outright.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Villainess_Level_99"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tougenanki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "One source says season 1 ends at chapter 28 and that the Kengon Falls arc starts at chapter 78, but these are inconsistent and the new Nikko Kegon Falls season is not covered, so the exact stopping point is unclear.",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-tougen-anki-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gogoloserranger",
+  "unit": "Chapter",
+  "next": "125",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 124
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at chapter 124, so start at chapter 125. The manga is still ongoing.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/go-go-loser-ranger-season-2-episode-12-fighter-d-relaunches-assualt-deathmecia-meets-end"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "restauranttoanotherworld",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Season 2",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers volumes 1-3 and season 2 goes through volume 5, so start at volume 6. The anime skips many side stories.",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-restaurant-to-another-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gushingovermagicalgirls",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 24, so start at chapter 25. The anime skipped chapter 22, which is worth reading first.",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-gushing-over-magical-girls-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "asareincarnatedaristocra",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "alderaminonthesky",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 3, so continue from volume 4. The 14-volume light novel series is complete.",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-alderamin-on-the-sky-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "missionyozakurafamily",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "handymansaitouinanotherw",
+  "unit": "Chapter",
+  "next": "111",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 110
+   }
+  ],
+  "status": "continue",
+  "note": "The anime concludes around chapter 110, so start at chapter 111 (continuous web numbering).",
+  "src": [
+   [
+    "Manga Shed",
+    "https://mangashed.com/where-does-the-handyman-saitou-in-another-world-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "arakawaunderthebridge",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mayiaskforonefinalthing",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theheroiclegendofarslan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pandorahearts",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "oneweekfriends",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "onimaiimnowyoursister",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "placetoplace",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "flyingwitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akebissailoruniform",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hitoribocchinomarumaruse",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hiscoregirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imthevillainesssoimtamin",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "whyraelianaendedupatthed",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "letthisgrievingsoulretir",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galscantbekindtootaku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "xxxholic",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewitchandthebeast",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "silverspoon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mottotoloveru",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theworldisstillbeautiful",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "istheorderarabbit",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "darkgathering",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "25dimensionalseduction",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iminlovewiththevillaines",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hisandhercircumstances",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "popteamepic",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aceofthediamond",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kotarolivesalone",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedemongirlnextdoor",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

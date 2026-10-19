@@ -1,0 +1,472 @@
+[
+ {
+  "id": "konohanakitan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dropkickonmydevil",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts up to chapter 28; later seasons pull from across the manga, so one source suggests reading from chapter 29. The exact end of the latest season is not confirmed.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-dropkick-on-my-devil-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kubikiricyclethebluesava",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The 8-episode anime adapts the entire first volume, so start with Volume 2 (Strangulation: Kubishime Romanticist).",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kubikiri-cycle-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "wastefuldaysofhighschool",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 39 (Volume 6), so start at chapter 40. A short omake at the end of chapter 39 was not adapted, and many gags were skipped.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-wasteful-days-of-high-school-girls-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "boogiepopphantom",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The 2000 anime is an original story set between Volumes 1 and 2 of the light novels, so it does not lead into a specific volume. Readers can start with the novels from Volume 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-boogiepop-phantom-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thismonsterwantstoeatme",
+  "unit": "Chapter",
+  "next": "32",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 31
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 31, so start at chapter 32 (Volume 8).",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-this-monster-wants-to-eat-me-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "frombureaucrattovillaine",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 28, so start at chapter 29 (Volume 5), where the labyrinth arc begins.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-from-bureaucrat-to-villainess-dads-been-reincarnated-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gunslingergirl",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [],
+  "status": "continue",
+  "note": "One source says both anime series end after the Pinocchio arc at chapter 28, so start at chapter 29 (Volume 7). Il Teatrino diverges from the manga, so check this against the manga yourself.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-gunslinger-girl-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "welcometojapanmself",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blackcat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "doctorelisetheroyalladyw",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "overgeared",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hayatethecombatbutler",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "genshiken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themagicalgirlandtheevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "studentcouncilsdiscretio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mrvillainsdayoff",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetwelvekingdoms",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintceciliapastorlawren",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themasterfulcatisdepress",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "deaddeaddemonsdedededede",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akanebanashi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "playitcoolguys",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tomorrowsjoe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "smiledowntherunway",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "howtokeepamummy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ghosthunt",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "eventhestudentcouncilhas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gugurekokkurisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rozenmaiden",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rockisaladysmodesty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shugochara",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thefable",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theklutzyclassmonitorand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "detroitmetalcity",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source saying where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

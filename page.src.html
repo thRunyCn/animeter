@@ -290,7 +290,7 @@ function coverHTML(s, kind, tag, extra=""){
 }
 const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
 const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga";
-const handoffShort = s => s.unchecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
+const handoffShort = s => s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
 function route(){
@@ -577,13 +577,13 @@ function paneFiller(s, d){
     ${srcHTML(d.src)}`;
 }
 function paneManga(s){
-  if (s.unchecked) return `<h3>${s.kind==="original"||s.kind==="vn" ? "Is there a manga to continue?" : "Anime finished. Where does the story pick up?"}</h3>
+  if (s.unchecked && !s.mangaChecked) return `<h3>${s.kind==="original"||s.kind==="vn" ? "Is there a manga to continue?" : "Anime finished. Where does the story pick up?"}</h3>
     <div class="handoff"><div class="big word"><small>Status</small>${s.kind==="original" ? "Original" : s.kind==="vn" ? "Game" : "Not checked yet"}</div><p>${esc(s.note)}</p></div>${srcHTML(s.src)}`;
   const unit = s.unit || "Chapter";
   const q = s.kind==="novel" ? "Anime finished. Where does the story go next?" : (s.kind==="original"||s.kind==="vn") ? "Is there a manga to continue?" : "Anime finished. Where does the manga pick up?";
   return `<h3>${q}</h3>
     <div class="handoff">
-      <div class="big${s.next?"":" word"}"><small>${s.next ? "Start at "+esc(unit) : "Status"}</small>${s.next ? esc(s.next) : esc({original:"Original",vn:"Game",novel:"Novel"}[s.kind]||"Done")}</div>
+      <div class="big${s.next?"":" word"}"><small>${s.next ? "Start at "+esc(unit) : "Status"}</small>${s.next ? esc(s.next) : esc(s.endWord||{original:"Original",vn:"Game",novel:"Novel"}[s.kind]||"Done")}</div>
       <p>${esc(s.note)}</p>
     </div>
     ${s.seasons?.length ? timelineHTML(s) : ""}${srcHTML(s.src)}`;

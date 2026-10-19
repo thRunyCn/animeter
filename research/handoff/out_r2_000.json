@@ -1,0 +1,457 @@
+[
+ {
+  "id": "rascaldoesnotdreamofbunn",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nogamenolife",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers light novel volumes 1-3, so start at volume 4. Some readers suggest starting from volume 1 since the novels differ from the anime in places.",
+  "src": [
+   [
+    "Reddit r/NoGameNoLife",
+    "https://nyc1.lr.ggtyler.dev/r/NoGameNoLife/comments/1gd6cc6/continuation"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thattimeigotreincarnated",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isitwrongtotrytopickupgi",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedevilisaparttimer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hyouka",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts roughly the first four novel volumes, so continue with volume 5 (It Walks by Past). The anime also reorders some short stories.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Hyouka"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bakemonogatari",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wotakoiloveishardforotak",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thequintessentialquintup",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "toyoureternity",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theeminenceinshadow",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sagaoftanyatheevil",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "beyondtheboundary",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thepetgirlofsakurasou",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themisfitofdemonkingacad",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "goldentime",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blackbutler",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theirregularatmagichighs",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ouranhighschoolhostclub",
+  "unit": "Chapter",
+  "next": "36",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "The anime follows the manga to about chapter 35 and then ends with an anime-original story, so start at chapter 36 (volume 8). The anime also skips and condenses some chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ouran-high-school-host-club-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "datealive",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "One source says the anime reaches the end of the main story at volume 22, where the light novel finished. This claim is not well verified, so check the volume list before relying on it.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-date-a-live-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "chivalryofafailedknight",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theancientmagusbride",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "masamunekunsrevenge",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nichijoumyordinarylife",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "toiletboundhanakokun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "loghorizon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandbluedreaming",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "orange",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bloodblockadebattlefront",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thecasestudyofvanitas",
+  "unit": "Chapter",
+  "next": "62",
+  "seasons": [],
+  "status": "continue",
+  "note": "One source says the two anime seasons cover up to chapter 61, so start at chapter 62; its chapter numbers are slightly inconsistent. The anime has an original ending.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/case-study-of-vanitas-manga-finished/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mylovestorywithyamadakun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "cellsatwork",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [],
+  "status": "continue",
+  "note": "Both anime seasons cover the manga through about volume 5, so start at volume 6, which holds the unadapted final chapters. The anime skipped a few chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-cells-at-work-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cautiousherotheheroisove",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 4, so start at volume 5. The light novel is on hiatus after volume 7.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-cautious-hero-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gate",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "windbreaker",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wistoriawandandsword",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saekanohowtoraiseaboring",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tomochanisagirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theangelnextdoorspoilsme",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsukimichimoonlitfantasy",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

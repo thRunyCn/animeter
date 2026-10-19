@@ -1,0 +1,618 @@
+[
+ {
+  "id": "himoutoumaruchan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Sources found did not say which chapter the anime reaches. The manga is complete, so reading from chapter 1 is the safe way to catch skipped material.",
+  "src": [
+   [
+    "MyAnimePulse",
+    "https://myanimepulse.com/manga-after-anime/himouto-umaru-chan"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "trigun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The 1998 anime adapts the early manga (Trigun, roughly up to chapter 22) and then diverges with an original ending. For the canon story continue with the sequel Trigun Maximum from volume 1, chapter 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-trigun-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "teasingmastertakagisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating the chapter where season 3 ends. The manga is complete (about 190 chapters).",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/teasing-master-takagi-san-manga-officially-ends-after-10-year-run/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "laidbackcamp",
+  "unit": "Chapter",
+  "next": "78",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   },
+   {
+    "l": "Season 2",
+    "end": 52
+   },
+   {
+    "l": "Season 3",
+    "end": 77
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends on chapter 77 (mid-volume 14), so start at chapter 78. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-laid-back-camp-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sentencedtobeahero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No readable source found for which volume the anime ends on. The light novel is still ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "landofthelustrous",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends. The manga is finished (108 main chapters per publisher news) and the anime covers only the early part, so start from chapter 1 if unsure.",
+  "src": [
+   [
+    "Animehunch",
+    "https://animehunch.com/haruko-ichikawas-land-of-the-lustrous-manga-to-conclude-with-chapter-108-in-april-2024/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thewayofthehousehusband",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 43
+   },
+   {
+    "l": "Season 2",
+    "end": 86
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime is a non-linear collection of skits from many chapters, reaching roughly chapter 86 by season 2 but skipping many; there is no clean stopping point, so starting from chapter 1 is recommended. The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-way-of-the-househusband-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "moriartythepatriot",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found linking the anime's final episode to a chapter. The manga's first part ended with the Valley of Fellows arc.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://animenewsnetwork.com/news/2022-11-03/moriarty-the-patriot-manga-1st-part-ends/.191507"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "wanderingwitchthejourney",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on. The light novel is ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mynextlifeasavillainessa",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume season 2 ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "luckystar",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends. The manga is a gag series with no continuous plot, so it can be read from the beginning.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myhappymarriage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volume season 2 ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "daemonsoftheshadowrealm",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which chapter the 24-episode anime ends on. The manga is ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "asignofaffection",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 21 (end of volume 5), so start at chapter 22, the first chapter of volume 6. The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-a-sign-of-affection-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "howarealistherorebuiltth",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volume part 2 ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "oresukiareyoutheonlyonew",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The 12-episode anime aired in 2019 while the 17-volume light novel continued to 2022; no source found for the exact volume the anime ends on.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Oresuki"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bloomintoyou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends. The manga is finished at 53 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "the100girlfriendswhoreal",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 22
+   },
+   {
+    "l": "Season 2",
+    "end": 50
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 2 ends at chapter 50 (continue at 51); season 3 was expected to resume from there but no source states where season 3 ends. The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-100-girlfriends-who-really-love-you-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "katanagatari",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 12-episode anime adapts the whole light novel series, one volume per episode, so there is nothing left to continue.",
+  "src": [
+   [
+    "MyAnimeList",
+    "https://myanimelist.net/anime/6594"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "makeinetoomanylosinghero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Episodes 1-7 follow volumes 1-2; later episodes go further and episode 12 is an original story by the author. Exact end volume not confirmed.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Too_Many_Losing_Heroines!"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "smokingbehindthesupermar",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which chapter the anime ends on. The manga is ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "recordofragnarok",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Only season 1 ending was found (chapter 19, volume 5); no source for season 3. The manga is ongoing.",
+  "src": [
+   [
+    "Critical Hits",
+    "https://criticalhits.com.br/anime/onde-comecar-o-manga-apos-o-final-da-temporada-de-record-of-ragnarok"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "trappedinadatingsimthewo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 1 covered the first two volumes (per pre-air reports); no source found for season 2. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "Epicdope",
+    "https://www.epicdope.com/trapped-in-a-dating-sim-season-2-release-date-updates/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "weneverlearnbokuben",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 86
+   }
+  ],
+  "status": "unknown",
+  "note": "One guide says season 2 corresponds to roughly chapter 86 of the manga, but this is approximate and unconfirmed. The manga is finished at 187 chapters.",
+  "src": [
+   [
+    "SK Desu",
+    "https://skdesu.com/en/bokuben-guide-to-the-5-routes-and-finals-of-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thedetectiveisalreadydea",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volumes season 2 adapts. The light novel is ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewrongwaytousehealingm",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volume the anime ends on. The light novel is finished.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gabrieldropout",
+  "unit": "Chapter",
+  "next": "39",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime reaches about chapter 38, so continue at chapter 39 (start of volume 5), though it skips some earlier chapters. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-gabriel-dropout-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "youandiarepolaropposites",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "One guide says season 2 covers the entire main story through the manga's finale, though its chapter numbers conflict with other counts. The manga is finished.",
+  "src": [
+   [
+    "Mystiqora",
+    "https://mystiqora.com/where-to-read-you-and-i-are-polar-opposites-after-season-2-exact-manga-chapter-guide/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "aharensanwahakarenai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where season 2 ends. The manga is finished at about 167 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kemonojihen",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 21, so start at chapter 22. The anime censors the backstory in chapter 20 and skips chapters 10 and 16. The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kemono-jihen-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gosick",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating how much of the light novel the anime covers.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "howheavyarethedumbbellsy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends. The manga is ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chihayafuru",
+  "unit": "Chapter",
+  "next": "54",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 16
+   },
+   {
+    "l": "Season 2",
+    "end": 37
+   },
+   {
+    "l": "Season 3",
+    "end": 53
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends on chapter 53, so start at chapter 54. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-chihayafuru-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ajindemihuman",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime has a different ending from the manga, which concluded at chapter 86 of the main story. No source found for the exact divergence chapter.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/is-ajin-manga-over-status-explored"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "campfirecookinginanother",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends at the end of light novel volume 2; no source found for where season 2 ends.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-campfire-cooking-in-another-world-with-my-absurd-skill-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "newgame",
+  "unit": "Chapter",
+  "next": "86",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 85
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at the close of volume 6, so start at chapter 86, the first chapter of volume 7. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-new-game-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nonnonbiyori",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends. The manga is finished.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Non_Non_Biyori"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "worldendwhatareyoudoinga",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 3, so start at volume 4. The light novel is finished; the sequel series SukaMoka follows.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-worldend-sukasuka-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ascendanceofabookworm",
+  "unit": "Volume",
+  "next": "13",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Season 2",
+    "end": 5
+   },
+   {
+    "l": "Season 3",
+    "end": 7
+   },
+   {
+    "l": "Season 4",
+    "end": 12
+   }
+  ],
+  "status": "continue",
+  "note": "The 2026 season covers all of Part 3 (through overall volume 12), so continue with volume 13, the start of Part 4. Exact finale not confirmed.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "reincarnatedasasword",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No readable source found for which volumes season 2 adapts. The light novel is ongoing.",
+  "src": [],
+  "confidence": "low"
+ }
+]

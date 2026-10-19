@@ -1,0 +1,467 @@
+[
+ {
+  "id": "yugioh",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The 1998 Toei anime is loosely based on the first 7 volumes of the manga but changes many games, reorders events and adds original material, so there is no clean stopping point. Reading the manga from the start is recommended.",
+  "src": [
+   [
+    "YGOPRODeck",
+    "https://ygoprodeck.com/yu-gi-oh-anime-and-manga-breakdown-shadow-games-and-the-millennium-puzzle"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "oneouts",
+  "unit": "Chapter",
+  "next": "83",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 82
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 82, the last chapter of volume 10, so start at chapter 83 (volume 11). The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-one-outs-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theweakesttamerbeganajou",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime ends with Ivy leaving Otolwa after the criminal organization is exposed. We could not find a source stating which light novel volume this corresponds to. A second season was announced in December 2025.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Weakest_Tamer_Began_a_Journey_to_Pick_Up_Trash"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "loveunseenbeneaththeclea",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The light novel has 2 volumes and appears complete. We could not find a source saying how much of it the 12-episode anime covers.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Love_Unseen_Beneath_the_Clear_Night_Sky"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "beautifulbonessakurakosi",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime has no clean stopping point in the light novels: its final episode draws mainly from volume 7 chapter 2 but is heavily altered with anime-original content. The series is complete at 17 volumes, and starting from volume 1 is recommended.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-beautiful-bones-sakurakos-investigation-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tuneintothemidnightheart",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "acca13territoryinspectio",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The manga is complete at 6 volumes. We could not find a source stating where the 12-episode anime ends relative to the manga.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/ACCA:_13-Territory_Inspection_Dept."
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tyingtheknotwithanamagam",
+  "unit": "Chapter",
+  "next": "84",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 83
+   }
+  ],
+  "status": "continue",
+  "note": "The 24-episode anime ends at chapter 83, so start at chapter 84 (volume 10). The manga is finished at 194 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-tying-the-knot-with-an-amagami-sister-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "journalwithwitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shiboyugiplayingdeathgam",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first two light novel volumes, so start at volume 3 (the Cloudy Beach arc, which is covered by the July 2026 sequel film).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Playing_Death_Games_to_Put_Food_on_the_Table"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "goodluckgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "heavensmemopad",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yowamushipedal",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lovelab",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kakuriyobedbreakfastfors",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kenichithemightiestdisci",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "awildlastbossappeared",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "squidgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nurariseoftheyokaiclan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandpaandgrandmaturnyou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kinmoza",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lookism",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sanda",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thoughiamanineptvillaine",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chitoseisintheramunebott",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "killblue",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "comicgirls",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "spacebrothers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "knightsofsidonia",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "supercub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gareizero",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "agentsofthefourseasonsda",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "citytheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ushioandtoratv",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tamonsbside",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sketdance",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thosesnowwhitenotes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bokurano",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jaadugarawitchinmongolia",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ravenoftheinnerpalace",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "helck",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

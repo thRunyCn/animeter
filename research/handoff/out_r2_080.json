@@ -1,0 +1,538 @@
+[
+ {
+  "id": "bakaandtestsummonthebeas",
+  "unit": "Volume",
+  "next": "9",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 8
+   }
+  ],
+  "status": "continue",
+  "note": "The anime (both seasons) ends around the side story in volume 8, so start at volume 9. The anime skips the volume 7 arc 'Little Birds Can Remember', which is worth reading first.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-baka-and-test-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "initiald1ststage",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ragnacrimson",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chainedsoldier",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 43
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends on chapter 44 of the manga; a source for where Season 2 ends could not be found.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-chained-soldier-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "keepyourhandsoffeizouken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isthisazombie",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blastoftempest",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "goldenboy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "farminglifeinanotherworl",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "remakeourlife",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "azumangadaioh",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thegeniusprincesguidetor",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "omaidensinyoursavageseas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "insomniacsafterschool",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "seitokaiyakuindomo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "romantickiller",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thefarawaypaladin",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   },
+   {
+    "l": "Season 2",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts volumes 1-2 and Season 2 ends partway through volume 4 (after the battle with the dragon Valacirca), so pick up in the middle of volume 4. The manga adaptation resumes at chapter 67 (volume 14).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-faraway-paladin-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "beelzebub",
+  "unit": "Chapter",
+  "next": "121",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 120
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers up to chapter 120 and then has an anime-original ending that is not canon, so start at chapter 121 for the real continuation. The manga ran 252 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-beelzebub-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kakushigoto",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime finale adapts the end of the manga's final (12th) volume, so the story is complete. The anime skips much of volumes 2-10, so reading from chapter 1 gives the skipped material.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kakushigoto-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iwasreincarnatedasthe7th",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sailormoon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imadefriendswiththesecon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "cardcaptorsakura",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "interviewswithmonstergir",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 32 (episode 13 is an anime-original OVA), so start at chapter 33. The manga is finished at 78 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/interviews-with-monster-girls-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "schoolbabysitters",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tokyoravens",
+  "unit": "Volume",
+  "next": "10",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 9
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers through volume 9 but rushes it and uses an anime-original ending that changes key events. Start at volume 10 for new material, or volume 9 for the canon version of the arc.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-tokyo-ravens-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "shadowshouse",
+  "unit": "Chapter",
+  "next": "83",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 45
+   },
+   {
+    "l": "Season 2",
+    "end": 82
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers chapters 1-45 (its last two episodes are anime-original) and Season 2 ends at chapter 82, the end of the Master Robe Arc. Start at chapter 83.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-shadows-house-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bunnydrop",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 24 (the end of volume 4), covering only the first, parenting half of the story. The second half, after a 10-year time skip, starts at chapter 25 and is manga-only.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-usagi-drop-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "haibanerenmei",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime is based on an unfinished two-chapter doujinshi, and creator Yoshitoshi Abe wrote the anime's screenplay to continue the story. Extra material exists in 'Haibane Lifestyle Diary' and 'The Haibane of Old Home: Extra Edition'.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Haibane_Renmei"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "witchwatch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "engagedtotheunidentified",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijiultimatesurvivor",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "somaliandtheforestspirit",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fullmetalpanic",
+  "unit": "Volume",
+  "next": "10",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Season 2",
+    "end": 5
+   },
+   {
+    "l": "Season 3",
+    "end": 9
+   }
+  ],
+  "status": "continue",
+  "note": "Invisible Victory ends with volume 9, so start at volume 10, where the final arc (volumes 10-12) begins. Volume 6 is a side-story collection the anime skipped.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-full-metal-panic-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "realgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aftertherain",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "reborn",
+  "unit": "Chapter",
+  "next": "283",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 282
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 282, the end of the Future Arc, so start at chapter 283 (the Inheritance Ceremony Arc). The manga finishes at 409 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-katekyo-hitman-reborn-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "secretsofthesilentwitch",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kubowontletmebeinvisible",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 47
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers chapters 1-47, so start at chapter 48 (volume 5). The manga is complete at 144 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/kubo-wont-let-me-be-invisible-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "shakugannoshana",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A reliable source stating where the anime ends in the source could not be found.",
+  "src": [],
+  "confidence": "low"
+ }
+]
