@@ -53,6 +53,7 @@ a{color:inherit}
 .wl button[data-st="dropped"][aria-pressed="true"]{background:var(--pink);border-color:var(--pink);color:#fff}
 .wl button[data-st="completed"][aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
 .wl button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.dm-stats small.of{font-family:var(--f-mono);font-size:13px;color:var(--ink-soft);font-weight:400}
 .prof h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,48px);margin:26px 0 4px}
 .prof .counts{display:flex;flex-wrap:wrap;gap:8px 26px;margin:14px 0 6px}
 .prof .counts>div{display:flex;flex-direction:column}
@@ -315,7 +316,8 @@ function stats(id){
     n++;
     if (r.clicked === "never") never++;
     else if (Number.isInteger(r.clicked) && r.clicked>=1 && r.clicked<=N){ clicked[r.clicked]++; clickList.push(r.clicked); }
-    if (Number.isInteger(r.stopped) && r.stopped>=1 && r.stopped<=N) stopped[r.stopped]++;
+    // A stop from someone whose list says "Watching" is where they are now, not a drop.
+    if (Number.isInteger(r.stopped) && r.stopped>=1 && r.stopped<=N && r.status!=="watching") stopped[r.stopped]++;
   }
   clickList.sort((a,b)=>a-b);
   const median = clickList.length ? clickList[Math.floor((clickList.length-1)/2)] : null;
@@ -426,6 +428,13 @@ function renderRankings(){
 }
 
 /* ---------- series page ---------- */
+function myProgress(s, mine){               // "You stopped at episode 24 (season 1, ep 24): 24 of 87 episodes, 28%."
+  const n = Number.isInteger(mine.stopped) ? mine.stopped : null;
+  if (n) return `Your report: you stopped at ${epName(s, n)}, ${n} of ${s.eps} episodes (${Math.round(n/s.eps*100)}%).`
+    + (mine.status==="watching" ? " Your list says Watching, so it counts as where you are, not a drop." : n < s.eps ? " Still watching? Set My list to Watching and it won't count as a drop." : "");
+  if (mine.stopped==="no") return "Your report: you didn't stop.";
+  return "";
+}
 function epName(s, n){                      // "episode 28 (season 2, ep 3)" for multi-season runs
   const i = s.run?.length > 1 ? s.run.findIndex(r=>n>=r.from && n<r.from+r.e) : -1;
   return i<0 ? `episode ${n}` : `episode ${n} (season ${i+1}, ep ${n-s.run[i].from+1})`;
@@ -510,7 +519,7 @@ function paneOverview(s){
     : `${dmKey}<div class="dm-stats">
         <div><span class="label">Reports</span><b class="mono">${st.n}</b></div>
         <div><span class="label">Clicks by</span><b class="b">${st.median ? "Ep "+st.median : "—"}</b></div>
-        <div><span class="label">Stopped</span><b class="p">${Math.round(st.dropTotal/st.n*100)}%</b></div>
+        <div><span class="label">Dropped it</span><b class="p">${st.dropTotal}<small class="of"> of ${st.n}</small></b></div>
         <div><span class="label">Never clicked</span><b>${st.never}</b></div>
       </div><div class="chart">${chartSVG(s, st)}</div>`;
   const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report across ${s.run?.length > 1 ? `all ${s.run.length} seasons (${s.eps} episodes)` : `all ${s.eps} episodes`}.`)
@@ -523,7 +532,7 @@ function paneOverview(s){
       <label for="stopped">I stopped watching at
         <select id="stopped"><option value="">Choose…</option><option value="no" ${mine.stopped==="no"?"selected":""}>I didn't stop</option>${epOpts(mine.stopped)}</select></label>
       <button class="btn" type="submit" id="save">${mine.clicked||mine.stopped ? "Update my report" : "Save my report"}</button>
-    </form><div class="note" id="note"></div>`;
+    </form><div class="note" id="note">${myProgress(s, mine)}</div>`;
   return `<h3>Is it worth pushing through?</h3><p class="sub">${esc(verdict)}</p><div class="dm">${body}</div>${form}`;
 }
 function paneArcs(s, d){

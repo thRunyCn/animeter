@@ -47,6 +47,7 @@ a{color:inherit}
 .wl button[data-st="dropped"][aria-pressed="true"]{background:var(--pink);border-color:var(--pink);color:#fff}
 .wl button[data-st="completed"][aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
 .wl button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.dm-stats small.of{font-family:var(--f-mono);font-size:13px;color:var(--ink-soft);font-weight:400}
 .prof h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,48px);margin:26px 0 4px}
 .prof .counts{display:flex;flex-wrap:wrap;gap:8px 26px;margin:14px 0 6px}
 .prof .counts>div{display:flex;flex-direction:column}
