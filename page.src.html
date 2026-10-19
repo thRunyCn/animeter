@@ -322,9 +322,11 @@ function ranked(){
   const q = query.trim().toLowerCase();
   return q ? items.filter(x=>x.s.title.toLowerCase().includes(q) || (x.s.jp||"").includes(q)) : items;
 }
+let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
   const app = document.getElementById("app");
-  if (!document.getElementById("rk")){
+  if (!homeWired || !document.getElementById("rk")){
+    homeWired = true;
     app.innerHTML = `
       <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1></header>
       <section id="rankings">
