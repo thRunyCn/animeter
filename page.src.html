@@ -328,6 +328,64 @@ footer{text-align:left}
 .chart text{font-family:var(--f-body)}
 @media (max-width:720px){.row .rank{font-size:24px}}
 @media (prefers-reduced-motion:reduce){.card:hover .cover{transform:none}}
+
+/* cel paint: the colour layer. Each series brings its own key colour (--tone, sampled from its cover);
+   genres get flat cel-paint colours; the sheet carries two screentone corners in sakura and sky. */
+:root{--sakura:#ff5f98;--sky:#2fa4f0;--sun:#ffbf1f;--leaf:#2fbf7f;--violet:#8b6cf2;--ember:#ff7a2f}
+.bg::before,.bg::after{content:"";position:absolute;width:58vmax;height:58vmax;pointer-events:none}
+.bg::before{top:-14vmax;right:-16vmax;background:radial-gradient(var(--sakura) 32%,transparent 35%) 0 0/10px 10px;opacity:.28;
+  -webkit-mask:radial-gradient(circle at 70% 30%,#000 0,transparent 60%);mask:radial-gradient(circle at 70% 30%,#000 0,transparent 60%)}
+.bg::after{bottom:-18vmax;left:-18vmax;background:radial-gradient(var(--sky) 32%,transparent 35%) 0 0/12px 12px;opacity:.24;
+  -webkit-mask:radial-gradient(circle at 30% 70%,#000 0,transparent 60%);mask:radial-gradient(circle at 30% 70%,#000 0,transparent 60%)}
+
+/* home hero: this week's top shows laid out like cels on a lightbox */
+.mast{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 28px;align-items:center}
+.mast .melink{grid-column:2;grid-row:1;justify-self:end;align-self:start;position:static}
+.mast h1,.mast .lede{grid-column:1}
+.cels{grid-column:1/-1;display:flex;padding:24px 30px 14px 16px;margin-top:4px;overflow-x:auto;scrollbar-width:none}
+.cels::-webkit-scrollbar{display:none}
+.cels a{flex:none;width:118px;margin-right:-26px;position:relative;text-decoration:none;transition:transform .18s}
+.cels a:nth-child(odd){transform:rotate(-3deg) translateY(4px)}
+.cels a:nth-child(even){transform:rotate(2.5deg)}
+.cels a:hover,.cels a:focus-visible{transform:rotate(0) translateY(-10px) scale(1.04);z-index:2}
+.cels .cover{border:3px solid #fff;border-radius:4px;box-shadow:7px 7px 0 var(--tone)}
+.cels .n{position:absolute;top:-14px;left:-6px;z-index:1;font-family:var(--f-pencil);font-weight:700;font-size:26px;color:var(--pink);transform:rotate(-8deg);text-shadow:0 0 6px var(--paper),0 0 2px var(--paper)}
+@media (min-width:900px){.cels{grid-column:2;grid-row:1/3;padding:18px 26px 18px 14px}.cels a{width:104px}.cels a:nth-child(n+6){display:none}}
+@media (prefers-reduced-motion:reduce){.cels a{transition:none}}
+
+/* series header: a slab of the show's own colour behind the covers, and a tone wash across the header */
+.sh{position:relative;isolation:isolate;--tone:#4a5160}
+.sh::before{content:"";position:absolute;z-index:-1;inset:0 -9999px;background:linear-gradient(180deg,color-mix(in srgb,var(--tone) 34%,transparent),color-mix(in srgb,var(--tone) 10%,transparent) 70%,transparent)}
+.sh .covers{position:relative}
+.sh .covers::before{content:"";position:absolute;z-index:-1;inset:16px -14px -14px 18px;background:var(--tone);border-radius:6px;transform:rotate(-2.5deg)}
+.sh .cover{border:3px solid #fff;box-shadow:0 10px 22px -12px rgba(0,0,0,.45)}
+.sh h2{text-decoration:underline;text-decoration-color:var(--tone);text-decoration-thickness:6px;text-underline-offset:6px;text-decoration-skip-ink:none}
+.tabs a[aria-current="page"]{box-shadow:inset 0 -4px 0 var(--tone,var(--blue))}
+
+/* list rows and cards wear their key colour */
+.row .cover,.card .cover{box-shadow:4px 4px 0 var(--tone)}
+.row{position:relative}
+.row::before{content:"";position:absolute;left:-10px;top:10px;bottom:10px;width:4px;border-radius:2px;background:var(--rt,transparent);transition:background .15s}
+.row:hover::before{background:var(--rt,var(--pink))}
+.card:hover .cover{box-shadow:0 0 0 0 transparent,7px 7px 0 var(--tone)}
+
+/* genre tags in flat cel paint */
+.tags button{--c:var(--ink-soft)}
+.tags .clr::before{display:none}
+.tags button::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
+.tags button[aria-pressed="true"]{background:var(--c);border-color:var(--c);color:#fff}
+.tags button[aria-pressed="true"]::before{background:#fff}
+.tags [data-tag="Action"]{--c:var(--ember)} .tags [data-tag="Comedy"]{--c:var(--sun)} .tags [data-tag="Drama"]{--c:var(--violet)}
+.tags [data-tag="Romance"]{--c:var(--sakura)} .tags [data-tag="Slice of Life"]{--c:var(--leaf)} .tags [data-tag="Fantasy"]{--c:#a25bd6}
+.tags [data-tag="Adventure"]{--c:#e0a100} .tags [data-tag="Mystery"]{--c:#4b5bd1} .tags [data-tag="Sci-Fi"]{--c:var(--sky)}
+.tags [data-tag="Supernatural"]{--c:#6d4bd8} .tags [data-tag="Psychological"]{--c:#c2185b} .tags [data-tag="Music"]{--c:#ff8bc2}
+.tags [data-tag="Sports"]{--c:#1f9e5a} .tags [data-tag="Ecchi"]{--c:#ff6f91} .tags [data-tag="Horror"]{--c:#b3261e}
+.tags [data-tag="Mecha"]{--c:#5f7a8c} .tags [data-tag="Film"]{--c:#2e3138} .tags [data-tag="Mahou Shoujo"]{--c:#ff7ad9} .tags [data-tag="Thriller"]{--c:#7a4b2a}
+.tags [data-tag="Comedy"][aria-pressed="true"],.tags [data-tag="Adventure"][aria-pressed="true"]{color:#2e3138}
+.tags [data-tag="Comedy"][aria-pressed="true"]::before,.tags [data-tag="Adventure"][aria-pressed="true"]::before{background:#2e3138}
+
+/* the wordmark picks up all the cel colours on its underline */
+.mast h1 a::after{background:linear-gradient(90deg,var(--sakura) 0 25%,var(--sun) 25% 50%,var(--sky) 50% 75%,var(--leaf) 75%)}
 </style>
 
 <div class="bg" aria-hidden="true"></div>
@@ -437,13 +495,17 @@ function ranked(){
   if (tags.size) out.forEach((x,i)=>x.rank=i+1);   // a search keeps overall rank; a tag filter ranks within the tag
   return out;
 }
+function celsHTML(){
+  const top = [...SERIES].filter(s=>s.score).sort((a,b)=>b.score-a.score || (b.popularity||0)-(a.popularity||0)).slice(0,8);
+  return `<nav class="cels" aria-label="Top rated">${top.map((s,i)=>`<a href="${seriesHref(s.id)}" title="${esc(s.title)}" style="--tone:${s.tone||'#4a5160'}"><span class="n">${i+1}</span>${coverHTML(s,"anime")}</a>`).join("")}</nav>`;
+}
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
   const app = document.getElementById("app");
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     app.innerHTML = `
-      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a><p class="lede">Where people drop each anime, where it finally clicks, and which chapter to read once the anime runs out.</p></header>
+      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a><p class="lede">Where people drop each anime, where it finally clicks, and which chapter to read once the anime runs out.</p>${celsHTML()}</header>
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -501,7 +563,7 @@ function renderRankings(){
   const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
   if (view==="list"){
     box.innerHTML = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
-      <a class="row" href="${seriesHref(s.id)}">
+      <a class="row" href="${seriesHref(s.id)}" style="--rt:${s.tone||'transparent'}">
         <span class="rank">${rank}</span>
         ${coverHTML(s,"anime")}
         <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(", ")}</span></span>
@@ -703,7 +765,7 @@ function renderSeries(id, tab){
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
     <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
-    <section class="sh">
+    <section class="sh" style="--tone:${s.tone||'#4a5160'}">
       <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
         <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div>
@@ -717,7 +779,7 @@ function renderSeries(id, tab){
         ${rateRow}${gate}
       </div>
     </section>
-    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <nav class="tabs" style="--tone:${s.tone||'#2c5fb3'}" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }

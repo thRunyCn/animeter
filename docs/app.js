@@ -98,13 +98,17 @@ function ranked(){
   if (tags.size) out.forEach((x,i)=>x.rank=i+1);   // a search keeps overall rank; a tag filter ranks within the tag
   return out;
 }
+function celsHTML(){
+  const top = [...SERIES].filter(s=>s.score).sort((a,b)=>b.score-a.score || (b.popularity||0)-(a.popularity||0)).slice(0,8);
+  return `<nav class="cels" aria-label="Top rated">${top.map((s,i)=>`<a href="${seriesHref(s.id)}" title="${esc(s.title)}" style="--tone:${s.tone||'#4a5160'}"><span class="n">${i+1}</span>${coverHTML(s,"anime")}</a>`).join("")}</nav>`;
+}
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
   const app = document.getElementById("app");
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     app.innerHTML = `
-      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a><p class="lede">Where people drop each anime, where it finally clicks, and which chapter to read once the anime runs out.</p></header>
+      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a><p class="lede">Where people drop each anime, where it finally clicks, and which chapter to read once the anime runs out.</p>${celsHTML()}</header>
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -162,7 +166,7 @@ function renderRankings(){
   const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
   if (view==="list"){
     box.innerHTML = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
-      <a class="row" href="${seriesHref(s.id)}">
+      <a class="row" href="${seriesHref(s.id)}" style="--rt:${s.tone||'transparent'}">
         <span class="rank">${rank}</span>
         ${coverHTML(s,"anime")}
         <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(", ")}</span></span>
@@ -364,7 +368,7 @@ function renderSeries(id, tab){
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
     <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
-    <section class="sh">
+    <section class="sh" style="--tone:${s.tone||'#4a5160'}">
       <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
         <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div>
@@ -378,7 +382,7 @@ function renderSeries(id, tab){
         ${rateRow}${gate}
       </div>
     </section>
-    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <nav class="tabs" style="--tone:${s.tone||'#2c5fb3'}" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
