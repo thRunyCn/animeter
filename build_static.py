@@ -29,7 +29,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "research", "handoff", "*.json"))):
     if os.path.basename(f) == "todo.json" or os.path.basename(f).startswith("in_"): continue
     try:
         rows = [h for h in json.load(open(f)) if isinstance(h, dict) and h.get("id")]
-        TRIED.update(h["id"] for h in rows if h.get("src") or "out_r2_" in f)   # round 2 searched every item
+        TRIED.update(h["id"] for h in rows if h.get("src") or re.search(r"out_r[245]_", f))   # rounds 2, 4, 5 searched every item
         HANDOFF.update({h["id"]: h for h in rows if h.get("confidence") in ("high", "medium") and h.get("src")})
     except Exception as e: print("skipping", f, e)
 END = {"fully_adapted": ("Fully adapted", "Done"), "anime_original_ending": ("Own ending", "Own end"), "unknown": ("Unclear", "Unclear")}

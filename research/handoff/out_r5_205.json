@@ -1,0 +1,1087 @@
+[
+ {
+  "id": "beyblade",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theinvisiblemanandhissoo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The 12-episode anime has no source stating where it stops. The manga is ongoing with nine volumes out.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Invisible_Man_and_His_Soon-to-Be_Wife"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "houseoffiveleaves",
+  "unit": "Chapter",
+  "next": "21",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 20
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 20, so start at chapter 21 (volume 3). It is a condensed adaptation and the rest of the 8-volume manga is unadapted.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-house-of-five-leaves-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thewallflower",
+  "unit": "Chapter",
+  "next": "45",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 44
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 44 (volume 11), so start at chapter 45. The anime skips some comedic chapters, and the manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-the-wallflower-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cityhunter",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tojimawantstobeakamenrid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source states the endpoint. The anime's final episode leaves the story open and the manga is ongoing (18 volumes).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Tojima_Wants_to_Be_a_Kamen_Rider"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "betrothedtomysistersex",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thegirldownstairs",
+  "unit": "Chapter",
+  "next": "86",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 85
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts the manhwa up to chapter 85, so start at chapter 86. The manhwa has more inner monologue and side moments than the anime.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-girl-downstairs-anime-end-in-the-manhwa/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "diaryofourdaysatthebreak",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 32 but reorders material (the chapter 32 events are moved into the finale). Mangashed recommends starting at chapter 29 (volume 5) so you miss nothing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-diary-of-our-days-at-the-breakwater-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bartender",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "birdythemightydecode",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsudomoe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thecatandthedragon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "maisonikkoku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime's ending matches the manga's ending, though it also adds some story arcs that are not in the manga. There is nothing further to read after it.",
+  "src": [
+   [
+    "Manga Wiki",
+    "https://manga.fandom.com/wiki/Maison_Ikkoku"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "saki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "withyouandtherain",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsumasho",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kayachanisntscary",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "excelsaga",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mynewbossisgoofy",
+  "unit": "Chapter",
+  "next": "16",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 16
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers up to about chapter 16, though it adapts chapters out of order and adds original scenes. Mangashed suggests starting at chapter 16, or chapter 1 for the intended order.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-new-boss-is-goofy-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hakumeiandmikochi",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's story effectively ends around chapter 28 (its finale also uses material from chapters 30 and 33). Chapters 14, 18, 22, 28, 29, 31 and 32 were skipped, so start at chapter 28 or chapter 14 to catch everything.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-hakumei-and-mikochi-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dragonquesttheadventureo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "helloiamawitchandmycrush",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theyuzukifamilysfoursons",
+  "unit": "Chapter",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 10
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 10, so start at chapter 11 (volume 4). The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-four-yuzuki-brothers-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "andyetthetownmoves",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime picks chapters selectively and out of order (about 22 of 129 chapters), so there is no single stopping point. Mangashed recommends reading from chapter 1; the manga is finished at 129 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-and-yet-the-town-moves-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "majors1",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 124
+   },
+   {
+    "l": "Season 2",
+    "end": 216
+   },
+   {
+    "l": "Season 3",
+    "end": 312
+   },
+   {
+    "l": "Season 4",
+    "end": 422
+   },
+   {
+    "l": "Season 5",
+    "end": 513
+   },
+   {
+    "l": "Season 6",
+    "end": 689
+   }
+  ],
+  "status": "unknown",
+  "note": "Mangashed says the original Major anime (seasons 1-6) ends around chapter 689 (volume 75), so continue at 690; the final chapter is 747, with a two-episode World Series OVA covering about 716-746. MAJOR 2nd (the latest anime) adapts the separate sequel manga Major 2nd, which is ongoing, and the source gives no chapter range for it.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-major-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "nialistonthemercilessmai",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "alwaysacatch",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theworldisdancing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedemonkingsdaughterist",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fuutopi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "letterbee",
+  "unit": "Chapter",
+  "next": "56",
+  "seasons": [
+   {
+    "l": "Letter Bee Reverse",
+    "end": 55
+   }
+  ],
+  "status": "continue",
+  "note": "Letter Bee Reverse follows the manga to about chapter 55, then switches to an anime-original storyline and ending. Start at chapter 56 (volume 10) to continue the real story.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-letter-bee-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thelawofueki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lookingforthefullmoon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime was made while the manga was still running and the stories deviated, with filler and different character fates (for example Eichi). Read the manga from chapter 1 for the original story.",
+  "src": [
+   [
+    "Generasia",
+    "https://www.generasia.com/wiki/Fullmoon_o_Sagashite"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "twilightoutoffocus",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 23 (volume 4), so start at chapter 24 (volume 5). It is a faithful adaptation that trims some small scenes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-twilight-out-of-focus-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "polarbearscaf",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "detectivesthesedaysarecr",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dearbrother",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "zakuro",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fushigiyugithemysterious",
+  "unit": "Volume",
+  "next": "15",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 14
+   }
+  ],
+  "status": "continue",
+  "note": "The 52-episode anime leaves out the manga's final four volumes, so start at volume 15. Those last volumes are adapted in the second OVA series, not the TV anime.",
+  "src": [
+   [
+    "Manga Wiki",
+    "https://manga.fandom.com/wiki/Fushigi_Y%C3%BBgi"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "magicknightrayearth",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bobobobobobobo",
+  "unit": "Chapter",
+  "next": "179",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 178
+   }
+  ],
+  "status": "continue",
+  "note": "The anime stops at episode 76 around the start of chapter 179 (volume 17); it was cut short, with no anime-original ending. The remaining arcs, including the finale, were never animated.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-bobobo-bo-bo-bobo-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yokohamashoppinglog",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "levele",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kodocha",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime's ending differs from the manga's, which gets much darker in its final volumes; the anime tells a different storyline. Reading the manga from chapter 1 is the way to see the real ending.",
+  "src": [
+   [
+    "Eroica Fenice",
+    "https://www.eroicafenice.com/comics/kodomo-no-omocha-5-differenze-tra-lanime-e-il-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "badgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "getbackers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "oblivionbattery",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts the manga through chapter 30, so start at chapter 31 (volume 5). The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-oblivion-battery-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "seeyoutomorrowatthefoodc",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kekkaishi",
+  "unit": "Chapter",
+  "next": "121",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 120
+   }
+  ],
+  "status": "continue",
+  "note": "The anime concludes at chapter 120 (volume 9, page 58), so start at chapter 121 (volume 10). The anime adds some filler and its resolution of the Kokuboro arc differs from the manga.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kekkaishi-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yakitatejapan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shinchan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "astarbrighterthanthesun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "scrappedprincess",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "psychicprincess",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ifmyfavoritepopidolmadei",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kusunokisgardenofgods",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mermaidmelodypichipichip",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gakuenalice",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 27
+   }
+  ],
+  "status": "continue",
+  "note": "The anime reaches about chapter 27 (the Christmas party and school festival arc); its last episodes are anime-original filler. Start at chapter 28 of the 180-chapter manga.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-gakuen-alice-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "biaoren",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "captaintsubasa",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The Animefillerguide page says the anime adapted the manga up to chapter 114, but it also says the manga has 114 chapters while AniList lists 356 across 37 volumes, so the figures conflict. Check the chapter count before relying on this.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=287"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "rodthetv",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "R.O.D the TV is an original sequel to the Read or Die OVA, not an adaptation of a manga. The Read or Dream manga is a separate, non-canon side story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/R.O.D_the_TV"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yumeiropatissiere",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "paniponidash",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yourebeingsummonedazazel",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sgtfrog",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestoryofsaiunkoku",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yourlightkasesanandmorni",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kimagureorangeroad",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "victoriaofmanyfaces",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galaxyexpress999",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isekaiizakayajapanesefoo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yamadakunto7ninnomajoona",
+  "unit": "Chapter",
+  "next": "91",
+  "seasons": [
+   {
+    "l": "TV anime",
+    "end": 90
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode TV anime adapts the manga up to chapter 90, so start at chapter 91 (volume 11); the OVA/ONA extras are short side material. The 243-chapter manga's ending is not adapted.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-yamada-kun-and-the-seven-witches-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tadaimaokaeri",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "moyashimon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theirresponsiblecaptaint",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "darasanofthereiwaera",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "japananimatorsexhibition",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "This is an anthology of original animation shorts; only a few individual shorts adapt manga, so there is no continuing point in the manga.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Japan_Animator_Expo"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "librarywar",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "trilliongame",
+  "unit": "Chapter",
+  "next": "52",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 51
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends where chapter 52 (volume 7) begins, so start at chapter 52; the manga is complete at 87 chapters. The finale adds an original flash-forward and the anime skips chapter 35 and condenses chapters 24-25.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-trillion-game-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "youreunderarrest",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "emmaavictorianromance",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thealldevouringwhalehome",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "loveyoubaby",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "osomatsukun1988",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the original, so check the first volume you have not seen.",
+  "src": [],
+  "confidence": "low"
+ }
+]
