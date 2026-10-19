@@ -287,14 +287,14 @@ function coverHTML(s, kind, tag, extra=""){
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
-const handoffShort = s => s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
+const handoffShort = s => s.unchecked ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
 function route(){
   const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
   if (h === "profile") return {id:null, profile:true};
   const [id, tab] = h.split(".");
-  if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) ? tab : "overview"};
+  if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) && !(byId[id].unchecked && /arcs|events|filler/.test(tab)) ? tab : "overview"};
   return {id:null};
 }
 function go(hash){ if (location.hash !== hash) location.hash = hash; else render(); }
@@ -469,6 +469,7 @@ function epKinds(d){
 }
 
 function paneOverview(s){
+  if (s.eps < 3) return `<h3>Is it worth watching?</h3><p class="sub">The drop map is for series. Rate ${s.format==="MOVIE" ? "the film" : "it"} above to add to its Animeter score.</p>`;
   const st = stats(s.id), mine = (myId && reports[myId] && reports[myId][s.id]) || {};
   const epOpts = sel => Array.from({length:s.eps},(_,i)=>`<option value="${i+1}" ${sel===i+1?"selected":""}>Episode ${i+1}</option>`).join("");
   const dmKey = `<div class="key"><span><i class="sw" style="background:var(--blue)"></i>It clicked for me here</span><span><i class="sw" style="background:var(--pink)"></i>I stopped watching here</span></div>`;
@@ -536,6 +537,8 @@ function paneFiller(s, d){
     ${srcHTML(d.src)}`;
 }
 function paneManga(s){
+  if (s.unchecked) return `<h3>${s.kind==="original"||s.kind==="vn" ? "Is there a manga to continue?" : "Anime finished. Where does the story pick up?"}</h3>
+    <div class="handoff"><div class="big word"><small>Status</small>${s.kind==="original" ? "Original" : s.kind==="vn" ? "Game" : "Not checked yet"}</div><p>${esc(s.note)}</p></div>${srcHTML(s.src)}`;
   const unit = s.unit || "Chapter";
   const q = s.kind==="novel" ? "Anime finished. Where does the story go next?" : (s.kind==="original"||s.kind==="vn") ? "Is there a manga to continue?" : "Anime finished. Where does the manga pick up?";
   return `<h3>${q}</h3>
@@ -575,7 +578,7 @@ function renderSeries(id, tab){
         ${rateRow}${gate}
       </div>
     </section>
-    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>!s.unchecked || k==="overview" || k==="manga").map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));

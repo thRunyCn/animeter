@@ -17,6 +17,30 @@ COVERS = os.path.join(WEB, "covers")          # downscaled copies (460px) of ../
 TABS = [("overview", "Overview"), ("arcs", "Arcs"), ("events", "Key events"), ("filler", "Filler"), ("manga", "Manga")]
 
 series, details, fetched = load()
+# AniList top-rated franchises (fetch_top.py). Hand-off, arcs and filler aren't researched for these yet.
+try: top = json.load(open(os.path.join(HERE, "top.json")))
+except FileNotFoundError: top = []
+KIND_WORD = {"manga": "manga", "novel": "light novel"}
+for t in top:
+    src = t.get("source") or {}
+    eps = t.get("eps")
+    fmt = t.get("format")
+    if t["kind"] in KIND_WORD:
+        size = f'{src["chapters"]} chapters' if src.get("chapters") else f'{src["volumes"]} volumes' if src.get("volumes") else ""
+        state = {"FINISHED": "finished", "RELEASING": "still running", "HIATUS": "on hiatus"}.get(src.get("status"), "")
+        bits = ", ".join(b for b in (size, state) if b)
+        note = f'We haven\'t checked where the anime ends in the {KIND_WORD[t["kind"]]} yet.' + (f' The {KIND_WORD[t["kind"]]} is {bits}.' if bits else "")
+    elif t["kind"] == "original": note = "An anime original, so there is no manga to pick up from."
+    else: note = "Adapted from a game, so there is no manga to pick up from."
+    series.append({
+        "id": t["id"], "title": t["title"], "jp": t.get("jp") or "", "kind": t["kind"], "format": fmt,
+        "eps": eps or 12, "epsLabel": "Movie" if fmt == "MOVIE" else "Season 1" if eps else "First 12 episodes",
+        "seasons": [], "next": None, "unchecked": True, "note": note,
+        "score": t.get("score"), "popularity": t.get("popularity"), "year": t.get("year"), "genres": t.get("genres") or [],
+        "tone": t.get("tone"),
+        "src": [["AniList", f'https://anilist.co/anime/{t["anilist"]}']] + ([["MyAnimeList", f'https://myanimelist.net/anime/{t["mal"]}']] if t.get("mal") else [])
+               + ([["Source on AniList", src["url"]]] if src.get("url") else []),
+    })
 src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
@@ -50,7 +74,10 @@ def meta_for(s, tab):
     t, d = s["title"], details.get(s["id"])
     n_arcs, fc, te = len((d or {}).get("arcs") or []), filler_count(d), total_eps(s, d)
     ho = handoff(s)
-    if tab == "overview":
+    if tab == "overview" and s.get("unchecked"):
+        title = f"{t}: is it worth watching? Ratings and drop points"
+        desc = f"Where people drop {t} and where it clicks, from viewer reports, plus Animeter ratings and lists."
+    elif tab == "overview":
         title = f"{t}: is it worth watching? Drop points and where the manga continues"
         desc = f"Where people drop {t} and where it clicks, by episode, from viewer reports. Plus the {t} filler list, arcs and where to continue in the source after the anime."
     elif tab == "arcs":
@@ -124,6 +151,7 @@ for s in series:
         rel = f'{s["id"]}/' + ("" if k == "overview" else f"{k}/")
         root = "../" * rel.count("/")
         title, desc = meta_for(s, k)
+        if s.get("unchecked") and k in ("arcs", "events", "filler"): continue     # nothing to show yet
         img = f'covers/{s["id"]}-anime.jpg' if os.path.exists(os.path.join(COVERS, f'{s["id"]}-anime.jpg')) else None
         w(rel + "index.html", page(s["id"] + ("" if k == "overview" else "." + k), root, title, desc, SITE + rel, img))
         urls.append(SITE + rel)
