@@ -19,7 +19,7 @@ COVERS = os.path.join(HERE, "covers"); os.makedirs(COVERS, exist_ok=True)
 UA = "Mozilla/5.0 (animeter catalogue builder)"
 TARGET = 1000                      # franchises in total, existing ones included
 MAX_PAGES = 60                     # 50 entries per AniList page -> up to 3000 ranked entries
-FOLD = {"PREQUEL", "SEQUEL", "PARENT", "SIDE_STORY", "SUMMARY"}
+FOLD = {"PREQUEL", "SEQUEL", "PARENT", "SIDE_STORY", "SUMMARY", "ALTERNATIVE"}  # ALTERNATIVE: remakes (FMA/FMAB, HxH 1999/2011)
 
 def get(url, data=None, tries=6):
     for i in range(tries):
@@ -48,7 +48,7 @@ try: pages = json.load(open(cache_al))
 except Exception: pages = []
 existing = json.load(open(os.path.join(HERE, "series.json")))
 meta = json.load(open(os.path.join(HERE, "meta.json")))
-while len(pages) < MAX_PAGES:
+while len(pages) < MAX_PAGES and sum(len(p) for p in pages) < 2600:
     res = json.loads(get("https://graphql.anilist.co", json.dumps({"query": Q, "variables": {"page": len(pages) + 1}}).encode()))
     pages.append(res["data"]["Page"]["media"])
     json.dump(pages, open(cache_al, "w"))
@@ -75,7 +75,8 @@ for m in al.values():
         if e["relationType"] in FOLD and e["node"]["type"] == "ANIME": union(m["id"], e["node"]["id"])
 # Relation chains break when a middle season isn't in the list, so also fold by title:
 # "Shingeki no Kyojin: The Final Season" joins "Shingeki no Kyojin".
-norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+# Parentheticals like "(TV)" or "(2011)" are dropped so "JoJo no Kimyou na Bouken (TV)" heads its OVA and films.
+norm = lambda t: re.sub(r"[^a-z0-9]+", " ", re.sub(r"\(.*?\)", " ", (t or "").lower())).strip()
 heads = []                                     # (normalised romaji, anilist id), shortest first
 for s in existing:
     a = (meta.get(s["id"]) or {}).get("anime") or {}
@@ -87,8 +88,26 @@ for m in al.values():
     if not m: continue
     t = norm(m["title"]["romaji"])
     for h, hid in heads:
-        if len(h) >= len(t): break
-        if t.startswith(h + " "): union(m["id"], hid); break
+        if len(h) > len(t): break
+        if hid != m["id"] and (t == h or t.startswith(h + " ")): union(m["id"], hid); break
+# "Fate/stay night", "Fate/Zero", "Fate/strange Fake": the part before the slash names the franchise.
+slash = {}
+for m in al.values():
+    r = (m["title"]["romaji"] or "")
+    if "/" in r and len(r.split("/")[0].strip()) >= 3: slash.setdefault(norm(r.split("/")[0]), []).append(m["id"])
+for ids in slash.values():
+    for x in ids[1:]: union(x, ids[0])
+# Same text before a colon is the same franchise too ("Code Geass: Boukoku no Akito" joins "Code Geass: Hangyaku no Lelouch").
+colon = {}
+for t, i in [(((meta.get(s_["id"]) or {}).get("anime") or {}).get("title", {}).get("romaji"), ((meta.get(s_["id"]) or {}).get("anime") or {}).get("id")) for s_ in existing] + [(m["title"]["romaji"], m["id"]) for m in al.values()]:
+    if not t or not i or ":" not in t: continue
+    k = norm(t.split(":")[0])
+    if len(k) >= 5: colon.setdefault(k, []).append(i)
+for ids in colon.values():
+    for x in ids[1:]: union(x, ids[0])
+# Hand-made folds that neither relations nor titles catch: (anilist id, anilist id of the same franchise).
+for x, y in [(128207, 170)]:        # THE FIRST SLAM DUNK -> Slam Dunk
+    union(x, y)
 have_ids = {}
 for s in existing:
     a = (meta.get(s["id"]) or {}).get("anime") or {}
@@ -100,6 +119,28 @@ for r in ranked:
     g = find(m["id"])
     if g not in groups: groups[g] = []; order.append(g)
     groups[g].append((r, m))
+# The first season may be outside the top list (Arifureta's TV season scores below its Prologue), so walk
+# PREQUEL/SEQUEL edges to whichever season aired earlier. Story order differs from airing order both ways:
+# Fate/Zero is a prequel that aired later, and Arifureta's Prologue is a prequel to the earlier TV season.
+cache_x = os.path.join(HERE, "research", "anilist_extra.json")
+try: extra = json.load(open(cache_x))
+except Exception: extra = {}
+QX = "query($id:Int){Media(id:$id)" + Q[Q.index("{\n id "):-2] + "}"   # same fields as Q, one item by id
+def full(i):
+    if str(i) in al: return al[str(i)]
+    if str(i) not in extra:
+        extra[str(i)] = json.loads(get("https://graphql.anilist.co", json.dumps({"query": QX, "variables": {"id": i}}).encode()))["data"]["Media"]
+        json.dump(extra, open(cache_x, "w")); time.sleep(2.2)
+    return extra[str(i)]
+def sd(m): d = m.get("startDate") or {}; return (d.get("year") or 9999, d.get("month") or 12)
+def earliest(m):
+    for _ in range(12):
+        pre = [e["node"]["id"] for e in m["relations"]["edges"] if e["relationType"] in ("PREQUEL", "SEQUEL") and e["node"]["type"] == "ANIME"
+               and e["node"]["format"] in ("TV", "ONA", "TV_SHORT")]
+        cands = [x for x in (full(i) for i in pre) if x and sd(x) < sd(m)]
+        if not cands: return m
+        m = min(cands, key=sd)
+    return m
 taken = {s["id"] for s in existing}
 def slug(t):
     s = re.sub(r"[^a-z0-9]+", "", (t or "").lower())[:24] or "anime"
@@ -115,8 +156,10 @@ for g in order:
     best = entries[0]                                        # best-ranked entry of the franchise
     def start(e): d = e[1]["startDate"] or {}; return (d.get("year") or 9999, d.get("month") or 12)
     tv = [e for e in entries if e[1]["format"] in ("TV", "ONA", "TV_SHORT")]
-    first = min(tv or entries, key=start)                     # first season present = the page's anchor
+    first = min(tv + [best], key=start)                      # first season present = the page's anchor; the best-ranked
+    # entry also counts, so an OVA-first classic (Legend of the Galactic Heroes, 1988) isn't anchored on its 2018 remake
     r, m = first
+    m = earliest(m)
     t = m["title"]
     src = None
     for e in m["relations"]["edges"]:

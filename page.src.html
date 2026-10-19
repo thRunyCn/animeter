@@ -287,7 +287,7 @@ function coverHTML(s, kind, tag, extra=""){
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
-const handoffShort = s => s.unchecked ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
+const handoffShort = s => s.unchecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
 function route(){
