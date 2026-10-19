@@ -1,0 +1,436 @@
+<title>Anime Kentei</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Dela+Gothic+One&display=swap">
+<style>
+/* Layout: a manga page. Home is a grid of uneven panels with ink gutters; play is one big panel with a speech bubble and four answer boxes. */
+:root {
+  --ink: #141414;
+  --paper: #fcfcf9;
+  --tone: #c9c9c2;
+  --red: #e2231a;
+  --yellow: #ffd31a;
+  --blue: #1a5cff;
+  --mute: #5d5d57;
+  --display: 'Archivo', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+  --jp: 'Dela Gothic One', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
+  --body: 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box }
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 16px 40px;
+}
+button { font: inherit; color: inherit; cursor: pointer }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px }
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 18px }
+.tone { background-image: radial-gradient(var(--tone) 1.2px, transparent 1.4px); background-size: 7px 7px }
+.lines { background: repeating-conic-gradient(from 0deg at 50% 50%, var(--ink) 0deg 1.2deg, transparent 1.2deg 7deg) }
+
+/* masthead */
+.mast { border: 4px solid var(--ink); position: relative; overflow: hidden; display: grid; grid-template-columns: auto 1fr auto; align-items: end; gap: 6px 22px; padding: 20px 22px 18px; background: var(--yellow) }
+.mast::before { content: ""; position: absolute; inset: 0; background: repeating-conic-gradient(from 0deg at 92% 120%, rgba(20,20,20,.13) 0deg 1.5deg, transparent 1.5deg 6deg); pointer-events: none }
+.mast > * { position: relative }
+.mast .jp { font-family: var(--jp); font-size: clamp(44px, 9vw, 104px); line-height: .9; writing-mode: horizontal-tb; letter-spacing: -.02em }
+.mast h1 { margin: 0; font-family: var(--display); font-weight: 900; font-stretch: 62%; font-size: clamp(30px, 5.4vw, 64px); line-height: .9; text-transform: uppercase; letter-spacing: .01em; text-wrap: balance }
+.mast p { margin: 6px 0 0; max-width: 46ch; font-weight: 500 }
+.mast .rank { text-align: center; font-weight: 800; font-size: 13px; letter-spacing: .08em; text-transform: uppercase }
+.hanko { display: grid; place-items: center; width: 92px; height: 92px; border: 4px solid var(--red); border-radius: 50%; color: var(--red); font-family: var(--jp); font-size: 30px; transform: rotate(-12deg); background: rgba(252,252,249,.75); line-height: 1 }
+.hanko.small { width: 70px; height: 70px; font-size: 22px }
+
+/* mode panels */
+.grid { display: grid; grid-auto-flow: dense; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 168px; gap: 12px }
+.panel { position: relative; border: 4px solid var(--ink); background: var(--paper); overflow: hidden; text-align: left; padding: 0; display: block; min-width: 0; transition: transform .12s }
+.panel:hover { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 var(--ink) }
+.panel .art { position: absolute; inset: 0; background-color: var(--ink) }
+.panel .art.dim::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 35%, rgba(10,10,10,.85)) }
+.panel .cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 14px; color: var(--paper); display: grid; gap: 2px }
+.panel .kanji { position: absolute; top: 8px; right: 10px; font-family: var(--jp); font-size: 42px; line-height: 1; color: var(--paper); -webkit-text-stroke: 2px var(--ink); paint-order: stroke fill; text-shadow: 3px 3px 0 var(--ink) }
+.panel h2 { margin: 0; font-family: var(--display); font-weight: 900; font-stretch: 70%; font-size: 30px; line-height: .95; text-transform: uppercase }
+.panel .d { font-size: 14px; opacity: .92 }
+.panel .best { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--yellow) }
+.p-mix { grid-column: span 7; grid-row: span 2 }
+.p-mix h2 { font-size: 52px }
+.p-mix .kanji { font-size: 64px }
+.p-a { grid-column: span 5 } .p-b { grid-column: span 4 } .p-c { grid-column: span 4 } .p-d { grid-column: span 4 }
+.p-e { grid-column: span 6 } .p-f { grid-column: span 3 } .p-g { grid-column: span 3 }
+.collage { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap: 3px; background: var(--ink) }
+.duel { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0; background: var(--ink) }
+.duel > div:first-child { clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%) }
+.duel > div:last-child { clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%); margin-left: -12% }
+.bigjp { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--jp); color: var(--ink); font-size: 40px; padding: 10px 10px 50px; text-align: center; line-height: 1.1 }
+.foot { color: var(--mute); font-size: 13px; text-align: center }
+
+/* play */
+.bar { display: grid; grid-template-columns: auto 1fr auto auto; gap: 14px; align-items: center; border: 4px solid var(--ink); padding: 8px 12px; background: var(--paper) }
+.bar .mode { font-family: var(--display); font-weight: 900; font-stretch: 70%; font-size: 24px; text-transform: uppercase; line-height: 1 }
+.bar .stat { font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap }
+.ghost { border: 3px solid var(--ink); background: var(--paper); padding: 6px 12px; font-weight: 800 }
+.ghost:hover { background: var(--yellow) }
+.timer { height: 14px; border: 3px solid var(--ink); background: var(--paper); position: relative; overflow: hidden }
+.timer i { position: absolute; inset: 0; background: var(--red); transform-origin: left; display: block }
+.stage { border: 4px solid var(--ink); position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; padding: 22px; min-height: 420px; align-items: center }
+.stage::before { content: ""; position: absolute; inset: -40%; background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(20,20,20,.07) 0deg 1.4deg, transparent 1.4deg 5deg); pointer-events: none }
+.stage > * { position: relative; min-width: 0 }
+.visual { justify-self: center; width: 100%; display: grid; place-items: center }
+.frame { border: 4px solid var(--ink); background-color: var(--ink); box-shadow: 8px 8px 0 var(--ink); overflow: hidden; position: relative; max-width: 100% }
+.frame.cover { width: min(280px, 100%); aspect-ratio: 240 / 340 }
+.frame.char { width: min(260px, 100%); aspect-ratio: 180 / 252 }
+.frame.banner { width: 100%; aspect-ratio: 4 / 1 }
+.frame .fill { position: absolute; inset: 0 }
+.frame .zoom { transition: transform 15s linear }
+.jpcard { font-family: var(--jp); font-size: clamp(30px, 5vw, 56px); line-height: 1.15; text-align: center; background: var(--paper); border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); padding: 28px 22px; word-break: keep-all; overflow-wrap: anywhere }
+.ask { display: grid; gap: 16px }
+.bubble { background: var(--paper); border: 4px solid var(--ink); border-radius: 50% / 38%; padding: 22px 30px; text-align: center; font-weight: 800; font-size: 20px; position: relative; text-wrap: balance }
+.bubble::after { content: ""; position: absolute; left: 18%; bottom: -24px; width: 28px; height: 28px; background: var(--paper); border-right: 4px solid var(--ink); border-bottom: 4px solid var(--ink); transform: skewX(-30deg) rotate(30deg) }
+.opts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px }
+.opt { border: 4px solid var(--ink); background: var(--paper); padding: 12px 12px 12px 44px; text-align: left; font-weight: 700; font-size: 16px; position: relative; min-height: 64px; box-shadow: 5px 5px 0 var(--ink); transition: transform .08s, box-shadow .08s; overflow-wrap: anywhere }
+.opt:hover:not(:disabled) { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--ink); background: #fff7cc }
+.opt:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink) }
+.opt .k { position: absolute; left: 0; top: 0; bottom: 0; width: 32px; display: grid; place-items: center; background: var(--ink); color: var(--paper); font-weight: 900 }
+.opt:disabled { cursor: default }
+.opt.ok { background: var(--yellow) }
+.opt.no { background: var(--red); color: var(--paper) }
+.opt.pic { padding: 0; display: grid; grid-template-rows: auto auto; min-height: 0 }
+.opt.pic .fill { aspect-ratio: 240 / 340; width: 100% }
+.opt.pic .t { padding: 6px 8px 8px; font-size: 13px; min-height: 2.6em }
+.opt.pic .k { bottom: auto; height: 32px; z-index: 1 }
+.opts.four-pics { grid-template-columns: repeat(4, 1fr) }
+.reveal { font-weight: 700; min-height: 1.4em; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center }
+.reveal .next { margin-left: auto; border: 4px solid var(--ink); background: var(--ink); color: var(--paper); font-weight: 900; padding: 10px 18px; text-transform: uppercase; letter-spacing: .04em }
+.reveal .next:hover { background: var(--red) }
+.stamp { position: absolute; top: 18px; right: 18px; z-index: 3; width: 128px; height: 128px; border: 6px solid var(--red); border-radius: 50%; display: grid; place-items: center; color: var(--red); font-family: var(--jp); font-size: 38px; line-height: 1; background: rgba(252,252,249,.9); transform: rotate(-14deg); animation: stamp .28s cubic-bezier(.2, 1.6, .4, 1) }
+.stamp small { display: block; font-family: var(--body); font-weight: 900; font-size: 12px; letter-spacing: .1em; margin-top: 4px; text-align: center }
+.stamp.miss { border-color: var(--ink); color: var(--ink) }
+@keyframes stamp { from { transform: rotate(-14deg) scale(2.4); opacity: 0 } }
+
+/* results */
+.result { border: 4px solid var(--ink); display: grid; grid-template-columns: auto 1fr; gap: 24px; padding: 26px; align-items: center; background: var(--paper); position: relative; overflow: hidden }
+.result .hanko { width: 150px; height: 150px; font-size: 46px; border-width: 6px }
+.result h2 { margin: 0; font-family: var(--display); font-weight: 900; font-stretch: 62%; font-size: clamp(40px, 7vw, 76px); line-height: .9; text-transform: uppercase }
+.result p { margin: 8px 0 0; max-width: 52ch }
+.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 10px }
+.strip .s { border: 3px solid var(--ink); position: relative; background: var(--paper) }
+.strip .s .fill { aspect-ratio: 240 / 340 }
+.strip .s b { position: absolute; top: -12px; right: -10px; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--paper); border: 3px solid var(--ink); font-size: 18px }
+.strip .s b.y { color: var(--red) }
+.strip .s span { display: block; font-size: 11px; font-weight: 700; padding: 4px 5px; line-height: 1.2 }
+.actions { display: flex; gap: 12px; flex-wrap: wrap }
+.actions button { border: 4px solid var(--ink); background: var(--yellow); font-weight: 900; padding: 12px 22px; text-transform: uppercase; box-shadow: 5px 5px 0 var(--ink) }
+.actions button + button { background: var(--paper) }
+.actions button:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--ink) }
+.loading { padding: 60px; text-align: center; font-family: var(--jp); font-size: 28px }
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: repeat(6, 1fr); grid-auto-rows: 150px }
+  .p-mix { grid-column: span 6; grid-row: span 2 }
+  .p-a, .p-b, .p-c, .p-d, .p-e, .p-f, .p-g { grid-column: span 3 }
+  .stage { grid-template-columns: 1fr; padding: 16px; min-height: 0 }
+  .frame.cover { width: min(220px, 70vw) }
+  .frame.char { width: min(200px, 60vw) }
+}
+@media (max-width: 520px) {
+  .mast { grid-template-columns: 1fr; padding: 16px }
+  .mast .rank { display: none }
+  .grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 140px; gap: 10px }
+  .p-mix { grid-column: span 2 }
+  .p-mix h2 { font-size: 38px }
+  .p-a, .p-b, .p-c, .p-d, .p-e, .p-f, .p-g { grid-column: span 1 }
+  .p-e, .p-g { grid-column: span 2 }
+  .panel h2 { font-size: 22px }
+  .panel .d { display: none }
+  .panel .kanji { font-size: 32px }
+  .opts { grid-template-columns: 1fr }
+  .opts.four-pics, .opts.two { grid-template-columns: 1fr 1fr }
+  .bar { grid-template-columns: 1fr auto; grid-template-areas: 'm q' 's s' 't t'; gap: 8px }
+  .bar .mode { grid-area: m } .bar #quit { grid-area: q } .bar .stat { grid-area: s } .bar .timer { grid-area: t }
+  .stamp { width: 96px; height: 96px; font-size: 28px; top: 10px; right: 10px }
+  .result { grid-template-columns: 1fr; justify-items: start }
+  .result .hanko { width: 110px; height: 110px; font-size: 34px }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stamp { animation: none }
+  .panel, .opt { transition: none }
+}
+</style>
+
+<div class="wrap" id="app"><div class="loading">読込中…</div></div>
+
+<script>
+const D = __DATA__;
+const AT = { c: [10, 6], p: [10, 10], b: [2, 20] };
+const N = 10, LIMIT = 15;
+
+const rnd = n => Math.floor(Math.random() * n);
+const pick = a => a[rnd(a.length)];
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = rnd(i + 1); [a[i], a[j]] = [a[j], a[i]] } return a };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function art(kind, ref) {
+  const [cols, rows] = AT[kind], col = ref[1] % cols, row = Math.floor(ref[1] / cols);
+  return `background-image:url(img/${kind}${ref[0]}.jpg);background-size:${cols * 100}% ${rows * 100}%;background-position:${col / (cols - 1) * 100}% ${row / (rows - 1) * 100}%`;
+}
+const loads = {};
+function load(kind, ref) {
+  const u = `img/${kind}${ref[0]}.jpg`;
+  return loads[u] || (loads[u] = new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = u }));
+}
+const fill = (kind, ref, cls = '') => `<div class="fill ${cls}" style="${art(kind, ref)}"></div>`;
+
+// distractors prefer shows that share a genre, so the wrong answers are plausible
+function others(a, n, ok = () => true) {
+  const near = shuffle(D.filter(x => x !== a && ok(x) && x.genres.some(g => a.genres.includes(g))));
+  const rest = shuffle(D.filter(x => x !== a && ok(x) && !near.includes(x)));
+  return near.slice(0, n * 2).concat(rest).slice(0, n);
+}
+const titleOpts = a => shuffle([a, ...others(a, 3, x => x.title !== a.title)]).map(x => ({ label: x.title, right: x === a }));
+
+const MODES = {
+  kapak: {
+    jp: '表紙', name: 'Kapak Avı', d: 'Kapak yakından başlar, süre geçtikçe uzaklaşır. Ne kadar erken bilirsen o kadar puan.',
+    make() {
+      const a = pick(D), ox = 20 + rnd(60), oy = 15 + rnd(55);
+      return { a, prompt: 'Bu hangi animenin kapağı?', need: [['c', a.cv]], zoom: [ox, oy],
+        visual: `<div class="frame cover"><div class="fill zoom" style="${art('c', a.cv)};transform:scale(4.2);transform-origin:${ox}% ${oy}%"></div></div>`,
+        opts: titleOpts(a), reveal: `${a.title} (${a.year})` };
+    }
+  },
+  kim: {
+    jp: '誰', name: 'Kim Bu?', d: 'Karakteri gör, hangi animeden olduğunu bul.',
+    make() {
+      const a = pick(D.filter(x => x.ch.length)), c = pick(a.ch);
+      return { a, prompt: 'Bu karakter hangi animeden?', need: [['p', c.at]],
+        visual: `<div class="frame char">${fill('p', c.at)}</div>`,
+        opts: titleOpts(a), reveal: `${c.n}, ${a.title}` };
+    }
+  },
+  isim: {
+    jp: '名前', name: 'Adını Söyle', d: 'Yüzü tanıdık mı? Karakterin adını seç.',
+    make() {
+      const a = pick(D.filter(x => x.ch.length)), c = pick(a.ch);
+      const pool = others(a, 12).flatMap(x => x.ch).filter(x => x.n !== c.n);
+      const names = [...new Set(shuffle(pool).map(x => x.n))].slice(0, 3);
+      return { a, prompt: 'Bu karakterin adı ne?', need: [['p', c.at]],
+        visual: `<div class="frame char">${fill('p', c.at)}</div>`,
+        opts: shuffle([{ label: c.n, right: true }, ...names.map(n => ({ label: n }))]), reveal: `${c.n}, ${a.title}` };
+    }
+  },
+  sahne: {
+    jp: '場面', name: 'Sahne', d: 'Geniş bir afiş karesi. Hangi seriden?',
+    make() {
+      const a = pick(D.filter(x => x.bn));
+      return { a, prompt: 'Bu sahne hangi animeden?', need: [['b', a.bn]], wide: true,
+        visual: `<div class="frame banner">${fill('b', a.bn)}</div>`,
+        opts: titleOpts(a), reveal: `${a.title}` };
+    }
+  },
+  kanji: {
+    jp: '漢字', name: 'Japonca Başlık', d: 'Orijinal Japonca adı oku, doğru kapağı seç.',
+    make() {
+      const a = pick(D.filter(x => x.jp && x.jp !== x.title));
+      const opts = shuffle([a, ...others(a, 3, x => x.title !== a.title)]);
+      return { a, prompt: 'Bu başlık hangi kapağa ait?', need: opts.map(x => ['c', x.cv]), pics: true,
+        visual: `<div class="jpcard">${esc(a.jp)}</div>`,
+        opts: opts.map(x => ({ label: x.title, pic: x.cv, right: x === a })), reveal: `${a.jp} = ${a.title}` };
+    }
+  },
+  duel: {
+    jp: '上下', name: 'Hangisi Yüksek?', d: 'İki anime, hangisinin AniList puanı daha yüksek?',
+    make() {
+      let a, b;
+      do { a = pick(D); b = pick(D) } while (a === b || Math.abs(a.score - b.score) < 4);
+      const hi = a.score > b.score ? a : b;
+      return { a: hi, prompt: 'AniList puanı daha yüksek olan hangisi?', need: [['c', a.cv], ['c', b.cv]], pics: true, two: true,
+        visual: `<div class="jpcard" style="font-size:clamp(40px,7vw,80px)">上<span style="color:var(--red)">か</span>下</div>`,
+        opts: [a, b].map(x => ({ label: x.title, pic: x.cv, right: x === hi })), reveal: `${a.title}: ${a.score} · ${b.title}: ${b.score}` };
+    }
+  },
+  yil: {
+    jp: '年', name: 'Hangi Yıl?', d: 'Kapağa bak, ilk yayın yılını tahmin et.',
+    make() {
+      const a = pick(D.filter(x => x.year)), set = new Set([a.year]);
+      const steps = shuffle([-12, -8, -5, -3, 3, 5, 8, 12]);
+      for (const s of steps) { const y = a.year + s; if (set.size < 4 && y <= 2026 && y >= 1970) set.add(y) }
+      return { a, prompt: 'Bu anime ilk hangi yıl yayınlandı?', need: [['c', a.cv]],
+        visual: `<div class="frame cover">${fill('c', a.cv)}</div>`,
+        opts: [...set].sort().map(y => ({ label: String(y), right: y === a.year })), reveal: `${a.title}: ${a.year}` };
+    }
+  },
+  studyo: {
+    jp: '工房', name: 'Stüdyo', d: 'Bu animeyi hangi stüdyo yaptı?',
+    make() {
+      const a = pick(D.filter(x => x.studio));
+      const st = shuffle([...new Set(D.map(x => x.studio).filter(s => s && s !== a.studio))]).slice(0, 3);
+      return { a, prompt: 'Bu animeyi hangi stüdyo çizdi?', need: [['c', a.cv]],
+        visual: `<div class="frame cover">${fill('c', a.cv)}</div>`,
+        opts: shuffle([{ label: a.studio, right: true }, ...st.map(s => ({ label: s }))]), reveal: `${a.title}: ${a.studio}` };
+    }
+  },
+  mix: { jp: '総合', name: 'Kentei Sınavı', d: 'Her türden 10 soru. Sonunda 5. kyū ile meijin arası bir derece alırsın.' }
+};
+const PLAYABLE = Object.keys(MODES).filter(k => k !== 'mix');
+
+const RANKS = [[0, '五級', '5. kyū', 'Yeni başlıyorsun. Birkaç sezon daha izle.'], [.3, '四級', '4. kyū', 'Popüler serileri tanıyorsun.'],
+  [.5, '三級', '3. kyū', 'Sağlam bir izleyicisin.'], [.65, '二級', '2. kyū', 'Arkadaş grubunun anime ansiklopedisi sensin.'],
+  [.8, '一級', '1. kyū', 'Kapakları uzaktan tanıyorsun.'], [.9, '初段', 'Shodan', 'Kara kuşak seviyesi.'], [.97, '名人', 'Meijin', 'Usta. Daha söylenecek bir şey yok.']];
+const rankOf = r => RANKS.filter(x => r >= x[0]).pop();
+
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem('kentei:' + k)) } catch { return null } },
+  set(k, v) { try { localStorage.setItem('kentei:' + k, JSON.stringify(v)) } catch {} }
+};
+
+const app = document.getElementById('app');
+let game = null, timer = null;
+
+function panelArt(k) {
+  const a = pick(D.filter(x => x.ch.length && x.bn && x.jp));
+  switch (k) {
+    case 'mix': return `<div class="collage">${shuffle(D).slice(0, 8).map(x => `<div style="${art('c', x.cv)}"></div>`).join('')}</div><div class="art dim" style="background:none"></div>`;
+    case 'kapak': return `<div class="art dim" style="${art('c', a.cv)};transform:scale(2.6);transform-origin:50% 30%"></div>`;
+    case 'kim': case 'isim': return `<div class="art dim" style="${art('p', pick(a.ch).at)}"></div>`;
+    case 'sahne': return `<div class="art dim" style="${art('b', a.bn)}"></div>`;
+    case 'kanji': return `<div class="art tone" style="background-color:var(--paper)"><div class="bigjp">${esc(a.jp)}</div></div><div class="art dim" style="background:none"></div>`;
+    case 'duel': { const b = pick(D); return `<div class="duel"><div style="${art('c', a.cv)}"></div><div style="${art('c', b.cv)}"></div></div><div class="art dim" style="background:none"></div>` }
+    default: return `<div class="art dim" style="${art('c', pick(D).cv)}"></div>`;
+  }
+}
+
+function home() {
+  clearInterval(timer); game = null;
+  const best = store.get('best:mix');
+  const rk = best ? rankOf(best.ratio) : null;
+  const order = [['mix', 'p-mix'], ['kapak', 'p-a'], ['kim', 'p-a'], ['isim', 'p-b'], ['kanji', 'p-c'], ['duel', 'p-d'], ['sahne', 'p-e'], ['yil', 'p-f'], ['studyo', 'p-g']];
+  app.innerHTML = `
+  <header class="mast">
+    <div class="jp">アニメ<br>検定</div>
+    <div><h1>Anime Kentei</h1><p>${D.length} anime, ${D.reduce((s, x) => s + x.ch.length, 0)} karakter. Kapaklardan, sahnelerden ve karakterlerden oluşan 8 farklı sınav.</p></div>
+    <div class="rank">${rk ? `<div class="hanko">${rk[1]}</div><div style="margin-top:10px">Derecen: ${rk[2]}</div>` : `<div class="hanko" style="color:var(--mute);border-color:var(--mute)">無段</div><div style="margin-top:10px">Henüz derecen yok</div>`}</div>
+  </header>
+  <section class="grid" aria-label="Sınavlar">
+    ${order.map(([k, cls]) => { const m = MODES[k], b = store.get('best:' + k); return `
+    <button class="panel ${cls}" data-mode="${k}">
+      ${panelArt(k)}
+      <span class="kanji" aria-hidden="true">${m.jp}</span>
+      <span class="cap"><h2>${m.name}</h2><span class="d">${m.d}</span>${b ? `<span class="best">En iyi: ${b.score} puan · ${b.right}/${N}</span>` : ''}</span>
+    </button>` }).join('')}
+  </section>
+  <div class="foot">Görseller ve puanlar AniList'ten. Her sınav ${N} soru, soru başına ${LIMIT} saniye. Klavyede 1–4 ile cevap ver, Enter ile geç.</div>`;
+  app.querySelectorAll('.panel').forEach(b => b.onclick = () => start(b.dataset.mode));
+}
+
+async function start(mode) {
+  game = { mode, i: 0, score: 0, right: 0, log: [], seen: new Set() };
+  next();
+}
+
+async function next() {
+  if (game.i >= N) return finish();
+  const key = game.mode === 'mix' ? pick(PLAYABLE) : game.mode;
+  let q, tries = 0;
+  do { q = MODES[key].make(); } while (game.seen.has(q.a.id) && ++tries < 30);
+  game.seen.add(q.a.id); q.key = key;
+  game.q = q;
+  app.innerHTML = `<div class="loading">${MODES[key].jp}…</div>`;
+  await Promise.all(q.need.map(([k, r]) => load(k, r)));
+  if (!game || game.q !== q) return;
+  const m = MODES[key];
+  app.innerHTML = `
+  <div class="bar">
+    <span class="mode">${m.jp} ${m.name}</span>
+    <div class="timer" aria-hidden="true"><i id="tbar"></i></div>
+    <span class="stat">${game.i + 1}/${N} · ${game.score} puan</span>
+    <button class="ghost" id="quit">Menü</button>
+  </div>
+  <section class="stage tone" style="${q.wide || q.pics ? 'grid-template-columns:1fr' : ''}">
+    <div class="visual">${q.visual}</div>
+    <div class="ask">
+      <div class="bubble">${q.prompt}</div>
+      <div class="opts ${q.pics && !q.two ? 'four-pics' : ''} ${q.two ? 'two' : ''}">
+        ${q.opts.map((o, i) => o.pic
+          ? `<button class="opt pic" data-i="${i}"><span class="k">${i + 1}</span>${fill('c', o.pic)}<span class="t">${q.key === 'kanji' ? '?' : esc(o.label)}</span></button>`
+          : `<button class="opt" data-i="${i}"><span class="k">${i + 1}</span>${esc(o.label)}</button>`).join('')}
+      </div>
+      <div class="reveal" id="reveal" aria-live="polite"></div>
+    </div>
+  </section>`;
+  document.getElementById('quit').onclick = home;
+  app.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(+b.dataset.i));
+  const z = app.querySelector('.zoom');
+  if (z) requestAnimationFrame(() => requestAnimationFrame(() => z.style.transform = 'scale(1)'));
+  q.t0 = performance.now();
+  const bar = document.getElementById('tbar');
+  clearInterval(timer);
+  timer = setInterval(() => {
+    const left = Math.max(0, 1 - (performance.now() - q.t0) / (LIMIT * 1000));
+    bar.style.transform = `scaleX(${left})`;
+    if (left <= 0) answer(-1);
+  }, 100);
+}
+
+function answer(i) {
+  const q = game?.q;
+  if (!q || q.done) return;
+  q.done = true; clearInterval(timer);
+  const secs = (performance.now() - q.t0) / 1000;
+  const ok = i >= 0 && q.opts[i].right;
+  const pts = ok ? 100 + Math.round(Math.max(0, LIMIT - secs) * 6) : 0;
+  game.score += pts; if (ok) game.right++;
+  game.log.push({ a: q.a, ok });
+  const btns = app.querySelectorAll('.opt');
+  btns.forEach((b, j) => {
+    b.disabled = true;
+    if (q.opts[j].right) b.classList.add('ok'); else if (j === i) b.classList.add('no');
+    const t = b.querySelector('.t'); if (t) t.textContent = q.opts[j].label;
+  });
+  const z = app.querySelector('.zoom');
+  if (z) { z.style.transition = 'transform .4s ease-out'; z.style.transform = 'scale(1)' }
+  const stage = app.querySelector('.stage');
+  stage.insertAdjacentHTML('beforeend', ok
+    ? `<div class="stamp">正解<small>+${pts}</small></div>`
+    : `<div class="stamp miss">${i < 0 ? '時間' : '残念'}<small>${i < 0 ? 'SÜRE DOLDU' : 'YANLIŞ'}</small></div>`);
+  game.i++;
+  const r = document.getElementById('reveal');
+  r.innerHTML = `<span>${esc(q.reveal)}</span><button class="next" id="nx">${game.i >= N ? 'Sonuç' : 'Sonraki'} →</button>`;
+  const nx = document.getElementById('nx'); nx.onclick = next; nx.focus({ preventScroll: true });
+  app.querySelector('.stat').textContent = `${game.i}/${N} · ${game.score} puan`;
+}
+
+function finish() {
+  const ratio = game.score / (N * 190);
+  const acc = game.right / N;
+  const rk = rankOf(Math.min(ratio * 1.25, acc));
+  const prev = store.get('best:' + game.mode);
+  const isBest = !prev || game.score > prev.score;
+  if (isBest) store.set('best:' + game.mode, { score: game.score, right: game.right, ratio: Math.min(ratio * 1.25, acc) });
+  const m = MODES[game.mode], mode = game.mode;
+  app.innerHTML = `
+  <section class="result tone">
+    <div class="hanko">${rk[1]}</div>
+    <div>
+      <div style="font-weight:800;letter-spacing:.08em;text-transform:uppercase">${m.jp} ${m.name} · ${game.right}/${N} doğru</div>
+      <h2>${game.score} puan · ${rk[2]}</h2>
+      <p>${rk[3]} ${isBest && prev ? 'Yeni rekor!' : prev ? `Rekorun ${prev.score} puan.` : ''}</p>
+    </div>
+  </section>
+  <section class="strip" aria-label="Cevapların">
+    ${game.log.map(l => `<div class="s">${fill('c', l.a.cv)}<b class="${l.ok ? 'y' : ''}">${l.ok ? '〇' : '✕'}</b><span>${esc(l.a.title)}</span></div>`).join('')}
+  </section>
+  <div class="actions"><button id="again">Tekrar oyna</button><button id="menu">Sınavlara dön</button></div>`;
+  document.getElementById('again').onclick = () => start(mode);
+  document.getElementById('menu').onclick = home;
+  game = null;
+}
+
+document.addEventListener('keydown', e => {
+  if (!game?.q || e.metaKey || e.ctrlKey || e.altKey) return;
+  const n = +e.key;
+  if (!game.q.done && n >= 1 && n <= game.q.opts.length) answer(n - 1);
+  else if (game.q.done && e.key === 'Enter' && document.activeElement?.id !== 'nx') next();
+});
+
+home();
+</script>

@@ -1,0 +1,7644 @@
+[
+{
+"id": "swordartonline",
+"title": "Sword Art Online",
+"jp": "ソードアート・オンライン",
+"year": 2012,
+"score": 70,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 726975,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg",
+"chars": [
+{
+"id": 36828,
+"name": "Asuna Yuuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36828-j5ib0adAzGMx.png"
+},
+{
+"id": 36765,
+"name": "Kazuto Kirigaya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36765-BnLbXg0Tzzh9.png"
+},
+{
+"id": 36831,
+"name": "Suguha Kirigaya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36831-JfyFU7gPPVmr.png"
+}
+]
+},
+{
+"id": "asilentvoice",
+"title": "A Silent Voice",
+"jp": "聲の形",
+"year": 2016,
+"score": 88,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 725751,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+"chars": [
+{
+"id": 80243,
+"name": "Shouko Nishimiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b80243-RzxE51iUU5eq.png"
+},
+{
+"id": 80491,
+"name": "Shouya Ishida",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b80491-NK6pxb6oH61P.png"
+},
+{
+"id": 124026,
+"name": "Naoka Ueno",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/124026-KcQmX7heg7im.jpg"
+}
+]
+},
+{
+"id": "yourname",
+"title": "Your Name.",
+"jp": "君の名は。",
+"year": 2016,
+"score": 85,
+"genres": [
+"Drama",
+"Romance",
+"Supernatural"
+],
+"pop": 722830,
+"studio": "CoMix Wave",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
+"chars": [
+{
+"id": 121514,
+"name": "Mitsuha Miyamizu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121514-MGI7JRluscpz.png"
+},
+{
+"id": 121516,
+"name": "Taki Tachibana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121516-kuPVJLNsH5uE.png"
+},
+{
+"id": 121522,
+"name": "Miki Okudera",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121522-TeGSD6ESVtc0.jpg"
+}
+]
+},
+{
+"id": "rascaldoesnotdreamofbunn",
+"title": "Rascal Does Not Dream of Bunny Girl Senpai",
+"jp": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+"year": 2018,
+"score": 81,
+"genres": [
+"Comedy",
+"Drama",
+"Mystery"
+],
+"pop": 586836,
+"studio": "CloverWorks",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101291-fqIUvQ6apEtD.jpg",
+"chars": [
+{
+"id": 127222,
+"name": "Mai Sakurajima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127222-Jh5hhP7vZ7s1.png"
+},
+{
+"id": 127221,
+"name": "Sakuta Azusagawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n127221-Wxg4xFtW4kaJ.png"
+},
+{
+"id": 127633,
+"name": "Rio Futaba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127633-FcCwWK5sQRhK.png"
+}
+]
+},
+{
+"id": "nogamenolife",
+"title": "No Game, No Life",
+"jp": "ノーゲーム・ノーライフ",
+"year": 2014,
+"score": 77,
+"genres": [
+"Adventure",
+"Comedy",
+"Ecchi"
+],
+"pop": 545939,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19815-BqbuD0wyBS3P.jpg",
+"chars": [
+{
+"id": 82525,
+"name": "Shiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b82525-sKk2FGRKN4aK.png"
+},
+{
+"id": 82523,
+"name": "Sora",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b82523-JB9oevKyXWfc.png"
+},
+{
+"id": 87887,
+"name": "Jibril",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87887-3QKmvQM5LTwY.png"
+}
+]
+},
+{
+"id": "thesevendeadlysins",
+"title": "The Seven Deadly Sins",
+"jp": "七つの大罪",
+"year": 2014,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 534637,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20789-qwG9GcxIrmVE.jpg",
+"chars": [
+{
+"id": 77605,
+"name": "Ban",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b77605-NrjhQwZwgJ3l.png"
+},
+{
+"id": 72921,
+"name": "Meliodas",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b72921-XDHNd1wflN6P.png"
+},
+{
+"id": 83801,
+"name": "King",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83801-52RnDXQDZ1I7.png"
+}
+]
+},
+{
+"id": "spiritedaway",
+"title": "Spirited Away",
+"jp": "千と千尋の神隠し",
+"year": 2001,
+"score": 86,
+"genres": [
+"Adventure",
+"Drama",
+"Fantasy"
+],
+"pop": 485909,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg",
+"chars": [
+{
+"id": 385,
+"name": "Haku",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b385-pKGCy3oYWxRa.png"
+},
+{
+"id": 384,
+"name": "Chihiro Ogino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b384-AoWCsQyG0WI7.png"
+},
+{
+"id": 8298,
+"name": "Kaonashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b8298-ATUVKng0oyHR.png"
+}
+]
+},
+{
+"id": "deathparade",
+"title": "Death Parade",
+"jp": "デス・パレード",
+"year": 2015,
+"score": 80,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 471432,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20931-xDhiTPZmtS3u.jpg",
+"chars": [
+{
+"id": 81853,
+"name": "Decim",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81853-CY99xwoziDG4.png"
+},
+{
+"id": 82037,
+"name": "Kurokami no Onna",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b82037-xvKHWk4AE4df.png"
+},
+{
+"id": 88681,
+"name": "Nona",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88681-tTuJXN5ds3gy.png"
+}
+]
+},
+{
+"id": "thattimeigotreincarnated",
+"title": "That Time I Got Reincarnated as a Slime",
+"jp": "転生したらスライムだった件",
+"year": 2018,
+"score": 80,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 470243,
+"studio": "8-bit",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101280-9t7J3774n955.jpg",
+"chars": [
+{
+"id": 123962,
+"name": "Rimuru Tempest",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123962-eL9yGV0NLMF7.png"
+},
+{
+"id": 128036,
+"name": "Milim Nava",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b128036-lW0dxNwerqw4.png"
+},
+{
+"id": 128033,
+"name": "Shion",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b128033-fLbTgW4M2yj3.png"
+}
+]
+},
+{
+"id": "therisingoftheshieldhero",
+"title": "The Rising of the Shield Hero",
+"jp": "盾の勇者の成り上がり",
+"year": 2019,
+"score": 76,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 466146,
+"studio": "Kinema Citrus",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99263-IwkmdCTsDY1t.jpg",
+"chars": [
+{
+"id": 88889,
+"name": "Raphtalia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88889-CWYytVbCOPsV.png"
+},
+{
+"id": 88817,
+"name": "Naofumi Iwatani",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88817-Aku5CuN6wO2z.png"
+},
+{
+"id": 126828,
+"name": "Filo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126828-nZDnMK4Bw7f9.png"
+}
+]
+},
+{
+"id": "kakegurui",
+"title": "Kakegurui",
+"jp": "賭ケグルイ",
+"year": 2017,
+"score": 70,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 460073,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98314-gwgiHiJOj2ls.jpg",
+"chars": [
+{
+"id": 121889,
+"name": "Yumeko Jabami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121889-ABsurpy5SjOW.png"
+},
+{
+"id": 122687,
+"name": "Mary Saotome",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122687-jl1wk9rjO57e.png"
+},
+{
+"id": 122688,
+"name": "Ryouta Suzui",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122688-DdMMQtWRdchY.png"
+}
+]
+},
+{
+"id": "classroomoftheelite",
+"title": "Classroom of the Elite",
+"jp": "ようこそ実力至上主義の教室へ",
+"year": 2017,
+"score": 76,
+"genres": [
+"Drama",
+"Psychological"
+],
+"pop": 453431,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98659-u46B5RCNl9il.jpg",
+"chars": [
+{
+"id": 123212,
+"name": "Kiyotaka Ayanokouji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123212-ewZgUQr9vvEM.png"
+},
+{
+"id": 123213,
+"name": "Suzune Horikita",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123213-jUfrGBXfW7BL.png"
+},
+{
+"id": 123215,
+"name": "Airi Sakura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123215-sMQJk35TqQv4.jpg"
+}
+]
+},
+{
+"id": "angelbeats",
+"title": "Angel Beats!",
+"jp": "Angel Beats!",
+"year": 2010,
+"score": 77,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 447129,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6547-YUUiSjKyxxeQ.jpg",
+"chars": [
+{
+"id": 22369,
+"name": "Kanade Tachibana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22369-zC7OgGbfO7b6.jpg"
+},
+{
+"id": 22370,
+"name": "Yuri Nakamura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22370-pNQxFEv1K7lS.jpg"
+},
+{
+"id": 24515,
+"name": "Yui Yoshioka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b24515-4v85Z9CqCe0Y.png"
+}
+]
+},
+{
+"id": "charlotte",
+"title": "Charlotte",
+"jp": "Charlotte(シャーロット)",
+"year": 2015,
+"score": 75,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 438715,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20997-nE9VyUa08vS0.jpg",
+"chars": [
+{
+"id": 88951,
+"name": "Nao Tomori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88951-bRm610RrrXp9.jpg"
+},
+{
+"id": 88950,
+"name": "Yuu Otosaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88950-0ER2ke5pswxq.png"
+},
+{
+"id": 88955,
+"name": "Ayumi Otosaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88955-iKYbTaBsmIF0.jpg"
+}
+]
+},
+{
+"id": "killlakill",
+"title": "Kill la Kill",
+"jp": "キルラキル",
+"year": 2013,
+"score": 79,
+"genres": [
+"Action",
+"Comedy",
+"Ecchi"
+],
+"pop": 418609,
+"studio": "TRIGGER",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18679-rpC99hxBxaMn.jpg",
+"chars": [
+{
+"id": 83797,
+"name": "Ryuuko Matoi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83797-ix0Cl5OMfV22.png"
+},
+{
+"id": 87511,
+"name": "Mako Mankanshoku",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87511-T8lwlQKd6SoK.png"
+},
+{
+"id": 83799,
+"name": "Satsuki Kiryuuin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83799-oPxSwMA9XAvu.png"
+}
+]
+},
+{
+"id": "overlord",
+"title": "Overlord",
+"jp": "オーバーロード",
+"year": 2015,
+"score": 77,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 409855,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20832-NswCiSYMoI2k.jpg",
+"chars": [
+{
+"id": 89103,
+"name": "Momonga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89103-ZsnA0r77GHsR.png"
+},
+{
+"id": 89122,
+"name": "Albedo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89122-Gj7MBs7F5cMJ.png"
+},
+{
+"id": 89121,
+"name": "Shalltear Bloodfallen",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89121-N8hzLH4nfWna.png"
+}
+]
+},
+{
+"id": "foodwars",
+"title": "Food Wars!",
+"jp": "食戟のソーマ",
+"year": 2015,
+"score": 78,
+"genres": [
+"Comedy",
+"Ecchi"
+],
+"pop": 406606,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20923-9tFdZ5hIrRiF.png",
+"chars": [
+{
+"id": 75216,
+"name": "Souma Yukihira",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b75216-KDU8333eIcqf.jpg"
+},
+{
+"id": 75284,
+"name": "Erina Nakiri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b75284-4Hiyq7DOwvy7.png"
+},
+{
+"id": 76026,
+"name": "Megumi Tadokoro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b76026-cQAQTlZFfG2e.png"
+}
+]
+},
+{
+"id": "isitwrongtotrytopickupgi",
+"title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+"jp": "ダンジョンに出会いを求めるのは間違っているだろうか",
+"year": 2015,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 401035,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20920-QZeO1gVTQSUZ.jpg",
+"chars": [
+{
+"id": 88860,
+"name": "Bell Cranel",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88860-catfcwlvUYst.jpg"
+},
+{
+"id": 87654,
+"name": "Hestia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87654-UmmuLPwSK2Hd.jpg"
+},
+{
+"id": 88897,
+"name": "Liliruca Arde",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88897-2xey5UG7Qr2S.png"
+}
+]
+},
+{
+"id": "thedevilisaparttimer",
+"title": "The Devil is a Part-Timer!",
+"jp": "はたらく魔王さま!",
+"year": 2013,
+"score": 75,
+"genres": [
+"Comedy",
+"Fantasy",
+"Romance"
+],
+"pop": 399544,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15809-kX2mopBGBw6g.jpg",
+"chars": [
+{
+"id": 70733,
+"name": "Satan Jacob",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b70733-d564H7iUj7Y2.png"
+},
+{
+"id": 70735,
+"name": "Emilia Justina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b70735-DmmbHRLKpS0E.png"
+},
+{
+"id": 83103,
+"name": "Lucifer",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83103-fksjOXqJCmxd.png"
+}
+]
+},
+{
+"id": "anohanatheflowerwesawtha",
+"title": "Anohana: The Flower We Saw That Day",
+"jp": "あの日見た花の名前を僕達はまだ知らない。",
+"year": 2011,
+"score": 80,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 397541,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9989-pyr6rXlV1oAm.jpg",
+"chars": [
+{
+"id": 40592,
+"name": "Meiko Honma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40592-mAEyaQyJu5oc.png"
+},
+{
+"id": 40593,
+"name": "Naruko Anjou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40593-3N05kRft0s8d.jpg"
+},
+{
+"id": 40591,
+"name": "Jinta Yadomi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40591-PFcHVI98QgnI.jpg"
+}
+]
+},
+{
+"id": "another",
+"title": "Another",
+"jp": "アナザー",
+"year": 2012,
+"score": 71,
+"genres": [
+"Horror",
+"Mystery",
+"Psychological"
+],
+"pop": 389067,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11111.jpg",
+"chars": [
+{
+"id": 41402,
+"name": "Mei Misaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41402-uMQLbpd8uwKH.png"
+},
+{
+"id": 41400,
+"name": "Kouichi Sakakibara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41400-R2RzXzBtXOfJ.png"
+},
+{
+"id": 51585,
+"name": "Izumi Akazawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b51585-Sp3l5TRdrULa.jpg"
+}
+]
+},
+{
+"id": "iwanttoeatyourpancreas",
+"title": "I Want to Eat Your Pancreas",
+"jp": "君の膵臓をたべたい",
+"year": 2018,
+"score": 84,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 380051,
+"studio": "Studio VOLN",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99750-KPFW2Jv03b2B.jpg",
+"chars": [
+{
+"id": 127118,
+"name": "Sakura Yamauchi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127118-XEvgt4yHSkQv.jpg"
+},
+{
+"id": 127116,
+"name": "Haruki Shiga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127116-u2fIKMSYDdVj.png"
+},
+{
+"id": 133276,
+"name": "Issei Miyata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b133276-4KX7vtZ6oQfN.png"
+}
+]
+},
+{
+"id": "dororo",
+"title": "Dororo",
+"jp": "どろろ",
+"year": 2019,
+"score": 81,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 378841,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101347-tHurKfTlhtFl.jpg",
+"chars": [
+{
+"id": 14864,
+"name": "Hyakkimaru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14864-MMntDWi2EkyR.png"
+},
+{
+"id": 18130,
+"name": "Dororo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18130-qD7dREeDAkLE.png"
+},
+{
+"id": 36309,
+"name": "Narrator",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg"
+}
+]
+},
+{
+"id": "howlsmovingcastle",
+"title": "Howl‘s Moving Castle",
+"jp": "ハウルの動く城",
+"year": 2004,
+"score": 85,
+"genres": [
+"Adventure",
+"Drama",
+"Fantasy"
+],
+"pop": 367642,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/431-fLBlvTgdqLCz.jpg",
+"chars": [
+{
+"id": 507,
+"name": "Howl",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b507-g9yz1GTLtPla.jpg"
+},
+{
+"id": 508,
+"name": "Sophie Hatter",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b508-ONXMgE281eHe.jpg"
+},
+{
+"id": 6752,
+"name": "Calcifer",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b6752-T8tNirdJJ8rw.jpg"
+}
+]
+},
+{
+"id": "thedisastrouslifeofsaiki",
+"title": "The Disastrous Life of Saiki K.",
+"jp": "斉木楠雄のΨ難",
+"year": 2016,
+"score": 83,
+"genres": [
+"Comedy",
+"Slice of Life",
+"Supernatural"
+],
+"pop": 363412,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21804-K0xl0PE1PfHt.jpg",
+"chars": [
+{
+"id": 90107,
+"name": "Kusuo Saiki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90107-ZULW5HlPX1uU.png"
+},
+{
+"id": 90112,
+"name": "Shun Kaidou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90112-KVRcvbKBKLxY.png"
+},
+{
+"id": 90108,
+"name": "Riki Nendou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90108-BJYQbUaMLS7G.png"
+}
+]
+},
+{
+"id": "weatheringwithyou",
+"title": "Weathering With You",
+"jp": "天気の子",
+"year": 2019,
+"score": 81,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 360298,
+"studio": "CoMix Wave",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106286-3oKwiwjd7Wkm.jpg",
+"chars": [
+{
+"id": 139710,
+"name": "Hina Amano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139710-EnN2wXd5YeDb.png"
+},
+{
+"id": 139709,
+"name": "Hodaka Morishima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139709-LipsW9CYvlu1.png"
+},
+{
+"id": 139705,
+"name": "Natsumi Suga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139705-65t4At2MN9q8.png"
+}
+]
+},
+{
+"id": "psychopass",
+"title": "PSYCHO-PASS",
+"jp": "PSYCHO-PASS サイコパス",
+"year": 2012,
+"score": 81,
+"genres": [
+"Action",
+"Psychological",
+"Sci-Fi"
+],
+"pop": 359744,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13601-YrCmS1oY4uBZ.jpg",
+"chars": [
+{
+"id": 68315,
+"name": "Shinya Kougami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b68315-f9RBjyJCoj95.jpg"
+},
+{
+"id": 69725,
+"name": "Shougo Makishima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n69725-Seck1SZfwQiR.jpg"
+},
+{
+"id": 68583,
+"name": "Akane Tsunemori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b68583-sEP2wyE2Tk7a.png"
+}
+]
+},
+{
+"id": "devilmancrybaby",
+"title": "Devilman Crybaby",
+"jp": "DEVILMAN crybaby",
+"year": 2018,
+"score": 76,
+"genres": [
+"Action",
+"Drama",
+"Horror"
+],
+"pop": 356390,
+"studio": "Science SARU",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98460-PwSHquwVu89n.jpg",
+"chars": [
+{
+"id": 2456,
+"name": "Akira Fudou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2456-rTjIXMLPHTu2.jpg"
+},
+{
+"id": 4092,
+"name": "Ryo Asuka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b4092-63yxC7cCrWke.png"
+},
+{
+"id": 7968,
+"name": "Miki Makimura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b7968-te8U6niaAoKk.png"
+}
+]
+},
+{
+"id": "hyouka",
+"title": "Hyouka",
+"jp": "氷菓",
+"year": 2012,
+"score": 79,
+"genres": [
+"Mystery",
+"Romance",
+"Slice of Life"
+],
+"pop": 355532,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12189-TG0peUcKFqur.jpg",
+"chars": [
+{
+"id": 55131,
+"name": "Houtarou Oreki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b55131-ypodHQCyHbzD.png"
+},
+{
+"id": 55133,
+"name": "Eru Chitanda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b55133-S7lRrP0gKXpX.png"
+},
+{
+"id": 55137,
+"name": "Mayaka Ibara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b55137-PO5CLLnbTwyg.png"
+}
+]
+},
+{
+"id": "bakemonogatari",
+"title": "Bakemonogatari",
+"jp": "化物語",
+"year": 2009,
+"score": 82,
+"genres": [
+"Comedy",
+"Drama",
+"Mystery"
+],
+"pop": 345707,
+"studio": "Shaft",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5081-0Zcn5GOFYHMc.jpg",
+"chars": [
+{
+"id": 22037,
+"name": "Hitagi Senjougahara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22037-sY7GWSKYr2Nl.jpg"
+},
+{
+"id": 22036,
+"name": "Koyomi Araragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22036-Ed3CjwPlDLp4.png"
+},
+{
+"id": 22055,
+"name": "Tsubasa Hanekawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22055-EaTsy30ihdgb.png"
+}
+]
+},
+{
+"id": "towerofgod",
+"title": "Tower of God",
+"jp": "神之塔 -Tower of God-",
+"year": 2020,
+"score": 74,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 339019,
+"studio": "Telecom Animation Film",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115230-wjDIxW77TLv3.jpg",
+"chars": [
+{
+"id": 84781,
+"name": "Aguero Agnis Khun",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b84781-sNnhOZ1SZ66f.png"
+},
+{
+"id": 84769,
+"name": "Twenty-Fifth Baam",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b84769-NaLHptr4KXKd.png"
+},
+{
+"id": 84783,
+"name": "Rak Wraithraiser",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b84783-m1qgQvKVAoNn.jpg"
+}
+]
+},
+{
+"id": "misskobayashisdragonmaid",
+"title": "Miss Kobayashi's Dragon Maid",
+"jp": "小林さんちのメイドラゴン",
+"year": 2017,
+"score": 77,
+"genres": [
+"Comedy",
+"Fantasy",
+"Slice of Life"
+],
+"pop": 332705,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21776-hI5smQyXFK7G.jpg",
+"chars": [
+{
+"id": 120974,
+"name": "Kanna Kamui",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120974-cZHsjS8DX9WW.png"
+},
+{
+"id": 120970,
+"name": "Tohru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120970-knjWLdlQIs1y.jpg"
+},
+{
+"id": 120969,
+"name": "Kobayashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120969-dHJBVb3lB8iN.png"
+}
+]
+},
+{
+"id": "seraphoftheendvampirerei",
+"title": "Seraph of the End: Vampire Reign",
+"jp": "終わりのセラフ",
+"year": 2015,
+"score": 73,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 332322,
+"studio": "WIT STUDIO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20829-1BRrVJAxlEKT.jpg",
+"chars": [
+{
+"id": 83017,
+"name": "Shinoa Hiiragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83017-XXdnbunnBdTd.png"
+},
+{
+"id": 87287,
+"name": "Mikaela Hyakuya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87287-cBUVUJNbvfvT.png"
+},
+{
+"id": 88993,
+"name": "Guren Ichinose",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88993-YNw36YYleasn.png"
+}
+]
+},
+{
+"id": "wotakoiloveishardforotak",
+"title": "Wotakoi: Love is Hard for Otaku",
+"jp": "ヲタクに恋は難しい",
+"year": 2018,
+"score": 78,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 331815,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99578-8orFGgDq7NS8.jpg",
+"chars": [
+{
+"id": 122189,
+"name": "Hirotaka Nifuji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122189-ai5CYyRv1CAH.png"
+},
+{
+"id": 122191,
+"name": "Hanako Koyanagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122191-sigwgpeam2U1.png"
+},
+{
+"id": 122190,
+"name": "Narumi Momose",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122190-3VC3pxCguyu7.png"
+}
+]
+},
+{
+"id": "thequintessentialquintup",
+"title": "The Quintessential Quintuplets",
+"jp": "五等分の花嫁",
+"year": 2019,
+"score": 76,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 327876,
+"studio": "Tezuka Productions",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103572-qRtBguYOOR2j.jpg",
+"chars": [
+{
+"id": 126375,
+"name": "Itsuki Nakano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126375-dEe9IyQ9By09.png"
+},
+{
+"id": 126373,
+"name": "Miku Nakano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126373-CWeyXb822uDN.png"
+},
+{
+"id": 126372,
+"name": "Nino Nakano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126372-DtorHRgQaYUJ.png"
+}
+]
+},
+{
+"id": "toyoureternity",
+"title": "To Your Eternity",
+"jp": "不滅のあなたへ",
+"year": 2021,
+"score": 81,
+"genres": [
+"Adventure",
+"Drama",
+"Fantasy"
+],
+"pop": 320882,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114535-ASUprf4AsNwC.jpg",
+"chars": [
+{
+"id": 136548,
+"name": "Fushi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136548-FjWExC5ScBqW.jpg"
+},
+{
+"id": 136554,
+"name": "Gugu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136554-qySbbPp9nunx.jpg"
+},
+{
+"id": 136541,
+"name": "March",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136541-gXKd6OtbuffL.png"
+}
+]
+},
+{
+"id": "theeminenceinshadow",
+"title": "The Eminence in Shadow",
+"jp": "陰の実力者になりたくて！",
+"year": 2022,
+"score": 81,
+"genres": [
+"Action",
+"Comedy",
+"Fantasy"
+],
+"pop": 320829,
+"studio": "Nexus",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130298-9yxFlFvKMwRk.jpg",
+"chars": [
+{
+"id": 136837,
+"name": "Cid Kagenou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136837-3WR22FYet8Hv.jpg"
+},
+{
+"id": 162246,
+"name": "Alpha",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b162246-IbbxkhNJFDN5.png"
+},
+{
+"id": 162247,
+"name": "Beta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b162247-R6OrAuT1FwL4.png"
+}
+]
+},
+{
+"id": "highschooldxd",
+"title": "High School DxD",
+"jp": "ハイスクールDxD",
+"year": 2012,
+"score": 69,
+"genres": [
+"Action",
+"Comedy",
+"Ecchi"
+],
+"pop": 318182,
+"studio": "TNK",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11617-oLkTAGcyAwcU.jpg",
+"chars": [
+{
+"id": 50389,
+"name": "Rias Gremory",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b50389-gIhJkyk8xj1P.png"
+},
+{
+"id": 51347,
+"name": "Akeno Himejima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b51347-YMb9fndAriXd.png"
+},
+{
+"id": 51343,
+"name": "Koneko Toujou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b51343-pt1UDTRvAXfY.png"
+}
+]
+},
+{
+"id": "goblinslayer",
+"title": "GOBLIN SLAYER",
+"jp": "ゴブリンスレイヤー",
+"year": 2018,
+"score": 71,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 306492,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101165-bXPZrNiQGPHd.jpg",
+"chars": [
+{
+"id": 126458,
+"name": "Goblin Slayer",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126458-wCulCEFEPZSK.png"
+},
+{
+"id": 126483,
+"name": "Onna Shinkan",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126483-NQuBqaXHUJO2.jpg"
+},
+{
+"id": 126484,
+"name": "Ushikai Musume",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/126484-izE4ON548jnn.jpg"
+}
+]
+},
+{
+"id": "princessmononoke",
+"title": "Princess Mononoke",
+"jp": "もののけ姫",
+"year": 1997,
+"score": 85,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 305618,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164-Aj6MINy7VTfs.jpg",
+"chars": [
+{
+"id": 2727,
+"name": "San",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2727-eH2xoFpmfbS4.png"
+},
+{
+"id": 2802,
+"name": "Ashitaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n2802-ccaKcUTJajUu.png"
+},
+{
+"id": 9174,
+"name": "Moro no Kimi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n9174-CPRMKOTp5SJv.png"
+}
+]
+},
+{
+"id": "durarara",
+"title": "Durarara!!",
+"jp": "デュラララ!!",
+"year": 2010,
+"score": 79,
+"genres": [
+"Action",
+"Mystery",
+"Supernatural"
+],
+"pop": 296468,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6746-84oNA7P9pboV.jpg",
+"chars": [
+{
+"id": 24596,
+"name": "Izaya Orihara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b24596-IKSguezbPH9D.png"
+},
+{
+"id": 24595,
+"name": "Shizuo Heiwajima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b24595-GIy3ql42WQfY.png"
+},
+{
+"id": 28331,
+"name": "Celty Sturluson",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b28331-At0Nz4p6qZHx.jpg"
+}
+]
+},
+{
+"id": "terrorinresonance",
+"title": "Terror in Resonance",
+"jp": "残響のテロル",
+"year": 2014,
+"score": 78,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 294380,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20661-JwMKrCzeSTZ7.png",
+"chars": [
+{
+"id": 88096,
+"name": "Twelve",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88096-SljWAMO10C6l.jpg"
+},
+{
+"id": 88094,
+"name": "Nine",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88094-rwletczjtSE1.jpg"
+},
+{
+"id": 88302,
+"name": "Kenjirou Shibasaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88302.jpg"
+}
+]
+},
+{
+"id": "maidsama",
+"title": "Maid-Sama!",
+"jp": "会長はメイド様!",
+"year": 2010,
+"score": 78,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 291158,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7054-iTfiX8juTvRV.jpg",
+"chars": [
+{
+"id": 14523,
+"name": "Takumi Usui",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14523-yFjXVeK6c6IE.png"
+},
+{
+"id": 14941,
+"name": "Misaki Ayuzawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14941-qh15JS5cEQDL.jpg"
+},
+{
+"id": 19985,
+"name": "Hinata Shintani",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b19985-sHzQhMUrLHvJ.jpg"
+}
+]
+},
+{
+"id": "kurokosbasketball",
+"title": "Kuroko's Basketball",
+"jp": "黒子のバスケ",
+"year": 2012,
+"score": 78,
+"genres": [
+"Comedy",
+"Sports"
+],
+"pop": 289673,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11771-Bjm9Q0ow0nEh.jpg",
+"chars": [
+{
+"id": 18769,
+"name": "Tetsuya Kuroko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18769-1SOeKdgkjBef.png"
+},
+{
+"id": 18770,
+"name": "Taiga Kagami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18770-iLAk9O3GGUvN.png"
+},
+{
+"id": 36820,
+"name": "Daiki Aomine",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36820-bW2c6TbIqgKO.jpg"
+}
+]
+},
+{
+"id": "wondereggpriority",
+"title": "WONDER EGG PRIORITY",
+"jp": "ワンダーエッグ・プライオリティ",
+"year": 2021,
+"score": 74,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 287280,
+"studio": "CloverWorks",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
+"chars": [
+{
+"id": 199892,
+"name": "Ai Ooto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b199892-IUa7rBAT4j9H.png"
+},
+{
+"id": 199890,
+"name": "Rika Kawai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b199890-9WY1MIjTsqkc.jpg"
+},
+{
+"id": 199891,
+"name": "Momoe Sawaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b199891-YNqLCCE8VAHW.png"
+}
+]
+},
+{
+"id": "myneighbortotoro",
+"title": "My Neighbor Totoro",
+"jp": "となりのトトロ",
+"year": 1988,
+"score": 81,
+"genres": [
+"Adventure",
+"Fantasy",
+"Slice of Life"
+],
+"pop": 283605,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/523-rl12Q0av1fCr.jpg",
+"chars": [
+{
+"id": 269,
+"name": "Totoro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b269-sbPL4w1ygjSe.jpg"
+},
+{
+"id": 267,
+"name": "Satsuki Kusakabe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/267.jpg"
+},
+{
+"id": 268,
+"name": "Mei Kusakabe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/268.jpg"
+}
+]
+},
+{
+"id": "sagaoftanyatheevil",
+"title": "Saga of Tanya the Evil",
+"jp": "幼女戦記",
+"year": 2017,
+"score": 78,
+"genres": [
+"Action",
+"Fantasy"
+],
+"pop": 283328,
+"studio": "NUT",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21613-FGAqKSTvfxuA.png",
+"chars": [
+{
+"id": 121052,
+"name": "Tanya Degurechaff",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121052-bQZT3nIvaryX.png"
+},
+{
+"id": 121057,
+"name": "Viktoriya Serebryakov",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121057-xoaUSV1sO1CM.jpg"
+},
+{
+"id": 121056,
+"name": "Hans von Zettour",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121056-1f489EpsESd3.jpg"
+}
+]
+},
+{
+"id": "kon",
+"title": "K-ON!",
+"jp": "けいおん!",
+"year": 2009,
+"score": 78,
+"genres": [
+"Comedy",
+"Music",
+"Slice of Life"
+],
+"pop": 282426,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5680-Mc9n4eFI4i0Y.jpg",
+"chars": [
+{
+"id": 19565,
+"name": "Yui Hirasawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b19565-7gMiEAm7NGNK.png"
+},
+{
+"id": 19566,
+"name": "Mio Akiyama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b19566-XKsMgf370b4m.png"
+},
+{
+"id": 21173,
+"name": "Azusa Nakano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b21173-0RB5dOJdGt9y.png"
+}
+]
+},
+{
+"id": "beyondtheboundary",
+"title": "Beyond the Boundary",
+"jp": "境界の彼方",
+"year": 2013,
+"score": 74,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 281973,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18153-Pw3uKfv6ZNqP.jpg",
+"chars": [
+{
+"id": 81751,
+"name": "Mirai Kuriyama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81751-nUEIrhRFlkKc.png"
+},
+{
+"id": 81757,
+"name": "Akihito Kanbara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81757-qrft6an7FZ4F.png"
+},
+{
+"id": 81753,
+"name": "Mitsuki Nase",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81753-lsPYVQvvD1TZ.png"
+}
+]
+},
+{
+"id": "thepetgirlofsakurasou",
+"title": "The Pet Girl of Sakurasou",
+"jp": "さくら荘のペットな彼女",
+"year": 2012,
+"score": 78,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 279898,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n13759-nBjdu6f8aLbz.jpg",
+"chars": [
+{
+"id": 61371,
+"name": "Mashiro Shiina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b61371-rhWX0wz2DDs3.jpg"
+},
+{
+"id": 64167,
+"name": "Nanami Aoyama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b64167-qMxw0Sijwc18.png"
+},
+{
+"id": 64169,
+"name": "Sorata Kanda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b64169-0VDQyhn3Mbod.png"
+}
+]
+},
+{
+"id": "nisekoi",
+"title": "Nisekoi",
+"jp": "ニセコイ",
+"year": 2014,
+"score": 73,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 270778,
+"studio": "Shaft",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18897-h3TRFmkGYLkd.jpg",
+"chars": [
+{
+"id": 52723,
+"name": "Kosaki Onodera",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b52723-YbLFn4JmoAVQ.png"
+},
+{
+"id": 48391,
+"name": "Chitoge Kirisaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b48391-SuJot8cVKjHj.png"
+},
+{
+"id": 48393,
+"name": "Raku Ichijou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b48393-XwciXYkyzTMY.png"
+}
+]
+},
+{
+"id": "donttoywithmemissnagator",
+"title": "DON'T TOY WITH ME, MISS NAGATORO",
+"jp": "イジらないで、長瀞さん",
+"year": 2021,
+"score": 69,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 270686,
+"studio": "Telecom Animation Film",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120697-EuMfBYXLANeS.jpg",
+"chars": [
+{
+"id": 124696,
+"name": "Hayase Nagatoro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124696-du2Kszxelh1S.png"
+},
+{
+"id": 124697,
+"name": "Naoto Hachiouji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124697-JDDbhuzV6HXN.jpg"
+},
+{
+"id": 145717,
+"name": "Sana Sunomiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b145717-xWPkoY8gFYuy.jpg"
+}
+]
+},
+{
+"id": "themisfitofdemonkingacad",
+"title": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
+"jp": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～",
+"year": 2020,
+"score": 72,
+"genres": [
+"Action",
+"Comedy",
+"Fantasy"
+],
+"pop": 270500,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112301-e50SRjhGDGUu.jpg",
+"chars": [
+{
+"id": 138595,
+"name": "Anos Voldigoad",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138595-Z6j0gP9s7avX.png"
+},
+{
+"id": 138596,
+"name": "Misha Necron",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138596-vH3vzyBOd1gO.png"
+},
+{
+"id": 139562,
+"name": "Sasha Necron",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139562-DAiieWEILhKa.png"
+}
+]
+},
+{
+"id": "goldentime",
+"title": "Golden Time",
+"jp": "ゴールデンタイム",
+"year": 2013,
+"score": 75,
+"genres": [
+"Drama",
+"Romance"
+],
+"pop": 269256,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17895.jpg",
+"chars": [
+{
+"id": 43669,
+"name": "Kouko Kaga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43669-D3Hw9vLHCVad.png"
+},
+{
+"id": 43670,
+"name": "Banri Tada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43670-9CcqgGGV14Kv.png"
+},
+{
+"id": 43672,
+"name": "Nana Hayashida",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/43672.jpg"
+}
+]
+},
+{
+"id": "mylittlemonster",
+"title": "My Little Monster",
+"jp": "となりの怪物くん",
+"year": 2012,
+"score": 72,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 264548,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14227-X5LpJ40O61qu.jpg",
+"chars": [
+{
+"id": 37687,
+"name": "Haru Yoshida",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n37687-5HRDRk3uvLJT.png"
+},
+{
+"id": 37685,
+"name": "Shizuku Mizutani",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b37685-RTNZm8Tb7Sti.jpg"
+},
+{
+"id": 37813,
+"name": "Asako Natsume",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n37813-BR1PBL6j2ce7.png"
+}
+]
+},
+{
+"id": "blackbutler",
+"title": "Black Butler",
+"jp": "黒執事",
+"year": 2008,
+"score": 72,
+"genres": [
+"Action",
+"Comedy",
+"Fantasy"
+],
+"pop": 263353,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4898-qqGPkf0qkMDh.jpg",
+"chars": [
+{
+"id": 10863,
+"name": "Sebastian Michaelis",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b10863-DsfonbP2CATa.png"
+},
+{
+"id": 12531,
+"name": "Ciel Phantomhive",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b12531-joBTjTP3fonc.png"
+},
+{
+"id": 12960,
+"name": "Grell Sutcliff",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b12960-TU6by6WTq5By.png"
+}
+]
+},
+{
+"id": "relife",
+"title": "ReLIFE",
+"jp": "ReLIFE",
+"year": 2016,
+"score": 78,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 262818,
+"studio": "TMS Entertainment",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21049-PeKXMMYru3Xl.png",
+"chars": [
+{
+"id": 89426,
+"name": "Chizuru Hishiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89426-9VS3dWDKDs4v.jpg"
+},
+{
+"id": 89425,
+"name": "Arata Kaizaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89425-vLPRybM1gNa7.png"
+},
+{
+"id": 89428,
+"name": "An Onoya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89428-8UUfkFTy5jGR.png"
+}
+]
+},
+{
+"id": "theirregularatmagichighs",
+"title": "The Irregular at Magic High School",
+"jp": "魔法科高校の劣等生",
+"year": 2014,
+"score": 70,
+"genres": [
+"Action",
+"Romance",
+"Sci-Fi"
+],
+"pop": 262320,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20458-6sHThFCwyd1T.jpg",
+"chars": [
+{
+"id": 55743,
+"name": "Tatsuya Shiba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b55743-g5JD7Dj6iP7R.png"
+},
+{
+"id": 55741,
+"name": "Miyuki Shiba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b55741-FX0mwEYDYZmw.png"
+},
+{
+"id": 88194,
+"name": "Mayumi Saegusa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88194-HE3sw1jDHN1L.png"
+}
+]
+},
+{
+"id": "plasticmemories",
+"title": "Plastic Memories",
+"jp": "プラスティックメモリーズ",
+"year": 2015,
+"score": 77,
+"genres": [
+"Drama",
+"Romance",
+"Sci-Fi"
+],
+"pop": 261885,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20872-RlrRw6pnwLWK.jpg",
+"chars": [
+{
+"id": 88753,
+"name": "Isla",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88753-RO3lBZgzwdJF.jpg"
+},
+{
+"id": 88754,
+"name": "Tsukasa Mizugaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88754-1r7wmZfbyqKW.png"
+},
+{
+"id": 88755,
+"name": "Michiru Kinushima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88755-7vL4TsT01cGG.jpg"
+}
+]
+},
+{
+"id": "ouranhighschoolhostclub",
+"title": "Ouran High School Host Club",
+"jp": "桜蘭高校ホスト部",
+"year": 2006,
+"score": 80,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 260768,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/853-03VYT300hMaf.jpg",
+"chars": [
+{
+"id": 19,
+"name": "Tamaki Suou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b19-7Ot7WSWZ7LKF.png"
+},
+{
+"id": 18,
+"name": "Haruhi Fujioka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18-4mPQwygwffNJ.jpg"
+},
+{
+"id": 23,
+"name": "Kyouya Ootori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b23-8TQAV1BRyqxa.png"
+}
+]
+},
+{
+"id": "beastars",
+"title": "BEASTARS",
+"jp": "BEASTARS",
+"year": 2019,
+"score": 76,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 260437,
+"studio": "Orange",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107660-AxwrzHkXzYYN.jpg",
+"chars": [
+{
+"id": 125168,
+"name": "Legoshi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125168-cOydxRHEbAYb.png"
+},
+{
+"id": 125170,
+"name": "Louis",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125170-TIHSOgfQbkbU.png"
+},
+{
+"id": 125169,
+"name": "Haru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125169-zxyLpg1BOnU5.jpg"
+}
+]
+},
+{
+"id": "serialexperimentslain",
+"title": "Serial Experiments Lain",
+"jp": "serial experiments lain",
+"year": 1998,
+"score": 80,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 256755,
+"studio": "Triangle Staff",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/339-Lh0tuuwRLRgI.jpg",
+"chars": [
+{
+"id": 2219,
+"name": "Lain Iwakura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2219-K3wzEOVwdUhL.png"
+},
+{
+"id": 7610,
+"name": "Arisu Mizuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b7610-vpsZ4tS74eDf.png"
+},
+{
+"id": 7609,
+"name": "Masami Eiri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/7609.jpg"
+}
+]
+},
+{
+"id": "blacklagoon",
+"title": "Black Lagoon",
+"jp": "BLACK LAGOON",
+"year": 2006,
+"score": 78,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 255116,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/889-qZE1iFHexJVz.jpg",
+"chars": [
+{
+"id": 458,
+"name": "Revy",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b458-tlKqPcuR287U.png"
+},
+{
+"id": 459,
+"name": "Rokuro Okajima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b459-QsGmozEvK0jM.png"
+},
+{
+"id": 457,
+"name": "Dutch",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b457-BdoXIN7tNvoz.png"
+}
+]
+},
+{
+"id": "kiminitodokefrommetoyou",
+"title": "Kimi ni Todoke: From Me to You",
+"jp": "君に届け",
+"year": 2009,
+"score": 79,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 254427,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6045-PHiyDpX2gc5D.jpg",
+"chars": [
+{
+"id": 6977,
+"name": "Sawako Kuronuma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b6977-rCtlFRoYgE07.png"
+},
+{
+"id": 13531,
+"name": "Shouta Kazehaya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n13531-z66ipM6nJioi.png"
+},
+{
+"id": 13533,
+"name": "Ayane Yano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13533-h57wBVMsdCjo.jpg"
+}
+]
+},
+{
+"id": "5centimeterspersecond",
+"title": "5 Centimeters per Second",
+"jp": "秒速５センチメートル",
+"year": 2007,
+"score": 71,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 252660,
+"studio": "CoMix Wave",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1689.jpg",
+"chars": [
+{
+"id": 1810,
+"name": "Takaki Tohno",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1810-mqwzwrC5XnOW.png"
+},
+{
+"id": 1811,
+"name": "Akari Shinohara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1811-6uPM6WpVt20k.png"
+},
+{
+"id": 1812,
+"name": "Kanae Sumida",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/1812.jpg"
+}
+]
+},
+{
+"id": "prisonschool",
+"title": "Prison School",
+"jp": "監獄学園〈プリズンスクール〉",
+"year": 2015,
+"score": 73,
+"genres": [
+"Comedy",
+"Ecchi"
+],
+"pop": 251246,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20807-IHYC4Qby3dkT.jpg",
+"chars": [
+{
+"id": 64851,
+"name": "Takehito Morokuzu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b64851-fFKbCgh89UMK.jpg"
+},
+{
+"id": 46557,
+"name": "Kiyoshi Fujino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b46557-fJ8Va6GtynPM.jpg"
+},
+{
+"id": 64849,
+"name": "Jouji Nezu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/64849-HCFBwYZbWMxS.png"
+}
+]
+},
+{
+"id": "thegardenofwords",
+"title": "The Garden of Words",
+"jp": "言の葉の庭",
+"year": 2013,
+"score": 75,
+"genres": [
+"Drama",
+"Psychological",
+"Romance"
+],
+"pop": 250061,
+"studio": "CoMix Wave",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16782.jpg",
+"chars": [
+{
+"id": 79465,
+"name": "Yukari Yukino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n79465-9RmwiUdbYlo9.png"
+},
+{
+"id": 79463,
+"name": "Takao Akizuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/79463.jpg"
+},
+{
+"id": 79585,
+"name": "Shouta Akizuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/79585.jpg"
+}
+]
+},
+{
+"id": "datealive",
+"title": "Date A Live",
+"jp": "デート・ア・ライブ",
+"year": 2013,
+"score": 68,
+"genres": [
+"Action",
+"Comedy",
+"Ecchi"
+],
+"pop": 249917,
+"studio": "AIC Plus+",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15583.jpg",
+"chars": [
+{
+"id": 65259,
+"name": "Tooka Yatogami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b65259-rKR5JNNWyRC0.jpg"
+},
+{
+"id": 65261,
+"name": "Origami Tobiichi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b65261-VebXn2wCS8K8.png"
+},
+{
+"id": 65263,
+"name": "Kotori Itsuka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b65263-SsnYAtOtAiDK.png"
+}
+]
+},
+{
+"id": "tonikawaoverthemoonforyo",
+"title": "TONIKAWA: Over The Moon For You",
+"jp": "トニカクカワイイ",
+"year": 2020,
+"score": 77,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 249557,
+"studio": "Seven Arcs",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116267-xQRslGT0tMTS.jpg",
+"chars": [
+{
+"id": 131106,
+"name": "Tsukasa Yuzaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b131106-ZJOpYOpurcYS.png"
+},
+{
+"id": 130944,
+"name": "Nasa Yuzaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b130944-Bi9EfjnNO3LT.png"
+},
+{
+"id": 137513,
+"name": "Kaname Arisugawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b137513-h2d62OMGdOVO.png"
+}
+]
+},
+{
+"id": "chivalryofafailedknight",
+"title": "Chivalry of a Failed Knight",
+"jp": "落第騎士の英雄譚（キャバルリィ）",
+"year": 2015,
+"score": 72,
+"genres": [
+"Action",
+"Ecchi",
+"Fantasy"
+],
+"pop": 248726,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21092-WTe5Lx5sLQy1.jpg",
+"chars": [
+{
+"id": 88264,
+"name": "Stella  Vermillion",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88264-v9VFbSWtQq2C.png"
+},
+{
+"id": 88265,
+"name": "Ikki Kurogane",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88265-2MlVZH85EPpR.png"
+},
+{
+"id": 89340,
+"name": "Shizuku Kurogane",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89340-EtOtef39IHr7.png"
+}
+]
+},
+{
+"id": "perfectblue",
+"title": "Perfect Blue",
+"jp": "PERFECT BLUE",
+"year": 1998,
+"score": 85,
+"genres": [
+"Drama",
+"Horror",
+"Psychological"
+],
+"pop": 248507,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/437-3yMVTyN7gl2A.jpg",
+"chars": [
+{
+"id": 4866,
+"name": "Mima Kirigoe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b4866-IRnTqmFeMoly.png"
+},
+{
+"id": 14123,
+"name": "Uchida",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14123-R6aMiSsfhkMw.png"
+},
+{
+"id": 6111,
+"name": "Rumi Hidaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b6111-hnTxQS826dXe.png"
+}
+]
+},
+{
+"id": "theancientmagusbride",
+"title": "The Ancient Magus' Bride",
+"jp": "魔法使いの嫁",
+"year": 2017,
+"score": 78,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 248275,
+"studio": "WIT STUDIO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98436-mipAtJXRUCgx.jpg",
+"chars": [
+{
+"id": 88344,
+"name": "Chise Hatori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88344-zn7wbe8rKgqT.png"
+},
+{
+"id": 121430,
+"name": "Elias Ainsworth",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121430-n1k9M5RdkXyI.png"
+},
+{
+"id": 129385,
+"name": "Cartaphilus",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n129385-jdRVhN7MJUTb.png"
+}
+]
+},
+{
+"id": "bluespringride",
+"title": "Blue Spring Ride",
+"jp": "アオハライド",
+"year": 2014,
+"score": 75,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 247275,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20596.jpg",
+"chars": [
+{
+"id": 41026,
+"name": "Kou Mabuchi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41026-WkbhSjdpZISG.jpg"
+},
+{
+"id": 41025,
+"name": "Futaba Yoshioka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41025-X4hnr8jZG4vC.png"
+},
+{
+"id": 43088,
+"name": "Shuuko Murao",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43088-Vrm5VEY5SqKN.png"
+}
+]
+},
+{
+"id": "masamunekunsrevenge",
+"title": "Masamune-kun's Revenge",
+"jp": "政宗くんのリベンジ",
+"year": 2017,
+"score": 66,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 246823,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21857-k7r362xG7420.png",
+"chars": [
+{
+"id": 76364,
+"name": "Aki Adagaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b76364-ATlG8j4fx3vg.png"
+},
+{
+"id": 81967,
+"name": "Masamune Makabe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81967-vfprXRXeNdgq.png"
+},
+{
+"id": 121008,
+"name": "Yoshino Koiwai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121008-fCtwkTJ2v2bj.png"
+}
+]
+},
+{
+"id": "nichijoumyordinarylife",
+"title": "Nichijou - My Ordinary Life",
+"jp": "日常",
+"year": 2011,
+"score": 83,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 243141,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10165-1O0xQsic1qpB.jpg",
+"chars": [
+{
+"id": 10418,
+"name": "Yuuko Aioi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b10418-nDUxYpR4dpmA.png"
+},
+{
+"id": 41069,
+"name": "Sakamoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41069-x6vyw7EIn1ET.png"
+},
+{
+"id": 40081,
+"name": "Mio Naganohara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40081-dGRecovyuQMo.png"
+}
+]
+},
+{
+"id": "toiletboundhanakokun",
+"title": "Toilet-bound Hanako-kun",
+"jp": "地縛少年 花子くん",
+"year": 2020,
+"score": 77,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 240782,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108463-pJ5XS6oJwvKh.jpg",
+"chars": [
+{
+"id": 128651,
+"name": "Hanako",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b128651-GaZImkP2Of1R.png"
+},
+{
+"id": 128652,
+"name": "Nene Yashiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b128652-2LLhX7bBtwyC.png"
+},
+{
+"id": 137222,
+"name": "Kou Minamoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b137222-ojZAO84oI2Hp.png"
+}
+]
+},
+{
+"id": "loghorizon",
+"title": "Log Horizon",
+"jp": "ログ・ホライズン",
+"year": 2013,
+"score": 76,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 240061,
+"studio": "Satelight",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17265-53eBCC34SKyM.jpg",
+"chars": [
+{
+"id": 81367,
+"name": "Shiroe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81367-nE2CB4jLVPeu.png"
+},
+{
+"id": 81369,
+"name": "Akatsuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n81369-0vKZMoOH3NZT.jpg"
+},
+{
+"id": 81371,
+"name": "Naotsugu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/81371-03gxHpwaBbVL.jpg"
+}
+]
+},
+{
+"id": "grandbluedreaming",
+"title": "Grand Blue Dreaming",
+"jp": "ぐらんぶる",
+"year": 2018,
+"score": 82,
+"genres": [
+"Comedy",
+"Slice of Life",
+"Sports"
+],
+"pop": 238855,
+"studio": "Zero-G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100922-ef1bBJCUCfxk.jpg",
+"chars": [
+{
+"id": 123181,
+"name": "Chisa Kotegawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123181-t0pV6LtaDUf6.png"
+},
+{
+"id": 123182,
+"name": "Iori Kitahara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123182-tuQ2yf5IEx02.jpg"
+},
+{
+"id": 125917,
+"name": "Kouhei Imamura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125917-FBK4DlUGycsr.jpg"
+}
+]
+},
+{
+"id": "orange",
+"title": "Orange",
+"jp": "orange",
+"year": 2016,
+"score": 75,
+"genres": [
+"Drama",
+"Romance",
+"Supernatural"
+],
+"pop": 238296,
+"studio": "Telecom Animation Film",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21647-jpWsvCBJO1q5.jpg",
+"chars": [
+{
+"id": 66595,
+"name": "Hiroto Suwa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b66595-Gs6XD2PAuPM0.jpg"
+},
+{
+"id": 66593,
+"name": "Kakeru Naruse",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b66593-712ERVocDhCB.jpg"
+},
+{
+"id": 66591,
+"name": "Naho Takamiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b66591-948k4lMRa4gm.jpg"
+}
+]
+},
+{
+"id": "sk8theinfinity",
+"title": "SK8 the Infinity",
+"jp": "SK∞ エスケーエイト",
+"year": 2021,
+"score": 79,
+"genres": [
+"Action",
+"Drama",
+"Sports"
+],
+"pop": 237089,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124153-tEEm1Zaoqa58.jpg",
+"chars": [
+{
+"id": 195120,
+"name": "Reki Kyan",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b195120-ndTbU0TpVLWw.png"
+},
+{
+"id": 195116,
+"name": "Langa Hasegawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b195116-C2Y5jRPiTSng.png"
+},
+{
+"id": 195121,
+"name": "Miya Chinen",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b195121-FehldtuXxYXh.png"
+}
+]
+},
+{
+"id": "danganronpatheanimation",
+"title": "Danganronpa: The Animation",
+"jp": "ダンガンロンパ 希望の学園と絶望の高校生 The Animation",
+"year": 2013,
+"score": 69,
+"genres": [
+"Horror",
+"Mystery",
+"Psychological"
+],
+"pop": 235198,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16592-tcRpZFHvgZjb.jpg",
+"chars": [
+{
+"id": 63845,
+"name": "Kyouko Kirigiri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b63845-43rWjycWhYFF.png"
+},
+{
+"id": 65523,
+"name": "Junko Enoshima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b65523-OztiX9PhydrG.png"
+},
+{
+"id": 65525,
+"name": "Celestia Ludenberg",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b65525-BoB482T3oEoN.jpg"
+}
+]
+},
+{
+"id": "magithelabyrinthofmagic",
+"title": "Magi: The Labyrinth of Magic",
+"jp": "マギ The labyrinth of magic",
+"year": 2012,
+"score": 78,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 234613,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14513-DDBxCumOyPIa.jpg",
+"chars": [
+{
+"id": 43121,
+"name": "Morgiana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43121-o2KuUeEfh6AS.png"
+},
+{
+"id": 42501,
+"name": "Alibaba Saluja",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b42501-BKURFIipvE1C.png"
+},
+{
+"id": 41949,
+"name": "Aladdin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41949-LaoaHJ2tJxBw.png"
+}
+]
+},
+{
+"id": "akira",
+"title": "Akira",
+"jp": "AKIRA",
+"year": 1988,
+"score": 79,
+"genres": [
+"Action",
+"Adventure",
+"Horror"
+],
+"pop": 234406,
+"studio": "Tokyo Movie Shinsha",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/47-fof8HqtNDtvx.jpg",
+"chars": [
+{
+"id": 2588,
+"name": "Shoutarou Kaneda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2588-OfACKXYm2lkV.png"
+},
+{
+"id": 2589,
+"name": "Tetsuo Shima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2589-HR4oPhkLGq6q.png"
+},
+{
+"id": 9875,
+"name": "Kei",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b9875-8eHWcOTvtTQB.png"
+}
+]
+},
+{
+"id": "witchhatatelier",
+"title": "Witch Hat Atelier",
+"jp": "とんがり帽子のアトリエ",
+"year": 2026,
+"score": 85,
+"genres": [
+"Adventure",
+"Drama",
+"Fantasy"
+],
+"pop": 233852,
+"studio": "BUG FILMS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147105-fTjmRrILFixZ.jpg",
+"chars": [
+{
+"id": 129841,
+"name": "Qifrey",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129841-brgGFuOv1h0n.png"
+},
+{
+"id": 129840,
+"name": "Coco",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129840-B2CVE0TIcKpT.png"
+},
+{
+"id": 129842,
+"name": "Agott Arkrome",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129842-n9YfEU63mDNm.png"
+}
+]
+},
+{
+"id": "yurionice",
+"title": "Yuri!!! on ICE",
+"jp": "ユーリ!!! on ICE",
+"year": 2016,
+"score": 78,
+"genres": [
+"Comedy",
+"Drama",
+"Sports"
+],
+"pop": 233444,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21709-5AqBq4m5bE7S.jpg",
+"chars": [
+{
+"id": 90225,
+"name": "Victor Nikiforov",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90225-5NweNvd4YiDr.png"
+},
+{
+"id": 90224,
+"name": "Yuuri Plisetsky",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90224-sSpYZe1avAKW.jpg"
+},
+{
+"id": 90223,
+"name": "Yuuri Katsuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b90223-N2yiCBMBHxZu.png"
+}
+]
+},
+{
+"id": "arifuretafromcommonplace",
+"title": "Arifureta: From Commonplace to World's Strongest",
+"jp": "ありふれた職業で世界最強",
+"year": 2019,
+"score": 65,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 233269,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100668-9ZQSB5x5St7c.jpg",
+"chars": [
+{
+"id": 132847,
+"name": "Yue",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132847-rxYUEsbcLxTm.png"
+},
+{
+"id": 132848,
+"name": "Hajime Nagumo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132848-HsUfgM0nr2Dz.jpg"
+},
+{
+"id": 132850,
+"name": "Shia Haulia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132850-MQx1CPfMYGPC.png"
+}
+]
+},
+{
+"id": "greatpretender",
+"title": "Great Pretender",
+"jp": "GREAT PRETENDER",
+"year": 2020,
+"score": 81,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 233114,
+"studio": "WIT STUDIO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110349-bGG1E4uunLoq.jpg",
+"chars": [
+{
+"id": 158448,
+"name": "Laurent Thierry",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158448-4ayIN90zJJnp.png"
+},
+{
+"id": 158450,
+"name": "Abigail Jones",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158450-8Tvl7X2VtHj0.png"
+},
+{
+"id": 158447,
+"name": "Makoto Edamura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158447-ZFkig12JOEWg.png"
+}
+]
+},
+{
+"id": "bloodblockadebattlefront",
+"title": "Blood Blockade Battlefront",
+"jp": "血界戦線",
+"year": 2015,
+"score": 74,
+"genres": [
+"Action",
+"Comedy",
+"Supernatural"
+],
+"pop": 232439,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20727-jcGXKLo3lLDP.jpg",
+"chars": [
+{
+"id": 89025,
+"name": "Leonardo Watch",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89025-mUe7SN8rIaWP.png"
+},
+{
+"id": 89130,
+"name": "Zapp Renfro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89130-W0uwE4ZDzcUq.jpg"
+},
+{
+"id": 89106,
+"name": "Klaus von Reinherz",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89106-nhuUmojcyv9w.png"
+}
+]
+},
+{
+"id": "summertimerendering",
+"title": "Summer Time Rendering",
+"jp": "サマータイムレンダ",
+"year": 2022,
+"score": 83,
+"genres": [
+"Action",
+"Drama",
+"Mystery"
+],
+"pop": 229451,
+"studio": "OLM",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129201-eeCsKFrCSQPS.jpg",
+"chars": [
+{
+"id": 155706,
+"name": "Mio Kofune",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b155706-guouOSwrSqso.jpg"
+},
+{
+"id": 155703,
+"name": "Shinpei Ajiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b155703-1CNh5yTk8xWO.jpg"
+},
+{
+"id": 155711,
+"name": "Hizuru Minakata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b155711-VwaqEhjhI0FL.png"
+}
+]
+},
+{
+"id": "monthlygirlsnozakikun",
+"title": "Monthly Girls' Nozaki-kun",
+"jp": "月刊少女野崎くん",
+"year": 2014,
+"score": 76,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 224559,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20668-hmoK9pH09pWT.jpg",
+"chars": [
+{
+"id": 87271,
+"name": "Chiyo Sakura ",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n87271-IccVl2JDURIl.jpg"
+},
+{
+"id": 87267,
+"name": "Mikoto Mikoshiba ",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/87267.jpg"
+},
+{
+"id": 88114,
+"name": "Yuu Kashima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88114.jpg"
+}
+]
+},
+{
+"id": "angelsofdeath",
+"title": "Angels of Death",
+"jp": "殺戮の天使",
+"year": 2018,
+"score": 67,
+"genres": [
+"Action",
+"Adventure",
+"Horror"
+],
+"pop": 220199,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99629-lNDLVNuCXm86.jpg",
+"chars": [
+{
+"id": 123328,
+"name": "Isaac Foster",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123328-NZApzipm9Qwy.png"
+},
+{
+"id": 123327,
+"name": "Rachel Gardner",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123327-sCoETT0pFslx.png"
+},
+{
+"id": 123329,
+"name": "Edward Mason",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123329-imTHDGz2crno.png"
+}
+]
+},
+{
+"id": "yonaofthedawn",
+"title": "Yona of the Dawn",
+"jp": "暁のヨナ",
+"year": 2014,
+"score": 79,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 219867,
+"studio": "Studio Pierrot",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20770-tZZMsglzAUAe.jpg",
+"chars": [
+{
+"id": 43815,
+"name": "Hak Son",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43815-WRbln8jA1mPk.jpg"
+},
+{
+"id": 43814,
+"name": "Yona",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b43814-M0nlr2AP7vY0.png"
+},
+{
+"id": 67749,
+"name": "Shin-Ah",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b67749-56bkWIb9ZpWy.jpg"
+}
+]
+},
+{
+"id": "tengokudaimakyo",
+"title": "Tengoku Daimakyo",
+"jp": "天国大魔境",
+"year": 2023,
+"score": 81,
+"genres": [
+"Adventure",
+"Mystery",
+"Sci-Fi"
+],
+"pop": 216020,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155783-MXHfdquIBoHA.jpg",
+"chars": [
+{
+"id": 289828,
+"name": "Kiruko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289828-021nDZVsvAP5.png"
+},
+{
+"id": 289824,
+"name": "Maru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289824-7LdKeeZkpEjF.png"
+},
+{
+"id": 289826,
+"name": "Mimihime",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289826-RVPbwpkNF38n.png"
+}
+]
+},
+{
+"id": "thecasestudyofvanitas",
+"title": "The Case Study of Vanitas",
+"jp": "ヴァニタスの手記",
+"year": 2021,
+"score": 78,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 213003,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131646-ewbYrSfyUyp6.jpg",
+"chars": [
+{
+"id": 89590,
+"name": "Vanitas",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89590-K3RdKR4VnYM4.png"
+},
+{
+"id": 89835,
+"name": "Noé Archiviste",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89835-xnAJMex6Uq0U.png"
+},
+{
+"id": 89836,
+"name": "Jeanne",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89836-xLr4mkxojjc3.png"
+}
+]
+},
+{
+"id": "given",
+"title": "given",
+"jp": "ギヴン",
+"year": 2019,
+"score": 83,
+"genres": [
+"Drama",
+"Music",
+"Romance"
+],
+"pop": 212989,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108430-L8rZPUpXjDzv.jpg",
+"chars": [
+{
+"id": 136844,
+"name": "Mafuyu Satou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136844-UoqciaLvz5Jf.png"
+},
+{
+"id": 136843,
+"name": "Ritsuka Uenoyama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136843-z6IjhOi636WT.png"
+},
+{
+"id": 136845,
+"name": "Haruki Nakayama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b136845-4jHomiPMsJ6n.png"
+}
+]
+},
+{
+"id": "alyasometimeshidesherfee",
+"title": "Alya Sometimes Hides Her Feelings in Russian",
+"jp": "時々ボソッとロシア語でデレる隣のアーリャさん",
+"year": 2024,
+"score": 75,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 210552,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162804-NwvD3Lya8IZp.jpg",
+"chars": [
+{
+"id": 217334,
+"name": "Alisa Kujou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b217334-buImnwO26SgS.jpg"
+},
+{
+"id": 217335,
+"name": "Masachika Kuze",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b217335-PXJgLsemVaQZ.jpg"
+},
+{
+"id": 243404,
+"name": "Yuki Suou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b243404-X1fmwpqHPdyb.jpg"
+}
+]
+},
+{
+"id": "mylovestorywithyamadakun",
+"title": "My Love Story with Yamada-kun at Lv999",
+"jp": "山田くんとLv999の恋をする",
+"year": 2023,
+"score": 77,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 210115,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154965-9AwJG3nVokqG.jpg",
+"chars": [
+{
+"id": 197173,
+"name": "Akito Yamada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b197173-t2KNplNgpQV6.png"
+},
+{
+"id": 197172,
+"name": "Akane Kinoshita",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b197172-MfY8D8sSMjHy.png"
+},
+{
+"id": 199121,
+"name": "Eita Sasaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b199121-8PgP309K6DkU.png"
+}
+]
+},
+{
+"id": "flcl",
+"title": "FLCL",
+"jp": "フリクリ",
+"year": 2000,
+"score": 79,
+"genres": [
+"Action",
+"Comedy",
+"Mecha"
+],
+"pop": 209062,
+"studio": "GAINAX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/227.jpg",
+"chars": [
+{
+"id": 627,
+"name": "Haruko Haruhara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b627-VkiKQwzH1c8S.png"
+},
+{
+"id": 632,
+"name": "Mamimi Samejima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b632-JqWnOga0weWv.png"
+},
+{
+"id": 630,
+"name": "Naota Nandaba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b630-PGh6ATh3vlub.png"
+}
+]
+},
+{
+"id": "theworldsfinestassassing",
+"title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+"jp": "世界最高の暗殺者、異世界貴族に転生する",
+"year": 2021,
+"score": 72,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 207168,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129898-Qp41lxD3wU9e.jpg",
+"chars": [
+{
+"id": 157691,
+"name": "Dia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157691-TY88sUXtm1Br.png"
+},
+{
+"id": 157687,
+"name": "Lugh Tuatha Dé",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157687-F64XEDMqU9hX.png"
+},
+{
+"id": 157689,
+"name": "Tarte",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157689-JynXVx2niy2I.png"
+}
+]
+},
+{
+"id": "welcometothenhk",
+"title": "Welcome to the N-H-K",
+"jp": "N・H・Kにようこそ！",
+"year": 2006,
+"score": 82,
+"genres": [
+"Comedy",
+"Drama",
+"Psychological"
+],
+"pop": 206055,
+"studio": "GONZO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1210-M5oFyKfKm2zT.jpg",
+"chars": [
+{
+"id": 2552,
+"name": "Misaki Nakahara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2552-KCehpCmmitMV.jpg"
+},
+{
+"id": 1839,
+"name": "Tatsuhiro Satou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1839-siyzvmskIwLk.png"
+},
+{
+"id": 2866,
+"name": "Kaoru Yamazaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2866-s8og7KAyexA4.png"
+}
+]
+},
+{
+"id": "graveofthefireflies",
+"title": "Grave of the Fireflies",
+"jp": "火垂るの墓",
+"year": 1988,
+"score": 83,
+"genres": [
+"Drama"
+],
+"pop": 205232,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/578.jpg",
+"chars": [
+{
+"id": 495,
+"name": "Setsuko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b495-vzUTVQ5RMiJN.png"
+},
+{
+"id": 494,
+"name": "Seita",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b494-9sbHCvWiD9py.png"
+},
+{
+"id": 133870,
+"name": "Seita Setsuko no Haha",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b133870-kfO1GVk2plls.png"
+}
+]
+},
+{
+"id": "suzume",
+"title": "Suzume",
+"jp": "すずめの戸締まり",
+"year": 2022,
+"score": 81,
+"genres": [
+"Adventure",
+"Fantasy",
+"Mystery"
+],
+"pop": 204707,
+"studio": "CoMix Wave",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142770-YgESt2HJXlNg.jpg",
+"chars": [
+{
+"id": 259510,
+"name": "Suzume Iwato",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b259510-59wuAsKvY2wW.png"
+},
+{
+"id": 284260,
+"name": "Souta Munakata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b284260-lXeBzrA6ZchP.png"
+},
+{
+"id": 284261,
+"name": "Daijin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b284261-2m1iJLNCFjed.jpg"
+}
+]
+},
+{
+"id": "kiznaiver",
+"title": "Kiznaiver",
+"jp": "キズナイーバー",
+"year": 2016,
+"score": 71,
+"genres": [
+"Drama",
+"Romance",
+"Sci-Fi"
+],
+"pop": 204432,
+"studio": "TRIGGER",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21421-FmiHiyoRPDOp.png",
+"chars": [
+{
+"id": 89564,
+"name": "Chidori Takashiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89564-RUaACrDSgya7.png"
+},
+{
+"id": 89294,
+"name": "Katsuhira Agata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89294-nY2S6PBQJ1rS.png"
+},
+{
+"id": 89295,
+"name": "Noriko Sonozaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89295-kkcSVFCgqP8L.png"
+}
+]
+},
+{
+"id": "cellsatwork",
+"title": "Cells at Work!",
+"jp": "はたらく細胞",
+"year": 2018,
+"score": 73,
+"genres": [
+"Action",
+"Comedy",
+"Sci-Fi"
+],
+"pop": 203553,
+"studio": "david production",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100977-IztHpiaTckCh.jpg",
+"chars": [
+{
+"id": 126981,
+"name": "Hakkekkyuu U-1146",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126981-K1cB7bUIm6Mj.png"
+},
+{
+"id": 126975,
+"name": "Sekkekkyuu AE3803",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126975-Lqj6mlIEBaSA.png"
+},
+{
+"id": 36309,
+"name": "Narrator",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg"
+}
+]
+},
+{
+"id": "cautiousherotheheroisove",
+"title": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+"jp": "慎重勇者～この勇者が俺ＴＵＥＥＥくせに慎重すぎる～",
+"year": 2019,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 202643,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105156-AER446HoeuJZ.jpg",
+"chars": [
+{
+"id": 141625,
+"name": "Seiya Ryuguin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b141625-oYFYH78dmAkz.png"
+},
+{
+"id": 141624,
+"name": "Ristarte ",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b141624-gTy9Jhhc9UAk.png"
+},
+{
+"id": 151284,
+"name": "Adenela",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b151284-7GLQKn43Sfv3.png"
+}
+]
+},
+{
+"id": "91days",
+"title": "91 Days",
+"jp": "91Days",
+"year": 2016,
+"score": 76,
+"genres": [
+"Action",
+"Drama",
+"Psychological"
+],
+"pop": 200716,
+"studio": "Shuka",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21711-iJuWzyf6U50p.jpg",
+"chars": [
+{
+"id": 89965,
+"name": "Angelo Lagusa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89965-dvE5D72YCP5I.png"
+},
+{
+"id": 89966,
+"name": "Nero Vanetti",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89966-p68zAMfm3yrF.jpg"
+},
+{
+"id": 89970,
+"name": "Corteo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89970-SM2ADSkQhAZX.png"
+}
+]
+},
+{
+"id": "gate",
+"title": "Gate",
+"jp": "GATE 自衛隊 彼の地にて、斯く戦えり",
+"year": 2015,
+"score": 74,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 199960,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20994-9Vy4mDOFYT7O.jpg",
+"chars": [
+{
+"id": 89029,
+"name": "Rory Mercury",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89029-dkTeY6564JNP.png"
+},
+{
+"id": 89065,
+"name": "Youji Itami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89065-UZJtKI5pjKdV.jpg"
+},
+{
+"id": 89030,
+"name": "Lelei la Lelena",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89030-RxUjgQBDb7uD.png"
+}
+]
+},
+{
+"id": "trinityseven",
+"title": "TRINITY SEVEN",
+"jp": "トリニティセブン",
+"year": 2014,
+"score": 67,
+"genres": [
+"Action",
+"Comedy",
+"Ecchi"
+],
+"pop": 199824,
+"studio": "Seven Arcs Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20631-JsRVj8iDf21B.jpg",
+"chars": [
+{
+"id": 52883,
+"name": "Lilith Asami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b52883-c8iS3mq7deeb.png"
+},
+{
+"id": 68397,
+"name": "Lieselotte Sherlock",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b68397-EGnq9dvdsDyp.png"
+},
+{
+"id": 42391,
+"name": "Arata Kasuga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b42391-UdBonh0v1e6c.png"
+}
+]
+},
+{
+"id": "kabanerioftheironfortres",
+"title": "Kabaneri of the Iron Fortress",
+"jp": "甲鉄城のカバネリ",
+"year": 2016,
+"score": 71,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 199333,
+"studio": "WIT STUDIO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21196-0aQqkn5XWmGo.jpg",
+"chars": [
+{
+"id": 89464,
+"name": "Mumei",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89464-3QoSJw8XzDkH.jpg"
+},
+{
+"id": 89472,
+"name": "Ikoma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89472-Ayu4lT9Crbl5.png"
+},
+{
+"id": 89469,
+"name": "Yukina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89469-lqZkuy6Gnnwl.jpg"
+}
+]
+},
+{
+"id": "tsuredurechildren",
+"title": "Tsuredure Children",
+"jp": "徒然チルドレン",
+"year": 2017,
+"score": 74,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 198497,
+"studio": "Studio Gokumi",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98291-cRLmqm7It2rZ.jpg",
+"chars": [
+{
+"id": 123059,
+"name": "Ryouko Kaji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123059-aEKZb18PYITT.png"
+},
+{
+"id": 123022,
+"name": "Masafumi Akagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123022-iKT107emdbBk.jpg"
+},
+{
+"id": 123023,
+"name": "Yuki Minagawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123023-U3km5RfGOigf.png"
+}
+]
+},
+{
+"id": "intotheforestoffireflies",
+"title": "Into the Forest of Fireflies' Light",
+"jp": "蛍火の杜へ",
+"year": 2011,
+"score": 79,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 196681,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10408-kZhXe0uVrAd2.jpg",
+"chars": [
+{
+"id": 41311,
+"name": "Gin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41311-QbW9aecoguFX.png"
+},
+{
+"id": 41371,
+"name": "Hotaru Takegawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41371-bgilENMWqYZN.png"
+},
+{
+"id": 60691,
+"name": "Ryouta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b60691-ZLXknNFcU2Uz.png"
+}
+]
+},
+{
+"id": "wolfchildren",
+"title": "Wolf Children",
+"jp": "おおかみこどもの雨と雪",
+"year": 2012,
+"score": 83,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 195660,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12355.jpg",
+"chars": [
+{
+"id": 60279,
+"name": "Hana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b60279-1DRIDCpJZ9SD.png"
+},
+{
+"id": 60283,
+"name": "Ame",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b60283-1oOCO9yq7ymy.png"
+},
+{
+"id": 60281,
+"name": "Yuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b60281-QaCr9FOcsIOQ.png"
+}
+]
+},
+{
+"id": "dailylivesofhighschoolbo",
+"title": "Daily Lives of High School Boys",
+"jp": "男子高校生の日常",
+"year": 2012,
+"score": 80,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 195480,
+"studio": "Sunrise",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11843-2GxMdvjHLn6v.jpg",
+"chars": [
+{
+"id": 50691,
+"name": "Hidenori Tabata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n50691-e9LBqPgNy6Rk.png"
+},
+{
+"id": 50693,
+"name": "Yoshitake Tanaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n50693-JuansDyW7i7v.png"
+},
+{
+"id": 50689,
+"name": "Tadakuni",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n50689-6eQzVvFsHmDI.png"
+}
+]
+},
+{
+"id": "windbreaker",
+"title": "WIND BREAKER",
+"jp": "WIND BREAKER",
+"year": 2024,
+"score": 77,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 194710,
+"studio": "CloverWorks",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163270-fcjrqp3iKWdb.jpg",
+"chars": [
+{
+"id": 230204,
+"name": "Haruka Sakura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b230204-cNRNjAj1FP4j.png"
+},
+{
+"id": 255629,
+"name": "Hayato Suou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b255629-dnDEPOiRH5Wo.jpg"
+},
+{
+"id": 255630,
+"name": "Hajime Umemiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b255630-lz7qcvEvmj3y.jpg"
+}
+]
+},
+{
+"id": "awhiskeraway",
+"title": "A Whisker Away",
+"jp": "泣きたい私は猫をかぶる",
+"year": 2020,
+"score": 73,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 193138,
+"studio": "Studio Colorido",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114963-UiyoYE6udFpW.jpg",
+"chars": [
+{
+"id": 158754,
+"name": "Miyo Sasaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158754-6EOniUeZRQN4.jpg"
+},
+{
+"id": 158755,
+"name": "Kento Hinode",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158755-ljXu07KnuLGo.png"
+},
+{
+"id": 165190,
+"name": "Yoriko Fukase",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b165190-02hO1GxfNC1x.png"
+}
+]
+},
+{
+"id": "acertainmagicalindex",
+"title": "A Certain Magical Index",
+"jp": "とある魔術の禁書目録",
+"year": 2008,
+"score": 70,
+"genres": [
+"Action",
+"Sci-Fi",
+"Supernatural"
+],
+"pop": 192857,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4654-YLc90XaeWvPb.jpg",
+"chars": [
+{
+"id": 13700,
+"name": "Touma Kamijou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13700-UidPPlVkGJLP.jpg"
+},
+{
+"id": 13699,
+"name": "Index Librorum Prohibitorum",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13699-FRf8YNCXmhfb.jpg"
+},
+{
+"id": 13701,
+"name": "Mikoto Misaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13701-aFJLRPGAWAae.png"
+}
+]
+},
+{
+"id": "haventyouheardimsakamoto",
+"title": "Haven't You Heard? I'm Sakamoto",
+"jp": "坂本ですが?",
+"year": 2016,
+"score": 73,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 192823,
+"studio": "Studio DEEN",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21595-q5qX7BfnCanQ.jpg",
+"chars": [
+{
+"id": 123574,
+"name": "Sakamoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123574-BjW3yjFwphP0.jpg"
+},
+{
+"id": 36309,
+"name": "Narrator",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg"
+},
+{
+"id": 135864,
+"name": "Shou Hayabusa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b135864-usux4l3BrBcC.png"
+}
+]
+},
+{
+"id": "kokoroconnect",
+"title": "Kokoro Connect",
+"jp": "ココロコネクト",
+"year": 2012,
+"score": 75,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 192781,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11887-DWtqKSd0DBFF.jpg",
+"chars": [
+{
+"id": 40197,
+"name": "Himeko Inaba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40197-We1zbfXwnVFf.png"
+},
+{
+"id": 40196,
+"name": "Iori Nagase",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40196-5KM70eeMhGK6.png"
+},
+{
+"id": 40195,
+"name": "Taichi Yaegashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40195-PenXAhV9kQKc.png"
+}
+]
+},
+{
+"id": "baccano",
+"title": "Baccano!",
+"jp": "バッカーノ！",
+"year": 2007,
+"score": 81,
+"genres": [
+"Action",
+"Mystery",
+"Supernatural"
+],
+"pop": 191615,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2251-FVSbYyJhQPj2.jpg",
+"chars": [
+{
+"id": 3796,
+"name": "Miria Harvent",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3796-iIdhldOILjda.png"
+},
+{
+"id": 3662,
+"name": "Isaac Dian",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3662-JfGk5fakHCKI.png"
+},
+{
+"id": 5756,
+"name": "Claire Stanfield",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b5756-AO4dD0LGz4fm.png"
+}
+]
+},
+{
+"id": "fatestaynight",
+"title": "Fate/stay night",
+"jp": "Fate/stay night",
+"year": 2006,
+"score": 68,
+"genres": [
+"Action",
+"Fantasy",
+"Romance"
+],
+"pop": 191021,
+"studio": "Studio DEEN",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/356-0VzS7BcObayT.jpg",
+"chars": [
+{
+"id": 498,
+"name": "Rin Toosaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b498-lwawtSpLyATL.png"
+},
+{
+"id": 497,
+"name": "Artoria Pendragon",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b497-Yg5pNmC8kxzs.png"
+},
+{
+"id": 496,
+"name": "Shirou Emiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b496-GI0waavDjyk3.png"
+}
+]
+},
+{
+"id": "ponyo",
+"title": "Ponyo",
+"jp": "崖の上のポニョ",
+"year": 2008,
+"score": 79,
+"genres": [
+"Adventure",
+"Fantasy"
+],
+"pop": 190241,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2890-9ABkcfl2a7xS.jpg",
+"chars": [
+{
+"id": 14286,
+"name": "Ponyo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14286-So4LWwCaE5un.png"
+},
+{
+"id": 15009,
+"name": "Sousuke",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b15009-1FN9rnnLAinM.png"
+},
+{
+"id": 17230,
+"name": "Fujimoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b17230-sax8DBCSudsQ.png"
+}
+]
+},
+{
+"id": "joseethetigerandthefish",
+"title": "Josee, the Tiger and the Fish",
+"jp": "ジョゼと虎と魚たち",
+"year": 2020,
+"score": 82,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 188892,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113596-8r3fCSFgQHIY.jpg",
+"chars": [
+{
+"id": 162228,
+"name": "Josee",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b162228-dRGRnwG9mK2o.png"
+},
+{
+"id": 162229,
+"name": "Tsuneo Suzukawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b162229-7Avbcj2UEWxt.png"
+},
+{
+"id": 184560,
+"name": "Mai Ninomiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b184560-KQfewBKpvfNu.jpg"
+}
+]
+},
+{
+"id": "kikisdeliveryservice",
+"title": "Kiki's Delivery Service",
+"jp": "魔女の宅急便",
+"year": 1989,
+"score": 81,
+"genres": [
+"Adventure",
+"Drama",
+"Fantasy"
+],
+"pop": 188727,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/512-Ssp3EE2NdeoA.jpg",
+"chars": [
+{
+"id": 6866,
+"name": "Kiki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b6866-Fe38ZMNvevnF.png"
+},
+{
+"id": 3133,
+"name": "Jiji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3133-pt3Y3TOU3EQr.png"
+},
+{
+"id": 11280,
+"name": "Ursula",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b11280-bPN8eheBlGMx.png"
+}
+]
+},
+{
+"id": "grimgaroffantasyandash",
+"title": "Grimgar of Fantasy and Ash",
+"jp": "灰と幻想のグリムガル",
+"year": 2016,
+"score": 74,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 185492,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21428-WXeLTDwfmKI5.jpg",
+"chars": [
+{
+"id": 89313,
+"name": "Haruhiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89313-uSvLfoxddA1K.png"
+},
+{
+"id": 89314,
+"name": "Yume",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89314-uTnztcUOdui0.png"
+},
+{
+"id": 89424,
+"name": "Mary",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89424-8m6l2xYz6EVb.png"
+}
+]
+},
+{
+"id": "bofuriidontwanttogethurt",
+"title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
+"jp": "痛いのは嫌なので防御力に極振りしたいと思います。",
+"year": 2020,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 184647,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106479-G1rExJ4m8Be3.jpg",
+"chars": [
+{
+"id": 147892,
+"name": "Kaede Honjou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b147892-sL0t1VEMhC6p.png"
+},
+{
+"id": 147893,
+"name": "Risa Shiramine",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b147893-t481NA7vtmdF.png"
+},
+{
+"id": 155751,
+"name": "Kasumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b155751-yNkFpyB8A21x.png"
+}
+]
+},
+{
+"id": "freeiwatobiswimclub",
+"title": "Free! -Iwatobi Swim Club-",
+"jp": "Free!",
+"year": 2013,
+"score": 71,
+"genres": [
+"Comedy",
+"Drama",
+"Slice of Life"
+],
+"pop": 184506,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18507-2Qs2vdJwjEiP.jpg",
+"chars": [
+{
+"id": 83019,
+"name": "Rin Matsuoka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83019-wCHpG1RDVVNC.png"
+},
+{
+"id": 83023,
+"name": "Haruka Nanase",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83023-l6SV5nBLfVkv.jpg"
+},
+{
+"id": 83027,
+"name": "Makoto Tachibana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b83027-SpFq12qbN0Dr.png"
+}
+]
+},
+{
+"id": "snowwhitewiththeredhair",
+"title": "Snow White with the Red Hair",
+"jp": "赤髪の白雪姫",
+"year": 2015,
+"score": 77,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 183610,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21058-Kxl8fq3kEgeH.png",
+"chars": [
+{
+"id": 18323,
+"name": "Shirayuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18323-yDl2JX1vF19h.png"
+},
+{
+"id": 18324,
+"name": "Zen Wistaria",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18324-WauBT7sWq4hA.jpg"
+},
+{
+"id": 25273,
+"name": "Obi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b25273-MveN8WxA1iSj.jpg"
+}
+]
+},
+{
+"id": "vivyfluoriteeyessong",
+"title": "Vivy -Fluorite Eye's Song-",
+"jp": "Vivy -Fluorite Eye’s Song-",
+"year": 2021,
+"score": 82,
+"genres": [
+"Action",
+"Drama",
+"Music"
+],
+"pop": 182691,
+"studio": "WIT STUDIO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128546-V5KVgbzQwFYm.jpg",
+"chars": [
+{
+"id": 209903,
+"name": "Vivy",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b209903-ue6AE5qBvMgI.png"
+},
+{
+"id": 209902,
+"name": "Matsumoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b209902-Ty8ihQLkX7EN.png"
+},
+{
+"id": 215276,
+"name": "Estella",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b215276-n3AoeL09uMiH.jpg"
+}
+]
+},
+{
+"id": "wistoriawandandsword",
+"title": "Wistoria: Wand and Sword",
+"jp": "杖と剣のウィストリア",
+"year": 2024,
+"score": 79,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 180744,
+"studio": "Actas",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174576-6stJnscy5rCi.jpg",
+"chars": [
+{
+"id": 212394,
+"name": "Will Serfort",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b212394-LBHoN071nIuu.png"
+},
+{
+"id": 326398,
+"name": "Elfaria Serfort",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b326398-wuRiW6ZhqdAL.png"
+},
+{
+"id": 212586,
+"name": "Colette Loire",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b212586-prPLiQ7DOCNU.png"
+}
+]
+},
+{
+"id": "saekanohowtoraiseaboring",
+"title": "Saekano: How to Raise a Boring Girlfriend",
+"jp": "冴えない彼女の育てかた",
+"year": 2015,
+"score": 73,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 180396,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20657-rGBsbYGeLLzw.png",
+"chars": [
+{
+"id": 88748,
+"name": "Megumi Katou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88748-zPL68ZFgFRH8.png"
+},
+{
+"id": 88750,
+"name": "Utaha Kasumigaoka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88750-s7ZxVssLyP0p.png"
+},
+{
+"id": 88749,
+"name": "Eriri Sawamura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88749-loy0rBIbAcIC.png"
+}
+]
+},
+{
+"id": "fromthenewworld",
+"title": "From the New World",
+"jp": "新世界より",
+"year": 2012,
+"score": 80,
+"genres": [
+"Drama",
+"Horror",
+"Mystery"
+],
+"pop": 179975,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13125.jpg",
+"chars": [
+{
+"id": 57569,
+"name": "Saki Watanabe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b57569-nrl0laLbZVFM.png"
+},
+{
+"id": 57573,
+"name": "Maria Akizuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n57573-8pdTSyjphsNQ.png"
+},
+{
+"id": 57575,
+"name": "Shun Aonuma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n57575-pUFkwIj4HTEt.png"
+}
+]
+},
+{
+"id": "tomochanisagirl",
+"title": "Tomo-chan Is a Girl!",
+"jp": "トモちゃんは女の子！",
+"year": 2023,
+"score": 76,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 179909,
+"studio": "Lay-duce",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151806-1AmWChFo1Ogh.jpg",
+"chars": [
+{
+"id": 89183,
+"name": "Misuzu Gundou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89183-7rdNPxR2afjA.png"
+},
+{
+"id": 89181,
+"name": "Tomo Aizawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89181-eo1e0troTZz2.jpg"
+},
+{
+"id": 89512,
+"name": "Carol Olston",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n89512-Uxe3M5okQXG7.png"
+}
+]
+},
+{
+"id": "whentheycry",
+"title": "When They Cry",
+"jp": "ひぐらしのなく頃に",
+"year": 2006,
+"score": 76,
+"genres": [
+"Horror",
+"Mystery",
+"Psychological"
+],
+"pop": 179385,
+"studio": "Studio DEEN",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n934-p227WvkFZ7XX.jpg",
+"chars": [
+{
+"id": 1534,
+"name": "Rika Furude",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1534-CtOvaSPOMZne.png"
+},
+{
+"id": 1427,
+"name": "Rena Ryuuguu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1427-28AR4oy0y2Hw.png"
+},
+{
+"id": 1313,
+"name": "Shion Sonozaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b1313-wLhW5uDxdhqA.png"
+}
+]
+},
+{
+"id": "darkerthanblack",
+"title": "Darker than Black",
+"jp": "DARKER THAN BLACK -黒の契約者-",
+"year": 2007,
+"score": 77,
+"genres": [
+"Action",
+"Mystery",
+"Sci-Fi"
+],
+"pop": 178848,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2025-Fx3ALDmrOulv.jpg",
+"chars": [
+{
+"id": 2160,
+"name": "Hei",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n2160-CbHDsANTwxg2.jpg"
+},
+{
+"id": 2163,
+"name": "Yin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n2163-nA1EMwU7E5oJ.png"
+},
+{
+"id": 2165,
+"name": "Mao",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n2165-LJwr5Cgg7J4n.png"
+}
+]
+},
+{
+"id": "linkclick",
+"title": "Link Click",
+"jp": "时光代理人",
+"year": 2021,
+"score": 86,
+"genres": [
+"Drama",
+"Mystery",
+"Supernatural"
+],
+"pop": 178763,
+"studio": "Studio LAN",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126403-Zs8HsM3YBoml.jpg",
+"chars": [
+{
+"id": 218266,
+"name": "Xiaoshi Cheng",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b218266-ypsehWLIcfER.png"
+},
+{
+"id": 218267,
+"name": "Guang Lu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b218267-dl2RO0rxGOAU.png"
+},
+{
+"id": 218265,
+"name": "Ling Qiao",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b218265-fPevvlubcHv1.png"
+}
+]
+},
+{
+"id": "gtogreatteacheronizuka",
+"title": "GTO: Great Teacher Onizuka",
+"jp": "GTO",
+"year": 1999,
+"score": 84,
+"genres": [
+"Comedy",
+"Drama",
+"Slice of Life"
+],
+"pop": 177977,
+"studio": "Studio Pierrot",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/245-sIPMF9vNDnaJ.jpg",
+"chars": [
+{
+"id": 434,
+"name": "Eikichi Onizuka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b434-Q0K9e4HukawA.png"
+},
+{
+"id": 455,
+"name": "Urumi Kanzaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b455-J0I8nu81FYvC.png"
+},
+{
+"id": 3604,
+"name": "Yoshito Kikuchi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/3604.jpg"
+}
+]
+},
+{
+"id": "theangelnextdoorspoilsme",
+"title": "The Angel Next Door Spoils Me Rotten",
+"jp": "お隣の天使様にいつの間にか駄目人間にされていた件",
+"year": 2023,
+"score": 78,
+"genres": [
+"Romance",
+"Slice of Life"
+],
+"pop": 177667,
+"studio": "project No.9",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143338-d0AqJzRUQCgk.jpg",
+"chars": [
+{
+"id": 195602,
+"name": "Mahiru Shiina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b195602-Cc0vrUDl7r15.png"
+},
+{
+"id": 195601,
+"name": "Amane Fujimiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b195601-rDhWj5yC1BAe.png"
+},
+{
+"id": 230208,
+"name": "Chitose Shirakawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b230208-I6Z2x00fq0oC.png"
+}
+]
+},
+{
+"id": "tsukimichimoonlitfantasy",
+"title": "TSUKIMICHI -Moonlit Fantasy-",
+"jp": "月が導く異世界道中",
+"year": 2021,
+"score": 77,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 176627,
+"studio": "C2C",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125206-UdWijVTgcC5t.jpg",
+"chars": [
+{
+"id": 138138,
+"name": "Tomoe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138138-Nz9jNIHBVeRC.png"
+},
+{
+"id": 138139,
+"name": "Mio",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138139-RyExQ4tdSsLG.png"
+},
+{
+"id": 138137,
+"name": "Makoto Misumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138137-yBtJdBlRziS9.png"
+}
+]
+},
+{
+"id": "thegirlwholeaptthroughti",
+"title": "The Girl Who Leapt Through Time",
+"jp": "時をかける少女",
+"year": 2006,
+"score": 78,
+"genres": [
+"Drama",
+"Romance",
+"Sci-Fi"
+],
+"pop": 176220,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2236-rY0fvv53JIOB.jpg",
+"chars": [
+{
+"id": 2530,
+"name": "Makoto Konno",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2530-cQj2vyKexS4n.png"
+},
+{
+"id": 2531,
+"name": "Chiaki Mamiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2531-sTqtJZK2Hty5.jpg"
+},
+{
+"id": 2532,
+"name": "Kousuke Tsuda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2532-Q2hPxjjvG8ac.png"
+}
+]
+},
+{
+"id": "inuyashikilasthero",
+"title": "INUYASHIKI LAST HERO",
+"jp": "いぬやしき",
+"year": 2017,
+"score": 74,
+"genres": [
+"Action",
+"Drama",
+"Psychological"
+],
+"pop": 175935,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97922-j6ba0Zmq8xOa.jpg",
+"chars": [
+{
+"id": 123581,
+"name": "Hiro Shishigami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/123581-XPE2OL85SDI7.jpg"
+},
+{
+"id": 123583,
+"name": "Ichirou Inuyashiki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123583-O5TgsLJBiN1k.jpg"
+},
+{
+"id": 187170,
+"name": "Hanako",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b187170-00uTcRO4ZB99.png"
+}
+]
+},
+{
+"id": "k",
+"title": "K",
+"jp": "K",
+"year": 2012,
+"score": 71,
+"genres": [
+"Action",
+"Mystery",
+"Supernatural"
+],
+"pop": 175001,
+"studio": "GoHands",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14467-jG939pd2036a.jpg",
+"chars": [
+{
+"id": 64597,
+"name": "Mikoto Suoh",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b64597-ca6IDjwKbOkZ.png"
+},
+{
+"id": 64591,
+"name": "Yashiro Isana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b64591-8wPvsPK3hzOw.png"
+},
+{
+"id": 64595,
+"name": "Neko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/64595.jpg"
+}
+]
+},
+{
+"id": "himoutoumaruchan",
+"title": "Himouto! Umaru-chan",
+"jp": "干物妹！うまるちゃん",
+"year": 2015,
+"score": 67,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 174436,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20987-jnbJ4VXW687z.jpg",
+"chars": [
+{
+"id": 89019,
+"name": "Umaru Doma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89019-sH6Zg8rpfPWD.png"
+},
+{
+"id": 89020,
+"name": "Taihei Doma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89020-fRPQDhLKRbP8.jpg"
+},
+{
+"id": 89022,
+"name": "Nana Ebina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/89022-5qRRCIPB9Ubx.png"
+}
+]
+},
+{
+"id": "kamisamakiss",
+"title": "Kamisama Kiss",
+"jp": "神様はじめました",
+"year": 2012,
+"score": 80,
+"genres": [
+"Comedy",
+"Fantasy",
+"Romance"
+],
+"pop": 172528,
+"studio": "TMS Entertainment",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14713-t6RcaL0IqwlW.jpg",
+"chars": [
+{
+"id": 18344,
+"name": "Tomoe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18344-2d8Ao1wHDZ7U.png"
+},
+{
+"id": 18343,
+"name": "Nanami Momozono",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b18343-YU7AhH28tElo.jpg"
+},
+{
+"id": 37872,
+"name": "Mizuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b37872-y9ECZBxdEZwS.jpg"
+}
+]
+},
+{
+"id": "trigun",
+"title": "Trigun",
+"jp": "TRIGUN",
+"year": 1998,
+"score": 80,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 172150,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6-4pIR2RY8AHZ0.jpg",
+"chars": [
+{
+"id": 162,
+"name": "Vash the Stampede",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b162-kfdfqsX7Xjf0.png"
+},
+{
+"id": 722,
+"name": "Nicholas D. Wolfwood",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b722-Ernx5wHAXugB.jpg"
+},
+{
+"id": 714,
+"name": "Milly Thompson",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b714-bwscmKr1GkxW.jpg"
+}
+]
+},
+{
+"id": "teasingmastertakagisan",
+"title": "Teasing Master Takagi-san",
+"jp": "からかい上手の高木さん",
+"year": 2018,
+"score": 74,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 171853,
+"studio": "Shin-Ei Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99468-WdWcFGyIeunj.jpg",
+"chars": [
+{
+"id": 120800,
+"name": "Takagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/120800-fZe52KrIKqv6.jpg"
+},
+{
+"id": 120799,
+"name": "Nishikata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/120799-175LQCsgpSJk.jpg"
+},
+{
+"id": 128608,
+"name": "Mina Hibino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b128608-j1uRTq46p5XJ.jpg"
+}
+]
+},
+{
+"id": "welcometodemonschoolirum",
+"title": "Welcome to Demon School! Iruma-kun",
+"jp": "魔入りました！入間くん",
+"year": 2019,
+"score": 77,
+"genres": [
+"Comedy",
+"Fantasy"
+],
+"pop": 171297,
+"studio": "Bandai Namco Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
+"chars": [
+{
+"id": 135018,
+"name": "Iruma Suzuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b135018-1vrthiQQS7O1.jpg"
+},
+{
+"id": 135019,
+"name": "Clara Valac",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b135019-5HdzxMIHvgPB.jpg"
+},
+{
+"id": 135022,
+"name": "Alice Asmodeus",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b135022-AAXddLdMdNh4.png"
+}
+]
+},
+{
+"id": "morethanamarriedcouplebu",
+"title": "More than a Married Couple, but Not Lovers.",
+"jp": "夫婦以上、恋人未満。",
+"year": 2022,
+"score": 76,
+"genres": [
+"Comedy",
+"Drama",
+"Ecchi"
+],
+"pop": 170028,
+"studio": "studio MOTHER",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141949-37BoBF129jLT.jpg",
+"chars": [
+{
+"id": 273105,
+"name": "Shiori Sakurazaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b273105-BUCVawntAuJF.png"
+},
+{
+"id": 191672,
+"name": "Akari Watanabe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b191672-MozVAnqyv9oZ.png"
+},
+{
+"id": 191673,
+"name": "Jirou Yakuin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b191673-eD8IFBOdAFv5.jpg"
+}
+]
+},
+{
+"id": "tomodachigame",
+"title": "Tomodachi Game",
+"jp": "トモダチゲーム",
+"year": 2022,
+"score": 76,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 169292,
+"studio": "Okuruto Noboru",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141014-ocrpDt7M8EfY.jpg",
+"chars": [
+{
+"id": 122064,
+"name": "Yuuichi Katagiri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122064-p5x9pgsdjj4W.jpg"
+},
+{
+"id": 127638,
+"name": "Shiho Sawaragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127638-7c6AnJdppdK0.png"
+},
+{
+"id": 127639,
+"name": "Tenji Mikasa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127639-xhIRxtOdTnim.jpg"
+}
+]
+},
+{
+"id": "aplacefurtherthantheuniv",
+"title": "A Place Further Than the Universe",
+"jp": "宇宙よりも遠い場所",
+"year": 2018,
+"score": 84,
+"genres": [
+"Adventure",
+"Comedy",
+"Drama"
+],
+"pop": 168748,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99426-KsFVCSwVC3x3.jpg",
+"chars": [
+{
+"id": 124546,
+"name": "Shirase Kobuchizawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124546-m2grkrB5gfCJ.png"
+},
+{
+"id": 124547,
+"name": "Hinata Miyake",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n124547-6nbhiholxEve.jpg"
+},
+{
+"id": 124545,
+"name": "Mari Tamaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124545-qwgoxY241muu.png"
+}
+]
+},
+{
+"id": "littlewitchacademiatv",
+"title": "Little Witch Academia (TV)",
+"jp": "リトルウィッチアカデミア (TV)",
+"year": 2017,
+"score": 77,
+"genres": [
+"Comedy",
+"Fantasy"
+],
+"pop": 168440,
+"studio": "TRIGGER",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21858-eyzQxmTRxtYO.jpg",
+"chars": [
+{
+"id": 81645,
+"name": "Atsuko Kagari",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/81645-dvD1Ac67IkpJ.png"
+},
+{
+"id": 81699,
+"name": "Sucy Manbavaran",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/81699-mAzqlNupKWOB.jpg"
+},
+{
+"id": 81711,
+"name": "Lotte Jansson",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81711-fd0bFfcJPeOz.png"
+}
+]
+},
+{
+"id": "laidbackcamp",
+"title": "Laid-Back Camp",
+"jp": "ゆるキャン△",
+"year": 2018,
+"score": 81,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 167672,
+"studio": "C-Station",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98444-FpH9lzLiafe9.jpg",
+"chars": [
+{
+"id": 124586,
+"name": "Rin Shima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124586-9lGoHg1zZkFr.png"
+},
+{
+"id": 124576,
+"name": "Nadeshiko Kagamihara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124576-daumBIJ4lOwq.png"
+},
+{
+"id": 124577,
+"name": "Aoi Inuyama",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b124577-LA9JusqQcAJV.png"
+}
+]
+},
+{
+"id": "amagibrilliantpark",
+"title": "Amagi Brilliant Park",
+"jp": "甘城ブリリアントパーク",
+"year": 2014,
+"score": 72,
+"genres": [
+"Comedy",
+"Fantasy"
+],
+"pop": 166610,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20602-HrakjBfgWeRg.jpg",
+"chars": [
+{
+"id": 87970,
+"name": "Isuzu Sento",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87970-MFZM2yLtEPPt.png"
+},
+{
+"id": 87971,
+"name": "Seiya Kanie",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/87971-Os3Rm0dAZMVy.png"
+},
+{
+"id": 88505,
+"name": "Latifa Fleuranza",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88505-PpLNBOPtqrMr.png"
+}
+]
+},
+{
+"id": "akudamadrive",
+"title": "Akudama Drive",
+"jp": "アクダマドライブ",
+"year": 2020,
+"score": 74,
+"genres": [
+"Action",
+"Drama",
+"Sci-Fi"
+],
+"pop": 165927,
+"studio": "Studio Pierrot",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116566-XwsHAwTxbXmC.jpg",
+"chars": [
+{
+"id": 163011,
+"name": "Ippanjin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b163011-RQ7w99tKB0ax.png"
+},
+{
+"id": 163009,
+"name": "Hakobiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b163009-6DeeZUuMozcZ.jpg"
+},
+{
+"id": 163013,
+"name": "Satsujinki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b163013-u3rucK6Xxqfd.png"
+}
+]
+},
+{
+"id": "sentencedtobeahero",
+"title": "Sentenced to Be a Hero",
+"jp": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+"year": 2026,
+"score": 80,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 165914,
+"studio": "Studio KAI",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/167152-6QxZG8Dmf1EL.jpg",
+"chars": [
+{
+"id": 355726,
+"name": "Teoritta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b355726-dKp210MmTqMS.jpg"
+},
+{
+"id": 355722,
+"name": "Xylo Forbartz",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b355722-WAcMLaqmY2bO.jpg"
+},
+{
+"id": 355724,
+"name": "Patausche Kivia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b355724-nxZuNKOq5kMo.jpg"
+}
+]
+},
+{
+"id": "themillionairedetectiveb",
+"title": "The Millionaire Detective - Balance: UNLIMITED",
+"jp": "富豪刑事 Balance:UNLIMITED",
+"year": 2020,
+"score": 74,
+"genres": [
+"Action",
+"Comedy",
+"Mystery"
+],
+"pop": 164778,
+"studio": "CloverWorks",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114888-YVXJvMnuWCDb.jpg",
+"chars": [
+{
+"id": 158386,
+"name": "Daisuke Kanbe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158386-orMtLSB0aNW8.png"
+},
+{
+"id": 158385,
+"name": "Haru Katou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b158385-ewIQvz0SYL1e.png"
+},
+{
+"id": 163738,
+"name": "Suzue Kanbe",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b163738-nDhlyPri96kp.jpg"
+}
+]
+},
+{
+"id": "thedangersinmyheart",
+"title": "The Dangers in My Heart",
+"jp": "僕の心のヤバイやつ",
+"year": 2023,
+"score": 81,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 164311,
+"studio": "Shin-Ei Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153152-rBoe4ue4EjzI.jpg",
+"chars": [
+{
+"id": 174190,
+"name": "Anna Yamada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b174190-Yl9xcIc5VTtI.jpg"
+},
+{
+"id": 174191,
+"name": "Kyoutarou Ichikawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b174191-ZxpNhPXKgxhX.jpg"
+},
+{
+"id": 193218,
+"name": "Kana Ichikawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b193218-3mexVYcc0PoC.jpg"
+}
+]
+},
+{
+"id": "mierukochan",
+"title": "Mieruko-chan",
+"jp": "見える子ちゃん",
+"year": 2021,
+"score": 72,
+"genres": [
+"Comedy",
+"Horror",
+"Slice of Life"
+],
+"pop": 164229,
+"studio": "Passione",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131083-MYE8c1cuzO6C.jpg",
+"chars": [
+{
+"id": 139631,
+"name": "Miko Yotsuya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139631-JC76pYY2Q51Z.png"
+},
+{
+"id": 139632,
+"name": "Hana Yurikawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139632-b95rh3VplAYY.png"
+},
+{
+"id": 156860,
+"name": "Yulia Niguredou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b156860-P5bAY1m97tX7.png"
+}
+]
+},
+{
+"id": "inspectre",
+"title": "In/Spectre",
+"jp": "虚構推理",
+"year": 2020,
+"score": 68,
+"genres": [
+"Comedy",
+"Mystery",
+"Romance"
+],
+"pop": 163905,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107201-XZHSg0HdC9kR.jpg",
+"chars": [
+{
+"id": 125946,
+"name": "Kotoko Iwanaga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125946-YAjl4xufsVYn.png"
+},
+{
+"id": 125947,
+"name": "Kurou Sakuragawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125947-i00TGOORpPyt.png"
+},
+{
+"id": 148749,
+"name": "Saki Yumihara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b148749-1C6yejsYXWf1.png"
+}
+]
+},
+{
+"id": "landofthelustrous",
+"title": "Land of the Lustrous",
+"jp": "宝石の国",
+"year": 2017,
+"score": 83,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 162153,
+"studio": "Orange",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98707-ZcFGfUAS4YwK.jpg",
+"chars": [
+{
+"id": 123385,
+"name": "Phosphophyllite",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123385-ild8gXk13xcO.png"
+},
+{
+"id": 123384,
+"name": "Shinsha",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123384-ZA5owNzNH4Y3.jpg"
+},
+{
+"id": 123390,
+"name": "Diamond",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123390-JpK1cECeWCEo.png"
+}
+]
+},
+{
+"id": "thewayofthehousehusband",
+"title": "The Way of the Househusband",
+"jp": "極主夫道",
+"year": 2021,
+"score": 71,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 161228,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125426-5BS7j1JbgaFp.jpg",
+"chars": [
+{
+"id": 131519,
+"name": "Tatsu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b131519-KgmdjieEssj7.png"
+},
+{
+"id": 131521,
+"name": "Miku",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b131521-6DGz4B3dTF84.jpg"
+},
+{
+"id": 131520,
+"name": "Masa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b131520-qtGDNO05CsVX.png"
+}
+]
+},
+{
+"id": "tsukigakirei",
+"title": "Tsukigakirei",
+"jp": "月がきれい",
+"year": 2017,
+"score": 78,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 160449,
+"studio": "feel.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98202-JlZYSjYB8pux.jpg",
+"chars": [
+{
+"id": 121810,
+"name": "Akane Mizuno",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121810-RQGbA7CwgItR.png"
+},
+{
+"id": 121812,
+"name": "Kotarou Azumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121812-etw072u4Xzp4.png"
+},
+{
+"id": 121806,
+"name": "Roman Yamashina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121806-jCWZLsGJH4Q4.png"
+}
+]
+},
+{
+"id": "ergoproxy",
+"title": "Ergo Proxy",
+"jp": "Ergo Proxy",
+"year": 2006,
+"score": 76,
+"genres": [
+"Adventure",
+"Mystery",
+"Psychological"
+],
+"pop": 159390,
+"studio": "Manglobe",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/790.jpg",
+"chars": [
+{
+"id": 643,
+"name": "Re-l Mayer",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b643-nHYwe1Dm7XoR.jpg"
+},
+{
+"id": 642,
+"name": "Vincent Law",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b642-FPW2pO89Zp5y.png"
+},
+{
+"id": 644,
+"name": "Pino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b644-MWIpgfiIyzem.png"
+}
+]
+},
+{
+"id": "mylovestory",
+"title": "My Love Story!!",
+"jp": "俺物語!!",
+"year": 2015,
+"score": 77,
+"genres": [
+"Comedy",
+"Romance"
+],
+"pop": 158726,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20946-r4wJYuCgFO1z.jpg",
+"chars": [
+{
+"id": 80757,
+"name": "Takeo Gouda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/80757-gA4WilhjE97U.png"
+},
+{
+"id": 87904,
+"name": "Rinko Yamato",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b87904-jdgZmYp28Wuk.jpg"
+},
+{
+"id": 88882,
+"name": "Makoto Sunakawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/88882-A11O6VhqgqN9.png"
+}
+]
+},
+{
+"id": "moriartythepatriot",
+"title": "Moriarty the Patriot",
+"jp": "憂国のモリアーティ",
+"year": 2020,
+"score": 80,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 158678,
+"studio": "Production I.G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114124-44utnIatIX16.jpg",
+"chars": [
+{
+"id": 151486,
+"name": "William Moriarty",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b151486-rAFZZZm0Byu0.png"
+},
+{
+"id": 151495,
+"name": "Sherlock Holmes",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b151495-MQz2Bntpg1sO.png"
+},
+{
+"id": 151489,
+"name": "Albert Moriarty",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b151489-luCWYq86nKc2.png"
+}
+]
+},
+{
+"id": "paprika",
+"title": "Paprika",
+"jp": "パプリカ",
+"year": 2006,
+"score": 79,
+"genres": [
+"Fantasy",
+"Mystery",
+"Psychological"
+],
+"pop": 158300,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1943.jpg",
+"chars": [
+{
+"id": 3797,
+"name": "Paprika",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n3797-PKb6L9RXcgdS.png"
+},
+{
+"id": 3798,
+"name": "Atsuko Chiba",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3798-mzmC2IZ8RJlB.png"
+},
+{
+"id": 3801,
+"name": "Toshimi Konakawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3801-QE1bQDRgQJBo.png"
+}
+]
+},
+{
+"id": "sayiloveyou",
+"title": "Say \"I love you\".",
+"jp": "好きっていいなよ。",
+"year": 2012,
+"score": 71,
+"genres": [
+"Drama",
+"Romance"
+],
+"pop": 156179,
+"studio": "ZEXCS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14289-QSuorl0srSNZ.jpg",
+"chars": [
+{
+"id": 24201,
+"name": "Mei Tachibana",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b24201-GcQdQ2k0xYUh.jpg"
+},
+{
+"id": 26243,
+"name": "Yamato Kurosawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b26243-dURfUMAhjYtz.jpg"
+},
+{
+"id": 38920,
+"name": "Aiko Mutou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/38920.jpg"
+}
+]
+},
+{
+"id": "zombielandsaga",
+"title": "ZOMBIE LAND SAGA",
+"jp": "ゾンビランドサガ",
+"year": 2018,
+"score": 74,
+"genres": [
+"Comedy",
+"Music",
+"Supernatural"
+],
+"pop": 155878,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n103871-yXAOJi8trgxh.jpg",
+"chars": [
+{
+"id": 127543,
+"name": "Koutarou Tatsumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127543-eiGF28B6adis.jpg"
+},
+{
+"id": 127538,
+"name": "Saki Nikaidou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n127538-z0mYekgT8d5P.png"
+},
+{
+"id": 127650,
+"name": "Tae Yamada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n127650-sJrUSwE4taUC.png"
+}
+]
+},
+{
+"id": "soimaspidersowhat",
+"title": "So I'm a Spider, So What?",
+"jp": "蜘蛛ですが、なにか？",
+"year": 2021,
+"score": 72,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 155715,
+"studio": "Millepensee",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103632-N4ssExnvLw74.jpg",
+"chars": [
+{
+"id": 122124,
+"name": "Kumoko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b122124-6ymNNXYfvyXO.png"
+},
+{
+"id": 130487,
+"name": "Schlain Zagan Analeit",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b130487-zAL7NaUpGWI7.png"
+},
+{
+"id": 130477,
+"name": "Ariel",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b130477-Szp3TMGbCCab.png"
+}
+]
+},
+{
+"id": "wanderingwitchthejourney",
+"title": "Wandering Witch: The Journey of Elaina",
+"jp": "魔女の旅々",
+"year": 2020,
+"score": 74,
+"genres": [
+"Adventure",
+"Fantasy",
+"Slice of Life"
+],
+"pop": 154873,
+"studio": "C2C",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112609-P969sQ0jIU6S.jpg",
+"chars": [
+{
+"id": 125736,
+"name": "Elaina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125736-LIaof9PjXvH3.png"
+},
+{
+"id": 149041,
+"name": "Saya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b149041-LtLzGLz06SR6.png"
+},
+{
+"id": 149042,
+"name": "Fran",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b149042-cXxmEojrELpR.png"
+}
+]
+},
+{
+"id": "barakamon",
+"title": "Barakamon",
+"jp": "ばらかもん",
+"year": 2014,
+"score": 82,
+"genres": [
+"Slice of Life"
+],
+"pop": 154495,
+"studio": "Kinema Citrus",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20722-vjD7BMct1l1n.jpg",
+"chars": [
+{
+"id": 31274,
+"name": "Sei Handa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b31274-f454wVpnF97M.png"
+},
+{
+"id": 31273,
+"name": "Naru Kotoishi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b31273-bDTUQtlrjFGs.png"
+},
+{
+"id": 88328,
+"name": "Hiroshi Kido",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88328-TNJHpou2SVIA.jpg"
+}
+]
+},
+{
+"id": "soundeuphonium",
+"title": "Sound! Euphonium",
+"jp": "響け！ユーフォニアム",
+"year": 2015,
+"score": 80,
+"genres": [
+"Drama",
+"Music",
+"Slice of Life"
+],
+"pop": 153310,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20912-FbGbJuHlRKm7.jpg",
+"chars": [
+{
+"id": 88708,
+"name": "Kumiko Oumae",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88708-ZiVPl8LjIjaK.jpg"
+},
+{
+"id": 88710,
+"name": "Reina Kousaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88710-cFbSW1ga7Uax.png"
+},
+{
+"id": 88707,
+"name": "Hazuki Katou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88707-zzEOe2FDSdlv.jpg"
+}
+]
+},
+{
+"id": "uzakichanwantstohangout",
+"title": "Uzaki-chan Wants to Hang Out!",
+"jp": "宇崎ちゃんは遊びたい！",
+"year": 2020,
+"score": 67,
+"genres": [
+"Comedy",
+"Ecchi",
+"Romance"
+],
+"pop": 152477,
+"studio": "ENGI",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115113-wIWyzBlDR5Kt.jpg",
+"chars": [
+{
+"id": 130665,
+"name": "Hana Uzaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b130665-eb65zDu3doTn.jpg"
+},
+{
+"id": 130664,
+"name": "Shinichi Sakurai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b130664-pHAdVC7qQe40.jpg"
+},
+{
+"id": 157997,
+"name": "Tsuki  Uzaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157997-fZeKqGCRkyWj.jpg"
+}
+]
+},
+{
+"id": "hinamatsuri",
+"title": "HINAMATSURI",
+"jp": "ヒナまつり",
+"year": 2018,
+"score": 80,
+"genres": [
+"Comedy",
+"Sci-Fi",
+"Slice of Life"
+],
+"pop": 150428,
+"studio": "feel.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100077-XKMTrxaMGhBj.jpg",
+"chars": [
+{
+"id": 89228,
+"name": "Hina",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89228-X5A2mEkCnJyx.png"
+},
+{
+"id": 89229,
+"name": "Yoshifumi Nitta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89229-jYBTw06z7oHy.png"
+},
+{
+"id": 89230,
+"name": "Hitomi Mishima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89230-Ji8OpT5cf9dK.png"
+}
+]
+},
+{
+"id": "thetatamigalaxy",
+"title": "The Tatami Galaxy",
+"jp": "四畳半神話大系",
+"year": 2010,
+"score": 84,
+"genres": [
+"Comedy",
+"Mystery",
+"Psychological"
+],
+"pop": 150069,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
+"chars": [
+{
+"id": 30579,
+"name": "Watashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b30579-Idk9XLwfnYft.png"
+},
+{
+"id": 31522,
+"name": "Akashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b31522-Nkfqv7px3MAv.png"
+},
+{
+"id": 32556,
+"name": "Ozu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b32556-zXSKPVT6WLHU.png"
+}
+]
+},
+{
+"id": "asobiasobaseworkshopoffu",
+"title": "Asobi Asobase - workshop of fun -",
+"jp": "あそびあそばせ",
+"year": 2018,
+"score": 79,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 149877,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101001-q22QfHFzEavh.jpg",
+"chars": [
+{
+"id": 126452,
+"name": "Hanako Honda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126452-nYd3UoOQqk3n.png"
+},
+{
+"id": 126451,
+"name": "Olivia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126451-LI2jcrtjljyt.png"
+},
+{
+"id": 126453,
+"name": "Kasumi Nomura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126453-Wqc4UCMocWbq.png"
+}
+]
+},
+{
+"id": "pokmon",
+"title": "Pokémon",
+"jp": "ポケットモンスター",
+"year": 1997,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 149722,
+"studio": "OLM",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/527-69bO9vmmewWm.jpg",
+"chars": [
+{
+"id": 36309,
+"name": "Narrator",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg"
+},
+{
+"id": 2473,
+"name": "Satoshi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2473-JDoo3I82Km4l.png"
+},
+{
+"id": 3891,
+"name": "Pikachu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3891-edgrZOgCJ9do.jpg"
+}
+]
+},
+{
+"id": "mynextlifeasavillainessa",
+"title": "My Next Life as a Villainess: All Routes Lead to Doom!",
+"jp": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
+"year": 2020,
+"score": 73,
+"genres": [
+"Comedy",
+"Fantasy",
+"Romance"
+],
+"pop": 149314,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104647-emIYPiyZZJnl.jpg",
+"chars": [
+{
+"id": 129137,
+"name": "Katarina Claes",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129137-jTXVGAICPfvX.png"
+},
+{
+"id": 129136,
+"name": "Alan Stuart",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129136-TD43peyVWvON.jpg"
+},
+{
+"id": 129140,
+"name": "Sophia Ascart",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b129140-CRjj8EuYvLHu.png"
+}
+]
+},
+{
+"id": "maquiawhenthepromisedflo",
+"title": "Maquia: When the Promised Flower Blooms",
+"jp": "さよならの朝に約束の花をかざろう",
+"year": 2018,
+"score": 82,
+"genres": [
+"Drama",
+"Fantasy",
+"Psychological"
+],
+"pop": 148355,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99457-OvX44AF17mEL.jpg",
+"chars": [
+{
+"id": 132267,
+"name": "Maquia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132267-CbmgHpVpp97v.jpg"
+},
+{
+"id": 132264,
+"name": "Ariel",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132264-P6rb6Xb4fid9.png"
+},
+{
+"id": 132268,
+"name": "Lang",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132268-PvcmAexKCFRv.png"
+}
+]
+},
+{
+"id": "hellsing",
+"title": "Hellsing",
+"jp": "HELLSING",
+"year": 2001,
+"score": 72,
+"genres": [
+"Action",
+"Horror",
+"Supernatural"
+],
+"pop": 147409,
+"studio": "GONZO",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/270-wzSdgMsCRvtl.jpg",
+"chars": [
+{
+"id": 601,
+"name": "Alucard",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n601-CVySkaFQgsPW.jpg"
+},
+{
+"id": 624,
+"name": "Seras Victoria",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b624-qdFGCDB5Zhco.png"
+},
+{
+"id": 603,
+"name": "Integra Fairbrook Wingates Hellsing",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n603-APJJRPduEnJV.jpg"
+}
+]
+},
+{
+"id": "thefruitofgrisaia",
+"title": "The Fruit of Grisaia",
+"jp": "グリザイアの果実",
+"year": 2014,
+"score": 71,
+"genres": [
+"Drama",
+"Ecchi",
+"Psychological"
+],
+"pop": 146919,
+"studio": "8-bit",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17729-9jx6Kk3Etn3N.jpg",
+"chars": [
+{
+"id": 80891,
+"name": "Yuuji Kazami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n80891-WesKQmQEVJ5n.jpg"
+},
+{
+"id": 80899,
+"name": "Amane Suou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b80899-TzrealvmrLxH.png"
+},
+{
+"id": 80897,
+"name": "Michiru Matsushima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n80897-psxA0eW0jAsb.jpg"
+}
+]
+},
+{
+"id": "luckystar",
+"title": "Lucky☆Star",
+"jp": "らき☆すた",
+"year": 2007,
+"score": 75,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 146899,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1887-wsvLo25cHip4.png",
+"chars": [
+{
+"id": 2169,
+"name": "Konata Izumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/2169-5xDzQnt3MtQk.png"
+},
+{
+"id": 2171,
+"name": "Kagami Hiiragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2171-OTMMewsamHiC.png"
+},
+{
+"id": 2170,
+"name": "Tsukasa Hiiragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2170-VHQFPIAZ5Qq6.png"
+}
+]
+},
+{
+"id": "myhappymarriage",
+"title": "My Happy Marriage",
+"jp": "わたしの幸せな結婚",
+"year": 2023,
+"score": 76,
+"genres": [
+"Drama",
+"Romance",
+"Supernatural"
+],
+"pop": 145481,
+"studio": "Kinema Citrus",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147103-MwFq1R7jphZT.jpg",
+"chars": [
+{
+"id": 181965,
+"name": "Miyo Saimori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b181965-VJEPa9R5ZklX.png"
+},
+{
+"id": 181964,
+"name": "Kiyoka Kudou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b181964-hBQzTQAG6zIs.png"
+},
+{
+"id": 269670,
+"name": "Yurie",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b269670-YlKrfHlkNiKJ.png"
+}
+]
+},
+{
+"id": "thedailylifeoftheimmorta",
+"title": "The Daily Life of the Immortal King",
+"jp": "仙王的日常生活",
+"year": 2020,
+"score": 73,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 144022,
+"studio": "Haoliners Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114121-7PQrZv4Hsmyh.jpg",
+"chars": [
+{
+"id": 188942,
+"name": "Ling Wang",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b188942-9ypZJN7MCFk2.png"
+},
+{
+"id": 189230,
+"name": "Rong Sun",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b189230-CN5kUh1X79DO.png"
+},
+{
+"id": 189232,
+"name": "Ha Tuntian",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b189232-LBGe2nuoyHjX.png"
+}
+]
+},
+{
+"id": "daemonsoftheshadowrealm",
+"title": "Daemons of the Shadow Realm",
+"jp": "黄泉のツガイ",
+"year": 2026,
+"score": 78,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 142987,
+"studio": "bones film",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195600-UxHvDXwzJxlP.jpg",
+"chars": [
+{
+"id": 270811,
+"name": "Yuru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b270811-RA1UwUhCSFiF.png"
+},
+{
+"id": 270810,
+"name": "Asa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b270810-RDnZzM4DtLyn.png"
+},
+{
+"id": 287182,
+"name": "Hidari",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b287182-zYp5RKVRz1OM.jpg"
+}
+]
+},
+{
+"id": "asignofaffection",
+"title": "A Sign of Affection",
+"jp": "ゆびさきと恋々",
+"year": 2024,
+"score": 81,
+"genres": [
+"Romance",
+"Slice of Life"
+],
+"pop": 142932,
+"studio": "Ajiado",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166794-11TpGckiG12q.jpg",
+"chars": [
+{
+"id": 179809,
+"name": "Yuki Itose",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b179809-pxG89n30MGwl.jpg"
+},
+{
+"id": 179810,
+"name": "Itsuomi Nagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b179810-E34imq24Z2Gw.jpg"
+},
+{
+"id": 206489,
+"name": "Oushi Ashioki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b206489-6Ewj3mocooVc.png"
+}
+]
+},
+{
+"id": "howarealistherorebuiltth",
+"title": "How a Realist Hero Rebuilt the Kingdom",
+"jp": "現実主義勇者の王国再建記",
+"year": 2021,
+"score": 71,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 141900,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117612-MQ8iXGt2NHkB.jpg",
+"chars": [
+{
+"id": 133336,
+"name": "Liscia Elfrieden",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n133336-lB9x2ceRcDfp.jpg"
+},
+{
+"id": 133333,
+"name": "Kazuya Souma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n133333-53OfUScBG41p.png"
+},
+{
+"id": 133334,
+"name": "Aisha Udgard",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n133334-PKS9Bt9CeQpL.jpg"
+}
+]
+},
+{
+"id": "oresukiareyoutheonlyonew",
+"title": "ORESUKI: Are you the only one who loves me?",
+"jp": "俺を好きなのはお前だけかよ",
+"year": 2019,
+"score": 71,
+"genres": [
+"Comedy",
+"Drama",
+"Ecchi"
+],
+"pop": 141311,
+"studio": "CONNECT",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104464-XbfWyamahIAu.jpg",
+"chars": [
+{
+"id": 138897,
+"name": "Sumireko Sanshokuin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138897-rhOv1iU3ttl4.jpg"
+},
+{
+"id": 138900,
+"name": "Amatsuyu Kisaragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138900-P0tW8IG5l33t.jpg"
+},
+{
+"id": 138899,
+"name": "Sakura Akino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138899-7rtBYBOC7IQS.png"
+}
+]
+},
+{
+"id": "girlslasttour",
+"title": "Girls' Last Tour",
+"jp": "少女終末旅行",
+"year": 2017,
+"score": 82,
+"genres": [
+"Adventure",
+"Sci-Fi",
+"Slice of Life"
+],
+"pop": 139320,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99420-wwjSxDuLveEu.jpg",
+"chars": [
+{
+"id": 120889,
+"name": "Chito",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/120889-o9uGSBNtqgJ8.png"
+},
+{
+"id": 120890,
+"name": "Yuuri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120890-pu5qO3xxvvcx.png"
+},
+{
+"id": 124936,
+"name": "Nuko",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/124936-Jjy56R1xBIbc.jpg"
+}
+]
+},
+{
+"id": "bloomintoyou",
+"title": "Bloom Into You",
+"jp": "やがて君になる",
+"year": 2018,
+"score": 78,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 139295,
+"studio": "TROYCA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101573-yaDZ76cLeMBU.jpg",
+"chars": [
+{
+"id": 123528,
+"name": "Yuu Koito",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123528-q3SR8wyDPTCe.png"
+},
+{
+"id": 123529,
+"name": "Touko Nanami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123529-XSxpzTGWAq2a.png"
+},
+{
+"id": 123530,
+"name": "Sayaka Saeki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123530-i2u0KClGP7IM.png"
+}
+]
+},
+{
+"id": "lovelycomplex",
+"title": "Lovely Complex",
+"jp": "ラブ★コン",
+"year": 2007,
+"score": 78,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 139138,
+"studio": "Toei Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2034-AL1Xtj5GqKu3.jpg",
+"chars": [
+{
+"id": 2379,
+"name": "Risa Koizumi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2379-WutNL90IxIgh.jpg"
+},
+{
+"id": 2380,
+"name": "Atsushi Ootani",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2380-lJs6R8VfdA3W.png"
+},
+{
+"id": 3023,
+"name": "Nobuko Ishihara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b3023-zJl5JLE8LJ37.png"
+}
+]
+},
+{
+"id": "alullinthesea",
+"title": "A Lull in the Sea",
+"jp": "凪のあすから",
+"year": 2013,
+"score": 76,
+"genres": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"pop": 138969,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16067.jpg",
+"chars": [
+{
+"id": 86227,
+"name": "Chisaki Hiradaira",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/86227-drZqN1A9SIxG.png"
+},
+{
+"id": 88070,
+"name": "Miuna Shiodome",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88070-bjMZmlKBqGPV.png"
+},
+{
+"id": 73065,
+"name": "Manaka Mukaido",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/73065-L4IYVvAgX0sj.png"
+}
+]
+},
+{
+"id": "gangsta",
+"title": "GANGSTA.",
+"jp": "GANGSTA.",
+"year": 2015,
+"score": 72,
+"genres": [
+"Action",
+"Drama"
+],
+"pop": 137825,
+"studio": "Manglobe",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20773-CQXjhFEa4zou.jpg",
+"chars": [
+{
+"id": 41197,
+"name": "Nicolas Brown",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41197-1aJMe2IA78fT.png"
+},
+{
+"id": 41198,
+"name": "Worick Arcangelo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b41198-4AxB1QucLgdS.jpg"
+},
+{
+"id": 41199,
+"name": "Alex Benedetto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/41199.jpg"
+}
+]
+},
+{
+"id": "recoveryofanmmojunkie",
+"title": "Recovery of an MMO Junkie",
+"jp": "ネト充のススメ",
+"year": 2017,
+"score": 73,
+"genres": [
+"Comedy",
+"Fantasy",
+"Romance"
+],
+"pop": 137179,
+"studio": "Signal.MD",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99726-f23J9Fuh6dgW.jpg",
+"chars": [
+{
+"id": 123085,
+"name": "Moriko Morioka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123085-F7o4EIvchCSr.png"
+},
+{
+"id": 123092,
+"name": "Yuuta Sakurai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123092-OKcxhfJnsOpo.png"
+},
+{
+"id": 123096,
+"name": "Lily",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b123096-9bxPPd3RcNE5.png"
+}
+]
+},
+{
+"id": "recreators",
+"title": "Re:CREATORS",
+"jp": "Re:CREATORS",
+"year": 2017,
+"score": 73,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 136994,
+"studio": "TROYCA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97980-kyDniE91Yr9L.jpg",
+"chars": [
+{
+"id": 121561,
+"name": "Altair",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121561-rYgIQOeHzR63.png"
+},
+{
+"id": 121563,
+"name": "Meteora Österreich",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121563-jJjOltETxJ9D.png"
+},
+{
+"id": 121560,
+"name": "Selesia Upitiria",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121560-6hSONiUnrHnb.jpg"
+}
+]
+},
+{
+"id": "the100girlfriendswhoreal",
+"title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+"jp": "君のことが大大大大大好きな100人の彼女",
+"year": 2023,
+"score": 76,
+"genres": [
+"Comedy",
+"Ecchi",
+"Romance"
+],
+"pop": 136834,
+"studio": "Bibury Animation Studios",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162694-PzaToQuFdpsr.jpg",
+"chars": [
+{
+"id": 173760,
+"name": "Karane Inda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b173760-Gj3fK5VpbpT3.png"
+},
+{
+"id": 173761,
+"name": "Shizuka Yoshimoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b173761-1FcQvX74KVW7.png"
+},
+{
+"id": 173762,
+"name": "Nano Eiai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b173762-bmdMGoIMVz2E.png"
+}
+]
+},
+{
+"id": "theworldgodonlyknows",
+"title": "The World God Only Knows",
+"jp": "神のみぞ知るセカイ",
+"year": 2010,
+"score": 74,
+"genres": [
+"Comedy",
+"Romance",
+"Supernatural"
+],
+"pop": 136345,
+"studio": "Manglobe",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8525-adOMqsr1Thrs.jpg",
+"chars": [
+{
+"id": 13468,
+"name": "Keima Katsuragi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/13468-follPFjSTdME.png"
+},
+{
+"id": 14015,
+"name": "Elucia de Lute Ima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14015-7M804nDcgMd6.png"
+},
+{
+"id": 22306,
+"name": "Chihiro Kosaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n22306-P4lmKWVMvMHa.jpg"
+}
+]
+},
+{
+"id": "unclefromanotherworld",
+"title": "Uncle from Another World",
+"jp": "異世界おじさん",
+"year": 2022,
+"score": 76,
+"genres": [
+"Adventure",
+"Comedy",
+"Fantasy"
+],
+"pop": 135410,
+"studio": "Atelier Pontdarc",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135806-1220X720dDpZ.jpg",
+"chars": [
+{
+"id": 205566,
+"name": "Yousuke Shibazaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b205566-jEjghVcOqe61.jpg"
+},
+{
+"id": 205568,
+"name": "Takafumi Takaoka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b205568-fFzXaTbrukNh.png"
+},
+{
+"id": 205570,
+"name": "Suzailgiererzegalnelvzegilreagranzelga Elga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b205570-eZr6Ac7NBd0L.jpg"
+}
+]
+},
+{
+"id": "drifters",
+"title": "DRIFTERS",
+"jp": "DRIFTERS",
+"year": 2016,
+"score": 75,
+"genres": [
+"Action",
+"Adventure",
+"Comedy"
+],
+"pop": 135328,
+"studio": "Hoods Entertainment",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21123-AB6drAXL5FhN.jpg",
+"chars": [
+{
+"id": 24183,
+"name": "Toyohisa Shimazu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b24183-zvUBfbdvEYyZ.jpg"
+},
+{
+"id": 24184,
+"name": "Nobunaga Oda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/24184.jpg"
+},
+{
+"id": 24200,
+"name": "Yoichi Nasu no Suketaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/24200.jpg"
+}
+]
+},
+{
+"id": "katanagatari",
+"title": "Katanagatari",
+"jp": "刀語",
+"year": 2010,
+"score": 81,
+"genres": [
+"Action",
+"Adventure",
+"Romance"
+],
+"pop": 135302,
+"studio": "WHITE FOX",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6594-lROEMKEwCESY.jpg",
+"chars": [
+{
+"id": 28523,
+"name": "Togame",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b28523-edwT9MBnaIfm.png"
+},
+{
+"id": 28522,
+"name": "Shichika Yasuri",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b28522-g3nv3s2jXCTE.png"
+},
+{
+"id": 36309,
+"name": "Narrator",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg"
+}
+]
+},
+{
+"id": "castleinthesky",
+"title": "Castle in the Sky",
+"jp": "天空の城ラピュタ",
+"year": 1986,
+"score": 80,
+"genres": [
+"Adventure",
+"Fantasy",
+"Sci-Fi"
+],
+"pop": 134518,
+"studio": "Studio Ghibli",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/513-3zMLMyA0qH5n.jpg",
+"chars": [
+{
+"id": 8524,
+"name": "Pazu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b8524-GsNaG6GxiZrP.jpg"
+},
+{
+"id": 8523,
+"name": "Sheeta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b8523-G9vNbbLN1aJI.png"
+},
+{
+"id": 8525,
+"name": "Dola",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b8525-gYwQaCzrGZGp.png"
+}
+]
+},
+{
+"id": "makeinetoomanylosinghero",
+"title": "Makeine: Too Many Losing Heroines!",
+"jp": "負けヒロインが多すぎる！",
+"year": 2024,
+"score": 80,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 134476,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171457-VBH6gmvCKHwV.jpg",
+"chars": [
+{
+"id": 230873,
+"name": "Anna Yanami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b230873-hTaTgyabFAKA.jpg"
+},
+{
+"id": 230877,
+"name": "Lemon Yakishio",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b230877-sEpTS8h0UvN8.png"
+},
+{
+"id": 230876,
+"name": "Chika Komari",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b230876-TEykZAvgbJii.png"
+}
+]
+},
+{
+"id": "smokingbehindthesupermar",
+"title": "Smoking Behind the Supermarket with You",
+"jp": "スーパーの裏でヤニ吸うふたり",
+"year": 2026,
+"score": 81,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 133561,
+"studio": "Asahi Production",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/196187-Z9dV6uotmKjM.jpg",
+"chars": [
+{
+"id": 281764,
+"name": "Yamada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b281764-hWP2FXV9XLNl.png"
+},
+{
+"id": 281763,
+"name": "Sasaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b281763-4LXduEGESuso.png"
+},
+{
+"id": 307811,
+"name": "Gotou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b307811-dwvCqZUh9k8w.jpg"
+}
+]
+},
+{
+"id": "recordofragnarok",
+"title": "Record of Ragnarok",
+"jp": "終末のワルキューレ",
+"year": 2021,
+"score": 67,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 133486,
+"studio": "Graphinica",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127399-eiN22Xg4LG9x.jpg",
+"chars": [
+{
+"id": 140637,
+"name": "Adam",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b140637-jTJb40wOjsPs.png"
+},
+{
+"id": 140636,
+"name": "Brunhilde",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b140636-nuL1uHEuedtJ.png"
+},
+{
+"id": 140646,
+"name": "Kojirou Sasaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b140646-j8tTUNjhFYPQ.png"
+}
+]
+},
+{
+"id": "trappedinadatingsimthewo",
+"title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+"jp": "乙女ゲー世界はモブに厳しい世界です",
+"year": 2022,
+"score": 71,
+"genres": [
+"Action",
+"Fantasy",
+"Mecha"
+],
+"pop": 133254,
+"studio": "ENGI",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142074-X972q2Mdi8y0.jpg",
+"chars": [
+{
+"id": 152674,
+"name": "Leon Fou Bartfort",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b152674-S1Y9XCN8O2jb.jpg"
+},
+{
+"id": 152676,
+"name": "Angelica Rafua Redgrave",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b152676-NiGb8kgNuHmp.jpg"
+},
+{
+"id": 152673,
+"name": "Olivia",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b152673-PXt43BGpEBbU.jpg"
+}
+]
+},
+{
+"id": "paranoiaagent",
+"title": "Paranoia Agent",
+"jp": "妄想代理人",
+"year": 2004,
+"score": 76,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 133038,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/323-tQCOVrhiRgeU.jpg",
+"chars": [
+{
+"id": 2156,
+"name": "Shounen Bat",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2156-eiE45GYOoso8.png"
+},
+{
+"id": 2154,
+"name": "Tsukiko Sagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/2154.jpg"
+},
+{
+"id": 5131,
+"name": "Mitsuhiro Maniwa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/5131.jpg"
+}
+]
+},
+{
+"id": "weneverlearnbokuben",
+"title": "We Never Learn: BOKUBEN",
+"jp": "ぼくたちは勉強ができない",
+"year": 2019,
+"score": 71,
+"genres": [
+"Comedy",
+"Ecchi",
+"Romance"
+],
+"pop": 132490,
+"studio": "Studio Silver",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103900-I3gUCm5xlsyX.jpg",
+"chars": [
+{
+"id": 121775,
+"name": "Fumino Furuhashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121775-6iSltmB7pcwR.png"
+},
+{
+"id": 125600,
+"name": "Mafuyu Kirisu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125600-IeguEoI3TgQC.png"
+},
+{
+"id": 125599,
+"name": "Asumi Kominami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b125599-lRbcA9Ijf7yf.png"
+}
+]
+},
+{
+"id": "thedetectiveisalreadydea",
+"title": "The Detective Is Already Dead",
+"jp": "探偵はもう、死んでいる。",
+"year": 2021,
+"score": 61,
+"genres": [
+"Comedy",
+"Drama",
+"Mystery"
+],
+"pop": 132329,
+"studio": "ENGI",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128712-ten1GvlORgaw.jpg",
+"chars": [
+{
+"id": 161742,
+"name": "Siesta",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b161742-5YJ759FUsZNf.png"
+},
+{
+"id": 161743,
+"name": "Nagisa Natsunagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b161743-D8umYK2UVPpq.png"
+},
+{
+"id": 161741,
+"name": "Kimihiko Kimizuka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b161741-vkQIscqFltd9.png"
+}
+]
+},
+{
+"id": "shiki",
+"title": "Shiki",
+"jp": "屍鬼",
+"year": 2010,
+"score": 75,
+"genres": [
+"Horror",
+"Mystery",
+"Supernatural"
+],
+"pop": 132304,
+"studio": "Daume",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7724.jpg",
+"chars": [
+{
+"id": 7583,
+"name": "Toshio Ozaki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b7583-mDBtMyykBIQm.png"
+},
+{
+"id": 30477,
+"name": "Sunako Kirishiki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b30477-ydht0JHh4Bke.jpg"
+},
+{
+"id": 7582,
+"name": "Natsuno Yuuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b7582-Oq4BTcZZjKI1.png"
+}
+]
+},
+{
+"id": "thewrongwaytousehealingm",
+"title": "The Wrong Way to Use Healing Magic",
+"jp": "治癒魔法の間違った使い方",
+"year": 2024,
+"score": 75,
+"genres": [
+"Action",
+"Fantasy"
+],
+"pop": 131471,
+"studio": "Shin-Ei Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137908-ZJ0tMykH623Z.jpg",
+"chars": [
+{
+"id": 313120,
+"name": "Rose",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b313120-LYRDZTKy1hep.png"
+},
+{
+"id": 305774,
+"name": "Ken Usato",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b305774-XRZfB8KQ22te.png"
+},
+{
+"id": 311041,
+"name": "Suzune Inukami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b311041-D8ze3gkTkUGL.png"
+}
+]
+},
+{
+"id": "gabrieldropout",
+"title": "Gabriel DropOut",
+"jp": "ガヴリールドロップアウト",
+"year": 2017,
+"score": 73,
+"genres": [
+"Comedy",
+"Slice of Life",
+"Supernatural"
+],
+"pop": 131050,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21878-QVYm5dI7QOmy.jpg",
+"chars": [
+{
+"id": 120939,
+"name": "Satanichia Kurumizawa McDowell",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120939-Xl4FXBKS9kpE.png"
+},
+{
+"id": 120937,
+"name": "Gabriel Tenma White",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120937-ADgkgnr63mPC.png"
+},
+{
+"id": 120940,
+"name": "Vignette Tsukinose April",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120940-QKqf88jKvUbh.png"
+}
+]
+},
+{
+"id": "bna",
+"title": "BNA",
+"jp": "BNA ビー・エヌ・エー",
+"year": 2020,
+"score": 72,
+"genres": [
+"Action",
+"Comedy",
+"Fantasy"
+],
+"pop": 130776,
+"studio": "TRIGGER",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110354-F4KigAURY8zf.jpg",
+"chars": [
+{
+"id": 153541,
+"name": "Michiru Kagemori",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b153541-LpTWp0jtY5Ll.png"
+},
+{
+"id": 153542,
+"name": "Shirou Oogami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b153542-7sWnOALcLJVE.png"
+},
+{
+"id": 153544,
+"name": "Nazuna  Hiwatashi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b153544-Wxwv7TndykhR.png"
+}
+]
+},
+{
+"id": "youandiarepolaropposites",
+"title": "You and I Are Polar Opposites",
+"jp": "正反対な君と僕",
+"year": 2026,
+"score": 83,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 130669,
+"studio": "Lapin Track",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184951-Rx1mZZfKa9IU.jpg",
+"chars": [
+{
+"id": 281250,
+"name": "Miyu Suzuki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b281250-3Ce6zhYCFWtN.png"
+},
+{
+"id": 281251,
+"name": "Yuusuke Tani",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b281251-fpCKCGSQH6Rv.png"
+},
+{
+"id": 302627,
+"name": "Shuuji Taira",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b302627-6Udmewwwbani.jpg"
+}
+]
+},
+{
+"id": "tamakomarket",
+"title": "Tamako Market",
+"jp": "たまこまーけっと",
+"year": 2013,
+"score": 73,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 129862,
+"studio": "Kyoto Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16417.jpg",
+"chars": [
+{
+"id": 74850,
+"name": "Tamako Kitashirakawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b74850-D8ksLbb9p9cw.png"
+},
+{
+"id": 75186,
+"name": "Mochizou Ooji",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b75186-DlCvXVmZ7xQV.png"
+},
+{
+"id": 75082,
+"name": "Kanna Makino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b75082-UZLQGACELKnF.png"
+}
+]
+},
+{
+"id": "tobeherox",
+"title": "To Be Hero X",
+"jp": "凸变英雄X",
+"year": 2025,
+"score": 85,
+"genres": [
+"Action",
+"Drama",
+"Mystery"
+],
+"pop": 129709,
+"studio": "Paper Plane Animation Studio",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156092-XJ6CHMZpJ7YX.jpg",
+"chars": [
+{
+"id": 349524,
+"name": "X",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b349524-REvrZCihFExZ.png"
+},
+{
+"id": 349525,
+"name": "Yuwei Liu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b349525-TrTwLT7P9T2c.png"
+},
+{
+"id": 349523,
+"name": "Xingyun Qing",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b349523-KwExnHqmZYJm.png"
+}
+]
+},
+{
+"id": "buddydaddies",
+"title": "Buddy Daddies",
+"jp": "Buddy Daddies",
+"year": 2023,
+"score": 80,
+"genres": [
+"Action",
+"Comedy",
+"Drama"
+],
+"pop": 129695,
+"studio": "P.A.WORKS",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155907-UhtFRUPBu4cB.jpg",
+"chars": [
+{
+"id": 289969,
+"name": "Rei Suwa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289969-u5TaqUPu78Ka.png"
+},
+{
+"id": 289968,
+"name": "Kazuki Kurusu",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289968-j2C0sN9C5mwg.png"
+},
+{
+"id": 289970,
+"name": "Miri Unasaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b289970-yEN4aVIRcHN8.png"
+}
+]
+},
+{
+"id": "aharensanwahakarenai",
+"title": "Aharen-san wa Hakarenai",
+"jp": "阿波連さんははかれない",
+"year": 2022,
+"score": 71,
+"genres": [
+"Comedy",
+"Romance",
+"Slice of Life"
+],
+"pop": 129577,
+"studio": "Felix Film",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137281-kWj2z1Nk8akA.jpg",
+"chars": [
+{
+"id": 121703,
+"name": "Reina Aharen",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121703-tLV7ExwkmRi4.png"
+},
+{
+"id": 121704,
+"name": "Shouta Raidou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121704-l2wuxOmhRv0o.png"
+},
+{
+"id": 152498,
+"name": "Mitsuki Ooshiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b152498-S3nW7Jgyj9nq.png"
+}
+]
+},
+{
+"id": "natsumesbookoffriendssea",
+"title": "Natsume's Book of Friends Season 1",
+"jp": "夏目友人帳",
+"year": 2008,
+"score": 80,
+"genres": [
+"Drama",
+"Fantasy",
+"Slice of Life"
+],
+"pop": 129112,
+"studio": "Brain's Base",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+"chars": [
+{
+"id": 13783,
+"name": "Takashi Natsume",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13783-FvmhRaCOKzKQ.png"
+},
+{
+"id": 13784,
+"name": "Madara",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/13784.jpg"
+},
+{
+"id": 13886,
+"name": "Reiko Natsume",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b13886-jvXFmldVIkEu.png"
+}
+]
+},
+{
+"id": "idinvaded",
+"title": "ID: INVADED",
+"jp": "イド：インヴェイデッド",
+"year": 2020,
+"score": 77,
+"genres": [
+"Drama",
+"Mystery",
+"Psychological"
+],
+"pop": 128085,
+"studio": "NAZ",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110350-kJfEuQ4Cx4j1.jpg",
+"chars": [
+{
+"id": 143399,
+"name": "Akihito Narihisago",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b143399-px9n0OzJKvot.jpg"
+},
+{
+"id": 154397,
+"name": "Tamotsu Fukuda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b154397-tPaDD3hiqkgH.png"
+},
+{
+"id": 145228,
+"name": "Koharu Hondoumachi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b145228-DdQJYGcqjZB3.jpg"
+}
+]
+},
+{
+"id": "lookback",
+"title": "LOOK BACK",
+"jp": "ルックバック",
+"year": 2024,
+"score": 86,
+"genres": [
+"Drama",
+"Slice of Life"
+],
+"pop": 127889,
+"studio": "Studio Durian",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174788-0ZM9g7npJH8X.jpg",
+"chars": [
+{
+"id": 286932,
+"name": "Kyomoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b286932-6Syfi8YMh3KE.jpg"
+},
+{
+"id": 286677,
+"name": "Ayumu Fujino",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b286677-AXLCzHTcBGYr.jpg"
+},
+{
+"id": 349133,
+"name": "4-Koma no Josei",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b349133-D5xjCBTAu9VB.png"
+}
+]
+},
+{
+"id": "kemonojihen",
+"title": "Kemono Jihen",
+"jp": "怪物事変",
+"year": 2021,
+"score": 72,
+"genres": [
+"Action",
+"Drama",
+"Mystery"
+],
+"pop": 127818,
+"studio": "Ajiado",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114085-kIiJwfwnY1qL.jpg",
+"chars": [
+{
+"id": 154749,
+"name": "Kabane Kusaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b154749-SmkAurcWuzLI.png"
+},
+{
+"id": 154750,
+"name": "Akira",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b154750-mTYO7aACEOV4.jpg"
+},
+{
+"id": 154751,
+"name": "Shiki Tademaru",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b154751-2KiPCiI7G431.png"
+}
+]
+},
+{
+"id": "tanakakunisalwayslistles",
+"title": "Tanaka-kun is Always Listless",
+"jp": "田中くんはいつもけだるげ",
+"year": 2016,
+"score": 76,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 127310,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21495-HDkVTovzfNQA.jpg",
+"chars": [
+{
+"id": 89787,
+"name": "Tanaka",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n89787-HUnPrqSmRudq.png"
+},
+{
+"id": 89788,
+"name": "Oota",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n89788-drRBPXyYS9eq.png"
+},
+{
+"id": 89789,
+"name": "Miyano",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n89789-iFezyFkO54dD.png"
+}
+]
+},
+{
+"id": "gosick",
+"title": "Gosick",
+"jp": "GOSICK",
+"year": 2011,
+"score": 77,
+"genres": [
+"Drama",
+"Mystery",
+"Romance"
+],
+"pop": 126831,
+"studio": "bones",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8425-Lf6WLBHfOdRQ.jpg",
+"chars": [
+{
+"id": 20170,
+"name": "Victorique de Blois",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b20170-EjvXXZpGG98Y.png"
+},
+{
+"id": 22724,
+"name": "Kazuya Kujou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b22724-riCUdD0suWu3.jpg"
+},
+{
+"id": 40220,
+"name": "Cordelia Gallo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b40220-RdtLXke3AS0c.png"
+}
+]
+},
+{
+"id": "schoollive",
+"title": "SCHOOL-LIVE!",
+"jp": "がっこうぐらし!",
+"year": 2015,
+"score": 74,
+"genres": [
+"Horror",
+"Mystery",
+"Psychological"
+],
+"pop": 125922,
+"studio": "Lerche",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20754-Hwnbsm4uaVFD.jpg",
+"chars": [
+{
+"id": 88359,
+"name": "Kurumi Ebisuzawa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88359-OzPFOukNIRdj.jpg"
+},
+{
+"id": 88093,
+"name": "Yuki Takeya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b88093-skekAluBmLLa.jpg"
+},
+{
+"id": 89054,
+"name": "Miki Naoki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89054-q2NQTe28T9YW.jpg"
+}
+]
+},
+{
+"id": "howheavyarethedumbbellsy",
+"title": "How Heavy Are the Dumbbells You Lift?",
+"jp": "ダンベル何キロ持てる？",
+"year": 2019,
+"score": 71,
+"genres": [
+"Comedy",
+"Ecchi",
+"Slice of Life"
+],
+"pop": 125749,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107226-XD45KGeiZmNx.jpg",
+"chars": [
+{
+"id": 132856,
+"name": "Hibiki Sakura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132856-nLEuC5fQnVRK.png"
+},
+{
+"id": 132859,
+"name": "Naruzou Machio",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/n132859-I36qJrV7Teqc.jpg"
+},
+{
+"id": 132857,
+"name": "Akemi Souryuuin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132857-1fTfrnbXlVrg.png"
+}
+]
+},
+{
+"id": "chihayafuru",
+"title": "Chihayafuru",
+"jp": "ちはやふる",
+"year": 2011,
+"score": 80,
+"genres": [
+"Drama",
+"Romance",
+"Slice of Life"
+],
+"pop": 124330,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10800-hcHzj4rkDQzG.jpg",
+"chars": [
+{
+"id": 47163,
+"name": "Chihaya Ayase",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b47163-ANj57c8yDZso.png"
+},
+{
+"id": 47167,
+"name": "Taichi Mashima",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b47167-YVdJ5jYLKSbj.png"
+},
+{
+"id": 54963,
+"name": "Shinobu Wakamiya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b54963-GDcdo1GZ79YV.jpg"
+}
+]
+},
+{
+"id": "sciencefellinlovesoitrie",
+"title": "Science Fell in Love, So I Tried to Prove It",
+"jp": "理系が恋に落ちたので証明してみた。",
+"year": 2020,
+"score": 71,
+"genres": [
+"Comedy",
+"Romance"
+],
+"pop": 123798,
+"studio": "Zero-G",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107067-QWr4Ity7NZbx.jpg",
+"chars": [
+{
+"id": 141945,
+"name": "Ayame Himuro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b141945-tOxjXKTlfBTE.jpg"
+},
+{
+"id": 141949,
+"name": "Ena Ibarada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b141949-w1Rszg3M3wxv.png"
+},
+{
+"id": 141948,
+"name": "Shinya Yukimura",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b141948-221k2ROoa3ZH.png"
+}
+]
+},
+{
+"id": "ajindemihuman",
+"title": "AJIN: Demi-Human",
+"jp": "亜人",
+"year": 2016,
+"score": 71,
+"genres": [
+"Action",
+"Horror",
+"Mystery"
+],
+"pop": 123226,
+"studio": "POLYGON PICTURES",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21341-v415m6GrpeZY.jpg",
+"chars": [
+{
+"id": 89797,
+"name": "Satou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89797-7FYeQEmgLdcj.png"
+},
+{
+"id": 120726,
+"name": "Kei Nagai",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120726-lQIFUPMKBLb7.png"
+},
+{
+"id": 120727,
+"name": "Kaito",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b120727-1rTXxq2RlPCM.png"
+}
+]
+},
+{
+"id": "bakuman",
+"title": "Bakuman.",
+"jp": "バクマン。",
+"year": 2010,
+"score": 79,
+"genres": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"pop": 122913,
+"studio": "J.C.STAFF",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7674-MRQY8iwj5cEP.jpg",
+"chars": [
+{
+"id": 14545,
+"name": "Moritaka Mashiro",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14545-WjCGUsYLCEVn.png"
+},
+{
+"id": 14552,
+"name": "Akito Takagi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b14552-l5hN8i6wFfTl.png"
+},
+{
+"id": 16596,
+"name": "Eiji Niizuma",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b16596-F2ykCK1ruRws.png"
+}
+]
+},
+{
+"id": "claymore",
+"title": "Claymore",
+"jp": "CLAYMORE",
+"year": 2007,
+"score": 74,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 122497,
+"studio": "MADHOUSE",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1818-7Nt2HYxVIxtA.jpg",
+"chars": [
+{
+"id": 2188,
+"name": "Clare",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2188-yjGSCtaC06Yh.png"
+},
+{
+"id": 2208,
+"name": "Raki",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/2208.jpg"
+},
+{
+"id": 2398,
+"name": "Teresa",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b2398-6SjGbti0dhaE.jpg"
+}
+]
+},
+{
+"id": "campfirecookinginanother",
+"title": "Campfire Cooking in Another World with my Absurd Skill",
+"jp": "とんでもスキルで異世界放浪メシ",
+"year": 2023,
+"score": 75,
+"genres": [
+"Adventure",
+"Comedy",
+"Fantasy"
+],
+"pop": 122393,
+"studio": "MAPPA",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156067-Fy111KTt2uTr.jpg",
+"chars": [
+{
+"id": 157879,
+"name": "Sui",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157879-m91XQAfn39Dx.png"
+},
+{
+"id": 157882,
+"name": "Fel",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157882-gDh9ovbpFFuM.png"
+},
+{
+"id": 157881,
+"name": "Tsuyoshi  Mukouda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b157881-uLcY9D0sFskw.png"
+}
+]
+},
+{
+"id": "nierautomataver11a",
+"title": "NieR:Automata Ver1.1a",
+"jp": "NieR:Automata Ver1.1a",
+"year": 2023,
+"score": 73,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 122390,
+"studio": "A-1 Pictures",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145665-pbXoaav2n51N.jpg",
+"chars": [
+{
+"id": 132494,
+"name": "YoRHa 2-gou B-gata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b132494-R05zeZPjDG3l.jpg"
+},
+{
+"id": 133041,
+"name": "YoRHa 9-gou S-gata",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b133041-XkN8gKwPwopM.jpg"
+},
+{
+"id": 138298,
+"name": "YoRHa A-gata 2-gou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b138298-iGfSohqtJYsT.jpg"
+}
+]
+},
+{
+"id": "worldtrigger",
+"title": "World Trigger",
+"jp": "ワールドトリガー",
+"year": 2014,
+"score": 73,
+"genres": [
+"Action",
+"Sci-Fi"
+],
+"pop": 121854,
+"studio": "Toei Animation",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20729-yIc4suclOeOA.jpg",
+"chars": [
+{
+"id": 81239,
+"name": "Yuuma Kuga",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b81239-n1aMD2Jig1WP.png"
+},
+{
+"id": 89014,
+"name": "Yuuichi Jin",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89014-tHgKpnHQSnbV.png"
+},
+{
+"id": 81237,
+"name": "Osamu Mikumo",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/81237-pMalpmM5qBbR.jpg"
+}
+]
+},
+{
+"id": "newgame",
+"title": "NEW GAME!",
+"jp": "NEW GAME!",
+"year": 2016,
+"score": 74,
+"genres": [
+"Comedy",
+"Slice of Life"
+],
+"pop": 121755,
+"studio": "Doga Kobo",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21455-zxd4BFfVw6SZ.jpg",
+"chars": [
+{
+"id": 89644,
+"name": "Hifumi Takimoto",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89644-p8wdh7nlI17S.png"
+},
+{
+"id": 89641,
+"name": "Aoba Suzukaze",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89641-nVvsn6uqzt2z.png"
+},
+{
+"id": 89642,
+"name": "Kou Yagami",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b89642-NLyJWTmHPwMD.jpg"
+}
+]
+},
+{
+"id": "nonnonbiyori",
+"title": "Non Non Biyori",
+"jp": "のんのんびより",
+"year": 2013,
+"score": 78,
+"genres": [
+"Slice of Life"
+],
+"pop": 121263,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17549-J7bDkafpjQ0D.jpg",
+"chars": [
+{
+"id": 54151,
+"name": "Renge Miyauchi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b54151-V8Qh2l2gTxvH.jpg"
+},
+{
+"id": 54149,
+"name": "Komari Koshigaya",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b54149-JsepdZLKa9BP.jpg"
+},
+{
+"id": 54145,
+"name": "Hotaru Ichijou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b54145-x14HGjjIhdpi.jpg"
+}
+]
+},
+{
+"id": "worldendwhatareyoudoinga",
+"title": "WorldEnd: What are you doing at the end of the world? Are you busy? Will you save us?",
+"jp": "終末なにしてますか? 忙しいですか? 救ってもらっていいですか?",
+"year": 2017,
+"score": 75,
+"genres": [
+"Drama",
+"Fantasy",
+"Mystery"
+],
+"pop": 120817,
+"studio": "Satelight",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21860-oQ0YAYNOtGTU.jpg",
+"chars": [
+{
+"id": 121661,
+"name": "Chtholly Nota Seniorious",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b121661-ZMTXdRglB2fx.png"
+},
+{
+"id": 122768,
+"name": "Willem Kmetsch",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/122768-YNzTBE7wla0v.jpg"
+},
+{
+"id": 122770,
+"name": "Nephren Ruq Insania",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/122770-ORLxqwMYEah3.png"
+}
+]
+},
+{
+"id": "ascendanceofabookworm",
+"title": "Ascendance of a Bookworm",
+"jp": "本好きの下剋上 司書になるためには手段を選んでいられません",
+"year": 2019,
+"score": 78,
+"genres": [
+"Fantasy",
+"Slice of Life"
+],
+"pop": 120744,
+"studio": "Ajiado",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108268-JbUzGiUlmCTy.jpg",
+"chars": [
+{
+"id": 126156,
+"name": "Myne",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126156-YXVZECJdjc00.png"
+},
+{
+"id": 126529,
+"name": "Lutz",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126529-5BDbPIz2JbPE.jpg"
+},
+{
+"id": 126544,
+"name": "Ferdinand",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b126544-DQzlrgyV6eR8.jpg"
+}
+]
+},
+{
+"id": "reincarnatedasasword",
+"title": "Reincarnated as a Sword",
+"jp": "転生したら剣でした",
+"year": 2022,
+"score": 74,
+"genres": [
+"Action",
+"Adventure",
+"Fantasy"
+],
+"pop": 120073,
+"studio": "C2C",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139587-XFbotQOPcLC4.jpg",
+"chars": [
+{
+"id": 127603,
+"name": "Fran",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b127603-CixEdBk9ItUU.png"
+},
+{
+"id": 137864,
+"name": "Shishou",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b137864-p4UOJKVpNM4Z.png"
+},
+{
+"id": 284780,
+"name": "Amanda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b284780-hqipSU7Nwp7F.jpg"
+}
+]
+},
+{
+"id": "bakaandtestsummonthebeas",
+"title": "Baka and Test - Summon the Beasts",
+"jp": "バカとテストと召喚獣",
+"year": 2010,
+"score": 71,
+"genres": [
+"Comedy",
+"Romance"
+],
+"pop": 119868,
+"studio": "SILVER LINK.",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6347-ZDzk4GrlQdag.jpg",
+"chars": [
+{
+"id": 20181,
+"name": "Hideyoshi Kinoshita",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b20181-fevqFB7qOiK9.jpg"
+},
+{
+"id": 27362,
+"name": "Akihisa Yoshii",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b27362-kLtwXx5tKrAE.png"
+},
+{
+"id": 29563,
+"name": "Minami Shimada",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b29563-Xw9okgsUzmA6.png"
+}
+]
+},
+{
+"id": "lordofmysteries",
+"title": "Lord of Mysteries",
+"jp": "诡秘之主 小丑篇​",
+"year": 2025,
+"score": 85,
+"genres": [
+"Action",
+"Drama",
+"Fantasy"
+],
+"pop": 119009,
+"studio": "B.CMAY PICTURES",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137667-AhUoT3NFgbif.jpg",
+"chars": [
+{
+"id": 192557,
+"name": "Klein Moretti",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b192557-Wp2FI69LBV8z.png"
+},
+{
+"id": 277991,
+"name": "Leonard Mitchell",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b277991-XOxI29cL2yB7.png"
+},
+{
+"id": 277993,
+"name": "Audrey Hall",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b277993-Mmydgswx1vlV.png"
+}
+]
+},
+{
+"id": "dgrayman",
+"title": "D.Gray-man",
+"jp": "ディー・グレイマン",
+"year": 2006,
+"score": 76,
+"genres": [
+"Action",
+"Adventure",
+"Drama"
+],
+"pop": 118382,
+"studio": "TMS Entertainment",
+"banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1482-nmGoqdGfaKEt.jpg",
+"chars": [
+{
+"id": 139,
+"name": "Allen Walker",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b139-QnuZQbLodMF3.png"
+},
+{
+"id": 779,
+"name": "Lavi",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b779-kSxmhfuEP2UR.png"
+},
+{
+"id": 140,
+"name": "Yuu Kanda",
+"img": "https://s4.anilist.co/file/anilistcdn/character/large/b140-vbv18x2l0tDw.png"
+}
+]
+}
+]
