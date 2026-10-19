@@ -25,3 +25,7 @@ create policy "visitors delete their own" on public.reports for delete to authen
 grant usage on schema public to anon, authenticated;
 grant select on public.reports to anon, authenticated;
 grant insert, update, delete on public.reports to authenticated;
+
+-- Personal lists: watching / completed / planned / dropped (safe to run more than once).
+alter table public.reports add column if not exists status text
+  check (status is null or status in ('watching', 'completed', 'planned', 'dropped'));

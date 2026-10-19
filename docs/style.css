@@ -37,6 +37,23 @@ a{color:inherit}
 .mast.compact h1{font-size:32px}
 .back{font-family:var(--f-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid transparent}
 .back:hover{border-color:var(--pink)}
+.mast{position:relative}
+.mast .melink{position:absolute;top:18px;right:0}
+.mastnav{display:flex;gap:22px;align-items:center}
+.wl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.wl .label{margin-right:6px}
+.wl button{all:unset;cursor:pointer;padding:5px 10px;border:2px solid var(--ink);font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.wl button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.wl button[data-st="dropped"][aria-pressed="true"]{background:var(--pink);border-color:var(--pink);color:#fff}
+.wl button[data-st="completed"][aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.wl button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.prof h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,48px);margin:26px 0 4px}
+.prof .counts{display:flex;flex-wrap:wrap;gap:8px 26px;margin:14px 0 6px}
+.prof .counts>div{display:flex;flex-direction:column}
+.prof .counts b{font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1}
+.prof h3{font-family:var(--f-display);font-weight:400;font-size:22px;margin:30px 0 10px;display:flex;gap:10px;align-items:baseline}
+.prof h3 .label{font-size:12px}
+.prof .wall{border-top:2px solid var(--ink)}
 
 /* covers */
 .cover{position:relative;aspect-ratio:2/3;max-width:100%;overflow:hidden;background:var(--paper-2);border:2px solid var(--ink)}

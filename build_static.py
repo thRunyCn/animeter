@@ -117,6 +117,7 @@ urls = []
 home_desc = f"Rankings of {len(series)} anime with filler lists, arcs, key events, where people drop each show and which manga chapter to continue from after the anime."
 w("index.html", page("", "", "Animeter · Anime rankings, filler lists and where to continue the manga", home_desc, SITE))
 urls.append(SITE)
+w("profile/index.html", page("profile", "../", "My list · Animeter", "Your anime list on Animeter: watching, completed, plan to watch, dropped and your ratings.", SITE + "profile/").replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
 w("404.html", page("", "/" + SITE.split("/", 3)[3] if SITE.count("/") > 3 else "/", "Page not found · Animeter", home_desc, SITE))
 for s in series:
     for k, _ in TABS:

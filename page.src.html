@@ -43,6 +43,23 @@ a{color:inherit}
 .mast.compact h1{font-size:32px}
 .back{font-family:var(--f-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid transparent}
 .back:hover{border-color:var(--pink)}
+.mast{position:relative}
+.mast .melink{position:absolute;top:18px;right:0}
+.mastnav{display:flex;gap:22px;align-items:center}
+.wl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.wl .label{margin-right:6px}
+.wl button{all:unset;cursor:pointer;padding:5px 10px;border:2px solid var(--ink);font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.wl button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.wl button[data-st="dropped"][aria-pressed="true"]{background:var(--pink);border-color:var(--pink);color:#fff}
+.wl button[data-st="completed"][aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.wl button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.prof h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,48px);margin:26px 0 4px}
+.prof .counts{display:flex;flex-wrap:wrap;gap:8px 26px;margin:14px 0 6px}
+.prof .counts>div{display:flex;flex-direction:column}
+.prof .counts b{font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1}
+.prof h3{font-family:var(--f-display);font-weight:400;font-size:22px;margin:30px 0 10px;display:flex;gap:10px;align-items:baseline}
+.prof h3 .label{font-size:12px}
+.prof .wall{border-top:2px solid var(--ink)}
 
 /* covers */
 .cover{position:relative;aspect-ratio:2/3;max-width:100%;overflow:hidden;background:var(--paper-2);border:2px solid var(--ink)}
@@ -248,6 +265,8 @@ const DETAILS = STATIC ? window.ANIMETER.details : /*DETAILS*/{};
 const FETCHED = STATIC ? window.ANIMETER.fetched : /*FETCHED*/"";
 const ROOT = STATIC ? (document.body.dataset.root || "") : "";
 const homeHref = () => STATIC ? (ROOT || "./") : "#";
+const profileHref = () => STATIC ? `${ROOT}profile/` : "#profile";
+const STATUSES = [["watching","Watching"],["completed","Completed"],["planned","Plan to watch"],["dropped","Dropped"]];
 const seriesHref = (id, tab) => { const t = tab && tab!=="overview" ? tab : "";
   return STATIC ? `${ROOT}${id}/${t ? t+"/" : ""}` : `#${id}${t ? "."+t : ""}`; };
 const byId = Object.fromEntries(SERIES.map(s=>[s.id,s]));
@@ -273,6 +292,7 @@ const handoffShort = s => s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Or
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
 function route(){
   const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
+  if (h === "profile") return {id:null, profile:true};
   const [id, tab] = h.split(".");
   if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) ? tab : "overview"};
   return {id:null};
@@ -328,7 +348,7 @@ function renderHome(){
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     app.innerHTML = `
-      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1></header>
+      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a></header>
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -534,12 +554,13 @@ function renderSeries(id, tab){
   const rateRow = !writable ? "" : `<div class="rate" role="group" aria-label="Rate ${esc(s.title)} from 1 to 10"><span class="label">Your rating</span>
       ${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
+    + `<div class="wl" role="group" aria-label="Add ${esc(s.title)} to your list"><span class="label">My list</span>${STATUSES.map(([k,l])=>`<button type="button" data-st="${k}" aria-pressed="${mine.status===k}">${l}</button>`).join("")}</div><div class="note" id="wnote"></div>`
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
-    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back" href="${homeHref()}">← Rankings</a></header>
+    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
     <section class="sh">
       <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
@@ -558,6 +579,7 @@ function renderSeries(id, tab){
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
+  document.querySelectorAll(".wl button").forEach(b=>b.addEventListener("click", ()=>saveStatus(id, b.dataset.st===mine.status ? null : b.dataset.st)));
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
   document.getElementById("spoilAll")?.addEventListener("click", ()=>{ spoilers=!spoilers; renderSeries(id, tab); });
@@ -568,10 +590,10 @@ function renderSeries(id, tab){
 function render(){
   _site = null;
   const r = route();
-  document.title = r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
+  document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
   const tone = r.id && byId[r.id].tone;
   if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
-  if (r.id) renderSeries(r.id, r.tab); else renderHome();
+  if (r.profile) renderProfile(); else if (r.id) renderSeries(r.id, r.tab); else renderHome();
 }
 document.getElementById("fetched").textContent = FETCHED || "recently";
 
@@ -610,11 +632,44 @@ async function saveRating(id, v){
   }catch(err){ const n = document.getElementById("rnote"); if (n) n.textContent = explain(err); }
 }
 
+async function saveStatus(id, st){
+  const n0 = document.getElementById("wnote"); if (n0) n0.textContent = "Saving…";
+  try{
+    await writeEntry(id, {status: st});
+    const n = document.getElementById("wnote"); if (n) n.textContent = st ? `Added to ${STATUSES.find(x=>x[0]===st)[1]}.` : "Removed from your list.";
+  }catch(err){ const n = document.getElementById("wnote"); if (n) n.textContent = explain(err); }
+}
+
+/* ---------- profile: the viewer's own list ---------- */
+function renderProfile(){
+  const mine = (myId && reports[myId]) || {};
+  const ids = Object.keys(mine).filter(k=>byId[k]);
+  const by = st => ids.filter(k=>mine[k].status===st).map(k=>byId[k]);
+  const rated = ids.filter(k=>Number.isInteger(mine[k].rating)).sort((a,b)=>mine[b].rating-mine[a].rating || byId[a].title.localeCompare(byId[b].title)).map(k=>byId[k]);
+  const card = s => `<a class="card" href="${seriesHref(s.id)}">${coverHTML(s,"anime")}<span class="t">${esc(s.title)}</span>
+      <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(" · "))}</span><span>${Number.isInteger(mine[s.id].rating)?"★ "+mine[s.id].rating:""}</span></span></a>`;
+  const signedOut = STATIC ? !myId : dbState==="off";
+  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to keep a list. We email you a link, no password.</span>
+      <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
+  const body = signedOut ? (gate || `<div class="empty"><b>Lists aren't available in this view.</b>${STATIC ? "Voting and lists aren't switched on yet." : "Sign in to claude.ai to keep a list."}</div>`)
+    : dbState==="loading" && !ids.length ? `<div class="empty"><b>Loading your list…</b></div>`
+    : `<div class="counts">${STATUSES.map(([k,l])=>`<div><span class="label">${l}</span><b>${by(k).length}</b></div>`).join("")}<div><span class="label">Rated</span><b>${rated.length}</b></div></div>
+       ${STATIC ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : ""}
+       ${!ids.length ? `<div class="empty" style="margin-top:22px"><b>Your list is empty.</b>Open any series and pick Watching, Completed, Plan to watch or Dropped under its title.</div>` : ""}
+       ${STATUSES.map(([k,l])=>{ const xs = by(k); return xs.length ? `<h3>${l} <span class="label">${xs.length}</span></h3><div class="wall">${xs.map(card).join("")}</div>` : ""; }).join("")}
+       ${rated.length ? `<h3>Your ratings <span class="label">${rated.length}</span></h3><div class="wall">${rated.map(card).join("")}</div>` : ""}`;
+  document.getElementById("app").innerHTML = `
+    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back" href="${homeHref()}">← Rankings</a></header>
+    <section class="prof"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section>`;
+  document.getElementById("signin")?.addEventListener("submit", sendLink);
+  document.getElementById("signout")?.addEventListener("click", signOut);
+}
+
 /* ---------- boot ---------- */
 /* Standalone backend: Supabase over plain REST. Reads are public; voting needs an email sign-in
    (magic link), and row-level security lets each account change only its own rows. */
 const SB = (window.ANIMETER_CONFIG || {}), SB_KEY = "animeter.session";
-let sbSession = null, sbErr = null;
+let sbSession = null, sbErr = null, sbNoStatus = false;
 try { sbSession = JSON.parse(localStorage.getItem(SB_KEY) || "null"); } catch(_) {}
 if (STATIC && sbSession) myId = sbSession.user && sbSession.user.id;
 async function sbFetch(path, opts={}, token){
@@ -663,8 +718,10 @@ const sbIn = v => v==null ? null : /^\d+$/.test(v) ? Number(v) : v;
 async function sbLoad(){
   const next = {};
   for (let off=0;; off+=1000){
-    const rows = await sbFetch(`/rest/v1/reports?select=uid,series,clicked,stopped,rating&order=uid,series&limit=1000&offset=${off}`);
-    rows.forEach(r=>{ (next[r.uid] ||= {})[r.series] = {clicked:sbIn(r.clicked), stopped:sbIn(r.stopped), rating:r.rating}; });
+    let rows;
+    try{ rows = await sbFetch(`/rest/v1/reports?select=uid,series,clicked,stopped,rating${sbNoStatus?"":",status"}&order=uid,series&limit=1000&offset=${off}`); }
+    catch(e){ if (e.status!==400 || sbNoStatus) throw e; sbNoStatus = true; off -= 1000; continue; }   // table predates the status column
+    rows.forEach(r=>{ (next[r.uid] ||= {})[r.series] = {clicked:sbIn(r.clicked), stopped:sbIn(r.stopped), rating:r.rating, status:r.status}; });
     if (rows.length < 1000) break;
   }
   return next;
@@ -675,6 +732,7 @@ async function sbWrite(id, patch){
   if ("clicked" in patch) row.clicked = patch.clicked==null ? null : String(patch.clicked);
   if ("stopped" in patch) row.stopped = patch.stopped==null ? null : String(patch.stopped);
   if ("rating" in patch) row.rating = patch.rating;
+  if ("status" in patch) row.status = patch.status;
   await sbFetch("/rest/v1/reports?on_conflict=uid,series", {method:"POST", headers:{Prefer:"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify([row])}, token);
   reports[myId] = {...(reports[myId]||{}), [id]: {...((reports[myId]||{})[id]||{}), ...patch}};
   _site = null;
