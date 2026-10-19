@@ -1,0 +1,536 @@
+[
+ {
+  "id": "chitoseisintheramunebott",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The first cour (13 episodes) covers Volumes 1-3 of the light novel, so Volume 4 is where it picks up. The 2026 second cour has only just started and its range is not confirmed, so check which volume it ends on before jumping ahead.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-chitose-is-in-the-ramune-bottle-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "killblue",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "comicgirls",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 23 (Volume 4), so start at chapter 24 (Volume 5). The manga is finished at 115 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-comic-girls-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "spacebrothers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "knightsofsidonia",
+  "unit": "Chapter",
+  "next": "50",
+  "seasons": [
+   {
+    "l": "Battle for Planet Nine",
+    "end": 49
+   }
+  ],
+  "status": "continue",
+  "note": "Battle for Planet Nine wraps up around chapter 42 and then skips and rearranges chapters 43-49, so start at chapter 50. Readers who want the cut scenes can read from chapter 43. The manga is finished at 78 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-knights-of-sidonia-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "supercub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gareizero",
+  "unit": "Chapter",
+  "next": "4",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime is a prequel with its own story set before the manga's main events; one source says it leads into Volume 1, Chapter 4 of the Ga-Rei manga, whose first three chapters are an optional intro arc. Treat this as approximate.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-ga-rei-zero-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "agentsofthefourseasonsda",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Dance of Spring",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The Dance of Spring anime appears to cover Volumes 1 and 2 of the light novel, so Volume 3 (Dance of Summer, Part I) is the next to read. This mapping is inferred from the volume list rather than stated outright.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Agents_of_the_Four_Seasons"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "citytheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ushioandtoratv",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tamonsbside",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Episode 12 adapts chapters 23-24, but the finale's range was not confirmed, so the exact stopping point is unknown.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/tamons-b-side/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sketdance",
+  "unit": "Chapter",
+  "next": "183",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 182
+   }
+  ],
+  "status": "continue",
+  "note": "The 77-episode anime ends at chapter 182 (Volume 21), so start at chapter 183. The OVA adapts chapters 198-200, which the TV series skipped. The manga is finished at 288 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sket-dance-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thosesnowwhitenotes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bokurano",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jaadugarawitchinmongolia",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ravenoftheinnerpalace",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "helck",
+  "unit": "Chapter",
+  "next": "71",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 70
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 70, so start at chapter 71 (the first chapter of Volume 8). The anime has only minor cuts and no filler. The manga is finished at 117 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-helck-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "konohanakitan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "welcometojapanmself",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to the end of Volume 3 of the light novel, so start at Volume 4. The final episode has a slightly different, anime-original closing scene.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-welcome-to-japan-ms-elf-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blackcat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime diverges from the manga: it opens differently and reportedly reaches the manga's conclusion, then adds one more arc. No source gave an exact chapter.",
+  "src": [
+   [
+    "Black Cat Wiki",
+    "https://blackcat.fandom.com/wiki/Black_Cat_(Anime)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "doctorelisetheroyalladyw",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime compresses the story heavily, cuts the Crimean War section and changes the setting from Korea to Japan. No source stated the exact chapter where it stops.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://www.tvtropes.org/pmwiki/pmwiki.php/Manhwa/DoctorElise"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "overgeared",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hayatethecombatbutler",
+  "unit": "Chapter",
+  "next": "374",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 51
+   },
+   {
+    "l": "Season 2",
+    "end": 148
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers chapters 1-51 and Season 2 covers chapters 52-148 with some changes. 'Can't Take My Eyes Off You' is an original story and 'Cuties' draws on scattered chapters. The first material no season adapted starts at chapter 374 (Volume 35). The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-hayate-the-combat-butler-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "genshiken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themagicalgirlandtheevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime adds an original ending in episode 12, and the manga stops at chapter 20 with its main conflict unresolved. Because the anime reorders and mixes material, start the manga from chapter 1. The manga was cancelled after the author died in 2015.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-magical-girl-and-the-evil-lieutenant-used-to-be-archenemies-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "studentcouncilsdiscretio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mrvillainsdayoff",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetwelvekingdoms",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintceciliapastorlawren",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers roughly up to chapter 41, so start at chapter 42, but it reorders and skips several chapters (such as 8, 15 and 26-28), so reading from chapter 1 gives the full story. The end point is only approximate.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-saint-cecilia-and-pastor-lawrence-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "themasterfulcatisdepress",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime regroups chapters into themed episodes, so its end point is hard to pin down; one source puts it at about chapter 41, so start at chapter 42 or reread from chapter 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-doesthe-masterful-cat-is-depressed-again-today-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "deaddeaddemonsdedededede",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akanebanashi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "playitcoolguys",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "One source says the anime covers through chapter 24, so start at chapter 25, though reading from chapter 1 includes extras the anime skips. Treat the end point as approximate.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-play-it-cool-guys-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tomorrowsjoe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

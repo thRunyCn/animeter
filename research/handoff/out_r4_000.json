@@ -1,0 +1,561 @@
+[
+ {
+  "id": "thesaintsmagicpowerisomn",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sleepyprincessinthedemon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime covers only the early part of the manga, and no exact end chapter was found. The manga is still ongoing; one guide says the anime stops before a turning point around chapters 60-70.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-sleepy-princess-in-the-demon-castle-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "asareincarnatedaristocra",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "missionyozakurafamily",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source giving the exact chapter where the anime stops. The manga is finished at 259 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "arakawaunderthebridge",
+  "unit": "Chapter",
+  "next": "201",
+  "seasons": [],
+  "status": "continue",
+  "note": "Both anime seasons cover the manga up to about chapter 200, so start at chapter 201. The manga is finished at 410 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/arakawa-under-bridge-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mayiaskforonefinalthing",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 2, so start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-may-i-ask-for-one-final-thing-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theheroiclegendofarslan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends. One wiki says the anime ended at a much later point in the story than the manga had reached at the time.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pandorahearts",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 32, but episodes 23-25 are an anime-original ending that contradicts the manga. Start at chapter 33 (volume 9) to continue; reading from chapter 1 is recommended since the anime trims early material. The manga is finished at 107 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-pandora-hearts-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "oneweekfriends",
+  "unit": "Chapter",
+  "next": "19",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts roughly up to chapter 19 (start of volume 5), then diverges with a rearranged, anime-original ending. Start at chapter 19 or 20 to continue. The manga is finished at 41 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-one-week-friends-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "onimaiimnowyoursister",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime's final episode adapts up to chapter 18, and it skips chapters 19-21. One guide says to continue from chapter 22 (volume 3), but its chapter mapping is inconsistent.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-onimai-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "placetoplace",
+  "unit": "Chapter",
+  "next": "1",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime mainly adapts material from around chapter 28, but the guide suggests reading from chapter 1 because the anime skips many gags. The manga is ongoing at a slow pace.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-acchi-kocchi-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "flyingwitch",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through chapter 21, so start at chapter 22 (in the middle of volume 4). The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-flying-witch-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "akebissailoruniform",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 23, so start at chapter 24 (volume 4). The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-akebis-sailor-uniform-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hitoribocchinomarumaruse",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find where the anime stops. The manga ended in April 2021 at 101 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hiscoregirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source for how much of the manga the anime covers. The manga is finished at 70 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imthevillainesssoimtamin",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first three light novel volumes, so start at volume 4.",
+  "src": [
+   [
+    "Epicstream",
+    "https://epicstream.com/article/where-to-read-im-the-villainess-so-im-taming-the-final-boss-after-the-anime"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whyraelianaendedupatthed",
+  "unit": "Chapter",
+  "next": "51",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 50
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the end of chapter 50 of the manhwa/manga, so start at chapter 51. It is a faithful adaptation with minor trims. The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-reason-why-raeliana-ended-up-at-the-dukes-mansion-anime-end-in-the-manhwa/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "letthisgrievingsoulretir",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galscantbekindtootaku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "xxxholic",
+  "unit": "Chapter",
+  "next": "119",
+  "seasons": [
+   {
+    "l": "xxxHOLiC",
+    "end": 62
+   },
+   {
+    "l": "xxxHOLiC Kei",
+    "end": 118
+   }
+  ],
+  "status": "continue",
+  "note": "The TV anime does not follow the manga to its conclusion and ends with an open-ended, non-canon finale. Season 1 roughly reaches chapter 62 and Kei roughly reaches chapter 118, so continue at chapter 119 (volume 14); later OVAs adapt volumes 14-17. The manga is finished at 213 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-xxxholic-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thewitchandthebeast",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find where the anime ends. The manga has been on hiatus due to the author's health.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "silverspoon",
+  "unit": "Chapter",
+  "next": "76",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 75
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at chapter 75 (volume 9), so start at chapter 76. The manga is finished at 131 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-silver-spoon-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mottotoloveru",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime follows the sequel manga To Love Ru Darkness; start that manga at chapter 48 (volume 12), skipping chapters already covered by Darkness 2 and its OVAs. Chapters of bangaihen 7-8 were skipped and can be read afterward.",
+  "src": [
+   [
+    "Reddit r/ToLoveRu",
+    "https://reddit.sudovanilla.org/r/ToLoveRu"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theworldisstillbeautiful",
+  "unit": "Chapter",
+  "next": "20",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 19
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through chapter 19, so start at chapter 20 (volume 4). The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-world-is-still-beautiful-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "istheorderarabbit",
+  "unit": "Chapter",
+  "next": "3",
+  "seasons": [],
+  "status": "continue",
+  "note": "BLOOM ends at volume 7, chapter 2, so start at volume 7, chapter 3 (a new arc). Season 1 covers volumes 1-2 and Season 2 covers volumes 3-4. The manga is ongoing. (Chapter numbering is within volume 7.)",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-is-the-order-a-rabbit-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "darkgathering",
+  "unit": "Chapter",
+  "next": "36",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 35, per a season roundup, so start at chapter 36. The manga is ongoing.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/which-manga-chapter-did-your-favorite-2023-fall-anime-end-with/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "25dimensionalseduction",
+  "unit": "Chapter",
+  "next": "71",
+  "seasons": [],
+  "status": "continue",
+  "note": "A season roundup gives chapter 71 as the manga continuation point, though anime and manga may not align perfectly. The manga is finished at 241 chapters.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/fall-2024-anime-where-to-continue-with-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iminlovewiththevillaines",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating how much of the light novel the anime covers. The light novel is finished at 5 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hisandhercircumstances",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's faithful adaptation ends around chapter 34 (middle of volume 8), so start there. The finale is mostly recap footage. The manga is finished at 108 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-his-and-her-circumstances-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "popteamepic",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Pop Team Epic is a gag series and we could not find a source mapping the anime to manga chapters. The manga ended in 2019.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aceofthediamond",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find where the latest season stops. The Act II manga ended in October 2022.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kotarolivesalone",
+  "unit": "Chapter",
+  "next": "61",
+  "seasons": [],
+  "status": "continue",
+  "note": "One guide says the anime ends by adapting chapter 85 but skipped chapters 61-84, so start at chapter 61 to catch the skipped material (this guide's numbers are not fully consistent). The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kotaro-lives-alone-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thedemongirlnextdoor",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mybrideisamermaid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kumakumakumabear",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsurune",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shamanking",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "joshiraku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "schoolrumble",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "airgear",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

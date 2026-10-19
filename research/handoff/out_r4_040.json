@@ -1,0 +1,644 @@
+[
+ {
+  "id": "thecafterraceanditsgodde",
+  "unit": "Chapter",
+  "next": "90",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 89
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 adapts the manga up to chapter 89, so new material starts at chapter 90 (the guide suggests starting at 86 for extra setup). The manga is finished at 217 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-cafe-terrace-and-its-goddesses-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nodamecantabile",
+  "unit": "Volume",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 9
+   },
+   {
+    "l": "Paris-hen",
+    "end": 16
+   },
+   {
+    "l": "Finale",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "The anime finishes at Chapter 136, the end of Volume 23. Volumes 24-25 (the Encore Opera Chapter sequel) were never animated.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-nodame-cantabile-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tonarinosekikunthemaster",
+  "unit": "Chapter",
+  "next": "51",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime ends around chapter 50 (it adapts chapters out of order), so start at chapter 51 in Volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-neighbor-seki-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thelegendofthelegendaryh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volumes the anime adapts. The original novel has 11 volumes, followed by a sequel series.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Legend_of_the_Legendary_Heroes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "honeyandclover",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found mapping the anime to manga chapters. The manga has 10 volumes and finished in 2006 around when season 2 aired.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Honey_and_Clover"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ronkamonohashisforbidden",
+  "unit": "Chapter",
+  "next": "69",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 34
+   },
+   {
+    "l": "Season 2",
+    "end": 68
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers chapters 1-34 and Season 2 covers chapters 35-68, so start at chapter 69. The manga is finished at 170 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ron-kamonohashis-forbidden-deductions-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "irinathevampirecosmonaut",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends exactly at the end of light novel Volume 2, so continue with Volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-irina-the-vampire-cosmonaut-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iwanttoloveyoutillyourdy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myroommateisacat",
+  "unit": "Chapter",
+  "next": "16",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts through Volume 5; the final two episodes are anime-original. Start at chapter 16 (first chapter of Volume 6 in the Yen Press numbering); the source's numbering was somewhat inconsistent, so check the opening of Volume 6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-roommate-is-a-cat-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "humanityhasdeclined",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts material from the first six volumes out of order, with the last episodes covering a prequel story. Start at Volume 7, which holds the series' conclusion; the source was somewhat inconsistent about Volumes 5-6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-humanity-has-declined-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "themostnotorioustalkerru",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the close of light novel Volume 2, so start with Volume 3 (manga readers pick up at Volume 8, chapter 38).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-most-notorious-talker-runs-the-worlds-greatest-clan-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tsugumomo",
+  "unit": "Chapter",
+  "next": "71",
+  "seasons": [],
+  "status": "continue",
+  "note": "Season 2 ends partway through chapter 71, so start from the beginning of chapter 71 (Volume 18) to avoid missing setup.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/tsugumomo-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "senryugirl",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 41 and skips over 20 chapters, so start at chapter 42 (Volume 4), or read from chapter 1 to catch the skipped material.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-senryuu-girl-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hellmodethehardcoregamer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where seasons 1 and 2 end in the light novel.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hell_Mode"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theresnofreakingwayillbe",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The first season ends at the end of light novel Volume 3, so start at Volume 4. The source does not cover the later Next Shine episodes, so check where those leave off.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-theres-no-freaking-way-ill-be-your-lover-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hitorinoshitatheoutcast",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found mapping the seasons to comic chapters; the comic is still ongoing.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Under_One_Person"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ariatheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found with the chapter mapping. The manga ended in 2008, around the time the third season (Origination) aired.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://awww.animenewsnetwork.com/news/2007-12-26/aria-manga-to-end-in-60th-installment-in-japan-in-2008"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "illbecomeavillainesswhog",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The first season covers all of Volume 1 of the light novel, so start with Volume 2. The manga has caught up with the anime.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ill-become-a-villainess-who-goes-down-in-history-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ranma",
+  "unit": "Chapter",
+  "next": "230",
+  "seasons": [
+   {
+    "l": "TV anime",
+    "end": 229
+   }
+  ],
+  "status": "continue",
+  "note": "The 1989 TV anime adapts up to about chapter 229, so start at chapter 230. The manga is finished at about 406 chapters; the OVAs cover some later chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=298"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sugarapplefairytale",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at the end of Volume 6 (it adapts Volumes 4-6), so start at Volume 7, a new arc.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-sugar-apple-fairy-tale-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "servantxservice",
+  "unit": "Chapter",
+  "next": "76",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 75
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 75 (Volume 3) with some anime-original material in the finale. Start at chapter 76, the beginning of Volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-servant-x-service-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dealingwithmikadonosiste",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "taishootomefairytale",
+  "unit": "Chapter",
+  "next": "23",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 20
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 20 and covers only about half the plot, skipping or condensing the post-earthquake search. The source recommends starting at chapter 23; the story ends at chapter 38.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-taisho-otome-fairy-tale-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kenganashuraparti",
+  "unit": "Chapter",
+  "next": "182",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 136
+   },
+   {
+    "l": "Season 2",
+    "end": 181
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode covers chapters 173-181, so start at chapter 182 (Volume 22). The source's overview was inconsistent about the range, so verify if possible. The manga is finished at 260 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2024/01/kengan-ashura.html"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tuneintothemidnightheart",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "journalwithwitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends; the manga is finished at 59 chapters (11 volumes).",
+  "src": [
+   [
+    "AnimeClick",
+    "https://www.animeclick.it/news/103310-ikoku-nikki-journal-with-witch-annunciato-lanime"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "goodluckgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found mapping the anime to chapters. The 13-episode anime finished before the manga ended (16 volumes).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Good_Luck_Girl!"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "heavensmemopad",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at light novel Volume 4, so continue with Volume 5, which starts a new set of cases.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-heavens-memo-pad-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yowamushipedal",
+  "unit": "Chapter",
+  "next": "659",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 73
+   },
+   {
+    "l": "Grande Road",
+    "end": 181
+   },
+   {
+    "l": "New Generation",
+    "end": 266
+   },
+   {
+    "l": "Glory Line",
+    "end": 471
+   },
+   {
+    "l": "Limit Break",
+    "end": 658
+   }
+  ],
+  "status": "continue",
+  "note": "Limit Break ends at chapter 658 (the end of the second Interhigh), so start at chapter 659. Note an English translation gap from roughly chapter 472 to 604.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-yowamushi-pedal-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lovelab",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kakuriyobedbreakfastfors",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kenichithemightiestdisci",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "awildlastbossappeared",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "squidgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nurariseoftheyokaiclan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandpaandgrandmaturnyou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kinmoza",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lookism",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sanda",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime ends (research limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thoughiamanineptvillaine",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating which volumes the anime adapts. The light novel is entering its final arc with Volume 13.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/though-i-am-an-inept-villainess-light-novel-enters-its-final-arc/"
+   ]
+  ],
+  "confidence": "low"
+ }
+]
