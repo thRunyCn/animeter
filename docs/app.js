@@ -341,6 +341,8 @@ async function writeEntry(id, patch){
 }
 function explain(err){
   if (err && err.code==="signed_out") return "You were signed out. Sign in again to save.";
+  if (STATIC && err && err.status) return `Couldn't save (error ${err.status}${err.detail ? ": "+err.detail : ""}).`;
+  if (STATIC && err) return "Couldn't reach the report server. Check your connection and try again.";
   if (err && err.code==="invalid_argument"){ canWrite = false; return "Your access lets you read reports but not add them."; }
   if (err && err.code==="quota_exceeded") return "The report store is full, so this couldn't be saved.";
   return "Couldn't save just now. Try again in a moment.";
@@ -373,7 +375,8 @@ try { sbSession = JSON.parse(localStorage.getItem(SB_KEY) || "null"); } catch(_)
 if (STATIC && sbSession) myId = sbSession.user && sbSession.user.id;
 async function sbFetch(path, opts={}, token){
   const r = await fetch(SB.supabaseUrl + path, {...opts, headers:{apikey:SB.supabaseKey, Authorization:"Bearer "+(token||SB.supabaseKey), "Content-Type":"application/json", ...(opts.headers||{})}});
-  if (!r.ok) throw Object.assign(new Error("supabase "+r.status), {status:r.status});
+  if (!r.ok){ let detail = ""; try{ const b = await r.json(); detail = b.message || b.msg || b.error_description || b.error || ""; }catch(_){}
+    throw Object.assign(new Error("supabase "+r.status+" "+detail), {status:r.status, detail}); }
   const t = await r.text(); return t ? JSON.parse(t) : null;
 }
 function sbKeep(sess){ if (!sess.user && sess.access_token){ const c = jwtClaims(sess.access_token); sess.user = {id:c.sub, email:c.email}; }

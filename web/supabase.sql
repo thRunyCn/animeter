@@ -20,3 +20,8 @@ create policy "reports readable by everyone" on public.reports for select using 
 create policy "visitors insert their own" on public.reports for insert to authenticated with check (auth.uid() = uid);
 create policy "visitors update their own" on public.reports for update to authenticated using (auth.uid() = uid) with check (auth.uid() = uid);
 create policy "visitors delete their own" on public.reports for delete to authenticated using (auth.uid() = uid);
+
+-- Make sure the Data API roles can use the table (safe to run more than once).
+grant usage on schema public to anon, authenticated;
+grant select on public.reports to anon, authenticated;
+grant insert, update, delete on public.reports to authenticated;
