@@ -30,7 +30,7 @@ function coverHTML(s, kind, tag, extra=""){
 }
 const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
 const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga";
-const handoffShort = s => s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
+const handoffShort = s => s.format==="MOVIE" && s.unchecked ? "Film" : s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
 function route(){
@@ -335,9 +335,9 @@ function renderSeries(id, tab){
   const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
   const counts = {seasons: s.run?.length > 1 ? s.run.length : null, arcs: d?.arcs?.length, events: (d?.arcs||[]).reduce((t,a)=>t+(a.events?.length||0),0), filler: d?.filler ? epKinds(d).total && Object.values(epKinds(d).kinds).filter(k=>k==="f").length : null};
   const rateRow = !writable ? "" : `<div class="rate" role="group" aria-label="Rate ${esc(s.title)} from 1 to 10"><span class="label">Your rating</span>
-      ${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}
+<span class="strip">${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" aria-label="${i+1} out of 10" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}</span>
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
-    + `<div class="wl" role="group" aria-label="Add ${esc(s.title)} to your list"><span class="label">My list</span>${STATUSES.map(([k,l])=>`<button type="button" data-st="${k}" aria-pressed="${mine.status===k}">${l}</button>`).join("")}</div><div class="note" id="wnote"></div>`
+    + `<details class="wl"><summary class="${mine.status ? "on "+mine.status : ""}">${mine.status ? "✓ "+esc(STATUSES.find(([k])=>k===mine.status)[1]) : "+ Add to list"}</summary><div class="menu" role="group" aria-label="Add ${esc(s.title)} to your list">${STATUSES.map(([k,l])=>`<button type="button" data-st="${k}" aria-pressed="${mine.status===k}">${l}</button>`).join("")}${mine.status ? `<button type="button" class="rm" data-st="${mine.status}">Remove from list</button>` : ""}</div></details><div class="note" id="wnote"></div>`
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
@@ -361,6 +361,7 @@ function renderSeries(id, tab){
     <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
+  if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
   document.querySelectorAll(".wl button").forEach(b=>b.addEventListener("click", ()=>saveStatus(id, b.dataset.st===mine.status ? null : b.dataset.st)));
   document.getElementById("signin")?.addEventListener("submit", sendLink);
