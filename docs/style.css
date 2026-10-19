@@ -190,6 +190,17 @@ select,input[type=search]{font:inherit;font-size:15px;padding:9px 10px;border:2p
 .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .controls input[type=search]{width:200px;padding:7px 10px;font-size:14px}
 .seg{display:inline-flex;border:2px solid var(--ink)}
+.sortby{display:inline-flex;align-items:center;gap:8px}
+.sortby select{font:inherit;font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:6px 8px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:0;cursor:pointer}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px}
+.tags button{all:unset;cursor:pointer;padding:4px 9px;border:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;color:var(--ink-soft);display:inline-flex;gap:6px;align-items:center}
+.tags button .n{opacity:.55;font-size:10px}
+.tags button:hover{border-color:var(--ink);color:var(--ink)}
+.tags button[aria-pressed="true"]{background:var(--pink);border-color:var(--pink);color:#fff}
+.tags button[aria-pressed="true"] .n{opacity:.8}
+.tags button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.tags .clr{border:none;text-decoration:underline}
+@media (max-width:600px){.tags{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.tags::-webkit-scrollbar{display:none}.tags button{flex:none}}
 .seg button{all:unset;cursor:pointer;padding:6px 10px;font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .seg button:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}

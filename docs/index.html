@@ -28,17 +28,14 @@
           <h2>Rankings</h2>
           <div class="controls">
             <input type="search" id="q" placeholder="Find a series" aria-label="Find a series" value="">
-            <div class="seg" role="group" aria-label="Rank by">
-              <button type="button" data-sort="anilist" aria-pressed="true">AniList</button>
-              <button type="button" data-sort="site" aria-pressed="false">Animeter</button>
-              <button type="button" data-sort="popular" aria-pressed="false">Popular</button>
-            </div>
+            <label class="sortby"><span class="label">Sort</span><select id="sort"><option value="anilist" selected="">AniList score</option><option value="site">Animeter score</option><option value="popular">Popularity</option><option value="new">Newest</option><option value="old">Oldest</option><option value="az">A to Z</option></select></label>
             <div class="seg" role="group" aria-label="View">
               <button type="button" data-view="list" aria-pressed="true">List</button>
               <button type="button" data-view="wall" aria-pressed="false">Covers</button>
             </div>
           </div>
         </div>
+        <div class="tags" id="tags" role="group" aria-label="Filter by tag"><button type="button" data-tag="Comedy" aria-pressed="false">Comedy<span class="n">475</span></button><button type="button" data-tag="Drama" aria-pressed="false">Drama<span class="n">440</span></button><button type="button" data-tag="Action" aria-pressed="false">Action<span class="n">340</span></button><button type="button" data-tag="Romance" aria-pressed="false">Romance<span class="n">262</span></button><button type="button" data-tag="Slice of Life" aria-pressed="false">Slice of Life<span class="n">238</span></button><button type="button" data-tag="Fantasy" aria-pressed="false">Fantasy<span class="n">220</span></button><button type="button" data-tag="Adventure" aria-pressed="false">Adventure<span class="n">214</span></button><button type="button" data-tag="Film" aria-pressed="false">Film<span class="n">100</span></button><button type="button" data-tag="Mystery" aria-pressed="false">Mystery<span class="n">98</span></button><button type="button" data-tag="Sci-Fi" aria-pressed="false">Sci-Fi<span class="n">78</span></button><button type="button" data-tag="Supernatural" aria-pressed="false">Supernatural<span class="n">72</span></button><button type="button" data-tag="Psychological" aria-pressed="false">Psychological<span class="n">72</span></button><button type="button" data-tag="Music" aria-pressed="false">Music<span class="n">48</span></button><button type="button" data-tag="Sports" aria-pressed="false">Sports<span class="n">44</span></button><button type="button" data-tag="Ecchi" aria-pressed="false">Ecchi<span class="n">41</span></button><button type="button" data-tag="Horror" aria-pressed="false">Horror<span class="n">34</span></button><button type="button" data-tag="Mecha" aria-pressed="false">Mecha<span class="n">26</span></button><button type="button" data-tag="Mahou Shoujo" aria-pressed="false">Mahou Shoujo<span class="n">7</span></button><button type="button" data-tag="Thriller" aria-pressed="false">Thriller<span class="n">7</span></button><button type="button" class="clr" id="clrtags" hidden="">Clear tags</button></div>
         <p class="rk-basis" id="basis">Ordered by AniList's average user score.</p>
         <div id="rk"><div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">
       <a class="row" href="frieren/">

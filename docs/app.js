@@ -14,6 +14,8 @@ const byId = Object.fromEntries(SERIES.map(s=>[s.id,s]));
 const M_MIN = 5, PER_PAGE = 25;
 const TABS = [["overview","Overview"],["seasons","Seasons"],["arcs","Arcs"],["events","Key events"],["filler","Filler"],["manga","Manga"]];
 let sortBy = "anilist", view = "list", query = "", page = 1, spoilers = false;
+const tags = new Set();                     // selected genre tags; a series must have all of them
+const SORTS = [["anilist","AniList score"],["site","Animeter score"],["popular","Popularity"],["new","Newest"],["old","Oldest"],["az","A to Z"]];
 let reports = {}, myId = null, db = null, canWrite = true, dbState = "loading";
 try { const v = localStorage.getItem("view"); if (v==="list"||v==="wall") view = v; } catch(_) {}
 
@@ -77,14 +79,24 @@ function siteScores(){
 }
 
 /* ---------- rankings (home) ---------- */
+function allTags(){
+  const n = {};
+  SERIES.forEach(s=>{ (s.genres||[]).forEach(g=>n[g]=(n[g]||0)+1); if (s.format==="MOVIE") n.Film=(n.Film||0)+1; });
+  return Object.entries(n).filter(([,c])=>c>=5).sort((a,b)=>b[1]-a[1]);
+}
 function ranked(){
   const site = siteScores();
   const items = SERIES.map(s=>({s, site:site[s.id]}));
-  const key = {anilist: x => x.s.score ?? -1, site: x => x.site.wr ?? -1, popular: x => x.s.popularity ?? -1}[sortBy];
-  items.sort((a,b)=> key(b)-key(a) || (b.s.score??0)-(a.s.score??0) || a.s.title.localeCompare(b.s.title));
-  items.forEach((x,i)=>x.rank=i+1);
+  const key = {anilist: x => x.s.score ?? -1, site: x => x.site.wr ?? -1, popular: x => x.s.popularity ?? -1,
+    new: x => x.s.year ?? -1, old: x => -(x.s.year ?? 9999), az: () => 0}[sortBy];
+  items.sort((a,b)=> key(b)-key(a) || (sortBy==="az" ? 0 : (b.s.score??0)-(a.s.score??0)) || a.s.title.localeCompare(b.s.title));
   const q = query.trim().toLowerCase();
-  return q ? items.filter(x=>x.s.title.toLowerCase().includes(q) || (x.s.jp||"").includes(q)) : items;
+  if (!q && !tags.size){ items.forEach((x,i)=>x.rank=i+1); return items; }
+  const all = items; all.forEach((x,i)=>x.rank=i+1);
+  const out = all.filter(x=>(!q || x.s.title.toLowerCase().includes(q) || (x.s.jp||"").includes(q))
+    && [...tags].every(t => t==="Film" ? x.s.format==="MOVIE" : (x.s.genres||[]).includes(t)));
+  if (tags.size) out.forEach((x,i)=>x.rank=i+1);   // a search keeps overall rank; a tag filter ranks within the tag
+  return out;
 }
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
@@ -98,23 +110,25 @@ function renderHome(){
           <h2>Rankings</h2>
           <div class="controls">
             <input type="search" id="q" placeholder="Find a series" aria-label="Find a series" value="${esc(query)}">
-            <div class="seg" role="group" aria-label="Rank by">
-              <button type="button" data-sort="anilist">AniList</button>
-              <button type="button" data-sort="site">Animeter</button>
-              <button type="button" data-sort="popular">Popular</button>
-            </div>
+            <label class="sortby"><span class="label">Sort</span><select id="sort">${SORTS.map(([k,l])=>`<option value="${k}" ${k===sortBy?"selected":""}>${l}</option>`).join("")}</select></label>
             <div class="seg" role="group" aria-label="View">
               <button type="button" data-view="list">List</button>
               <button type="button" data-view="wall">Covers</button>
             </div>
           </div>
         </div>
+        <div class="tags" id="tags" role="group" aria-label="Filter by tag">${allTags().map(([t,n])=>`<button type="button" data-tag="${esc(t)}" aria-pressed="false">${esc(t)}<span class="n">${n}</span></button>`).join("")}<button type="button" class="clr" id="clrtags" hidden>Clear tags</button></div>
         <p class="rk-basis" id="basis"></p>
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
       </section>`;
     document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
-    app.querySelectorAll("[data-sort]").forEach(b=>b.addEventListener("click", ()=>{ sortBy=b.dataset.sort; page=1; renderRankings(); }));
+    document.getElementById("sort").addEventListener("change", e=>{ sortBy=e.target.value; page=1; renderRankings(); });
+    document.getElementById("tags").addEventListener("click", e=>{
+      const b = e.target.closest("button"); if (!b) return;
+      if (b.id==="clrtags") tags.clear(); else tags.has(b.dataset.tag) ? tags.delete(b.dataset.tag) : tags.add(b.dataset.tag);
+      page=1; renderRankings();
+    });
     app.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click", ()=>{ view=b.dataset.view; try{localStorage.setItem("view",view)}catch(_){}; renderRankings(); }));
     document.getElementById("pager").addEventListener("click", e=>{
       const b = e.target.closest("button[data-page]"); if (!b || b.disabled) return;
@@ -134,11 +148,17 @@ function renderRankings(){
     anilist: "Ordered by AniList's average user score.",
     site: anyVotes ? `Ordered by Animeter ratings from visitors, weighted so a series needs about ${M_MIN} votes before it can top the list (the IMDb method). Unrated series sit at the bottom.` : "No Animeter ratings yet. Open a series and rate it 1 to 10 to start this list.",
     popular: "Ordered by how many AniList users have the series on their list.",
-  }[sortBy];
+    new: "Newest first, by the year the anime started.",
+    old: "Oldest first, by the year the anime started.",
+    az: "In alphabetical order.",
+  }[sortBy] + (tags.size ? ` Showing ${all.length} tagged ${[...tags].join(" + ")}.` : "");
+  document.querySelectorAll("[data-tag]").forEach(b=>b.setAttribute("aria-pressed", tags.has(b.dataset.tag)));
+  const ct = document.getElementById("clrtags"); if (ct) ct.hidden = !tags.size;
+  const so = document.getElementById("sort"); if (so) so.value = sortBy;
   document.querySelectorAll("[data-sort]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.sort===sortBy));
   document.querySelectorAll("[data-view]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.view===view));
   const box = document.getElementById("rk");
-  if (!items.length){ box.innerHTML = `<div class="none">No series matches "${esc(query)}".</div>`; document.getElementById("pager").innerHTML=""; return; }
+  if (!items.length){ box.innerHTML = `<div class="none">No series matches ${query.trim() ? `"${esc(query)}"` : ""}${query.trim() && tags.size ? " with " : ""}${tags.size ? "all of these tags" : ""}.</div>`; document.getElementById("pager").innerHTML=""; return; }
   const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
   if (view==="list"){
     box.innerHTML = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
