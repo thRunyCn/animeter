@@ -451,7 +451,7 @@ function paneOverview(s){
   const epOpts = sel => Array.from({length:s.eps},(_,i)=>`<option value="${i+1}" ${sel===i+1?"selected":""}>Episode ${i+1}</option>`).join("");
   const dmKey = `<div class="key"><span><i class="sw" style="background:var(--blue)"></i>It clicked for me here</span><span><i class="sw" style="background:var(--pink)"></i>I stopped watching here</span></div>`;
   const body = dbState==="loading" ? `<div class="empty"><b>Loading reports…</b>Checking what other people said about this one.</div>`
-    : dbState==="off" ? `<div class="empty"><b>Reports aren't available in this view.</b>${STATIC ? "Voting isn't switched on yet. Check back soon." : "Sign in to claude.ai to see and add drop-map reports."}</div>`
+    : dbState==="off" ? `<div class="empty"><b>Reports aren't available in this view.</b>${STATIC ? (!SB.supabaseUrl ? "Voting isn't switched on yet. Check back soon." : sbErr===404 ? "Couldn't load reports: the reports table wasn't found (error 404)." : sbErr ? `Couldn't load reports (error ${sbErr}). Try again in a moment.` : "Couldn't reach the report server. Try again in a moment.") : "Sign in to claude.ai to see and add drop-map reports."}</div>`
     : st.n===0 ? `<div class="empty"><b>No reports yet.</b>Be the first: pick the episode where ${esc(s.title)} clicked for you, or where you gave up, and save.</div>`
     : `${dmKey}<div class="dm-stats">
         <div><span class="label">Reports</span><b class="mono">${st.n}</b></div>
@@ -461,8 +461,8 @@ function paneOverview(s){
       </div><div class="chart">${chartSVG(s, st)}</div>`;
   const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report about ${s.epsLabel==="Season 1" ? "the first season" : "the "+s.epsLabel.toLowerCase()}.`)
     : [st.median && `Half of the people who say it clicked felt it by episode ${st.median}.`, st.peak && `The most common place to stop is episode ${st.peak}.`].filter(Boolean).join(" ");
-  const writable = dbState==="on" && canWrite && (!STATIC || !!myId);
-  const form = !writable ? (dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
+  const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
+  const form = !writable ? (STATIC && SB.supabaseUrl && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
     <form class="vote" id="vote">
       <label for="clicked">It clicked for me at
         <select id="clicked"><option value="">Choose…</option><option value="never" ${mine.clicked==="never"?"selected":""}>It never clicked</option>${epOpts(mine.clicked)}</select></label>
@@ -527,13 +527,13 @@ function paneManga(s){
 function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
   const mine = (myId && reports[myId] && reports[myId][id]) || {};
-  const writable = dbState==="on" && canWrite && (!STATIC || !!myId);
+  const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
   const counts = {arcs: d?.arcs?.length, events: (d?.arcs||[]).reduce((t,a)=>t+(a.events?.length||0),0), filler: d?.filler ? epKinds(d).total && Object.values(epKinds(d).kinds).filter(k=>k==="f").length : null};
   const rateRow = !writable ? "" : `<div class="rate" role="group" aria-label="Rate ${esc(s.title)} from 1 to 10"><span class="label">Your rating</span>
       ${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
-  const gate = STATIC && dbState==="on" && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
+  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
@@ -610,7 +610,7 @@ async function saveRating(id, v){
 /* Standalone backend: Supabase over plain REST. Reads are public; voting needs an email sign-in
    (magic link), and row-level security lets each account change only its own rows. */
 const SB = (window.ANIMETER_CONFIG || {}), SB_KEY = "animeter.session";
-let sbSession = null;
+let sbSession = null, sbErr = null;
 try { sbSession = JSON.parse(localStorage.getItem(SB_KEY) || "null"); } catch(_) {}
 if (STATIC && sbSession) myId = sbSession.user && sbSession.user.id;
 async function sbFetch(path, opts={}, token){
@@ -680,7 +680,7 @@ async function bootStatic(){
   if (new URLSearchParams(location.search).has("prerender")) return;   // build-time snapshot: leave "loading"
   if (!SB.supabaseUrl || !SB.supabaseKey){ dbState = "off"; render(); return; }
   const linkErr = sbFromLink();
-  try{ reports = await sbLoad(); dbState = "on"; }catch(_){ dbState = "off"; }
+  try{ reports = await sbLoad(); dbState = "on"; }catch(e){ dbState = "off"; sbErr = e.status || 0; console.error("Animeter: loading reports failed", e); }
   const a = document.activeElement && document.activeElement.id;
   if (a==="q"){ _site = null; renderRankings(); return; }
   render();
