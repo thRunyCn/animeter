@@ -108,7 +108,7 @@ function renderHome(){
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     app.innerHTML = `
-      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a><p class="lede">Where people drop each anime, where it finally clicks, and which chapter to read once the anime runs out.</p>${celsHTML()}</header>
+      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a>${celsHTML()}</header>
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -169,7 +169,7 @@ function renderRankings(){
       <a class="row" href="${seriesHref(s.id)}" style="--rt:${s.tone||'transparent'}">
         <span class="rank">${rank}</span>
         ${coverHTML(s,"anime")}
-        <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(", ")}</span></span>
+        <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · ")}</span></span>
         <span class="sc gold"><b>${s.score?fmt10(s.score/10):"—"}</b></span>
         <span class="sc site"><b>${site.votes?fmt10(site.avg):"—"}</b><small>${site.votes} vote${site.votes===1?"":"s"}</small></span>
         <span class="ch">${chip(s)}</span>
@@ -210,7 +210,7 @@ function paneSeasons(s){
     <p class="sub">In airing order. Episode numbers on this site count straight through every season, so season 2 starts at episode ${run[1]?.from ?? "—"}.</p>
     <div class="arcs">${run.map((r,i)=>`
       <div class="arc"><span class="no">${i+1}</span>
-        <div style="min-width:0"><span class="part">${esc([r.y, fmtName(r.f)].filter(Boolean).join(", "))}${r.airing?', <b class="p">airing now</b>':""}</span><h4>${esc(r.t)}</h4></div>
+        <div style="min-width:0"><span class="part">${esc([r.y, fmtName(r.f)].filter(Boolean).join(" · "))}${r.airing?' · <b class="p">Airing</b>':""}</span><h4>${esc(r.t)}</h4></div>
         <div class="rng"><span class="label">Episodes</span><b class="mono">${r.from}–${r.from+r.e-1}</b><span class="label">${r.e} ep${r.airing?" so far":""}</span></div>
       </div>`).join("")}</div>
     ${ex.length ? `<h3 style="margin-top:30px">Films, OVAs and specials</h3><p class="sub">Not counted in the episode numbers above.</p>
@@ -371,18 +371,18 @@ function renderSeries(id, tab){
     <section class="sh" style="--tone:${s.tone||'#4a5160'}">
       <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
-        <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div>
+        <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
         <h2>${esc(s.title)}</h2><div class="jp">${esc(s.jp||"")}</div>
         <div class="facts">
           ${s.score?`<div><span class="label">AniList</span><b class="gold">${fmt10(s.score/10)}</b></div>`:""}
           <div><span class="label">Animeter</span><b class="gold">${ss.votes ? fmt10(ss.avg) : "—"}</b></div>
           <div><span class="label">${esc(s.epsLabel)}</span><b>${s.eps} ep</b></div>
-          <div><span class="label">${s.kind==="novel"?"Source":"Manga"}</span><b class="${s.next?"pen":""}">${esc(handoffShort(s).replace("VN","Visual novel").replace("Novel","Light novel"))}</b></div>
+          <div><span class="label">${s.kind==="novel"?"Source":"Manga"}</span><b>${esc(handoffShort(s).replace("VN","Visual novel").replace("Novel","Light novel"))}</b></div>
         </div>
         ${rateRow}${gate}
       </div>
     </section>
-    <nav class="tabs" style="--tone:${s.tone||'#2c5fb3'}" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <nav class="tabs" style="--tone:${s.tone||'#16181d'}" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
@@ -455,7 +455,7 @@ function renderProfile(){
   const by = st => ids.filter(k=>mine[k].status===st).map(k=>byId[k]);
   const rated = ids.filter(k=>Number.isInteger(mine[k].rating)).sort((a,b)=>mine[b].rating-mine[a].rating || byId[a].title.localeCompare(byId[b].title)).map(k=>byId[k]);
   const card = s => `<a class="card" href="${seriesHref(s.id)}">${coverHTML(s,"anime")}<span class="t">${esc(s.title)}</span>
-      <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(", "))}</span><span>${Number.isInteger(mine[s.id].rating)?"★ "+mine[s.id].rating:""}</span></span></a>`;
+      <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(" · "))}</span><span>${Number.isInteger(mine[s.id].rating)?"★ "+mine[s.id].rating:""}</span></span></a>`;
   const signedOut = STATIC ? !myId : dbState==="off";
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to keep a list. We email you a link, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
