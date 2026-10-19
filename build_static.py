@@ -8,15 +8,16 @@ each series tab), shared style.css / app.js / data.js / config.js, covers, sitem
 Supabase settings live in web/config.json ({"supabaseUrl": "...", "supabaseKey": "<anon public key>"}).
 """
 import json, os, re, shutil, sys, html
-from build import load, HERE
+from build import load, load_runs, apply_seasons, HERE
 
 SITE = (sys.argv[1] if len(sys.argv) > 1 else "https://thrunycn.github.io/animeter/").rstrip("/") + "/"
 WEB = os.path.join(HERE, "web")
 DIST = os.path.join(HERE, "docs")       # GitHub Pages serves main:/docs
 COVERS = os.path.join(WEB, "covers")          # downscaled copies (460px) of ../covers
-TABS = [("overview", "Overview"), ("arcs", "Arcs"), ("events", "Key events"), ("filler", "Filler"), ("manga", "Manga")]
+TABS = [("overview", "Overview"), ("seasons", "Seasons"), ("arcs", "Arcs"), ("events", "Key events"), ("filler", "Filler"), ("manga", "Manga")]
 
 series, details, fetched = load()
+RUNS = load_runs()
 # AniList top-rated franchises (fetch_top.py). Hand-off, arcs and filler aren't researched for these yet.
 try: top = json.load(open(os.path.join(HERE, "top.json")))
 except FileNotFoundError: top = []
@@ -41,6 +42,7 @@ for t in top:
         "src": [["AniList", f'https://anilist.co/anime/{t["anilist"]}']] + ([["MyAnimeList", f'https://myanimelist.net/anime/{t["mal"]}']] if t.get("mal") else [])
                + ([["Source on AniList", src["url"]]] if src.get("url") else []),
     })
+    if fmt != "MOVIE": apply_seasons(series[-1], RUNS)
 src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
@@ -70,6 +72,8 @@ def handoff(s):
     if s.get("next") and s["next"] != "?": return f'{s.get("unit") or "chapter"} {s["next"]}'.strip()
     return None
 
+def has_seasons(s): return len(s.get("run") or []) > 1 or bool(s.get("extras"))
+
 def meta_for(s, tab):
     t, d = s["title"], details.get(s["id"])
     n_arcs, fc, te = len((d or {}).get("arcs") or []), filler_count(d), total_eps(s, d)
@@ -80,6 +84,10 @@ def meta_for(s, tab):
     elif tab == "overview":
         title = f"{t}: is it worth watching? Drop points and where the manga continues"
         desc = f"Where people drop {t} and where it clicks, by episode, from viewer reports. Plus the {t} filler list, arcs and where to continue in the source after the anime."
+    elif tab == "seasons":
+        run = s.get("run") or []
+        title = f"{t} seasons in order: all {len(run)} seasons and {s['eps']} episodes" if len(run) > 1 else f"{t} in order, with films and specials"
+        desc = f"Every season of {t} in watch order with episode counts and years" + (", plus films and OVAs." if s.get("extras") else ".")
     elif tab == "arcs":
         title = f"{t} arcs in order, with episodes and chapters"
         desc = f"All {n_arcs} {t} arcs in order with episode and manga chapter ranges and which arcs are filler." if n_arcs else f"{t} arcs in order."
@@ -152,6 +160,7 @@ for s in series:
         root = "../" * rel.count("/")
         title, desc = meta_for(s, k)
         if s.get("unchecked") and k in ("arcs", "events", "filler"): continue     # nothing to show yet
+        if k == "seasons" and not has_seasons(s): continue
         img = f'covers/{s["id"]}-anime.jpg' if os.path.exists(os.path.join(COVERS, f'{s["id"]}-anime.jpg')) else None
         w(rel + "index.html", page(s["id"] + ("" if k == "overview" else "." + k), root, title, desc, SITE + rel, img))
         urls.append(SITE + rel)

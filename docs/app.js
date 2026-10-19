@@ -12,7 +12,7 @@ const seriesHref = (id, tab) => { const t = tab && tab!=="overview" ? tab : "";
   return STATIC ? `${ROOT}${id}/${t ? t+"/" : ""}` : `#${id}${t ? "."+t : ""}`; };
 const byId = Object.fromEntries(SERIES.map(s=>[s.id,s]));
 const M_MIN = 5, PER_PAGE = 25;
-const TABS = [["overview","Overview"],["arcs","Arcs"],["events","Key events"],["filler","Filler"],["manga","Manga"]];
+const TABS = [["overview","Overview"],["seasons","Seasons"],["arcs","Arcs"],["events","Key events"],["filler","Filler"],["manga","Manga"]];
 let sortBy = "anilist", view = "list", query = "", page = 1, spoilers = false;
 let reports = {}, myId = null, db = null, canWrite = true, dbState = "loading";
 try { const v = localStorage.getItem("view"); if (v==="list"||v==="wall") view = v; } catch(_) {}
@@ -28,6 +28,8 @@ function coverHTML(s, kind, tag, extra=""){
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
+const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
+const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga";
 const handoffShort = s => s.unchecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : ({original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
@@ -35,7 +37,7 @@ function route(){
   const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
   if (h === "profile") return {id:null, profile:true};
   const [id, tab] = h.split(".");
-  if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) && !(byId[id].unchecked && /arcs|events|filler/.test(tab)) ? tab : "overview"};
+  if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) && tabShown(byId[id], tab) ? tab : "overview"};
   return {id:null};
 }
 function go(hash){ if (location.hash !== hash) location.hash = hash; else render(); }
@@ -165,18 +167,44 @@ function renderRankings(){
 }
 
 /* ---------- series page ---------- */
+function epName(s, n){                      // "episode 28 (season 2, ep 3)" for multi-season runs
+  const i = s.run?.length > 1 ? s.run.findIndex(r=>n>=r.from && n<r.from+r.e) : -1;
+  return i<0 ? `episode ${n}` : `episode ${n} (season ${i+1}, ep ${n-s.run[i].from+1})`;
+}
+function paneSeasons(s){
+  const run = s.run || [], ex = s.extras || [];
+  const fmtName = f => ({TV:"TV",TV_SHORT:"TV short",ONA:"Web",MOVIE:"Film",OVA:"OVA",SPECIAL:"Special"}[f]||f);
+  return `<h3>${run.length > 1 ? `${run.length} seasons, ${s.eps} episodes` : "Watch order"}</h3>
+    <p class="sub">In airing order. Episode numbers on this site count straight through every season, so season 2 starts at episode ${run[1]?.from ?? "—"}.</p>
+    <div class="arcs">${run.map((r,i)=>`
+      <div class="arc"><span class="no">${i+1}</span>
+        <div style="min-width:0"><span class="part">${esc([r.y, fmtName(r.f)].filter(Boolean).join(" · "))}${r.airing?' · <b class="p">Airing</b>':""}</span><h4>${esc(r.t)}</h4></div>
+        <div class="rng"><span class="label">Episodes</span><b class="mono">${r.from}–${r.from+r.e-1}</b><span class="label">${r.e} ep${r.airing?" so far":""}</span></div>
+      </div>`).join("")}</div>
+    ${ex.length ? `<h3 style="margin-top:30px">Films, OVAs and specials</h3><p class="sub">Not counted in the episode numbers above.</p>
+      <div class="arcs">${ex.map(x=>`<div class="arc"><span class="no">·</span><div style="min-width:0"><span class="part">${esc([x.y, fmtName(x.f)].filter(Boolean).join(" · "))}</span><h4>${esc(x.t)}</h4></div><div class="rng"></div></div>`).join("")}</div>` : ""}
+    ${srcHTML([["AniList", run[0]?.url || ""]].filter(x=>x[1]))}`;
+}
 function chartSVG(s, st){
-  const W=720, H=210, padL=28, padR=10, mid=104, h=78, eps=s.eps, bw=(W-padL-padR)/eps;
+  const W=720, H=210, padL=28, padR=10, mid=104, h=78;
+  const bin = Math.max(1, Math.ceil(s.eps/150)), eps = Math.ceil(s.eps/bin), bw=(W-padL-padR)/eps;
+  if (bin > 1){                               // long runs: one bar per `bin` episodes
+    const fold = a => Array.from({length:eps+1},(_,b)=> b===0 ? 0 : a.slice((b-1)*bin+1, b*bin+1).reduce((x,y)=>x+y,0));
+    st = {...st, clicked: fold(st.clicked), stopped: fold(st.stopped)};
+  }
   const max = Math.max(1, ...st.clicked, ...st.stopped);
   let g = `<line x1="${padL}" x2="${W-padR}" y1="${mid}" y2="${mid}" stroke="var(--ink)" stroke-width="2"/>`;
-  if (eps>=3){ const x = padL + 3*bw; g += `<line x1="${x}" x2="${x}" y1="14" y2="${H-22}" stroke="var(--ink-soft)" stroke-dasharray="3 3"/><text x="${x+4}" y="22">3-episode mark</text>`; }
+  if (eps>=3 && bin===1){ const x = padL + 3*bw; g += `<line x1="${x}" x2="${x}" y1="14" y2="${H-22}" stroke="var(--ink-soft)" stroke-dasharray="3 3"/><text x="${x+4}" y="22">3-episode mark</text>`; }
+  (s.run||[]).slice(1).forEach((r,i)=>{ if (s.run.length > 12) return; const x = padL + (r.from-1)/bin*bw;
+    g += `<line x1="${x}" x2="${x}" y1="14" y2="${H-22}" stroke="var(--rule)" stroke-width="1"/><text x="${x+3}" y="${H-24}">S${i+2}</text>`; });
   for (let e=1;e<=eps;e++){
     const x = padL + (e-1)*bw + bw*0.12, w = Math.max(1, bw*0.76), c = st.clicked[e], d = st.stopped[e];
-    if (c) g += `<rect x="${x}" y="${mid - c/max*h}" width="${w}" height="${c/max*h}" fill="var(--blue)"><title>Ep ${e}: ${c} said it clicked</title></rect>`;
-    if (d) g += `<rect x="${x}" y="${mid+2}" width="${w}" height="${d/max*h}" fill="var(--pink)"><title>Ep ${e}: ${d} stopped</title></rect>`;
+    const lab = bin>1 ? `Eps ${(e-1)*bin+1}–${Math.min(e*bin, s.eps)}` : `Ep ${e}`;
+    if (c) g += `<rect x="${x}" y="${mid - c/max*h}" width="${w}" height="${c/max*h}" fill="var(--blue)"><title>${lab}: ${c} said it clicked</title></rect>`;
+    if (d) g += `<rect x="${x}" y="${mid+2}" width="${w}" height="${d/max*h}" fill="var(--pink)"><title>${lab}: ${d} stopped</title></rect>`;
   }
   const step = eps<=14?1: eps<=30?3: eps<=60?6: eps<=150?12: 30;
-  for (let e=1;e<=eps;e++){ if (e===1 || e%step===0) g += `<text x="${padL+(e-0.5)*bw}" y="${H-6}" text-anchor="middle">${e}</text>`; }
+  for (let e=1;e<=eps;e++){ if (e===1 || e%step===0) g += `<text x="${padL+(e-0.5)*bw}" y="${H-6}" text-anchor="middle">${(e-1)*bin+1}</text>`; }
   g += `<text x="2" y="${mid-h+6}">${max}</text><text x="2" y="${mid+h}">${max}</text>`;
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Episodes where people said ${esc(s.title)} clicked (above the line) and where they stopped (below)">${g}</svg>`;
 }
@@ -212,7 +240,10 @@ function epKinds(d){
 function paneOverview(s){
   if (s.eps < 3) return `<h3>Is it worth watching?</h3><p class="sub">The drop map is for series. Rate ${s.format==="MOVIE" ? "the film" : "it"} above to add to its Animeter score.</p>`;
   const st = stats(s.id), mine = (myId && reports[myId] && reports[myId][s.id]) || {};
-  const epOpts = sel => Array.from({length:s.eps},(_,i)=>`<option value="${i+1}" ${sel===i+1?"selected":""}>Episode ${i+1}</option>`).join("");
+  const opt = (n, label, sel) => `<option value="${n}" ${sel===n?"selected":""}>${label}</option>`;
+  const epOpts = sel => s.run?.length > 1
+    ? s.run.map((r,i)=>`<optgroup label="${esc(`Season ${i+1}: ${r.t}`)}">${Array.from({length:r.e},(_,k)=>opt(r.from+k, `S${i+1} E${k+1} · episode ${r.from+k}`, sel)).join("")}</optgroup>`).join("")
+    : Array.from({length:s.eps},(_,i)=>opt(i+1, `Episode ${i+1}`, sel)).join("");
   const dmKey = `<div class="key"><span><i class="sw" style="background:var(--blue)"></i>It clicked for me here</span><span><i class="sw" style="background:var(--pink)"></i>I stopped watching here</span></div>`;
   const body = dbState==="loading" ? `<div class="empty"><b>Loading reports…</b>Checking what other people said about this one.</div>`
     : dbState==="off" ? `<div class="empty"><b>Reports aren't available in this view.</b>${STATIC ? (!SB.supabaseUrl ? "Voting isn't switched on yet. Check back soon." : sbErr===404 ? "Couldn't load reports: the reports table wasn't found (error 404)." : sbErr ? `Couldn't load reports (error ${sbErr}). Try again in a moment.` : "Couldn't reach the report server. Try again in a moment.") : "Sign in to claude.ai to see and add drop-map reports."}</div>`
@@ -223,8 +254,8 @@ function paneOverview(s){
         <div><span class="label">Stopped</span><b class="p">${Math.round(st.dropTotal/st.n*100)}%</b></div>
         <div><span class="label">Never clicked</span><b>${st.never}</b></div>
       </div><div class="chart">${chartSVG(s, st)}</div>`;
-  const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report about ${s.epsLabel==="Season 1" ? "the first season" : "the "+s.epsLabel.toLowerCase()}.`)
-    : [st.median && `Half of the people who say it clicked felt it by episode ${st.median}.`, st.peak && `The most common place to stop is episode ${st.peak}.`].filter(Boolean).join(" ");
+  const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report across ${s.run?.length > 1 ? `all ${s.run.length} seasons (${s.eps} episodes)` : `all ${s.eps} episodes`}.`)
+    : [st.median && `Half of the people who say it clicked felt it by ${epName(s, st.median)}.`, st.peak && `The most common place to stop is ${epName(s, st.peak)}.`].filter(Boolean).join(" ");
   const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
   const form = !writable ? (STATIC && SB.supabaseUrl && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
     <form class="vote" id="vote">
@@ -294,7 +325,7 @@ function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
   const mine = (myId && reports[myId] && reports[myId][id]) || {};
   const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
-  const counts = {arcs: d?.arcs?.length, events: (d?.arcs||[]).reduce((t,a)=>t+(a.events?.length||0),0), filler: d?.filler ? epKinds(d).total && Object.values(epKinds(d).kinds).filter(k=>k==="f").length : null};
+  const counts = {seasons: s.run?.length > 1 ? s.run.length : null, arcs: d?.arcs?.length, events: (d?.arcs||[]).reduce((t,a)=>t+(a.events?.length||0),0), filler: d?.filler ? epKinds(d).total && Object.values(epKinds(d).kinds).filter(k=>k==="f").length : null};
   const rateRow = !writable ? "" : `<div class="rate" role="group" aria-label="Rate ${esc(s.title)} from 1 to 10"><span class="label">Your rating</span>
       ${Array.from({length:10},(_,i)=>`<button type="button" data-rate="${i+1}" aria-pressed="${mine.rating===i+1}" class="${mine.rating>i+1?'fill':''}">${i+1}</button>`).join("")}
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
@@ -302,7 +333,7 @@ function renderSeries(id, tab){
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
-  const pane = {overview:()=>paneOverview(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
+  const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
     <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
     <section class="sh">
@@ -319,7 +350,7 @@ function renderSeries(id, tab){
         ${rateRow}${gate}
       </div>
     </section>
-    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>!s.unchecked || k==="overview" || k==="manga").map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
     <section class="pane">${pane}</section>`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
