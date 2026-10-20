@@ -88,10 +88,10 @@ img { display: block; max-width: 100% }
 section.block { padding-block: clamp(96px, 12vw, 200px) 0 }
 
 /* the band: this paper's covers, as a row of ovals */
-.band { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 16px; overflow-wrap: anywhere; padding-block: clamp(72px, 8vw, 120px) 0 }
+.band { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px; overflow-wrap: anywhere; padding-block: clamp(72px, 8vw, 120px) 0 }
 .band h2 { grid-column: 1 / -1; font-size: var(--step-head); margin-bottom: 24px }
 .band figure { margin: 0; display: grid; gap: 10px; font-size: var(--step-small); font-weight: 500 }
-.band .cover { width: 100%; transition: transform .25s var(--ease) }
+.band .cover { width: 100%; aspect-ratio: 4 / 5; transition: transform .25s var(--ease) }
 .band figure:hover .cover { transform: translateY(-8px) rotate(-3deg) }
 
 /* exams: sticky picture, active list */
@@ -149,6 +149,8 @@ footer { margin-top: clamp(96px, 9vw, 140px); background: var(--ink); color: var
 .foot { display: grid; grid-template-columns: repeat(4, 1fr) 2fr; gap: 24px; margin-top: 56px; font-size: 15px }
 .foot a { text-decoration: none } .foot a:hover { text-decoration: underline }
 .foot .c { grid-column: 5; display: grid; gap: 6px }
+.credits { grid-column: 1 / -1; margin-top: 24px; font-size: var(--step-small); max-width: 110ch }
+.credits a { text-decoration: underline }
 .last { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 48px; font-size: var(--step-small) }
 
 /* play */
@@ -214,7 +216,7 @@ footer { margin-top: clamp(96px, 9vw, 140px); background: var(--ink); color: var
   .probe { position: relative; left: auto; top: auto; width: 100%; grid-template-columns: 1fr; padding: 20px; gap: 20px }
   .probe .pic { width: 150px }
   .exams { grid-template-columns: 1fr; gap: 28px }
-  .band { grid-template-columns: repeat(4, minmax(0, 1fr)) }
+  .band { grid-template-columns: repeat(2, minmax(0, 1fr)) }
   .grades .top { grid-template-columns: 1fr; gap: 24px }
   .exams .still { order: 2; position: static; display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center }
   .still .shape { width: 26vw; aspect-ratio: 4 / 5 }
@@ -284,22 +286,22 @@ const titleOpts = a => shuffle([a, ...others(a, 3, x => x.title !== a.title)]).m
 const withChars = D.filter(x => x.ch.length);
 
 const MODES = {
-  mix: { jp: '総合', name: 'the full exam', d: 'Ten questions drawn from every paper below. This is the one that gives you a grade.', pic: () => ['c', pick(D.filter(x => !x.lo))] },
-  cover: { jp: '表紙', name: 'cover zoom', d: 'The cover starts close up and pulls back over fifteen seconds. Name it early for more points.', pic: () => ['c', pick(D.filter(x => !x.lo))],
+  mix: { jp: '総合', name: 'the full exam', d: 'Ten questions drawn from every paper below. This is the one that gives you a grade.', pic: 1 },
+  cover: { jp: '表紙', name: 'cover zoom', d: 'The cover starts close up and pulls back over fifteen seconds. Name it early for more points.', pic: 1,
     make() {
       const a = pick(D.filter(x => !x.lo)), ox = 20 + rnd(60), oy = 15 + rnd(50);
       return { a, ask: 'Which show is this cover from?', need: [coverUrl(a)],
         look: `<div class="cover oval"><img class="zoom" src="${coverUrl(a)}" alt="A close crop of a cover" style="transform:scale(3.2);transform-origin:${ox}% ${oy}%"></div>`,
         opts: titleOpts(a), tell: `It was <b>${esc(a.title)}</b> (${a.year}).` };
     } },
-  who: { jp: '誰', name: 'whose character', d: 'One character portrait. Pick the show they come from.', pic: () => ['p', pick(withChars)],
+  who: { jp: '誰', name: 'whose character', d: 'One character portrait. Pick the show they come from.', pic: 1,
     make() {
       const a = pick(withChars), c = pick(a.ch);
       return { a, c, ask: 'Which show is this character from?', need: [`img/p${c.at[0]}.jpg`],
         look: `<div class="portrait oval"><div class="sprite" role="img" aria-label="A character portrait" style="${sprite('p', c.at)}"></div></div>`,
         opts: titleOpts(a), tell: `That is <b>${esc(c.n)}</b> from ${esc(a.title)}.` };
     } },
-  name: { jp: '名前', name: 'name the face', d: 'You know the face. Now pick the right name out of four.', pic: () => ['p', pick(withChars)],
+  name: { jp: '名前', name: 'name the face', d: 'You know the face. Now pick the right name out of four.', pic: 1,
     make() {
       const a = pick(withChars), c = pick(a.ch);
       const names = [...new Set(shuffle(others(a, 12).flatMap(x => x.ch)).map(x => x.n))].filter(n => n !== c.n).slice(0, 3);
@@ -307,14 +309,14 @@ const MODES = {
         look: `<div class="portrait oval"><div class="sprite" role="img" aria-label="A character portrait" style="${sprite('p', c.at)}"></div></div>`,
         opts: shuffle([{ label: c.n, right: true }, ...names.map(n => ({ label: n }))]), tell: `<b>${esc(c.n)}</b>, from ${esc(a.title)}.` };
     } },
-  scene: { jp: '場面', name: 'the wide shot', d: 'A wide banner still from the show, no title on it. Which series is it?', pic: () => ['c', pick(D.filter(x => x.bn && !x.lo))],
+  scene: { jp: '場面', name: 'the wide shot', d: 'A wide banner still from the show, no title on it. Which series is it?', pic: 1,
     make() {
       const a = pick(D.filter(x => x.bn));
       return { a, ask: 'Which show is this scene from?', need: [`img/b${a.bn[0]}.jpg`], wide: true,
         look: `<div class="banner oval"><div class="sprite" role="img" aria-label="A wide still from a show" style="${sprite('b', a.bn)}"></div></div>`,
         opts: titleOpts(a), tell: `It was <b>${esc(a.title)}</b>.` };
     } },
-  kana: { jp: '漢字', name: 'read the japanese', d: 'The original Japanese title, and four covers. Match them.', pic: () => ['c', pick(D.filter(x => !x.lo))],
+  kana: { jp: '漢字', name: 'read the japanese', d: 'The original Japanese title, and four covers. Match them.', pic: 1,
     make() {
       const a = pick(D.filter(x => x.jp && x.jp !== x.title));
       const o = shuffle([a, ...others(a, 3, x => x.title !== a.title)]);
@@ -322,21 +324,21 @@ const MODES = {
         look: `<div class="jp oval" lang="ja">${esc(a.jp)}</div>`,
         opts: o.map(x => ({ label: x.title, show: x, right: x === a })), tell: `${esc(a.jp)} is <b>${esc(a.title)}</b>.` };
     } },
-  duel: { jp: '上下', name: 'higher or lower', d: 'Two shows side by side. Which one scores higher on AniList?', pic: () => ['c', pick(D.filter(x => !x.lo))],
+  duel: { jp: '上下', name: 'higher or lower', d: 'Two shows side by side. Which one scores higher on AniList?', pic: 1,
     make() {
       let a, b; do { a = pick(D); b = pick(D) } while (a === b || Math.abs(a.score - b.score) < 4);
       const hi = a.score > b.score ? a : b;
       return { a: hi, ask: 'Which one has the higher AniList score?', need: [coverUrl(a), coverUrl(b)], wide: true, picks: true, two: true,
         look: '', opts: [a, b].map(x => ({ label: x.title, show: x, right: x === hi })), tell: `${esc(a.title)} scores <b>${a.score}</b>, ${esc(b.title)} scores <b>${b.score}</b>.` };
     } },
-  year: { jp: '年', name: 'which year', d: 'Look at the cover and guess the year it first aired.', pic: () => ['c', pick(D.filter(x => !x.lo))],
+  year: { jp: '年', name: 'which year', d: 'Look at the cover and guess the year it first aired.', pic: 1,
     make() {
       const a = pick(D.filter(x => x.year)), set = new Set([a.year]);
       for (const s of shuffle([-12, -8, -5, -3, 3, 5, 8, 12])) { const y = a.year + s; if (set.size < 4 && y <= 2026 && y >= 1970) set.add(y) }
       return { a, ask: 'What year did this first air?', need: [coverUrl(a)], look: cover(a),
         opts: [...set].sort().map(y => ({ label: String(y), right: y === a.year })), tell: `${esc(a.title)} first aired in <b>${a.year}</b>.` };
     } },
-  studio: { jp: '工房', name: 'name the studio', d: 'Every show had a studio behind it. Pick the one that animated this.', pic: () => ['c', pick(D.filter(x => !x.lo))],
+  studio: { jp: '工房', name: 'name the studio', d: 'Every show had a studio behind it. Pick the one that animated this.', pic: 1,
     make() {
       const a = pick(D.filter(x => x.studio));
       const st = shuffle([...new Set(D.map(x => x.studio).filter(s => s && s !== a.studio))]).slice(0, 3);
@@ -344,6 +346,8 @@ const MODES = {
         opts: shuffle([{ label: a.studio, right: true }, ...st.map(s => ({ label: s }))]), tell: `${esc(a.title)} was made by <b>${esc(a.studio)}</b>.` };
     } }
 };
+const PH = {"mix": {"c": "Akihabara Electric Town at night, Tokyo", "a": "Phineyes", "l": "CC0", "u": "https://commons.wikimedia.org/wiki/File:Sotokanda,_Akihabara_Electric_Town_at_night_20231114.png"}, "cover": {"c": "A shelf of anime DVDs", "a": "MHV", "l": "Public domain", "u": "https://commons.wikimedia.org/wiki/File:Anime_DVDs.JPG"}, "who": {"c": "Figures in an Akihabara shop window", "a": "User:Piotrus", "l": "CC BY-SA 3.0", "u": "https://commons.wikimedia.org/wiki/File:Akihabara_August_2014_09.JPG"}, "name": {"c": "A Kana Arima cosplayer at Comiket 105", "a": "Benlisquare", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:Kana_Arima_cosplay_at_Comiket_105_(close-up).jpg"}, "scene": {"c": "A film-strip ticket from the Ghibli Museum", "a": "SergioOren", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:Ghibli_ticket.png"}, "kana": {"c": "The Akihabara sign on the Hibiya line", "a": "kenji ross", "l": "CC BY 2.0", "u": "https://commons.wikimedia.org/wiki/File:Akihabara_station_sign_on_Hibiya_line.jpg"}, "duel": {"c": "Claw cranes in Akihabara", "a": "Basile Morin", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:Claw_cranes_with_kawaii_stuffed_mascots_and_a_woman_playing,_Akihabara,_Chiyoda,_Tokyo,_Japan.jpg"}, "year": {"c": "Old celluloid film rolls", "a": "Marcel Oosterwijk from Amsterdam, The Netherlands", "l": "CC BY-SA 2.0", "u": "https://commons.wikimedia.org/wiki/File:Old_celluloid_film_rolls_(5201105455).jpg"}, "studio": {"c": "The TMS Entertainment studio in Tokyo", "a": "Asanagi", "l": "CC0", "u": "https://commons.wikimedia.org/wiki/File:TMS_Entertainment_Studio_2024-04-11.jpg"}, "b1": {"c": "Akihabara Electric Town by day", "a": "Jmho", "l": "CC0", "u": "https://commons.wikimedia.org/wiki/File:Akiba_denkigai.jpg"}, "b2": {"c": "Figures on a convention table", "a": "PattayaPatrol", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:DFC_4147_Colorful_anime_figurines_on_display_at_a_bustling_convention_table_each_character_full_of_personality_and_detail.jpg"}, "b3": {"c": "A Frieren cosplayer at Comiket 107", "a": "Benlisquare", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:Frieren_cosplay_at_Comiket_107.jpg"}, "b5": {"c": "An anime bookshop in Kyoto", "a": "Marek Ślusarczyk (Tupungato) Photo portfolio", "l": "CC BY 3.0", "u": "https://commons.wikimedia.org/wiki/File:009_Anime_book_shop_in_Japan_-_book_store_in_Kyoto,_Japan.jpg"}, "b6": {"c": "Totoro at the Ghibli Museum, Mitaka", "a": "UpdateNerd", "l": "CC0", "u": "https://commons.wikimedia.org/wiki/File:Ghibli_Museum_-_Totoro.jpg"}, "b7": {"c": "A key-frame sketch on a MAPPA timing sheet", "a": "ゴスロリ", "l": "CC BY-SA 4.0", "u": "https://commons.wikimedia.org/wiki/File:Anime_cel_with_Wikipe-tan.jpg"}};
+const photo = (k, cls = '') => `<img class="${cls}" src="img/ph/${k}.jpg" alt="${esc(PH[k].c)}" loading="lazy">`;
 const PAPERS = Object.keys(MODES).filter(k => k !== 'mix');
 
 // grade thresholds on a 0..1 result; widths of the meter follow the real ranges
@@ -406,8 +410,8 @@ function home() {
   </header>
 
   <section class="frame" aria-labelledby="bandh"><div class="inner band">
-    <h2 id="bandh" data-rise>on today's paper</h2>
-    ${shuffle(D.filter(x => !x.lo && x.pop > 250000)).slice(0, 8).map(a => `<figure data-rise>${cover(a)}<figcaption>${esc(a.title)}</figcaption></figure>`).join('')}
+    <h2 id="bandh" data-rise>where the questions come from</h2>
+    ${['b1', 'b2', 'b3', 'b5', 'b6', 'b7'].map(k => `<figure data-rise><div class="cover oval">${photo(k)}</div><figcaption>${esc(PH[k].c)}</figcaption></figure>`).join('')}
   </div></section>
 
   <section class="block frame" id="exams"><div class="inner exams">
@@ -448,6 +452,7 @@ function home() {
     <div class="foot">
       <a href="#exams">exams</a><a href="#faces">faces</a><a href="#grades">grades</a><a href="https://thrunycn.github.io/animeter/">animeter</a>
       <div class="c"><span>Covers, character art, banners and scores from AniList.</span><span>${D.length} shows, ${D.reduce((s, x) => s + x.ch.length, 0)} characters.</span></div>
+      <p class="credits">Photos from Wikimedia Commons: ${Object.values(PH).map(p => `<a href="${p.u}">${esc(p.c)}</a> by ${esc(p.a)}, ${esc(p.l)}`).join('; ')}.</p>
     </div>
     <div class="last"><span>Anime Kentei, 2026. Not an official exam.</span><button class="mark yellow" data-start="mix">take the exam</button></div>
   </div></footer>`;
@@ -461,9 +466,8 @@ function home() {
   // exam list
   const still = document.getElementById('still'), cap = document.getElementById('stillcap');
   const show = k => {
-    const [kind, a] = MODES[k].pic();
-    still.innerHTML = kind === 'c' ? `<img src="${coverUrl(a)}" alt="Cover of ${esc(a.title)}">` : `<div class="sprite" role="img" aria-label="Portrait of ${esc(a.ch[0].n)}" style="${sprite('p', a.ch[0].at)}"></div>`;
-    cap.textContent = kind === 'c' ? `${a.title}, ${a.year}` : `${a.ch[0].n}, from ${a.title}`;
+    still.innerHTML = photo(k);
+    cap.textContent = PH[k].c;
   };
   app.querySelectorAll('.exam').forEach(ex => {
     const on = () => { app.querySelectorAll('.exam').forEach(e => { e.classList.toggle('on', e === ex); e.firstElementChild.setAttribute('aria-expanded', e === ex) }); show(ex.dataset.k) };
