@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 fetch_tags.py
+      - run: python3 fetch_tags.py 2>&1 | tee fetch_tags.log || true
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add tags.json
+          git add -f fetch_tags.log; [ -f tags.json ] && git add tags.json
           git diff --cached --quiet || (git commit -m "Update AniList tags" && git push)

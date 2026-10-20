@@ -21,6 +21,7 @@ def post(body):
                 headers={"Content-Type": "application/json", "Accept": "application/json", "User-Agent": "animeter tags"})
             with urllib.request.urlopen(req, timeout=40) as r: return json.load(r)
         except urllib.error.HTTPError as e:
+            print("HTTP", e.code, e.read()[:300], flush=True)
             if e.code in (429, 500, 502, 503): time.sleep(int(e.headers.get("Retry-After") or 0) or 5 * (i + 1)); continue
             raise
     raise SystemExit("AniList kept failing")
