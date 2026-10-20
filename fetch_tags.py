@@ -9,7 +9,7 @@ import json, os, time, urllib.request, urllib.error
 HERE = os.path.dirname(os.path.abspath(__file__))
 ids = {}
 for k, v in json.load(open(os.path.join(HERE, "meta.json"))).items():
-    a = (v or {}).get("anime") or {}
+    a = (v.get("anime") if isinstance(v, dict) else None) or {}
     if a.get("id"): ids[a["id"]] = k
 for t in json.load(open(os.path.join(HERE, "top.json"))):
     if t.get("anilist"): ids[t["anilist"]] = t["id"]
