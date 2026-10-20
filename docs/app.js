@@ -4,7 +4,9 @@ const STATIC = !!window.ANIMETER;
 const SERIES = STATIC ? window.ANIMETER.series : /*SERIES*/[];
 const DETAILS = STATIC ? window.ANIMETER.details : /*DETAILS*/{};
 const FETCHED = STATIC ? window.ANIMETER.fetched : /*FETCHED*/"";
-const ROOT = STATIC ? (document.body.dataset.root || "") : "";
+// absolute, so links and covers still resolve after in-page navigation changes the URL
+const ROOT = !STATIC ? "" : /[?&]prerender/.test(location.search) ? (document.body.dataset.root || "")   // snapshots keep relative links
+  : new URL(document.body.dataset.root || "./", location.href).pathname;
 const homeHref = () => STATIC ? (ROOT || "./") : "#";
 const profileHref = () => STATIC ? `${ROOT}profile/` : "#profile";
 const STATUSES = [["watching","Watching"],["completed","Completed"],["planned","Plan to watch"],["dropped","Dropped"]];
@@ -568,8 +570,41 @@ async function bootStatic(){
   if (linkErr){ const n = document.getElementById("snote"); if (n) n.textContent = "That sign-in link didn't work (" + linkErr + "). Ask for a new one."; }
 }
 
+/* static build: moving between tabs, series, rankings and My list swaps the page in place, no reload */
+function routeFromPath(path){
+  if (!path.startsWith(ROOT)) return null;
+  const parts = path.slice(ROOT.length).replace(/index\.html$/,"").split("/").filter(Boolean);
+  if (!parts.length) return "";
+  if (parts.length===1 && parts[0]==="profile") return "profile";
+  if (byId[parts[0]] && parts.length<=2) return parts.join(".");
+  return null;
+}
+function navTo(url, push){
+  const r = routeFromPath(url.pathname);
+  if (r===null) return false;
+  const prev = route();
+  document.body.dataset.route = r;
+  if (push) history.pushState({}, "", url.pathname + url.hash);
+  render();
+  const now = route();
+  if (url.hash==="#rankings"){ const el=document.getElementById("rankings"); if (el) el.scrollIntoView(); }
+  else if (!(prev.id && prev.id===now.id)) window.scrollTo({top:0, behavior:"auto"});
+  return true;
+}
+if (STATIC){
+  document.addEventListener("click", e=>{
+    if (e.defaultPrevented || e.button!==0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target.closest("a[href]"); if (!a || a.target || a.hasAttribute("download")) return;
+    const url = new URL(a.href, location.href);
+    if (url.origin!==location.origin || (url.pathname===location.pathname && url.hash)) return;
+    if (navTo(url, true)) e.preventDefault();
+  });
+  window.addEventListener("popstate", ()=>navTo(new URL(location.href), false));
+}
+
 (function init(){
   render();
+  setTimeout(()=>document.documentElement.classList.add("calm"), 1600);   // entrance motion plays once per visit, not on every re-render
   if (STATIC){ bootStatic(); return; }
   const boot = async () => {
     try{
