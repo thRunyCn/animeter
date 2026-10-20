@@ -7,7 +7,7 @@
    hung from one rail at different sizes, bone type on green-black, colour supplied by the art itself.
    Data colours: jade = it clicked / canon, coral = people quit / start reading here. */
 :root{
-  --bg:#15162b; --surface:#20223f; --surface-2:#2c2f55; --ink:#eceaf4; --muted:#a6a8c4; --accent:#9fd6c3; --accent-ink:#15162b;
+  --bg:#161c1a; --surface:#1f2725; --surface-2:#28322f; --ink:#e3e2da; --muted:#9a9f98; --accent:#9fc7b8; --accent-ink:#161c1a;
   --coral:#f4a3bd;
   /* names the scripts use */
   --paper:var(--bg); --paper-2:var(--surface); --ink-soft:var(--muted); --rule:var(--surface-2);
@@ -26,32 +26,13 @@
 }
 *{box-sizing:border-box}
 html{background:var(--bg)}
-body{margin:0;background:transparent;color:var(--ink);font-family:var(--f-body);font-size:var(--step-body);line-height:1.45;font-weight:400;
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:var(--step-body);line-height:1.45;font-weight:400;
   padding:0 var(--m) 0;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1440px;margin:0 auto}
 a{color:inherit}
 ::selection{background:var(--accent);color:var(--accent-ink)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-/* backdrop: manga page furniture behind everything: katakana, screentone, speed lines, a sun ring, sparkles */
-.bg{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
-.bg i{position:absolute;display:block;font-style:normal}
-.bg .kata{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;font-weight:900;writing-mode:vertical-rl;line-height:1;white-space:nowrap;color:transparent;-webkit-text-stroke:1.5px rgba(236,234,244,.10)}
-.bg .k1{right:-1vw;top:4vh;font-size:clamp(90px,15vh,190px);letter-spacing:.02em}
-.bg .k2{left:.6vw;bottom:6vh;font-size:clamp(28px,4.4vh,52px);-webkit-text-stroke:0;color:rgba(244,163,189,.20);letter-spacing:.3em}
-.bg .tone{width:52vmax;height:52vmax;left:-18vmax;top:42vh;border-radius:50%;
-  background:radial-gradient(circle,rgba(159,214,195,.20) 1.6px,transparent 2px) 0 0/14px 14px;
-  -webkit-mask:radial-gradient(circle,#000 0,transparent 68%);mask:radial-gradient(circle,#000 0,transparent 68%)}
-.bg .speed{inset:-20%;background:repeating-conic-gradient(from 0deg at 88% 18%,rgba(236,234,244,.05) 0 .6deg,transparent .6deg 4.2deg);
-  -webkit-mask:radial-gradient(circle at 88% 18%,transparent 14%,#000 40%,transparent 80%);mask:radial-gradient(circle at 88% 18%,transparent 14%,#000 40%,transparent 80%)}
-.bg .sun{width:34vmin;height:34vmin;right:16vw;top:56vh;border-radius:50%;border:2px solid rgba(244,163,189,.22);box-shadow:0 0 0 18px rgba(244,163,189,.05)}
-.bg .bar{width:38vw;height:14px;left:30vw;top:88vh;transform:rotate(-8deg);background:repeating-linear-gradient(90deg,rgba(159,214,195,.18) 0 34px,transparent 34px 46px)}
-.bg .sp{color:var(--coral);font-size:22px;line-height:1;opacity:.55}
-.bg .sp:nth-of-type(odd){color:var(--accent)}
-.bg .s1{left:44vw;top:12vh;font-size:30px} .bg .s2{left:8vw;top:30vh} .bg .s3{right:9vw;top:74vh;font-size:34px}
-.bg .s4{left:62vw;top:46vh;font-size:16px} .bg .s5{left:22vw;top:70vh;font-size:26px} .bg .s6{right:30vw;top:8vh;font-size:14px}
-@media (prefers-reduced-motion:no-preference){.bg .sp{animation:twinkle 3.6s ease-in-out infinite}.bg .s2{animation-delay:-1s}.bg .s3{animation-delay:-2s}.bg .s4{animation-delay:-.5s}.bg .s5{animation-delay:-2.6s}.bg .s6{animation-delay:-1.6s}}
-@keyframes twinkle{0%,100%{opacity:.55;transform:scale(1) rotate(0)}50%{opacity:.15;transform:scale(.6) rotate(45deg)}}
-@media (max-width:700px){.bg .k1{font-size:96px;top:12vh}.bg .sun,.bg .bar{display:none}.bg .k2{display:none}}
+.bg{display:none}
 .mono{font-variant-numeric:tabular-nums}
 .label{font-size:var(--step-small);color:var(--muted)}
 .sw{width:12px;height:12px;display:inline-block;flex:none}
@@ -358,13 +339,6 @@ footer{margin:clamp(120px,16vh,200px) calc(-1 * var(--m)) 0;padding:56px var(--m
 footer p{max-width:60ch;margin:0 0 56px;font-size:var(--step-body)}
 footer .fwm{display:block;font-family:var(--f-display);font-size:21.5vw;line-height:.74;letter-spacing:-.05em;margin:0 0 -.06em -.04em;white-space:nowrap;user-select:none}
 
-/* colour band: the top of each page takes the colour of its anime (AniList's cover colour), mixed into the night ground */
-:root{--band:color-mix(in oklch,var(--tone,#5b4bb7) 40%,var(--bg));--band-a:color-mix(in srgb,var(--band) 72%,transparent)}
-html{overflow-x:clip}
-.mast,.mast.compact,.hero,.sh{margin-inline:calc(50% - 50vw);padding-inline:calc(50vw - 50%);background:var(--band-a);transition:background .5s}
-.hero,.sh{background:linear-gradient(var(--band-a),var(--band-a) 70%,transparent)}
-.hero .p1 .fr{outline-color:var(--band)}
-.sh .covers .cover:nth-child(2){outline-color:var(--band)}
 /* motion: the first cover opens like a shutter; rows and sections rise in */
 @media (prefers-reduced-motion:no-preference){html:not(.calm){
   .hero .p2 .fr{animation:shutter 1.1s var(--ease) both}
@@ -388,7 +362,6 @@ html{overflow-x:clip}
 @keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 </style>
 
-<div class="bg" aria-hidden="true"><i class="speed"></i><i class="tone"></i><i class="sun"></i><i class="bar"></i><i class="kata k1">アニメーター</i><i class="kata k2">見る・止める・続ける</i><i class="sp s1">✦</i><i class="sp s2">✦</i><i class="sp s3">✦</i><i class="sp s4">✦</i><i class="sp s5">✦</i><i class="sp s6">✦</i></div>
 <div class="wrap">
   <div id="app"></div>
   <footer><p>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</p></footer>
@@ -833,7 +806,7 @@ function render(){
   _site = null;
   const r = route();
   document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
-  const tone = r.id ? byId[r.id].tone : !r.profile && SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score)[0]?.tone;   // home takes the #1 series' colour
+  const tone = r.id && byId[r.id].tone;
   if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
   if (r.profile) renderProfile(); else if (r.id) renderSeries(r.id, r.tab); else renderHome();
 }
