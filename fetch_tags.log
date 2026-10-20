@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/animeter/animeter/fetch_tags.py", line 12, in <module>
+    a = (v or {}).get("anime") or {}
+        ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
