@@ -18,6 +18,13 @@ TABS = [("overview", "Overview"), ("seasons", "Seasons"), ("arcs", "Arcs"), ("ev
 
 series, details, fetched = load()
 RUNS = load_runs()
+# AniList tags per series (fetch_tags.py, run in GitHub Actions): [[name, rank, category], ...]
+try: TAGS = json.load(open(os.path.join(HERE, "tags.json")))
+except FileNotFoundError: TAGS = {}
+def tag_group(x):
+    c = x[2] or ""
+    return "Audience" if c == "Demographic" else "Themes" if c.startswith("Theme") else "Setting" if c.startswith("Setting") else "Cast" if c.startswith("Cast") else None
+TAGCAT = {x[0]: tag_group(x) for l in TAGS.values() for x in l if tag_group(x)}
 # AniList top-rated franchises (fetch_top.py). Hand-off, arcs and filler aren't researched for these yet.
 try: top = json.load(open(os.path.join(HERE, "top.json")))
 except FileNotFoundError: top = []
@@ -72,6 +79,9 @@ for t in top:
     if fmt != "MOVIE": apply_seasons(series[-1], RUNS)
     if t["id"] in HANDOFF: apply_handoff(series[-1], HANDOFF[t["id"]])
     elif t["id"] in TRIED and t["kind"] in KIND_WORD: series[-1].update(mangaChecked=True, endWord="No source yet", endShort="Unclear")
+for s_ in series:
+    tg = sorted((x for x in TAGS.get(s_["id"], []) if tag_group(x) and x[0] not in (s_.get("genres") or [])), key=lambda x: (x[2] != "Demographic", -(x[1] or 0)))
+    s_["tags"] = [x[0] for x in tg][:15]
 src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
@@ -171,7 +181,7 @@ os.makedirs(DIST)
 w = lambda rel, text: (os.makedirs(os.path.dirname(os.path.join(DIST, rel)) or DIST, exist_ok=True), open(os.path.join(DIST, rel), "w").write(text))
 w("style.css", css.strip() + "\n")
 w("app.js", js.strip() + "\n")
-w("data.js", "window.ANIMETER=" + json.dumps({"series": series, "details": details, "fetched": fetched}, ensure_ascii=False, separators=(",", ":")) + ";\n")
+w("data.js", "window.ANIMETER=" + json.dumps({"series": series, "details": details, "fetched": fetched, "tagcat": TAGCAT}, ensure_ascii=False, separators=(",", ":")) + ";\n")
 w("config.js", "window.ANIMETER_CONFIG=" + json.dumps(cfg) + ";\n")
 w("favicon.svg", '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#16181d"/><text x="32" y="47" font-family="Arial Black,Impact,sans-serif" font-size="40" text-anchor="middle" fill="#e8336f">A</text></svg>\n')
 w(".nojekyll", "")

@@ -110,8 +110,30 @@ select:hover,input:hover{background:var(--surface-2)}
 .tags button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
 .tags button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .tags .clr{background:none;text-decoration:underline}
+.tagbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 14px}
+.tagbtn{all:unset;cursor:pointer;display:inline-flex;gap:10px;align-items:center;padding:11px 18px;background:var(--surface);font-size:var(--step-small);font-weight:500;transition:background .2s}
+.tagbtn:hover{background:var(--surface-2)}
+.tagbtn::after{content:"▾";font-size:12px}
+.tagbtn[aria-expanded="true"]{background:var(--ink);color:var(--bg)}
+.tagbtn[aria-expanded="true"]::after{content:"▴"}
+.tagbtn .n:not(:empty){background:var(--accent);color:var(--accent-ink);min-width:22px;height:22px;display:grid;place-items:center;font-size:13px}
+.tagbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.picked{display:flex;flex-wrap:wrap;gap:8px}
+.picked button{all:unset;cursor:pointer;padding:9px 12px;background:var(--accent);color:var(--accent-ink);font-size:var(--step-small);font-weight:500}
+.picked button:hover{background:var(--ink)}
+.picked .clr{background:none;color:var(--muted);text-decoration:underline;font-weight:400}
+.picked .clr:hover{background:none;color:var(--ink)}
+.picked button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tagpanel{background:var(--surface);padding:24px;margin:0 0 22px;display:flex;flex-direction:column;gap:22px}
+.tagpanel[hidden]{display:none}
+.tp-top{display:flex;gap:10px}
+.tp-top input{background:var(--bg);max-width:420px}
+.tg[hidden],.tg [hidden]{display:none}
+.tg h3{font-size:clamp(20px,1.6vw,24px);margin:0 0 12px;letter-spacing:-.02em}
+.tagpanel .tags{margin:0;flex-wrap:wrap;overflow:visible}
+.tagpanel .tags button{background:var(--surface-2)}
+.tagpanel .tags button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
 .tags [hidden]{display:none}
-@media (max-width:600px){.tags{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.tags::-webkit-scrollbar{display:none}.tags button{flex:none}}
 .rk-basis{font-size:var(--step-small);color:var(--muted);margin:0 0 26px}
 .hdr{display:grid;grid-template-columns:80px 76px minmax(0,1fr) 110px 120px 130px;gap:20px;padding:0 0 12px;font-size:var(--step-small);color:var(--muted)}
 .hdr span:nth-child(n+4){text-align:right}
