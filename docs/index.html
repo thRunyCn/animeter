@@ -13,16 +13,22 @@
 <meta property="og:url" content="https://thrunycn.github.io/animeter/">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-root="" data-route="">
-<div class="bg" aria-hidden="true"><i class="focus"></i><i class="tone-a"></i><i class="tone-b"></i><i class="kata r">アニメーター</i><i class="kata l">見る・止める・続ける</i></div>
+
 <div class="wrap">
   <div id="app">
-      <header class="mast"><h1><a href="./">Ani<span class="num">meter</span></a></h1><a class="back melink" href="profile/">My list</a></header>
+      <header class="mast"><a class="wm" href="./">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump="">Rankings</a><a class="back melink" href="profile/">My list</a></nav></header>
+      <section class="hero">
+    <div class="lead"><a class="p p1" href="fmab/"><figure><div class="fr"><img src="covers/fmab-anime.jpg" alt="Fullmetal Alchemist: Brotherhood" loading="lazy"></div><figcaption><b>2</b>Fullmetal Alchemist: Brotherhood · 9.0</figcaption></figure></a>
+    <div class="head"><h1>Where people stop watching</h1>
+      <p class="lede">1000 anime ranked, with the episode viewers really quit, the arcs worth skipping and the chapter where the manga picks up.</p>
+      <a class="go" href="#rankings" data-jump="">See the rankings</a></div></div>
+    <a class="p p2" href="frieren/"><figure><div class="fr"><img src="covers/frieren-anime.jpg" alt="Frieren: Beyond Journey's End"></div><figcaption><b>1</b>Frieren: Beyond Journey's End · 9.1</figcaption></figure></a><a class="p p3" href="hxh/"><figure><div class="fr"><img src="covers/hxh-anime.jpg" alt="Hunter × Hunter" loading="lazy"></div><figcaption><b>3</b>Hunter × Hunter · 8.9</figcaption></figure></a>
+  </section>
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -315,7 +321,7 @@
       </a></div></div>
         <nav class="pager" id="pager" aria-label="Pages"><button type="button" data-page="0" disabled="" aria-label="Previous page">←</button><button type="button" data-page="1" aria-current="page">1</button><button type="button" data-page="2">2</button><span class="info">…</span><button type="button" data-page="40">40</button><button type="button" data-page="2" aria-label="Next page">→</button><span class="info">1–25 of 1000</span></nav>
       </section></div>
-  <footer>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</footer>
+  <footer><p>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</p><span class="fwm" aria-hidden="true">Animeter</span></footer>
 </div>
 <script src="config.js"></script>
 <script src="data.js"></script>

@@ -75,9 +75,9 @@ for t in top:
 src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
-backdrop = re.search(r'(<div class="bg".*?</div>)', src, re.S).group(1)
+_bd = re.search(r'(<div class="bg".*?</div>)', src, re.S); backdrop = _bd.group(1) if _bd else ""
 footer = re.search(r"(<footer>.*?</footer>)", src, re.S).group(1)
-fonts = "\n".join(l for l in src.splitlines() if "fonts.g" in l)
+fonts = "\n".join(l for l in src.splitlines() if "fonts.g" in l or "fontshare" in l)
 try: cfg = json.load(open(os.path.join(WEB, "config.json")))
 except FileNotFoundError: cfg = {"supabaseUrl": "", "supabaseKey": ""}
 

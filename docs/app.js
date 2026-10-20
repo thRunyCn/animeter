@@ -98,13 +98,26 @@ function ranked(){
   if (tags.size) out.forEach((x,i)=>x.rank=i+1);   // a search keeps overall rank; a tag filter ranks within the tag
   return out;
 }
+function heroHTML(){
+  const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,3);
+  if (top.length<3) return "";
+  const print = (s, cls, n) => `<a class="p ${cls}" href="${seriesHref(s.id)}"><figure><div class="fr"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="${esc(s.title)}" ${n===1?"":'loading="lazy"'} onerror="this.style.visibility='hidden'"></div><figcaption><b>${n}</b>${esc(s.title)} · ${fmt10(s.score/10)}</figcaption></figure></a>`;
+  return `<section class="hero">
+    <div class="lead">${print(top[1],"p1",2)}
+    <div class="head"><h1>Where people stop watching</h1>
+      <p class="lede">${SERIES.length} anime ranked, with the episode viewers really quit, the arcs worth skipping and the chapter where the manga picks up.</p>
+      <a class="go" href="#rankings" data-jump>See the rankings</a></div></div>
+    ${print(top[0],"p2",1)}${print(top[2],"p3",3)}
+  </section>`;
+}
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
   const app = document.getElementById("app");
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     app.innerHTML = `
-      <header class="mast"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back melink" href="${profileHref()}">My list</a></header>
+      <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a><a class="back melink" href="${profileHref()}">My list</a></nav></header>
+      ${heroHTML()}
       <section id="rankings">
         <div class="rk-head">
           <h2>Rankings</h2>
@@ -122,6 +135,7 @@ function renderHome(){
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
       </section>`;
+    app.querySelectorAll("[data-jump]").forEach(a=>a.addEventListener("click", e=>{ e.preventDefault(); document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"}); }));
     document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
     document.getElementById("sort").addEventListener("change", e=>{ sortBy=e.target.value; page=1; renderRankings(); });
     document.getElementById("tags").addEventListener("click", e=>{
