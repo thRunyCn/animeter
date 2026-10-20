@@ -308,7 +308,7 @@ form.vote label{display:flex;flex-direction:column;gap:8px;font-size:var(--step-
 .prof h3 .label{font-size:var(--step-small);letter-spacing:0}
 
 /* footer: a jade field, the name returns full width, cropped at its foot */
-footer{margin:clamp(120px,16vh,200px) calc(-1 * var(--m)) 0;padding:64px var(--m) 0;background:var(--accent);color:var(--accent-ink);font-size:var(--step-small);overflow:hidden}
+footer{margin:clamp(120px,16vh,200px) calc(-1 * var(--m)) 0;padding:56px var(--m) 8px;background:var(--accent);color:var(--accent-ink);font-size:var(--step-small);overflow:hidden}
 footer p{max-width:60ch;margin:0 0 56px;font-size:var(--step-body)}
 footer .fwm{display:block;font-family:var(--f-display);font-size:21.5vw;line-height:.74;letter-spacing:-.05em;margin:0 0 -.06em -.04em;white-space:nowrap;user-select:none}
 
