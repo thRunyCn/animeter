@@ -436,7 +436,7 @@ function render(){
   _site = null;
   const r = route();
   document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
-  const tone = r.id && byId[r.id].tone;
+  const tone = r.id ? byId[r.id].tone : !r.profile && SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score)[0]?.tone;   // home takes the #1 series' colour
   if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
   if (r.profile) renderProfile(); else if (r.id) renderSeries(r.id, r.tab); else renderHome();
 }
