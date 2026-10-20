@@ -1,4 +1,5 @@
-"""Download quiz images and pack them into JPEG atlases plus data.json."""
+"""Download character portraits and banners, pack them into JPEG atlases, and write data.json.
+Covers are separate files; see fetch_covers.py."""
 import io, json, os, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageOps
@@ -31,7 +32,6 @@ def pack(name, items, cell, cols, rows):
         sheet.save(os.path.join(OUT, f'{name}{a // per}.jpg'), quality=78, optimize=True, progressive=True)
     return refs
 
-covers = pack('c', [os.path.join(ROOT, 'web/covers', r['id'] + '-anime.jpg') for r in raw], (240, 340), 10, 6)
 chars = [c for r in raw for c in r['chars']]
 crefs = pack('p', [get(c['img']) for c in chars], (180, 252), 10, 10)
 for c, ref in zip(chars, crefs): c['at'] = ref
@@ -39,9 +39,8 @@ withb = [r for r in raw if r['banner']]
 brefs = pack('b', [get(r['banner']) for r in withb], (640, 160), 2, 20)
 for r, ref in zip(withb, brefs): r['bn'] = ref
 data = []
-for r, ref in zip(raw, covers):
+for r in raw:
     d = {k: r[k] for k in ('id', 'title', 'jp', 'year', 'score', 'genres', 'studio', 'pop')}
-    d['cv'] = ref
     if r.get('bn'): d['bn'] = r['bn']
     d['ch'] = [{'n': c['name'], 'at': c['at']} for c in r['chars']]
     data.append(d)
