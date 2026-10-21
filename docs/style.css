@@ -233,6 +233,9 @@ select:hover,input:hover{background:var(--surface-2)}
 .signin{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:36px}
 .signin .label{flex-basis:100%;color:var(--ink)}
 .signin input{flex:1 1 220px;max-width:320px}
+.otp{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;align-items:center}
+.otp input{font:inherit;font-size:var(--step-body);letter-spacing:.2em;padding:11px 12px;border:0;background:var(--surface);color:var(--ink);width:10ch}
+.otp .err{flex-basis:100%;color:var(--coral)}
 .who{font-size:var(--step-small);color:var(--muted);margin-top:14px}
 .who button{all:unset;cursor:pointer;text-decoration:underline;margin-left:8px}
 .note{font-size:var(--step-small);color:var(--muted);margin-top:10px;min-height:1.2em}

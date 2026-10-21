@@ -238,6 +238,9 @@ select:hover,input:hover{background:var(--surface-2)}
 .signin{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:36px}
 .signin .label{flex-basis:100%;color:var(--ink)}
 .signin input{flex:1 1 220px;max-width:320px}
+.otp{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;align-items:center}
+.otp input{font:inherit;font-size:var(--step-body);letter-spacing:.2em;padding:11px 12px;border:0;background:var(--surface);color:var(--ink);width:10ch}
+.otp .err{flex-basis:100%;color:var(--coral)}
 .who{font-size:var(--step-small);color:var(--muted);margin-top:14px}
 .who button{all:unset;cursor:pointer;text-decoration:underline;margin-left:8px}
 .note{font-size:var(--step-small);color:var(--muted);margin-top:10px;min-height:1.2em}
@@ -770,7 +773,7 @@ function renderSeries(id, tab){
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
     + `<details class="wl"><summary class="${mine.status ? "on "+mine.status : ""}">${mine.status ? "✓ "+esc(STATUSES.find(([k])=>k===mine.status)[1]) : "+ Add to list"}</summary><div class="menu" role="group" aria-label="Add ${esc(s.title)} to your list">${STATUSES.map(([k,l])=>`<button type="button" data-st="${k}" aria-pressed="${mine.status===k}">${l}</button>`).join("")}${mine.status ? `<button type="button" class="rm" data-st="${mine.status}">Remove from list</button>` : ""}</div></details><div class="note" id="wnote"></div>`
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
-  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link, no password.</span>
+  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
@@ -864,7 +867,7 @@ function renderProfile(){
   const card = s => `<a class="card" href="${seriesHref(s.id)}">${coverHTML(s,"anime")}<span class="t">${esc(s.title)}</span>
       <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(" · "))}</span><span>${Number.isInteger(mine[s.id].rating)?"★ "+mine[s.id].rating:""}</span></span></a>`;
   const signedOut = STATIC ? !myId : dbState==="off";
-  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to keep a list. We email you a link, no password.</span>
+  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to keep a list. We email you a link and a code, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const body = signedOut ? (gate || `<div class="empty"><b>Lists aren't available in this view.</b>${STATIC ? "Voting and lists aren't switched on yet." : "Sign in to claude.ai to keep a list."}</div>`)
     : dbState==="loading" && !ids.length ? `<div class="empty"><b>Loading your list…</b></div>`
@@ -906,6 +909,7 @@ async function sbToken(){
 const jwtClaims = t => { try { return JSON.parse(atob(t.split(".")[1].replace(/-/g,"+").replace(/_/g,"/"))); } catch(_) { return {}; } };
 const sbEmail = () => (sbSession && (sbSession.user?.email || jwtClaims(sbSession.access_token).email)) || "your email";
 function sbFromLink(){                       // the emailed link lands here with the session in the hash
+  if (toChrome()) return null;
   const h = new URLSearchParams(location.hash.slice(1));
   if (h.get("error_description")) { history.replaceState(null, "", location.pathname + location.search); return h.get("error_description"); }
   if (!h.get("access_token")) return null;
@@ -921,8 +925,33 @@ async function sendLink(e){
   btn.disabled = true; note.textContent = "Sending…";
   try{
     await sbFetch("/auth/v1/otp?redirect_to=" + encodeURIComponent(location.origin + location.pathname), {method:"POST", body:JSON.stringify({email, create_user:true})});
-    note.textContent = `Check ${email} for a sign-in link. Open it on this device.`;
+    note.innerHTML = `<span>Check ${esc(email)}. Tap the link, or type the code from the email here so you stay in this browser.</span>
+      <form class="otp" id="otpform"><input id="otp" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" maxlength="10" placeholder="Code" aria-label="Code from the email" required><button class="btn" type="submit">Sign in</button></form>`;
+    document.getElementById("otpform").addEventListener("submit", ev=>verifyCode(ev, email));
+    document.getElementById("otp").focus();
   }catch(err){ btn.disabled = false; note.textContent = err.status===429 ? "Too many sign-in emails just now. Try again in a few minutes." : "Couldn't send the email. Check the address and try again."; }
+}
+async function verifyCode(e, email){
+  e.preventDefault();
+  const f = e.target, token = f.querySelector("#otp").value.replace(/\D/g,""), btn = f.querySelector("button");
+  btn.disabled = true;
+  try{
+    const sess = await sbFetch("/auth/v1/verify", {method:"POST", body:JSON.stringify({type:"email", email, token})});
+    sbKeep({...sess, expires_at: sess.expires_at || Math.floor(Date.now()/1000) + (sess.expires_in||3600)});
+    _site = null; render();
+  }catch(err){ btn.disabled = false;
+    const old = f.querySelector(".err") || f.appendChild(Object.assign(document.createElement("span"), {className:"err"}));
+    old.textContent = err.status===429 ? "Too many tries. Wait a minute." : "That code didn't work. Check it, or ask for a new email."; }
+}
+/* Mail apps open the link in their own browser, so the sign-in stays there. On Android, hand the link to Chrome. */
+function toChrome(){
+  const ua = navigator.userAgent;
+  if (/Android/.test(ua) && /; wv\)|GSA\/|FB_IAB|Instagram/.test(ua) && location.hash.includes("access_token")){
+    const u = location.href.replace(/^https?:\/\//, "");
+    location.replace(`intent://${u}#Intent;scheme=https;package=com.android.chrome;end`);
+    return true;
+  }
+  return false;
 }
 function signOut(){
   sbSession = null; myId = null;
