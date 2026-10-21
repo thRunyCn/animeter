@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"no6","series":{"run":[{"t":"No.6","y":2011,"f":"TV","e":11,"from":1,"airing":false,"url":"https://anilist.co/anime/10161"}],"extras":[],"src":[["AniList","https://anilist.co/anime/10161"],["MyAnimeList","https://myanimelist.net/anime/10161"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

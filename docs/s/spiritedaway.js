@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"spiritedaway","series":{"src":[["AniList","https://anilist.co/anime/199"],["MyAnimeList","https://myanimelist.net/anime/199"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

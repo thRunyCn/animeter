@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"blood","series":{"run":[{"t":"Blood+","y":2005,"f":"TV","e":50,"from":1,"airing":false,"url":"https://anilist.co/anime/150"}],"extras":[],"src":[["AniList","https://anilist.co/anime/150"],["MyAnimeList","https://myanimelist.net/anime/150"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

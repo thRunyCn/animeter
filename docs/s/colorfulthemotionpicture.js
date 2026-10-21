@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"colorfulthemotionpicture","series":{"src":[["AniList","https://anilist.co/anime/8142"],["MyAnimeList","https://myanimelist.net/anime/8142"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

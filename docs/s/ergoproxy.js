@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"ergoproxy","series":{"run":[{"t":"Ergo Proxy","y":2006,"f":"TV","e":23,"from":1,"airing":false,"url":"https://anilist.co/anime/790"}],"extras":[],"src":[["AniList","https://anilist.co/anime/790"],["MyAnimeList","https://myanimelist.net/anime/790"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

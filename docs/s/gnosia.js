@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"gnosia","series":{"run":[{"t":"GNOSIA","y":2025,"f":"TV","e":21,"from":1,"airing":false,"url":"https://anilist.co/anime/185116"}],"extras":[],"src":[["AniList","https://anilist.co/anime/185116"],["MyAnimeList","https://myanimelist.net/anime/60427"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

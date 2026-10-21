@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"paprika","series":{"src":[["AniList","https://anilist.co/anime/1943"],["MyAnimeList","https://myanimelist.net/anime/1943"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

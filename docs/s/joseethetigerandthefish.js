@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"joseethetigerandthefish","series":{"src":[["AniList","https://anilist.co/anime/113596"],["MyAnimeList","https://myanimelist.net/anime/40787"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

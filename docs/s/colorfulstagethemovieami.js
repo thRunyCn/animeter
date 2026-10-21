@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"colorfulstagethemovieami","series":{"src":[["AniList","https://anilist.co/anime/179878"],["MyAnimeList","https://myanimelist.net/anime/59419"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

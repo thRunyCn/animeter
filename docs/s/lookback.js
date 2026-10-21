@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"lookback","series":{"src":[["AniList","https://anilist.co/anime/174788"],["MyAnimeList","https://myanimelist.net/anime/58125"],["Source on AniList","https://anilist.co/manga/136807"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 1 chapters, finished.","seasons":[]},"details":null};

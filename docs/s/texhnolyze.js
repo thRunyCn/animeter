@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"texhnolyze","series":{"run":[{"t":"Texhnolyze","y":2003,"f":"TV","e":22,"from":1,"airing":false,"url":"https://anilist.co/anime/26"}],"extras":[],"src":[["AniList","https://anilist.co/anime/26"],["MyAnimeList","https://myanimelist.net/anime/26"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

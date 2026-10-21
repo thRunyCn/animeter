@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"summerghost","series":{"src":[["AniList","https://anilist.co/anime/130050"],["MyAnimeList","https://myanimelist.net/anime/48171"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

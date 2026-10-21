@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"intotheforestoffireflies","series":{"src":[["AniList","https://anilist.co/anime/10408"],["MyAnimeList","https://myanimelist.net/anime/10408"],["Source on AniList","https://anilist.co/manga/33282"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 4 chapters, finished.","seasons":[]},"details":null};

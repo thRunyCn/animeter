@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"overtake","series":{"run":[{"t":"OVERTAKE!","y":2023,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/160515"}],"extras":[],"src":[["AniList","https://anilist.co/anime/160515"],["MyAnimeList","https://myanimelist.net/anime/54301"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

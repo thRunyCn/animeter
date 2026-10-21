@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thesecretworldofarrietty","series":{"src":[["AniList","https://anilist.co/anime/7711"],["MyAnimeList","https://myanimelist.net/anime/7711"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

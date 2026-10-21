@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"awhiskeraway","series":{"src":[["AniList","https://anilist.co/anime/114963"],["MyAnimeList","https://myanimelist.net/anime/41168"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

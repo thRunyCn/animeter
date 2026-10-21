@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"jinrohthewolfbrigade","series":{"src":[["AniList","https://anilist.co/anime/570"],["MyAnimeList","https://myanimelist.net/anime/570"]],"note":"We haven't checked where the anime ends in the manga yet.","seasons":[]},"details":null};

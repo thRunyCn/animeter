@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"gunbuster","series":{"src":[["AniList","https://anilist.co/anime/949"],["MyAnimeList","https://myanimelist.net/anime/949"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

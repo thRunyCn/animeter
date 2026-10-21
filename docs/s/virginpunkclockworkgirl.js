@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"virginpunkclockworkgirl","series":{"src":[["AniList","https://anilist.co/anime/181449"],["MyAnimeList","https://myanimelist.net/anime/59848"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

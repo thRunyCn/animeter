@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"finalfantasyviiadventchi","series":{"src":[["AniList","https://anilist.co/anime/2952"],["MyAnimeList","https://myanimelist.net/anime/2952"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"ponyo","series":{"src":[["AniList","https://anilist.co/anime/2890"],["MyAnimeList","https://myanimelist.net/anime/2890"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

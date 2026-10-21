@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"inthiscorneroftheworld","series":{"src":[["AniList","https://anilist.co/anime/15227"],["MyAnimeList","https://myanimelist.net/anime/15227"],["Source on AniList","https://anilist.co/manga/41243"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 48 chapters, finished.","seasons":[]},"details":null};

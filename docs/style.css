@@ -240,6 +240,23 @@ select:hover,input:hover{background:var(--surface-2)}
 .who button{all:unset;cursor:pointer;text-decoration:underline;margin-left:8px}
 .note{font-size:var(--step-small);color:var(--muted);margin-top:10px;min-height:1.2em}
 
+.related{margin-top:96px}
+.related h2{font-size:clamp(26px,2.4vw,36px);margin:0 0 24px}
+.related .wall{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.src a{display:inline-block;padding:6px 0}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 28px}
+footer nav a{padding:6px 0}
+.hub{padding:24px 0 40px}
+.hub h1{font-size:var(--step-head);margin:12px 0 14px}
+.hub .lede{max-width:62ch;margin:0 0 28px}
+.hub .letters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 28px}
+.hub .letters a{min-width:40px;height:40px;display:grid;place-items:center;background:var(--surface);text-decoration:none}
+.hub h2{font-size:clamp(24px,2.2vw,32px);margin:40px 0 12px;scroll-margin-top:20px}
+.hub ul{list-style:none;padding:0;margin:0;columns:3 260px;column-gap:32px}
+.hub li{padding:6px 0;break-inside:avoid}
+.hub li small{color:var(--muted);margin-left:6px}
+.hub .prose{max-width:66ch}
+.hub .prose h2{margin-top:32px}
 /* tabs: plain words, a filled bar under the current one */
 .tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-top:0;padding-bottom:2px}
 .tabs::-webkit-scrollbar{display:none}

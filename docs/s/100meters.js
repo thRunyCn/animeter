@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"100meters","series":{"src":[["AniList","https://anilist.co/anime/177687"],["MyAnimeList","https://myanimelist.net/anime/58919"],["Source on AniList","https://anilist.co/manga/105180"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 42 chapters, finished.","seasons":[]},"details":null};

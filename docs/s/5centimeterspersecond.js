@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"5centimeterspersecond","series":{"src":[["AniList","https://anilist.co/anime/1689"],["MyAnimeList","https://myanimelist.net/anime/1689"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

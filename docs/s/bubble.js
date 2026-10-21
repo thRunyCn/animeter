@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"bubble","series":{"run":[{"t":"Bubble","y":2022,"f":"ONA","e":1,"from":1,"airing":false,"url":"https://anilist.co/anime/142455"}],"extras":[],"src":[["AniList","https://anilist.co/anime/142455"],["MyAnimeList","https://myanimelist.net/anime/50549"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

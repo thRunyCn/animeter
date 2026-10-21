@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"iwanttoeatyourpancreas","series":{"src":[["AniList","https://anilist.co/anime/99750"],["MyAnimeList","https://myanimelist.net/anime/36098"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

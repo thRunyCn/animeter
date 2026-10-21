@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"metropolis","series":{"src":[["AniList","https://anilist.co/anime/522"],["MyAnimeList","https://myanimelist.net/anime/522"],["Source on AniList","https://anilist.co/manga/31436"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 1 chapters, finished.","seasons":[]},"details":null};

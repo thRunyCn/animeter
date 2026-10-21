@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"91days","series":{"run":[{"t":"91 Days","y":2016,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/21711"}],"extras":[],"src":[["AniList","https://anilist.co/anime/21711"],["MyAnimeList","https://myanimelist.net/anime/32998"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

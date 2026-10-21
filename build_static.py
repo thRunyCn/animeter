@@ -87,7 +87,7 @@ css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
 _bd = re.search(r'(<div class="bg".*?</div>)', src, re.S); backdrop = _bd.group(1) if _bd else ""
 footer = re.search(r"(<footer>.*?</footer>)", src, re.S).group(1)
-fonts = "\n".join(l for l in src.splitlines() if "fonts.g" in l or "fontshare" in l)
+fonts = "\n".join(l for l in src.splitlines() if "fonts.g" in l or "fontshare" in l).replace('rel="stylesheet" href="https://api.fontshare', 'rel="stylesheet" media="print" onload="this.media=\'all\'" href="https://api.fontshare')
 try: cfg = json.load(open(os.path.join(WEB, "config.json")))
 except FileNotFoundError: cfg = {"supabaseUrl": "", "supabaseKey": ""}
 
@@ -113,37 +113,60 @@ def handoff(s):
 
 def has_seasons(s): return len(s.get("run") or []) > 1 or bool(s.get("extras"))
 
+def short(t, n=34):
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(":,-") + "…"
+
 def meta_for(s, tab):
+    """Title (aim: under 60 characters) and description per page."""
     t, d = s["title"], details.get(s["id"])
     n_arcs, fc, te = len((d or {}).get("arcs") or []), filler_count(d), total_eps(s, d)
     ho = handoff(s)
-    if tab == "overview" and s.get("unchecked") and not s.get("mangaChecked"):
-        title = f"{t}: is it worth watching? Ratings and drop points"
-        desc = f"Where people drop {t} and where it clicks, from viewer reports, plus Animeter ratings and lists."
-    elif tab == "overview":
-        title = f"{t}: is it worth watching? Drop points and where the manga continues"
-        desc = f"Where people drop {t} and where it clicks, by episode, from viewer reports. Plus the {t} filler list, arcs and where to continue in the source after the anime."
+    st = short(t)
+    if tab == "overview":
+        title = f"Is {st} worth watching? Drop points"
+        desc = f"Is {t} worth watching? See where viewers drop it and where it clicks, by episode" + (f", and where the anime ends in the source ({ho})." if ho else ".")
     elif tab == "seasons":
         run = s.get("run") or []
-        title = f"{t} seasons in order: all {len(run)} seasons and {s['eps']} episodes" if len(run) > 1 else f"{t} in order, with films and specials"
+        title = f"{st} watch order: {len(run)} seasons" if len(run) > 1 else f"{st} watch order with films"
         desc = f"Every season of {t} in watch order with episode counts and years" + (", plus films and OVAs." if s.get("extras") else ".")
     elif tab == "arcs":
-        title = f"{t} arcs in order, with episodes and chapters"
-        desc = f"All {n_arcs} {t} arcs in order with episode and manga chapter ranges and which arcs are filler." if n_arcs else f"{t} arcs in order."
+        title = f"{st} arcs in order with episodes"
+        desc = f"All {n_arcs} {t} arcs in order with episode and chapter ranges, and which arcs are filler." if n_arcs else f"{t} arcs in order."
     elif tab == "events":
-        title = f"{t} key events by arc (spoilers hidden)"
+        title = f"{st} key events by arc, spoiler-free"
         desc = f"The important moments of every {t} arc, blurred until you tap them so you can check without spoilers."
     elif tab == "filler":
-        title = f"{t} filler list: {fc} filler episodes to skip" if fc else f"{t} filler list: no filler episodes"
-        desc = (f"{t} has {fc} filler episodes out of {te}. Episode-by-episode filler, mixed and canon guide with a skip list." if fc
-                else f"{t} has no filler episodes. Episode-by-episode canon guide for all {te} episodes.")
+        title = f"{st} filler list: {fc} episodes to skip" if fc else f"Does {st} have filler? No"
+        desc = (f"{t} has {fc} filler episodes out of {te}. Every filler, mixed and canon episode, plus a copyable skip list." if fc
+                else f"{t} has no filler episodes. All {te} episodes are canon.")
     else:
-        title = f"Where does the {t} anime end? Continue from {ho}" if ho else f"Where does the {t} anime end in the source?"
-        desc = (f"The {t} anime ends around {ho}. Where to start reading after the anime, season by season." if ho
-                else f"Where the {t} anime leaves off in the source material, season by season.")
-    return title + " · Animeter", desc
+        title = f"Where does the {st} anime end? {ho[0].upper()+ho[1:]}" if ho else f"Where does the {st} anime end?"
+        desc = (f"The {t} anime ends around {ho}. Here is where to start reading after the anime, season by season." if ho
+                else f"Where the {t} anime leaves off in the source material.")
+    if len(title) <= 48: title += " · Animeter"
+    return title, desc
 
-def page(route, root, title, desc, url, image=None):
+def thin(s, tab):
+    """Pages with no real answer yet: kept for visitors, hidden from search."""
+    if tab == "manga": return not handoff(s) and not s.get("endWord") in ("Fully adapted", "Own ending")
+    return False
+
+def jsonld(s, tab, url, title, desc):
+    crumbs = [("Animeter", SITE), (s["title"], SITE + s["id"] + "/")] + ([(dict(TABS)[tab], url)] if tab != "overview" else [])
+    g = [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]},
+         {"@type": "Movie" if s.get("format") == "MOVIE" else "TVSeries", "name": s["title"], "url": SITE + s["id"] + "/",
+          **({"alternateName": s["jp"]} if s.get("jp") else {}), **({"startDate": str(s["year"])} if s.get("year") else {}),
+          **({"numberOfEpisodes": s["eps"]} if s.get("eps") and s.get("format") != "MOVIE" else {}),
+          "genre": s.get("genres") or [], "image": f'{SITE}covers/{s["id"]}-anime.jpg', "inLanguage": "ja"}]
+    ho = handoff(s)
+    if tab == "manga" and ho:
+        g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f'Where does the {s["title"]} anime end in the {KIND_WORD.get(s.get("kind"), "source")}?',
+                  "acceptedAnswer": {"@type": "Answer", "text": desc}}]})
+    return '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+def footer_for(root): return footer.replace("{ROOT}", root or "./").replace('<span id="fetched"></span>', f'<span id="fetched">{fetched}</span>')
+
+def page(route, root, title, desc, url, image=None, head="", body="", scripts=""):
     img = f'\n<meta property="og:image" content="{SITE}{image}">' if image else ""
     return f"""<!doctype html>
 <html lang="en">
@@ -160,17 +183,19 @@ def page(route, root, title, desc, url, image=None):
 <meta property="og:url" content="{url}">{img}
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="{root}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{root}favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{root}apple-touch-icon.png">{head}
 {fonts}
 <link rel="stylesheet" href="{root}style.css">
 </head>
 <body data-root="{root}" data-route="{route}">
 {backdrop}
 <div class="wrap">
-  <div id="app"></div>
-  {footer}
+  <div id="app">{body}</div>
+  {footer_for(root)}
 </div>
 <script src="{root}config.js"></script>
-<script src="{root}data.js"></script>
+<script src="{root}data.js"></script>{scripts}
 <script src="{root}app.js"></script>
 </body>
 </html>
@@ -181,18 +206,28 @@ os.makedirs(DIST)
 w = lambda rel, text: (os.makedirs(os.path.dirname(os.path.join(DIST, rel)) or DIST, exist_ok=True), open(os.path.join(DIST, rel), "w").write(text))
 w("style.css", css.strip() + "\n")
 w("app.js", js.strip() + "\n")
-w("data.js", "window.ANIMETER=" + json.dumps({"series": series, "details": details, "fetched": fetched, "tagcat": TAGCAT}, ensure_ascii=False, separators=(",", ":")) + ";\n")
+HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
+tagnames = sorted({t for x in series for t in x.get("tags") or []})
+tix = {t: i for i, t in enumerate(tagnames)}
+slim = [{**{k: v for k, v in x.items() if k not in HEAVY and k != "tags"}, "tg": [tix[t] for t in x.get("tags") or []]} for x in series]
+w("data.js", "window.ANIMETER=" + json.dumps({"series": slim, "details": {}, "fetched": fetched, "tagcat": TAGCAT, "tagnames": tagnames}, ensure_ascii=False, separators=(",", ":")) + ";\n")
+for x in series:     # the heavy part of each series, loaded only on its own pages
+    w(f's/{x["id"]}.js', "window.ANIMETER_FULL=" + json.dumps({"id": x["id"], "series": {k: x[k] for k in HEAVY if k in x}, "details": details.get(x["id"])}, ensure_ascii=False, separators=(",", ":")) + ";\n")
 w("config.js", "window.ANIMETER_CONFIG=" + json.dumps(cfg) + ";\n")
-w("favicon.svg", '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#16181d"/><text x="32" y="47" font-family="Arial Black,Impact,sans-serif" font-size="40" text-anchor="middle" fill="#e8336f">A</text></svg>\n')
+FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#161c1a"/><text x="32" y="47" font-family="Arial Black,Impact,sans-serif" font-size="40" text-anchor="middle" fill="#9fc7b8">A</text></svg>\n'
+w("favicon.svg", FAV)
+for f in ("favicon-32.png", "apple-touch-icon.png"):
+    if os.path.exists(os.path.join(WEB, f)): shutil.copy(os.path.join(WEB, f), os.path.join(DIST, f))
 w(".nojekyll", "")
-w("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
+w("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /profile/\nSitemap: {SITE}sitemap.xml\n")
+if os.path.exists(os.path.join(WEB, "CNAME")): shutil.copy(os.path.join(WEB, "CNAME"), os.path.join(DIST, "CNAME"))
 
 urls = []
-home_desc = f"Rankings of {len(series)} anime with filler lists, arcs, key events, where people drop each show and which manga chapter to continue from after the anime."
-w("index.html", page("", "", "Animeter · Anime rankings, filler lists and where to continue the manga", home_desc, SITE))
+home_desc = f"Rankings of {len(series)} anime with filler lists, watch order, arcs, where viewers drop each show and which manga chapter to read after the anime."
+w("index.html", page("", "", "Animeter: anime filler lists and where the manga continues", home_desc, SITE))
 urls.append(SITE)
 w("profile/index.html", page("profile", "../", "My list · Animeter", "Your anime list on Animeter: watching, completed, plan to watch, dropped and your ratings.", SITE + "profile/").replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
-w("404.html", page("", "/" + SITE.split("/", 3)[3] if SITE.count("/") > 3 else "/", "Page not found · Animeter", home_desc, SITE))
+w("404.html", page("", "/" + SITE.split("/", 3)[3] if SITE.count("/") > 3 else "/", "Page not found · Animeter", home_desc, SITE).replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
 for s in series:
     for k, _ in TABS:
         rel = f'{s["id"]}/' + ("" if k == "overview" else f"{k}/")
@@ -201,9 +236,54 @@ for s in series:
         if s.get("unchecked") and k in ("arcs", "events", "filler"): continue     # nothing to show yet
         if k == "seasons" and not has_seasons(s): continue
         img = f'covers/{s["id"]}-anime.jpg' if os.path.exists(os.path.join(COVERS, f'{s["id"]}-anime.jpg')) else None
-        w(rel + "index.html", page(s["id"] + ("" if k == "overview" else "." + k), root, title, desc, SITE + rel, img))
-        urls.append(SITE + rel)
+        head = "\n" + jsonld(s, k, SITE + rel, title, desc) + ('\n<meta name="robots" content="noindex,follow">' if thin(s, k) else "")
+        w(rel + "index.html", page(s["id"] + ("" if k == "overview" else "." + k), root, title, desc, SITE + rel, img, head=head,
+                                   scripts=f'\n<script src="{root}s/{s["id"]}.js"></script>'))
+        if not thin(s, k): urls.append(SITE + rel)
+
+# hub pages: plain HTML lists so every series is two clicks from home
+def hub(rel, title, desc, inner):
+    root = "../" * rel.count("/")
+    body = (f'<header class="mast"><a class="wm" href="{root or "./"}">Animeter</a><nav class="mastnav"><a class="back" href="{root}anime/">A–Z</a>'
+            f'<a class="back" href="{root}genre/">Genres</a><a class="back" href="{root or "./"}">Rankings</a></nav></header><main class="hub">{inner}</main>')
+    w(rel + "index.html", page("static", root, title, desc, SITE + rel, body=body))
+    urls.append(SITE + rel)
+def li(x, root):
+    sc = f'{x["score"] / 10:.1f}' if x.get("score") else ""
+    return f'<li><a href="{root}{x["id"]}/">{html.escape(x["title"])}</a><small>{x.get("year") or ""}{" · " + sc if sc else ""}</small></li>'
+by_letter = {}
+for x in sorted(series, key=lambda x: x["title"].lower()):
+    c = x["title"][0].upper(); c = c if c.isalpha() else "#"
+    by_letter.setdefault(c, []).append(x)
+hub("anime/", "All anime A–Z · Animeter", f"Every one of the {len(series)} anime on Animeter, A to Z, with filler lists, watch order and where the manga continues.",
+    f'<h1>All anime, A to Z</h1><p class="lede">{len(series)} series. Each has where viewers drop it, its seasons in order and, where we have it, the filler list and the chapter to read after the anime.</p>'
+    + '<nav class="letters" aria-label="Letters">' + "".join(f'<a href="#l-{c}">{c}</a>' for c in by_letter) + "</nav>"
+    + "".join(f'<h2 id="l-{c}">{c}</h2><ul>' + "".join(li(x, "../") for x in xs) + "</ul>" for c, xs in by_letter.items()))
+slug = lambda g: re.sub(r"[^a-z0-9]+", "-", g.lower()).strip("-")
+groups = {}
+for x in series:
+    for g in (x.get("genres") or []) + [t for t in x.get("tags") or [] if TAGCAT.get(t) in ("Audience", "Themes", "Setting")]:
+        groups.setdefault(g, []).append(x)
+groups = {g: xs for g, xs in groups.items() if len(xs) >= 12}
+for g, xs in groups.items():
+    xs = sorted(xs, key=lambda x: -(x.get("score") or 0))
+    hub(f"genre/{slug(g)}/", f"Best {g} anime, ranked · Animeter", f"The {len(xs)} best-rated {g} anime by AniList score, with filler lists and where the manga continues.",
+        f'<h1>Best {html.escape(g)} anime</h1><p class="lede">{len(xs)} {html.escape(g)} anime ranked by AniList score.</p><ol class="hubrank">' + "".join(li(x, "../../") for x in xs) + "</ol>")
+hub("genre/", "Anime by genre and theme · Animeter", "Browse anime by genre, audience and theme: shounen, seinen, isekai, romance, action and more.",
+    '<h1>Anime by genre and theme</h1><p class="lede">Pick a genre, an audience such as Shounen, or a theme such as Isekai.</p><ul>'
+    + "".join(f'<li><a href="{slug(g)}/">{html.escape(g)}</a><small>{len(xs)}</small></li>' for g, xs in sorted(groups.items(), key=lambda kv: -len(kv[1]))) + "</ul>")
+hub("about/", "About Animeter", "What Animeter is, where its data comes from and how to get in touch.",
+    '<div class="prose"><h1>About Animeter</h1><p>Animeter is a fan-made guide to anime. It ranks about a thousand series and answers the questions people ask before and after watching: is it worth pushing through, which episodes are filler, what order to watch in, and which chapter of the manga or light novel to read once the anime ends.</p>'
+    '<h2>Where the data comes from</h2><p>Scores, popularity, genres, tags, covers and season lists come from <a href="https://anilist.co">AniList</a>. Filler and arc data and the manga hand-off points are researched per series, and each series page links its sources. Drop points and Animeter ratings come from visitors who sign in and report.</p>'
+    '<h2>Corrections and contact</h2><p>Spotted a wrong chapter or a missing series? Open an issue on <a href="https://github.com/thRunyCn/animeter/issues">GitHub</a>.</p></div>')
+hub("privacy/", "Privacy policy · Animeter", "What Animeter stores about you and why.",
+    f'<div class="prose"><h1>Privacy policy</h1><p>Last updated {fetched}.</p>'
+    '<h2>What we store</h2><p>If you sign in, we store your email address and the ratings, list entries and drop-point reports you make, so you can see and change them. Sign-in and storage are handled by <a href="https://supabase.com">Supabase</a>. Your ratings and reports are counted, without your email, in the public totals on each series page.</p>'
+    '<h2>On your device</h2><p>Your browser keeps your sign-in session and a few display choices (such as list or cover view) in local storage. We use no tracking cookies and no advertising.</p>'
+    '<h2>Your choices</h2><p>You can sign out at any time. To have your account and data deleted, open an issue on <a href="https://github.com/thRunyCn/animeter/issues">GitHub</a> or write to the address you signed in with and ask; we delete it within 30 days.</p>'
+    '<h2>Others</h2><p>Covers are served from this site. Fonts load from Fontshare. Links to AniList, MyAnimeList and other sources take you to sites with their own policies.</p></div>')
+
 w("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-  + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
+  + "".join(f"  <url><loc>{u}</loc><lastmod>{fetched}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 if os.path.isdir(COVERS): shutil.copytree(COVERS, os.path.join(DIST, "covers"))
 print(f"web/dist: {len(urls)} pages for {SITE}, supabase {'on' if cfg.get('supabaseUrl') else 'off'}")

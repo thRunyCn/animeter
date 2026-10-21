@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"erin","series":{"run":[{"t":"Erin","y":2009,"f":"TV","e":50,"from":1,"airing":false,"url":"https://anilist.co/anime/5420"}],"extras":[],"src":[["AniList","https://anilist.co/anime/5420"],["MyAnimeList","https://myanimelist.net/anime/5420"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"brokenblade","series":{"src":[["AniList","https://anilist.co/anime/6772"],["MyAnimeList","https://myanimelist.net/anime/6772"],["Source on AniList","https://anilist.co/manga/34608"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 104 chapters, finished.","seasons":[]},"details":null};

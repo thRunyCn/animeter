@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"belle","series":{"src":[["AniList","https://anilist.co/anime/127271"],["MyAnimeList","https://myanimelist.net/anime/44807"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

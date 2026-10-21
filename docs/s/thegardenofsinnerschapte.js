@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thegardenofsinnerschapte","series":{"src":[["AniList","https://anilist.co/anime/4282"],["MyAnimeList","https://myanimelist.net/anime/4282"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

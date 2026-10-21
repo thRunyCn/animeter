@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"gungrave","series":{"run":[{"t":"Gungrave","y":2003,"f":"TV","e":26,"from":1,"airing":false,"url":"https://anilist.co/anime/267"}],"extras":[],"src":[["AniList","https://anilist.co/anime/267"],["MyAnimeList","https://myanimelist.net/anime/267"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

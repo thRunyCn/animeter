@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"lonelycastleinthemirror","series":{"src":[["AniList","https://anilist.co/anime/145739"],["MyAnimeList","https://myanimelist.net/anime/51116"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

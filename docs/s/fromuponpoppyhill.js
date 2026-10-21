@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"fromuponpoppyhill","series":{"src":[["AniList","https://anilist.co/anime/10029"],["MyAnimeList","https://myanimelist.net/anime/10029"],["Source on AniList","https://anilist.co/manga/53614"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 8 chapters, finished.","seasons":[]},"details":null};

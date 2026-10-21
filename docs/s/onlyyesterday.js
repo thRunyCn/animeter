@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"onlyyesterday","series":{"src":[["AniList","https://anilist.co/anime/1029"],["MyAnimeList","https://myanimelist.net/anime/1029"],["Source on AniList","https://anilist.co/manga/48010"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 24 chapters, finished.","seasons":[]},"details":null};

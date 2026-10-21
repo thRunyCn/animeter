@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"legendofthegalacticheroe","series":{"src":[["AniList","https://anilist.co/anime/820"],["MyAnimeList","https://myanimelist.net/anime/820"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

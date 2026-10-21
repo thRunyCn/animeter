@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"whenmarniewasthere","series":{"src":[["AniList","https://anilist.co/anime/20555"],["MyAnimeList","https://myanimelist.net/anime/21557"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

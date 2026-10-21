@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"whisperoftheheart","series":{"src":[["AniList","https://anilist.co/anime/585"],["MyAnimeList","https://myanimelist.net/anime/585"],["Source on AniList","https://anilist.co/manga/35228"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 4 chapters, finished.","seasons":[]},"details":null};

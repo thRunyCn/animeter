@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thewindrises","series":{"src":[["AniList","https://anilist.co/anime/16662"],["MyAnimeList","https://myanimelist.net/anime/16662"],["Source on AniList","https://anilist.co/manga/76318"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 9 chapters, finished.","seasons":[]},"details":null};

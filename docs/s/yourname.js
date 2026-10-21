@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"yourname","series":{"src":[["AniList","https://anilist.co/anime/21519"],["MyAnimeList","https://myanimelist.net/anime/32281"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

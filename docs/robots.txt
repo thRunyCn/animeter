@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /profile/
 Sitemap: https://thrunycn.github.io/animeter/sitemap.xml

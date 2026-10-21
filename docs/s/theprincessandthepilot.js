@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"theprincessandthepilot","series":{"src":[["AniList","https://anilist.co/anime/9000"],["MyAnimeList","https://myanimelist.net/anime/9000"],["Source on AniList","https://anilist.co/manga/47285"]],"note":"We haven't checked where the anime ends in the light novel yet. The light novel is 13 chapters, finished.","seasons":[]},"details":null};

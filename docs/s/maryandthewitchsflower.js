@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"maryandthewitchsflower","series":{"src":[["AniList","https://anilist.co/anime/97981"],["MyAnimeList","https://myanimelist.net/anime/34541"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

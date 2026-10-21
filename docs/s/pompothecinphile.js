@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"pompothecinphile","series":{"src":[["AniList","https://anilist.co/anime/99900"],["MyAnimeList","https://myanimelist.net/anime/41361"],["Source on AniList","https://anilist.co/manga/105451"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 12 chapters, finished.","seasons":[]},"details":null};

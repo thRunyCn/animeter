@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"maboroshi","series":{"src":[["AniList","https://anilist.co/anime/136149"],["MyAnimeList","https://myanimelist.net/anime/49303"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"omoiomowarefurifurare","series":{"src":[["AniList","https://anilist.co/anime/109125"],["MyAnimeList","https://myanimelist.net/anime/39753"],["Source on AniList","https://anilist.co/manga/86219"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 48 chapters, finished.","seasons":[]},"details":null};

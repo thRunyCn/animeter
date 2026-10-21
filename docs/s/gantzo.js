@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"gantzo","series":{"src":[["AniList","https://anilist.co/anime/21496"],["MyAnimeList","https://myanimelist.net/anime/32071"],["Source on AniList","https://anilist.co/manga/30564"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 383 chapters, finished.","seasons":[]},"details":null};

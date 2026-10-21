@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"penguindrum","series":{"run":[{"t":"Penguindrum","y":2011,"f":"TV","e":24,"from":1,"airing":false,"url":"https://anilist.co/anime/10721"}],"extras":[],"src":[["AniList","https://anilist.co/anime/10721"],["MyAnimeList","https://myanimelist.net/anime/10721"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"persona3themovie4wintero","series":{"src":[["AniList","https://anilist.co/anime/21248"],["MyAnimeList","https://myanimelist.net/anime/31149"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

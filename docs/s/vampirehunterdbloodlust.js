@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"vampirehunterdbloodlust","series":{"src":[["AniList","https://anilist.co/anime/543"],["MyAnimeList","https://myanimelist.net/anime/543"],["Source on AniList","https://anilist.co/manga/31360"]],"note":"We haven't checked where the anime ends in the light novel yet. The light novel is still running.","seasons":[]},"details":null};

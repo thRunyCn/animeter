@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"howlsmovingcastle","series":{"src":[["AniList","https://anilist.co/anime/431"],["MyAnimeList","https://myanimelist.net/anime/431"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

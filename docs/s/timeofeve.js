@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"timeofeve","series":{"run":[{"t":"Time of Eve","y":2008,"f":"ONA","e":6,"from":1,"airing":false,"url":"https://anilist.co/anime/3167"}],"extras":[],"src":[["AniList","https://anilist.co/anime/3167"],["MyAnimeList","https://myanimelist.net/anime/3167"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

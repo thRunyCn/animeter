@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"recreators","series":{"run":[{"t":"Re:CREATORS","y":2017,"f":"TV","e":22,"from":1,"airing":false,"url":"https://anilist.co/anime/97980"}],"extras":[],"src":[["AniList","https://anilist.co/anime/97980"],["MyAnimeList","https://myanimelist.net/anime/34561"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

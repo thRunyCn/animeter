@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"helloworld","series":{"src":[["AniList","https://anilist.co/anime/106240"],["MyAnimeList","https://myanimelist.net/anime/38816"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

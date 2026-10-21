@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"decadence","series":{"run":[{"t":"DECA-DENCE","y":2020,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/110353"}],"extras":[],"src":[["AniList","https://anilist.co/anime/110353"],["MyAnimeList","https://myanimelist.net/anime/40056"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

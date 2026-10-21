@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"mirai","series":{"src":[["AniList","https://anilist.co/anime/100749"],["MyAnimeList","https://myanimelist.net/anime/36936"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

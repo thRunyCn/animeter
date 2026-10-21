@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thelegendofhei","series":{"src":[["AniList","https://anilist.co/anime/112023"],["MyAnimeList","https://myanimelist.net/anime/40211"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

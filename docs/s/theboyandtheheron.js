@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"theboyandtheheron","series":{"src":[["AniList","https://anilist.co/anime/109979"],["MyAnimeList","https://myanimelist.net/anime/36699"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

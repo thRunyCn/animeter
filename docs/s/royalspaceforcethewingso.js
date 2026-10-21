@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"royalspaceforcethewingso","series":{"src":[["AniList","https://anilist.co/anime/1034"],["MyAnimeList","https://myanimelist.net/anime/1034"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,6 +1,12 @@
 /* Two builds share this file: the claude.ai artifact (hash routes, built-in db) and the standalone
    web/ site (one static page per route, data.js + config.js alongside, Supabase for reports). */
 const STATIC = !!window.ANIMETER;
+if (STATIC && window.ANIMETER.tagnames){            // slim index: tags as numbers, heavy fields arrive per series (s/<id>.js)
+  const tn = window.ANIMETER.tagnames;
+  window.ANIMETER.series.forEach(x=>{ x.tags = (x.tg||[]).map(i=>tn[i]); delete x.tg; });
+}
+if (STATIC && window.ANIMETER_FULL){ const f = window.ANIMETER_FULL, x = window.ANIMETER.series.find(x=>x.id===f.id);
+  if (x) Object.assign(x, f.series, {_full:true}); window.ANIMETER.details[f.id] = f.details; }
 const SERIES = STATIC ? window.ANIMETER.series : /*SERIES*/[];
 const DETAILS = STATIC ? window.ANIMETER.details : /*DETAILS*/{};
 const FETCHED = STATIC ? window.ANIMETER.fetched : /*FETCHED*/"";
@@ -26,9 +32,9 @@ const fmt10 = n => (Math.round(n*10)/10).toFixed(1);
 const rangeTxt = r => !r || r[0]==null ? "" : r[1]==null ? `${r[0]}+` : r[0]===r[1] ? String(r[0]) : `${r[0]}–${r[1]}`;
 const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-function coverHTML(s, kind, tag, extra=""){
+function coverHTML(s, kind, tag, extra="", eager=false){
   return `<div class="cover" style="--tone:${s.tone||'#4a5160'}">
-    <img src="${ROOT}covers/${s.id}-${kind}.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('nocover')">
+    <img src="${ROOT}covers/${s.id}-${kind}.jpg" alt="${eager ? esc(s.title)+" "+kind+" cover" : ""}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} width="460" height="649" onerror="this.parentNode.classList.add('nocover')">
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
@@ -40,6 +46,7 @@ const handoffShort = s => s.format==="MOVIE" && s.unchecked ? "Film" : s.uncheck
 function route(){
   const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
   if (h === "profile") return {id:null, profile:true};
+  if (h === "static") return {id:null, static:true};
   const [id, tab] = h.split(".");
   if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) && tabShown(byId[id], tab) ? tab : "overview"};
   return {id:null};
@@ -390,6 +397,15 @@ function paneManga(s){
     ${s.seasons?.length ? timelineHTML(s) : ""}${srcHTML(s.src)}`;
 }
 
+/* "More like this": shared genres and tags, weighted by score; gives every series page links to six others */
+function relatedHTML(s){
+  const mine = new Set([...(s.genres||[]), ...(s.tags||[]).slice(0,6)]);
+  const top = SERIES.filter(x=>x.id!==s.id).map(x=>{
+    let n = 0; (x.genres||[]).forEach(g=>mine.has(g)&&n++); (x.tags||[]).slice(0,6).forEach(g=>mine.has(g)&&(n+=1.5));
+    return [n + (x.score||0)/12 + Math.log10(x.popularity||10)/2, x];
+  }).sort((a,b)=>b[0]-a[0]).slice(0,6).map(([,x])=>x);
+  return `<section class="related"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime")}<span class="t">${esc(x.title)}</span><span class="m"><span>${esc([x.year,(x.genres||[])[0]].filter(Boolean).join(" · "))}</span><span>${x.score?fmt10(x.score/10):""}</span></span></a>`).join("")}</div></section>`;
+}
 function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
   const mine = (myId && reports[myId] && reports[myId][id]) || {};
@@ -404,12 +420,12 @@ function renderSeries(id, tab){
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   document.getElementById("app").innerHTML = `
-    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
+    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
     <section class="sh">
-      <div class="covers">${coverHTML(s,"anime","Anime")}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
+      <div class="covers">${coverHTML(s,"anime","Anime","",true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
         <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
-        <h2>${esc(s.title)}</h2><div class="jp">${esc(s.jp||"")}</div>
+        <h1>${esc(s.title)}</h1><div class="jp">${esc(s.jp||"")}</div>
         <div class="facts">
           ${s.score?`<div><span class="label">AniList</span><b class="gold">${fmt10(s.score/10)}</b></div>`:""}
           <div><span class="label">Animeter</span><b class="gold">${ss.votes ? fmt10(ss.avg) : "—"}</b></div>
@@ -420,7 +436,8 @@ function renderSeries(id, tab){
       </div>
     </section>
     <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
-    <section class="pane">${pane}</section>`;
+    <section class="pane">${pane}</section>
+    ${relatedHTML(s)}`;
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
@@ -435,9 +452,10 @@ function renderSeries(id, tab){
 function render(){
   _site = null;
   const r = route();
-  document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
+  if (!STATIC) document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
   const tone = r.id && byId[r.id].tone;
   if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
+  if (r.static) return;
   if (r.profile) renderProfile(); else if (r.id) renderSeries(r.id, r.tab); else renderHome();
 }
 document.getElementById("fetched").textContent = FETCHED || "recently";
@@ -504,7 +522,7 @@ function renderProfile(){
        ${STATUSES.map(([k,l])=>{ const xs = by(k); return xs.length ? `<h3>${l} <span class="label">${xs.length}</span></h3><div class="wall">${xs.map(card).join("")}</div>` : ""; }).join("")}
        ${rated.length ? `<h3>Your ratings <span class="label">${rated.length}</span></h3><div class="wall">${rated.map(card).join("")}</div>` : ""}`;
   document.getElementById("app").innerHTML = `
-    <header class="mast compact"><h1><a href="${homeHref()}">Ani<span class="num">meter</span></a></h1><a class="back" href="${homeHref()}">← Rankings</a></header>
+    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><a class="back" href="${homeHref()}">← Rankings</a></header>
     <section class="prof"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section>`;
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
@@ -633,16 +651,25 @@ function routeFromPath(path){
 function navTo(url, push){
   const r = routeFromPath(url.pathname);
   if (r===null) return false;
+  const tid = r.split(".")[0];
+  if (tid && tid!=="profile" && !(byId[tid] && byId[tid]._full)) return false;    // other series: its data loads with its page
   const prev = route();
   document.body.dataset.route = r;
   if (push) history.pushState({}, "", url.pathname + url.hash);
   render();
+  fetch(url.pathname).then(x=>x.text()).then(t=>{                       // keep title, description and canonical true to the page
+    const h = new DOMParser().parseFromString(t, "text/html");
+    document.title = h.title;
+    ["meta[name=description]","link[rel=canonical]","meta[name=robots]"].forEach(q=>{ const a = document.head.querySelector(q), b = h.head.querySelector(q);
+      if (a && b) a.replaceWith(b.cloneNode()); else if (a) a.remove(); else if (b) document.head.appendChild(b.cloneNode()); });
+  }).catch(()=>{});
   const now = route();
   if (url.hash==="#rankings"){ const el=document.getElementById("rankings"); if (el) el.scrollIntoView(); }
   else if (!(prev.id && prev.id===now.id)) window.scrollTo({top:0, behavior:"auto"});
   return true;
 }
 if (STATIC){
+  document.querySelectorAll("footer a, .mast a").forEach(a=>a.setAttribute("href", a.href));   // static links stay right after the URL changes in place
   document.addEventListener("click", e=>{
     if (e.defaultPrevented || e.button!==0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     const a = e.target.closest("a[href]"); if (!a || a.target || a.hasAttribute("download")) return;

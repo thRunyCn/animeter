@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thegirlwholeaptthroughti","series":{"src":[["AniList","https://anilist.co/anime/2236"],["MyAnimeList","https://myanimelist.net/anime/2236"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"tekkonkinkreet","series":{"src":[["AniList","https://anilist.co/anime/2154"],["MyAnimeList","https://myanimelist.net/anime/2154"],["Source on AniList","https://anilist.co/manga/30442"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 33 chapters, finished.","seasons":[]},"details":null};

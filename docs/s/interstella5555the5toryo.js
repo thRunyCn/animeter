@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"interstella5555the5toryo","series":{"src":[["AniList","https://anilist.co/anime/731"],["MyAnimeList","https://myanimelist.net/anime/731"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thetunneltosummertheexit","series":{"src":[["AniList","https://anilist.co/anime/142769"],["MyAnimeList","https://myanimelist.net/anime/50593"],["Source on AniList","https://anilist.co/manga/117853"]],"note":"We haven't checked where the anime ends in the light novel yet. The light novel is 6 chapters, finished.","seasons":[]},"details":null};

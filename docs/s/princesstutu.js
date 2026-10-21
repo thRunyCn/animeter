@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"princesstutu","series":{"run":[{"t":"Princess Tutu","y":2002,"f":"TV","e":38,"from":1,"airing":false,"url":"https://anilist.co/anime/721"}],"extras":[],"src":[["AniList","https://anilist.co/anime/721"],["MyAnimeList","https://myanimelist.net/anime/721"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

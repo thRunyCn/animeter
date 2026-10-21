@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"heroicage","series":{"run":[{"t":"Heroic Age","y":2007,"f":"TV","e":26,"from":1,"airing":false,"url":"https://anilist.co/anime/2002"}],"extras":[],"src":[["AniList","https://anilist.co/anime/2002"],["MyAnimeList","https://myanimelist.net/anime/2002"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

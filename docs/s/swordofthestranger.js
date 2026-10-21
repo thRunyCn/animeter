@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"swordofthestranger","series":{"src":[["AniList","https://anilist.co/anime/2418"],["MyAnimeList","https://myanimelist.net/anime/2418"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

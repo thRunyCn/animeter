@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"kanon2006","series":{"run":[{"t":"Kanon (2006)","y":2006,"f":"TV","e":24,"from":1,"airing":false,"url":"https://anilist.co/anime/1530"}],"extras":[],"src":[["AniList","https://anilist.co/anime/1530"],["MyAnimeList","https://myanimelist.net/anime/1530"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

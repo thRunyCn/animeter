@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"ghoststories","series":{"run":[{"t":"Ghost Stories","y":2000,"f":"TV","e":19,"from":1,"airing":false,"url":"https://anilist.co/anime/1281"}],"extras":[],"src":[["AniList","https://anilist.co/anime/1281"],["MyAnimeList","https://myanimelist.net/anime/1281"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"thecaseofhanaalice","series":{"src":[["AniList","https://anilist.co/anime/20908"],["MyAnimeList","https://myanimelist.net/anime/27969"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

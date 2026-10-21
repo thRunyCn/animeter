@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"promare","series":{"src":[["AniList","https://anilist.co/anime/99425"],["MyAnimeList","https://myanimelist.net/anime/35848"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"kaiba","series":{"run":[{"t":"Kaiba","y":2008,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/3701"}],"extras":[],"src":[["AniList","https://anilist.co/anime/3701"],["MyAnimeList","https://myanimelist.net/anime/3701"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

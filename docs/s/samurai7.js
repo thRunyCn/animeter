@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"samurai7","series":{"run":[{"t":"Samurai 7","y":2004,"f":"TV","e":26,"from":1,"airing":false,"url":"https://anilist.co/anime/166"}],"extras":[],"src":[["AniList","https://anilist.co/anime/166"],["MyAnimeList","https://myanimelist.net/anime/166"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"maquiawhenthepromisedflo","series":{"src":[["AniList","https://anilist.co/anime/99457"],["MyAnimeList","https://myanimelist.net/anime/35851"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

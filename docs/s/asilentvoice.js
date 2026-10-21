@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"asilentvoice","series":{"src":[["AniList","https://anilist.co/anime/20954"],["MyAnimeList","https://myanimelist.net/anime/28851"],["Source on AniList","https://anilist.co/manga/85135"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 64 chapters, finished.","seasons":[]},"details":null};

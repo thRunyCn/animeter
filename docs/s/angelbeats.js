@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"angelbeats","series":{"run":[{"t":"Angel Beats!","y":2010,"f":"TV","e":13,"from":1,"airing":false,"url":"https://anilist.co/anime/6547"}],"extras":[],"src":[["AniList","https://anilist.co/anime/6547"],["MyAnimeList","https://myanimelist.net/anime/6547"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

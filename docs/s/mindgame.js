@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"mindgame","series":{"src":[["AniList","https://anilist.co/anime/875"],["MyAnimeList","https://myanimelist.net/anime/875"],["Source on AniList","https://anilist.co/manga/98138"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 15 chapters, finished.","seasons":[]},"details":null};

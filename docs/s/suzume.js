@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"suzume","series":{"src":[["AniList","https://anilist.co/anime/142770"],["MyAnimeList","https://myanimelist.net/anime/50594"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

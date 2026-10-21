@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"casshernsins","series":{"run":[{"t":"Casshern Sins","y":2008,"f":"TV","e":24,"from":1,"airing":false,"url":"https://anilist.co/anime/4981"}],"extras":[],"src":[["AniList","https://anilist.co/anime/4981"],["MyAnimeList","https://myanimelist.net/anime/4981"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

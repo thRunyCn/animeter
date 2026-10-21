@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"ghosthound","series":{"run":[{"t":"Ghost Hound","y":2007,"f":"TV","e":22,"from":1,"airing":false,"url":"https://anilist.co/anime/2596"}],"extras":[],"src":[["AniList","https://anilist.co/anime/2596"],["MyAnimeList","https://myanimelist.net/anime/2596"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

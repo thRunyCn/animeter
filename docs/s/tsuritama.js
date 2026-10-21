@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"tsuritama","series":{"run":[{"t":"Tsuritama","y":2012,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/12883"}],"extras":[],"src":[["AniList","https://anilist.co/anime/12883"],["MyAnimeList","https://myanimelist.net/anime/12883"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

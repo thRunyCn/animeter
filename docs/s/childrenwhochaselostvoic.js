@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"childrenwhochaselostvoic","series":{"src":[["AniList","https://anilist.co/anime/9760"],["MyAnimeList","https://myanimelist.net/anime/9760"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

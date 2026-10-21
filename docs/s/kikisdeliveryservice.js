@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"kikisdeliveryservice","series":{"src":[["AniList","https://anilist.co/anime/512"],["MyAnimeList","https://myanimelist.net/anime/512"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

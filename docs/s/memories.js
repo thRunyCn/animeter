@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"memories","series":{"src":[["AniList","https://anilist.co/anime/1462"],["MyAnimeList","https://myanimelist.net/anime/1462"],["Source on AniList","https://anilist.co/manga/102011"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 16 chapters, finished.","seasons":[]},"details":null};

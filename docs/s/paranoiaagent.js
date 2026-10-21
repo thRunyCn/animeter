@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"paranoiaagent","series":{"run":[{"t":"Paranoia Agent","y":2004,"f":"TV","e":13,"from":1,"airing":false,"url":"https://anilist.co/anime/323"}],"extras":[],"src":[["AniList","https://anilist.co/anime/323"],["MyAnimeList","https://myanimelist.net/anime/323"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"puparia","series":{"run":[{"t":"PUPARIA","y":2020,"f":"ONA","e":1,"from":1,"airing":false,"url":"https://anilist.co/anime/126287"}],"extras":[],"src":[["AniList","https://anilist.co/anime/126287"],["MyAnimeList","https://myanimelist.net/anime/44059"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"bluegiant","series":{"src":[["AniList","https://anilist.co/anime/140499"],["MyAnimeList","https://myanimelist.net/anime/50183"],["Source on AniList","https://anilist.co/manga/86890"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 80 chapters, finished.","seasons":[]},"details":null};

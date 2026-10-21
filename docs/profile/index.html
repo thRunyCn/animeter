@@ -14,18 +14,20 @@
 <meta property="og:url" content="https://thrunycn.github.io/animeter/profile/">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body data-root="../" data-route="profile">
 
 <div class="wrap">
   <div id="app">
-    <header class="mast compact"><h1><a href="../">Ani<span class="num">meter</span></a></h1><a class="back" href="../">← Rankings</a></header>
+    <header class="mast compact"><a class="wm" href="../">Animeter</a><a class="back" href="../">← Rankings</a></header>
     <section class="prof"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p><form class="signin" id="signin"><span class="label">Sign in to keep a list. We email you a link and a code, no password.</span>
       <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></section></div>
-  <footer><p>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</p></footer>
+  <footer><nav aria-label="Site"><a href="../anime/">All anime A–Z</a><a href="../genre/">Genres</a><a href="../about/">About</a><a href="../privacy/">Privacy</a></nav><p>Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched">2026-10-18</span>. Arc, filler and manga data link their sources on each series page.</p></footer>
 </div>
 <script src="../config.js"></script>
 <script src="../data.js"></script>

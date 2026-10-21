@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"tometheonewholovedyou","series":{"src":[["AniList","https://anilist.co/anime/139311"],["MyAnimeList","https://myanimelist.net/anime/49835"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

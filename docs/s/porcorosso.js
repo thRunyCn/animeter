@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"porcorosso","series":{"src":[["AniList","https://anilist.co/anime/416"],["MyAnimeList","https://myanimelist.net/anime/416"],["Source on AniList","https://anilist.co/manga/54979"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 3 chapters, finished.","seasons":[]},"details":null};
