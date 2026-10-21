@@ -1,0 +1,1344 @@
+[
+ {
+  "id": "themisfitofdemonkingacad",
+  "unit": "volume",
+  "next": 7,
+  "seasons": [
+   {
+    "l": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
+    "end": null
+   },
+   {
+    "l": "The Misfit of Demon King Academy Ⅱ: History's Strongest Demon King Reincarnates and Goes to School with His Descendants",
+    "end": null
+   },
+   {
+    "l": "The Misfit of Demon King Academy II (Cour 2)",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 Part 2 adapts through light novel 6 (per site numbering); start at novel 7.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-misfit-of-demon-king-academy-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "teasingmastertakagisan",
+  "unit": "chapter",
+  "next": 1,
+  "seasons": [
+   {
+    "l": "Teasing Master Takagi-san",
+    "end": null
+   },
+   {
+    "l": "Teasing Master Takagi-san Season 2",
+    "end": null
+   },
+   {
+    "l": "Teasing Master Takagi-san Season 3",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime reorders, skips and adds chapters, so there is no clean stopping point; start from chapter 1 of the now-finished manga.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-skilled-teaser-takagi-san-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "myhappymarriage",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "My Happy Marriage",
+    "end": 2
+   },
+   {
+    "l": "My Happy Marriage Season 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends with light novel 2; Season 2's end volume was not confirmed by a source.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-my-happy-marriage-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thewrongwaytousehealingm",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "The Wrong Way to Use Healing Magic",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The 2024 anime covers the first two light novels; start at novel 3.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-wrong-way-to-use-healing-magic-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "keepyourhandsoffeizouken",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Keep Your Hands Off Eizouken!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where the 12-episode anime stops in the ongoing manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thegeniusprincesguidetor",
+  "unit": "volume",
+  "next": 6,
+  "seasons": [
+   {
+    "l": "The Genius Prince's Guide to Raising a Nation Out of Debt",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Pick up the light novel at volume 6 after the anime.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-genius-princes-guide-to-raising-a-nation-out-of-debt-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cardcaptorsakura",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Cardcaptor Sakura",
+    "end": null
+   },
+   {
+    "l": "Cardcaptor Sakura: Clear Card",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The original anime covers the original manga; Clear Card loosely adapts roughly the first 24-28 chapters of the Clear Card manga (sources disagree).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Cardcaptor_Sakura:_Clear_Card"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "secretsofthesilentwitch",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "Secrets of the Silent Witch",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts light novels 1-3; start at volume 4.",
+  "src": [
+   [
+    "AnimeNextSeason",
+    "https://animenextseason.com/secrets-of-the-silent-witch-season-2/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "marriagetoxin",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "MARRIAGETOXIN",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched. Season 2 is set for January 2027.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fromoldcountrybumpkintom",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "From Old Country Bumpkin to Master Swordsman",
+    "end": null
+   },
+   {
+    "l": "From Old Country Bumpkin to Master Swordsman II",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theossannewbieadventurer",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Start the light novel at volume 5 after the anime.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-ossan-newbie-adventurer-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "villainesslevel99imaybet",
+  "unit": "volume",
+  "next": 2,
+  "seasons": [
+   {
+    "l": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first light novel; start at volume 2.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-villainess-level-99-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theheroiclegendofarslan",
+  "unit": "volume",
+  "next": 7,
+  "seasons": [
+   {
+    "l": "The Heroic Legend of Arslan",
+    "end": null
+   },
+   {
+    "l": "The Heroic Legend of Arslan: Dust Storm Dance",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "After Dust Storm Dance, start Tanaka's light novel at volume 7; the guide's Arakawa manga pointer (chapter 107) looks unreliable.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-heroic-legend-of-arslan-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "popteamepic",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Pop Team Epic",
+    "end": null
+   },
+   {
+    "l": "Pop Team Epic Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Gag 4-koma adapted non-linearly as sketches; there is no single stopping point.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mybrideisamermaid",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "My Bride is a Mermaid",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsurune",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tsurune",
+    "end": null
+   },
+   {
+    "l": "Tsurune - The Linking Shot -",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found mapping either season to the three-volume novel series.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelegendofthelegendaryh",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Legend of the Legendary Heroes",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The guide says the anime adapts the first series; continue with the sequel, The Great Legend of the Legendary Heroes.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-legend-of-the-legendary-heroes-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "humanityhasdeclined",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "Humanity Has Declined",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts stories from light novels 1-4 out of order; volumes 5-6 are unadapted (MangaShed's article is inconsistent and also suggests volume 7).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-humanity-has-declined-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ariatheanimation",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "ARIA The ANIMATION",
+    "end": null
+   },
+   {
+    "l": "ARIA The NATURAL",
+    "end": null
+   },
+   {
+    "l": "ARIA The ORIGINATION",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Listed as a complete manga adaptation; ARIA The Origination concludes the story.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-manga-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theweakesttamerbeganajou",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "The Weakest Tamer Began a Journey to Pick Up Trash",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Start the light novel at volume 3 after the anime.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-weakest-tamer-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "goodluckgirl",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Good Luck Girl!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "squidgirl",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Squid Girl",
+    "end": null
+   },
+   {
+    "l": "Squid Girl 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic gag manga adapted out of order; no clear stopping point was found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tatsukifujimoto1726",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tatsuki Fujimoto 17-26",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The eight-episode ONA adapts all eight one-shots in the 17-26 anthology.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "spacebrothers",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Space Brothers",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The 99-episode anime left a large part of the now-finished manga unadapted; no source gave the exact chapter (guide page unfetchable).",
+  "src": [
+   [
+    "ComicBook.com",
+    "https://comicbook.com/anime/news/18-years-later-one-of-the-greatest-manga-of-all-time-ends-without-an-anime-sequel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "onlyyesterday",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Only Yesterday",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The film adapts childhood episodes from the manga and adds an original adult framing story; read the short manga from the start.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Only_Yesterday_(1991_film)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bokurano",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Bokurano",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The director deliberately changed the plot, so the anime diverges from the manga; read the manga from the start.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Bokurano"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dropkickonmydevil",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Dropkick on My Devil!",
+    "end": null
+   },
+   {
+    "l": "Dropkick on My Devil! Episode 12",
+    "end": null
+   },
+   {
+    "l": "Dropkick on My Devil!! Dash",
+    "end": null
+   },
+   {
+    "l": "Dropkick on My Devil!!! X",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where the anime stops in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "chapter",
+  "next": 17,
+  "seasons": [
+   {
+    "l": "KAIJU GIRL CARAMELISE",
+    "end": 16
+   }
+  ],
+  "status": "continue",
+  "note": "Mystiqora says the anime ends at the end of volume 4; start at volume 5, chapter 17 (unverified).",
+  "src": [
+   [
+    "Mystiqora",
+    "https://mystiqora.com/?p=22155"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "studentcouncilsdiscretio",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Student Council's Discretion",
+    "end": null
+   },
+   {
+    "l": "Student Council's Discretion Level 2",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Listed as a complete light novel adaptation.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-light-novel-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "saintceciliapastorlawren",
+  "unit": "chapter",
+  "next": 42,
+  "seasons": [
+   {
+    "l": "Saint Cecilia & Pastor Lawrence",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 41 (with skipped and reordered chapters); start at chapter 42 in volume 6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-saint-cecilia-and-pastor-lawrence-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Firefly Wedding",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime premiered in October 2026 and is still airing; the manga's main story ended at chapter 79.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Firefly_Wedding"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "eventhestudentcouncilhas",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Even the Student Council Has Its Holes!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where the anime stops in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shugochara",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Shugo Chara!",
+    "end": null
+   },
+   {
+    "l": "Shugo Chara!! Doki",
+    "end": null
+   },
+   {
+    "l": "Shugo Chara! Party!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintseiyaknightsofthezo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Saint Seiya: Knights of the Zodiac",
+    "end": null
+   },
+   {
+    "l": "Saint Seiya Omega",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Listed as a complete adaptation: the TV series covers the manga through the Poseidon arc and the Hades arc follows in OVAs; Omega is an original sequel.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-manga-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tsubasareservoirchronicl",
+  "unit": "chapter",
+  "next": 107,
+  "seasons": [
+   {
+    "l": "Tsubasa RESERVoir CHRoNiCLE",
+    "end": null
+   },
+   {
+    "l": "Tsubasa RESERVoir CHRoNiCLE 2nd Season",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "TV canon ends with the Lecourt arc (season 2 episode 16, then filler); start at volume 14, chapter 107, and the OVAs cover later arcs.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-tsubasa-reservoir-chronicles-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "senpaiisanotokonoko",
+  "unit": "chapter",
+  "next": 78,
+  "seasons": [
+   {
+    "l": "Senpai is an Otokonoko",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Start the manga at chapter 78 after the anime (numbering may vary because of bonus chapters).",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-senpai-is-an-otokonoko-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thetooperfectsainttossed",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "migidali",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Migi&Dali",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime adapts the complete manga.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-manga-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sacrificialprincessandth",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Sacrificial Princess and the King of Beasts",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 24-episode anime adapts the complete manga.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-manga-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thelaidoffcheatgrantingm",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime premiered on October 6, 2026 and is still airing.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-reveals-main-trailer-new-visual-cast-october-6-premiere/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "lupinthe3rd",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Lupin the 3rd",
+    "end": null
+   },
+   {
+    "l": "Lupin the 3rd Part 2",
+    "end": null
+   },
+   {
+    "l": "Lupin the Third Part 3",
+    "end": null
+   },
+   {
+    "l": "Lupin the 3rd Part IV",
+    "end": null
+   },
+   {
+    "l": "Lupin the 3rd Part V",
+    "end": null
+   },
+   {
+    "l": "LUPIN THE 3rd PART 6",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The TV parts tell mostly anime-original episodic stories, so there is no single stopping point; read the manga from the start.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theslayers",
+  "unit": "volume",
+  "next": 9,
+  "seasons": [
+   {
+    "l": "The Slayers",
+    "end": 3
+   },
+   {
+    "l": "The Slayers Next",
+    "end": 8
+   },
+   {
+    "l": "The Slayers Try",
+    "end": null
+   },
+   {
+    "l": "The Slayers Revolution",
+    "end": null
+   },
+   {
+    "l": "The Slayers Evolution-R",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime loosely covers novels 1-8 (Try is largely anime-original); the second arc starts at novel 9, though reading from the start is recommended.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-slayers-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "wavelistentome",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Wave, Listen to Me!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "takemybrotheraway",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Take My Brother Away!",
+    "end": null
+   },
+   {
+    "l": "Take My Brother Away! 2",
+    "end": null
+   },
+   {
+    "l": "Take My Brother Away! 3",
+    "end": null
+   },
+   {
+    "l": "Take My Brother Away! 4",
+    "end": null
+   },
+   {
+    "l": "Ani ni Tsukeru Kusuri wa Nai! 5",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Short-form gag adaptation; no source maps the seasons to chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintoniisan",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Saint☆Onii-san",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 2013 film is an episodic adaptation; no source states which volumes it draws on.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Saint_Young_Men"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "amanchu",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Amanchu!",
+    "end": null
+   },
+   {
+    "l": "Amanchu! ~Advance~",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where Amanchu! Advance stops in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "cityhunter",
+  "unit": "chapter",
+  "next": 169,
+  "seasons": [
+   {
+    "l": "City Hunter",
+    "end": 62
+   },
+   {
+    "l": "City Hunter 2",
+    "end": 115
+   },
+   {
+    "l": "City Hunter 3",
+    "end": 115
+   },
+   {
+    "l": "City Hunter '91",
+    "end": 168
+   }
+  ],
+  "status": "continue",
+  "note": "After City Hunter '91, resume at volume 31, chapter 169; the anime skips chapters and adds filler, and Angel Dust (2023) loosely covers the final arc.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-city-hunter-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "birdythemightydecode",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Birdy the Mighty: Decode",
+    "end": null
+   },
+   {
+    "l": "Birdy the Mighty: Decode 02",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Decode is a loose reimagining of the manga with its own scripts; no source maps it to chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Birdy_the_Mighty"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "withyouandtherain",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "With You and the Rain",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dragonquesttheadventureo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Dragon Quest: The Adventure of Dai",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 100-episode 2020 series adapts the entire manga through the final battle with Vearn.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Dragon_Quest:_The_Adventure_of_Dai_(2020_TV_series)"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nialistonthemercilessmai",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Nia Liston: The Merciless Maiden",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The two-cour anime began airing in October 2026, so no end point exists yet.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Nia_Liston:_The_Merciless_Maiden"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "fuutopi",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Fuuto PI",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where the anime stops in the manga; a film continues directly after the final episode.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Fuuto_PI"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "detectivesthesedaysarecr",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Detectives These Days Are Crazy!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yokohamashoppinglog",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "Yokohama Shopping Log",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The 1998 OVA adapts selected events from volumes 1-3; start at volume 4 (the 2002 OVA covers parts of volumes 7-9).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Yokohama_Kaidashi_Kik%C5%8D"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "getbackers",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "GetBackers",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "End point not confirmed; the guide page could not be fetched.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "scrappedprincess",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Scrapped Princess",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Listed as a complete light novel adaptation; the anime tells the whole story.",
+  "src": [
+   [
+    "wheredoestheanimeleaveoff.com",
+    "https://wheredoestheanimeleaveoff.com/complete-anime-that-are-full-light-novel-adaptations/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mermaidmelodypichipichip",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Mermaid Melody: Pichi Pichi Pitch",
+    "end": null
+   },
+   {
+    "l": "Mermaid Melody: Pichi Pichi Pitch Pure",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime ran alongside the 32-chapter manga as a separate take with renamed characters; no source maps it to chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Mermaid_Melody_Pichi_Pichi_Pitch"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "paniponidash",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Pani Poni Dash!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Gag manga adapted episodically with a lot of anime-original material; there is no clear stopping point.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Pani_Poni"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "yourlightkasesanandmorni",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Your Light: Kase-san and Morning Glories",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 2018 OVA shares its title with manga volume 1 and covers the couple's early relationship through the Okinawa trip; no source confirms its exact range.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kase-san"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "galaxyexpress999",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Galaxy Express 999",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 113-episode TV series ran alongside the manga and covers the full journey, with some anime-specific changes; no source confirmed a chapter-level match.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Galaxy_Express_999"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "moyashimon",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Moyashimon",
+    "end": null
+   },
+   {
+    "l": "Moyashimon Returns",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found giving where the anime stops in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "youreunderarrest",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "You're Under Arrest! (TV)",
+    "end": null
+   },
+   {
+    "l": "You’re Under Arrest! Mini Specials",
+    "end": null
+   },
+   {
+    "l": "You're Under Arrest: Fast & Furious",
+    "end": null
+   },
+   {
+    "l": "You're Under Arrest: Full Throttle",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic adaptation with many anime-original episodes; no source maps it to chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "osomatsukun1988",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Osomatsu-kun (1988)",
+    "end": null
+   },
+   {
+    "l": "Mr. Osomatsu",
+    "end": null
+   },
+   {
+    "l": "Mr. Osomatsu 2nd season",
+    "end": null
+   },
+   {
+    "l": "Mr. Osomatsu 3rd season",
+    "end": null
+   },
+   {
+    "l": "Mr. Osomatsu 4th season",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 1988 series adapts the gag manga episodically, and Mr. Osomatsu is an original sequel, so there is no stopping point.",
+  "src": [],
+  "confidence": "low"
+ }
+]

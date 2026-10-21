@@ -1,0 +1,1279 @@
+[
+ {
+  "id": "thedevilisaparttimer",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Devil is a Part-Timer!",
+    "end": null
+   },
+   {
+    "l": "The Devil is a Part-Timer! Season 2",
+    "end": null
+   },
+   {
+    "l": "The Devil is a Part-Timer! Season 2 Part 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 2 starts with light novel volume 3, but no source states where Part 2 ends.",
+  "src": [
+   [
+    "Siliconera",
+    "https://www.siliconera.com/the-devil-is-a-part-timer-season-2-release-date-confirmed/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "intotheforestoffireflies",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Into the Forest of Fireflies' Light",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film adapts the complete one-shot manga, adding only a few scenes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hotarubi_no_Mori_e"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mynextlifeasavillainessa",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "My Next Life as a Villainess: All Routes Lead to Doom!",
+    "end": 2
+   },
+   {
+    "l": "My Next Life as a Villainess: All Routes Lead to Doom! X",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 is reported to cover light novel volumes 1-2; no source found for where Season 2 ends.",
+  "src": [
+   [
+    "J-Novel Club forums",
+    "https://forums.j-novel.club/post/78437"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "makeinetoomanylosinghero",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "Makeine: Too Many Losing Heroines!",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 3; start at volume 4.",
+  "src": [
+   [
+    "r/TooManyLosingHeroines FAQ",
+    "https://www.reddit.com/r/TooManyLosingHeroines/wiki/index/faq"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nonnonbiyori",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Non Non Biyori",
+    "end": null
+   },
+   {
+    "l": "Non Non Biyori Repeat",
+    "end": null
+   },
+   {
+    "l": "Non Non Biyori Nonstop",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found mapping the seasons to manga chapters; the episodic anime adapts stories out of order.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "azumangadaioh",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Azumanga Daioh",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime runs through the manga's three school years to graduation, though it skips some manga jokes.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Anime/AzumangaDaioh"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sailormoon",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Sailor Moon",
+    "end": null
+   },
+   {
+    "l": "Sailor Moon R",
+    "end": null
+   },
+   {
+    "l": "Sailor Moon S",
+    "end": null
+   },
+   {
+    "l": "Sailor Moon SuperS",
+    "end": null
+   },
+   {
+    "l": "Sailor Moon Sailor Stars",
+    "end": 60
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Sailor Stars adapts the manga's final Stars arc, so the 90s anime covers the whole story (with many anime-original changes).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Sailor_Moon_Sailor_Stars"
+   ],
+   [
+    "Sailor Moon Wiki",
+    "https://sailormoon.fandom.com/wiki/Act_60_Stars_11"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "realgirl",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Real Girl",
+    "end": null
+   },
+   {
+    "l": "Real Girl 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "AnimeOshi lists Season 2 episode 11 as chapters 44-46, but no reliable source states the final chapter adapted.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/real-girl-season-2/episode/11"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "duskmaidenofamnesia",
+  "unit": "chapter",
+  "next": 24,
+  "seasons": [
+   {
+    "l": "Dusk Maiden of Amnesia",
+    "end": 23
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime ends around chapter 23 with an anime-original ending; start at chapter 24.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-dusk-maiden-of-amnesia-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "afrosamurai",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Afro Samurai",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating how much of the manga the 5-episode anime covers.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ghostintheshellstandalon",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Ghost in the Shell: Stand Alone Complex",
+    "end": null
+   },
+   {
+    "l": "Ghost in the Shell: Stand Alone Complex 2nd GIG",
+    "end": null
+   },
+   {
+    "l": "Ghost in the Shell: SAC_2045",
+    "end": null
+   },
+   {
+    "l": "Ghost in the Shell: SAC_2045 Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Stand Alone Complex tells its own story with the manga's characters, so there is no direct chapter to pick up from; no source checked.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thesaintsmagicpowerisomn",
+  "unit": "volume",
+  "next": 9,
+  "seasons": [
+   {
+    "l": "The Saint's Magic Power is Omnipotent",
+    "end": 4
+   },
+   {
+    "l": "The Saint's Magic Power is Omnipotent II",
+    "end": 8
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at the end of light novel volume 8; start at volume 9.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-saints-power-is-omnipotent-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "berserk2016",
+  "unit": "chapter",
+  "next": 250,
+  "seasons": [
+   {
+    "l": "Berserk (2016)",
+    "end": null
+   },
+   {
+    "l": "Berserk 2",
+    "end": 249
+   }
+  ],
+  "status": "continue",
+  "note": "Berserk 2 ends at chapter 249 (Hawk of the Millennium); start at chapter 250.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-berserk-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "letthisgrievingsoulretir",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "Let This Grieving Soul Retire",
+    "end": null
+   },
+   {
+    "l": "Let This Grieving Soul Retire Cour 2",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "Cour 2 ends at the light novel volume 3 epilogue; start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-let-this-grieving-soul-retire-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iwanttoendthislovegame",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "I Want to End this Love Game",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kumakumakumabear",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "Kuma Kuma Kuma Bear",
+    "end": null
+   },
+   {
+    "l": "Kuma Kuma Kuma Bear - Punch!",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "Punch! ends at the close of light novel volume 4; start at volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kuma-kuma-kuma-bear-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "schoolrumble",
+  "unit": "chapter",
+  "next": 162,
+  "seasons": [
+   {
+    "l": "School Rumble",
+    "end": 105
+   },
+   {
+    "l": "School Rumble 2nd Term",
+    "end": 161
+   }
+  ],
+  "status": "continue",
+  "note": "2nd Term ends at chapter 161; start at chapter 162 (volume 14).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-school-rumble-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "myroommateisacat",
+  "unit": "volume",
+  "next": 6,
+  "seasons": [
+   {
+    "l": "My Roommate is a Cat",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through roughly volume 5 (episodes 11-12 are anime-original); start at volume 6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-roommate-is-a-cat-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hitorinoshitatheoutcast",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hitori no Shita - The Outcast",
+    "end": null
+   },
+   {
+    "l": "Hitori no Shita - The Outcast 2",
+    "end": null
+   },
+   {
+    "l": "Yi Ren Zhi Xia 3",
+    "end": null
+   },
+   {
+    "l": "Yi Ren Zhi Xia 4",
+    "end": null
+   },
+   {
+    "l": "Yi Ren Zhi Xia 5",
+    "end": null
+   },
+   {
+    "l": "The Outcast Season 6",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manhua chapter the latest season ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yugioh",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Yu☆Gi☆Oh!",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The Toei anime adapts early chapters, skips Duelist Kingdom, and ends with Yugi vs. Dark Bakura; no source gives an exact chapter.",
+  "src": [
+   [
+    "Yugipedia",
+    "https://yugipedia.com/wiki/Yu-Gi-Oh!_(Toei_anime)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "acca13territoryinspectio",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "ACCA: 13-Territory Inspection Dept.",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The manga (6 volumes) finished before the anime aired, but no source checked states the anime covers it all.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "awildlastbossappeared",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "A Wild Last Boss Appeared!",
+    "end": 3
+   },
+   {
+    "l": "A Wild Last Boss Appeared! Season 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers light novel volumes 1-3; start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-a-wild-last-boss-appeared-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kinmoza",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "KINMOZA!",
+    "end": null
+   },
+   {
+    "l": "Hello!! KINMOZA!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "killblue",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "KILL BLUE",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter Season 1 ends on; a second season has been announced.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/news/2026-06-27/kill-blue-anime-gets-2nd-season/.239025"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gareizero",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Ga-Rei-Zero",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Ga-Rei-Zero is a prequel to the Ga-Rei manga rather than a direct adaptation; no source checked gives a pickup chapter.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thosesnowwhitenotes",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Those Snow White Notes",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "konohanakitan",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "KONOHANA KITAN",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gunslingergirl",
+  "unit": "chapter",
+  "next": 29,
+  "seasons": [
+   {
+    "l": "Gunslinger Girl",
+    "end": null
+   },
+   {
+    "l": "Gunslinger Girl -Il Teatrino-",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "Il Teatrino ends with the Pinocchio arc at chapter 28; start at chapter 29 (volume 7).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-gunslinger-girl-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "genshiken",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Genshiken",
+    "end": null
+   },
+   {
+    "l": "Genshiken 2",
+    "end": null
+   },
+   {
+    "l": "Genshiken Second Generation",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "In the Clear Moonlit Dusk",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No readable source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akanebanashi",
+  "unit": "chapter",
+  "next": 30,
+  "seasons": [
+   {
+    "l": "Akane-banashi",
+    "end": 29
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists episode 12 as adapting chapters 27-29; start at chapter 30.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/akane-banashi/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "howtokeepamummy",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "How to Keep a Mummy",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rockisaladysmodesty",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Rock is a Lady’s Modesty",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "horizoninthemiddleofnowh",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Horizon in the Middle of Nowhere",
+    "end": null
+   },
+   {
+    "l": "Horizon in the Middle of Nowhere II",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chiosschoolroad",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Chio's School Road",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "strawberrymarshmallow",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Strawberry Marshmallow",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "outlawstar",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Outlaw Star",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 26-episode anime and 21-chapter manga are paced differently; no source maps the ending to a chapter.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Outlaw_Star"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kagekishojo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kageki Shojo!!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "metropolis",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Metropolis",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The film is only loosely based on Tezuka's one-volume manga, with changed characters and a different ending.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Metropolis_(2001_film)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sekaiichihatsukoitheworl",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Sekai Ichi Hatsukoi - The World's Greatest First Love",
+    "end": null
+   },
+   {
+    "l": "Sekai Ichi Hatsukoi - The World's Greatest First Love Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga volume the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fistofthenorthstar",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Fist of the North Star",
+    "end": 136
+   },
+   {
+    "l": "Fist of the North Star 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The first series covers up to chapter 136; Fist of the North Star 2 ends with the Asura arc, and the post-Asura chapters were never adapted.",
+  "src": [
+   [
+    "Hokuto Renkitōza (Fandom)",
+    "https://hokuto.fandom.com/wiki/Hokuto_no_Ken_(TV_anime)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hanayamata",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "HaNaYaMaTa",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "uruseiyatsura",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Urusei Yatsura",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 1981 TV series loosely adapts the manga (the later half more closely); the ending was covered by a separate film, and no chapter mapping was found.",
+  "src": [
+   [
+    "Furinkan.com FAQ",
+    "https://www.furinkan.com/uy/misc/faq.html"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mindgame",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Mind Game",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film adapts Robin Nishi's manga as a single feature; no source details how complete it is.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Mind_Game_(film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "crossgame",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Cross Game",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 50-episode anime ended in March 2010, a month after the manga finished; no source confirms it covers every chapter.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Cross_Game"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "onceuponawitchsdeath",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Once Upon a Witch's Death",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theinvisiblemanandhissoo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Invisible Man and His Soon-to-Be Wife",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bartender",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Bartender",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime is episodic and no source maps it to manga chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saki",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Saki",
+    "end": null
+   },
+   {
+    "l": "Saki: The Nationals",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter The Nationals ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mynewbossisgoofy",
+  "unit": "chapter",
+  "next": 16,
+  "seasons": [
+   {
+    "l": "My New Boss is Goofy",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime rearranges material and ends around chapter 16; continuing from chapter 16 is suggested, though starting over is safer.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-new-boss-is-goofy-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "majors1",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Major S1",
+    "end": 124
+   },
+   {
+    "l": "Major S2",
+    "end": 216
+   },
+   {
+    "l": "Major S3",
+    "end": 312
+   },
+   {
+    "l": "Major S4",
+    "end": 422
+   },
+   {
+    "l": "Major S5",
+    "end": 513
+   },
+   {
+    "l": "Major S6",
+    "end": 689
+   },
+   {
+    "l": "MAJOR 2nd",
+    "end": null
+   },
+   {
+    "l": "MAJOR SECOND Season 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Major S6 ends around chapter 689 of the original manga (continue at 690); no source found for where Major 2nd Season 2 ends in the Major 2nd manga.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-major-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedemonkingsdaughterist",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Demon King's Daughter is Too Kind!!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "polarbearscaf",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Polar Bear's Café",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicknightrayearth",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Magic Knight Rayearth",
+    "end": null
+   },
+   {
+    "l": "Magic Knight Rayearth II",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "Season 1 mostly follows the manga's first arc; Season 2 departs sharply, with anime-only antagonists.",
+  "src": [
+   [
+    "Manga Wiki (Fandom)",
+    "https://manga.fandom.com/wiki/Magic_Knight_Rayearth"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "badgirl",
+  "unit": "chapter",
+  "next": 25,
+  "seasons": [
+   {
+    "l": "Bad Girl",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the final episode as adapting chapters 23-24; start at chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/bad-girl/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "shinchan",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Shin Chan",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The long-running anime is largely episodic, so there is no clear pickup chapter; not researched within the search budget.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kusunokisgardenofgods",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kusunoki's Garden of Gods",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yumeiropatissiere",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Yumeiro Patissiere",
+    "end": null
+   },
+   {
+    "l": "Yumeiro Patissiere SP Professional",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestoryofsaiunkoku",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Story of Saiunkoku",
+    "end": null
+   },
+   {
+    "l": "The Story of Saiunkoku Second Series",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "victoriaofmanyfaces",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Victoria of Many Faces",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volume the anime ends on; a second season has been announced.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/news/2026-09-01/victoria-of-many-faces-anime-gets-2nd-season-special-episode/.241188"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tadaimaokaeri",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tadaima, Okaeri",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga chapter the anime ends on.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "librarywar",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Library War",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The TV anime ends with an anime-original ending; the later film is more faithful to the novels.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Anime/LibraryWar"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "loveyoubaby",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Love You Baby",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime leaves out some manga characters and the manga's later epilogue; no source maps its ending to a chapter.",
+  "src": [
+   [
+    "Manga Wiki (Fandom)",
+    "https://manga.fandom.com/wiki/Aishiteruze_Baby"
+   ]
+  ],
+  "confidence": "low"
+ }
+]
