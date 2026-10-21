@@ -1,0 +1,1255 @@
+[
+ {
+  "id": "thattimeigotreincarnated",
+  "unit": "Volume",
+  "next": "12",
+  "seasons": [
+   {
+    "l": "Season 3",
+    "end": 9
+   },
+   {
+    "l": "Season 4",
+    "end": 11
+   }
+  ],
+  "status": "continue",
+  "note": "Season 3 ends before light novel Volume 10; Season 4 adapts Volumes 10-11 and the opening of Volume 12. Continue with Volume 12.",
+  "src": [
+   [
+    "Mystiqora",
+    "https://mystiqora.com/that-time-i-got-reincarnated-as-a-slime-season-4-which-light-novel-volumes-are-adapted/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "wotakoiloveishardforotak",
+  "unit": "Chapter",
+  "next": "51",
+  "seasons": [
+   {
+    "l": "Season 1 + OVAs",
+    "end": 50
+   }
+  ],
+  "status": "continue",
+  "note": "The anime (with its OVAs) ends around Chapter 50, skipping and reordering some chapters. Start at Chapter 51, or from Chapter 1 for the skipped material.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-wotakoi-love-is-difficult-for-an-otaku-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sagaoftanyatheevil",
+  "unit": "Volume",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Movie",
+    "end": 4
+   },
+   {
+    "l": "Season 2",
+    "end": 11
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends midway through Volume 3, the 2019 movie covers the rest of Volume 3 to Volume 4, and Season 2 adapts Volume 5 to the middle of Volume 11. Restart at the beginning of Volume 11 so you don't skip its second half.",
+  "src": [
+   [
+    "note.com (anime_review_lab)",
+    "https://note.com/anime_review_lab/n/nabc2ed79e505?hl=en"
+   ],
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-saga-of-tanya-the-evil-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "goldentime",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 24-episode anime was scheduled to end at almost the same time as the final novel and finishes with Banri and Kouko's engagement. No source we found confirms that it adapts every volume.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://www.tvtropes.org/pmwiki/pmwiki.php/Literature/GoldenTime"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "chivalryofafailedknight",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first three light novel volumes. Continue with Volume 4.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Chivalry_of_a_Failed_Knight_episodes"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "toiletboundhanakokun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends before Chapter 36 (Volume 8). We found no reliable endpoint for Season 2 (the Sacrifice of the Grim Reaper, Red House and Far Shore arcs).",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-toilet-bound-hanako-kun-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "akira",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 1988 film condenses the manga, covering its beginning and end while omitting or abbreviating much of the middle and side plots. Read the manga from the start for the full story.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/why-akira-manga-different-anime-film-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gate",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime is based on the first five-volume Gate novel series; we found no reliable source saying exactly where it ends.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saekanohowtoraiseaboring",
+  "unit": "Volume",
+  "next": "8",
+  "seasons": [
+   {
+    "l": "Flat (Season 2)",
+    "end": 7
+   }
+  ],
+  "status": "continue",
+  "note": "The Saekano the Movie: Finale film adapts the final six light novel volumes, so the TV series (through Flat) ends around Volume 7. Read from Volume 8 if you skip the film.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Saekano_the_Movie:_Finale"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "himoutoumaruchan",
+  "unit": "Chapter",
+  "next": "140",
+  "seasons": [],
+  "status": "continue",
+  "note": "After both seasons and the OVAs (which adapt most of Volume 8), start the manga at Chapter 140.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-himouto-umaru-chan-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thewayofthehousehusband",
+  "unit": "Chapter",
+  "next": "80",
+  "seasons": [],
+  "status": "continue",
+  "note": "After both anime seasons, start the manga at Chapter 80. The anime skips some chapters, but they are not essential to the story.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-way-of-the-househusband-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "luckystar",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime skips and rearranges many short strips, and episode 24 is anime-original. Volume 4 (Chapters 88-124) is the suggested jump-in point, though reading from Chapter 1 is recommended.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-lucky-star-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "oresukiareyoutheonlyonew",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "smokingbehindthesupermar",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "Episode 12 adapts Volume 3, Chapter 28. Start the manga at Chapter 29 (English Volume 4).",
+  "src": [
+   [
+    "Yomoru",
+    "https://yomoru.com/series/smoking-behind-the-supermarket/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedetectiveisalreadydea",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers light novel Volumes 1-3. Season 2 (airing fall 2026) picks up at Volume 4, and its endpoint is not yet known.",
+  "src": [
+   [
+    "LitRetreat",
+    "https://litretreat.com/the-detective-is-already-dead-season-2-what-to-read/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "lookback",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 1
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 2024 film adapts Tatsuki Fujimoto's one-shot manga, which is a single chapter, so the whole story is covered.",
+  "src": [
+   [
+    "Otaku USA",
+    "https://otakuusamagazine.com/look-back-anime-film-chainsaw-man-tatsuki-fujimoto/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "campfirecookinginanother",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   },
+   {
+    "l": "Season 2",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "After Season 1, pick up at Volume 2, Chapter 8; after Season 2, start the light novel at Volume 6.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-campfire-cooking-in-another-world-with-my-absurd-skill-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ragnacrimson",
+  "unit": "Chapter",
+  "next": "57",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 56
+   }
+  ],
+  "status": "continue",
+  "note": "Episode 24 adapts Chapters 53-56. Continue with Chapter 57 (Volume 12).",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/ragna-crimson/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "blastoftempest",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 24-episode anime reaches the manga's conclusion. The manga's ending is a little more expanded but essentially the same.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Manga/BlastOfTempest"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thetunneltosummertheexit",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 1
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film adapts the single-volume light novel, so the whole story is covered.",
+  "src": [
+   [
+    "Animotaku",
+    "https://animotaku.fr/encyclotaku/film/the-tunnel-to-summer-the-exit-of-goodbyes/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "omaidensinyoursavageseas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 12-episode anime aired as the manga finished in September 2019 and is generally treated as a complete adaptation. No source we found confirms this explicitly.",
+  "src": [
+   [
+    "Is The Anime Finished",
+    "https://istheanimefinished.com/anime/o-maidens-in-your-savage-season/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "romantickiller",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 12-episode Netflix anime adapts all four volumes of the manga, so there is nothing left to continue.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/will-romantic-killer-season-2-renewal-status-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "imadefriendswiththesecon",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "Based on its pacing, the 2026 anime is expected to cover roughly light novel Volumes 1-3. Start at Volume 4; this is an estimate, not an official mapping.",
+  "src": [
+   [
+    "LitRetreat",
+    "https://litretreat.com/is-second-prettiest-girl-light-novel-finished/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "engagedtotheunidentified",
+  "unit": "Chapter",
+  "next": "57",
+  "seasons": [],
+  "status": "continue",
+  "note": "The last episode is mostly an anime-original ending. Pick up the manga at Chapter 57, or read from the start since the anime differs noticeably.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-engaged-to-the-unidentified-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "aftertherain",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime covers most of Volume 3 and ends with an anime-original finale (episodes 11-12). Continue at Chapter 40, or at Chapter 25 to catch skipped material.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-after-the-rain-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kidsontheslope",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 12-episode anime condenses the whole 50-chapter manga and ends with an eight-year time skip. The manga's ending and epilogue are fuller, so reading it is worthwhile.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Manga/KidsOnTheSlope"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "aoashi",
+  "unit": "Chapter",
+  "next": "118",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 117
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at Chapter 117, with nothing skipped; start at Chapter 118 (Volume 13). Season 2 is airing in fall 2026, so its endpoint is not known yet.",
+  "src": [
+   [
+    "After The Anime",
+    "https://aftertheanime.com/anime/aoashi/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "chobits",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime is a full adaptation of the Chobits manga and ends similarly, though the manga's ending is more bittersweet.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-chobits-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nanbaka",
+  "unit": "Chapter",
+  "next": "95",
+  "seasons": [],
+  "status": "continue",
+  "note": "After both anime parts, pick up the manga at Chapter 95.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-nanbaka-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedukeofdeathandhismaid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 68
+   },
+   {
+    "l": "Season 2",
+    "end": 141
+   },
+   {
+    "l": "Season 3",
+    "end": 223
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Season 3 adapts the manga through its final chapter (223), so the story is fully adapted. Seasons 1 and 2 end before Chapters 69 and 142.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-duke-of-death-and-his-maid-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "doukyuuseiclassmates",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 1
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 2016 film adapts the first (Doukyuusei) volume. The story continues in the sequels Sotsu Gyo Sei - Winter and Spring.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Classmates_(manga)"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sayonarazetsubousensei",
+  "unit": "Chapter",
+  "next": "290",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime never adapted the manga's ending arc, which begins at Chapter 290. Shaft skipped and reordered many chapters, so reading from about Chapter 10 gives the fullest experience.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-sayonara-zetsubou-sensei-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thestrangerbytheshore",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 1
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film covers a single volume, the original Umibe no Etranger. The story continues in the sequel manga.",
+  "src": [
+   [
+    "The Mary Sue",
+    "https://www.themarysue.com/seaside-stranger-vol-2-review/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thecatreturns",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 1
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film is based on Aoi Hiiragi's short 2002 manga Baron the Cat and covers its story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Cat_Returns"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "porcorosso",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Movie",
+    "end": 3
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film is based on Miyazaki's 15-page, three-part watercolor manga Hikotei Jidai and covers its story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hik%C5%8Dtei_Jidai"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "oneweekfriends",
+  "unit": "Chapter",
+  "next": "15",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime has an anime-original ending that diverges from the manga. Start the manga at Chapter 15, right after Kujo's introduction (episode 11).",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-one-week-friends-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hiscoregirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "Hi Score Girl II concludes the story faithfully, with some subtle differences. The follow-up Hi Score Girl DASH is not animated. No source we found states the exact chapter mapping.",
+  "src": [
+   [
+    "Lost in Anime",
+    "https://lostinanime.com/2019/12/hi-score-girl-ii-09-end-and-series-review/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "iminlovewiththevillaines",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first light novel and ends near the start of the second. Continue at Volume 2, Chapter 5.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-im-in-love-with-the-villainess-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedemongirlnextdoor",
+  "unit": "Chapter",
+  "next": "52",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 51
+   }
+  ],
+  "status": "continue",
+  "note": "Each season adapts two manga volumes, and Season 2 ends at the close of Volume 4. Start at Chapter 52.",
+  "src": [
+   [
+    "Where Does The Anime Leave Off",
+    "https://wheredoestheanimeleaveoff.com/where-does-the-demon-girl-next-door-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iwanttoendthislovegame",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kumakumakumabear",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "schoolrumble",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwanttoloveyoutillyourdy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hellmodethehardcoregamer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "vampirehunterdbloodlust",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theweakesttamerbeganajou",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "acca13territoryinspectio",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kakuriyobedbreakfastfors",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nurariseoftheyokaiclan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tatsukifujimoto1726",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "killblue",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gareizero",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ushioandtoratv",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jaadugarawitchinmongolia",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "100meters",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "genshiken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "playitcoolguys",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gugurekokkurisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theklutzyclassmonitorand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "endoandkobayashilivethel",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "botankamiinafullyblossom",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "senpaiisanotokonoko",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetooperfectsainttossed",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kagekishojo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "metropolis",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sekaiichihatsukoitheworl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fistofthenorthstar",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hanayamata",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "uruseiyatsura",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mindgame",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "crossgame",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "onceuponawitchsdeath",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "beyblade",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "betrothedtomysistersex",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thecatandthedragon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bluegiant",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dragonquesttheadventureo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "majors1",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedemonkingsdaughterist",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "polarbearscaf",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicknightrayearth",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "badgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shinchan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ifmyfavoritepopidolmadei",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "biaoren",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yourebeingsummonedazazel",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "barefootgen",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isekaiizakayajapanesefoo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theirresponsiblecaptaint",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "emmaavictorianromance",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not researched in this round because the shared web-search budget ran out; no trusted endpoint found yet.",
+  "src": [],
+  "confidence": "low"
+ }
+]

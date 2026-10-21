@@ -1,0 +1,2152 @@
+[
+{
+"id": "asilentvoice",
+"title": "A Silent Voice",
+"romaji": "Koe no Katachi",
+"kind": "manga",
+"seasons": [
+{
+"t": "A Silent Voice",
+"y": 2016,
+"eps": 1
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 64,
+"volumes": 7,
+"url": "https://anilist.co/manga/85135"
+},
+"pop": 725751
+},
+{
+"id": "thedevilisaparttimer",
+"title": "The Devil is a Part-Timer!",
+"romaji": "Hataraku Maou-sama!",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Devil is a Part-Timer!",
+"y": 2013,
+"eps": 13
+},
+{
+"t": "The Devil is a Part-Timer! Season 2",
+"y": 2022,
+"eps": 12
+},
+{
+"t": "The Devil is a Part-Timer! Season 2 Part 2",
+"y": 2023,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 110,
+"volumes": 21,
+"url": "https://anilist.co/manga/66719"
+},
+"pop": 399544
+},
+{
+"id": "toyoureternity",
+"title": "To Your Eternity",
+"romaji": "Fumetsu no Anata e",
+"kind": "manga",
+"seasons": [
+{
+"t": "To Your Eternity",
+"y": 2021,
+"eps": 20
+},
+{
+"t": "To Your Eternity Season 2",
+"y": 2022,
+"eps": 20
+},
+{
+"t": "To Your Eternity Season 3",
+"y": 2025,
+"eps": 22
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 202,
+"volumes": 25,
+"url": "https://anilist.co/manga/97830"
+},
+"pop": 320882
+},
+{
+"id": "thepetgirlofsakurasou",
+"title": "The Pet Girl of Sakurasou",
+"romaji": "Sakurasou no Pet na Kanojo",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Pet Girl of Sakurasou",
+"y": 2012,
+"eps": 24
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 56,
+"volumes": 13,
+"url": "https://anilist.co/manga/60051"
+},
+"pop": 279898
+},
+{
+"id": "theirregularatmagichighs",
+"title": "The Irregular at Magic High School",
+"romaji": "Mahouka Koukou no Rettousei",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Irregular at Magic High School",
+"y": 2014,
+"eps": 26
+},
+{
+"t": "The Irregular at Magic High School: Visitor Arc",
+"y": 2020,
+"eps": 13
+},
+{
+"t": "The Irregular at Magic High School Season 3",
+"y": 2024,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 243,
+"volumes": 32,
+"url": "https://anilist.co/manga/64127"
+},
+"pop": 262320
+},
+{
+"id": "masamunekunsrevenge",
+"title": "Masamune-kun's Revenge",
+"romaji": "Masamune-kun no Revenge",
+"kind": "manga",
+"seasons": [
+{
+"t": "Masamune-kun's Revenge",
+"y": 2017,
+"eps": 12
+},
+{
+"t": "Masamune-kun's Revenge R",
+"y": 2023,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 54,
+"volumes": 10,
+"url": "https://anilist.co/manga/76716"
+},
+"pop": 246823
+},
+{
+"id": "grandbluedreaming",
+"title": "Grand Blue Dreaming",
+"romaji": "Grand Blue",
+"kind": "manga",
+"seasons": [
+{
+"t": "Grand Blue Dreaming",
+"y": 2018,
+"eps": 12
+},
+{
+"t": "Grand Blue Dreaming Season 2",
+"y": 2025,
+"eps": 12
+},
+{
+"t": "Grand Blue Dreaming Season 3",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/87395"
+},
+"pop": 238855
+},
+{
+"id": "thecasestudyofvanitas",
+"title": "The Case Study of Vanitas",
+"romaji": "Vanitas no Carte",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Case Study of Vanitas",
+"y": 2021,
+"eps": 12
+},
+{
+"t": "The Case Study of Vanitas Part 2",
+"y": 2022,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/86568"
+},
+"pop": 213003
+},
+{
+"id": "windbreaker",
+"title": "WIND BREAKER",
+"romaji": "WIND BREAKER",
+"kind": "manga",
+"seasons": [
+{
+"t": "WIND BREAKER",
+"y": 2024,
+"eps": 13
+},
+{
+"t": "WIND BREAKER Season 2",
+"y": 2025,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/135083"
+},
+"pop": 194710
+},
+{
+"id": "theangelnextdoorspoilsme",
+"title": "The Angel Next Door Spoils Me Rotten",
+"romaji": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Angel Next Door Spoils Me Rotten",
+"y": 2023,
+"eps": 12
+},
+{
+"t": "The Angel Next Door Spoils Me Rotten2",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/113533"
+},
+"pop": 177667
+},
+{
+"id": "sentencedtobeahero",
+"title": "Sentenced to Be a Hero",
+"romaji": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+"kind": "novel",
+"seasons": [
+{
+"t": "Sentenced to Be a Hero",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/142687"
+},
+"pop": 165914
+},
+{
+"id": "wanderingwitchthejourney",
+"title": "Wandering Witch: The Journey of Elaina",
+"romaji": "Majo no Tabitabi",
+"kind": "novel",
+"seasons": [
+{
+"t": "Wandering Witch: The Journey of Elaina",
+"y": 2020,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/98741"
+},
+"pop": 154873
+},
+{
+"id": "daemonsoftheshadowrealm",
+"title": "Daemons of the Shadow Realm",
+"romaji": "Yomi no Tsugai",
+"kind": "manga",
+"seasons": [
+{
+"t": "Daemons of the Shadow Realm",
+"y": 2026,
+"eps": 24
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/136899"
+},
+"pop": 142987
+},
+{
+"id": "the100girlfriendswhoreal",
+"title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+"romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo",
+"kind": "manga",
+"seasons": [
+{
+"t": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+"y": 2023,
+"eps": 12
+},
+{
+"t": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+"y": 2025,
+"eps": 12
+},
+{
+"t": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/114416"
+},
+"pop": 136834
+},
+{
+"id": "trappedinadatingsimthewo",
+"title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+"romaji": "Otomege Sekai wa Mob ni Kibishii Sekai desu",
+"kind": "novel",
+"seasons": [
+{
+"t": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+"y": 2022,
+"eps": 12
+},
+{
+"t": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 207,
+"volumes": 13,
+"url": "https://anilist.co/manga/104504"
+},
+"pop": 133254
+},
+{
+"id": "youandiarepolaropposites",
+"title": "You and I Are Polar Opposites",
+"romaji": "Seihantai na Kimi to Boku",
+"kind": "manga",
+"seasons": [
+{
+"t": "You and I Are Polar Opposites",
+"y": 2026,
+"eps": 12
+},
+{
+"t": "You and I Are Polar Opposites Season 2",
+"y": 2026,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 76,
+"volumes": 8,
+"url": "https://anilist.co/manga/147997"
+},
+"pop": 130669
+},
+{
+"id": "howheavyarethedumbbellsy",
+"title": "How Heavy Are the Dumbbells You Lift?",
+"romaji": "Dumbbell Nan Kilo Moteru?",
+"kind": "manga",
+"seasons": [
+{
+"t": "How Heavy Are the Dumbbells You Lift?",
+"y": 2019,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/97626"
+},
+"pop": 125749
+},
+{
+"id": "reincarnatedasasword",
+"title": "Reincarnated as a Sword",
+"romaji": "Tensei Shitara Ken Deshita",
+"kind": "novel",
+"seasons": [
+{
+"t": "Reincarnated as a Sword",
+"y": 2022,
+"eps": 12
+},
+{
+"t": "Reincarnated as a Sword Season 2",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/97466"
+},
+"pop": 120073
+},
+{
+"id": "keepyourhandsoffeizouken",
+"title": "Keep Your Hands Off Eizouken!",
+"romaji": "Eizouken ni wa Te wo Dasu na!",
+"kind": "manga",
+"seasons": [
+{
+"t": "Keep Your Hands Off Eizouken!",
+"y": 2020,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/109319"
+},
+"pop": 116881
+},
+{
+"id": "farminglifeinanotherworl",
+"title": "Farming Life in Another World",
+"romaji": "Isekai Nonbiri Nouka",
+"kind": "novel",
+"seasons": [
+{
+"t": "Farming Life in Another World",
+"y": 2023,
+"eps": 12
+},
+{
+"t": "Farming Life in Another World 2",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/100461"
+},
+"pop": 114666
+},
+{
+"id": "azumangadaioh",
+"title": "Azumanga Daioh",
+"romaji": "Azumanga Daiou THE ANIMATION",
+"kind": "manga",
+"seasons": [
+{
+"t": "Azumanga Daioh",
+"y": 2002,
+"eps": 26
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 69,
+"volumes": 4,
+"url": "https://anilist.co/manga/30085"
+},
+"pop": 112960
+},
+{
+"id": "seitokaiyakuindomo",
+"title": "Seitokai Yakuindomo",
+"romaji": "Seitokai Yakuindomo",
+"kind": "manga",
+"seasons": [
+{
+"t": "Seitokai Yakuindomo",
+"y": 2010,
+"eps": 13
+},
+{
+"t": "Seitokai Yakuindomo Season 2",
+"y": 2014,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 655,
+"volumes": 22,
+"url": "https://anilist.co/manga/44110"
+},
+"pop": 110866
+},
+{
+"id": "iwasreincarnatedasthe7th",
+"title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+"romaji": "Tensei Shitara Dai Nana Ouji Datta node, Kimamani Majutsu wo Kiwamemasu",
+"kind": "novel",
+"seasons": [
+{
+"t": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+"y": 2024,
+"eps": 12
+},
+{
+"t": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
+"y": 2025,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/123265"
+},
+"pop": 106569
+},
+{
+"id": "schoolbabysitters",
+"title": "School Babysitters",
+"romaji": "Gakuen Babysitters",
+"kind": "manga",
+"seasons": [
+{
+"t": "School Babysitters",
+"y": 2018,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/46922"
+},
+"pop": 103820
+},
+{
+"id": "somaliandtheforestspirit",
+"title": "Somali and the Forest Spirit",
+"romaji": "Somali to Mori no Kamisama",
+"kind": "manga",
+"seasons": [
+{
+"t": "Somali and the Forest Spirit",
+"y": 2020,
+"eps": 12
+}
+],
+"source": {
+"status": "CANCELLED",
+"chapters": 39,
+"volumes": 6,
+"url": "https://anilist.co/manga/86788"
+},
+"pop": 98778
+},
+{
+"id": "shakugannoshana",
+"title": "Shakugan no Shana",
+"romaji": "Shakugan no Shana",
+"kind": "novel",
+"seasons": [
+{
+"t": "Shakugan no Shana",
+"y": 2005,
+"eps": 24
+},
+{
+"t": "Shakugan no Shana: Season II",
+"y": 2007,
+"eps": 24
+},
+{
+"t": "Shakugan no Shana: Season III",
+"y": 2011,
+"eps": 24
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 123,
+"volumes": 22,
+"url": "https://anilist.co/manga/33074"
+},
+"pop": 97516
+},
+{
+"id": "duskmaidenofamnesia",
+"title": "Dusk Maiden of Amnesia",
+"romaji": "Tasogare Otome × Amnesia",
+"kind": "manga",
+"seasons": [
+{
+"t": "Dusk Maiden of Amnesia",
+"y": 2012,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 54,
+"volumes": 10,
+"url": "https://anilist.co/manga/45805"
+},
+"pop": 94320
+},
+{
+"id": "theelusivesamurai",
+"title": "The Elusive Samurai",
+"romaji": "Nige Jouzu no Wakagimi",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Elusive Samurai",
+"y": 2024,
+"eps": 12
+},
+{
+"t": "The Elusive Samurai Season 2",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 239,
+"volumes": 27,
+"url": "https://anilist.co/manga/128666"
+},
+"pop": 92838
+},
+{
+"id": "7thtimeloopthevillainess",
+"title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+"romaji": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu Suru",
+"kind": "novel",
+"seasons": [
+{
+"t": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+"y": 2024,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/129152"
+},
+"pop": 90939
+},
+{
+"id": "fromoldcountrybumpkintom",
+"title": "From Old Country Bumpkin to Master Swordsman",
+"romaji": "Katainaka no Ossan, Kensei ni Naru",
+"kind": "novel",
+"seasons": [
+{
+"t": "From Old Country Bumpkin to Master Swordsman",
+"y": 2025,
+"eps": 12
+},
+{
+"t": "From Old Country Bumpkin to Master Swordsman II",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/145614"
+},
+"pop": 88250
+},
+{
+"id": "therampartsofice",
+"title": "The Ramparts of Ice",
+"romaji": "Koori no Jouheki",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Ramparts of Ice",
+"y": 2026,
+"eps": 14
+},
+{
+"t": "The Ramparts of Ice Season 2",
+"y": 2026,
+"eps": null
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 117,
+"volumes": 14,
+"url": "https://anilist.co/manga/166742"
+},
+"pop": 85644
+},
+{
+"id": "nyarukocrawlingwithlove",
+"title": "Nyaruko: Crawling with Love!",
+"romaji": "Haiyore! Nyaruko-san",
+"kind": "novel",
+"seasons": [
+{
+"t": "Nyaruko: Crawling with Love!",
+"y": 2012,
+"eps": 12
+},
+{
+"t": "Nyaruko-san: Another Crawling Chaos W",
+"y": 2013,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 65,
+"volumes": 12,
+"url": "https://anilist.co/manga/53485"
+},
+"pop": 83457
+},
+{
+"id": "sasakiandmiyano",
+"title": "Sasaki and Miyano",
+"romaji": "Sasaki to Miyano",
+"kind": "manga",
+"seasons": [
+{
+"t": "Sasaki and Miyano",
+"y": 2022,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/98370"
+},
+"pop": 82328
+},
+{
+"id": "thesaintsmagicpowerisomn",
+"title": "The Saint's Magic Power is Omnipotent",
+"romaji": "Seijo no Maryoku wa Bannou desu",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Saint's Magic Power is Omnipotent",
+"y": 2021,
+"eps": 12
+},
+{
+"t": "The Saint's Magic Power is Omnipotent II",
+"y": 2023,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/101502"
+},
+"pop": 80551
+},
+{
+"id": "tougenanki",
+"title": "TOUGEN ANKI",
+"romaji": "Tougen Anki",
+"kind": "manga",
+"seasons": [
+{
+"t": "TOUGEN ANKI",
+"y": 2025,
+"eps": 24
+},
+{
+"t": "TOUGEN ANKI: Nikko Kegon Falls Arc",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/119968"
+},
+"pop": 80250
+},
+{
+"id": "berserk2016",
+"title": "Berserk (2016)",
+"romaji": "Berserk",
+"kind": "manga",
+"seasons": [
+{
+"t": "Berserk (2016)",
+"y": 2016,
+"eps": 12
+},
+{
+"t": "Berserk 2",
+"y": 2017,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/30002"
+},
+"pop": 77316
+},
+{
+"id": "placetoplace",
+"title": "Place to Place",
+"romaji": "Acchi Kocchi",
+"kind": "manga",
+"seasons": [
+{
+"t": "Place to Place",
+"y": 2012,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/47775"
+},
+"pop": 75370
+},
+{
+"id": "galscantbekindtootaku",
+"title": "Gals Can't Be Kind to Otaku!?",
+"romaji": "Otaku ni Yasashii Gal wa Inai!?",
+"kind": "manga",
+"seasons": [
+{
+"t": "Gals Can't Be Kind to Otaku!?",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/138380"
+},
+"pop": 72224
+},
+{
+"id": "aceofthediamond",
+"title": "Ace of the Diamond",
+"romaji": "Diamond no Ace",
+"kind": "manga",
+"seasons": [
+{
+"t": "Ace of the Diamond",
+"y": 2013,
+"eps": 75
+},
+{
+"t": "Ace of the Diamond Second Season",
+"y": 2015,
+"eps": 51
+},
+{
+"t": "Ace of the Diamond act II",
+"y": 2019,
+"eps": 52
+},
+{
+"t": "Ace of the Diamond act II -Second Season-",
+"y": 2026,
+"eps": 13
+},
+{
+"t": "Ace of the Diamond act II -Second Season-",
+"y": 2026,
+"eps": null
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 418,
+"volumes": 47,
+"url": "https://anilist.co/manga/40884"
+},
+"pop": 66797
+},
+{
+"id": "inthiscorneroftheworld",
+"title": "In This Corner of the World",
+"romaji": "Kono Sekai no Katasumi ni",
+"kind": "manga",
+"seasons": [
+{
+"t": "In This Corner of the World",
+"y": 2016,
+"eps": 1
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 48,
+"volumes": 3,
+"url": "https://anilist.co/manga/41243"
+},
+"pop": 64640
+},
+{
+"id": "demonlord2099",
+"title": "DEMON LORD 2099",
+"romaji": "Maou 2099",
+"kind": "novel",
+"seasons": [
+{
+"t": "DEMON LORD 2099",
+"y": 2024,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/134924"
+},
+"pop": 62263
+},
+{
+"id": "shamanking",
+"title": "Shaman King",
+"romaji": "Shaman King",
+"kind": "manga",
+"seasons": [
+{
+"t": "Shaman King",
+"y": 2001,
+"eps": 64
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 288,
+"volumes": 32,
+"url": "https://anilist.co/manga/30050"
+},
+"pop": 60726
+},
+{
+"id": "thelegendofthelegendaryh",
+"title": "The Legend of the Legendary Heroes",
+"romaji": "Densetsu no Yuusha no Densetsu",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Legend of the Legendary Heroes",
+"y": 2010,
+"eps": 24
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 59,
+"volumes": 11,
+"url": "https://anilist.co/manga/51658"
+},
+"pop": 59270
+},
+{
+"id": "humanityhasdeclined",
+"title": "Humanity Has Declined",
+"romaji": "Jinrui wa Suitai Shimashita",
+"kind": "novel",
+"seasons": [
+{
+"t": "Humanity Has Declined",
+"y": 2012,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 22,
+"volumes": 9,
+"url": "https://anilist.co/manga/54562"
+},
+"pop": 58131
+},
+{
+"id": "hitorinoshitatheoutcast",
+"title": "Hitori no Shita - The Outcast",
+"romaji": "Yi Ren Zhi Xia",
+"kind": "manga",
+"seasons": [
+{
+"t": "Hitori no Shita - The Outcast",
+"y": 2016,
+"eps": 12
+},
+{
+"t": "Hitori no Shita - The Outcast 2",
+"y": 2017,
+"eps": 24
+},
+{
+"t": "Yi Ren Zhi Xia 3",
+"y": 2020,
+"eps": 8
+},
+{
+"t": "Yi Ren Zhi Xia 4",
+"y": 2021,
+"eps": 12
+},
+{
+"t": "Yi Ren Zhi Xia 5",
+"y": 2022,
+"eps": 12
+},
+{
+"t": "The Outcast Season 6",
+"y": 2026,
+"eps": 26
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/99402"
+},
+"pop": 56870
+},
+{
+"id": "childrenofthesea",
+"title": "Children of the Sea",
+"romaji": "Kaijuu no Kodomo",
+"kind": "manga",
+"seasons": [
+{
+"t": "Children of the Sea",
+"y": 2019,
+"eps": 1
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 43,
+"volumes": 5,
+"url": "https://anilist.co/manga/35655"
+},
+"pop": 54845
+},
+{
+"id": "beautifulbonessakurakosi",
+"title": "Beautiful Bones -Sakurako's Investigation-",
+"romaji": "Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru",
+"kind": "novel",
+"seasons": [
+{
+"t": "Beautiful Bones -Sakurako's Investigation-",
+"y": 2015,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 74,
+"volumes": 17,
+"url": "https://anilist.co/manga/86293"
+},
+"pop": 53987
+},
+{
+"id": "goodluckgirl",
+"title": "Good Luck Girl!",
+"romaji": "Binbougami ga!",
+"kind": "manga",
+"seasons": [
+{
+"t": "Good Luck Girl!",
+"y": 2012,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 82,
+"volumes": 16,
+"url": "https://anilist.co/manga/50242"
+},
+"pop": 52396
+},
+{
+"id": "awildlastbossappeared",
+"title": "A Wild Last Boss Appeared!",
+"romaji": "Yasei no Last Boss ga Arawareta!",
+"kind": "novel",
+"seasons": [
+{
+"t": "A Wild Last Boss Appeared!",
+"y": 2025,
+"eps": 12
+},
+{
+"t": "A Wild Last Boss Appeared! Season 2",
+"y": 2026,
+"eps": null
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 22,
+"volumes": 9,
+"url": "https://anilist.co/manga/101829"
+},
+"pop": 52071
+},
+{
+"id": "kinmoza",
+"title": "KINMOZA!",
+"romaji": "Kiniro Mosaic",
+"kind": "manga",
+"seasons": [
+{
+"t": "KINMOZA!",
+"y": 2013,
+"eps": 12
+},
+{
+"t": "Hello!! KINMOZA!",
+"y": 2015,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 148,
+"volumes": 11,
+"url": "https://anilist.co/manga/56036"
+},
+"pop": 51523
+},
+{
+"id": "thoughiamanineptvillaine",
+"title": "Though I Am an Inept Villainess",
+"romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den",
+"kind": "novel",
+"seasons": [
+{
+"t": "Though I Am an Inept Villainess",
+"y": 2026,
+"eps": 11
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/126674"
+},
+"pop": 50468
+},
+{
+"id": "memories",
+"title": "Memories",
+"romaji": "MEMORIES",
+"kind": "manga",
+"seasons": [
+{
+"t": "Memories",
+"y": 1995,
+"eps": 3
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 16,
+"volumes": 1,
+"url": "https://anilist.co/manga/102011"
+},
+"pop": 49251
+},
+{
+"id": "agentsofthefourseasonsda",
+"title": "Agents of the Four Seasons: Dance of Spring",
+"romaji": "Shunkashuutou Daikousha: Haru no Mai",
+"kind": "novel",
+"seasons": [
+{
+"t": "Agents of the Four Seasons: Dance of Spring",
+"y": 2026,
+"eps": 14
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 10,
+"volumes": 2,
+"url": "https://anilist.co/manga/131534"
+},
+"pop": 48233
+},
+{
+"id": "thosesnowwhitenotes",
+"title": "Those Snow White Notes",
+"romaji": "Mashiro no Oto",
+"kind": "manga",
+"seasons": [
+{
+"t": "Those Snow White Notes",
+"y": 2021,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 123,
+"volumes": 31,
+"url": "https://anilist.co/manga/53115"
+},
+"pop": 47221
+},
+{
+"id": "konohanakitan",
+"title": "KONOHANA KITAN",
+"romaji": "Konohana Kitan",
+"kind": "manga",
+"seasons": [
+{
+"t": "KONOHANA KITAN",
+"y": 2017,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/96105"
+},
+"pop": 45834
+},
+{
+"id": "gunslingergirl",
+"title": "Gunslinger Girl",
+"romaji": "GUNSLINGER GIRL",
+"kind": "manga",
+"seasons": [
+{
+"t": "Gunslinger Girl",
+"y": 2003,
+"eps": 13
+},
+{
+"t": "Gunslinger Girl -Il Teatrino-",
+"y": 2008,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 100,
+"volumes": 15,
+"url": "https://anilist.co/manga/30649"
+},
+"pop": 43614
+},
+{
+"id": "doctorelisetheroyalladyw",
+"title": "Doctor Elise: The Royal Lady with the Lamp",
+"romaji": "Gekai Elise",
+"kind": "manga",
+"seasons": [
+{
+"t": "Doctor Elise: The Royal Lady with the Lamp",
+"y": 2024,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 156,
+"volumes": 10,
+"url": "https://anilist.co/manga/107918"
+},
+"pop": 42999
+},
+{
+"id": "mrvillainsdayoff",
+"title": "Mr. Villain's Day Off",
+"romaji": "Kyuujitsu no Warumono-san",
+"kind": "manga",
+"seasons": [
+{
+"t": "Mr. Villain's Day Off",
+"y": 2024,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/107275"
+},
+"pop": 42058
+},
+{
+"id": "saintceciliapastorlawren",
+"title": "Saint Cecilia & Pastor Lawrence",
+"romaji": "Shiro Seijo to Kuro Bokushi",
+"kind": "manga",
+"seasons": [
+{
+"t": "Saint Cecilia & Pastor Lawrence",
+"y": 2023,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/107112"
+},
+"pop": 41342
+},
+{
+"id": "akanebanashi",
+"title": "Akane-banashi",
+"romaji": "Akane-banashi",
+"kind": "manga",
+"seasons": [
+{
+"t": "Akane-banashi",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/144866"
+},
+"pop": 40911
+},
+{
+"id": "howtokeepamummy",
+"title": "How to Keep a Mummy",
+"romaji": "Miira no Kaikata",
+"kind": "manga",
+"seasons": [
+{
+"t": "How to Keep a Mummy",
+"y": 2018,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/87444"
+},
+"pop": 40660
+},
+{
+"id": "rockisaladysmodesty",
+"title": "Rock is a Lady’s Modesty",
+"romaji": "Rock wa Lady no Tashinami Deshite",
+"kind": "manga",
+"seasons": [
+{
+"t": "Rock is a Lady’s Modesty",
+"y": 2025,
+"eps": 13
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/156348"
+},
+"pop": 40087
+},
+{
+"id": "horizoninthemiddleofnowh",
+"title": "Horizon in the Middle of Nowhere",
+"romaji": "Kyoukaisenjou no Horizon",
+"kind": "novel",
+"seasons": [
+{
+"t": "Horizon in the Middle of Nowhere",
+"y": 2011,
+"eps": 13
+},
+{
+"t": "Horizon in the Middle of Nowhere II",
+"y": 2012,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 872,
+"volumes": 29,
+"url": "https://anilist.co/manga/54464"
+},
+"pop": 39756
+},
+{
+"id": "chiosschoolroad",
+"title": "Chio's School Road",
+"romaji": "Chio-chan no Tsuugakuro",
+"kind": "manga",
+"seasons": [
+{
+"t": "Chio's School Road",
+"y": 2018,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 53,
+"volumes": 9,
+"url": "https://anilist.co/manga/85820"
+},
+"pop": 38252
+},
+{
+"id": "cromartiehighschool",
+"title": "Cromartie High School",
+"romaji": "Sakigake!! Cromartie Koukou",
+"kind": "manga",
+"seasons": [
+{
+"t": "Cromartie High School",
+"y": 2003,
+"eps": 26
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 335,
+"volumes": 17,
+"url": "https://anilist.co/manga/30339"
+},
+"pop": 37724
+},
+{
+"id": "minamike",
+"title": "Minami-ke",
+"romaji": "Minami-ke",
+"kind": "manga",
+"seasons": [
+{
+"t": "Minami-ke",
+"y": 2007,
+"eps": 13
+},
+{
+"t": "Minami-ke: Okawari",
+"y": 2008,
+"eps": 13
+},
+{
+"t": "Minami-ke: Okaeri",
+"y": 2009,
+"eps": 13
+},
+{
+"t": "Minami-ke Tadaima",
+"y": 2013,
+"eps": 13
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/32629"
+},
+"pop": 37061
+},
+{
+"id": "theprinceoftennis",
+"title": "The Prince of Tennis",
+"romaji": "Tennis no Ouji-sama",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Prince of Tennis",
+"y": 2001,
+"eps": 178
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 379,
+"volumes": 42,
+"url": "https://anilist.co/manga/30049"
+},
+"pop": 36651
+},
+{
+"id": "kobato",
+"title": "Kobato",
+"romaji": "Kobato.",
+"kind": "manga",
+"seasons": [
+{
+"t": "Kobato",
+"y": 2009,
+"eps": 24
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 40,
+"volumes": 6,
+"url": "https://anilist.co/manga/30118"
+},
+"pop": 35274
+},
+{
+"id": "ladyoscartheroseofversai",
+"title": "Lady Oscar: The Rose of Versailles",
+"romaji": "Versailles no Bara",
+"kind": "manga",
+"seasons": [
+{
+"t": "Lady Oscar: The Rose of Versailles",
+"y": 1979,
+"eps": 40
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 85,
+"volumes": 10,
+"url": "https://anilist.co/manga/30660"
+},
+"pop": 34792
+},
+{
+"id": "goforitnakamurakun",
+"title": "Go For It, Nakamura-kun!!",
+"romaji": "Ganbare! Nakamura-kun!!",
+"kind": "manga",
+"seasons": [
+{
+"t": "Go For It, Nakamura-kun!!",
+"y": 2026,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 11,
+"volumes": 1,
+"url": "https://anilist.co/manga/86549"
+},
+"pop": 34002
+},
+{
+"id": "thegirlfromtheotherside",
+"title": "The Girl from the Other Side",
+"romaji": "Totsukuni no Shoujo (2022)",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Girl from the Other Side",
+"y": 2022,
+"eps": 1
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 53,
+"volumes": 11,
+"url": "https://anilist.co/manga/86770"
+},
+"pop": 32998
+},
+{
+"id": "hozukiscoolheadedness",
+"title": "Hozuki's Coolheadedness",
+"romaji": "Hoozuki no Reitetsu",
+"kind": "manga",
+"seasons": [
+{
+"t": "Hozuki's Coolheadedness",
+"y": 2014,
+"eps": 13
+},
+{
+"t": "Hozuki’s Coolheadedness 2",
+"y": 2017,
+"eps": 13
+},
+{
+"t": "Hozuki’s Coolheadedness 2: Part II",
+"y": 2018,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 271,
+"volumes": 31,
+"url": "https://anilist.co/manga/66113"
+},
+"pop": 31428
+},
+{
+"id": "themorosemononokean",
+"title": "The Morose Mononokean",
+"romaji": "Fukigen na Mononokean",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Morose Mononokean",
+"y": 2016,
+"eps": 13
+},
+{
+"t": "The Morose Mononokean Ⅱ",
+"y": 2019,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 93,
+"volumes": 18,
+"url": "https://anilist.co/manga/86579"
+},
+"pop": 31011
+},
+{
+"id": "aninjaandanassassinunder",
+"title": "A Ninja and an Assassin Under One Roof",
+"romaji": "Ninja to Koroshiya no Futarigurashi",
+"kind": "manga",
+"seasons": [
+{
+"t": "A Ninja and an Assassin Under One Roof",
+"y": 2025,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/131538"
+},
+"pop": 30331
+},
+{
+"id": "catsoup",
+"title": "Cat Soup",
+"romaji": "Nekojiru-sou",
+"kind": "manga",
+"seasons": [
+{
+"t": "Cat Soup",
+"y": 2001,
+"eps": 1
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 34,
+"volumes": 3,
+"url": "https://anilist.co/manga/48753"
+},
+"pop": 28900
+},
+{
+"id": "hikarunogo",
+"title": "Hikaru no Go",
+"romaji": "Hikaru no Go",
+"kind": "manga",
+"seasons": [
+{
+"t": "Hikaru no Go",
+"y": 2001,
+"eps": 75
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 197,
+"volumes": 23,
+"url": "https://anilist.co/manga/30020"
+},
+"pop": 28224
+},
+{
+"id": "cityhunter",
+"title": "City Hunter",
+"romaji": "City Hunter",
+"kind": "manga",
+"seasons": [
+{
+"t": "City Hunter",
+"y": 1987,
+"eps": 51
+},
+{
+"t": "City Hunter 2",
+"y": 1988,
+"eps": 63
+},
+{
+"t": "City Hunter 3",
+"y": 1989,
+"eps": 13
+},
+{
+"t": "City Hunter '91",
+"y": 1991,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 336,
+"volumes": 35,
+"url": "https://anilist.co/manga/30792"
+},
+"pop": 27059
+},
+{
+"id": "birdythemightydecode",
+"title": "Birdy the Mighty: Decode",
+"romaji": "Tetsuwan Birdy DECODE",
+"kind": "manga",
+"seasons": [
+{
+"t": "Birdy the Mighty: Decode",
+"y": 2008,
+"eps": 13
+},
+{
+"t": "Birdy the Mighty: Decode 02",
+"y": 2009,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 218,
+"volumes": 20,
+"url": "https://anilist.co/manga/33254"
+},
+"pop": 26241
+},
+{
+"id": "withyouandtherain",
+"title": "With You and the Rain",
+"romaji": "Ame to Kimi to",
+"kind": "manga",
+"seasons": [
+{
+"t": "With You and the Rain",
+"y": 2025,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/123004"
+},
+"pop": 25855
+},
+{
+"id": "excelsaga",
+"title": "Excel Saga",
+"romaji": "Heppoko Jikken Animation Excel Saga",
+"kind": "manga",
+"seasons": [
+{
+"t": "Excel Saga",
+"y": 1999,
+"eps": 26
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 183,
+"volumes": 27,
+"url": "https://anilist.co/manga/30695"
+},
+"pop": 24971
+},
+{
+"id": "andyetthetownmoves",
+"title": "And Yet The Town Moves",
+"romaji": "Soredemo Machi wa Mawatteiru",
+"kind": "manga",
+"seasons": [
+{
+"t": "And Yet The Town Moves",
+"y": 2010,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 138,
+"volumes": 16,
+"url": "https://anilist.co/manga/33042"
+},
+"pop": 23966
+},
+{
+"id": "alwaysacatch",
+"title": "Always a Catch!",
+"romaji": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+"kind": "novel",
+"seasons": [
+{
+"t": "Always a Catch!",
+"y": 2026,
+"eps": 12
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/145180"
+},
+"pop": 23129
+},
+{
+"id": "thelawofueki",
+"title": "The Law of Ueki",
+"romaji": "Ueki no Housoku",
+"kind": "manga",
+"seasons": [
+{
+"t": "The Law of Ueki",
+"y": 2005,
+"eps": 51
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 154,
+"volumes": 16,
+"url": "https://anilist.co/manga/30326"
+},
+"pop": 22581
+},
+{
+"id": "dearbrother",
+"title": "Dear Brother",
+"romaji": "Onii-sama e...",
+"kind": "manga",
+"seasons": [
+{
+"t": "Dear Brother",
+"y": 1991,
+"eps": 39
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 19,
+"volumes": 3,
+"url": "https://anilist.co/manga/31419"
+},
+"pop": 21997
+},
+{
+"id": "levele",
+"title": "Level E",
+"romaji": "Level E",
+"kind": "manga",
+"seasons": [
+{
+"t": "Level E",
+"y": 2011,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 16,
+"volumes": 3,
+"url": "https://anilist.co/manga/31193"
+},
+"pop": 21178
+},
+{
+"id": "seeyoutomorrowatthefoodc",
+"title": "See You Tomorrow at the Food Court",
+"romaji": "Food Court de, Mata Ashita.",
+"kind": "manga",
+"seasons": [
+{
+"t": "See You Tomorrow at the Food Court",
+"y": 2025,
+"eps": 6
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/116981"
+},
+"pop": 20451
+},
+{
+"id": "scrappedprincess",
+"title": "Scrapped Princess",
+"romaji": "Scrapped Princess",
+"kind": "novel",
+"seasons": [
+{
+"t": "Scrapped Princess",
+"y": 2003,
+"eps": 24
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 70,
+"volumes": 13,
+"url": "https://anilist.co/manga/33864"
+},
+"pop": 20017
+},
+{
+"id": "mermaidmelodypichipichip",
+"title": "Mermaid Melody: Pichi Pichi Pitch",
+"romaji": "Mermaid Melody: Pichi Pichi Pitch",
+"kind": "manga",
+"seasons": [
+{
+"t": "Mermaid Melody: Pichi Pichi Pitch",
+"y": 2003,
+"eps": 52
+},
+{
+"t": "Mermaid Melody: Pichi Pichi Pitch Pure",
+"y": 2004,
+"eps": 39
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 35,
+"volumes": 7,
+"url": "https://anilist.co/manga/30423"
+},
+"pop": 19358
+},
+{
+"id": "yumeiropatissiere",
+"title": "Yumeiro Patissiere",
+"romaji": "Yumeiro Pâtissière",
+"kind": "manga",
+"seasons": [
+{
+"t": "Yumeiro Patissiere",
+"y": 2009,
+"eps": 50
+},
+{
+"t": "Yumeiro Patissiere SP Professional",
+"y": 2010,
+"eps": 13
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 52,
+"volumes": 12,
+"url": "https://anilist.co/manga/40386"
+},
+"pop": 17892
+},
+{
+"id": "thestoryofsaiunkoku",
+"title": "The Story of Saiunkoku",
+"romaji": "Saiunkoku Monogatari",
+"kind": "novel",
+"seasons": [
+{
+"t": "The Story of Saiunkoku",
+"y": 2006,
+"eps": 39
+},
+{
+"t": "The Story of Saiunkoku Second Series",
+"y": 2007,
+"eps": 39
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": null,
+"volumes": 23,
+"url": "https://anilist.co/manga/43495"
+},
+"pop": 17707
+},
+{
+"id": "victoriaofmanyfaces",
+"title": "Victoria of Many Faces",
+"romaji": "Tefuda ga Oome no Victoria",
+"kind": "novel",
+"seasons": [
+{
+"t": "Victoria of Many Faces",
+"y": 2026,
+"eps": 9
+}
+],
+"source": {
+"status": "RELEASING",
+"chapters": null,
+"volumes": null,
+"url": "https://anilist.co/manga/163273"
+},
+"pop": 16791
+},
+{
+"id": "tadaimaokaeri",
+"title": "Tadaima, Okaeri",
+"romaji": "Tadaima, Okaeri",
+"kind": "manga",
+"seasons": [
+{
+"t": "Tadaima, Okaeri",
+"y": 2024,
+"eps": 12
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 7,
+"volumes": 1,
+"url": "https://anilist.co/manga/99516"
+},
+"pop": 16468
+},
+{
+"id": "librarywar",
+"title": "Library War",
+"romaji": "Toshokan Sensou",
+"kind": "novel",
+"seasons": [
+{
+"t": "Library War",
+"y": 2008,
+"eps": 12
+}
+],
+"source": null,
+"pop": 15579
+},
+{
+"id": "loveyoubaby",
+"title": "Love You Baby",
+"romaji": "Aishiteruze Baby★★",
+"kind": "manga",
+"seasons": [
+{
+"t": "Love You Baby",
+"y": 2004,
+"eps": 26
+}
+],
+"source": {
+"status": "FINISHED",
+"chapters": 33,
+"volumes": 7,
+"url": "https://anilist.co/manga/30055"
+},
+"pop": 15046
+}
+]

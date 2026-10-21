@@ -1,0 +1,1255 @@
+[
+ {
+  "id": "isitwrongtotrytopickupgi",
+  "unit": "Volume",
+  "next": "19",
+  "seasons": [
+   {
+    "l": "Season 5",
+    "end": 18
+   }
+  ],
+  "status": "continue",
+  "note": "Season 5 adapts through roughly light novel Volume 18. Start reading from Volume 19.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/danmachi-season-5-episode-10-review-freya-s-backstory-gets-cut-short-j-c-staff-keeps-speedrunning-adaptation"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thequintessentialquintup",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   },
+   {
+    "l": "Season 2",
+    "end": 87
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Season 1 covers chapters 1-32 and Season 2 chapters 33-87; the 2022 movie adapts chapters 87-122, finishing the manga.",
+  "src": [
+   [
+    "MyAnimeList Stacks",
+    "https://myanimelist.net/stacks/46832"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "beyondtheboundary",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime tells its own story that differs considerably from the three-volume light novel, which has no English release; there's no clean point to continue from.",
+  "src": [
+   [
+    "J-Novel Club Forums",
+    "https://forums.j-novel.club/post/87181"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "blackbutler",
+  "unit": "Chapter",
+  "next": "110",
+  "seasons": [
+   {
+    "l": "Black Butler: Public School Arc",
+    "end": 85
+   },
+   {
+    "l": "Black Butler: Emerald Witch Arc",
+    "end": 109
+   }
+  ],
+  "status": "continue",
+  "note": "The Public School Arc ends at the start of chapter 86, and the Emerald Witch Arc finale adapts chapter 109. Start reading from chapter 110.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-start-black-butler-manga-season-4-explained"
+   ],
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/black-butler-emerald-witch-arc/episode/13"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theancientmagusbride",
+  "unit": "Chapter",
+  "next": "96",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 45
+   },
+   {
+    "l": "Season 2",
+    "end": 70
+   },
+   {
+    "l": "Season 2 Part 2",
+    "end": 95
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 45 and Season 2 Part 2 ends at chapter 95. Start reading from chapter 96.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ancient-magus-bride-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "loghorizon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 3 starts from light novel volume 10, but no source found stating where it ends.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bloodblockadebattlefront",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Blood Blockade Battlefront & Beyond",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering about chapters 1-28 of the original manga, though both seasons rearrange and add material freely. Start around chapter 29, then go on to the sequel Blood Blockade Battlefront Back 2 Back.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/blood-blockade-battlefront-beyond"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "intotheforestoffireflies",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tomochanisagirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime adapts the manga's story through its ending across 13 episodes, though it skips many strips and the Volume 8 epilogue 'A Valentine's Miracle'.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/is-tomo-chan-girl-anime-based-manga-adaptation-explored"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "moriartythepatriot",
+  "unit": "Chapter",
+  "next": "57",
+  "seasons": [
+   {
+    "l": "Moriarty the Patriot Part 2",
+    "end": 56
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 56 (Part 2 covers chapters 25-56). Start reading from chapter 57, 'The Final Problem, Act 2'.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-moriarty-the-patriot-anime-leave-off-in-the-manga/"
+   ],
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/moriarty-the-patriot-part-2"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "myhappymarriage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "recordofragnarok",
+  "unit": "Chapter",
+  "next": "77",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 19
+   },
+   {
+    "l": "Record of Ragnarok III",
+    "end": 76
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 19, and Season 3 covers chapters 47-76. Start reading from chapter 77.",
+  "src": [
+   [
+    "Critical Hits",
+    "https://criticalhits.com.br/anime/onde-comecar-o-manga-apos-o-final-da-temporada-de-record-of-ragnarok"
+   ],
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/record-of-ragnarok-iii"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thewrongwaytousehealingm",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gosick",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 24-episode anime covers the main story through to its conclusion, but changes several parts, including the ending. Readers can go on to the sequel series Gosick New Continent.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Gosick"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bloomintoyou",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Bloom Into You",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts chapters 23-24. Start reading from chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/bloom-into-you/episode/13"
+   ],
+   [
+    "MyAnimeList Stacks",
+    "https://myanimelist.net/stacks/5845"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "chainedsoldier",
+  "unit": "Chapter",
+  "next": "68",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 44
+   },
+   {
+    "l": "Season 2",
+    "end": 67
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends around chapter 44, and the Season 2 finale adapts chapters 64-67. Start reading from chapter 68.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-chained-soldier-anime-end-in-the-manga/"
+   ],
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/chained-soldier-season-2/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "remakeourlife",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Remake Our Life!",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel Volume 4. Start reading from Volume 5, or from Volume 1 for the content the anime cut.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-remake-our-life-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "insomniacsafterschool",
+  "unit": "Chapter",
+  "next": "56",
+  "seasons": [
+   {
+    "l": "Insomniacs After School",
+    "end": 55
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 55 (Volume 6). Start reading from chapter 56, the first chapter of Volume 7.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-insomniacs-after-school-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "teasingmastertakagisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "onimaiimnowyoursister",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "ONIMAI: I'm Now Your Sister!",
+    "end": 18
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts chapters out of order: its finale covers chapters 17-18, and it skips chapters 19-21 while using some later ones. Start reading from chapter 22 (Volume 3), or from chapter 19 to catch the skipped ones.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-onimai-anime-end-in-the-manga/"
+   ],
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/onimai-im-now-your-sister/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dealingwithmikadonosiste",
+  "unit": "Chapter",
+  "next": "46",
+  "seasons": [
+   {
+    "l": "Dealing with Mikadono Sisters Is a Breeze",
+    "end": 45
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts chapters 43-45. Start reading from chapter 46.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/dealing-with-mikadono-sisters-is-a-breeze/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sanda",
+  "unit": "Chapter",
+  "next": "44",
+  "seasons": [
+   {
+    "l": "SANDA",
+    "end": 43
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode, 'Pale Blue Pall', adapts chapters 40-43. Start reading from chapter 44 (Volume 6).",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/sanda/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sweetnesslightning",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Sweetness & Lightning",
+    "end": 27
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-27. Start reading from chapter 28.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/sweetness-lightning"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "missionyozakurafamily",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 85
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts up to chapter 85, so chapter 86 (Volume 10) follows it. No source found yet for where the 2026 Season 2 ends.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-mission-yozakura-family-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "journalwithwitch",
+  "unit": "Chapter",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Journal with Witch",
+    "end": 10
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-10. Start reading from chapter 11.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/journal-with-witch"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tamonsbside",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Tamon's B-Side",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-24. Start reading from chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/tamons-b-side"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kayachanisntscary",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Kaya-chan Isn't Scary",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-24. Start reading from chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/kaya-chan-isnt-scary"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "astarbrighterthanthesun",
+  "unit": "Chapter",
+  "next": "13",
+  "seasons": [
+   {
+    "l": "A Star Brighter Than the Sun",
+    "end": 12
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-12. Start reading from chapter 13.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/a-star-brighter-than-the-sun"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "skullfacebooksellerhonda",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Skull-face Bookseller Honda-san",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-24. Start reading from chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/skull-face-bookseller-honda-san"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "beckmongolianchopsquad",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Beck: Mongolian Chop Squad",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-30. Start reading from chapter 31.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/beck-mongolian-chop-squad"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "airgear",
+  "unit": "Chapter",
+  "next": "105",
+  "seasons": [
+   {
+    "l": "Air Gear",
+    "end": 104
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-104. Start reading from chapter 105. The anime ends without a real conclusion.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/air-gear"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kenichithemightiestdisci",
+  "unit": "Chapter",
+  "next": "120",
+  "seasons": [
+   {
+    "l": "Kenichi: The Mightiest Disciple",
+    "end": 119
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists the anime as covering chapters 1-119. Start reading from chapter 120.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/kenichi-the-mightiest-disciple"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tistimefortortureprinces",
+  "unit": "Chapter",
+  "next": "141",
+  "seasons": [
+   {
+    "l": "'Tis Time for \"Torture,\" Princess Season 2",
+    "end": 140
+   }
+  ],
+  "status": "continue",
+  "note": "AnimeOshi lists Season 2 as covering chapters 71-140. Start reading from chapter 141.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/tis-time-for-torture-princess-season-2"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "blackcat",
+  "unit": "Chapter",
+  "next": "1",
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime departs heavily from the manga and tells its own story, so AnimeOshi recommends reading the manga from chapter 1.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/black-cat"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijiultimatesurvivor",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "Ultimate Survivor fully adapts the first series, Gyakkyou Burai Kaiji, and Against All Rules adapts its sequel Tobaku Hakairoku Kaiji. The story continues in the later sequels.",
+  "src": [
+   [
+    "MyAnimeList Stacks (Complete Anime Adaptations)",
+    "https://myanimelist.net/stacks/29835"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nonnonbiyori",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "goldenboy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nausicaofthevalleyofthew",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "cardcaptorsakura",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "heavenslostproperty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wagnaria",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "afrosamurai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "popteamepic",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "planetes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mybrideisamermaid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myroommateisacat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandpaandgrandmaturnyou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "spacebrothers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "onlyyesterday",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "deaddeaddemonsdedededede",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tomorrowsjoe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rozenmaiden",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bakithegrappler",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "forestofpiano",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "migidali",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sacrificialprincessandth",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelaidoffcheatgrantingm",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lupinthe3rd",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wavelistentome",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "takemybrotheraway",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintoniisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "amanchu",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theinvisiblemanandhissoo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bartender",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fuutopi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "detectivesthesedaysarecr",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yokohamashoppinglog",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "getbackers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "captaintsubasa",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sgtfrog",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kimagureorangeroad",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "brokenblade",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "darasanofthereiwaera",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thealldevouringwhalehome",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "secretsofthesilentwitch",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themagicalrevolutionofth",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theossannewbieadventurer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "anarchdemonsdilemmahowto",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "villainesslevel99imaybet",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "letthisgrievingsoulretir",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsurune",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theresnofreakingwayillbe",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "loveunseenbeneaththeclea",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ravenoftheinnerpalace",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "boogiepopphantom",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "studentcouncilsdiscretio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lovechunibyootherdelusio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theslayers",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "helloiamawitchandmycrush",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nialistonthemercilessmai",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kusunokisgardenofgods",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ }
+]

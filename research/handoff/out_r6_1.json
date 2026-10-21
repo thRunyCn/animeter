@@ -1,0 +1,1235 @@
+[
+ {
+  "id": "rascaldoesnotdreamofbunn",
+  "unit": "Volume",
+  "next": "13",
+  "seasons": [
+   {
+    "l": "Santa Claus (Season 2)",
+    "end": 12
+   }
+  ],
+  "status": "continue",
+  "note": "The 2025 season's final arc, starting at Episode 8, adapts the twelfth novel, Rascal Does Not Dream of His Student. Continue from Volume 13.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/rascal-does-not-dream-of-santa-claus-anime-prepares-for-his-student-arc-with-new-visual"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bakemonogatari",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "continue",
+  "note": "MONOGATARI Series: OFF & MONSTER Season adapts the novels Orokamonogatari, Wazamonogatari, Nademonogatari and Shinobumonogatari. Continue with the Off/Monster Season novels it skipped or that follow, starting with Musubimonogatari.",
+  "src": [
+   [
+    "AniTrendz",
+    "https://www.anitrendz.com/news/2024/06/29/nademonogatari-anime-trailer-teases-wazamonogatari-and-shinobumonogatari-adaptations"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theeminenceinshadow",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   },
+   {
+    "l": "Season 2",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts light novel volumes 1-2 and Season 2 adapts volumes 3-4. Start reading from Volume 5.",
+  "src": [
+   [
+    "MyAnimeList Stacks",
+    "https://myanimelist.net/stacks/42532"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "themisfitofdemonkingacad",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "datealive",
+  "unit": "Volume",
+  "next": "20",
+  "seasons": [
+   {
+    "l": "Season 5",
+    "end": 19
+   }
+  ],
+  "status": "continue",
+  "note": "Date A Live V adapts light novel volumes 17 to 19. Continue from Volume 20.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Date_A_Live_season_5"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nichijoumyordinarylife",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The anime mostly adapts material from the first 6 volumes, out of order. Start from Volume 7 for largely new content, or from the beginning since much was rearranged.",
+  "src": [
+   [
+    "Reddit r/Nichijou",
+    "https://www.reddit.com/r/Nichijou/comments/1ghwpj2/important_question"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "orange",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The 13-episode anime covers the manga's main story through to its ending; the Orange: Future film retells it from Suwa's view with a new epilogue.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Orange_(manga)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mylovestorywithyamadakun",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of Chapter 41. Start reading from Chapter 42 (beginning of Volume 5).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-lv999-love-for-yamada-kun-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "wistoriawandandsword",
+  "unit": "Chapter",
+  "next": "20",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 19
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers the manga up to Chapter 19, so Chapter 20 ('Final Exams') follows it. No confirmed end chapter was found for Season 2 yet.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-start-wistoria-wand-sword-manga-anime-explained"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tsukimichimoonlitfantasy",
+  "unit": "Volume",
+  "next": "11",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 10
+   }
+  ],
+  "status": "continue",
+  "note": "The last episode of Season 2 (37th overall) covers Light Novel Volume 10. Continue the story from Volume 11.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/tsuki-ga-michibiku-isekai-douchuu/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "landofthelustrous",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to around Chapter 32 but rearranges and skips content. Start reading from Chapter 30 (Volume 4).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-land-of-the-lustrous-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mynextlifeasavillainessa",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "howarealistherorebuiltth",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "makeinetoomanylosinghero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "weneverlearnbokuben",
+  "unit": "Chapter",
+  "next": "70",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 69
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 ends at Chapter 69. Continue from Chapter 70 (Volume 9).",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2023/12/bokutachi-wa-benkyou-ga-dekinai.html"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "aharensanwahakarenai",
+  "unit": "Chapter",
+  "next": "121",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 120
+   }
+  ],
+  "status": "continue",
+  "note": "The Season 2 finale adapts Chapters 117-120. Continue reading from Chapter 121.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/aharen-san-wa-hakarenai-season-2/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ajindemihuman",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "Season 2 loosely covers events up to around Chapter 69 but is mostly an anime-original plot. Start from Chapter 22 to get the canon story the anime changed.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-did-the-ajin-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "initiald1ststage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "Initial D Final Stage wraps up the entire Initial D saga, adapting the manga through its ending (48 volumes). There is nothing left to read after the anime.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/initial-d-final-stage"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "isthisazombie",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewindrises",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The film is Miyazaki's own adaptation of his short 2009 manga of the same name, a fictionalised account of Jiro Horikoshi's life. The manga is a short companion read rather than a continuation.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Wind_Rises"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thegeniusprincesguidetor",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "whisperoftheheart",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The film is based on Aoi Hiiragi's short 1989 manga Mimi o Sumaseba (one volume), with a screenplay by Hayao Miyazaki. There is no continuation to read after it.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Whisper_of_the_Heart"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sailormoon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "witchwatch",
+  "unit": "Chapter",
+  "next": "99",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 98
+   }
+  ],
+  "status": "continue",
+  "note": "The 25-episode first season adapts chapters out of order up to the end of Volume 11. Continue from Chapter 99 (Volume 12).",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2025/04/witch-watch.html"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "realgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pseudoharem",
+  "unit": "Chapter",
+  "next": "66",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 65
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts chapters 56-65. Continue reading from Chapter 66.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/pseudo-harem/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "marriagetoxin",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "clevatess",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 36
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1's final episode adapts Chapters 34-36. No reliable end point was found for Season 2.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/clevatess/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "jormungand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "Jormungand and Jormungand: Perfect Order adapt the whole manga, faithful right down to the final panel. There is no manga content left after the anime.",
+  "src": [
+   [
+    "Lost in Anime",
+    "https://lostinanime.com/2012/12/jormungand-perfect-order-12-end-and/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lifelessonswithuramichio",
+  "unit": "Chapter",
+  "next": "38",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 37
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga up to Chapter 37 (latter half of Volume 4). Continue from Chapter 38.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-life-lessons-with-uramichi-oniisan-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "icantunderstandwhatmyhus",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ghostintheshellstandalon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chainsmokercat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sleepyprincessinthedemon",
+  "unit": "Chapter",
+  "next": "38",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 37
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 34-37, so continue from Chapter 38. The anime stops before a major turning point around Chapters 60-70.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/sleepy-princess-in-the-demon-castle/episode/12"
+   ],
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-sleepy-princess-in-the-demon-castle-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "asareincarnatedaristocra",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theheroiclegendofarslan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hitoribocchinomarumaruse",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewitchandthebeast",
+  "unit": "Chapter",
+  "next": "61",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 60
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 56-60. Continue reading from Chapter 61.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/the-witch-and-the-beast/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kotarolivesalone",
+  "unit": "Chapter",
+  "next": "61",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 85
+   }
+  ],
+  "status": "continue",
+  "note": "The Netflix anime's finale adapts Chapter 85, but it skipped Chapters 61-84. Start reading from Chapter 61 to catch everything not animated.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kotaro-lives-alone-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fromuponpoppyhill",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The film is based on the short 1980 manga by Chizuru Takahashi and Tetsuro Sayama. The manga tells the same story, so there is no continuation after the film.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "saspeciala",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "joshiraku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "honeyandclover",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jinrohthewolfbrigade",
+  "unit": "Chapter",
+  "next": "2",
+  "seasons": [],
+  "status": "continue",
+  "note": "The film is based on the first chapter of Volume 1 of Mamoru Oshii's manga Kerberos Panzer Cop. Read on from Chapter 2.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Jin-Roh:_The_Wolf_Brigade"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ariatheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yugioh",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tuneintothemidnightheart",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 23-24. Continue reading from Chapter 25.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/tune-in-to-the-midnight-heart/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lovelab",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "squidgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lookism",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 27
+   }
+  ],
+  "status": "continue",
+  "note": "The last of the 8 episodes adapts Chapters 26-27 of the webtoon. Continue from Chapter 28.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/lookism/episode/8"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "chitoseisintheramunebott",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "supercub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "citytheanimation",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 37-39. The anime picks chapters selectively, so reading from the start is safest; otherwise continue from Chapter 40.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/city-the-animation/episode/13"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bokurano",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dropkickonmydevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "overgeared",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetwelvekingdoms",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themasterfulcatisdepress",
+  "unit": "Chapter",
+  "next": "50",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 49
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 48-49. Continue reading from Chapter 50.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/the-masterful-cat-is-depressed-again-today/episode/13"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "eventhestudentcouncilhas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shugochara",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "saintseiyaknightsofthezo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsubasareservoirchronicl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "strawberrymarshmallow",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "outlawstar",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsuboshicolors",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tekkonkinkreet",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pocosudonworld",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "anobservationlogofmyfian",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pompothecinphile",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akagi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "omoiomowarefurifurare",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "youngladiesdontplayfight",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hanaorisanstillwantstofi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mono",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 23-32. Continue reading from Chapter 33.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/mono/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tojimawantstobeakamenrid",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsudomoe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsumasho",
+  "unit": "Chapter",
+  "next": "41",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 40
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode adapts Chapters 34-40. Continue reading from Chapter 41.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/tsumasho/episode/12"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mynewbossisgoofy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gantzo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "continue",
+  "note": "GANTZ:O adapts only the Osaka arc of the manga, with changes. The manga continues after the Osaka arc, but no exact chapter was confirmed.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Gantz:_O"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theworldisdancing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lookingforthefullmoon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "zakuro",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kodocha",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yakitatejapan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "psychicprincess",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theprincessandthepilot",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The film adapts Koroku Inumura's single standalone light novel. The Pilot's Love Song is a separate series set in the same world.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Princess_and_the_Pilot"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "paniponidash",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yourlightkasesanandmorni",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galaxyexpress999",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "moyashimon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "youreunderarrest",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "osomatsukun1988",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No trustworthy source was found stating where the anime ends in the source.",
+  "src": [],
+  "confidence": "low"
+ }
+]
