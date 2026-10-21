@@ -1,0 +1,1310 @@
+[
+ {
+  "id": "gate",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Gate",
+    "end": null
+   },
+   {
+    "l": "Gate 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which novel volume the anime ends at.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Gate_(novel_series)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "wanderingwitchthejourney",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Wandering Witch: The Journey of Elaina",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Anthology-style novel; no source found stating which volumes the anime covers.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Wandering_Witch:_The_Journey_of_Elaina"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "oresukiareyoutheonlyonew",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "ORESUKI: Are you the only one who loves me?",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No readable source found stating where the anime ends in the novels.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Oresuki"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "howheavyarethedumbbellsy",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "How Heavy Are the Dumbbells You Lift?",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/How_Heavy_Are_the_Dumbbells_You_Lift%3F"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "goldenboy",
+  "unit": "volume",
+  "next": 2,
+  "seasons": [
+   {
+    "l": "GOLDEN BOY",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "MangaShed says the OVA adapts up to the end of volume 1; start at volume 2 (around chapter 11).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-to-watch-golden-boy-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nausicaofthevalleyofthew",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "Nausicaä of the Valley of the Wind",
+    "end": 2
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The film roughly covers the first two manga volumes with its own ending; continue at volume 3 (the manga differs, so reading from volume 1 is worthwhile).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(manga)"
+   ],
+   [
+    "Quarter To Three forum",
+    "https://forum.quartertothree.com/t/how-does-the-nausicaa-film-tie-into-the-manga/10124"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "somaliandtheforestspirit",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Somali and the Forest Spirit",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found mapping the anime to chapters; the manga was cancelled in 2020 after a hiatus.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "heavenslostproperty",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Heaven's Lost Property",
+    "end": null
+   },
+   {
+    "l": "Heaven's Lost Property: Forte",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 covers up to the Nymph/Harpies storyline and Forte runs from the Astraea arc to the Chaos arc (the Hiyori arc went to the film); no chapter numbers found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Heaven%27s_Lost_Property_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "themagicalrevolutionofth",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to the end of light novel volume 3; start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/magical-revolution-light-novel-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nyarukocrawlingwithlove",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Nyaruko: Crawling with Love!",
+    "end": null
+   },
+   {
+    "l": "Nyaruko-san: Another Crawling Chaos W",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novels.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "anarchdemonsdilemmahowto",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Only source found says the anime reaches about manga chapter 20-22 (start manga chapter 21); light novel volume not stated.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/how-to-love-your-elf-bride-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "asareincarnatedaristocra",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "end": null
+   },
+   {
+    "l": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2",
+    "end": 4
+   },
+   {
+    "l": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Seasons 1-2 cover light novel volumes 1-4, so start at volume 5 after Season 2; where Season 3 ends is unknown.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/reincarnated-aristocrat-appraisal-skill-light-novel-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hitoribocchinomarumaruse",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hitoribocchi no Marumaruseikatsu",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "inthiscorneroftheworld",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "In This Corner of the World",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film tells the whole story of the manga but downplays Rin's role; no source gave chapter numbers, and the 2019 extended cut restores some of her material.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/In_This_Corner_of_the_World_(film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "saspeciala",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "S.A: Special A",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "joshiraku",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Joshiraku",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic comedy; no source found mapping the anime to chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwanttoloveyoutillyourdy",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "I Want to Love You Till Your Dying Day",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theresnofreakingwayillbe",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "There's No Freaking Way I'll Be Your Lover! Unless…",
+    "end": 3
+   },
+   {
+    "l": "There's No Freaking Way I'll Be Your Lover! Unless… ~Next Shine~",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the end of light novel volume 3 (start volume 4 after it); where Next Shine ends is unknown.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-theres-no-freaking-way-ill-be-your-lover-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "childrenofthesea",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Children of the Sea",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Studio 4°C's film, scripted by the manga's author, compresses the manga's story into one feature; no source gives chapter coverage.",
+  "src": [
+   [
+    "RogerEbert.com",
+    "https://www.rogerebert.com/reviews/children-of-the-sea-movie-review-2020"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Children_of_the_Sea_(film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "beautifulbonessakurakosi",
+  "unit": "volume",
+  "next": 1,
+  "seasons": [
+   {
+    "l": "Beautiful Bones -Sakurako's Investigation-",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts selected cases from volumes 1-4 and 7 out of order, so start the light novels at volume 1.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-beautiful-bones-sakurakos-investigation-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kakuriyobedbreakfastfors",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kakuriyo -Bed & Breakfast for Spirits-",
+    "end": 5
+   },
+   {
+    "l": "Kakuriyo -Bed & Breakfast for Spirits- 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the end of light novel volume 5, and Season 2 starts at volume 6; where Season 2 ends is unknown.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kakuriyo-bed-and-breakfast-for-spirits-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "grandpaandgrandmaturnyou",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Grandpa and Grandma Turn Young Again",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chitoseisintheramunebott",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Chitose Is in the Ramune Bottle",
+    "end": 3
+   },
+   {
+    "l": "Chitose Is in the Ramune Bottle 2nd Cour",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The first cour ends at the end of light novel volume 3 (start volume 4 after it); where the 2nd cour ends is unknown.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-chitose-is-in-the-ramune-bottle-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "supercub",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Super Cub",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime covers.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Super_Cub_(novel_series)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ushioandtoratv",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Ushio and Tora (TV)",
+    "end": null
+   },
+   {
+    "l": "Ushio and Tora 2 (TV)",
+    "end": 313
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 39-episode 2015-2016 series covers the entire manga storyline (condensed).",
+  "src": [
+   [
+    "Diabolical Plots",
+    "https://www.diabolicalplots.com/anime-review-ushio-and-tora/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ravenoftheinnerpalace",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "Raven of the Inner Palace",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts light novel volumes 1-2; start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-raven-of-the-inner-palace-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "boogiepopphantom",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Boogiepop Phantom",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "Boogiepop Phantom is an anime-original story set between light novel volumes 1 and 2, so it has no continuation point; read the novels from volume 1.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-boogiepop-phantom-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "overgeared",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Overgeared",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime premiered October 2026 and is still airing; its end point is not yet known.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Overgeared"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "GJ Club",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/GJ_Club"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "deaddeaddemonsdedededede",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The adaptation skips some material and deviates from the manga at the end, so read the manga for the original ending.",
+  "src": [
+   [
+    "The Outerhaven",
+    "https://www.theouterhaven.net/2024/09/anime-review-dead-dead-demons-dededede-destruction/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "tomorrowsjoe",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tomorrow's Joe",
+    "end": 8
+   },
+   {
+    "l": "Tomorrow's Joe 2",
+    "end": 20
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Tomorrow's Joe 2 picks up at volume 9 and covers the rest of the manga, so the two series together adapt the whole story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Ashita_no_Joe"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rozenmaiden",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Rozen Maiden",
+    "end": null
+   },
+   {
+    "l": "Rozen Maiden: Dreaming",
+    "end": null
+   },
+   {
+    "l": "Rozen Maiden: Zurückspulen",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Träumend adds anime-original material and Zurückspulen adapts the sequel manga; no chapter numbers found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Rozen_Maiden"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bakithegrappler",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Baki the Grappler",
+    "end": null
+   },
+   {
+    "l": "Grappler Baki Maximum Tournament",
+    "end": null
+   },
+   {
+    "l": "BAKI",
+    "end": null
+   },
+   {
+    "l": "Baki: The Great Raitai Tournament Saga",
+    "end": null
+   },
+   {
+    "l": "Baki Hanma",
+    "end": null
+   },
+   {
+    "l": "Baki Hanma Season 2",
+    "end": null
+   },
+   {
+    "l": "BAKI-DOU: The Invincible Samurai",
+    "end": null
+   },
+   {
+    "l": "BAKI-DOU: The Invincible Samurai Part 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The 2001 series covers Grappler Baki; later seasons adapt the sequels New Grappler Baki, Hanma Baki and Baki-Dou. No chapter numbers found.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/how-many-baki-anime-are-there/"
+   ],
+   [
+    "MangaShed",
+    "https://mangashed.com/when-does-the-netflix-baki-start-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "lovechunibyootherdelusio",
+  "unit": "volume",
+  "next": 1,
+  "seasons": [
+   {
+    "l": "Love, Chunibyo & Other Delusions Lite",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The Chunibyo anime diverges early from the light novels and has no clean leave-off point; start at volume 1.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-love-chunibyou-and-other-delusions-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "cromartiehighschool",
+  "unit": "chapter",
+  "next": 1,
+  "seasons": [
+   {
+    "l": "Cromartie High School",
+    "end": 125
+   }
+  ],
+  "status": "continue",
+  "note": "The anime picks gags out of order up to about chapter 125 (volume 7) and skips many chapters, so start the manga at chapter 1.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-cromartie-high-school-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "minamike",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Minami-ke",
+    "end": null
+   },
+   {
+    "l": "Minami-ke: Okawari",
+    "end": null
+   },
+   {
+    "l": "Minami-ke: Okaeri",
+    "end": null
+   },
+   {
+    "l": "Minami-ke Tadaima",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic comedy; no source found mapping seasons to chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Minami-ke_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsuboshicolors",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Mitsuboshi Colors",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic comedy; no source found stating the last chapter adapted.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tekkonkinkreet",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tekkonkinkreet",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "A review calls the film a rather faithful adaptation of Matsumoto's manga; no source states chapter coverage.",
+  "src": [
+   [
+    "Parka Blogs",
+    "https://parkablogs.com/content/anime-review-tekkon-kinkreet-2006"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "pocosudonworld",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Poco's Udon World",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://admin.animenewsnetwork.com/review/poco-udon-world/episode-12/.110324"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "anobservationlogofmyfian",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which volumes the anime adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/An_Observation_Log_of_My_Fianc%C3%A9e_Who_Calls_Herself_a_Villainess"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "pompothecinphile",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Pompo: The Cinéphile",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which manga volume the film covers.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Pompo:_The_Cin%C3%A9phile_(film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "akagi",
+  "unit": "volume",
+  "next": 14,
+  "seasons": [
+   {
+    "l": "Akagi",
+    "end": 13
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers roughly the first 13 of 36 volumes and leaves the last arc unfinished; continue around volume 14.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Akagi_(manga)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "omoiomowarefurifurare",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Omoi, Omoware, Furi, Furare",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The film condenses the romance; no source states how much of the manga it covers.",
+  "src": [
+   [
+    "AnimeClick",
+    "https://www.animeclick.it/recensione/68798"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "youngladiesdontplayfight",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Young Ladies Don't Play Fighting Games",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "AnimeOshi lists episode 11 as manga chapters 31-33; the finale's end chapter was not found.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/young-ladies-dont-play-fighting-games/episode/11"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hanaorisanstillwantstofi",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hanaori-san Still Wants to Fight in the Next Life",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "beyblade",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Beyblade",
+    "end": null
+   },
+   {
+    "l": "Beyblade V-Force",
+    "end": null
+   },
+   {
+    "l": "Beyblade G Revolution",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found mapping the anime to manga chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Beyblade_(manga)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "betrothedtomysistersex",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Betrothed to My Sister's Ex",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Betrothed_to_My_Sister%27s_Ex"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thecatandthedragon",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Cat and the Dragon",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which volumes the anime adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Cat_and_the_Dragon"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "excelsaga",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Excel Saga",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "At the publisher's request the anime follows a different storyline from the manga, so read the manga from the start.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Excel_Saga"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "andyetthetownmoves",
+  "unit": "chapter",
+  "next": 1,
+  "seasons": [
+   {
+    "l": "And Yet The Town Moves",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts about 22 chapters out of order with no single end point; start the manga at chapter 1.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-and-yet-the-town-moves-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theworldisdancing",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The World Is Dancing",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating whether the anime covers the whole 60-chapter manga.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_World_Is_Dancing"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "lookingforthefullmoon",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Looking for the Full Moon",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime ended before the manga finished and resolves the story differently.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Full_Moon_o_Sagashite"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "zakuro",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Zakuro",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kodocha",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kodocha",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodes 1-51 cover the elementary school arc and 52-102 the middle school arc, with anime-specific changes; no source states it reaches the manga's ending.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kodocha"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "yakitatejapan",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Yakitate!! Japan",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime ended in 2006, before the manga finished in 2007; no chapter number found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Yakitate!!_Japan"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ifmyfavoritepopidolmadei",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "If My Favorite Pop Idol Made It to the Budokan, I Would Die",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/If_My_Favorite_Pop_Idol_Made_It_to_the_Budokan,_I_Would_Die"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "captaintsubasa",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Captain Tsubasa",
+    "end": 114
+   }
+  ],
+  "status": "continue",
+  "note": "animefillerguide.com says the 1983 anime adapts up to chapter 114, but its own chapter count does not match the 37-volume manga, so treat the number as unverified.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=287"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sgtfrog",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Sgt. Frog",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Long-running episodic anime with mostly original material; no chapter mapping found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Sgt._Frog"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kimagureorangeroad",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kimagure Orange Road",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The TV series skips some manga storylines and has no resolution; the 1988 film provides closure. No chapter number found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kimagure_Orange_Road"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "brokenblade",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Broken Blade",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The six films mostly follow the manga, but the sixth film ends with its own plot; no volume mapping found for the first film.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Broken_Blade"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "darasanofthereiwaera",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Dara-san of the Reiwa Era",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating the last chapter adapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Dara-san_of_Reiwa"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thealldevouringwhalehome",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The All-devouring Whale: Homecoming",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found linking the 12-episode donghua to manhua chapters.",
+  "src": [
+   [
+    "Soap Central",
+    "https://www.soapcentral.com/anime/is-the-all-devouring-whale-anime-worth-watching"
+   ]
+  ],
+  "confidence": "low"
+ }
+]

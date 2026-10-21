@@ -1,0 +1,1239 @@
+[
+ {
+  "id": "loghorizon",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Log Horizon",
+    "end": null
+   },
+   {
+    "l": "Log Horizon 2",
+    "end": null
+   },
+   {
+    "l": "Log Horizon: Destruction of the Round Table",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source read states which light novel volumes each season adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Log_Horizon_season_3"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sentencedtobeahero",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "Sentenced to Be a Hero",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers light novel volumes 1-2; start at volume 3.",
+  "src": [
+   [
+    "Mystiqora",
+    "https://mystiqora.com/?p=9433"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "howarealistherorebuiltth",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "How a Realist Hero Rebuilt the Kingdom",
+    "end": 2
+   },
+   {
+    "l": "How a Realist Hero Rebuilt the Kingdom Part 2",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "Part 2 ends at the end of light novel volume 4; start at volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-how-a-realist-hero-rebuilt-the-kingdom-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "youandiarepolaropposites",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "You and I Are Polar Opposites",
+    "end": 31
+   },
+   {
+    "l": "You and I Are Polar Opposites Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends at chapter 31 (start at 32); Season 2 reaches the graduation, likely the manga's ending, but no source confirms the final chapter.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/you-and-i-are-polar-opposites/"
+   ],
+   [
+    "Anime Corner",
+    "https://animecorner.me/you-and-i-are-polar-opposites-reveals-graduation-day-visual-ahead-of-season-2-finale/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "isthisazombie",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Is this a Zombie?",
+    "end": null
+   },
+   {
+    "l": "Is this A Zombie? of the Dead",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source read states which light novel volumes the anime adapts.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Is_This_a_Zombie%3F_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "seitokaiyakuindomo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Seitokai Yakuindomo",
+    "end": null
+   },
+   {
+    "l": "Seitokai Yakuindomo Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Gag manga adapted out of order; no source states an end point.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "schoolbabysitters",
+  "unit": "chapter",
+  "next": 35,
+  "seasons": [
+   {
+    "l": "School Babysitters",
+    "end": 34
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 34 (skipping some chapters); start at chapter 35 in volume 7.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-gakuen-babysitters-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "shakugannoshana",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Shakugan no Shana",
+    "end": 7
+   },
+   {
+    "l": "Shakugan no Shana: Season II",
+    "end": 14
+   },
+   {
+    "l": "Shakugan no Shana: Season III",
+    "end": 22
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Season III (Final) adapts volumes 16-22, through the novel's ending; earlier seasons mix in anime-original arcs.",
+  "src": [
+   [
+    "Shakugan no Shana Wiki",
+    "https://shakugan.fandom.com/wiki/Story_Arcs"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "wagnaria",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Wagnaria!!",
+    "end": null
+   },
+   {
+    "l": "Wagnaria!!2",
+    "end": null
+   },
+   {
+    "l": "Wagnaria!!3",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Season 3 and its one-hour finale close out the story; no source gives chapter numbers.",
+  "src": [
+   [
+    "MyAnimeList",
+    "https://myanimelist.net/anime/31715"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Working!!_episodes"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "icantunderstandwhatmyhus",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "I Can't Understand What My Husband Is Saying",
+    "end": null
+   },
+   {
+    "l": "I Can't Understand What My Husband is Saying 2nd Thread",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chainsmokercat",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Chainsmoker Cat",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No readable source states where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tougenanki",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "TOUGEN ANKI",
+    "end": 76
+   },
+   {
+    "l": "TOUGEN ANKI: Nikko Kegon Falls Arc",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers through the Nerima arc (about chapter 76); the Kegon Falls season is still airing, so its end point is not yet known.",
+  "src": [
+   [
+    "Tougen Anki Wiki",
+    "https://tougen-anki.fandom.com/wiki/Story_Arcs"
+   ],
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-tougen-anki-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "placetoplace",
+  "unit": "chapter",
+  "next": 29,
+  "seasons": [
+   {
+    "l": "Place to Place",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode mainly adapts chapter 28 (chapters are rearranged); continue from chapter 29.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-acchi-kocchi-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "planetes",
+  "unit": "chapter",
+  "next": 15,
+  "seasons": [
+   {
+    "l": "Planetes",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime diverges around chapter (Phase) 15 in volume 3 and has its own ending; read from chapter 15 or from the start.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-planetes-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "demonlord2099",
+  "unit": "volume",
+  "next": 3,
+  "seasons": [
+   {
+    "l": "DEMON LORD 2099",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime reportedly adapts light novel volumes 1-2; start at volume 3.",
+  "src": [
+   [
+    "StudentBridge celebnews",
+    "https://slbubble.studentbridge.com/celebnews210/demon-lord-2099-season-2-will-veltol-return-to-cyberpunk-shinjuku-latest-renewal-status-and-light-novel-future-tgdcp.html"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "shamanking",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Shaman King",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The 2001 anime starts faithful but its later half is unrelated to the manga, with its own conclusion.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Shaman_King_(2001_TV_series)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "honeyandclover",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Honey and Clover",
+    "end": null
+   },
+   {
+    "l": "Honey and Clover II",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Honey and Clover II aired as the manga concluded and is generally considered to cover the ending, but no source read confirms it.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Honey_and_Clover"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hellmodethehardcoregamer",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+    "end": null
+   },
+   {
+    "l": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "vampirehunterdbloodlust",
+  "unit": "volume",
+  "next": 4,
+  "seasons": [
+   {
+    "l": "Vampire Hunter D: Bloodlust",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The film adapts novel 3, Demon Deathchase; the novels are largely standalone, so any other volume works.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Vampire_Hunter_D:_Bloodlust"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "loveunseenbeneaththeclea",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Love Unseen Beneath the Clear Night Sky",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Single-volume novel; no source found confirming how much the anime covers.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lovelab",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "Love Lab",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers roughly the first four volumes; start at volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-love-lab-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "nurariseoftheyokaiclan",
+  "unit": "chapter",
+  "next": 135,
+  "seasons": [
+   {
+    "l": "Nura: Rise of the Yokai Clan",
+    "end": 83
+   },
+   {
+    "l": "Nura: Rise of the Yokai Clan - Demon Capital",
+    "end": 134
+   }
+  ],
+  "status": "continue",
+  "note": "Demon Capital ends at chapter 134 (end of volume 16); start at chapter 135.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-nura-rise-of-the-yokai-clan-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thoughiamanineptvillaine",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Though I Am an Inept Villainess",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "memories",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Memories",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Anthology film adapting three of Otomo's short stories (Magnetic Rose, Stink Bomb, Cannon Fodder); the rest of the collection is unadapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Memories_(1995_film)"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "agentsofthefourseasonsda",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Agents of the Four Seasons: Dance of Spring",
+    "end": 2
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime adapts the two-volume Dance of Spring arc; the story continues in the later Summer arc novels.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Agents_of_the_Four_Seasons"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "jaadugarawitchinmongolia",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Jaadugar: A Witch in Mongolia",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "100meters",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "100 METERS",
+    "end": 5
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film condenses all five manga volumes into one movie.",
+  "src": [
+   [
+    "Beneath the Tangles",
+    "https://beneaththetangles.com/2025/12/30/film-review-100-meters-hyakuemu/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "chapter",
+  "next": 27,
+  "seasons": [
+   {
+    "l": "Ruri Rocks",
+    "end": 26
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode (13) adapts chapters 25-26; start at chapter 27.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/ruri-rocks/episode/13"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thetwelvekingdoms",
+  "unit": "volume",
+  "next": 5,
+  "seasons": [
+   {
+    "l": "The Twelve Kingdoms",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime mostly adapts the first four novels (Sea of Shadow through Skies of Dawn); later novels are unadapted.",
+  "src": [
+   [
+    "Experiments in Manga",
+    "https://experimentsinmanga.mangabookshelf.com/2015/04/adaptation-adventures-the-twelve-kingdoms/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Sabagebu! - Survival Game Club!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "playitcoolguys",
+  "unit": "chapter",
+  "next": 25,
+  "seasons": [
+   {
+    "l": "Play It Cool, Guys",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 24 (about volume 4); start at chapter 25.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-play-it-cool-guys-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gugurekokkurisan",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Gugure! Kokkuri-san",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theklutzyclassmonitorand",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Klutzy Class Monitor and the Girl with the Short Skirt",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "endoandkobayashilivethel",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating how much of the light novel the anime adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "botankamiinafullyblossom",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Botan Kamiina Fully Blossoms When Drunk",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "forestofpiano",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Forest of Piano",
+    "end": null
+   },
+   {
+    "l": "Forest of Piano Season 2",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The two TV seasons cover all chapters of the manga.",
+  "src": [
+   [
+    "What's on Netflix",
+    "https://whats-on-netflix.com/news/forest-of-piano-season-3-netflix-renewal-status-release-date"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theprinceoftennis",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Prince of Tennis",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The TV series runs up to Seigaku qualifying for Nationals; the National Tournament OVAs pick up from there. No source gives the exact chapter.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Prince_of_Tennis"
+   ],
+   [
+    "MyAnimeList",
+    "https://myanimelist.net/anime/995"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kobato",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Kobato",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime's ending differs from the manga (Kobato's past and the reunion play out differently).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kobato"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ladyoscartheroseofversai",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Lady Oscar: The Rose of Versailles",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The 40-episode anime is generally regarded as a complete adaptation, but no source read confirms it.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Rose_of_Versailles"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "goforitnakamurakun",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Go For It, Nakamura-kun!!",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The source is a single volume and the anime appears to cover it with added anime-original material, but no source states the coverage.",
+  "src": [
+   [
+    "Bubbleblabber",
+    "https://www.bubbleblabber.com/2026/06/english-dub-season-review-go-for-it-nakamura-kun-season-one/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thegirlfromtheotherside",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Girl from the Other Side",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Feature-length OAD bundled with the bonus volume; no source states which chapters it covers.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Girl_from_the_Other_Side:_Si%C3%BAil,_a_R%C3%BAn"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hozukiscoolheadedness",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hozuki's Coolheadedness",
+    "end": null
+   },
+   {
+    "l": "Hozuki’s Coolheadedness 2",
+    "end": null
+   },
+   {
+    "l": "Hozuki’s Coolheadedness 2: Part II",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic manga adapted out of order; no source states an end point.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themorosemononokean",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Morose Mononokean",
+    "end": null
+   },
+   {
+    "l": "The Morose Mononokean Ⅱ",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where Season 2 ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aninjaandanassassinunder",
+  "unit": "chapter",
+  "next": 26,
+  "seasons": [
+   {
+    "l": "A Ninja and an Assassin Under One Roof",
+    "end": 25
+   }
+  ],
+  "status": "continue",
+  "note": "The final episode (12) adapts chapters 23-25; start at chapter 26.",
+  "src": [
+   [
+    "AnimeOshi",
+    "https://www.animeoshi.com/anime/a-ninja-and-an-assassin-under-one-roof/episode/12"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "catsoup",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Cat Soup",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Short film loosely inspired by Nekojiru's work rather than a linear adaptation.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hikarunogo",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hikaru no Go",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The TV anime ended before the manga (a later special covers the road to the Hokuto Cup); no source read gives the exact chapter.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hikaru_no_Go"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tojimawantstobeakamenrid",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Tojima Wants to Be a Kamen Rider",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsudomoe",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Mitsudomoe",
+    "end": null
+   },
+   {
+    "l": "Mitsudomoe Zouryouchuu!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Gag manga adapted out of order; no source found stating an end point.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bluegiant",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Blue Giant",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The film adapts the original Blue Giant series (Dai's years in Japan); the story continues in Blue Giant Supreme.",
+  "src": [
+   [
+    "Looper",
+    "https://www.looper.com/1064608/blue-giant-what-we-know-so-far"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "helloiamawitchandmycrush",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "The anime is airing in October 2026; no source yet states how much of the two-volume novel it covers.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "alwaysacatch",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Always a Catch!",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating which light novel volumes the anime adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelawofueki",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Law of Ueki",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source read states whether the anime covers the manga's ending.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Law_of_Ueki"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "dearbrother",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Dear Brother",
+    "end": null
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime covers the story but changes the ending (Kaoru recovers instead of dying).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Dear_Brother"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "levele",
+  "unit": "chapter",
+  "next": 16,
+  "seasons": [
+   {
+    "l": "Level E",
+    "end": 15
+   }
+  ],
+  "status": "continue",
+  "note": "Every chapter except the final one, 'Honeymoon...!', is adapted; read chapter 16.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Level_E"
+   ]
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "seeyoutomorrowatthefoodc",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "See You Tomorrow at the Food Court",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "psychicprincess",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Psychic Princess",
+    "end": null
+   },
+   {
+    "l": "Tongling Fei 2",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manhua.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "biaoren",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Biaoren",
+    "end": 50
+   },
+   {
+    "l": "Biaoren 2",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the end of chapter 50; no source yet covers where Biaoren 2 ends.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-blades-of-the-guardians-anime-end-in-the-manhua/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "yourebeingsummonedazazel",
+  "unit": "chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "You're Being Summoned, Azazel",
+    "end": null
+   },
+   {
+    "l": "You're Being Summoned, Azazel Z",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "barefootgen",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Barefoot Gen",
+    "end": null
+   }
+  ],
+  "status": "continue",
+  "note": "The film is loosely based on the early part of the manga (a sequel film followed); no source gives exact volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Barefoot_Gen_(1983_film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "isekaiizakayajapanesefoo",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Isekai Izakaya: Japanese Food From Another World",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Episodic short-form adaptation; no source found stating which volumes are covered.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theirresponsiblecaptaint",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "The Irresponsible Captain Tylor",
+    "end": null
+   }
+  ],
+  "status": "unknown",
+  "note": "Adapted from the light novel series, but no source states which novels the TV series follows.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Irresponsible_Captain_Tylor"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "emmaavictorianromance",
+  "unit": "volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Emma: A Victorian Romance",
+    "end": null
+   },
+   {
+    "l": "Emma: A Victorian Romance Second Act",
+    "end": null
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "Second Act is generally considered to conclude the main story (volumes 1-7; volumes 8-10 are extra stories), but no source read confirms it.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Emma_(manga)"
+   ]
+  ],
+  "confidence": "low"
+ }
+]
