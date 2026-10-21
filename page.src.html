@@ -390,6 +390,25 @@ footer .fwm{display:block;font-family:var(--f-display);font-size:21.5vw;line-hei
 <script>
 /* Two builds share this file: the claude.ai artifact (hash routes, built-in db) and the standalone
    web/ site (one static page per route, data.js + config.js alongside, Supabase for reports). */
+/* Renders patch the live DOM instead of replacing it, so pictures already on screen (the prerendered
+   page's included) are not loaded again and entrance motion that is playing does not restart. */
+function morph(a, b){
+  if (a.nodeType !== b.nodeType || a.nodeName !== b.nodeName){ a.replaceWith(b); return; }
+  if (a.nodeType === 3 || a.nodeType === 8){ if (a.nodeValue !== b.nodeValue) a.nodeValue = b.nodeValue; return; }
+  for (const {name} of [...a.attributes]) if (!b.hasAttribute(name)) a.removeAttribute(name);
+  for (const {name, value} of [...b.attributes]) if (a.getAttribute(name) !== value) a.setAttribute(name, value);
+  if (a.nodeName === "INPUT" && a.value !== b.value && a !== document.activeElement) a.value = b.value;
+  morphKids(a, b);
+}
+function morphKids(a, b){
+  const ak = [...a.childNodes], bk = [...b.childNodes];
+  bk.forEach((n, i) => ak[i] ? morph(ak[i], n) : a.appendChild(n));
+  for (let i = bk.length; i < ak.length; i++) ak[i].remove();
+}
+function patch(el){ return { set html(h){ const t = document.createElement("template"); t.innerHTML = h; const d = document.createElement(el.nodeName); d.append(t.content); morphKids(el, d); } }; }
+/* Since patched elements survive renders, each render's bindings replace the previous ones instead of piling up. */
+{ const add = Element.prototype.addEventListener, rm = Element.prototype.removeEventListener;
+  Element.prototype.addEventListener = function(type, fn, opt){ const m = this._on || (this._on = {}); if (m[type]) rm.call(this, type, m[type], opt); m[type] = fn; return add.call(this, type, fn, opt); }; }
 const STATIC = !!window.ANIMETER;
 if (STATIC && window.ANIMETER.tagnames){            // slim index: tags as numbers, heavy fields arrive per series (s/<id>.js)
   const tn = window.ANIMETER.tagnames;
@@ -521,7 +540,7 @@ function renderHome(){
   const app = document.getElementById("app");
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
-    app.innerHTML = `
+    patch(app).html = `
       <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a><a class="back melink" href="${profileHref()}">My list</a></nav></header>
       ${heroHTML()}
       <section id="rankings">
@@ -599,7 +618,7 @@ function renderRankings(){
   if (!items.length){ box.innerHTML = `<div class="none">No series matches ${query.trim() ? `"${esc(query)}"` : ""}${query.trim() && tags.size ? " with " : ""}${tags.size ? "all of these tags" : ""}.</div>`; document.getElementById("pager").innerHTML=""; return; }
   const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
   if (view==="list"){
-    box.innerHTML = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
+    patch(box).html = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
       <a class="row" href="${seriesHref(s.id)}">
         <span class="rank">${rank}</span>
         ${coverHTML(s,"anime")}
@@ -609,7 +628,7 @@ function renderRankings(){
         <span class="ch">${chip(s)}</span>
       </a>`).join("") + `</div>`;
   } else {
-    box.innerHTML = `<div class="wall">` + items.map(({s,site,rank})=>`
+    patch(box).html = `<div class="wall">` + items.map(({s,site,rank})=>`
       <a class="card" href="${seriesHref(s.id)}">
         ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>`)}
         <span class="t">${esc(s.title)}</span>
@@ -809,7 +828,7 @@ function renderSeries(id, tab){
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
-  document.getElementById("app").innerHTML = `
+  patch(document.getElementById("app")).html = `
     <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
     <section class="sh">
       <div class="covers">${coverHTML(s,"anime","Anime","",true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
@@ -911,7 +930,7 @@ function renderProfile(){
        ${!ids.length ? `<div class="empty" style="margin-top:22px"><b>Your list is empty.</b>Open any series and pick Watching, Completed, Plan to watch or Dropped under its title.</div>` : ""}
        ${STATUSES.map(([k,l])=>{ const xs = by(k); return xs.length ? `<h3>${l} <span class="label">${xs.length}</span></h3><div class="wall">${xs.map(card).join("")}</div>` : ""; }).join("")}
        ${rated.length ? `<h3>Your ratings <span class="label">${rated.length}</span></h3><div class="wall">${rated.map(card).join("")}</div>` : ""}`;
-  document.getElementById("app").innerHTML = `
+  patch(document.getElementById("app")).html = `
     <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><a class="back" href="${homeHref()}">← Rankings</a></header>
     <section class="prof"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section>`;
   document.getElementById("signin")?.addEventListener("submit", sendLink);
