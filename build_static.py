@@ -148,7 +148,7 @@ def meta_for(s, tab):
 
 def thin(s, tab):
     """Pages with no real answer yet: kept for visitors, hidden from search."""
-    if tab == "manga": return not handoff(s) and not s.get("endWord") in ("Fully adapted", "Own ending")
+    if tab == "manga": return bool(s.get("unchecked")) and not handoff(s) and not s.get("endWord") in ("Fully adapted", "Own ending")
     return False
 
 def jsonld(s, tab, url, title, desc):
