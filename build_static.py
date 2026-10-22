@@ -87,7 +87,12 @@ css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
 _bd = re.search(r'(<div class="bg".*?</div>)', src, re.S); backdrop = _bd.group(1) if _bd else ""
 footer = re.search(r"(<footer>.*?</footer>)", src, re.S).group(1)
-fonts = "\n".join(l for l in src.splitlines() if "fonts.g" in l or "fontshare" in l).replace('rel="stylesheet" href="https://api.fontshare', 'rel="stylesheet" media="print" onload="this.media=\'all\'" href="https://api.fontshare')
+# fonts ship with the site (web/fonts), so pages don't wait on a third-party font host
+FONTS = [("Libre Franklin", 700, "normal", "libre-franklin-latin-700-normal"), ("Libre Franklin", 900, "normal", "libre-franklin-latin-900-normal"),
+         ("Source Serif 4", 400, "normal", "source-serif-4-latin-400-normal"), ("Source Serif 4", 600, "normal", "source-serif-4-latin-600-normal"),
+         ("Source Serif 4", 400, "italic", "source-serif-4-latin-400-italic")]
+fontface = "".join(f'@font-face{{font-family:"{fam}";font-weight:{wt};font-style:{st};font-display:swap;src:url(fonts/{f}.woff2) format("woff2")}}\n' for fam, wt, st, f in FONTS)
+fonts = "\n".join(f'<link rel="preload" href="{{root}}fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in ("libre-franklin-latin-900-normal", "source-serif-4-latin-400-normal"))
 try: cfg = json.load(open(os.path.join(WEB, "config.json")))
 except FileNotFoundError: cfg = {"supabaseUrl": "", "supabaseKey": ""}
 
@@ -185,7 +190,7 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 <link rel="icon" href="{root}favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{root}favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="{root}apple-touch-icon.png">{head}
-{fonts}
+{fonts.replace("{root}", root)}
 <link rel="stylesheet" href="{root}style.css">
 </head>
 <body data-root="{root}" data-route="{route}">
@@ -204,7 +209,8 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 if os.path.isdir(DIST): shutil.rmtree(DIST)
 os.makedirs(DIST)
 w = lambda rel, text: (os.makedirs(os.path.dirname(os.path.join(DIST, rel)) or DIST, exist_ok=True), open(os.path.join(DIST, rel), "w").write(text))
-w("style.css", css.strip() + "\n")
+w("style.css", fontface + css.strip() + "\n")
+shutil.copytree(os.path.join(WEB, "fonts"), os.path.join(DIST, "fonts"))
 w("app.js", js.strip() + "\n")
 HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
 tagnames = sorted({t for x in series for t in x.get("tags") or []})
@@ -214,7 +220,7 @@ w("data.js", "window.ANIMETER=" + json.dumps({"series": slim, "details": {}, "fe
 for x in series:     # the heavy part of each series, loaded only on its own pages
     w(f's/{x["id"]}.js', "window.ANIMETER_FULL=" + json.dumps({"id": x["id"], "series": {k: x[k] for k in HEAVY if k in x}, "details": details.get(x["id"])}, ensure_ascii=False, separators=(",", ":")) + ";\n")
 w("config.js", "window.ANIMETER_CONFIG=" + json.dumps(cfg) + ";\n")
-FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#161c1a"/><text x="32" y="47" font-family="Arial Black,Impact,sans-serif" font-size="40" text-anchor="middle" fill="#9fc7b8">A</text></svg>\n'
+FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#141414"/><path d="M18 8h28v48l-14-10-14 10z" fill="#d7261e"/></svg>\n'
 w("favicon.svg", FAV)
 for f in ("favicon-32.png", "apple-touch-icon.png"):
     if os.path.exists(os.path.join(WEB, f)): shutil.copy(os.path.join(WEB, f), os.path.join(DIST, f))

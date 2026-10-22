@@ -57,6 +57,7 @@ function coverHTML(s, kind, tag, extra="", eager=false){
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
+const obiHTML = (s, score) => `<span class="obi${s.next?"":" ink"}"><span>${s.next ? "Manga " : ""}${esc(handoffShort(s))}</span><b>${score||""}</b></span>`;
 const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
 const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga";
 const handoffShort = s => s.format==="MOVIE" && s.unchecked ? "Film" : s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
@@ -134,16 +135,37 @@ function ranked(){
   return out;
 }
 function heroHTML(){
-  const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,3);
-  if (top.length<3) return "";
-  const print = (s, cls, n) => `<a class="p ${cls}" href="${seriesHref(s.id)}"><figure><div class="fr"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="${esc(s.title)}" ${n===1?"":'loading="lazy"'} onerror="this.style.visibility='hidden'"></div><figcaption><b>${n}</b>${esc(s.title)} · ${fmt10(s.score/10)}</figcaption></figure></a>`;
+  const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,6);
+  if (top.length<6) return "";
+  const obi = (s, n) => `<span class="obi"><span>No. ${n} · ${esc(s.title)}</span><b>${fmt10(s.score/10)}</b></span>`;
+  const panel = (s, n, lazy) => `<a href="${seriesHref(s.id)}"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="${esc(s.title)}" ${lazy?'loading="lazy"':'fetchpriority="high"'} onerror="this.style.visibility='hidden'">${obi(s,n)}</a>`;
+  const cycle = [0,3,4,5].map(i=>top[i]);   // the big panel turns through these
   return `<section class="hero">
-    <div class="lead">${print(top[1],"p1",2)}
-    <div class="head"><h1>Where people stop watching</h1>
+    <div class="card-cv">
+      <div class="stripe" aria-hidden="true">${"<i></i>".repeat(24)}</div>
+      <p class="vol" aria-hidden="true">Animeter</p>
+      <h1>Where people stop watching</h1>
       <p class="lede">${SERIES.length} anime ranked, with the episode viewers really quit, the arcs worth skipping and the chapter where the manga picks up.</p>
-      <a class="go" href="#rankings" data-jump>See the rankings</a></div></div>
-    ${print(top[0],"p2",1)}${print(top[2],"p3",3)}
+      <a class="go" href="#rankings" data-jump>See the rankings</a>
+      ${STATIC ? `<nav class="links" aria-label="Browse"><a href="#rankings" data-jump>Rankings</a><a href="${ROOT}anime/">All anime A–Z</a><a href="${ROOT}genre/">Genres</a></nav>` : ""}
+    </div>
+    <div class="pg">
+      <a class="fade" href="${seriesHref(top[0].id)}" data-cycle="${esc(JSON.stringify(cycle.map((s,i)=>[s.id, s.title, [1,4,5,6][i], fmt10(s.score/10), seriesHref(s.id)])))}">${cycle.map((s,i)=>`<img src="${ROOT}covers/${s.id}-anime.jpg" alt="${i?"":esc(s.title)}" ${i?'loading="lazy" aria-hidden="true"':'fetchpriority="high"'} class="${i?"":"on"}" onerror="this.style.visibility='hidden'">`).join("")}${obi(top[0],1)}</a>
+      ${panel(top[1],2,true)}${panel(top[2],3,true)}
+    </div>
   </section>`;
+}
+/* the front cover's big panel turns through the top series, like light shifting on a shelf */
+function startCycle(){
+  clearInterval(window._cyc);
+  const a = document.querySelector(".pg .fade"); if (!a || reduceMotion()) return;
+  const list = JSON.parse(a.dataset.cycle), imgs = a.querySelectorAll("img"); let i = 0;
+  window._cyc = setInterval(()=>{
+    if (document.hidden || !a.isConnected) return;
+    imgs[i].classList.replace("on","off"); i = (i+1) % list.length; imgs[i].classList.remove("off"); imgs[i].classList.add("on");
+    const [, t, n, sc, href] = list[i]; a.href = href; a.querySelector(".obi").innerHTML = `<span>No. ${n} · ${esc(t)}</span><b>${sc}</b>`;
+    imgs.forEach((im,k)=>{ im.alt = k===i ? t : ""; });
+  }, 6000);
 }
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
@@ -154,8 +176,8 @@ function renderHome(){
       <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a><a class="back melink" href="${profileHref()}">My list</a></nav></header>
       ${heroHTML()}
       <section id="rankings">
+        <h2 class="giant">Rankings</h2>
         <div class="rk-head">
-          <h2>Rankings</h2>
           <div class="controls">
             <input type="search" id="q" placeholder="Find a series" aria-label="Find a series" value="${esc(query)}">
             <label class="sortby"><span class="label">Sort</span><select id="sort">${SORTS.map(([k,l])=>`<option value="${k}" ${k===sortBy?"selected":""}>${l}</option>`).join("")}</select></label>
@@ -202,6 +224,7 @@ function renderHome(){
     });
   }
   renderRankings();
+  startCycle();
 }
 function renderRankings(){
   const all = ranked(), site = siteScores();
@@ -240,9 +263,9 @@ function renderRankings(){
   } else {
     patch(box).html = `<div class="wall">` + items.map(({s,site,rank})=>`
       <a class="card" href="${seriesHref(s.id)}">
-        ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>`)}
+        ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>${obiHTML(s, sortBy==="site" ? (site.votes?fmt10(site.avg):"") : (s.score?fmt10(s.score/10):""))}`)}
         <span class="t">${esc(s.title)}</span>
-        <span class="m">${chip(s)}<span>${sortBy==="site" ? (site.votes?"★ "+fmt10(site.avg):"") : (s.score?"★ "+fmt10(s.score/10):"")}</span></span>
+        <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(" · "))}</span></span>
       </a>`).join("") + `</div>`;
   }
   const nums = [];
@@ -423,7 +446,7 @@ function relatedHTML(s){
     let n = 0; (x.genres||[]).forEach(g=>mine.has(g)&&n++); (x.tags||[]).slice(0,6).forEach(g=>mine.has(g)&&(n+=1.5));
     return [n + (x.score||0)/12 + Math.log10(x.popularity||10)/2, x];
   }).sort((a,b)=>b[0]-a[0]).slice(0,6).map(([,x])=>x);
-  return `<section class="related"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime")}<span class="t">${esc(x.title)}</span><span class="m"><span>${esc([x.year,(x.genres||[])[0]].filter(Boolean).join(" · "))}</span><span>${x.score?fmt10(x.score/10):""}</span></span></a>`).join("")}</div></section>`;
+  return `<section class="related"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span><span class="m"><span>${esc([x.year,(x.genres||[])[0]].filter(Boolean).join(" · "))}</span></span></a>`).join("")}</div></section>`;
 }
 function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
@@ -441,10 +464,10 @@ function renderSeries(id, tab){
   patch(document.getElementById("app")).html = `
     <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
     <section class="sh">
-      <div class="covers">${coverHTML(s,"anime","Anime","",true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
+      <div class="covers">${coverHTML(s,"anime","Anime",`<span class="obi${s.next?"":" ink"}"><span>${s.kind==="original"||s.kind==="vn" ? "Source" : (s.kind==="novel"?"Light novel":"Manga") + (s.next?" continues from":"")}</span><b>${esc(handoffShort(s))}</b></span>`,true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
       <div style="min-width:0">
-        <div class="label">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
         <h1>${esc(s.title)}</h1><div class="jp">${esc(s.jp||"")}</div>
+        <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
         <div class="facts">
           ${s.score?`<div><span class="label">AniList</span><b class="gold">${fmt10(s.score/10)}</b></div>`:""}
           <div><span class="label">Animeter</span><b class="gold">${ss.votes ? fmt10(ss.avg) : "—"}</b></div>
