@@ -67,6 +67,7 @@ function route(){
   const h = STATIC ? (document.body.dataset.route || "") : decodeURIComponent((location.hash||"").slice(1));
   if (h === "profile") return {id:null, profile:true};
   if (h === "static") return {id:null, static:true};
+  if (h === "404") return {id:null, missing:true};
   const [id, tab] = h.split(".");
   if (byId[id]) return {id, tab: TABS.some(t=>t[0]===tab) && tabShown(byId[id], tab) ? tab : "overview"};
   return {id:null};
@@ -174,6 +175,7 @@ function renderHome(){
     homeWired = true;
     patch(app).html = `
       <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a><a class="back melink" href="${profileHref()}">My list</a></nav></header>
+      ${route().missing ? `<p class="missing"><b>Page not found.</b> That address isn't a page on Animeter. Here are the rankings instead.</p>` : ""}
       ${heroHTML()}
       <section id="rankings">
         <h2 class="giant">Rankings</h2>
@@ -223,6 +225,7 @@ function renderHome(){
       document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"});
     });
   }
+  if (!route().missing) document.querySelector(".missing")?.remove();
   renderRankings();
   startCycle();
 }
@@ -375,7 +378,7 @@ function paneOverview(s){
   const verdict = st.n < 5 ? (st.n ? `Not enough reports to call it yet (${st.n} so far).` : `Built from what visitors report across ${s.run?.length > 1 ? `all ${s.run.length} seasons (${s.eps} episodes)` : `all ${s.eps} episodes`}.`)
     : [st.median && `Half of the people who say it clicked felt it by ${epName(s, st.median)}.`, st.peak && `The most common place to stop is ${epName(s, st.peak)}.`].filter(Boolean).join(" ");
   const writable = STATIC ? !!(SB.supabaseUrl && myId) : dbState==="on" && canWrite;
-  const form = !writable ? (STATIC && SB.supabaseUrl && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in with your email at the top of the page to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
+  const form = !writable ? (STATIC && SB.supabaseUrl && !myId ? `<p class="note">Sign in above with your email to add your report.</p>` : dbState!=="on" ? "" : STATIC && !myId ? `<p class="note">Sign in above with your email to add your report.</p>` : `<p class="note">Your access lets you read reports but not add them.</p>`) : `
     <form class="vote" id="vote">
       <label for="clicked">It clicked for me at
         <select id="clicked"><option value="">Choose…</option><option value="never" ${mine.clicked==="never"?"selected":""}>It never clicked</option>${epOpts(mine.clicked)}</select></label>

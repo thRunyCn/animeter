@@ -233,7 +233,7 @@ home_desc = f"Rankings of {len(series)} anime with filler lists, watch order, ar
 w("index.html", page("", "", "Animeter: anime filler lists and where the manga continues", home_desc, SITE))
 urls.append(SITE)
 w("profile/index.html", page("profile", "../", "My list · Animeter", "Your anime list on Animeter: watching, completed, plan to watch, dropped and your ratings.", SITE + "profile/").replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
-w("404.html", page("", "/" + SITE.split("/", 3)[3] if SITE.count("/") > 3 else "/", "Page not found · Animeter", home_desc, SITE).replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
+w("404.html", page("404", "/" + SITE.split("/", 3)[3] if SITE.count("/") > 3 else "/", "Page not found · Animeter", home_desc, SITE).replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"', 1))
 for s in series:
     for k, _ in TABS:
         rel = f'{s["id"]}/' + ("" if k == "overview" else f"{k}/")

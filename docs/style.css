@@ -46,6 +46,7 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;letter-spacing:-.035em;
 .wm{font-family:var(--f-display);font-weight:900;font-size:24px;letter-spacing:-.04em;line-height:1;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
 .wm::before{content:"";width:22px;height:22px;background:var(--red);clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%)}
 .mastnav{display:flex;gap:6px;align-items:center;white-space:nowrap}
+@media (max-width:560px){.mast,.mast.compact{flex-wrap:wrap;gap:12px}.back,.melink{padding:9px 12px}}
 .back,.melink{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);text-decoration:none;padding:10px 14px;background:var(--paper-2);transition:background .2s,color .2s}
 .back:hover,.melink:hover{background:var(--ink);color:var(--paper)}
 
@@ -74,6 +75,9 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;letter-spacing:-.035em;
   .stripe{height:40px}
   .card-cv .vol{font-size:15vw}
 }
+
+.missing{background:var(--red);color:#fff;padding:16px 20px;margin:0 0 12px;font-size:var(--step-body)}
+.missing b{font-family:var(--f-display);font-weight:900}
 
 /* obi: the paper band wrapped round the lower part of a volume, carrying the selling line */
 .obi{display:flex;justify-content:space-between;align-items:baseline;gap:10px;background:var(--red);color:var(--red-ink);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);line-height:1.15;padding:10px 12px}
@@ -239,7 +243,7 @@ input::placeholder{color:var(--muted)}
 .note{font-size:var(--step-small);color:var(--muted);margin-top:10px;min-height:1.2em}
 
 .related{margin-top:96px}
-.related h2{font-size:var(--step-head);margin:0 0 24px;text-transform:uppercase;letter-spacing:-.045em}
+.related h2{font-size:clamp(26px,2.6vw,40px);margin:0 0 24px;text-wrap:balance}
 .related .wall{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
 .src a{display:inline-block;padding:6px 0}
 
@@ -293,7 +297,7 @@ input::placeholder{color:var(--muted)}
 /* drop map */
 .dm{background:var(--paper-2);padding:28px}
 .dm .key{margin-bottom:16px}
-.dm .empty{background:var(--paper) var(--tone-dots)}
+.dm .empty{background:none;padding:0}
 .dm-stats{display:flex;flex-wrap:wrap;gap:12px 44px;margin-bottom:22px}
 .dm-stats>div{display:flex;flex-direction:column-reverse;gap:4px}
 .dm-stats b{display:block;font-family:var(--f-display);font-weight:900;font-size:40px;line-height:1;letter-spacing:-.04em}
@@ -319,7 +323,7 @@ form.vote label{display:flex;flex-direction:column;gap:8px;font-family:var(--f-d
 .arc p{margin:8px 0 0;font-size:var(--step-body);max-width:62ch}
 .arc .rng{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);text-align:right;white-space:nowrap;display:flex;flex-direction:column;gap:6px;align-items:flex-end;padding:20px 0}
 .arc .rng .label{font-size:13px}
-@media (max-width:560px){.arc{grid-template-columns:40px minmax(0,1fr);gap:14px}.arc .no{font-size:18px}.arc .rng{grid-column:2;align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:12px;padding-top:0}}
+@media (max-width:560px){.arc{grid-template-columns:40px minmax(0,1fr);gap:14px}.arc .no{font-size:18px;grid-row:span 2}.arc .rng{grid-column:2;align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:12px;padding-top:0}}
 
 /* events */
 .ev-tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
