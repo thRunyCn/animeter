@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "world": "Colour chapters",
+  "mode": "read-operate",
+  "surfaces": ["page.src.html"],
+  "type": { "family": "Schibsted Grotesk", "self_hosted": true, "weights": [400, 600, 800] },
+  "palette": {
+    "ground": "#e7e8e4", "ink": "#1c1c1c",
+    "fields": { "slate": "#a6b3bc", "sage": "#b7c8be", "blush": "#d6c4b8", "olive": "#2c3620" },
+    "signal": { "hot": "#b8402a" },
+    "tone": "per-series, sampled from cover; ink chosen for >=4.5:1"
+  },
+  "motion": { "ease_out": "cubic-bezier(.23,1,.32,1)", "ease_io": "cubic-bezier(.77,0,.175,1)", "reduced_motion": true },
+  "checks": { "taste_inspector_fail": 0, "impeccable_detect": "clean", "functional_tests": "pass" },
+  "finish": "unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance",
+  "verdict": "ship",
+  "reviewed": "2026-10-23"
+}

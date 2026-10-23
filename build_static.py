@@ -86,13 +86,12 @@ src = open(os.path.join(HERE, "page.src.html")).read()
 css = re.search(r"<style>(.*?)</style>", src, re.S).group(1)
 js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
 _bd = re.search(r'(<div class="bg".*?</div>)', src, re.S); backdrop = _bd.group(1) if _bd else ""
-footer = re.search(r"(<footer>.*?</footer>)", src, re.S).group(1)
+footer = re.search(r"(<footer[^>]*>.*?</footer>)", src, re.S).group(1)
 # fonts ship with the site (web/fonts), so pages don't wait on a third-party font host
-FONTS = [("Libre Franklin", 700, "normal", "libre-franklin-latin-700-normal"), ("Libre Franklin", 900, "normal", "libre-franklin-latin-900-normal"),
-         ("Source Serif 4", 400, "normal", "source-serif-4-latin-400-normal"), ("Source Serif 4", 600, "normal", "source-serif-4-latin-600-normal"),
-         ("Source Serif 4", 400, "italic", "source-serif-4-latin-400-italic")]
-fontface = "".join(f'@font-face{{font-family:"{fam}";font-weight:{wt};font-style:{st};font-display:swap;src:url(fonts/{f}.woff2) format("woff2")}}\n' for fam, wt, st, f in FONTS)
-fonts = "\n".join(f'<link rel="preload" href="{{root}}fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in ("libre-franklin-latin-900-normal", "source-serif-4-latin-400-normal"))
+FONTS = [("schibsted-grotesk-latin-ext-var", "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"),
+         ("schibsted-grotesk-latin-var", "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD")]
+fontface = "".join(f'@font-face{{font-family:"Schibsted Grotesk";font-weight:400 900;font-style:normal;font-display:swap;src:url(fonts/{f}.woff2) format("woff2");unicode-range:{u}}}\n' for f, u in FONTS)
+fonts = '<link rel="preload" href="{root}fonts/schibsted-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>'
 try: cfg = json.load(open(os.path.join(WEB, "config.json")))
 except FileNotFoundError: cfg = {"supabaseUrl": "", "supabaseKey": ""}
 
@@ -212,11 +211,14 @@ w = lambda rel, text: (os.makedirs(os.path.dirname(os.path.join(DIST, rel)) or D
 w("style.css", fontface + css.strip() + "\n")
 shutil.copytree(os.path.join(WEB, "fonts"), os.path.join(DIST, "fonts"))
 w("app.js", js.strip() + "\n")
+COUNTS = {"guides": sum(1 for x in series if details.get(x["id"])), "arcs": sum(len((details.get(x["id"]) or {}).get("arcs") or []) for x in series),
+          "events": sum(len(a.get("events") or []) for x in series for a in (details.get(x["id"]) or {}).get("arcs") or []),
+          "filler": sum(filler_count(details.get(x["id"])) for x in series)}
 HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
 tagnames = sorted({t for x in series for t in x.get("tags") or []})
 tix = {t: i for i, t in enumerate(tagnames)}
 slim = [{**{k: v for k, v in x.items() if k not in HEAVY and k != "tags"}, "tg": [tix[t] for t in x.get("tags") or []]} for x in series]
-w("data.js", "window.ANIMETER=" + json.dumps({"series": slim, "details": {}, "fetched": fetched, "tagcat": TAGCAT, "tagnames": tagnames}, ensure_ascii=False, separators=(",", ":")) + ";\n")
+w("data.js", "window.ANIMETER=" + json.dumps({"series": slim, "details": {}, "fetched": fetched, "tagcat": TAGCAT, "tagnames": tagnames, "counts": COUNTS}, ensure_ascii=False, separators=(",", ":")) + ";\n")
 for x in series:     # the heavy part of each series, loaded only on its own pages
     w(f's/{x["id"]}.js', "window.ANIMETER_FULL=" + json.dumps({"id": x["id"], "series": {k: x[k] for k in HEAVY if k in x}, "details": details.get(x["id"])}, ensure_ascii=False, separators=(",", ":")) + ";\n")
 w("config.js", "window.ANIMETER_CONFIG=" + json.dumps(cfg) + ";\n")
@@ -250,8 +252,8 @@ for s in series:
 # hub pages: plain HTML lists so every series is two clicks from home
 def hub(rel, title, desc, inner):
     root = "../" * rel.count("/")
-    body = (f'<header class="mast"><a class="wm" href="{root or "./"}">Animeter</a><nav class="mastnav"><a class="back" href="{root}anime/">A–Z</a>'
-            f'<a class="back" href="{root}genre/">Genres</a><a class="back" href="{root or "./"}">Rankings</a></nav></header><main class="hub">{inner}</main>')
+    body = (f'<header class="mast"><a class="wm" href="{root or "./"}">Animeter</a><nav class="mastnav"><a class="back" href="{root}anime/">A to Z</a>'
+            f'<a class="back" href="{root}genre/">Genres</a><a class="back" href="{root or "./"}">Rankings</a><a class="back melink" href="{root}profile/">My list</a></nav></header><main class="hub">{inner}</main>')
     w(rel + "index.html", page("static", root, title, desc, SITE + rel, body=body))
     urls.append(SITE + rel)
 def li(x, root):
@@ -287,7 +289,7 @@ hub("privacy/", "Privacy policy · Animeter", "What Animeter stores about you an
     '<h2>What we store</h2><p>If you sign in, we store your email address and the ratings, list entries and drop-point reports you make, so you can see and change them. Sign-in and storage are handled by <a href="https://supabase.com">Supabase</a>. Your ratings and reports are counted, without your email, in the public totals on each series page.</p>'
     '<h2>On your device</h2><p>Your browser keeps your sign-in session and a few display choices (such as list or cover view) in local storage. We use no tracking cookies and no advertising.</p>'
     '<h2>Your choices</h2><p>You can sign out at any time. To have your account and data deleted, open an issue on <a href="https://github.com/thRunyCn/animeter/issues">GitHub</a> or write to the address you signed in with and ask; we delete it within 30 days.</p>'
-    '<h2>Others</h2><p>Covers are served from this site. Fonts load from Fontshare. Links to AniList, MyAnimeList and other sources take you to sites with their own policies.</p></div>')
+    '<h2>Others</h2><p>Covers are served from this site. Fonts are served from this site too. Links to AniList, MyAnimeList and other sources take you to sites with their own policies.</p></div>')
 
 w("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
   + "".join(f"  <url><loc>{u}</loc><lastmod>{fetched}</lastmod></url>\n" for u in urls) + "</urlset>\n")

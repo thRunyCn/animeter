@@ -2,407 +2,479 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap">
 <style>
-/* Direction: "The page is the object" (tasteskill draw, seed 254976146). Animeter is a manga volume:
-   the home page is its cover and a shelf of spines, each series page is one volume with its obi band,
-   and the chapter where the anime stops is a ribbon bookmark. Two-ink print: sumi black and one red
-   on newsprint, screentone greys between. Data colours: black = canon / it clicked, red = filler /
-   people quit / start reading here. */
+/* Colour chapters. Every anime already has a colour, the tone taken from its cover, so the site is a
+   run of flat full-bleed fields butted edge to edge and each series page is drenched in its own show's
+   colour. One face (Schibsted Grotesk), square corners, no lines or shadows: surfaces step in tone.
+   Data colours: ink = canon / it clicked, brick = filler / people quit / start reading here. */
 :root{
-  --paper:#f1f1ee; --paper-2:#e3e3df; --paper-3:#d3d3ce; --ink:#141414; --muted:#55534e; --red:#d7261e; --red-ink:#fff;
-  --bg:var(--paper); --surface:var(--paper-2); --surface-2:var(--paper-3); --accent:var(--red); --accent-ink:#fff;
+  --ground:#e7e8e4; --ground-2:#dbddd8; --ground-3:#cdd0ca; --ink:#1c1c1c; --muted:#3d4247;
+  --slate:#a6b3bc; --sage:#b7c8be; --blush:#d6c4b8; --olive:#2c3620; --olive-ink:#e3e2da; --olive-2:#3a4630;
+  --hot:#b8402a; --hot-ink:#fff;
+  /* the field a section paints; series pages set --tone and --tone-ink from the show */
+  --field:var(--ground); --field-ink:var(--ink);
+  --tone:#5b8f86; --tone-ink:#1c1c1c;
   /* names the scripts use */
-  --ink-soft:var(--muted); --rule:var(--paper-3);
-  --blue:var(--ink); --blue-2:#77746c; --pink:var(--red); --pink-2:#ef9a92; --grey:#bfbcb3; --coral:var(--red); --gold:var(--ink);
-  --tone-dots:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E%3Ccircle cx='3' cy='3' r='1.1' fill='%23141414' fill-opacity='.22'/%3E%3C/svg%3E");
-  --f-display:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
-  --f-body:"Source Serif 4",Georgia,"Hiragino Mincho ProN","Noto Serif JP",serif;
-  --step-small:1rem;
+  --blue:var(--ink); --blue-2:#5d6870; --pink:var(--hot); --pink-2:#e2a08f; --grey:#9aa3a8; --ink-soft:var(--muted); --rule:var(--ground-3);
+  --f:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-jp:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
+  --step-small:clamp(1rem,.96rem + .18vw,1.0625rem);
+  --step-fine:clamp(.8125rem,.78rem + .1vw,.875rem);
   --step-body:clamp(1.0625rem,1rem + .25vw,1.1875rem);
   --step-lead:clamp(1.25rem,1.1rem + .7vw,1.625rem);
   --step-head:clamp(2rem,1.3rem + 3.2vw,4rem);
-  --step-hero:clamp(2.6rem,1rem + 4.6vw,5.4rem);
-  --m:max(16px,4vw);
-  --ease:cubic-bezier(.2,.7,.1,1);
+  --step-mega:clamp(3.5rem,1rem + 9vw,9.4rem);
+  --m:clamp(16px,3vw,40px);
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --ease-io:cubic-bezier(.77,0,.175,1);
   color-scheme:light;
 }
 *{box-sizing:border-box}
-html{background:var(--paper)}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:var(--step-body);line-height:1.55;
-  padding:0 var(--m);-webkit-font-smoothing:antialiased}
-.wrap{max-width:1440px;margin:0 auto}
-a{color:inherit;text-underline-offset:.18em;text-decoration-thickness:1px}
-::selection{background:var(--red);color:#fff}
-:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+html{background:var(--ground);scroll-padding-top:80px}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f);font-size:var(--step-body);line-height:1.45;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
+.grid,.tl-labels{font-variant-numeric:tabular-nums}
+.wrap{min-height:100svh;display:flex;flex-direction:column}
+#app{flex:1}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:2px}
+::selection{background:var(--ink);color:var(--ground)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 [hidden]{display:none!important}
 .bg{display:none}
 .mono{font-variant-numeric:tabular-nums}
-.label{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);color:var(--muted);letter-spacing:0}
+.label{font-weight:600;font-size:var(--step-small);color:var(--muted)}
 .sw{width:14px;height:14px;display:inline-block;flex:none}
-h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;letter-spacing:-.035em;line-height:.92;margin:0}
+h1,h2,h3,h4{font-family:var(--f);font-weight:800;letter-spacing:-.045em;line-height:.9;margin:0;text-wrap:balance}
+.in-w{max-width:1520px;margin:0 auto;padding:0 var(--m)}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-/* masthead: the title strip printed along the top of the volume */
-.mast,.mast.compact{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 0}
-.wm{font-family:var(--f-display);font-weight:900;font-size:24px;letter-spacing:-.04em;line-height:1;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
-.wm::before{content:"";width:22px;height:22px;background:var(--red);clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%)}
-.mastnav{display:flex;gap:6px;align-items:center;white-space:nowrap}
-@media (max-width:560px){.mast,.mast.compact{flex-wrap:wrap;gap:12px}.back,.melink{padding:9px 12px}}
-.back,.melink{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);text-decoration:none;padding:10px 14px;background:var(--paper-2);transition:background .2s,color .2s}
-.back:hover,.melink:hover{background:var(--ink);color:var(--paper)}
+/* a chapter: one flat field, floor to ceiling, with its own ink */
+.chap{background:var(--field);color:var(--field-ink);--muted:color-mix(in oklab,var(--field-ink) 90%,var(--field))}
+.c-ground{--field:var(--ground);--field-ink:var(--ink)}
+.c-slate{--field:var(--slate);--field-ink:var(--ink)}
+.c-sage{--field:var(--sage);--field-ink:var(--ink)}
+.c-blush{--field:var(--blush);--field-ink:var(--ink)}
+.c-olive{--field:var(--olive);--field-ink:var(--olive-ink)}
+.c-tone{--field:var(--tone);--field-ink:var(--tone-ink)}
+.c-tone,.c-olive{--muted:var(--field-ink)}
+.c-tone>.mast{--hdr:var(--tone);--hdr-ink:var(--tone-ink)}
 
-/* home: the cover. A printed card on black, beside a manga page of panels */
-.hero{margin:0 calc(-1 * var(--m));padding:12px;background:var(--ink);display:grid;grid-template-columns:1fr 1fr;gap:12px;min-height:min(88svh,860px)}
-.card-cv{background:var(--paper);display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 clamp(20px,4vw,64px) 28px;position:relative}
-.stripe{display:flex;height:56px;width:calc(100% + 2 * clamp(20px,4vw,64px));margin-bottom:auto}
-.stripe i{flex:1 1 0;background:var(--ink)} .stripe i:nth-child(2n){background:var(--paper)} .stripe i:nth-child(7){background:var(--red)}
-.card-cv .vol{font-family:var(--f-display);font-weight:900;text-transform:uppercase;letter-spacing:-.05em;font-size:clamp(56px,8.4vw,132px);line-height:.8;margin:clamp(28px,6vh,64px) 0 0}
-.card-cv h1{font-size:var(--step-hero);line-height:.95;max-width:11ch;margin:22px auto 0;text-wrap:balance}
-.card-cv .lede{max-width:36ch;margin:22px auto 0;font-size:var(--step-body)}
-.card-cv .go{margin-top:26px}
-.card-cv .links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 22px;margin-top:auto;padding-top:36px;font-family:var(--f-display);font-weight:700;font-size:15px}
-.card-cv .links a{padding:8px 0}
-.pg{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:1.4fr 1fr;gap:12px;min-height:0}
-.pg a{position:relative;display:block;overflow:hidden;background:#2a2a2a;text-decoration:none}
-.pg a:first-child{grid-row:1/3}
-.pg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease),opacity 1.6s ease}
-.pg a:hover img{transform:scale(1.03)}
-.pg .fade img+img{opacity:0} .pg .fade img.on{opacity:1} .pg .fade img.off{opacity:0}
-.pg .obi{position:absolute;left:0;right:0;bottom:0}
-@media (max-width:820px){
-  .hero{grid-template-columns:1fr;min-height:0;padding:16px}
-  .pg .obi{padding:10px 14px}
-  .pg{order:-1;height:48svh}
-  .stripe{height:40px}
-  .card-cv .vol{font-size:15vw}
+/* header: a plain bar that takes the colour of the chapter under it */
+.mast,.mast.compact{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:12px var(--m);background:var(--hdr,var(--ground));color:var(--hdr-ink,var(--ink));transition:background-color .3s ease,color .3s ease}
+.wm{font-weight:800;font-size:28px;letter-spacing:-.06em;line-height:1;text-decoration:none;padding:6px 0}
+.mastnav{display:flex;gap:4px 22px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.mastnav a{font-weight:600;font-size:var(--step-small);text-decoration:none;padding:10px 0;white-space:nowrap}
+.mastnav a:not(.melink):hover{text-decoration:underline}
+.mastnav .melink{background:var(--hdr-ink,var(--ink));color:var(--hdr,var(--ground));padding:10px 16px}
+@media (max-width:620px){.mastnav a.opt{display:none}.mastnav{gap:4px 16px}}
+
+/* buttons: square, solid olive; feedback on press */
+.btn,.go{display:inline-flex;align-items:center;gap:10px;font-family:var(--f);font-weight:600;font-size:var(--step-small);padding:15px 22px;border:0;border-radius:0;
+  background:var(--olive);color:var(--olive-ink);cursor:pointer;text-decoration:none;transition:transform .12s var(--ease-out),background-color .2s ease}
+.c-olive .btn,.c-olive .go{background:var(--olive-ink);color:var(--olive)}
+.btn:active,.go:active{transform:scale(.97)}
+@media (hover:hover){.btn:hover,.go:hover{background:var(--ink);color:var(--ground)}}
+.btn:disabled{opacity:.5;cursor:default}
+.ghost{all:unset;cursor:pointer;font-weight:600;font-size:var(--step-small);padding:12px 16px;background:color-mix(in oklab,var(--field) 82%,var(--field-ink));transition:background-color .2s ease,transform .12s var(--ease-out)}
+.ghost:active{transform:scale(.97)}
+@media (hover:hover){.ghost:hover{background:var(--field-ink);color:var(--field)}}
+.ghost:focus-visible{outline:3px solid var(--field-ink);outline-offset:2px}
+
+/* home, first viewport: two fields meeting at half height, the headline cut by the seam */
+.hero{position:relative;--field:var(--tone);--field-ink:var(--tone-ink);--seam:calc(42svh - 30px)}
+.hero .top{height:var(--seam);background:var(--ground)}
+.hero .bot{background:var(--field);color:var(--field-ink);min-height:calc(100svh - var(--seam) + 6svh);display:flex;flex-direction:column;align-items:center;
+  padding:clamp(120px,15vw,210px) var(--m) clamp(40px,6vh,72px);transition:background-color .45s ease,color .45s ease}
+.hero h1{position:absolute;left:0;right:0;top:var(--seam);transform:translateY(-50%);margin:0 auto;padding:0 var(--m);
+  text-align:center;font-weight:800;font-size:clamp(64px,9.5vw,150px);line-height:.86;letter-spacing:-.055em;white-space:nowrap}
+.hero h1 .l2{display:block;color:var(--deep,#0b1f1c);transition:color .45s ease}
+.hero .lede{max-width:44ch;text-align:center;font-size:clamp(1.125rem,1rem + .5vw,1.375rem);line-height:1.35;margin:0;min-height:2.7em;text-wrap:balance}
+.hero .acts{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center;justify-content:center;margin-top:26px}
+.hero .acts a.more{font-weight:600;font-size:var(--step-small)}
+.picks{display:flex;gap:clamp(8px,1.2vw,16px);margin-top:auto;padding-top:48px;width:100%;max-width:1200px;justify-content:center;align-items:flex-end}
+.picks button{all:unset;cursor:pointer;flex:1 1 0;max-width:170px;min-width:0;display:flex;flex-direction:column;gap:8px;transition:transform .25s var(--ease-out)}
+.picks .cover{width:100%}
+.picks .n{font-weight:800;font-size:var(--step-small);letter-spacing:-.02em;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.picks button[aria-pressed="true"]{transform:translateY(-14px)}
+.picks button[aria-pressed="true"] .cover{outline:5px solid var(--field-ink);outline-offset:0}
+.picks button:active{transform:translateY(-4px) scale(.98)}
+.picks button:focus-visible{outline:3px solid var(--field-ink);outline-offset:4px}
+@media (max-width:720px){
+  .hero{--seam:calc(34svh - 20px)}
+  .hero h1{font-size:14.4vw;padding:0}
+  .hero .bot{padding-top:21vw}
+  .hero .lede{font-size:1rem;max-width:30ch}
+  .picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 8px;padding-top:36px}
+  .picks .n{font-size:13px}
+  .picks button{max-width:none}
+  .picks button[aria-pressed="true"]{transform:none}
 }
 
-.missing{background:var(--red);color:#fff;padding:16px 20px;margin:0 0 12px;font-size:var(--step-body)}
-.missing b{font-family:var(--f-display);font-weight:900}
+.missing{background:var(--hot);color:var(--hot-ink);padding:16px var(--m);margin:0;font-size:var(--step-body)}
+.missing b{font-weight:800}
 
-/* obi: the paper band wrapped round the lower part of a volume, carrying the selling line */
-.obi{display:flex;justify-content:space-between;align-items:baseline;gap:10px;background:var(--red);color:var(--red-ink);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);line-height:1.15;padding:10px 12px}
+/* obi: the line under a cover that says where the story goes after the anime */
+.obi{display:flex;justify-content:space-between;align-items:baseline;gap:10px;background:var(--hot);color:var(--hot-ink);font-weight:600;font-size:var(--step-small);line-height:1.15;padding:9px 11px}
 .obi>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.obi b{flex:none;font-weight:900;font-size:1.25em;letter-spacing:-.02em}
-.obi.ink{background:var(--ink);color:var(--paper)}
+.obi b{flex:none;font-weight:800;font-size:1.2em;letter-spacing:-.03em}
+.obi.ink{background:var(--ink);color:var(--ground)}
 
-/* buttons: square, solid */
-.btn,.go{display:inline-block;font-family:var(--f-display);font-weight:700;font-size:var(--step-small);padding:14px 22px;border:0;border-radius:0;background:var(--ink);color:var(--paper);cursor:pointer;text-decoration:none;transition:background .2s,transform .15s}
-.btn:hover,.go:hover{background:var(--red)}
-.btn:active,.go:active{transform:translateY(1px)}
-.btn:disabled{opacity:.5;cursor:default}
-.ghost{all:unset;cursor:pointer;font-family:var(--f-display);font-weight:700;font-size:var(--step-small);padding:10px 16px;background:var(--paper-2);transition:background .2s,color .2s}
-.ghost:hover{background:var(--ink);color:var(--paper)}
-.ghost:focus-visible{outline:3px solid var(--red);outline-offset:2px}
-
-/* rankings: one giant word, then the shelf */
-#rankings{scroll-margin-top:12px;padding-top:clamp(56px,9vh,110px);container-type:inline-size}
-.giant{font-family:var(--f-display);font-weight:900;text-transform:uppercase;letter-spacing:-.06em;line-height:.78;font-size:18.2cqw;margin:0 0 0 -.04em;white-space:nowrap}
-.rk-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;margin:28px 0 14px}
+/* rankings chapter */
+#rankings{scroll-margin-top:60px;padding:clamp(72px,10vw,150px) 0 clamp(80px,10vw,140px);container-type:inline-size}
+.giant{font-weight:800;letter-spacing:-.065em;line-height:.8;font-size:clamp(4rem,15cqw,15rem);margin:0 0 0 -.05em;white-space:nowrap}
+.rk-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;margin:40px 0 14px}
 .controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-select,input[type=search],input[type=email]{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);padding:12px 14px;border:0;border-radius:0;background:var(--paper-2);color:var(--ink);width:100%}
-select:hover,input:hover{background:var(--paper-3)}
-input::placeholder{color:var(--muted)}
-.controls input[type=search]{width:240px}
+select,input[type=search],input[type=email]{font-family:var(--f);font-weight:600;font-size:var(--step-small);padding:13px 14px;border:0;border-radius:0;background:var(--ground);color:var(--ink);width:100%}
+select:hover,input:hover{background:#f3f4f1}
+input::placeholder{color:#5c6266}
+.controls input[type=search]{width:260px}
 .sortby{display:inline-flex;align-items:center;gap:10px}
 .sortby select{width:auto;cursor:pointer}
 .seg{display:inline-flex;gap:2px}
-.seg button{all:unset;cursor:pointer;padding:12px 14px;font-family:var(--f-display);font-weight:700;font-size:var(--step-small);background:var(--paper-2);color:var(--muted);transition:color .2s,background .2s}
-.seg button:hover{color:var(--ink);background:var(--paper-3)}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-.seg button:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
+.seg button{all:unset;cursor:pointer;padding:13px 15px;font-weight:600;font-size:var(--step-small);background:color-mix(in oklab,var(--field) 70%,var(--ground));transition:background-color .2s ease,color .2s ease}
+@media (hover:hover){.seg button:hover{background:var(--ground)}}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.seg button:focus-visible{outline:3px solid var(--ink);outline-offset:-3px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
-.tags button{all:unset;cursor:pointer;padding:8px 12px;background:var(--paper-2);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);display:inline-flex;gap:8px;align-items:baseline;transition:background .2s,color .2s}
+.tags button{all:unset;cursor:pointer;padding:9px 12px;background:var(--ground-2);font-weight:600;font-size:var(--step-small);display:inline-flex;gap:8px;align-items:baseline;transition:background-color .2s ease}
 .tags button .n{font-size:13px;color:var(--muted)}
-.tags button:hover{background:var(--paper-3)}
-.tags button[aria-pressed="true"]{background:var(--ink);color:var(--paper)} .tags button[aria-pressed="true"] .n{color:var(--paper-3)}
-.tags button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+@media (hover:hover){.tags button:hover{background:var(--ground-3)}}
+.tags button[aria-pressed="true"]{background:var(--ink);color:var(--ground)} .tags button[aria-pressed="true"] .n{color:var(--ground-3)}
+.tags button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 .tagbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px}
-.tagbtn{all:unset;cursor:pointer;display:inline-flex;gap:10px;align-items:center;padding:12px 18px;background:var(--paper-2);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);transition:background .2s}
-.tagbtn:hover{background:var(--paper-3)}
+.tagbtn{all:unset;cursor:pointer;display:inline-flex;gap:10px;align-items:center;padding:13px 18px;background:color-mix(in oklab,var(--field) 70%,var(--ground));font-weight:600;font-size:var(--step-small);transition:background-color .2s ease}
+@media (hover:hover){.tagbtn:hover{background:var(--ground)}}
 .tagbtn::after{content:"+";font-size:18px;line-height:0}
-.tagbtn[aria-expanded="true"]{background:var(--ink);color:var(--paper)}
+.tagbtn[aria-expanded="true"]{background:var(--ink);color:var(--ground)}
 .tagbtn[aria-expanded="true"]::after{content:"–"}
-.tagbtn .n:not(:empty){background:var(--red);color:#fff;min-width:22px;height:22px;display:grid;place-items:center;font-size:13px}
-.tagbtn:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.tagbtn .n:not(:empty){background:var(--hot);color:var(--hot-ink);min-width:22px;height:22px;display:grid;place-items:center;font-size:13px}
+.tagbtn:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 .picked{display:flex;flex-wrap:wrap;gap:6px}
-.picked button{all:unset;cursor:pointer;padding:10px 12px;background:var(--red);color:#fff;font-family:var(--f-display);font-weight:700;font-size:var(--step-small)}
-.picked button:hover{background:var(--ink)}
+.picked button{all:unset;cursor:pointer;padding:11px 12px;background:var(--ink);color:var(--ground);font-weight:600;font-size:var(--step-small)}
+@media (hover:hover){.picked button:hover{background:var(--hot)}}
 .picked .clr{background:none;color:var(--ink);text-decoration:underline}
-.picked .clr:hover{background:none;color:var(--red)}
 .picked button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
-.tagpanel{background:var(--paper-2);padding:24px;margin:0 0 22px;display:flex;flex-direction:column;gap:22px}
+.tagpanel{background:var(--ground);padding:24px;margin:0 0 22px;display:flex;flex-direction:column;gap:22px}
 .tp-top{display:flex;gap:6px}
-.tp-top input{background:var(--paper);max-width:420px}
-.tg h3{font-size:clamp(20px,1.6vw,24px);margin:0 0 12px}
+.tp-top input{background:var(--ground-2);max-width:420px}
+.tp-top .ghost{background:var(--ground-2)}
+.tg h3{font-size:clamp(20px,1.6vw,24px);margin:0 0 12px;letter-spacing:-.03em}
 .tagpanel .tags{margin:0}
-.tagpanel .tags button{background:var(--paper)}
-.tagpanel .tags button[aria-pressed="true"]{background:var(--ink)}
-.rk-basis{font-size:16px;color:var(--muted);margin:0 0 22px;max-width:70ch}
-.hdr{display:grid;grid-template-columns:64px 52px minmax(0,1fr) 96px 110px 130px;gap:18px;padding:0 16px 10px 0}
-.hdr span:nth-child(n+4){text-align:right}
-.list{display:flex;flex-direction:column;gap:6px}
-.row{text-decoration:none;display:grid;grid-template-columns:64px 52px minmax(0,1fr) 96px 110px 130px;gap:18px;align-items:center;padding:0 16px 0 0;min-height:76px;background:var(--paper-2);transition:background .2s}
-.row:hover{background:var(--paper-3)}
-.row:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
-.row .rank{align-self:stretch;display:grid;place-items:center;background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:900;font-size:26px;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
-.row:hover .rank{background:var(--red)}
+.rk-basis{font-size:var(--step-small);margin:0 0 22px;max-width:70ch}
+.list{display:flex;flex-direction:column;gap:4px}
+.row{text-decoration:none;display:grid;grid-template-columns:72px 52px minmax(0,1fr) 96px 110px 130px;gap:18px;align-items:center;padding:0 16px 0 0;min-height:78px;
+  background:color-mix(in oklab,var(--field) 55%,var(--ground));transition:background-color .2s ease}
+@media (hover:hover){.row:hover{background:var(--ground)}}
+.row:focus-visible{outline:3px solid var(--ink);outline-offset:-3px}
+.row .rank{align-self:stretch;display:grid;place-items:center;background:var(--ink);color:var(--ground);font-weight:800;font-size:28px;letter-spacing:-.05em}
 .row .cover{aspect-ratio:5/7;width:52px;margin:6px 0}
-.row .t{font-family:var(--f-display);font-weight:700;font-size:var(--step-body);line-height:1.15;letter-spacing:-.01em}
-.row .meta{font-size:16px;color:var(--muted)}
-.row .sc{text-align:right;font-variant-numeric:tabular-nums}
-.row .sc b{font-family:var(--f-display);font-weight:900;font-size:26px;display:block;line-height:1.05;letter-spacing:-.03em}
-.row .sc small{font-size:13px;color:var(--muted);display:block}
+.row .t{font-weight:800;font-size:var(--step-body);line-height:1.1;letter-spacing:-.03em}
+.row .meta{font-size:var(--step-small);color:var(--muted)}
+.row .sc{text-align:right}
+.row .sc b{font-weight:800;font-size:27px;display:block;line-height:1.05;letter-spacing:-.05em}
+.row .sc small{font-size:var(--step-fine);color:var(--muted);display:block}
 .row .ch{justify-self:end}
-.chip{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);white-space:nowrap;color:var(--muted)}
-.chip.b{background:var(--red);color:#fff;padding:5px 9px}
-.chip.p{background:var(--red);color:#fff;padding:3px 8px} .chip.k{color:var(--muted)}
+.chip{font-weight:600;font-size:var(--step-small);white-space:nowrap;color:var(--muted)}
+.chip.b{background:var(--hot);color:var(--hot-ink);padding:5px 9px}
+.chip.p{background:var(--hot);color:var(--hot-ink);padding:3px 8px} .chip.k{color:var(--muted)}
 @media (max-width:720px){
-  .row,.hdr{grid-template-columns:44px 44px minmax(0,1fr) 52px;gap:12px;padding-right:12px}
+  .row{grid-template-columns:44px 44px minmax(0,1fr) 56px;gap:12px;padding-right:12px}
   .row{min-height:68px}
-  .row .rank{font-size:18px}
+  .row .rank{font-size:19px}
   .row .cover{width:44px}
-  .row .site,.row .ch,.hdr .site,.hdr .ch{display:none}
+  .row .site,.row .ch{display:none}
   .controls input[type=search]{width:100%}
   .controls{width:100%}
 }
 .wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:36px 16px}
 .card{text-decoration:none;display:flex;flex-direction:column;gap:10px;min-width:0}
-.card .cover{aspect-ratio:5/7}
-.card .cover img{transition:transform .6s var(--ease)}
-.card:hover .cover img{transform:scale(1.04)}
-.card .cover .obi{position:absolute;left:0;right:0;bottom:0;transform:translateY(0);transition:transform .35s var(--ease)}
-.card .cover .rk{position:absolute;top:0;left:0;background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:900;font-size:20px;padding:5px 10px;letter-spacing:-.03em}
-.card .t{font-family:var(--f-display);font-weight:700;font-size:var(--step-body);line-height:1.15}
-.card .m{display:flex;justify-content:space-between;gap:8px;font-size:16px;color:var(--muted)}
+.card .cover img{transition:transform .5s var(--ease-out)}
+@media (hover:hover){.card:hover .cover img{transform:scale(1.04)}}
+.card .cover .obi{position:absolute;left:0;right:0;bottom:0}
+.card .cover .rk{position:absolute;top:0;left:0;background:var(--ink);color:var(--ground);font-weight:800;font-size:20px;padding:5px 10px;letter-spacing:-.04em}
+.card .t{font-weight:800;font-size:var(--step-body);line-height:1.1;letter-spacing:-.03em}
+.card .m{display:flex;justify-content:space-between;gap:8px;font-size:var(--step-small);color:var(--muted)}
 .pager{display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap;gap:4px;margin-top:40px}
-.pager button{all:unset;cursor:pointer;min-width:46px;height:46px;padding:0 10px;box-sizing:border-box;display:grid;place-items:center;background:var(--paper-2);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);transition:background .2s}
-.pager button:hover{background:var(--paper-3)}
-.pager button[aria-current="page"]{background:var(--ink);color:var(--paper)}
+.pager button{all:unset;cursor:pointer;min-width:46px;height:46px;padding:0 10px;box-sizing:border-box;display:grid;place-items:center;background:color-mix(in oklab,var(--field) 55%,var(--ground));font-weight:600;font-size:var(--step-small);transition:background-color .2s ease,transform .12s var(--ease-out)}
+@media (hover:hover){.pager button:hover{background:var(--ground)}}
+.pager button:active{transform:scale(.95)}
+.pager button[aria-current="page"]{background:var(--ink);color:var(--ground)}
 .pager button:disabled{opacity:.35;cursor:default}
-.pager button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
-.pager .info{font-size:var(--step-small);color:var(--muted);margin-left:10px}
-.none{padding:40px 0;color:var(--muted)}
+.pager button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.pager .info{font-size:var(--step-small);margin-left:10px}
+.none{padding:40px 0}
 
-/* covers: tankobon proportions, screentone while they load */
-.cover{position:relative;aspect-ratio:5/7;max-width:100%;overflow:hidden;background:var(--paper-3) var(--tone-dots)}
+/* covers: the show's own colour fills the frame while the picture loads */
+.cover{position:relative;aspect-ratio:5/7;max-width:100%;overflow:hidden;background:var(--tone,#4a5160)}
 .cover img{width:100%;height:100%;object-fit:cover;display:block}
-.cover .ph{position:absolute;inset:0;display:none;padding:12px;background:var(--ink) var(--tone-dots)}
+.cover .ph{position:absolute;inset:0;display:none;padding:12px;background:var(--tone,#33383d)}
 .cover.nocover .ph{display:flex;flex-direction:column;justify-content:flex-end}
 .cover.nocover img{display:none}
-.ph b{font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:18px;line-height:1;color:var(--paper);letter-spacing:-.03em}
+.ph b{font-weight:800;font-size:18px;line-height:1;color:#fff;letter-spacing:-.03em}
 .row .ph b{font-size:9px}
-.cover .tag{position:absolute;left:0;top:0;background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:700;font-size:13px;padding:6px 10px}
+.cover .tag{position:absolute;left:0;top:0;background:var(--ink);color:var(--ground);font-weight:600;font-size:13px;padding:6px 10px}
 
-/* series page: one volume. The cover with its obi, the manga cover tipped in, the title beside */
-.sh{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:20px;padding:24px 0 56px;align-items:start}
+/* intro: statement tiles */
+.mosaic{padding:8px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-template-rows:38svh 38svh auto;gap:8px}
+.mosaic>*{min-width:0;overflow:hidden;position:relative}
+.tile-a{grid-column:1/9;grid-row:1/3;background:var(--olive);color:var(--olive-ink);display:flex;align-items:flex-end;padding:calc(var(--m) - 8px)}
+.tile-a h2{font-size:clamp(64px,9vw,132px);line-height:.86;letter-spacing:-.06em;max-width:11ch}
+.tile-b{grid-column:9/13;grid-row:1;background:var(--blush);display:flex;flex-direction:column;justify-content:flex-end;padding:calc(var(--m) - 8px)}
+.tile-b b{font-weight:800;font-size:clamp(64px,9vw,132px);line-height:.8;letter-spacing:-.07em}
+.tile-b span{font-weight:600;font-size:var(--step-small);margin-top:12px}
+.tile-c{grid-column:9/13;grid-row:2;background:var(--tone,#333)}
+.tile-c img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.tile-c .cap{position:absolute;left:0;bottom:0;background:var(--ink);color:var(--ground);font-weight:600;font-size:var(--step-small);padding:8px 12px}
+.tile-d{grid-column:1/13;grid-row:3;background:var(--ground);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:8px;padding:40px 0 clamp(60px,8vw,110px)}
+.tile-d .figs{grid-column:1/6;display:grid;grid-template-columns:1fr 1fr;gap:28px 24px;align-content:start;padding:0 0 0 calc(var(--m) - 8px)}
+.tile-d .figs b{display:block;font-weight:800;font-size:clamp(40px,4vw,64px);line-height:.9;letter-spacing:-.06em}
+.tile-d .figs span{font-size:var(--step-small);display:block;margin-top:6px}
+.tile-d p{grid-column:7/13;margin:0;padding:0 calc(var(--m) - 8px) 0 0;font-size:clamp(1.25rem,1.05rem + .5vw,1.5rem);line-height:1.35;max-width:34em}
+@media (max-width:820px){
+  .mosaic{grid-template-columns:1fr 1fr;grid-template-rows:46svh auto auto;gap:6px;padding:6px}
+  .tile-a,.tile-b{padding:16px}
+  .tile-a{grid-column:1/3;grid-row:1}
+  .tile-a h2{font-size:12.5vw}
+  .tile-b{grid-column:1;grid-row:2;aspect-ratio:1}
+  .tile-b b{font-size:15vw}
+  .tile-c{grid-column:2;grid-row:2;aspect-ratio:1}
+  .tile-d{grid-column:1/3;grid-row:3;grid-template-columns:1fr;padding:28px 20px 56px}
+  .tile-d .figs,.tile-d p{grid-column:1;padding:0}
+  .tile-d p{font-size:1.125rem;margin-top:32px}
+}
+
+/* questions: a band per question */
+.faq .head{min-height:40svh;display:flex;align-items:flex-end;padding-bottom:28px}
+.faq .head h2{font-size:clamp(3rem,1rem + 6vw,7rem);letter-spacing:-.06em}
+.faq .q{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:20px;padding:56px var(--m)}
+.faq .head>.in-w{width:100%}
+.faq .q h3{grid-column:1/6;font-size:clamp(1.5rem,1.2rem + .8vw,2rem);line-height:1.05;letter-spacing:-.035em}
+.faq .q p{grid-column:7/13;margin:0;font-size:var(--step-body);line-height:1.5;max-width:60ch}
+@media (max-width:720px){.faq .head{min-height:30svh}.faq .head h2{font-size:13vw}.faq .q{grid-template-columns:1fr;padding:32px var(--m);gap:12px}.faq .q h3,.faq .q p{grid-column:1}.faq .q h3{font-size:22px}}
+
+/* series page: chapter one is the show's own colour */
+.sh{padding-top:clamp(24px,4vw,56px);display:flex;flex-direction:column}
+.sh .grid12{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(16px,2vw,28px);align-items:start;flex:1}
 .sh .covers{grid-column:1/6;display:grid;grid-template-columns:repeat(5,1fr);column-gap:16px;align-items:start}
 .sh .covers .cover:first-child{grid-column:1/5;grid-row:1}
-.sh .covers .cover:nth-child(2){grid-column:4/6;grid-row:1;margin-top:72%;z-index:1;outline:10px solid var(--paper)}
+.sh .covers .cover:nth-child(2){grid-column:4/6;grid-row:1;margin-top:72%;z-index:1;outline:10px solid var(--field)}
 .sh .covers:has(> :only-child) .cover{grid-column:1/5}
 .sh .covers .obi{position:absolute;left:0;right:0;bottom:0;padding:14px 16px;font-size:var(--step-small)}
-.sh>div:last-child{grid-column:7/13;padding-top:8px}
-.sh h1,.sh h2{font-size:var(--step-head);text-transform:uppercase;letter-spacing:-.045em;line-height:.88;margin:0;text-wrap:balance}
-.sh .jp{font-size:var(--step-lead);margin-top:12px}
-.sh .meta{font-size:var(--step-small);color:var(--muted);margin-top:6px}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px;margin-top:32px}
-.facts>div{display:flex;flex-direction:column-reverse;gap:6px;background:var(--paper-2);padding:16px}
-.facts b{display:block;font-family:var(--f-display);font-weight:900;font-size:clamp(26px,2.4vw,38px);line-height:1;letter-spacing:-.04em}
+.sh .info{grid-column:7/13;padding-top:8px;min-width:0}
+.sh h1,.sh h2{font-size:clamp(2.6rem,1rem + 4.6vw,6rem);letter-spacing:-.055em;line-height:.88;margin:0;text-wrap:balance}
+.sh .jp{font-family:var(--f-jp);font-size:var(--step-lead);margin-top:14px;letter-spacing:0}
+.sh .meta{font-size:var(--step-small);margin-top:8px}
+.answer{margin-top:clamp(26px,3vw,40px);font-size:clamp(1.5rem,1.1rem + 1.4vw,2.4rem);line-height:1.15;max-width:18ch;font-weight:700;letter-spacing:-.03em}
+.answer .ch{color:var(--hot);white-space:nowrap}
+.c-tone .answer .ch{color:color-mix(in oklab,var(--hot) 70%,var(--field-ink))}
+.facts{display:flex;flex-wrap:wrap;gap:4px;margin-top:28px}
+.facts>div{display:flex;flex-direction:column;gap:3px;min-width:132px;background:color-mix(in oklab,var(--field) 70%,#fff);padding:14px 16px}
+.facts .label{order:2;color:#1c1c1c;opacity:.72}
+.facts b{display:block;font-weight:800;font-size:clamp(26px,2.4vw,38px);line-height:1;letter-spacing:-.05em;color:#1c1c1c}
 @media (max-width:820px){
-  .sh{grid-template-columns:repeat(6,1fr);padding-top:8px}
-  .sh .covers{grid-column:1/-1}
-  .sh>div:last-child{grid-column:1/-1;padding-top:28px}
+  .sh .grid12{grid-template-columns:repeat(6,1fr)}
+  .sh .covers{grid-column:1/-1;max-width:520px}
+  .sh .info{grid-column:1/-1;padding-top:28px}
   .sh h1,.sh h2{font-size:clamp(34px,10vw,52px)}
 }
 .rate{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:28px}
+.rate .label{color:inherit}
 .rate .strip{display:flex;gap:2px;flex:0 1 400px;min-width:0}
-.rate .strip button{all:unset;cursor:pointer;flex:1 1 0;min-width:0;height:46px;display:grid;place-items:center;font-family:var(--f-display);font-weight:700;font-size:var(--step-small);background:var(--paper-2);transition:background .15s,color .15s}
-.rate .strip button:hover{background:var(--paper-3)}
-.rate .strip button.fill{background:var(--ink);color:var(--paper)}
-.rate .strip button[aria-pressed="true"]{background:var(--red);color:#fff}
-.rate button:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
+.rate .strip button{all:unset;cursor:pointer;flex:1 1 0;min-width:0;height:46px;display:grid;place-items:center;font-weight:600;font-size:var(--step-small);color:var(--ink);background:color-mix(in oklab,var(--field) 72%,#fff);transition:background-color .15s ease,color .15s ease}
+@media (hover:hover){.rate .strip button:hover{background:color-mix(in oklab,var(--field) 52%,#fff)}}
+.rate .strip button.fill{background:var(--field-ink);color:var(--field)}
+.rate .strip button[aria-pressed="true"]{background:var(--hot);color:var(--hot-ink)}
+.rate button:focus-visible{outline:3px solid var(--field-ink);outline-offset:-3px}
 .rate .clear{all:unset;cursor:pointer;font-size:var(--step-small);text-decoration:underline}
 .wl{position:relative;display:inline-block;margin-top:12px}
-.wl summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:10px;padding:13px 18px;background:var(--paper-2);font-family:var(--f-display);font-weight:700;font-size:var(--step-small);user-select:none;transition:background .2s}
-.wl summary:hover{background:var(--paper-3)}
+.wl summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:10px;padding:14px 18px;background:var(--field-ink);color:var(--field);font-weight:600;font-size:var(--step-small);user-select:none;transition:transform .12s var(--ease-out)}
+.wl summary:active{transform:scale(.97)}
 .wl summary::-webkit-details-marker{display:none}
-.wl summary.on{background:var(--ink);color:var(--paper)}
-.wl summary.on.dropped{background:var(--red);color:#fff}
-.wl .menu{position:absolute;z-index:5;top:calc(100% + 4px);left:0;min-width:220px;background:var(--ink);color:var(--paper);display:flex;flex-direction:column}
-.wl .menu button{all:unset;cursor:pointer;padding:13px 16px;font-family:var(--f-display);font-weight:700;font-size:var(--step-small);display:flex;justify-content:space-between;gap:12px}
-.wl .menu button:hover,.wl .menu button:focus-visible{background:var(--red)}
+.wl summary.on.dropped{background:var(--hot);color:var(--hot-ink)}
+.wl .menu{position:absolute;z-index:5;top:calc(100% + 4px);left:0;min-width:220px;background:var(--ink);color:var(--ground);display:flex;flex-direction:column;box-shadow:0 12px 32px rgba(0,0,0,.25);transform-origin:top left}
+@media (prefers-reduced-motion:no-preference){.wl[open] .menu{animation:pop .18s var(--ease-out)}}
+.wl .menu button{all:unset;cursor:pointer;padding:13px 16px;font-weight:600;font-size:var(--step-small);display:flex;justify-content:space-between;gap:12px}
+.wl .menu button:hover,.wl .menu button:focus-visible{background:var(--hot);color:var(--hot-ink)}
 .wl .menu button[aria-pressed="true"]::after{content:"✓"}
-.wl .menu .rm{color:var(--paper-3)}
+.wl .menu .rm{color:var(--ground-3)}
 .signin{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:28px}
-.signin .label{flex-basis:100%;color:var(--ink);font-family:var(--f-body);font-weight:400;font-size:var(--step-body);margin-bottom:6px}
+.signin .label{flex-basis:100%;color:inherit;font-weight:400;font-size:var(--step-body);margin-bottom:6px}
 .signin input{flex:1 1 220px;max-width:320px}
 .otp{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;align-items:center}
-.otp input{font-family:var(--f-display);font-weight:700;font-size:var(--step-body);letter-spacing:.2em;padding:12px 14px;border:0;background:var(--paper-2);color:var(--ink);width:10ch}
-.otp .err{flex-basis:100%;color:var(--red)}
-.who{font-size:var(--step-small);color:var(--muted);margin-top:14px}
+.otp input{font-family:var(--f);font-weight:600;font-size:var(--step-body);letter-spacing:.2em;padding:12px 14px;border:0;background:var(--ground);color:var(--ink);width:10ch}
+.otp .err{flex-basis:100%;font-weight:600}
+.who{font-size:var(--step-small);margin-top:14px}
 .who button{all:unset;cursor:pointer;text-decoration:underline;margin-left:8px}
-.note{font-size:var(--step-small);color:var(--muted);margin-top:10px;min-height:1.2em}
+.note{font-size:var(--step-small);margin-top:10px;min-height:1.2em}
 
-.related{margin-top:96px}
-.related h2{font-size:clamp(26px,2.6vw,40px);margin:0 0 24px;text-wrap:balance}
-.related .wall{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
-.src a{display:inline-block;padding:6px 0}
-
-/* hub pages (A-Z, genres, about): the index at the back of the book */
-.hub{padding:24px 0 40px}
-.hub h1{font-size:var(--step-head);text-transform:uppercase;letter-spacing:-.045em;margin:12px 0 18px}
-.hub .lede{max-width:62ch;margin:0 0 28px}
-.hub .letters{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 28px}
-.hub .letters a{min-width:44px;height:44px;display:grid;place-items:center;background:var(--paper-2);text-decoration:none;font-family:var(--f-display);font-weight:900}
-.hub .letters a:hover{background:var(--ink);color:var(--paper)}
-.hub h2{font-size:clamp(28px,2.6vw,40px);margin:44px 0 14px;scroll-margin-top:20px}
-.hub ul{list-style:none;padding:0;margin:0;columns:3 260px;column-gap:32px}
-.hub li{padding:6px 0;break-inside:avoid}
-.hub li small{color:var(--muted);margin-left:6px}
-.hub .prose{max-width:66ch}
-.hub .prose h2{margin-top:36px}
-
-/* tabs: index tabs cut into the page edge */
-.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;border-bottom:6px solid var(--ink)}
-.tabs::-webkit-scrollbar{display:none}
-.tabs a{flex:none;text-decoration:none;font-family:var(--f-display);font-weight:700;font-size:var(--step-body);padding:14px 18px 12px;background:var(--paper-2);transition:background .2s,color .2s}
-.tabs a:hover{background:var(--paper-3)}
-.tabs a[aria-current="page"]{background:var(--ink);color:var(--paper)}
+/* tabs: the chapter's lower edge, cut into blocks */
+.tabs{display:flex;flex-wrap:wrap;gap:4px;margin-top:clamp(40px,5vw,72px)}
+.tabs a{flex:none;text-decoration:none;font-weight:600;font-size:var(--step-body);padding:16px 20px 14px;background:color-mix(in oklab,var(--field) 72%,#fff);color:var(--ink);transition:background-color .2s ease}
+@media (hover:hover){.tabs a:hover{background:color-mix(in oklab,var(--field) 55%,#fff)}}
+.tabs a[aria-current="page"]{background:var(--ground);color:var(--ink)}
 .tabs .n{margin-left:8px;font-size:var(--step-small);color:var(--muted)}
-.tabs a[aria-current="page"] .n{color:var(--paper-3)}
-.pane{padding-top:56px;max-width:1100px}
-.pane h3{font-size:clamp(30px,2.8vw,44px);margin:0 0 14px}
+.pane{padding:56px 0 clamp(80px,10vw,140px);max-width:1100px}
+.pane h3{font-size:clamp(30px,2.8vw,48px);margin:0 0 14px}
 .pane .sub{font-size:var(--step-body);margin:0 0 28px;max-width:60ch}
-.src{font-size:var(--step-small);color:var(--muted);margin-top:24px}
-.empty{padding:28px;background:var(--paper-2) var(--tone-dots);font-size:var(--step-body)}
-.empty b{font-family:var(--f-display);font-weight:900;font-size:26px;display:block;margin-bottom:8px;letter-spacing:-.03em}
+.src{font-size:var(--step-small);margin-top:24px}
+.empty{padding:28px;background:var(--ground-2);font-size:var(--step-body)}
+.empty b{font-weight:800;font-size:26px;display:block;margin-bottom:8px;letter-spacing:-.04em}
 
-/* manga hand-off: the ribbon bookmark left in the chapter where the anime stops */
-.handoff{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start;background:var(--paper-2);padding:0 32px 0 clamp(20px,4vw,48px)}
-.big{font-family:var(--f-display);font-weight:900;font-size:clamp(64px,8vw,120px);line-height:.85;letter-spacing:-.05em;background:var(--red);color:#fff;padding:26px 22px 64px;min-width:2.6em;text-align:center;clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 36px),0 100%)}
-.big.word{font-size:clamp(30px,3.6vw,48px);background:var(--ink);color:var(--paper);line-height:.95;max-width:7em}
-.big small{display:block;font-size:var(--step-small);letter-spacing:0;margin-bottom:12px;font-weight:700}
-.handoff p{margin:0;padding:32px 0;min-width:0;max-width:52ch;font-size:var(--step-lead);line-height:1.4}
-@media (max-width:560px){.handoff{grid-template-columns:1fr;gap:0;padding:0 20px}.big{justify-self:start}.handoff p{padding-top:20px}}
+/* manga hand-off: the chapter where the anime stops */
+.handoff{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:stretch;background:var(--tone);color:var(--tone-ink)}
+.big{font-weight:800;font-size:clamp(64px,8vw,128px);line-height:.85;letter-spacing:-.06em;background:var(--hot);color:var(--hot-ink);padding:26px 26px 30px;min-width:2.6em;display:flex;flex-direction:column;justify-content:flex-end}
+.big.word{font-size:clamp(30px,3.6vw,48px);background:var(--ink);color:var(--ground);line-height:.95;max-width:7em}
+.big small{display:block;font-size:var(--step-small);letter-spacing:0;margin-bottom:12px;font-weight:600}
+.handoff p{margin:0;padding:32px 32px 32px 0;min-width:0;max-width:52ch;font-size:var(--step-lead);line-height:1.35}
+@media (max-width:560px){.handoff{grid-template-columns:1fr;gap:0}.big{align-self:start}.handoff p{padding:20px}}
 .tl{margin-top:28px}
-.tl-track{position:relative;height:40px;background:var(--paper-2) var(--tone-dots)}
-.tl-seg{position:absolute;top:0;bottom:0;background:var(--ink);border-right:3px solid var(--paper)}
+.tl-track{position:relative;height:40px;background:var(--ground-3)}
+.tl-seg{position:absolute;top:0;bottom:0;background:var(--ink);border-right:3px solid var(--ground)}
 .tl-seg.alt{background:var(--blue-2)}
-.tl-next{position:absolute;top:-10px;bottom:-10px;width:6px;background:var(--red)}
+.tl-next{position:absolute;top:-10px;bottom:-10px;width:6px;background:var(--hot)}
 .tl-tail{position:absolute;top:0;bottom:0;right:0}
-.tl-labels{position:relative;height:40px;font-size:var(--step-small);color:var(--muted)}
+.tl-labels{position:relative;height:40px;font-size:var(--step-small)}
 .tl-labels span{position:absolute;top:8px;transform:translateX(-50%);white-space:nowrap}
-.key{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:var(--step-small);color:var(--muted)}
+.key{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:var(--step-small)}
 .key span{display:flex;gap:8px;align-items:center}
 
 /* drop map */
-.dm{background:var(--paper-2);padding:28px}
+.dm{background:var(--ground-2);padding:28px}
 .dm .key{margin-bottom:16px}
 .dm .empty{background:none;padding:0}
 .dm-stats{display:flex;flex-wrap:wrap;gap:12px 44px;margin-bottom:22px}
 .dm-stats>div{display:flex;flex-direction:column-reverse;gap:4px}
-.dm-stats b{display:block;font-family:var(--f-display);font-weight:900;font-size:40px;line-height:1;letter-spacing:-.04em}
-.dm-stats small.of{font-size:var(--step-small);color:var(--muted)}
-.dm-stats .p{color:var(--red)}
+.dm-stats b{display:block;font-weight:800;font-size:44px;line-height:1;letter-spacing:-.05em}
+.dm-stats small.of{font-size:var(--step-small);font-weight:600}
+.dm-stats .p{color:var(--hot)}
 .chart{overflow-x:auto}
 .chart svg{display:block;width:100%;min-width:320px;height:auto}
-.chart text{font-family:var(--f-display);font-size:11px;fill:var(--muted)}
+.chart text{font-family:var(--f);font-size:11px;fill:var(--muted)}
 form.vote{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:20px;align-items:end}
-form.vote label{display:flex;flex-direction:column;gap:8px;font-family:var(--f-display);font-weight:700;font-size:var(--step-small)}
+form.vote label{display:flex;flex-direction:column;gap:8px;font-weight:600;font-size:var(--step-small)}
+form.vote select{background:var(--ground-2)}
 
-/* arcs and seasons: chapter list */
+/* arcs and seasons */
 .arcbar{display:flex;height:28px;margin-bottom:10px;overflow:hidden;gap:3px}
 .arcbar i{display:block;height:100%;min-width:2px}
-.arcbar i.f{background:var(--red)} .arcbar i.c{background:var(--ink)} .arcbar i.c.alt{background:var(--blue-2)} .arcbar i.m{background:var(--pink-2)}
-.arcs{display:flex;flex-direction:column;gap:6px;margin-top:24px}
-.arc{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:20px;padding:0 20px 0 0;align-items:stretch;background:var(--paper-2);transition:background .2s}
-.arc:hover{background:var(--paper-3)}
-.arc .no{display:grid;place-items:start center;padding-top:20px;background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:900;font-size:26px;line-height:1;letter-spacing:-.04em}
+.arcbar i.f{background:var(--hot)} .arcbar i.c{background:var(--ink)} .arcbar i.c.alt{background:var(--blue-2)} .arcbar i.m{background:var(--pink-2)}
+.arcs{display:flex;flex-direction:column;gap:4px;margin-top:24px}
+.arc{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:20px;padding:0 20px 0 0;align-items:stretch;background:var(--ground-2);transition:background-color .2s ease}
+@media (hover:hover){.arc:hover{background:var(--ground-3)}}
+.arc .no{display:grid;place-items:start center;padding-top:20px;background:var(--tone);color:var(--tone-ink);font-weight:800;font-size:28px;line-height:1;letter-spacing:-.05em}
 .arc>div{padding:20px 0}
-.arc h4{font-size:clamp(22px,1.8vw,28px);line-height:1.05}
-.arc .part{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);color:var(--muted);display:block;margin-bottom:6px}
+.arc h4{font-size:clamp(22px,1.8vw,30px);line-height:1.02}
+.arc .part{font-weight:600;font-size:var(--step-small);display:block;margin-bottom:6px}
 .arc p{margin:8px 0 0;font-size:var(--step-body);max-width:62ch}
-.arc .rng{font-family:var(--f-display);font-weight:700;font-size:var(--step-small);text-align:right;white-space:nowrap;display:flex;flex-direction:column;gap:6px;align-items:flex-end;padding:20px 0}
+.arc .rng{font-weight:600;font-size:var(--step-small);text-align:right;white-space:nowrap;display:flex;flex-direction:column;gap:6px;align-items:flex-end;padding:20px 0}
 .arc .rng .label{font-size:13px}
-@media (max-width:560px){.arc{grid-template-columns:40px minmax(0,1fr);gap:14px}.arc .no{font-size:18px;grid-row:span 2}.arc .rng{grid-column:2;align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:12px;padding-top:0}}
+@media (max-width:560px){.arc{grid-template-columns:44px minmax(0,1fr);gap:14px}.arc .no{font-size:19px;grid-row:span 2}.arc .rng{grid-column:2;align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:12px;padding-top:0}}
 
 /* events */
 .ev-tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.ev-tools .ghost{background:var(--ground-2)}
 .evgroup{padding:28px 0}
 .evgroup+.evgroup{padding-top:12px}
-.evgroup h4{margin:0 0 14px;font-size:clamp(22px,1.8vw,28px);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.evgroup h4{margin:0 0 14px;font-size:clamp(22px,1.8vw,30px);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 .evgroup ol{margin:0;padding-left:24px;display:flex;flex-direction:column;gap:10px}
 .evgroup li{max-width:66ch}
-.spoil{filter:blur(6px);user-select:none;cursor:pointer;transition:filter .2s}
-.spoil:focus-visible{outline:3px solid var(--red)}
+.spoil{filter:blur(6px);user-select:none;cursor:pointer;transition:filter .2s ease}
+.spoil:focus-visible{outline:3px solid var(--ink)}
 .shown .spoil{filter:none;user-select:auto;cursor:auto}
 
 /* filler */
 .fstats{display:flex;flex-wrap:wrap;gap:12px 44px;margin-bottom:24px}
 .fstats>div{display:flex;flex-direction:column-reverse;gap:4px}
-.fstats b{display:block;font-family:var(--f-display);font-weight:900;font-size:40px;line-height:1;letter-spacing:-.04em}
-.fstats .f{color:var(--red)}
+.fstats b{display:block;font-weight:800;font-size:44px;line-height:1;letter-spacing:-.05em}
+.fstats .f{color:var(--hot)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--cell,30px),1fr));gap:3px;margin-top:14px}
-.grid span{aspect-ratio:1;display:grid;place-items:center;font-family:var(--f-display);font-weight:700;font-size:11px;background:var(--ink);color:var(--paper)}
-.grid span.f{background:var(--red);color:#fff} .grid span.m{background:var(--pink-2);color:var(--ink)} .grid span.r{background:var(--grey);color:var(--ink)}
+.grid span{aspect-ratio:1;display:grid;place-items:center;font-weight:600;font-size:11px;background:var(--ink);color:var(--ground)}
+.grid span.f{background:var(--hot);color:#fff} .grid span.m{background:var(--pink-2);color:var(--ink)} .grid span.r{background:var(--grey);color:var(--ink)}
 .grid.tiny span{font-size:0}
-.skip{margin-top:24px;background:var(--paper-2);padding:22px}
-.skip code{font-family:var(--f-display);font-weight:700;font-size:15px;word-break:break-word;display:block;margin-top:10px}
+.skip{margin-top:24px;background:var(--ground-2);padding:22px}
+.skip code{font-family:var(--f);font-weight:600;font-size:15px;word-break:break-word;display:block;margin-top:10px}
+
+.related{padding:clamp(72px,9vw,130px) 0}
+.related h2{font-size:var(--step-head);margin:0 0 28px}
+.related .wall{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.src a{display:inline-block;padding:6px 0}
+
+/* hub pages (A-Z, genres, about) */
+.hub{padding:clamp(32px,5vw,72px) var(--m) clamp(80px,10vw,140px);max-width:1520px;margin:0 auto}
+.hub h1{font-size:var(--step-mega);letter-spacing:-.065em;margin:0 0 24px;line-height:.85}
+.hub .lede{max-width:62ch;margin:0 0 32px;font-size:var(--step-lead);line-height:1.35}
+.hub .letters{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 28px}
+.hub .letters a{min-width:46px;height:46px;display:grid;place-items:center;background:var(--sage);text-decoration:none;font-weight:800;transition:background-color .2s ease}
+@media (hover:hover){.hub .letters a:hover{background:var(--ink);color:var(--ground)}}
+.hub h2{font-size:clamp(32px,3vw,52px);margin:52px 0 16px;scroll-margin-top:80px}
+.hub ul,.hub ol.hubrank{list-style:none;padding:0;margin:0;columns:3 260px;column-gap:32px}
+.hub ol.hubrank{counter-reset:r}
+.hub ol.hubrank li{counter-increment:r}
+.hub ol.hubrank li::before{content:counter(r);display:inline-block;min-width:2.4em;font-weight:800}
+.hub li{padding:6px 0;break-inside:avoid}
+.hub li a{font-weight:600}
+.hub li small{color:var(--muted);margin-left:6px;font-size:var(--step-small)}
+.hub .prose{max-width:66ch}
+.hub .prose h2{margin-top:44px}
+.hub .prose p{line-height:1.55}
 
 /* my list */
-.prof h2{font-size:var(--step-head);text-transform:uppercase;letter-spacing:-.045em;margin:32px 0 10px}
-.prof .counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px;margin:28px 0 10px}
-.prof .counts>div{display:flex;flex-direction:column-reverse;gap:6px;background:var(--paper-2);padding:16px}
-.prof .counts b{font-family:var(--f-display);font-weight:900;font-size:44px;line-height:1;letter-spacing:-.04em}
-.prof h3{font-size:clamp(28px,2.6vw,40px);margin:72px 0 22px;display:flex;gap:14px;align-items:baseline}
+.prof{padding:clamp(32px,5vw,72px) 0 clamp(80px,10vw,140px)}
+.prof h2{font-size:var(--step-mega);letter-spacing:-.065em;margin:0 0 14px;line-height:.85}
+.prof .counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:4px;margin:28px 0 10px}
+.prof .counts>div{display:flex;flex-direction:column-reverse;gap:6px;background:var(--sage);padding:16px}
+.prof .counts b{font-weight:800;font-size:48px;line-height:1;letter-spacing:-.05em}
+.prof h3{font-size:clamp(28px,2.6vw,44px);margin:72px 0 22px;display:flex;gap:14px;align-items:baseline}
 
-/* footer: the back cover. Blurb, the index, and a barcode, printed on paper laid on black */
-footer{margin:clamp(110px,15vh,180px) calc(-1 * var(--m)) 0;padding:12px;background:var(--ink)}
-.back-cv{background:var(--paper);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 56px;padding:clamp(28px,5vw,64px);position:relative}
-.back-cv .blurb{font-size:var(--step-lead);line-height:1.35;max-width:34ch;margin:0}
-.back-cv .blurb b{display:block;font-family:var(--f-display);font-weight:900;font-size:var(--step-head);text-transform:uppercase;letter-spacing:-.045em;line-height:.9;margin-bottom:18px}
-.back-cv .fine{grid-column:1;font-size:var(--step-small);color:var(--muted);max-width:60ch;margin:0}
-footer nav{display:flex;flex-direction:column;gap:2px;align-self:start}
-footer nav a{font-family:var(--f-display);font-weight:700;font-size:var(--step-body);text-decoration:none;padding:12px 16px;background:var(--paper-2);transition:background .2s,color .2s}
-footer nav a:hover{background:var(--ink);color:var(--paper)}
-.code{grid-column:2;justify-self:end;align-self:end;display:flex;flex-direction:column;align-items:center;gap:6px;background:#fff;padding:12px 14px 8px;font-family:var(--f-display);font-weight:700;font-size:13px}
-.code svg{display:block;width:170px;height:62px}
-@media (max-width:720px){.back-cv{grid-template-columns:1fr}.code{grid-column:1;justify-self:start}}
+/* footer: the name first, then where to go */
+footer{background:var(--olive);color:var(--olive-ink);padding:clamp(40px,6vw,88px) var(--m) 28px;overflow:hidden}
+footer .name{display:block;width:100%;height:auto;margin:0 0 0 -.012em}
+footer .name text{fill:var(--olive-ink);font-weight:800;letter-spacing:-.05em}
+footer .row2{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;margin-top:72px}
+footer nav{grid-column:1/6;display:flex;flex-direction:column;align-items:flex-start}
+footer nav a{font-weight:800;font-size:clamp(1.75rem,1.4rem + 1vw,2.25rem);letter-spacing:-.045em;text-decoration:none;padding:4px 0;line-height:1.1}
+@media (hover:hover){footer nav a:hover{text-decoration:underline}}
+footer .fine{grid-column:7/13;font-size:var(--step-small);max-width:52ch;margin:0;line-height:1.5}
+footer .legal{display:flex;justify-content:space-between;gap:16px;margin-top:96px;font-size:var(--step-fine)}
+footer :focus-visible{outline-color:var(--olive-ink)}
+@media (max-width:720px){footer .row2{grid-template-columns:1fr;margin-top:40px}footer nav,footer .fine{grid-column:1}footer nav a{font-size:26px}footer .legal{margin-top:56px}}
 
-/* motion: covers crossfade on the front; rows, chapters and the obi slide in once */
-@media (prefers-reduced-motion:no-preference){html:not(.calm){
-  .card-cv>*{animation:rise .8s var(--ease) both}
-  .card-cv>*:nth-child(3){animation-delay:.08s} .card-cv>*:nth-child(4){animation-delay:.16s} .card-cv>*:nth-child(n+5){animation-delay:.24s}
-  .pg a{animation:shutter 1.1s var(--ease) both} .pg a:nth-child(2){animation-delay:.15s} .pg a:nth-child(3){animation-delay:.3s}
-  .row,.card{animation:rise .6s var(--ease) both}
-  .row:nth-child(2),.card:nth-child(2){animation-delay:.04s} .row:nth-child(3),.card:nth-child(3){animation-delay:.08s}
-  .row:nth-child(4),.card:nth-child(4){animation-delay:.12s} .row:nth-child(5),.card:nth-child(5){animation-delay:.16s}
-  .row:nth-child(n+6),.card:nth-child(n+6){animation-delay:.2s}
-  .sh .covers .cover:first-child{animation:shutter 1.1s var(--ease) both}
-  .sh .covers .cover:first-child .obi{animation:obi .7s .7s var(--ease) both}
-  .sh .covers .cover:nth-child(2){animation:rise .9s .3s var(--ease) both}
-  .sh>div:last-child>*{animation:rise .8s var(--ease) both}
-  .pane>*{animation:rise .7s var(--ease) both}
-  .pane>*:nth-child(2){animation-delay:.07s} .pane>*:nth-child(n+3){animation-delay:.14s}
-  .big{animation:drop .9s .2s var(--ease) both}
-}}
+/* motion: the header follows the chapters; parts of each section rise in once */
+@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes riseT{from{opacity:0;translate:0 28px}to{opacity:1;translate:0 0}}
+@keyframes seamA{from{opacity:0;translate:0 -.35em}to{opacity:1;translate:0 0}}
+@keyframes seamB{from{opacity:0;translate:0 .35em}to{opacity:1;translate:0 0}}
 @media (prefers-reduced-motion:no-preference){
-  .card:hover .cover .obi{transform:translateY(-6px)}
+  html.rise [data-r]:not(.on){opacity:0;transform:translateY(28px)}
+  html.rise [data-r].on{transition:opacity .7s var(--ease-out),transform .7s var(--ease-out);transition-delay:calc(var(--i,0) * 70ms)}
+  html:not(.calm) .hero .bot>*{animation:rise .8s var(--ease-out) both}
+  html:not(.calm) .hero .acts{animation-delay:.08s} html:not(.calm) .picks{animation-delay:.16s}
+  html:not(.calm) .hero h1{animation:seamA .7s var(--ease-out) both}
+  html:not(.calm) .picks button{animation:riseT .7s var(--ease-out) both;animation-delay:calc(.2s + var(--i,0) * 60ms)}
+  html:not(.calm) .row{animation:rise .5s var(--ease-out) both}
+  html:not(.calm) .row:nth-child(2){animation-delay:.03s} html:not(.calm) .row:nth-child(3){animation-delay:.06s}
+  html:not(.calm) .row:nth-child(4){animation-delay:.09s} html:not(.calm) .row:nth-child(n+5){animation-delay:.12s}
+  html:not(.calm) .sh .covers .cover:first-child{animation:rise .8s var(--ease-out) both}
+  html:not(.calm) .sh .covers .cover:nth-child(2){animation:rise .8s .12s var(--ease-out) both}
+  html:not(.calm) .sh .info>*{animation:rise .7s var(--ease-out) both}
+  html:not(.calm) .sh .info>*:nth-child(2){animation-delay:.05s} html:not(.calm) .sh .info>*:nth-child(3){animation-delay:.1s} html:not(.calm) .sh .info>*:nth-child(n+4){animation-delay:.15s}
+  html:not(.calm) .pane>*{animation:rise .6s var(--ease-out) both}
+  html:not(.calm) .pane>*:nth-child(2){animation-delay:.06s} html:not(.calm) .pane>*:nth-child(n+3){animation-delay:.12s}
 }
-@keyframes shutter{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
-@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-@keyframes obi{from{transform:translateY(100%)}to{transform:none}}
-@keyframes drop{from{transform:translateY(-40%);opacity:0}to{transform:none;opacity:1}}
 </style>
 
 <div class="wrap">
   <div id="app"></div>
-  <footer><div class="back-cv">
-    <p class="blurb"><b>End of volume</b>Every series here comes with the episode people quit, the arcs and filler worth skipping, and the chapter where the manga picks up.</p>
-    <nav aria-label="Site"><a href="{ROOT}anime/">All anime A–Z</a><a href="{ROOT}genre/">Genres</a><a href="{ROOT}about/">About</a><a href="{ROOT}privacy/">Privacy</a></nav>
-    <p class="fine">Animeter ratings and drop-map reports come from visitors to this page. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</p>
-    <div class="code"><svg viewBox="0 0 170 62" aria-hidden="true"><rect x="0" width="2" height="62"/><rect x="5" width="4" height="62"/><rect x="11" width="2" height="62"/><rect x="16" width="4" height="62"/><rect x="23" width="1" height="62"/><rect x="25" width="4" height="62"/><rect x="32" width="2" height="62"/><rect x="37" width="4" height="62"/><rect x="42" width="1" height="62"/><rect x="45" width="1" height="62"/><rect x="47" width="1" height="62"/><rect x="51" width="4" height="62"/><rect x="56" width="2" height="62"/><rect x="60" width="2" height="62"/><rect x="65" width="3" height="62"/><rect x="69" width="2" height="62"/><rect x="72" width="4" height="62"/><rect x="79" width="1" height="62"/><rect x="81" width="1" height="62"/><rect x="83" width="1" height="62"/><rect x="87" width="1" height="62"/><rect x="90" width="1" height="62"/><rect x="93" width="2" height="62"/><rect x="96" width="2" height="62"/><rect x="99" width="3" height="62"/><rect x="104" width="2" height="62"/><rect x="107" width="3" height="62"/><rect x="111" width="2" height="62"/><rect x="115" width="2" height="62"/><rect x="120" width="4" height="62"/><rect x="125" width="3" height="62"/><rect x="130" width="1" height="62"/><rect x="132" width="2" height="62"/><rect x="136" width="1" height="62"/><rect x="138" width="2" height="62"/><rect x="141" width="2" height="62"/><rect x="144" width="4" height="62"/><rect x="150" width="2" height="62"/><rect x="153" width="1" height="62"/><rect x="155" width="1" height="62"/><rect x="157" width="1" height="62"/><rect x="160" width="2" height="62"/><rect x="164" width="2" height="62"/><rect x="167" width="2" height="62"/></svg><span>Animeter · free to read</span></div>
-  </div></footer>
+  <footer data-chap>
+    <svg class="name" viewBox="0 0 1000 150" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><text x="-6" y="120" textLength="1000" lengthAdjust="spacingAndGlyphs" font-size="150">Animeter</text></svg>
+    <div class="row2">
+      <nav aria-label="Site"><a href="{ROOT}anime/">All anime A to Z</a><a href="{ROOT}genre/">Genres</a><a href="{ROOT}about/">About</a><a href="{ROOT}privacy/">Privacy</a></nav>
+      <p class="fine">Every series here comes with the episode people quit, the arcs and filler worth skipping, and the chapter where the manga picks up. Animeter ratings and drop reports come from visitors to this site. AniList scores fetched <span id="fetched"></span>. Arc, filler and manga data link their sources on each series page.</p>
+    </div>
+    <div class="legal"><span>Animeter is free to read.</span><span>Covers from AniList</span></div>
+  </footer>
 </div>
 
 <script>
@@ -543,38 +615,99 @@ function ranked(){
   if (tags.size) out.forEach((x,i)=>x.rank=i+1);   // a search keeps overall rank; a tag filter ranks within the tag
   return out;
 }
+/* Ink for a field of the show's own colour: dark or white, whichever reads; a tone too mid-grey for
+   either is deepened until white reads at 4.5:1. `deep` is the lower half of the hero headline. */
+function toneInk(hex){
+  const rgb = h => [1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+  const lum = c => { const [r,g,b] = c.map(v=>{ v/=255; return v<=.03928 ? v/12.92 : ((v+.055)/1.055)**2.4; }); return .2126*r+.7152*g+.0722*b; };
+  const ratio = (x,y) => (Math.max(x,y)+.05)/(Math.min(x,y)+.05);
+  let c = /^#[0-9a-f]{6}$/i.test(hex||"") ? rgb(hex) : [91,143,134];
+  const dark = lum([28,28,28]);
+  for (let k=0; k<12 && ratio(lum(c),dark) < 4.5 && ratio(lum(c),1) < 4.5; k++) c = c.map(v=>Math.round(v*.88));
+  const hx = c => "#"+c.map(v=>v.toString(16).padStart(2,"0")).join("");
+  const light = ratio(lum(c),dark) >= ratio(lum(c),1);
+  return {bg: hx(c), ink: light ? "#1c1c1c" : "#ffffff", deep: hx(c.map(v=>Math.round(light ? v*.3 : v+(255-v)*.72)))};
+}
+const toneVars = s => { const t = toneInk(s.tone); return `--tone:${t.bg};--tone-ink:${t.ink};--deep:${t.deep}`; };
+const kindWord = s => s.kind==="novel" ? "light novel" : "manga";
+function heroLine(s, n){
+  const sc = s.score ? ` at ${fmt10(s.score/10)}` : "";
+  const after = s.next ? `After the anime, the ${kindWord(s)} picks up at ${esc(handoffShort(s).replace(/^Ch\. ?/,"chapter "))}.`
+    : s.kind==="original" ? "It is an original anime, so there is no book to carry on with."
+    : `The anime covers the story through ${s.endShort ? "the "+esc(s.endShort.toLowerCase()) : "its ending"}.`;
+  return `<b>${esc(s.title)}</b> is No. ${n} on AniList${sc}. ${after}`;
+}
 function heroHTML(){
   const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,6);
   if (top.length<6) return "";
-  const obi = (s, n) => `<span class="obi"><span>No. ${n} · ${esc(s.title)}</span><b>${fmt10(s.score/10)}</b></span>`;
-  const panel = (s, n, lazy) => `<a href="${seriesHref(s.id)}"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="${esc(s.title)}" ${lazy?'loading="lazy"':'fetchpriority="high"'} onerror="this.style.visibility='hidden'">${obi(s,n)}</a>`;
-  const cycle = [0,3,4,5].map(i=>top[i]);   // the big panel turns through these
-  return `<section class="hero">
-    <div class="card-cv">
-      <div class="stripe" aria-hidden="true">${"<i></i>".repeat(24)}</div>
-      <p class="vol" aria-hidden="true">Animeter</p>
-      <h1>Where people stop watching</h1>
-      <p class="lede">${SERIES.length} anime ranked, with the episode viewers really quit, the arcs worth skipping and the chapter where the manga picks up.</p>
-      <a class="go" href="#rankings" data-jump>See the rankings</a>
-      ${STATIC ? `<nav class="links" aria-label="Browse"><a href="#rankings" data-jump>Rankings</a><a href="${ROOT}anime/">All anime A–Z</a><a href="${ROOT}genre/">Genres</a></nav>` : ""}
-    </div>
-    <div class="pg">
-      <a class="fade" href="${seriesHref(top[0].id)}" data-cycle="${esc(JSON.stringify(cycle.map((s,i)=>[s.id, s.title, [1,4,5,6][i], fmt10(s.score/10), seriesHref(s.id)])))}">${cycle.map((s,i)=>`<img src="${ROOT}covers/${s.id}-anime.jpg" alt="${i?"":esc(s.title)}" ${i?'loading="lazy" aria-hidden="true"':'fetchpriority="high"'} class="${i?"":"on"}" onerror="this.style.visibility='hidden'">`).join("")}${obi(top[0],1)}</a>
-      ${panel(top[1],2,true)}${panel(top[2],3,true)}
+  const s0 = top[0];
+  return `<section class="hero" style="${toneVars(s0)}" data-picks="${esc(JSON.stringify(top.map((s,i)=>({id:s.id, href:seriesHref(s.id), t:s.title, v:toneVars(s), line:heroLine(s,i+1)}))))}">
+    <div class="top" data-chap></div>
+    <h1>Where people<span class="l2">stop watching</span></h1>
+    <div class="bot" data-chap>
+      <p class="lede">${SERIES.length.toLocaleString("en")} anime ranked, with the episode viewers quit, the filler to skip and the chapter to read next. <span id="heroline">${heroLine(s0,1)}</span></p>
+      <div class="acts"><a class="btn" id="heroopen" href="${seriesHref(s0.id)}">Open ${esc(s0.title)}</a><a class="more" href="#rankings" data-jump>See all ${SERIES.length.toLocaleString("en")}</a></div>
+      <div class="picks" role="group" aria-label="Top six on AniList">${top.map((s,i)=>`<button type="button" data-pick="${i}" aria-pressed="${i===0}" style="--i:${i}" aria-label="${esc(s.title)}">${coverHTML(s,"anime","","",i<3)}<span class="n">${i+1}. ${esc(s.title)}</span></button>`).join("")}</div>
     </div>
   </section>`;
 }
-/* the front cover's big panel turns through the top series, like light shifting on a shelf */
-function startCycle(){
-  clearInterval(window._cyc);
-  const a = document.querySelector(".pg .fade"); if (!a || reduceMotion()) return;
-  const list = JSON.parse(a.dataset.cycle), imgs = a.querySelectorAll("img"); let i = 0;
-  window._cyc = setInterval(()=>{
-    if (document.hidden || !a.isConnected) return;
-    imgs[i].classList.replace("on","off"); i = (i+1) % list.length; imgs[i].classList.remove("off"); imgs[i].classList.add("on");
-    const [, t, n, sc, href] = list[i]; a.href = href; a.querySelector(".obi").innerHTML = `<span>No. ${n} · ${esc(t)}</span><b>${sc}</b>`;
-    imgs.forEach((im,k)=>{ im.alt = k===i ? t : ""; });
-  }, 6000);
+/* picking a cover repaints the lower field in that show's colour and rewrites the sentence */
+function wireHero(){
+  const h = document.querySelector(".hero"); if (!h || h._wired) return; h._wired = true;
+  const list = JSON.parse(h.dataset.picks);
+  h.querySelector(".picks").addEventListener("click", e=>{
+    const b = e.target.closest("[data-pick]"); if (!b) return;
+    const x = list[Number(b.dataset.pick)];
+    h.setAttribute("style", x.v);
+    document.getElementById("heroline").innerHTML = x.line;
+    const o = document.getElementById("heroopen"); o.href = x.href; o.textContent = "Open " + x.t;
+    h.querySelectorAll("[data-pick]").forEach(y=>y.setAttribute("aria-pressed", y===b));
+    hdrFollow();
+  });
+}
+/* the header bar takes the colour of whichever chapter is passing under it */
+function hdrFollow(){
+  const m = document.querySelector(".mast"); if (!m) return;
+  const r = m.getBoundingClientRect(), el = document.elementFromPoint(Math.max(2, innerWidth-6), r.bottom + 2);
+  const c = el && el.closest("[data-chap]"); if (!c) return;
+  const cs = getComputedStyle(c);
+  m.style.setProperty("--hdr", cs.backgroundColor); m.style.setProperty("--hdr-ink", cs.color);
+}
+{ let q = 0; addEventListener("scroll", ()=>{ if (!q) q = requestAnimationFrame(()=>{ q = 0; hdrFollow(); }); }, {passive:true}); addEventListener("resize", ()=>hdrFollow()); }
+/* parts of the lower chapters rise in once as they arrive */
+let riseIO = null;
+function wireRise(){
+  if (reduceMotion() || !("IntersectionObserver" in window) || /[?&]prerender/.test(location.search)) return;
+  document.documentElement.classList.add("rise");
+  riseIO = riseIO || new IntersectionObserver(es=>es.forEach(e=>{ if (e.isIntersecting){ e.target.classList.add("on"); riseIO.unobserve(e.target); } }), {rootMargin:"0px 0px -12% 0px"});
+  document.querySelectorAll("[data-r]:not(.on)").forEach(el=>riseIO.observe(el));
+}
+const COUNTS = STATIC ? (window.ANIMETER.counts||{}) : (()=>{ const ds = Object.values(DETAILS||{}).filter(Boolean);
+  return {guides: ds.length, arcs: ds.reduce((t,d)=>t+(d.arcs||[]).length,0), events: ds.reduce((t,d)=>t+(d.arcs||[]).reduce((u,a)=>u+(a.events||[]).length,0),0),
+    filler: ds.reduce((t,d)=>t+Object.values(epKinds(d).kinds).filter(k=>k==="f").length,0)}; })();
+const nf = n => Number(n||0).toLocaleString("en");
+function introHTML(){
+  const pic = SERIES.filter(s=>s.score!=null && s.next).sort((a,b)=>(b.popularity||0)-(a.popularity||0))[0];
+  const hand = SERIES.filter(s=>s.next).length;
+  return `<section class="mosaic" data-chap>
+    <div class="tile-a" data-r><h2>Skip the filler, read the rest</h2></div>
+    <div class="tile-b" data-r style="--i:1"><b>${nf(hand)}</b><span>series with the exact chapter where the manga picks up after the anime${pic ? `, like ${esc(pic.title)} from ${esc(handoffShort(pic).replace(/^Ch\. ?/,"chapter "))}` : ""}</span></div>
+    ${pic ? `<a class="tile-c" data-r style="--i:2;--tone:${esc(pic.tone||"#333")}" href="${seriesHref(pic.id,"manga")}"><img src="${ROOT}covers/${pic.id}-manga.jpg" alt="${esc(pic.title)} manga cover" loading="lazy" onerror="this.src='${ROOT}covers/${pic.id}-anime.jpg'"></a>` : `<div class="tile-c"></div>`}
+    <div class="tile-d"><h2 class="vh">How a series page works</h2>
+      <div class="figs" data-r><div><b>${nf(COUNTS.guides)}</b><span>series with full guides</span></div><div><b>${nf(COUNTS.arcs)}</b><span>arcs with episode ranges</span></div><div><b>${nf(COUNTS.events)}</b><span>key events, spoilers hidden</span></div><div><b>${nf(COUNTS.filler)}</b><span>filler episodes marked</span></div></div>
+      <p data-r style="--i:1">Every series page opens on the answer: where the anime ends and where the ${"manga"} picks up. Below it, the drop map shows the episode viewers quit and the episode where the show clicked for them, from reports people leave here. The arcs tab splits the run into story arcs with episode ranges, the filler tab marks every filler, mixed and recap episode with a skip list you can copy, and key events stay blurred until you choose to read them. Each range and chapter links to the source it came from.</p>
+    </div>
+  </section>`;
+}
+function faqHTML(){
+  const qs = [
+    ["Where do the drop numbers come from?", "From visitors. Signed-in readers report the episode where they stopped and the episode where the show clicked for them. Each chart says how many people reported, and a series nobody has reported on yet says so instead of guessing."],
+    ["How is the manga chapter worked out?", `${nf(SERIES.filter(s=>s.next).length)} series have a chapter or volume to start from, each with its source linked on the Manga tab. Series that are original anime, or that haven't been checked yet, are labelled that way rather than given a number.`],
+    ["What counts as filler?", "Episodes that aren't adapted from the source. Episodes that mix source and new material are marked mixed, recaps are marked recap, and the filler tab lists the source for every range."],
+    ["Do I need an account?", "Not to read anything. To rate a series, report where you stopped or keep a list, sign in with your email: we send a link and a six-digit code, and there is no password."]];
+  const tone = ["c-slate","c-ground","c-blush","c-sage"];
+  return `<section class="faq"><div class="head chap c-olive" data-chap><div class="in-w"><h2 data-r>Before you ask</h2></div></div>
+    ${qs.map(([q,a],i)=>`<div class="chap ${tone[i%4]}" data-chap><div class="in-w q" data-r><h3>${q}</h3><p>${a}</p></div></div>`).join("")}</section>`;
 }
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
@@ -582,10 +715,10 @@ function renderHome(){
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     patch(app).html = `
-      <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a><a class="back melink" href="${profileHref()}">My list</a></nav></header>
+      <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a><a class="back opt" href="${ROOT}genre/">Genres</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
       ${route().missing ? `<p class="missing"><b>Page not found.</b> That address isn't a page on Animeter. Here are the rankings instead.</p>` : ""}
       ${heroHTML()}
-      <section id="rankings">
+      <section id="rankings" class="chap c-sage" data-chap><div class="in-w">
         <h2 class="giant">Rankings</h2>
         <div class="rk-head">
           <div class="controls">
@@ -605,7 +738,8 @@ function renderHome(){
         <p class="rk-basis" id="basis"></p>
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
-      </section>`;
+      </div></section>
+      ${introHTML()}${faqHTML()}`;
     app.querySelectorAll("[data-jump]").forEach(a=>a.addEventListener("click", e=>{ e.preventDefault(); document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"}); }));
     document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
     document.getElementById("sort").addEventListener("change", e=>{ sortBy=e.target.value; page=1; renderRankings(); });
@@ -635,7 +769,7 @@ function renderHome(){
   }
   if (!route().missing) document.querySelector(".missing")?.remove();
   renderRankings();
-  startCycle();
+  wireHero(); wireRise(); hdrFollow();
 }
 function renderRankings(){
   const all = ranked(), site = siteScores();
@@ -662,13 +796,13 @@ function renderRankings(){
   if (!items.length){ box.innerHTML = `<div class="none">No series matches ${query.trim() ? `"${esc(query)}"` : ""}${query.trim() && tags.size ? " with " : ""}${tags.size ? "all of these tags" : ""}.</div>`; document.getElementById("pager").innerHTML=""; return; }
   const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
   if (view==="list"){
-    patch(box).html = `<div class="hdr label"><span>#</span><span></span><span>Series</span><span>AniList</span><span class="site">Animeter</span><span class="ch">Manga</span></div><div class="list">` + items.map(({s,site,rank})=>`
+    patch(box).html = `<div class="list">` + items.map(({s,site,rank})=>`
       <a class="row" href="${seriesHref(s.id)}">
         <span class="rank">${rank}</span>
         ${coverHTML(s,"anime")}
         <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · ")}</span></span>
-        <span class="sc gold"><b>${s.score?fmt10(s.score/10):"—"}</b></span>
-        <span class="sc site"><b>${site.votes?fmt10(site.avg):"—"}</b><small>${site.votes} vote${site.votes===1?"":"s"}</small></span>
+        <span class="sc gold"><b>${s.score?fmt10(s.score/10):"—"}</b><small>AniList</small></span>
+        <span class="sc site"><b>${site.votes?fmt10(site.avg):"—"}</b><small>${site.votes ? site.votes+" vote"+(site.votes===1?"":"s") : "Animeter"}</small></span>
         <span class="ch">${chip(s)}</span>
       </a>`).join("") + `</div>`;
   } else {
@@ -857,7 +991,7 @@ function relatedHTML(s){
     let n = 0; (x.genres||[]).forEach(g=>mine.has(g)&&n++); (x.tags||[]).slice(0,6).forEach(g=>mine.has(g)&&(n+=1.5));
     return [n + (x.score||0)/12 + Math.log10(x.popularity||10)/2, x];
   }).sort((a,b)=>b[0]-a[0]).slice(0,6).map(([,x])=>x);
-  return `<section class="related"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span><span class="m"><span>${esc([x.year,(x.genres||[])[0]].filter(Boolean).join(" · "))}</span></span></a>`).join("")}</div></section>`;
+  return `<section class="related chap c-blush" data-chap><div class="in-w"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span></a>`).join("")}</div></div></section>`;
 }
 function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
@@ -872,25 +1006,31 @@ function renderSeries(id, tab){
   const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
       <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
+  const book = s.kind==="novel" ? "light novel" : "manga";
+  const answer = s.next ? `<p class="answer">After the anime, read the ${book} from <span class="ch">${esc((s.unit||"Chapter")+" "+s.next)}</span>.</p>`
+    : s.kind==="original"||s.kind==="vn" ? `<p class="answer">An <span class="ch">original anime</span>, so there's no book to continue with.</p>`
+    : `<p class="answer">The anime takes the story to <span class="ch">${esc(handoffShort(s).replace("VN","the visual novel").replace("Novel","the light novel"))}</span>.</p>`;
   patch(document.getElementById("app")).html = `
-    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${profileHref()}">My list</a><a class="back" href="${homeHref()}">← Rankings</a></nav></header>
-    <section class="sh">
-      <div class="covers">${coverHTML(s,"anime","Anime",`<span class="obi${s.next?"":" ink"}"><span>${s.kind==="original"||s.kind==="vn" ? "Source" : (s.kind==="novel"?"Light novel":"Manga") + (s.next?" continues from":"")}</span><b>${esc(handoffShort(s))}</b></span>`,true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
-      <div style="min-width:0">
-        <h1>${esc(s.title)}</h1><div class="jp">${esc(s.jp||"")}</div>
+    <div class="series" style="${toneVars(s)}"><div class="chap c-tone" data-chap>
+    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${homeHref()}">Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
+    <section class="sh in-w"><div class="grid12">
+      <div class="covers">${coverHTML(s,"anime","Anime","",true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
+      <div class="info">
+        <h1>${esc(s.title)}</h1>${s.jp ? `<div class="jp" lang="ja">${esc(s.jp)}</div>` : ""}
         <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
+        ${answer}
         <div class="facts">
-          ${s.score?`<div><span class="label">AniList</span><b class="gold">${fmt10(s.score/10)}</b></div>`:""}
-          <div><span class="label">Animeter</span><b class="gold">${ss.votes ? fmt10(ss.avg) : "—"}</b></div>
-          <div><span class="label">${esc(s.epsLabel)}</span><b>${s.eps} ep</b></div>
-          <div><span class="label">${s.kind==="novel"?"Source":"Manga"}</span><b>${esc(handoffShort(s).replace("VN","Visual novel").replace("Novel","Light novel"))}</b></div>
+          ${s.score?`<div><b>${fmt10(s.score/10)}</b><span class="label">AniList</span></div>`:""}
+          <div><b>${ss.votes ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.votes ? `, ${ss.votes} vote${ss.votes===1?"":"s"}` : ""}</span></div>
+          <div><b>${s.eps} ep</b><span class="label">${esc(s.epsLabel)}</span></div>
         </div>
         ${rateRow}${gate}
-      </div>
-    </section>
-    <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
-    <section class="pane">${pane}</section>
-    ${relatedHTML(s)}`;
+      </div></div>
+      <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+    </section></div>
+    <div class="in-w"><section class="pane">${pane}</section></div>
+    ${relatedHTML(s)}</div>`;
+  hdrFollow();
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
@@ -906,8 +1046,9 @@ function render(){
   _site = null;
   const r = route();
   if (!STATIC) document.title = r.profile ? "My list · Animeter" : r.id ? `${byId[r.id].title} · Animeter` : "Animeter";
-  const tone = r.id && byId[r.id].tone;
-  if (tone) document.documentElement.style.setProperty("--tone", tone); else document.documentElement.style.removeProperty("--tone");
+  const de = document.documentElement.style;
+  if (r.id){ const t = toneInk(byId[r.id].tone); de.setProperty("--tone", t.bg); de.setProperty("--tone-ink", t.ink); }
+  else { de.removeProperty("--tone"); de.removeProperty("--tone-ink"); }
   if (r.static) return;
   if (r.profile) renderProfile(); else if (r.id) renderSeries(r.id, r.tab); else renderHome();
 }
@@ -975,10 +1116,11 @@ function renderProfile(){
        ${STATUSES.map(([k,l])=>{ const xs = by(k); return xs.length ? `<h3>${l} <span class="label">${xs.length}</span></h3><div class="wall">${xs.map(card).join("")}</div>` : ""; }).join("")}
        ${rated.length ? `<h3>Your ratings <span class="label">${rated.length}</span></h3><div class="wall">${rated.map(card).join("")}</div>` : ""}`;
   patch(document.getElementById("app")).html = `
-    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><a class="back" href="${homeHref()}">← Rankings</a></header>
-    <section class="prof"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section>`;
+    <div class="chap c-ground" data-chap><header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${homeHref()}">Rankings</a></nav></header>
+    <section class="prof in-w"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section></div>`;
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
+  hdrFollow();
 }
 
 /* ---------- boot ---------- */
