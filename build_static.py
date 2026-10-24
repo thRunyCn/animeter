@@ -88,10 +88,10 @@ js = re.search(r"<script>(.*?)</script>", src, re.S).group(1)
 _bd = re.search(r'(<div class="bg".*?</div>)', src, re.S); backdrop = _bd.group(1) if _bd else ""
 footer = re.search(r"(<footer[^>]*>.*?</footer>)", src, re.S).group(1)
 # fonts ship with the site (web/fonts), so pages don't wait on a third-party font host
-FONTS = [("schibsted-grotesk-latin-ext-var", "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"),
-         ("schibsted-grotesk-latin-var", "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD")]
-fontface = "".join(f'@font-face{{font-family:"Schibsted Grotesk";font-weight:400 900;font-style:normal;font-display:swap;src:url(fonts/{f}.woff2) format("woff2");unicode-range:{u}}}\n' for f, u in FONTS)
-fonts = '<link rel="preload" href="{root}fonts/schibsted-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>'
+FONTS = [("instrument-sans-latin-ext-standard-normal", "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"),
+         ("instrument-sans-latin-standard-normal", "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD")]
+fontface = "".join(f'@font-face{{font-family:"Instrument Sans";font-weight:400 700;font-stretch:75% 100%;font-style:normal;font-display:swap;src:url(fonts/{f}.woff2) format("woff2");unicode-range:{u}}}\n' for f, u in FONTS)
+fonts = '<link rel="preload" href="{root}fonts/instrument-sans-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>'
 try: cfg = json.load(open(os.path.join(WEB, "config.json")))
 except FileNotFoundError: cfg = {"supabaseUrl": "", "supabaseKey": ""}
 
@@ -177,6 +177,8 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171615">
+<meta name="color-scheme" content="dark">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{url}">

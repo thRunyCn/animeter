@@ -157,55 +157,66 @@ function heroLine(s, n){
     : `The anime covers the story through ${s.endShort ? "the "+esc(s.endShort.toLowerCase()) : "its ending"}.`;
   return `<b>${esc(s.title)}</b> is No. ${n} on AniList${sc}. ${after}`;
 }
+/* the two cover tiles of the first screen: the anime, then the book it came from (or what happens instead) */
+const bookWord = s => s.kind==="novel" ? "Light novel" : "Manga";
+const heroAnime = s => `${coverHTML(s,"anime","","",true)}<span class="cap">Anime, ${s.eps} episode${s.eps===1?"":"s"}</span>`;
+const heroBook = s => s.kind==="original"||s.kind==="vn" ? "" : `${coverHTML(s,"manga","","",true)}<span class="cap">${bookWord(s)}${s.next ? `, from ${esc(handoffShort(s).replace(/^Ch\. ?/,"chapter "))}` : ""}</span>`;
+const heroWord = s => `<b>${s.kind==="vn" ? "A game first" : "Original anime"}</b><span>${s.kind==="vn" ? "It began as a visual novel, and the anime tells the whole story." : "Written for the screen, so there is no book to read on with."}</span>`;
+const heroNext = s => s.next ? {big: esc(handoffShort(s)), k: `where the ${kindWord(s)} picks up after the anime`}
+  : s.kind==="original" ? {big:"Original", k:"written for the screen, so there is nothing to read after"}
+  : s.kind==="vn" ? {big:"Game", k:"it began as a visual novel, and the anime tells the story"}
+  : {big: esc(handoffShort(s)), k:"the anime takes the story this far"};
 function heroHTML(){
   const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,6);
   if (top.length<6) return "";
-  const s0 = top[0];
-  return `<section class="hero" style="${toneVars(s0)}" data-picks="${esc(JSON.stringify(top.map((s,i)=>({id:s.id, href:seriesHref(s.id), t:s.title, v:toneVars(s), line:heroLine(s,i+1)}))))}">
-    <div class="top" data-chap></div>
-    <h1><span class="l1">Where people</span><span class="l2">stop watching</span></h1>
-    <div class="bot" data-chap>
-      <p class="lede">${SERIES.length.toLocaleString("en")} anime ranked, with the episode viewers quit, the filler to skip and the chapter to read next. <span id="heroline">${heroLine(s0,1)}</span></p>
-      <div class="acts"><a class="btn" id="heroopen" href="${seriesHref(s0.id)}">Open ${esc(s0.title)}</a><a class="more" href="#rankings" data-jump>See all ${SERIES.length.toLocaleString("en")}</a></div>
-      <div class="picks" role="group" aria-label="Top six on AniList">${top.map((s,i)=>`<button type="button" data-pick="${i}" aria-pressed="${i===0}" style="--i:${i}" aria-label="${esc(s.title)}">${coverHTML(s,"anime","","",i<3)}<span class="n">${i+1}. ${esc(s.title)}</span></button>`).join("")}</div>
+  const s0 = top[0], n0 = heroNext(s0), b0 = heroBook(s0);
+  const data = top.map((s,i)=>({id:s.id, href:seriesHref(s.id), t:s.title, v:toneVars(s), line:heroLine(s,i+1), a:heroAnime(s), m:heroBook(s), w:heroWord(s), n:heroNext(s)}));
+  return `<section class="hero board" style="${toneVars(s0)}" data-picks="${esc(JSON.stringify(data))}">
+    <div class="t paper h-name" style="--i:0"><h1>Animeter</h1></div>
+    <div class="t pic h-anime" id="hA" style="--i:1">${heroAnime(s0)}</div>
+    <div class="t ${b0 ? "pic" : "word"} h-manga" id="hM" style="--i:2">${b0 || heroWord(s0)}</div>
+    <div class="t h-say" style="--i:3"><p>${SERIES.length.toLocaleString("en")} anime ranked, with the episode viewers quit, the filler to skip and the chapter to read next.</p><a class="more" href="#rankings" data-jump>See all ${SERIES.length.toLocaleString("en")}</a></div>
+    <div class="t tone h-next" style="--i:4"><div><b id="hnext">${n0.big}</b><span class="k" id="hk">${n0.k}</span></div><a class="btn" id="heroopen" href="${seriesHref(s0.id)}" aria-label="Open the ${esc(s0.title)} guide"><span>Open the guide</span></a></div>
+    <div class="t deep h-pick" style="--i:5"><p id="heroline">${heroLine(s0,1)}</p>
+      <div class="picks" role="group" aria-label="Top six on AniList">${top.map((s,i)=>`<button type="button" data-pick="${i}" aria-pressed="${i===0}" aria-label="${esc(s.title)}">${coverHTML(s,"anime","","",i<3)}<span class="n">${i+1}</span></button>`).join("")}</div>
     </div>
   </section>`;
 }
-/* picking a cover repaints the lower field in that show's colour and rewrites the sentence */
+/* picking a cover swaps both cover tiles, the chapter and the sentence, and the whole page takes that show's colour */
+function setTone(v){ const de = document.documentElement.style; v.split(";").forEach(d=>{ const [k,x] = d.split(":"); if (k && x) de.setProperty(k.trim(), x.trim()); }); }
 function wireHero(){
-  const h = document.querySelector(".hero"); if (!h || h._wired) return; h._wired = true;
+  const h = document.querySelector(".hero"); if (!h) return;
   const list = JSON.parse(h.dataset.picks);
+  setTone(list[Number(h.querySelector('[aria-pressed="true"]')?.dataset.pick || 0)].v);
+  if (h._wired) return; h._wired = true;
   h.querySelector(".picks").addEventListener("click", e=>{
-    const b = e.target.closest("[data-pick]"); if (!b) return;
+    const b = e.target.closest("[data-pick]"); if (!b || b.getAttribute("aria-pressed")==="true") return;
     const x = list[Number(b.dataset.pick)];
-    if (b.getAttribute("aria-pressed")==="true") return;
-    if (GS()){                                  // the picked show's colour floods out from its cover
-      const bot = h.querySelector(".bot"), br = bot.getBoundingClientRect(), cr = b.getBoundingClientRect();
-      const cx = cr.left + cr.width/2 - br.left, cy = cr.top + cr.height/2 - br.top;
-      const R = Math.hypot(Math.max(cx, br.width-cx), Math.max(cy, br.height-cy)) * 1.05;
-      bot.querySelectorAll(".flood").forEach(o=>{ gsap.killTweensOf(o); o.remove(); });   // a second pick takes over cleanly
-      h.style.setProperty("--field", getComputedStyle(bot).backgroundColor);            // hold the colour under the new flood
-      const f = document.createElement("i"); f.className = "flood"; f.setAttribute("style", x.v);
-      bot.prepend(f); h.querySelector("h1").setAttribute("style", x.v);
-      gsap.fromTo(f, {clipPath:`circle(0px at ${cx}px ${cy}px)`}, {clipPath:`circle(${R}px at ${cx}px ${cy}px)`, duration:.6, ease:"expo.inOut",
-        onComplete:()=>{ h.setAttribute("style", x.v); h.querySelector("h1").removeAttribute("style"); f.remove(); hdrFollow(); }});
-      gsap.fromTo("#heroline", {autoAlpha:0, y:8}, {autoAlpha:1, y:0, duration:.35, delay:.15, ease:"power3.out"});
-    } else h.setAttribute("style", x.v);
-    document.getElementById("heroline").innerHTML = x.line;
-    const o = document.getElementById("heroopen"); o.href = x.href; o.textContent = "Open " + x.t;
     h.querySelectorAll("[data-pick]").forEach(y=>y.setAttribute("aria-pressed", y===b));
-    hdrFollow();
+    const A = document.getElementById("hA"), M = document.getElementById("hM");
+    const swap = ()=>{
+      A.innerHTML = x.a;
+      M.className = `t ${x.m ? "pic" : "word"} h-manga`; M.innerHTML = x.m || x.w;
+      document.getElementById("hnext").innerHTML = x.n.big; document.getElementById("hk").textContent = x.n.k;
+      document.getElementById("heroline").innerHTML = x.line;
+      const o = document.getElementById("heroopen"); o.href = x.href; o.setAttribute("aria-label", `Open the ${x.t} guide`);
+    };
+    h.setAttribute("style", x.v); setTone(x.v);
+    if (GS()) heroShutter(A, M, swap); else swap();
   });
 }
-/* the header bar takes the colour of whichever chapter is passing under it */
-function hdrFollow(){
-  const m = document.querySelector(".mast"); if (!m) return;
-  const r = m.getBoundingClientRect(), el = document.elementFromPoint(Math.max(2, innerWidth-6), r.bottom + 2);
-  const c = el && el.closest("[data-chap]"); if (!c) return;
-  const cs = getComputedStyle(c);
-  m.style.setProperty("--hdr", cs.backgroundColor); m.style.setProperty("--hdr-ink", cs.color);
+/* the new covers open like a shutter from the bottom edge while the picture settles (the page's one loud move) */
+function heroShutter(A, M, swap){
+  gsap.killTweensOf([A, M, "#hnext", "#hk", "#heroline"]);
+  const tl = gsap.timeline();
+  tl.to([A, M], {clipPath:"inset(0% 0% 100% 0%)", duration:.24, ease:"power3.out", stagger:.05})
+    .to(["#hnext", "#hk", "#heroline"], {y:-10, opacity:0, duration:.2, ease:"power2.out"}, 0)
+    .add(swap)
+    .fromTo([A, M], {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:.7, ease:"expo.out", stagger:.06, clearProps:"clipPath"})
+    .fromTo([A.querySelector("img"), M.querySelector("img")].filter(Boolean), {scale:1.12}, {scale:1, duration:1.1, ease:"expo.out", clearProps:"transform"}, "<")
+    .fromTo(["#hnext", "#hk", "#heroline"], {y:12, opacity:0}, {y:0, opacity:1, duration:.45, stagger:.04, ease:"expo.out", clearProps:"transform,opacity"}, "<.05");
 }
-{ let q = 0; addEventListener("scroll", ()=>{ if (!q) q = requestAnimationFrame(()=>{ q = 0; hdrFollow(); }); }, {passive:true}); addEventListener("resize", ()=>hdrFollow()); }
+function hdrFollow(){}
 /* parts of the lower chapters rise in once as they arrive */
 let riseIO = null;
 function wireRise(){
@@ -242,61 +253,63 @@ function chars(el, type="chars"){
 function motionHome(){
   const h = document.querySelector(".hero");
   if (h){
-    const h1 = h.querySelector("h1"), l2 = h1.querySelector(".l2");
-    // both lines grow out of the seam: the upper one rises, the lower one drops
-    const top = SplitText.create(h1.querySelector(".l1"), {type:"chars", mask:"chars"}).chars;
-    const bot = SplitText.create(l2, {type:"chars", mask:"chars"}).chars;
+    // the board lays itself down tile by tile; the name rises out of its tile; the covers open like shutters
+    const tiles = h.querySelectorAll(":scope > .t");
+    const name = SplitText.create(h.querySelector("h1"), {type:"chars", mask:"chars"}).chars;
     const tl = gsap.timeline();
-    tl.from(top, {yPercent:105, stagger:.018, duration:.85})
-      .from(bot, {yPercent:-105, stagger:.018, duration:.85}, "<")
-      .from(".hero .lede, .hero .acts", {y:24, autoAlpha:0, stagger:.08, duration:.8}, "-=.75")
-      .from(".hero .picks button", {y:48, autoAlpha:0, stagger:.06, duration:.9, clearProps:"transform"}, "-=.6");
+    tl.from(tiles, {opacity:0, scale:.965, duration:.8, stagger:.06, ease:"expo.out", clearProps:"transform,opacity"})
+      .from(name, {yPercent:110, stagger:.03, duration:1, ease:"expo.out"}, .12)
+      .fromTo([...h.querySelectorAll(".h-anime, .h-manga.pic")], {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1.1, ease:"expo.inOut", stagger:.1, clearProps:"clipPath"}, .1)
+      .fromTo(h.querySelectorAll(".h-anime img, .h-manga img"), {scale:1.12}, {scale:1, duration:1.6, ease:"expo.out", clearProps:"transform"}, .25)
+      .from(h.querySelectorAll(".h-say p, .h-say .more, .h-next > *, .h-pick p"), {y:18, opacity:0, duration:.7, stagger:.05, clearProps:"transform,opacity"}, .35)
+      .from(h.querySelectorAll(".picks button"), {y:24, opacity:0, duration:.7, stagger:.05, clearProps:"transform,opacity"}, .45);
   }
-  // "Rankings": letters float up into place as the chapter arrives (React Bits ScrollFloat, ported)
+  // "Rankings": letters float up into place as the section arrives (React Bits ScrollFloat, ported)
   const g = document.querySelector("#rankings .giant");
-  if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:120, scaleY:2.3, scaleX:.7, transformOrigin:"50% 0%", autoAlpha:0},
-    {yPercent:0, scaleY:1, scaleX:1, autoAlpha:1, stagger:.03, ease:"back.inOut(2)",
-     scrollTrigger:{trigger:g, start:"top bottom-=5%", end:"bottom 55%", scrub:.6}});
+  if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:120, scaleY:2.3, scaleX:.7, transformOrigin:"50% 0%", opacity:0},
+    {yPercent:0, scaleY:1, scaleX:1, opacity:1, stagger:.03, ease:"back.inOut(2)",
+     scrollTrigger:{trigger:g, start:"top bottom-=5%", end:"bottom 60%", scrub:.6}});
+  rise(".rk-title, .rk-tools", .08);
   arrive("#rankings .row, #rankings .card", .04);
-  // statement tiles open from the bottom edge, the cover settles, the figures count up
-  gsap.utils.toArray(".mosaic .tile-a, .mosaic .tile-b, .mosaic .tile-c").forEach((t,i)=>
-    gsap.from(t, {clipPath:"inset(100% 0% 0% 0%)", duration:1.1, ease:"expo.inOut", delay:i*.08,
-      scrollTrigger:{trigger:".mosaic", start:"top 80%", once:true}}));
-  const tc = document.querySelector(".tile-c img");
-  if (tc) gsap.fromTo(tc, {scale:1.18, yPercent:-6}, {scale:1, yPercent:6, ease:"none", scrollTrigger:{trigger:".mosaic", start:"top bottom", end:"bottom top", scrub:true}});
-  const ta = document.querySelector(".tile-a h2");
-  if (ta) gsap.from(chars(ta, "words"), {yPercent:110, stagger:.06, duration:1, scrollTrigger:{trigger:ta, start:"top 88%", once:true}});
-  gsap.utils.toArray(".tile-b b, .tile-d .figs b").forEach(b=>countUp(b));
-  gsap.from(".tile-d p", {y:30, autoAlpha:0, duration:1, scrollTrigger:{trigger:".tile-d", start:"top 85%", once:true}});
-  // questions: the heading lifts, each band's question rises word by word
-  const fh = document.querySelector(".faq .head h2");
-  if (fh) gsap.from(chars(fh), {yPercent:110, stagger:.025, duration:1, scrollTrigger:{trigger:fh, start:"top 90%", once:true}});
-  gsap.utils.toArray(".faq .q").forEach(q=>{
-    const tl = gsap.timeline({scrollTrigger:{trigger:q, start:"top 85%", once:true}});
-    tl.from(chars(q.querySelector("h3"), "words"), {yPercent:110, stagger:.04, duration:.9})
-      .from(q.querySelector("p"), {y:20, autoAlpha:0, duration:.8}, "-=.6");
-  });
+  // the hand-off wall: each book cover opens from the bottom edge as its row arrives, the chapter counts in beside it
+  rise(".ho-head", 0);
+  ScrollTrigger.batch(".ho-card", {start:"top 88%", once:true, onEnter: b=>{
+    gsap.fromTo(b, {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.07, clearProps:"clipPath"});
+    gsap.fromTo(b.map(x=>x.querySelector("img")), {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.07, clearProps:"transform"});
+  }});
+  // figures: the tiles step in one after another and the numbers count up (React Bits CountUp, ported)
+  rise(".st-a, .st-r h2, .st-b, .st-c, .st-p", .09);
+  gsap.utils.toArray(".st b").forEach(b=>countUp(b));
+  rise(".faq-h h2", 0);
+  rise(".faq details", .06);
   marquee();
 }
 function motionSeries(){
   const sh = document.querySelector(".sh"); if (!sh) return;
   const tl = gsap.timeline({delay:.05});
-  tl.from(".sh .covers .cover:first-child", {clipPath:"inset(0% 0% 100% 0%)", duration:.85, ease:"expo.inOut"})
-    .from(".sh .covers .cover:nth-child(2)", {y:40, autoAlpha:0, duration:.7}, "-=.5")
-    .from(chars(sh.querySelector("h1"), "words"), {yPercent:110, stagger:.04, duration:.7}, .1)
-    .from(".sh .info > :not(h1)", {y:14, autoAlpha:0, stagger:.04, duration:.5}, .3)
-    .from(".tabs a", {y:10, autoAlpha:0, stagger:.03, duration:.4, clearProps:"transform"}, .45);
-  // the two covers drift apart a little as the colour chapter scrolls away
-  gsap.to(".sh .covers .cover:first-child", {yPercent:-6, ease:"none", scrollTrigger:{trigger:sh, start:"top top", end:"bottom top", scrub:true}});
-  gsap.to(".sh .covers .cover:nth-child(2)", {yPercent:10, ease:"none", scrollTrigger:{trigger:sh, start:"top top", end:"bottom top", scrub:true}});
+  tl.fromTo(".sh-cov .t", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.1, clearProps:"clipPath"})
+    .fromTo(".sh-cov img", {scale:1.12}, {scale:1, duration:1.4, ease:"expo.out", stagger:.1, clearProps:"transform"}, "<.1")
+    .from(".sh-r > .t", {opacity:0, scale:.97, duration:.7, stagger:.06, clearProps:"transform,opacity"}, .05)
+    .from(chars(sh.querySelector("h1"), "words"), {yPercent:110, stagger:.04, duration:.8}, .15)
+    .from(".sh .tabs", {y:16, opacity:0, duration:.6, clearProps:"transform,opacity"}, .35);
+  rise(".sh .pane", 0);
   arrive(".pane .arc, .related .card", .05);
   const rh = document.querySelector(".related h2");
   if (rh) gsap.from(chars(rh, "words"), {yPercent:110, stagger:.05, duration:1, scrollTrigger:{trigger:rh, start:"top 88%", once:true}});
 }
 function motionCommon(){
-  // the footer name rises out of the bottom edge as the page ends
+  // the closing tiles step in; the name rises out of its tile as the page ends
+  rise("footer > *", .06);
   const nm = document.querySelector("footer .name");
-  if (nm) gsap.fromTo(nm, {yPercent:55}, {yPercent:0, ease:"none", scrollTrigger:{trigger:"footer", start:"top bottom", end:"top 35%", scrub:true}});
+  if (nm) gsap.fromTo(nm, {yPercent:40}, {yPercent:0, ease:"none", scrollTrigger:{trigger:"footer .f-name", start:"top bottom", end:"bottom bottom", scrub:true}});
+}
+/* parts of a section rise in once as it arrives, in order */
+function rise(sel, stagger){
+  const els = gsap.utils.toArray(sel).filter(e=>e.getBoundingClientRect().top > innerHeight*.9);
+  if (!els.length) return;
+  gsap.set(els, {y:28, opacity:0});
+  ScrollTrigger.batch(els, {start:"top 90%", once:true,
+    onEnter: b => gsap.to(b, {y:0, opacity:1, stagger, duration:.8, ease:"expo.out", overwrite:true, clearProps:"transform,opacity"})});
 }
 /* items below the fold wait out of sight and rise in small groups as they arrive */
 function arrive(sel, stagger){
@@ -342,25 +355,37 @@ function spark(btn){
     onComplete:()=>gsap.to(wrap.children, {scaleY:0, autoAlpha:0, duration:.22, ease:"power2.out", onComplete:()=>wrap.remove()})});
 }
 function marqueeHTML(){
-  const xs = SERIES.filter(s=>s.next && s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0)).slice(0,24);
+  const xs = SERIES.filter(s=>s.next && s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0)).slice(8,32);
   const item = s => `<a href="${seriesHref(s.id,"manga")}" tabindex="-1">${esc(s.title)} <b>${esc(handoffShort(s))}</b></a>`;
   const row = list => `<div class="mq-row"><div class="mq-track">${list.map(item).join("")}${list.map(item).join("")}</div></div>`;
-  return `<section class="mq" aria-hidden="true" data-chap>${row(xs.slice(0,12))}${row(xs.slice(12))}</section>`;
+  return `<div class="t mq" aria-hidden="true">${row(xs.slice(0,12))}${row(xs.slice(12))}</div>`;
 }
 const COUNTS = STATIC ? (window.ANIMETER.counts||{}) : (()=>{ const ds = Object.values(DETAILS||{}).filter(Boolean);
   return {guides: ds.length, arcs: ds.reduce((t,d)=>t+(d.arcs||[]).length,0), events: ds.reduce((t,d)=>t+(d.arcs||[]).reduce((u,a)=>u+(a.events||[]).length,0),0),
     filler: ds.reduce((t,d)=>t+Object.values(epKinds(d).kinds).filter(k=>k==="f").length,0)}; })();
 const nf = n => Number(n||0).toLocaleString("en");
-function introHTML(){
-  const pic = SERIES.filter(s=>s.score!=null && s.next).sort((a,b)=>(b.popularity||0)-(a.popularity||0))[0];
+/* the hand-off wall: the eight most-read series whose anime stops partway through the book */
+function handoffHTML(){
+  const xs = SERIES.filter(s=>s.next && s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0)).slice(0,8);
   const hand = SERIES.filter(s=>s.next).length;
-  return `<section class="mosaic" data-chap>
-    <div class="tile-a" data-r><h2>Skip the filler, read the rest</h2></div>
-    <div class="tile-b" data-r style="--i:1"><b>${nf(hand)}</b><span>series with the exact chapter where the manga picks up after the anime${pic ? `, like ${esc(pic.title)} from ${esc(handoffShort(pic).replace(/^Ch\. ?/,"chapter "))}` : ""}</span></div>
-    ${pic ? `<a class="tile-c" data-r style="--i:2;--tone:${esc(pic.tone||"#333")}" href="${seriesHref(pic.id,"manga")}"><img src="${ROOT}covers/${pic.id}-manga.jpg" alt="${esc(pic.title)} manga cover" loading="lazy" onerror="this.src='${ROOT}covers/${pic.id}-anime.jpg'"></a>` : `<div class="tile-c"></div>`}
-    <div class="tile-d"><h2 class="vh">How a series page works</h2>
-      <div class="figs" data-r><div><b>${nf(COUNTS.guides)}</b><span>series with full guides</span></div><div><b>${nf(COUNTS.arcs)}</b><span>arcs with episode ranges</span></div><div><b>${nf(COUNTS.events)}</b><span>key events, spoilers hidden</span></div><div><b>${nf(COUNTS.filler)}</b><span>filler episodes marked</span></div></div>
-      <p data-r style="--i:1">Every series page opens on the answer: where the anime ends and where the ${"manga"} picks up. Below it, the drop map shows the episode viewers quit and the episode where the show clicked for them, from reports people leave here. The arcs tab splits the run into story arcs with episode ranges, the filler tab marks every filler, mixed and recap episode with a skip list you can copy, and key events stay blurred until you choose to read them. Each range and chapter links to the source it came from.</p>
+  return `<section class="board ho" aria-labelledby="ho-h">
+    <div class="t stone ho-head" data-r><h2 id="ho-h">Where the manga picks up</h2>
+      <div><p>${nf(hand)} anime stop partway through the book they adapt. Each one comes with the chapter to start from, so you can keep reading the story without starting over.</p></div></div>
+    ${xs.map((s,i)=>`<a class="t ho-card" data-r style="--i:${i%4};--tone:${esc(s.tone||"#3a3834")}" href="${seriesHref(s.id,"manga")}">
+      <div class="cover"><img src="${ROOT}covers/${s.id}-manga.jpg" alt="${esc(s.title)} ${s.kind==="novel"?"light novel":"manga"} cover" loading="lazy" width="460" height="649" onerror="this.src='${ROOT}covers/${s.id}-anime.jpg'"></div>
+      <span class="lab"><b>${esc(handoffShort(s))}</b><span>${esc(s.title)}</span></span></a>`).join("")}
+    ${marqueeHTML()}
+  </section>`;
+}
+/* three figures on three tiles that refuse to line up */
+function figuresHTML(){
+  const pic = SERIES.filter(s=>s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0))[0];
+  return `<section class="board st" aria-labelledby="st-h">
+    <div class="t tone st-a" data-r style="${pic ? toneVars(pic) : ""}"><b>${nf(COUNTS.guides)}</b><span>series with a full guide: arcs, key events, filler and the chapter to read next</span></div>
+    <div class="st-r"><h2 id="st-h" data-r>Inside every guide</h2>
+      <div class="t paper st-b" data-r style="--i:1"><b>${nf(COUNTS.arcs)}</b><span>story arcs, each with its episode range</span></div>
+      <div class="t deep st-c" data-r style="--i:2"><b>${nf(COUNTS.filler)}</b><span>filler episodes marked, with a skip list you can copy</span></div>
+      <p class="st-p" data-r>Every series page opens on the answer: where the anime ends and where the book picks up. Below it, the drop map shows the episode viewers quit and the one where the show clicked for them, from reports people leave here. ${nf(COUNTS.events)} key events stay blurred until you choose to read them, and every range links to its source.</p>
     </div>
   </section>`;
 }
@@ -369,10 +394,10 @@ function faqHTML(){
     ["Where do the drop numbers come from?", "From visitors. Signed-in readers report the episode where they stopped and the episode where the show clicked for them. Each chart says how many people reported, and a series nobody has reported on yet says so instead of guessing."],
     ["How is the manga chapter worked out?", `${nf(SERIES.filter(s=>s.next).length)} series have a chapter or volume to start from, each with its source linked on the Manga tab. Series that are original anime, or that haven't been checked yet, are labelled that way rather than given a number.`],
     ["What counts as filler?", "Episodes that aren't adapted from the source. Episodes that mix source and new material are marked mixed, recaps are marked recap, and the filler tab lists the source for every range."],
+    ["Which score is the ranking?", "By default the list follows AniList's average user score. Switch the sort to Animeter score to rank by ratings left here, weighted so a series needs about five votes before it can reach the top."],
     ["Do I need an account?", "Not to read anything. To rate a series, report where you stopped or keep a list, sign in with your email: we send a link and a six-digit code, and there is no password."]];
-  const tone = ["c-slate","c-ground","c-blush","c-sage"];
-  return `<section class="faq"><div class="head chap c-olive" data-chap><div class="in-w"><h2 data-r>Before you ask</h2></div></div>
-    ${qs.map(([q,a],i)=>`<div class="chap ${tone[i%4]}" data-chap><div class="in-w q" data-r><h3>${q}</h3><p>${a}</p></div></div>`).join("")}</section>`;
+  return `<section class="board faq" aria-labelledby="faq-h"><div class="faq-h"><h2 id="faq-h" data-r>Before you ask</h2></div>
+    <div class="faq-l">${qs.map(([q,a],i)=>`<details name="faq" data-r style="--i:${i}"${i===0?" open":""}><summary>${q}<i aria-hidden="true"></i></summary><p>${a}</p></details>`).join("")}</div></section>`;
 }
 let homeWired = false;                    // prerendered pages arrive with #rk already in place, unwired
 function renderHome(){
@@ -383,9 +408,9 @@ function renderHome(){
       <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a><a class="back opt" href="${ROOT}genre/">Genres</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
       ${route().missing ? `<p class="missing"><b>Page not found.</b> That address isn't a page on Animeter. Here are the rankings instead.</p>` : ""}
       ${heroHTML()}
-      <section id="rankings" class="chap c-sage" data-chap><div class="in-w">
-        <h2 class="giant">Rankings</h2>
-        <div class="rk-head">
+      <section id="rankings" class="board rk" aria-labelledby="rk-h">
+        <div class="t rk-title"><h2 class="giant" id="rk-h">Rankings</h2><p class="rk-basis" id="basis"></p></div>
+        <div class="t rk-tools">
           <div class="controls">
             <input type="search" id="q" placeholder="Find a series" aria-label="Find a series" value="${esc(query)}">
             <label class="sortby"><span class="label">Sort</span><select id="sort">${SORTS.map(([k,l])=>`<option value="${k}" ${k===sortBy?"selected":""}>${l}</option>`).join("")}</select></label>
@@ -394,17 +419,16 @@ function renderHome(){
               <button type="button" data-view="wall">Covers</button>
             </div>
           </div>
+          <div class="tagbar"><button type="button" class="tagbtn" id="tagbtn" aria-expanded="false" aria-controls="tagpanel">Tags<span class="n" id="tagn"></span></button><div class="picked" id="picked"></div></div>
         </div>
-        <div class="tagbar"><button type="button" class="tagbtn" id="tagbtn" aria-expanded="false" aria-controls="tagpanel">Tags<span class="n" id="tagn"></span></button><div class="picked" id="picked"></div></div>
-        <div class="tagpanel" id="tagpanel" hidden>
+        <div class="t tagpanel" id="tagpanel" hidden>
           <div class="tp-top"><input type="search" id="tagq" placeholder="Find a tag, e.g. Shounen, Isekai" aria-label="Find a tag"><button type="button" class="ghost" id="tagdone">Done</button></div>
           ${allTags().map(([g,l])=>`<div class="tg" data-group="${g}"><h3>${g}</h3><div class="tags" role="group" aria-label="${g}">${l.map(([t,n])=>`<button type="button" data-tag="${esc(t)}" aria-pressed="false">${esc(t)}<span class="n">${n}</span></button>`).join("")}</div></div>`).join("")}
         </div>
-        <p class="rk-basis" id="basis"></p>
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
-      </div></section>
-      ${marqueeHTML()}${introHTML()}${faqHTML()}`;
+      </section>
+      ${handoffHTML()}${figuresHTML()}${faqHTML()}`;
     app.querySelectorAll("[data-jump]").forEach(a=>a.addEventListener("click", e=>{ e.preventDefault(); document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"}); }));
     document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
     document.getElementById("sort").addEventListener("change", e=>{ sortBy=e.target.value; page=1; renderRankings(); });
@@ -502,14 +526,14 @@ function epName(s, n){                      // "episode 28 (season 2, ep 3)" for
 function paneSeasons(s){
   const run = s.run || [], ex = s.extras || [];
   const fmtName = f => ({TV:"TV",TV_SHORT:"TV short",ONA:"Web",MOVIE:"Film",OVA:"OVA",SPECIAL:"Special"}[f]||f);
-  return `<h3>${run.length > 1 ? `${run.length} seasons, ${s.eps} episodes` : "Watch order"}</h3>
+  return `<h2>${run.length > 1 ? `${run.length} seasons, ${s.eps} episodes` : "Watch order"}</h2>
     <p class="sub">In airing order. Episode numbers on this site count straight through every season, so season 2 starts at episode ${run[1]?.from ?? "—"}.</p>
     <div class="arcs">${run.map((r,i)=>`
       <div class="arc"><span class="no">${i+1}</span>
         <div style="min-width:0"><span class="part">${esc([r.y, fmtName(r.f)].filter(Boolean).join(" · "))}${r.airing?' · <b class="p">Airing</b>':""}</span><h4>${esc(r.t)}</h4></div>
         <div class="rng"><span class="label">Episodes</span><b class="mono">${r.from}–${r.from+r.e-1}</b><span class="label">${r.e} ep${r.airing?" so far":""}</span></div>
       </div>`).join("")}</div>
-    ${ex.length ? `<h3 style="margin-top:30px">Films, OVAs and specials</h3><p class="sub">Not counted in the episode numbers above.</p>
+    ${ex.length ? `<h2 style="margin-top:30px">Films, OVAs and specials</h2><p class="sub">Not counted in the episode numbers above.</p>
       <div class="arcs">${ex.map(x=>`<div class="arc"><span class="no">·</span><div style="min-width:0"><span class="part">${esc([x.y, fmtName(x.f)].filter(Boolean).join(" · "))}</span><h4>${esc(x.t)}</h4></div><div class="rng"></div></div>`).join("")}</div>` : ""}
     ${srcHTML([["AniList", run[0]?.url || ""]].filter(x=>x[1]))}`;
 }
@@ -566,7 +590,7 @@ function epKinds(d){
 }
 
 function paneOverview(s){
-  if (s.eps < 3) return `<h3>Is it worth watching?</h3><p class="sub">The drop map is for series. Rate ${s.format==="MOVIE" ? "the film" : "it"} above to add to its Animeter score.</p>`;
+  if (s.eps < 3) return `<h2>Is it worth watching?</h2><p class="sub">The drop map is for series. Rate ${s.format==="MOVIE" ? "the film" : "it"} above to add to its Animeter score.</p>`;
   const st = stats(s.id), mine = (myId && reports[myId] && reports[myId][s.id]) || {};
   const opt = (n, label, sel) => `<option value="${n}" ${sel===n?"selected":""}>${label}</option>`;
   const epOpts = sel => s.run?.length > 1
@@ -593,7 +617,7 @@ function paneOverview(s){
         <select id="stopped"><option value="">Choose…</option><option value="no" ${mine.stopped==="no"?"selected":""}>I didn't stop</option>${epOpts(mine.stopped)}</select></label>
       <button class="btn" type="submit" id="save">${mine.clicked||mine.stopped ? "Update my report" : "Save my report"}</button>
     </form><div class="note" id="note">${myProgress(s, mine)}</div>`;
-  return `<h3>Is it worth pushing through?</h3><p class="sub">${esc(verdict)}</p><div class="dm">${body}</div>${form}`;
+  return `<h2>Is it worth pushing through?</h2><p class="sub">${esc(verdict)}</p><div class="dm">${body}</div>${form}`;
 }
 function paneArcs(s, d){
   if (!d?.arcs?.length) return `<div class="empty"><b>Arc guide coming soon.</b>We haven't finished the arc list for ${esc(s.title)} yet.</div>`;
@@ -604,7 +628,7 @@ function paneArcs(s, d){
       const fs = fillerShare(a); const cls = fs>=0.8 ? "f" : `c${i%2?' alt':''}`;
       return `<i class="${cls}" style="flex:${a.eps[1]-a.eps[0]+1}" title="${esc(a.name)}"></i>`; }).join("")}</div>
       <div class="key"><span><i class="sw" style="background:var(--blue)"></i>Story arc</span><span><i class="sw" style="background:var(--pink)"></i>Filler arc</span><span class="label">${total} episodes</span></div>` : "";
-  return `<h3>Arcs</h3><p class="sub">${esc(d.numbering||"")}</p>${bar}
+  return `<h2>Arcs</h2><p class="sub">${esc(d.numbering||"")}</p>${bar}
     <div class="arcs">${d.arcs.map((a,i)=>{ const fs = fillerShare(a); return `
       <div class="arc"><span class="no">${i+1}</span>
         <div style="min-width:0"><span class="part">${esc(a.part||"")}</span><h4>${esc(a.name)}</h4><p>${esc(a.summary||"")}</p></div>
@@ -614,7 +638,7 @@ function paneArcs(s, d){
 function paneEvents(s, d){
   const groups = (d?.arcs||[]).filter(a=>a.events?.length);
   if (!groups.length) return `<div class="empty"><b>Key events coming soon.</b>We haven't written up the big moments for ${esc(s.title)} yet.</div>`;
-  return `<h3>Key events</h3><p class="sub">These are spoilers. They stay blurred until you reveal them, one at a time or all at once.</p>
+  return `<h2>Key events</h2><p class="sub">These are spoilers. They stay blurred until you reveal them, one at a time or all at once.</p>
     <div class="ev-tools"><button type="button" class="ghost" id="spoilAll">${spoilers?"Hide spoilers":"Show all spoilers"}</button></div>
     <div class="${spoilers?"shown":""}" id="evs">${groups.map(a=>`
       <div class="evgroup"><h4>${esc(a.name)} <span class="label">${a.eps?"Ep "+rangeTxt(a.eps):"Film"}</span></h4>
@@ -630,18 +654,18 @@ function paneFiller(s, d){
   const grid = total ? `<div class="grid${total>400?" tiny":""}" style="--cell:${total>400?"10px":total>120?"18px":"28px"}" role="img" aria-label="${total} episodes: ${nf} filler, ${nm} mixed, ${nr} recap">${
       Array.from({length:total},(_,i)=>{ const k = kinds[i+1]||""; return `<span class="${k}" title="Ep ${i+1}${k==="f"?" · filler":k==="m"?" · mixed canon":k==="r"?" · recap":""}">${total<=400?i+1:""}</span>`; }).join("")}</div>
       <div class="key" style="margin-top:8px"><span><i class="sw" style="background:var(--blue)"></i>Canon</span><span><i class="sw" style="background:var(--pink-2)"></i>Mixed</span><span><i class="sw" style="background:var(--pink)"></i>Filler</span><span><i class="sw" style="background:var(--grey)"></i>Recap</span></div>` : "";
-  return `<h3>Filler</h3><p class="sub">${esc(d.filler.note||"")}</p>
+  return `<h2>Filler</h2><p class="sub">${esc(d.filler.note||"")}</p>
     ${total?`<div class="fstats"><div><span class="label">Episodes</span><b>${total}</b></div><div><span class="label">Canon</span><b class="c">${total-nf-nm-nr}</b></div><div><span class="label">Filler</span><b class="f">${nf}</b></div><div><span class="label">Mixed</span><b>${nm}</b></div>${nr?`<div><span class="label">Recap</span><b>${nr}</b></div>`:""}</div>`:""}
     ${none ? "" : grid}
     ${ranges ? `<div class="skip"><span class="label">Skip list (filler episodes)</span><code>${esc(ranges)}</code></div>` : ""}
     ${srcHTML(d.src)}`;
 }
 function paneManga(s){
-  if (s.unchecked && !s.mangaChecked) return `<h3>${s.kind==="original"||s.kind==="vn" ? "Is there a manga to continue?" : "Anime finished. Where does the story pick up?"}</h3>
+  if (s.unchecked && !s.mangaChecked) return `<h2>${s.kind==="original"||s.kind==="vn" ? "Is there a manga to continue?" : "Anime finished. Where does the story pick up?"}</h2>
     <div class="handoff"><div class="big word"><small>Status</small>${s.kind==="original" ? "Original" : s.kind==="vn" ? "Game" : "Not checked yet"}</div><p>${esc(s.note)}</p></div>${srcHTML(s.src)}`;
   const unit = s.unit || "Chapter";
   const q = s.kind==="novel" ? "Anime finished. Where does the story go next?" : (s.kind==="original"||s.kind==="vn") ? "Is there a manga to continue?" : "Anime finished. Where does the manga pick up?";
-  return `<h3>${q}</h3>
+  return `<h2>${q}</h2>
     <div class="handoff">
       <div class="big${s.next?"":" word"}"><small>${s.next ? "Start at "+esc(unit) : "Status"}</small>${s.next ? esc(s.next) : esc(s.endWord||{original:"Original",vn:"Game",novel:"Novel"}[s.kind]||"Done")}</div>
       <p>${esc(s.note)}</p>
@@ -656,7 +680,7 @@ function relatedHTML(s){
     let n = 0; (x.genres||[]).forEach(g=>mine.has(g)&&n++); (x.tags||[]).slice(0,6).forEach(g=>mine.has(g)&&(n+=1.5));
     return [n + (x.score||0)/12 + Math.log10(x.popularity||10)/2, x];
   }).sort((a,b)=>b[0]-a[0]).slice(0,6).map(([,x])=>x);
-  return `<section class="related chap c-blush" data-chap><div class="in-w"><h2>More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span></a>`).join("")}</div></div></section>`;
+  return `<section class="board related" aria-labelledby="rel-h"><h2 id="rel-h">More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span></a>`).join("")}</div></section>`;
 }
 function renderSeries(id, tab){
   const s = byId[id], d = DETAILS[id], ss = siteScores()[id];
@@ -675,25 +699,24 @@ function renderSeries(id, tab){
   const answer = s.next ? `<p class="answer">After the anime, read the ${book} from <span class="ch">${esc((s.unit||"Chapter")+" "+s.next)}</span>.</p>`
     : s.kind==="original"||s.kind==="vn" ? `<p class="answer">An <span class="ch">original anime</span>, so there's no book to continue with.</p>`
     : `<p class="answer">The anime takes the story to <span class="ch">${esc(handoffShort(s).replace("VN","the visual novel").replace("Novel","the light novel"))}</span>.</p>`;
+  const bookTile = s.kind==="original"||s.kind==="vn" ? "" : `<div class="t pic">${coverHTML(s,"manga","","",true)}<span class="cap">${s.kind==="novel"?"Light novel":"Manga"}${s.next ? `, from ${esc((s.unit||"chapter").toLowerCase()+" "+s.next)}` : ""}</span></div>`;
   patch(document.getElementById("app")).html = `
-    <div class="series" style="${toneVars(s)}"><div class="chap c-tone" data-chap>
+    <div class="series" style="${toneVars(s)}">
     <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${homeHref()}">Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
-    <section class="sh in-w"><div class="grid12">
-      <div class="covers">${coverHTML(s,"anime","Anime","",true)}${s.kind==="original"||s.kind==="vn" ? "" : coverHTML(s,"manga", s.kind==="novel"?"Light novel":"Manga")}</div>
-      <div class="info">
-        <h1>${esc(s.title)}</h1>${s.jp ? `<div class="jp" lang="ja">${esc(s.jp)}</div>` : ""}
-        <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(" · ")}</div>
-        ${answer}
-        <div class="facts">
-          ${s.score?`<div><b>${fmt10(s.score/10)}</b><span class="label">AniList</span></div>`:""}
-          <div><b>${ss.votes ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.votes ? `, ${ss.votes} vote${ss.votes===1?"":"s"}` : ""}</span></div>
-          <div><b>${s.eps} ep</b><span class="label">${esc(s.epsLabel)}</span></div>
-        </div>
-        ${rateRow}${gate}
-      </div></div>
-      <nav class="tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
-    </section></div>
-    <div class="in-w"><section class="pane">${pane}</section></div>
+    <section class="board sh">
+      <div class="sh-cov"><div class="t pic">${coverHTML(s,"anime","","",true)}<span class="cap">Anime, ${s.eps} episode${s.eps===1?"":"s"}</span></div>${bookTile}</div>
+      <div class="sh-r">
+        <div class="t paper sh-title"><h1>${esc(s.title)}</h1>${s.jp ? `<div class="jp" lang="ja">${esc(s.jp)}</div>` : ""}
+          <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div></div>
+        <div class="t tone sh-ans">${answer}</div>
+        ${s.score?`<div class="t fact"><b>${fmt10(s.score/10)}</b><span class="label">AniList score</span></div>`:""}
+        <div class="t fact"><b>${ss.votes ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.votes ? `, ${ss.votes} vote${ss.votes===1?"":"s"}` : ", no votes yet"}</span></div>
+        <div class="t fact"${s.score?"":' style="grid-column:span 2"'}><b>${s.eps}</b><span class="label">${esc(s.epsLabel==="Movie" ? "film" : s.epsLabel==="Episodes" ? (s.eps===1?"episode":"episodes") : "episodes, "+s.epsLabel.toLowerCase())}</span></div>
+        ${rateRow||gate ? `<div class="t deep sh-me">${rateRow}${gate}</div>` : ""}
+      </div>
+      <nav class="t tabs" aria-label="${esc(s.title)} sections">${TABS.filter(([k])=>tabShown(s,k)).map(([k,l])=>`<a href="${seriesHref(id,k)}" ${k===tab?'aria-current="page"':""}>${l}${counts[k]?`<span class="n">${counts[k]}</span>`:""}</a>`).join("")}</nav>
+      <section class="t pane">${pane}</section>
+    </section>
     ${relatedHTML(s)}</div>`;
   hdrFollow(); motion("s:"+id);
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
