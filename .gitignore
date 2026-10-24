@@ -1,2 +1,5 @@
 __pycache__/
 node_modules/
+quiz/.cache/
+quiz/artifact.html
+.taste-skill/
