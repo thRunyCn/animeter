@@ -4,11 +4,11 @@
 
 ## World
 
-**The board.** The whole site is one dark board of tiles fitted edge to edge with 8px gaps, like covers laid out on a desk at night. Every tile holds one thing: the name, a cover, a sentence, a figure, a list, a link. There are no bands, rules or shadows; tiles separate by stepping in tone. The only colour that isn't stone comes from the shows: each anime's cover tone is the accent wherever that show is on screen (the "My list" tile, the chapter tile, the open FAQ answer, the footer link).
+**The screening room.** The site is a dark room where the shows bring their own light. Ground is near-black `#09090a`; the only colour comes from the covers and from each show's tone, pushed to a vivid version (`vivid()`) for accents and a near-black version (`deepOf()`) for the fields a show owns. Sections are full-bleed scenes, not boxes; tiles remain only where the content is a list or a figure.
 
-On this page, **each show's anime cover and its book cover** become **a pair of tiles side by side, with the chapter where the anime stops printed in the tile beside them**.
+The live thing: the first screen is a tilted wall of the 56 most-watched covers drifting up and down in alternate columns (faster when you scroll), dimmed behind the question "Where people stop watching", with a search box that answers instantly: type a title and each result already says where to read on ("Read the manga from chapter 81").
 
-The live thing: the first screen's six-cover picker. Choosing a show swaps both cover tiles (they open like shutters from the bottom edge), rewrites the chapter and the sentence, and repaints every accent tile on the page in that show's colour.
+Then two scroll scenes: **the top ten** is pinned and runs sideways while the room takes each show's deep colour, and **the story** pins No. 1 while its anime cover steps aside, the manga cover opens and the chapter counts up.
 
 ## Mode
 
@@ -25,30 +25,26 @@ Japanese titles fall back to a system JP sans.
 
 ## Colour
 
-- Ground `#171615`, tile steps `#22211f` / `#2d2b28` / `#3a3834`.
-- Ink `#eeece8`, muted `#b4afa7`.
-- Paper tile `#eeece8` with ink `#1a1918`; stone tile `#cdc3b6`.
-- Accent: the current show's `--tone` (its cover colour); `toneInk()` picks dark or white ink for ≥4.5:1.
-- Data: coral `--hot #e5704f` for filler and "people quit"; mixed episodes `#f2b6a2`. Nothing else is warm.
+- Ground `#09090a`, steps `#131315` / `#1c1c1f` / `#28282c`. Ink `#f3f2ef`, muted `#a4a4a9`. Paper `#f3f2ef` on `#0d0d0e` for the few solid tiles.
+- Show tone: `--tone` = the cover colour at saturation 58–86%, lightness 62% (ink picked by `toneInk()` for 4.5:1); `--deep` = the same hue at lightness 10% for the section a show owns.
+- Data: `--hot #ff6a4d` for filler and "people quit". Nothing else is warm.
 
 ## Layout
 
-A 12-column board, 8px gaps and 8px outer margins, one radius (6px, 4px inside tiles).
-- Home: header tiles → six-tile first screen (name, anime cover, book cover, statement, chapter tile in the show's colour, picker) → rankings (title tile, tools tile, row tiles, pager) → "Where the manga picks up" (stone heading tile, eight book covers with their chapter, a paper marquee tile) → three stepped figure tiles → FAQ (sticky heading, accordion tiles, one open at a time) → footer as the last two rows of the board.
-- Series: header tiles → sticky pair of cover tiles on the left; title (paper), answer (show colour), three fact tiles and the rating tile on the right → tab strip tile → pane tile → related covers.
-- Phone: one or two columns of tiles; name, statement, covers, picker, chapter in that order.
+- Home: floating header (blurred bar over the first screen) → full-screen cover wall with the headline, lede, actions and the finder → pinned sideways top ten (native snap row under 900px) → pinned story with No. 1 (static under 900px) → rankings on the black ground → "Where the manga picks up" wall → three figure tiles → FAQ → footer.
+- Series: header → pair of covers on the left; title on the show's deep field, the answer in the show's vivid tone, three fact tiles, rating → tabs → pane → related covers.
+- Gutters `clamp(16px,4vw,64px)` for scenes; 8px board inside lists.
 
 ## Motion
 
-GSAP 3 (ScrollTrigger, SplitText; vendored in `vendor/`) with Emil Kowalski's rules: strong ease-out (`expo.out`, CSS `cubic-bezier(.23,1,.32,1)`), no ease-in, UI under 300ms, transform/opacity/clip-path only. Runs only when GSAP is present, the page is not a prerender snapshot and reduced motion is off; otherwise a short CSS rise plays, or nothing.
+GSAP 3 (ScrollTrigger, SplitText) plus Lenis smooth scrolling, all vendored in `vendor/`, with Emil Kowalski's rules: strong ease-out, no ease-in, UI under 300ms, transform/opacity/clip-path only. Runs only when GSAP is present, the page is not a prerender snapshot and reduced motion is off; otherwise everything is static and complete.
 
-- **Board intro (once per load):** tiles settle in at 60ms stagger, the name rises letter by letter inside its tile, the two covers open as shutters (1.1s) while the pictures settle from 1.12 scale.
-- **Cover shutter (the signature move):** a pick closes both cover tiles, swaps them and reopens them from the bottom edge; the chapter and sentence lift in. Interruptible: a second pick takes over.
-- **Rankings (React Bits ScrollFloat):** the giant word is scrubbed from stretched to set; rows arrive in 40ms batches (opacity, so they stay focusable).
-- **Hand-off wall:** book covers open as shutters in batches; the marquee tile (React Bits ScrollVelocity) drifts and leans with scroll speed.
-- **Figures (React Bits CountUp):** the stepped tiles rise in order and their numbers count up.
-- **Rating (React Bits ClickSpark):** eight ticks in the show's colour burst from the pressed score.
-- **Feedback:** every button, tile link and tab scales to .94–.97 on press (100–160ms); hover only under `(hover:hover)`.
+- **Opening:** the cover wall settles out of the dark (scale 1.14 → 1), the headline rises line by line from a mask, then lede, finder and actions.
+- **Cover wall (React Bits ScrollVelocity, ported to columns):** alternate columns drift up and down on GSAP's ticker and race with scroll speed; the wall sinks and dims as you leave.
+- **Top ten:** pinned horizontal run (containerAnimation, `ease:none`); each card's picture settles as it arrives and the section background moves to that show's deep tone.
+- **Story:** scrubbed timeline: sentence one dims, the anime cover steps aside, the manga cover opens from the bottom edge, the chapter counts up (React Bits CountUp).
+- **Rankings (React Bits ScrollFloat), hand-off wall shutters, figure CountUp, rating ClickSpark** as before.
+- **Feedback:** presses scale to .94–.98 in 100–160ms; hover only under `(hover:hover)`.
 
 ## States
 
@@ -56,7 +52,7 @@ Hover, `:active`, `:focus-visible` (3px paper ring), disabled (pager, send), loa
 
 ## Checks
 
-design-taste inspector: **0 FAIL** on home and a series page at 1440 / 768 / 390. `impeccable detect` on the rendered pages at 1440 and 390: only the advisory "one typeface on everything", by intent. Functional tests pass (navigation, tag filter, rating, OTP sign-in, cover images, spoiler reveal). Remaining inspector WARNs are defended: no video (no honest footage source), size count (a data-dense catalogue), the marquee tile measured as an empty middle, and the 13px pick and tag counters.
+design-taste inspector: **0 FAIL** on home and a series page at 1440 / 768 / 390. `impeccable detect` on the rendered pages at 1440 and 390: only the advisory "one typeface on everything", by intent. Functional tests pass (navigation, tag filter, rating, OTP sign-in, cover images, spoiler reveal). Remaining inspector WARNs are defended: no video (no honest footage source), size count (a data-dense catalogue), the hero 'void' (the cover wall fills it; the inspector reads background images as empty), the long pins (the content changes on every screen), and the snap row of the top ten on phones (cut on purpose to show it scrolls).
 
 ## Known gaps
 

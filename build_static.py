@@ -177,7 +177,7 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#171615">
+<meta name="theme-color" content="#09090a">
 <meta name="color-scheme" content="dark">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
@@ -206,6 +206,7 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 <script src="{root}vendor/gsap.min.js"></script>
 <script src="{root}vendor/ScrollTrigger.min.js"></script>
 <script src="{root}vendor/SplitText.min.js"></script>
+<script src="{root}vendor/lenis.min.js"></script>
 <script src="{root}app.js"></script>
 </body>
 </html>
@@ -300,5 +301,14 @@ hub("privacy/", "Privacy policy · Animeter", "What Animeter stores about you an
 
 w("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
   + "".join(f"  <url><loc>{u}</loc><lastmod>{fetched}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+# small copies of the most popular covers for the drifting wall on the first screen (the page falls back to the full cover)
+try:
+    from PIL import Image
+    os.makedirs(os.path.join(COVERS, "w"), exist_ok=True)
+    for x in sorted((x for x in series if x.get("popularity")), key=lambda x: -x["popularity"])[:56]:
+        src, dst = os.path.join(COVERS, f'{x["id"]}-anime.jpg'), os.path.join(COVERS, "w", f'{x["id"]}.jpg')
+        if os.path.exists(src) and not os.path.exists(dst):
+            im = Image.open(src).convert("RGB"); im.thumbnail((200, 290)); im.save(dst, quality=72, optimize=True, progressive=True)
+except ImportError: pass
 if os.path.isdir(COVERS): shutil.copytree(COVERS, os.path.join(DIST, "covers"))
 print(f"web/dist: {len(urls)} pages for {SITE}, supabase {'on' if cfg.get('supabaseUrl') else 'off'}")
