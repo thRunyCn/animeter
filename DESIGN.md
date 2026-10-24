@@ -8,7 +8,7 @@
 
 The live thing: the first screen is a tilted wall of the 56 most-watched covers drifting up and down in alternate columns (faster when you scroll), dimmed behind the question "Where people stop watching", with a search box that answers instantly: type a title and each result already says where to read on ("Read the manga from chapter 81").
 
-Then two scroll scenes: **the top ten** is pinned and runs sideways while the room takes each show's deep colour, and **the story** pins No. 1 while its anime cover steps aside, the manga cover opens and the chapter counts up.
+Then **the top ten** as five-by-two big covers (a snap row on phones) and **the story** of No. 1: its anime cover steps aside, the manga cover opens and the chapter counts up. Scrolling only moves the page: nothing is pinned or scrubbed, each section plays its animation once when it arrives (owner's call).
 
 ## Mode
 
@@ -31,7 +31,7 @@ Japanese titles fall back to a system JP sans.
 
 ## Layout
 
-- Home: floating header (blurred bar over the first screen) → full-screen cover wall with the headline, lede, actions and the finder → pinned sideways top ten (native snap row under 900px) → pinned story with No. 1 (static under 900px) → rankings on the black ground → "Where the manga picks up" wall → three figure tiles → FAQ → footer.
+- Home: floating header (blurred bar over the first screen) → full-screen cover wall with the headline, lede, actions and the finder → top ten grid (snap row under 900px) → story with No. 1 → rankings on the black ground → "Where the manga picks up" wall → three figure tiles → FAQ → footer.
 - Series: header → pair of covers on the left; title on the show's deep field, the answer in the show's vivid tone, three fact tiles, rating → tabs → pane → related covers.
 - Gutters `clamp(16px,4vw,64px)` for scenes; 8px board inside lists.
 
@@ -40,10 +40,10 @@ Japanese titles fall back to a system JP sans.
 GSAP 3 (ScrollTrigger, SplitText) plus Lenis smooth scrolling, all vendored in `vendor/`, with Emil Kowalski's rules: strong ease-out, no ease-in, UI under 300ms, transform/opacity/clip-path only. Runs only when GSAP is present, the page is not a prerender snapshot and reduced motion is off; otherwise everything is static and complete.
 
 - **Opening:** the cover wall settles out of the dark (scale 1.14 → 1), the headline rises line by line from a mask, then lede, finder and actions.
-- **Cover wall (React Bits ScrollVelocity, ported to columns):** alternate columns drift up and down on GSAP's ticker and race with scroll speed; the wall sinks and dims as you leave.
-- **Top ten:** pinned horizontal run (containerAnimation, `ease:none`); each card's picture settles as it arrives and the section background moves to that show's deep tone.
-- **Story:** scrubbed timeline: sentence one dims, the anime cover steps aside, the manga cover opens from the bottom edge, the chapter counts up (React Bits CountUp).
-- **Rankings (React Bits ScrollFloat), hand-off wall shutters, figure CountUp, rating ClickSpark** as before.
+- **Cover wall (React Bits ScrollVelocity, ported to columns):** alternate columns drift up and down at a steady pace on GSAP's ticker, unlinked from scroll.
+- **Top ten:** on arrival the heading rises and the covers open as shutters in order.
+- **Story:** a timed sequence on arrival: the anime cover steps aside, the manga cover opens from the bottom edge, the lines light up, the chapter counts up (React Bits CountUp).
+- **Rankings (React Bits ScrollFloat, played once rather than scrubbed), hand-off wall shutters, figure CountUp, title marquee at a steady drift, rating ClickSpark.**
 - **Feedback:** presses scale to .94–.98 in 100–160ms; hover only under `(hover:hover)`.
 
 ## States
@@ -52,7 +52,7 @@ Hover, `:active`, `:focus-visible` (3px paper ring), disabled (pager, send), loa
 
 ## Checks
 
-design-taste inspector: **0 FAIL** on home and a series page at 1440 / 768 / 390. `impeccable detect` on the rendered pages at 1440 and 390: only the advisory "one typeface on everything", by intent. Functional tests pass (navigation, tag filter, rating, OTP sign-in, cover images, spoiler reveal). Remaining inspector WARNs are defended: no video (no honest footage source), size count (a data-dense catalogue), the hero 'void' (the cover wall fills it; the inspector reads background images as empty), the long pins (the content changes on every screen), and the snap row of the top ten on phones (cut on purpose to show it scrolls).
+design-taste inspector: **0 FAIL** on home and a series page at 1440 / 768 / 390. `impeccable detect` on the rendered pages at 1440 and 390: only the advisory "one typeface on everything", by intent. Functional tests pass (navigation, tag filter, rating, OTP sign-in, cover images, spoiler reveal). Remaining inspector WARNs are defended: no video (no honest footage source), size count (a data-dense catalogue), the hero 'void' (the cover wall fills it; the inspector reads background images as empty), and the snap row of the top ten on phones (cut on purpose to show it scrolls).
 
 ## Known gaps
 

@@ -282,16 +282,14 @@ function motionHome(){
       .from(lines, {yPercent:105, duration:1.2, stagger:.09, ease:"expo.out"}, .15)
       .from(".cine .lede, .cine .finder, .cine .acts", {y:24, opacity:0, duration:.9, stagger:.07, clearProps:"transform,opacity"}, .5);
     coverWall();
-    // the wall sinks and dims as the page moves on
-    gsap.to(".cwall", {yPercent:12, opacity:.35, ease:"none", scrollTrigger:{trigger:c, start:"top top", end:"bottom top", scrub:true}});
   }
   topTen();
   story();
-  // "Rankings": letters float up into place as the section arrives (React Bits ScrollFloat, ported)
+  // "Rankings": letters float up into place once the section arrives (React Bits ScrollFloat, played on arrival rather than scrubbed)
   const g = document.querySelector("#rankings .giant");
   if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:120, scaleY:2.3, scaleX:.7, transformOrigin:"50% 0%", opacity:0},
-    {yPercent:0, scaleY:1, scaleX:1, opacity:1, stagger:.03, ease:"back.inOut(2)",
-     scrollTrigger:{trigger:g, start:"top bottom-=5%", end:"bottom 60%", scrub:.6}});
+    {yPercent:0, scaleY:1, scaleX:1, opacity:1, stagger:.03, duration:1, ease:"expo.out",
+     scrollTrigger:{trigger:g, start:"top 85%", once:true}});
   rise(".rk-title, .rk-tools", .08);
   arrive("#rankings .row, #rankings .card", .04);
   // the hand-off wall: each book cover opens from the bottom edge as its row arrives, the chapter counts in beside it
@@ -321,70 +319,50 @@ function motionSeries(){
   if (rh) gsap.from(chars(rh, "words"), {yPercent:110, stagger:.05, duration:1, scrollTrigger:{trigger:rh, start:"top 88%", once:true}});
 }
 function motionCommon(){
-  // the closing tiles step in; the name rises out of its tile as the page ends
+  // the closing tiles step in; the name rises out of its tile once the footer arrives
   rise("footer > *", .06);
   const nm = document.querySelector("footer .name");
-  if (nm) gsap.fromTo(nm, {yPercent:40}, {yPercent:0, ease:"none", scrollTrigger:{trigger:"footer .f-name", start:"top bottom", end:"bottom bottom", scrub:true}});
+  if (nm) gsap.fromTo(nm, {yPercent:40}, {yPercent:0, duration:1.2, ease:"expo.out", scrollTrigger:{trigger:"footer .f-name", start:"top 90%", once:true}});
 }
-/* the cover wall: columns drift up and down on their own and race with scroll speed (React Bits ScrollVelocity, ported to columns) */
+/* the cover wall: columns drift up and down on their own at a steady pace (React Bits ScrollVelocity, ported to columns, without the scroll link) */
 function coverWall(){
   const cols = [...document.querySelectorAll(".cwall .col")]; if (!cols.length) return;
   const st = cols.map((c,i)=>({lane:c.firstElementChild, y:-(i*97 % 400), dir:Number(c.dataset.dir), h:0}));
   const measure = ()=>st.forEach(o=>{ o.h = o.lane.scrollHeight/2; });
   measure(); addEventListener("resize", measure);
-  let vel = 0, on = true;
+  let on = true;
   const io = new IntersectionObserver(es=>{ on = es[0].isIntersecting; }); io.observe(document.querySelector(".cine"));
-  ScrollTrigger.create({trigger:".cine", start:"top top", end:"bottom top", onUpdate:self=>{ vel = self.getVelocity(); }});
   const tick = (t, dt)=>{
     if (!on || !st[0].h) return;
-    const boost = 1 + Math.min(8, Math.abs(vel)/300);
-    st.forEach(o=>{ o.y += o.dir * 22 * boost * Math.min(64, dt)/1000; o.y = ((o.y % o.h) - o.h) % o.h; o.lane.style.transform = `translate3d(0,${o.y}px,0)`; });
-    vel *= .9;
+    st.forEach(o=>{ o.y += o.dir * 22 * Math.min(64, dt)/1000; o.y = ((o.y % o.h) - o.h) % o.h; o.lane.style.transform = `translate3d(0,${o.y}px,0)`; });
   };
   gsap.ticker.add(tick);
   gsCtx?.add(()=>()=>{ gsap.ticker.remove(tick); io.disconnect(); removeEventListener("resize", measure); });
 }
-/* the top ten: on a wide screen the row is pinned and runs sideways as you scroll, and the room takes each show's colour */
+/* the top ten: the heading rises and the covers open one after another once the section arrives */
 function topTen(){
   const sec = document.querySelector(".top10"); if (!sec) return;
-  const track = sec.querySelector(".t10-track"), cards = gsap.utils.toArray(".t10-card", sec);
-  gsap.from(".t10-head > *", {y:28, opacity:0, stagger:.08, duration:.9, clearProps:"transform,opacity", scrollTrigger:{trigger:sec, start:"top 75%", once:true}});
-  const mm = gsap.matchMedia();
-  mm.add("(min-width: 900px)", ()=>{
-    sec.classList.add("hz");
-    const dist = ()=>Math.max(0, track.scrollWidth - innerWidth);
-    const run = gsap.to(track, {x:()=>-dist(), ease:"none", scrollTrigger:{trigger:sec, start:"top top", end:()=>"+="+dist(), pin:".t10-pin", scrub:.6, invalidateOnRefresh:true}});
-    cards.forEach(card=>{
-      ScrollTrigger.create({trigger:card, containerAnimation:run, start:"left 60%", end:"right 60%",
-        onToggle:self=>{ if (self.isActive) gsap.to(sec, {backgroundColor:card.dataset.deep, duration:.6, ease:"power2.out", overwrite:true}); }});
-      gsap.fromTo(card.querySelector("img"), {scale:1.18}, {scale:1, ease:"none", scrollTrigger:{trigger:card, containerAnimation:run, start:"left right", end:"left 30%", scrub:true}});
-    });
-    return ()=>{ sec.classList.remove("hz"); gsap.set(sec, {clearProps:"backgroundColor"}); };
-  });
-  gsCtx?.add(()=>()=>mm.revert());
+  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top 70%", once:true}});
+  tl.from(".t10-head > *", {y:28, opacity:0, stagger:.08, duration:.9, clearProps:"transform,opacity"})
+    .fromTo(".t10-card .cover", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.06, clearProps:"clipPath"}, .1)
+    .fromTo(".t10-card img", {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.06, clearProps:"transform"}, .2)
+    .from(".t10-n, .t10-meta", {y:20, opacity:0, duration:.7, stagger:.03, clearProps:"transform,opacity"}, .45);
 }
-/* the story: pinned while the anime steps aside, the book opens and the chapter counts up */
+/* the story plays once when it arrives: the anime steps aside, the book opens and the chapter counts up */
 function story(){
   const sec = document.querySelector(".story"); if (!sec) return;
   const n = sec.querySelector(".story-n"), end = Number(n.dataset.n) || 0, o = {v:0};
-  const mm = gsap.matchMedia();
-  mm.add("(min-width: 900px)", ()=>{
-    sec.classList.add("pinned");
-    const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top top", end:"+=140%", pin:".story-pin", scrub:.6}});
-    tl.fromTo(".story .st1", {opacity:1}, {opacity:.4, duration:1}, 1)
-      .fromTo(".story .st2", {opacity:.4}, {opacity:1, duration:1}, 1)
-      .fromTo(".sa-anime", {xPercent:28, rotate:-2}, {xPercent:-6, rotate:-6, scale:.9, duration:2}, 0)
-      .fromTo(".sa-anime .cover", {filter:"brightness(1)"}, {filter:"brightness(.45)", duration:1.5}, 1)
-      .fromTo(".sa-book .cover", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1.4, ease:"power2.out"}, 1.3)
-      .fromTo(".sa-book .cover img", {scale:1.25}, {scale:1, duration:1.6, ease:"power2.out"}, 1.3)
-      .fromTo(".sa-book .cap", {opacity:0}, {opacity:1, duration:.5}, 2.4)
-      .fromTo(".story .st2", {opacity:1}, {opacity:.4, duration:1}, 2.4)
-      .fromTo(".story .st3, .story .btn", {opacity:.4}, {opacity:1, duration:1}, 2.4)
-      .fromTo(o, {v:0}, {v:end, duration:1.4, ease:"power2.out", onUpdate:()=>{ n.textContent = Math.round(o.v); }}, 2.4)
-      .to({}, {duration:.6});
-    return ()=>{ sec.classList.remove("pinned"); n.textContent = end; };
-  });
-  gsCtx?.add(()=>()=>mm.revert());
+  gsap.set(".story .st2, .story .st3, .story .btn", {opacity:.4});
+  gsap.set(".sa-book .cover", {clipPath:"inset(100% 0% 0% 0%)"});
+  n.textContent = "0";
+  gsap.timeline({scrollTrigger:{trigger:sec, start:"top 55%", once:true}})
+    .fromTo(".sa-anime", {xPercent:24, rotate:-2}, {xPercent:0, rotate:-4, duration:1.1, ease:"expo.out"}, 0)
+    .to(".story .st2", {opacity:1, duration:.5, ease:"power2.out"}, .5)
+    .to(".sa-book .cover", {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", clearProps:"clipPath"}, .6)
+    .fromTo(".sa-book .cover img", {scale:1.2}, {scale:1, duration:1.4, ease:"expo.out", clearProps:"transform"}, .7)
+    .to(".story .st3, .story .btn", {opacity:1, duration:.5, ease:"power2.out", clearProps:"opacity"}, 1.2)
+    .to(o, {v:end, duration:1.2, ease:"expo.out", onUpdate:()=>{ n.textContent = Math.round(o.v); }, onComplete:()=>{ n.textContent = end; }}, 1.2)
+    .set(".story .st2", {clearProps:"opacity"});
 }
 /* smooth scrolling (Lenis) drives ScrollTrigger from GSAP's own clock; wheel only, touch keeps native scrolling */
 let lenis = null;
@@ -419,20 +397,16 @@ function countUp(el){
     onUpdate:()=>{ el.textContent = Math.round(o.v).toLocaleString("en"); }, onComplete:()=>{ el.textContent = end.toLocaleString("en"); }});
   el.textContent = "0";
 }
-/* title wall: two rows that drift on their own and run faster, and lean, with scroll speed (React Bits ScrollVelocity, ported) */
+/* title wall: two rows that drift on their own in opposite directions (React Bits ScrollVelocity, ported, without the scroll link) */
 function marquee(){
   const rows = [...document.querySelectorAll(".mq-row")]; if (!rows.length) return;
   const st = rows.map((r,i)=>({r, track:r.firstElementChild, x:0, dir:i%2?1:-1, w:r.firstElementChild.scrollWidth/2}));
-  let vel = 0, last = performance.now(), visible = false;
+  let last = performance.now(), visible = false;
   const io = new IntersectionObserver(es=>{ visible = es[0].isIntersecting; }); io.observe(rows[0].parentElement);
-  ScrollTrigger.create({trigger:".mq", start:"top bottom", end:"bottom top", onUpdate:self=>{ vel = self.getVelocity(); }});
-  const skew = gsap.quickTo(".mq-row", "skewX", {duration:.5, ease:"power3"});
   const tick = now=>{
     marqueeRAF = requestAnimationFrame(tick);
     const dt = Math.min(64, now-last)/1000; last = now; if (!visible) return;
-    const boost = 1 + Math.min(6, Math.abs(vel)/350);
-    st.forEach(o=>{ o.x += o.dir * 38 * boost * dt * (vel<0?-1:1); o.x = ((o.x % o.w) - o.w) % o.w; o.track.style.transform = `translate3d(${o.x}px,0,0)`; });
-    skew(gsap.utils.clamp(-8, 8, vel/-260)); vel *= .92;
+    st.forEach(o=>{ o.x += o.dir * 38 * dt; o.x = ((o.x % o.w) - o.w) % o.w; o.track.style.transform = `translate3d(${o.x}px,0,0)`; });
   };
   marqueeRAF = requestAnimationFrame(tick);
 }

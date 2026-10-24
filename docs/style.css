@@ -136,13 +136,12 @@ p,li,summary{text-wrap:pretty}
 /* ---------- the top ten: big covers in a row that runs sideways ---------- */
 .top10{position:relative;background:var(--ground);--gut:clamp(16px,4vw,64px)}
 .t10-pin{display:flex;flex-direction:column;justify-content:center;gap:clamp(32px,5vh,64px);padding:clamp(96px,14vh,160px) 0 clamp(48px,8vh,96px);overflow:hidden}
-.top10.hz .t10-pin{height:100svh;padding-top:clamp(72px,10vh,120px)}
 .t10-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px 48px;flex-wrap:wrap;padding:0 var(--gut)}
 .t10-head h2{font-size:clamp(3.25rem,1rem + 6vw,8rem);font-stretch:76%;letter-spacing:-.055em;line-height:.84}
 .t10-head p{margin:0;max-width:38ch;font-size:var(--step-body);color:var(--muted);line-height:1.45}
 .t10-track{display:flex;gap:clamp(20px,2.6vw,44px);padding:.5em var(--gut) 8px calc(var(--gut) + .3em);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:calc(var(--gut) + .3em);scrollbar-width:none;font-size:clamp(88px,9vw,168px)}
 .t10-track::-webkit-scrollbar{display:none}
-.top10.hz .t10-track{overflow:visible;width:max-content;scroll-snap-type:none}
+@media (min-width:900px){.t10-track{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:clamp(36px,3.6vw,60px);row-gap:clamp(120px,12vw,190px);overflow:visible;scroll-snap-type:none;font-size:clamp(64px,6vw,108px)}.t10-track .t10-card{width:auto}.t10-track .t10-n{font-size:clamp(64px,6vw,108px)}}
 .t10-card{flex:none;position:relative;width:clamp(220px,22vw,360px);font-size:1rem;text-decoration:none;scroll-snap-align:start;display:flex;flex-direction:column;gap:18px}
 .t10-n{position:absolute;z-index:2;top:-.42em;left:-.32em;font-size:clamp(88px,9vw,168px);font-weight:700;font-stretch:75%;line-height:1;letter-spacing:-.06em;color:var(--tone);pointer-events:none}
 .t10-card .cover{border-radius:10px;background:var(--tone)}
@@ -169,7 +168,6 @@ p,li,summary{text-wrap:pretty}
 .sa-book{right:0;top:12%;transform:rotate(3deg);z-index:2}
 .sa .cover{border-radius:12px}
 .sa .cap{position:static;align-self:flex-start;background:rgb(255 255 255/.12);color:#fff}
-.story.pinned .sa-anime{transform:none}
 @media (max-width:900px){
   .story-pin{grid-template-columns:1fr;min-height:0}
   .story-art{height:auto;aspect-ratio:1/1.05;max-width:520px;width:100%}
