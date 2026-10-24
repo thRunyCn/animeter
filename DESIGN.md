@@ -15,7 +15,7 @@ Read / Operate. Someone mid-show wants an answer in seconds — where people qui
 ## Type
 
 One family: **Schibsted Grotesk** (self-hosted variable, weights 400–800), set tight.
-- Display 800, tracking −0.045em to −0.075em, leading .74–.9 (hero 150px, footer wordmark full-bleed as SVG).
+- Display 800, tracking −0.045em to −0.075em, leading .74–.9 (hero 150px with the seam at a third of the screen (22svh on phones), footer wordmark full-bleed as SVG).
 - Lead / answer 700 at clamp(1.5rem, 2.4rem).
 - Body 400/600, 17–19px, measure ≤ 70ch.
 - Small 16px (`--step-small`); true fine print 13–14px (`--step-fine`) for vote counts and the legal row only.
@@ -35,7 +35,18 @@ Full-bleed sections, inner content on one `--m` (16–40px) margin pair, max 152
 
 ## Motion
 
-Emil Kowalski easing: ease-out `cubic-bezier(.23,1,.32,1)`, in-out `cubic-bezier(.77,0,.175,1)`, never ease-in. The seam headline arrives on load (seamA/seamB, .7s); lower chapters rise once via IntersectionObserver (`data-r`, 70ms stagger); the header colour-follow runs on scroll (300ms transition); hero cover-pick repaints the field (.45s). Controls answer the press (`:active` scale .97, 100–160ms), hover gated by `(hover:hover)`. Transform/opacity only; full reduced-motion fallback (no entrance offset, instant field repaint).
+GSAP 3 (ScrollTrigger, SplitText; vendored in `vendor/`) with Emil Kowalski's rules: strong ease-out (`expo.out`, CSS `cubic-bezier(.23,1,.32,1)`), never ease-in, UI under 300ms, transform/opacity/clip-path only. Motion runs only when GSAP is present, the page is not a prerender snapshot and reduced motion is off; otherwise the CSS fallback (seam headline, `data-r` rise) or nothing plays. One `gsap.context` per route, reverted on navigation.
+
+- **Hero intro (once per load):** the seam headline's upper line rises and the lower line drops into the seam, character by character inside masked lines (.85s, 18ms stagger); lede, actions and covers follow.
+- **Cover flood:** picking a top-six cover floods the lower field with that show's colour as a circle growing from the cover (.6s, interruptible; a new pick kills the old flood).
+- **Rankings (React Bits ScrollFloat):** the giant "Rankings" word is scrubbed from stretched to set as it scrolls in; rows and cards arrive in 40ms batches (ScrollTrigger.batch, opacity so they stay focusable).
+- **Chapter marquee (React Bits ScrollVelocity):** an ink band of next-chapter links between rankings and the mosaic; two rows drift in opposite directions, speed up and skew with scroll velocity, pause off-screen.
+- **Mosaic:** tiles reveal by clip-path, the cover tile parallaxes, figures count up (React Bits CountUp, 1.4s).
+- **Series page:** covers clip in, title words rise, facts and tabs follow at 40ms stagger; arcs and related cards batch in.
+- **Rating press (React Bits ClickSpark):** eight brick ticks burst from the pressed score.
+- **Footer:** the wordmark rises into place, scrubbed.
+
+Header colour-follow (300ms) and `:active` press scale (.97, 100–160ms, hover gated by `(hover:hover)`) are unchanged.
 
 ## States
 

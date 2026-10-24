@@ -191,6 +191,7 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 <link rel="apple-touch-icon" href="{root}apple-touch-icon.png">{head}
 {fonts.replace("{root}", root)}
 <link rel="stylesheet" href="{root}style.css">
+<script>if(!/[?&]prerender/.test(location.search)&&!matchMedia("(prefers-reduced-motion: reduce)").matches){{document.documentElement.classList.add("gs");setTimeout(function(){{document.documentElement.classList.add("gsr")}},2500)}}</script>
 </head>
 <body data-root="{root}" data-route="{route}">
 {backdrop}
@@ -200,6 +201,9 @@ def page(route, root, title, desc, url, image=None, head="", body="", scripts=""
 </div>
 <script src="{root}config.js"></script>
 <script src="{root}data.js"></script>{scripts}
+<script src="{root}vendor/gsap.min.js"></script>
+<script src="{root}vendor/ScrollTrigger.min.js"></script>
+<script src="{root}vendor/SplitText.min.js"></script>
 <script src="{root}app.js"></script>
 </body>
 </html>
@@ -210,6 +214,7 @@ os.makedirs(DIST)
 w = lambda rel, text: (os.makedirs(os.path.dirname(os.path.join(DIST, rel)) or DIST, exist_ok=True), open(os.path.join(DIST, rel), "w").write(text))
 w("style.css", fontface + css.strip() + "\n")
 shutil.copytree(os.path.join(WEB, "fonts"), os.path.join(DIST, "fonts"))
+shutil.copytree(os.path.join(WEB, "vendor"), os.path.join(DIST, "vendor"))
 w("app.js", js.strip() + "\n")
 COUNTS = {"guides": sum(1 for x in series if details.get(x["id"])), "arcs": sum(len((details.get(x["id"]) or {}).get("arcs") or []) for x in series),
           "events": sum(len(a.get("events") or []) for x in series for a in (details.get(x["id"]) or {}).get("arcs") or []),

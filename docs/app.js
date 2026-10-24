@@ -163,7 +163,7 @@ function heroHTML(){
   const s0 = top[0];
   return `<section class="hero" style="${toneVars(s0)}" data-picks="${esc(JSON.stringify(top.map((s,i)=>({id:s.id, href:seriesHref(s.id), t:s.title, v:toneVars(s), line:heroLine(s,i+1)}))))}">
     <div class="top" data-chap></div>
-    <h1>Where people<span class="l2">stop watching</span></h1>
+    <h1><span class="l1">Where people</span><span class="l2">stop watching</span></h1>
     <div class="bot" data-chap>
       <p class="lede">${SERIES.length.toLocaleString("en")} anime ranked, with the episode viewers quit, the filler to skip and the chapter to read next. <span id="heroline">${heroLine(s0,1)}</span></p>
       <div class="acts"><a class="btn" id="heroopen" href="${seriesHref(s0.id)}">Open ${esc(s0.title)}</a><a class="more" href="#rankings" data-jump>See all ${SERIES.length.toLocaleString("en")}</a></div>
@@ -178,7 +178,19 @@ function wireHero(){
   h.querySelector(".picks").addEventListener("click", e=>{
     const b = e.target.closest("[data-pick]"); if (!b) return;
     const x = list[Number(b.dataset.pick)];
-    h.setAttribute("style", x.v);
+    if (b.getAttribute("aria-pressed")==="true") return;
+    if (GS()){                                  // the picked show's colour floods out from its cover
+      const bot = h.querySelector(".bot"), br = bot.getBoundingClientRect(), cr = b.getBoundingClientRect();
+      const cx = cr.left + cr.width/2 - br.left, cy = cr.top + cr.height/2 - br.top;
+      const R = Math.hypot(Math.max(cx, br.width-cx), Math.max(cy, br.height-cy)) * 1.05;
+      bot.querySelectorAll(".flood").forEach(o=>{ gsap.killTweensOf(o); o.remove(); });   // a second pick takes over cleanly
+      h.style.setProperty("--field", getComputedStyle(bot).backgroundColor);            // hold the colour under the new flood
+      const f = document.createElement("i"); f.className = "flood"; f.setAttribute("style", x.v);
+      bot.prepend(f); h.querySelector("h1").setAttribute("style", x.v);
+      gsap.fromTo(f, {clipPath:`circle(0px at ${cx}px ${cy}px)`}, {clipPath:`circle(${R}px at ${cx}px ${cy}px)`, duration:.6, ease:"expo.inOut",
+        onComplete:()=>{ h.setAttribute("style", x.v); h.querySelector("h1").removeAttribute("style"); f.remove(); hdrFollow(); }});
+      gsap.fromTo("#heroline", {autoAlpha:0, y:8}, {autoAlpha:1, y:0, duration:.35, delay:.15, ease:"power3.out"});
+    } else h.setAttribute("style", x.v);
     document.getElementById("heroline").innerHTML = x.line;
     const o = document.getElementById("heroopen"); o.href = x.href; o.textContent = "Open " + x.t;
     h.querySelectorAll("[data-pick]").forEach(y=>y.setAttribute("aria-pressed", y===b));
@@ -201,6 +213,139 @@ function wireRise(){
   document.documentElement.classList.add("rise");
   riseIO = riseIO || new IntersectionObserver(es=>es.forEach(e=>{ if (e.isIntersecting){ e.target.classList.add("on"); riseIO.unobserve(e.target); } }), {rootMargin:"0px 0px -12% 0px"});
   document.querySelectorAll("[data-r]:not(.on)").forEach(el=>riseIO.observe(el));
+}
+/* ---------- motion (GSAP + ScrollTrigger + SplitText) ----------
+   One authored moment per page, then quiet: the hero headline grows out of the seam, a picked cover floods
+   its colour across the lower field, chapters arrive as you reach them, the title wall drifts with scroll
+   speed. Everything is skipped for reduced motion and for the prerender snapshot, so the page is complete
+   and readable without it. Easing follows Emil Kowalski: strong ease-out for arrivals, never ease-in. */
+const PRERENDER = /[?&]prerender/.test(location.search);
+const GS = () => !!(window.gsap && window.ScrollTrigger && window.SplitText) && !PRERENDER && !reduceMotion();
+let gsCtx = null, gsKey = "", marqueeRAF = 0;
+if (window.gsap && window.ScrollTrigger && window.SplitText){
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  gsap.defaults({ease:"expo.out", duration:.9});
+  if (GS()) document.documentElement.classList.add("gs");
+}
+function motion(key){
+  if (!GS() || key===gsKey) return;
+  gsKey = key; gsCtx?.revert(); cancelAnimationFrame(marqueeRAF);
+  gsCtx = gsap.context(()=>{ key==="home" ? motionHome() : key.startsWith("s:") ? motionSeries() : null; motionCommon(); });
+  document.documentElement.classList.add("gsr");
+  document.fonts?.ready.then(()=>ScrollTrigger.refresh());
+}
+/* split a heading into masked lines of characters; returns the chars */
+function chars(el, type="chars"){
+  const st = SplitText.create(el, {type:"lines,"+type, mask:"lines", linesClass:"sl", aria:"auto"});
+  return st[type];
+}
+function motionHome(){
+  const h = document.querySelector(".hero");
+  if (h){
+    const h1 = h.querySelector("h1"), l2 = h1.querySelector(".l2");
+    // both lines grow out of the seam: the upper one rises, the lower one drops
+    const top = SplitText.create(h1.querySelector(".l1"), {type:"chars", mask:"chars"}).chars;
+    const bot = SplitText.create(l2, {type:"chars", mask:"chars"}).chars;
+    const tl = gsap.timeline();
+    tl.from(top, {yPercent:105, stagger:.018, duration:.85})
+      .from(bot, {yPercent:-105, stagger:.018, duration:.85}, "<")
+      .from(".hero .lede, .hero .acts", {y:24, autoAlpha:0, stagger:.08, duration:.8}, "-=.75")
+      .from(".hero .picks button", {y:48, autoAlpha:0, stagger:.06, duration:.9, clearProps:"transform"}, "-=.6");
+  }
+  // "Rankings": letters float up into place as the chapter arrives (React Bits ScrollFloat, ported)
+  const g = document.querySelector("#rankings .giant");
+  if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:120, scaleY:2.3, scaleX:.7, transformOrigin:"50% 0%", autoAlpha:0},
+    {yPercent:0, scaleY:1, scaleX:1, autoAlpha:1, stagger:.03, ease:"back.inOut(2)",
+     scrollTrigger:{trigger:g, start:"top bottom-=5%", end:"bottom 55%", scrub:.6}});
+  arrive("#rankings .row, #rankings .card", .04);
+  // statement tiles open from the bottom edge, the cover settles, the figures count up
+  gsap.utils.toArray(".mosaic .tile-a, .mosaic .tile-b, .mosaic .tile-c").forEach((t,i)=>
+    gsap.from(t, {clipPath:"inset(100% 0% 0% 0%)", duration:1.1, ease:"expo.inOut", delay:i*.08,
+      scrollTrigger:{trigger:".mosaic", start:"top 80%", once:true}}));
+  const tc = document.querySelector(".tile-c img");
+  if (tc) gsap.fromTo(tc, {scale:1.18, yPercent:-6}, {scale:1, yPercent:6, ease:"none", scrollTrigger:{trigger:".mosaic", start:"top bottom", end:"bottom top", scrub:true}});
+  const ta = document.querySelector(".tile-a h2");
+  if (ta) gsap.from(chars(ta, "words"), {yPercent:110, stagger:.06, duration:1, scrollTrigger:{trigger:ta, start:"top 88%", once:true}});
+  gsap.utils.toArray(".tile-b b, .tile-d .figs b").forEach(b=>countUp(b));
+  gsap.from(".tile-d p", {y:30, autoAlpha:0, duration:1, scrollTrigger:{trigger:".tile-d", start:"top 85%", once:true}});
+  // questions: the heading lifts, each band's question rises word by word
+  const fh = document.querySelector(".faq .head h2");
+  if (fh) gsap.from(chars(fh), {yPercent:110, stagger:.025, duration:1, scrollTrigger:{trigger:fh, start:"top 90%", once:true}});
+  gsap.utils.toArray(".faq .q").forEach(q=>{
+    const tl = gsap.timeline({scrollTrigger:{trigger:q, start:"top 85%", once:true}});
+    tl.from(chars(q.querySelector("h3"), "words"), {yPercent:110, stagger:.04, duration:.9})
+      .from(q.querySelector("p"), {y:20, autoAlpha:0, duration:.8}, "-=.6");
+  });
+  marquee();
+}
+function motionSeries(){
+  const sh = document.querySelector(".sh"); if (!sh) return;
+  const tl = gsap.timeline({delay:.05});
+  tl.from(".sh .covers .cover:first-child", {clipPath:"inset(0% 0% 100% 0%)", duration:.85, ease:"expo.inOut"})
+    .from(".sh .covers .cover:nth-child(2)", {y:40, autoAlpha:0, duration:.7}, "-=.5")
+    .from(chars(sh.querySelector("h1"), "words"), {yPercent:110, stagger:.04, duration:.7}, .1)
+    .from(".sh .info > :not(h1)", {y:14, autoAlpha:0, stagger:.04, duration:.5}, .3)
+    .from(".tabs a", {y:10, autoAlpha:0, stagger:.03, duration:.4, clearProps:"transform"}, .45);
+  // the two covers drift apart a little as the colour chapter scrolls away
+  gsap.to(".sh .covers .cover:first-child", {yPercent:-6, ease:"none", scrollTrigger:{trigger:sh, start:"top top", end:"bottom top", scrub:true}});
+  gsap.to(".sh .covers .cover:nth-child(2)", {yPercent:10, ease:"none", scrollTrigger:{trigger:sh, start:"top top", end:"bottom top", scrub:true}});
+  arrive(".pane .arc, .related .card", .05);
+  const rh = document.querySelector(".related h2");
+  if (rh) gsap.from(chars(rh, "words"), {yPercent:110, stagger:.05, duration:1, scrollTrigger:{trigger:rh, start:"top 88%", once:true}});
+}
+function motionCommon(){
+  // the footer name rises out of the bottom edge as the page ends
+  const nm = document.querySelector("footer .name");
+  if (nm) gsap.fromTo(nm, {yPercent:55}, {yPercent:0, ease:"none", scrollTrigger:{trigger:"footer", start:"top bottom", end:"top 35%", scrub:true}});
+}
+/* items below the fold wait out of sight and rise in small groups as they arrive */
+function arrive(sel, stagger){
+  const els = gsap.utils.toArray(sel).filter(e=>e.getBoundingClientRect().top > innerHeight*.92);
+  if (!els.length) return;
+  gsap.set(els, {y:16, opacity:0});                 // opacity, not visibility: rows stay focusable and clickable
+  ScrollTrigger.batch(els, {start:"top 94%", once:true,
+    onEnter: b => gsap.to(b, {y:0, opacity:1, stagger, duration:.5, overwrite:true, clearProps:"transform,opacity"})});
+}
+/* count a figure up from zero when it arrives (React Bits CountUp, ported); the real number is already in the HTML */
+function countUp(el){
+  const end = Number(el.textContent.replace(/[^\d.]/g,"")); if (!end) return;
+  const o = {v:0};
+  gsap.to(o, {v:end, duration:1.4, ease:"expo.out", scrollTrigger:{trigger:el, start:"top 90%", once:true},
+    onUpdate:()=>{ el.textContent = Math.round(o.v).toLocaleString("en"); }, onComplete:()=>{ el.textContent = end.toLocaleString("en"); }});
+  el.textContent = "0";
+}
+/* title wall: two rows that drift on their own and run faster, and lean, with scroll speed (React Bits ScrollVelocity, ported) */
+function marquee(){
+  const rows = [...document.querySelectorAll(".mq-row")]; if (!rows.length) return;
+  const st = rows.map((r,i)=>({r, track:r.firstElementChild, x:0, dir:i%2?1:-1, w:r.firstElementChild.scrollWidth/2}));
+  let vel = 0, last = performance.now(), visible = false;
+  const io = new IntersectionObserver(es=>{ visible = es[0].isIntersecting; }); io.observe(rows[0].parentElement);
+  ScrollTrigger.create({trigger:".mq", start:"top bottom", end:"bottom top", onUpdate:self=>{ vel = self.getVelocity(); }});
+  const skew = gsap.quickTo(".mq-row", "skewX", {duration:.5, ease:"power3"});
+  const tick = now=>{
+    marqueeRAF = requestAnimationFrame(tick);
+    const dt = Math.min(64, now-last)/1000; last = now; if (!visible) return;
+    const boost = 1 + Math.min(6, Math.abs(vel)/350);
+    st.forEach(o=>{ o.x += o.dir * 38 * boost * dt * (vel<0?-1:1); o.x = ((o.x % o.w) - o.w) % o.w; o.track.style.transform = `translate3d(${o.x}px,0,0)`; });
+    skew(gsap.utils.clamp(-8, 8, vel/-260)); vel *= .92;
+  };
+  marqueeRAF = requestAnimationFrame(tick);
+}
+/* small sparks from a rating the viewer just gave (React Bits ClickSpark, ported) */
+function spark(btn){
+  if (!GS()) return;
+  const r = btn.getBoundingClientRect(), wrap = document.createElement("span");
+  wrap.className = "spark"; wrap.style.cssText = `left:${r.left+r.width/2}px;top:${r.top+r.height/2}px`;
+  for (let i=0;i<8;i++){ const l = document.createElement("i"); wrap.appendChild(l); gsap.set(l, {rotation:i*45}); }
+  document.body.appendChild(wrap);
+  gsap.fromTo(wrap.children, {scaleY:.2, autoAlpha:1}, {scaleY:1, duration:.18, ease:"power3.out",
+    onComplete:()=>gsap.to(wrap.children, {scaleY:0, autoAlpha:0, duration:.22, ease:"power2.out", onComplete:()=>wrap.remove()})});
+}
+function marqueeHTML(){
+  const xs = SERIES.filter(s=>s.next && s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0)).slice(0,24);
+  const item = s => `<a href="${seriesHref(s.id,"manga")}" tabindex="-1">${esc(s.title)} <b>${esc(handoffShort(s))}</b></a>`;
+  const row = list => `<div class="mq-row"><div class="mq-track">${list.map(item).join("")}${list.map(item).join("")}</div></div>`;
+  return `<section class="mq" aria-hidden="true" data-chap>${row(xs.slice(0,12))}${row(xs.slice(12))}</section>`;
 }
 const COUNTS = STATIC ? (window.ANIMETER.counts||{}) : (()=>{ const ds = Object.values(DETAILS||{}).filter(Boolean);
   return {guides: ds.length, arcs: ds.reduce((t,d)=>t+(d.arcs||[]).length,0), events: ds.reduce((t,d)=>t+(d.arcs||[]).reduce((u,a)=>u+(a.events||[]).length,0),0),
@@ -259,7 +404,7 @@ function renderHome(){
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
       </div></section>
-      ${introHTML()}${faqHTML()}`;
+      ${marqueeHTML()}${introHTML()}${faqHTML()}`;
     app.querySelectorAll("[data-jump]").forEach(a=>a.addEventListener("click", e=>{ e.preventDefault(); document.getElementById("rankings").scrollIntoView({behavior: reduceMotion()?"auto":"smooth", block:"start"}); }));
     document.getElementById("q").addEventListener("input", e=>{ query=e.target.value; page=1; renderRankings(); });
     document.getElementById("sort").addEventListener("change", e=>{ sortBy=e.target.value; page=1; renderRankings(); });
@@ -289,7 +434,7 @@ function renderHome(){
   }
   if (!route().missing) document.querySelector(".missing")?.remove();
   renderRankings();
-  wireHero(); wireRise(); hdrFollow();
+  wireHero(); if (!GS()) wireRise(); hdrFollow(); motion("home");
 }
 function renderRankings(){
   const all = ranked(), site = siteScores();
@@ -550,10 +695,10 @@ function renderSeries(id, tab){
     </section></div>
     <div class="in-w"><section class="pane">${pane}</section></div>
     ${relatedHTML(s)}</div>`;
-  hdrFollow();
+  hdrFollow(); motion("s:"+id);
   document.getElementById("vote")?.addEventListener("submit", e=>saveReport(e, id));
   if (!window._wlWired){ window._wlWired = true; document.addEventListener("click", e=>{ const w = document.querySelector(".wl[open]"); if (w && !w.contains(e.target)) w.open = false; }); }
-  document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>saveRating(id, Number(b.dataset.rate))));
+  document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click", ()=>{ if (b.dataset.rate!=="0") spark(b); saveRating(id, Number(b.dataset.rate)); }));
   document.querySelectorAll(".wl button").forEach(b=>b.addEventListener("click", ()=>saveStatus(id, b.dataset.st===mine.status ? null : b.dataset.st)));
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
@@ -640,7 +785,7 @@ function renderProfile(){
     <section class="prof in-w"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section></div>`;
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
-  hdrFollow();
+  hdrFollow(); motion("profile");
 }
 
 /* ---------- boot ---------- */
