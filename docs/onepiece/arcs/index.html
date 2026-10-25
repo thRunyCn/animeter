@@ -28,7 +28,7 @@
 <div class="wrap">
   <div id="app">
     <div class="series" style="--tone:#f1a44b;--tone-ink:#1c1c1c;--deep:#281b0b">
-    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav"><a class="back" href="../../">Rankings</a><a class="back opt" href="../../anime/">A to Z</a><a class="back melink" href="../../profile/">My list</a></nav></header>
+    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav" aria-label="Main"><span class="navlinks"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></span><details class="navmenu"><summary>Menu</summary><div class="navpanel"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></div></details><a class="srch" href="../../#find" data-find=""><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"></circle><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg><span>Search</span></a><a class="melink" href="../../profile/">My list</a></nav></header>
     <section class="board sh">
       <div class="sh-cov"><div class="t pic"><div class="cover" style="--tone:#e49335">
     <img src="../../covers/onepiece-anime.jpg" alt="One Piece anime cover" fetchpriority="high" width="460" height="649">
@@ -44,8 +44,8 @@
         <div class="t fact"><b>8.7</b><span class="label">AniList score</span></div>
         <div class="t fact"><b>—</b><span class="label">Animeter, no votes yet</span></div>
         <div class="t fact"><b>1180</b><span class="label">episodes, aired so far</span></div>
-        <div class="t deep sh-me"><form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
-      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></div>
+        <div class="t deep sh-me"><details class="gate"><summary class="btn">Rate it or report where you stopped</summary><form class="signin" id="signin"><span class="label">Sign in first. We email you a link and a code, no password.</span>
+      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></details></div>
       </div>
       <nav class="t tabs" aria-label="One Piece sections"><a href="../../onepiece/">Overview</a><a href="../../onepiece/arcs/" aria-current="page">Arcs<span class="n">34</span></a><a href="../../onepiece/events/">Key events<span class="n">97</span></a><a href="../../onepiece/filler/">Filler<span class="n">94</span></a><a href="../../onepiece/manga/">Manga</a></nav>
       <section class="t pane"><h2>Arcs</h2><p class="sub">Episodes numbered continuously from 1 across the whole TV run (Anime Filler List numbering); specials and films are unnumbered.</p><div class="arcbar" aria-hidden="true"><i class="c" style="flex:3" title="Romance Dawn"></i><i class="c alt" style="flex:5" title="Orange Town"></i><i class="c" style="flex:10" title="Syrup Village"></i><i class="c alt" style="flex:12" title="Baratie"></i><i class="c" style="flex:15" title="Arlong Park"></i><i class="c alt" style="flex:8" title="Loguetown"></i><i class="f" style="flex:8" title="Warship Island (filler)"></i><i class="c alt" style="flex:6" title="Reverse Mountain &amp; Whisky Peak"></i><i class="c" style="flex:10" title="Little Garden"></i><i class="c alt" style="flex:14" title="Drum Island"></i><i class="c" style="flex:39" title="Arabasta"></i><i class="f" style="flex:13" title="Post-Arabasta, Goat Island &amp; Ruluka Island (filler)"></i><i class="c" style="flex:9" title="Jaya"></i><i class="c alt" style="flex:43" title="Skypiea"></i><i class="f" style="flex:11" title="G-8 (filler)"></i><i class="c alt" style="flex:20" title="Long Ring Long Land"></i><i class="c" style="flex:37" title="Water 7"></i><i class="c alt" style="flex:49" title="Enies Lobby"></i><i class="c" style="flex:24" title="Post-Enies Lobby"></i><i class="c alt" style="flex:45" title="Thriller Bark"></i><i class="c" style="flex:24" title="Sabaody Archipelago"></i><i class="c alt" style="flex:16" title="Amazon Lily"></i><i class="c" style="flex:35" title="Impel Down"></i><i class="c alt" style="flex:33" title="Marineford"></i><i class="c" style="flex:27" title="Post-War"></i><i class="c alt" style="flex:62" title="Fish-Man Island"></i><i class="c" style="flex:50" title="Punk Hazard"></i><i class="c alt" style="flex:118" title="Dressrosa"></i><i class="c" style="flex:36" title="Zou"></i><i class="c alt" style="flex:95" title="Whole Cake Island"></i><i class="c" style="flex:12" title="Levely"></i><i class="c alt" style="flex:196" title="Wano Country"></i><i class="c" style="flex:70" title="Egghead"></i><i class="c alt" style="flex:24" title="Elbaph"></i></div>
@@ -190,16 +190,16 @@
     </section>
     <section class="board related" aria-labelledby="rel-h"><h2 id="rel-h">More like One Piece</h2><div class="wall"><a class="card" href="../../blackclover/"><div class="cover" style="--tone:#d6c96b">
     <img src="../../covers/blackclover-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Black Clover</b></div><span class="obi"><span>Manga Ch. 270</span><b>7.9</b></span>
+    <div class="ph" aria-hidden="true"><b>Black Clover</b></div><span class="obi"><span>Manga <abbr title="Chapter 270">Ch. 270</abbr></span><b>7.9</b></span>
     </div><span class="t">Black Clover</span></a><a class="card" href="../../hxh/"><div class="cover" style="--tone:#3f8a4d">
     <img src="../../covers/hxh-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Hunter × Hunter</b></div><span class="obi"><span>Manga Ch. 340</span><b>8.9</b></span>
+    <div class="ph" aria-hidden="true"><b>Hunter × Hunter</b></div><span class="obi"><span>Manga <abbr title="Chapter 340">Ch. 340</abbr></span><b>8.9</b></span>
     </div><span class="t">Hunter × Hunter</span></a><a class="card" href="../../thattimeigotreincarnated/"><div class="cover" style="--tone:#5daef1">
     <img src="../../covers/thattimeigotreincarnated-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>That Time I Got Reincarnated as a Slime</b></div><span class="obi"><span>Manga Vol. 12</span><b>8.0</b></span>
+    <div class="ph" aria-hidden="true"><b>That Time I Got Reincarnated as a Slime</b></div><span class="obi"><span>Manga <abbr title="Volume 12">Vol. 12</abbr></span><b>8.0</b></span>
     </div><span class="t">That Time I Got Reincarnated as a Slime</span></a><a class="card" href="../../souleater/"><div class="cover" style="--tone:#e4bb5d">
     <img src="../../covers/souleater-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Soul Eater</b></div><span class="obi"><span>Manga Ch. 37</span><b>7.7</b></span>
+    <div class="ph" aria-hidden="true"><b>Soul Eater</b></div><span class="obi"><span>Manga <abbr title="Chapter 37">Ch. 37</abbr></span><b>7.7</b></span>
     </div><span class="t">Soul Eater</span></a><a class="card" href="../../gintama/"><div class="cover" style="--tone:#f1865d">
     <img src="../../covers/gintama-anime.jpg" alt="" loading="lazy" width="460" height="649">
     <div class="ph" aria-hidden="true"><b>Gintama</b></div><span class="obi ink"><span>Done</span><b>8.5</b></span>

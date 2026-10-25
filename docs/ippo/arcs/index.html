@@ -28,7 +28,7 @@
 <div class="wrap">
   <div id="app">
     <div class="series" style="--tone:#f1884b;--tone-ink:#1c1c1c;--deep:#28160b">
-    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav"><a class="back" href="../../">Rankings</a><a class="back opt" href="../../anime/">A to Z</a><a class="back melink" href="../../profile/">My list</a></nav></header>
+    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav" aria-label="Main"><span class="navlinks"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></span><details class="navmenu"><summary>Menu</summary><div class="navpanel"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></div></details><a class="srch" href="../../#find" data-find=""><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"></circle><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg><span>Search</span></a><a class="melink" href="../../profile/">My list</a></nav></header>
     <section class="board sh">
       <div class="sh-cov"><div class="t pic"><div class="cover" style="--tone:#f1935d">
     <img src="../../covers/ippo-anime.jpg" alt="Hajime no Ippo anime cover" fetchpriority="high" width="460" height="649">
@@ -44,8 +44,8 @@
         <div class="t fact"><b>8.7</b><span class="label">AniList score</span></div>
         <div class="t fact"><b>—</b><span class="label">Animeter, no votes yet</span></div>
         <div class="t fact"><b>126</b><span class="label">episodes, 3 seasons</span></div>
-        <div class="t deep sh-me"><form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
-      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></div>
+        <div class="t deep sh-me"><details class="gate"><summary class="btn">Rate it or report where you stopped</summary><form class="signin" id="signin"><span class="label">Sign in first. We email you a link and a code, no password.</span>
+      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></details></div>
       </div>
       <nav class="t tabs" aria-label="Hajime no Ippo sections"><a href="../../ippo/">Overview</a><a href="../../ippo/seasons/">Seasons<span class="n">3</span></a><a href="../../ippo/arcs/" aria-current="page">Arcs<span class="n">19</span></a><a href="../../ippo/events/">Key events<span class="n">50</span></a><a href="../../ippo/filler/">Filler<span class="n">1</span></a><a href="../../ippo/manga/">Manga</a></nav>
       <section class="t pane"><h2>Arcs</h2><p class="sub">Episodes numbered continuously as on Wikipedia: The Fighting! 1-75 (76 is a DVD-only episode), New Challenger 77-102, Rising 103-127.</p><div class="arcbar" aria-hidden="true"><i class="c" style="flex:12" title="The First Step"></i><i class="c alt" style="flex:16" title="East Japan Rookie King Tournament"></i><i class="c" style="flex:6" title="All Japan Rookie King vs Sendo"></i><i class="c alt" style="flex:16" title="Climbing the Rankings"></i><i class="c" style="flex:7" title="Title Challenge vs Date"></i><i class="c alt" style="flex:5" title="Comeback"></i><i class="c" style="flex:6" title="Kamogawa Gym Interlude"></i><i class="c alt" style="flex:7" title="Japanese Featherweight Title vs Sendo"></i><i class="c" style="flex:8" title="Miyata's OPBF Title and Date vs Ricardo"></i><i class="c alt" style="flex:4" title="Ippo vs Hammer Nao"></i><i class="c" style="flex:3" title="Beach and Itagaki's Debut"></i><i class="c alt" style="flex:11" title="Takamura vs Bryan Hawk"></i><i class="c" style="flex:2" title="Ippo vs Shimabukuro"></i><i class="c alt" style="flex:4" title="Aoki vs Imae"></i><i class="c" style="flex:7" title="Ippo vs Sawamura"></i><i class="c alt" style="flex:8" title="Takamura vs Eagle"></i><i class="c" style="flex:4" title="Kamogawa's Past"></i></div>
@@ -130,7 +130,7 @@
     </section>
     <section class="board related" aria-labelledby="rel-h"><h2 id="rel-h">More like Hajime no Ippo</h2><div class="wall"><a class="card" href="../../haikyuu/"><div class="cover" style="--tone:#e48635">
     <img src="../../covers/haikyuu-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Haikyu!!</b></div><span class="obi"><span>Manga Ch. 326</span><b>8.3</b></span>
+    <div class="ph" aria-hidden="true"><b>Haikyu!!</b></div><span class="obi"><span>Manga <abbr title="Chapter 326">Ch. 326</abbr></span><b>8.3</b></span>
     </div><span class="t">Haikyu!!</span></a><a class="card" href="../../bakithegrappler/"><div class="cover" style="--tone:#e45d43">
     <img src="../../covers/bakithegrappler-anime.jpg" alt="" loading="lazy" width="460" height="649">
     <div class="ph" aria-hidden="true"><b>Baki the Grappler</b></div><span class="obi ink"><span>Unclear</span><b>7.2</b></span>
@@ -139,7 +139,7 @@
     <div class="ph" aria-hidden="true"><b>Major S1</b></div><span class="obi ink"><span>Unclear</span><b>8.0</b></span>
     </div><span class="t">Major S1</span></a><a class="card" href="../../yowamushipedal/"><div class="cover" style="--tone:#f1d650">
     <img src="../../covers/yowamushipedal-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Yowamushi Pedal</b></div><span class="obi"><span>Manga Ch. 659</span><b>7.7</b></span>
+    <div class="ph" aria-hidden="true"><b>Yowamushi Pedal</b></div><span class="obi"><span>Manga <abbr title="Chapter 659">Ch. 659</abbr></span><b>7.7</b></span>
     </div><span class="t">Yowamushi Pedal</span></a><a class="card" href="../../pingpong/"><div class="cover" style="--tone:#e47843">
     <img src="../../covers/pingpong-anime.jpg" alt="" loading="lazy" width="460" height="649">
     <div class="ph" aria-hidden="true"><b>Ping Pong the Animation</b></div><span class="obi ink"><span>Done</span><b>8.6</b></span>

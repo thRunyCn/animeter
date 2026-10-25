@@ -251,6 +251,10 @@ w("app.js", js.strip() + "\n")
 COUNTS = {"guides": sum(1 for x in series if (details.get(x["id"]) or {}).get("arcs")), "arcs": sum(len((details.get(x["id"]) or {}).get("arcs") or []) for x in series),
           "events": sum(len(a.get("events") or []) for x in series for a in (details.get(x["id"]) or {}).get("arcs") or []),
           "filler": sum(filler_count(details.get(x["id"])) for x in series)}
+for x in series:     # the hand-off point spelled out, for tooltips and sentences ("Steel Ball Run chapter 24" behind "SBR 24")
+    if x.get("next"):
+        u = x.get("unit") or ("Volume" if x.get("kind") == "novel" and not x.get("unitShort") else "Chapter")
+        x["hoLong"] = f'{u} {x["next"]}'
 HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
 tagnames = sorted({t for x in series for t in x.get("tags") or []})
 tix = {t: i for i, t in enumerate(tagnames)}
@@ -289,8 +293,12 @@ for s in series:
 # hub pages: plain HTML lists so every series is two clicks from home
 def hub(rel, title, desc, inner):
     root = "../" * rel.count("/")
-    body = (f'<header class="mast"><a class="wm" href="{root or "./"}">Animeter</a><nav class="mastnav"><a class="back" href="{root}anime/">A to Z</a>'
-            f'<a class="back" href="{root}genre/">Genres</a><a class="back" href="{root or "./"}">Rankings</a><a class="back melink" href="{root}profile/">My list</a></nav></header><main class="hub">{inner}</main>')
+    home = root or "./"
+    links = f'<a href="{home}#rankings">Rankings</a><a href="{root}anime/">A to Z</a><a href="{root}genre/">Genres</a>'
+    icon = re.search(r"const SEARCH_ICON = `(.*?)`;", js).group(1)     # same header as the app's mastHTML()
+    body = (f'<header class="mast"><a class="wm" href="{home}">Animeter</a><nav class="mastnav" aria-label="Main"><span class="navlinks">{links}</span>'
+            f'<details class="navmenu"><summary>Menu</summary><div class="navpanel">{links}</div></details>'
+            f'<a class="srch" href="{home}#find" data-find>{icon}<span>Search</span></a><a class="melink" href="{root}profile/">My list</a></nav></header><main class="hub">{inner}</main>')
     w(rel + "index.html", page("static", root, title, desc, SITE + rel, body=body))
     urls.append(SITE + rel)
 def li(x, root):

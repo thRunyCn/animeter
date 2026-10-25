@@ -57,7 +57,9 @@ function coverHTML(s, kind, tag, extra="", eager=false){
     <div class="ph" aria-hidden="true"><b>${esc(s.title)}</b></div>${extra}
     ${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 }
-const obiHTML = (s, score) => `<span class="obi${s.next?"":" ink"}"><span>${s.next ? "Manga " : ""}${esc(handoffShort(s))}</span><b>${score||""}</b></span>`;
+/* a short hand-off label with its full form as a tooltip: <abbr title="Steel Ball Run chapter 24">SBR 24</abbr> */
+const hoAbbr = s => s.next && s.hoLong ? `<abbr title="${esc(s.hoLong)}">${esc(handoffShort(s))}</abbr>` : esc(handoffShort(s));
+const obiHTML = (s, score) => `<span class="obi${s.next?"":" ink"}"><span>${s.next ? "Manga " : ""}${hoAbbr(s)}</span><b>${score||""}</b></span>`;
 const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
 const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga" || k==="filler" && !!s.hf;
 const handoffShort = s => s.format==="MOVIE" && s.unchecked ? "Film" : s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
@@ -175,11 +177,21 @@ const endState = s => s.next ? "next" : s.kind==="original" ? "original" : s.kin
   : s.endShort==="Done" ? "fully" : s.endShort==="Own end" ? "own" : / ahead$/.test(s.endShort||"") ? "ahead"
   : s.unchecked && !s.mangaChecked ? "unchecked" : "unknown";
 const answerOf = s => ({
-  next: () => `Read the ${kindWord(s)} from ${esc(handoffShort(s).replace(/^Ch\. ?/,"chapter ").replace(/^Vol\. ?/,"volume "))}`,
+  next: () => `Read the ${kindWord(s)} from ${esc((s.hoLong||handoffShort(s)).replace(/^(Chapter|Volume) /, m=>m.toLowerCase()).replace(/^Ch\. ?/,"chapter ").replace(/^Vol\. ?/,"volume "))}`,
   original: () => "Original anime, no book to read on with", vn: () => "Began as a visual novel",
   fully: () => "The anime tells the whole story", own: () => `The anime ends its own way, apart from the ${kindWord(s)}`,
   ahead: () => `The ${kindWord(s)} goes on past the anime`,
   unchecked: () => "Where the book picks up isn't checked yet", unknown: () => `Where the ${kindWord(s)} picks up isn't known yet`})[endState(s)]();
+/* the header, the same on every page: links inline on wide screens, behind a Menu button on phones; search and My list always showing */
+const SEARCH_ICON = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>`;
+function mastHTML(home, cls=""){
+  const links = (home ? `<a href="#rankings" data-jump>Rankings</a>` : `<a href="${homeHref()}#rankings">Rankings</a>`)
+    + (STATIC ? `<a href="${ROOT}anime/">A to Z</a><a href="${ROOT}genre/">Genres</a>` : "");
+  return `<header class="mast ${cls}"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav" aria-label="Main">`
+    + `<span class="navlinks">${links}</span><details class="navmenu"><summary>Menu</summary><div class="navpanel">${links}</div></details>`
+    + `<a class="srch" href="${home ? "#find" : homeHref()+"#find"}" data-find>${SEARCH_ICON}<span>Search</span></a>`
+    + `<a class="melink" href="${profileHref()}">My list</a></nav></header>`;
+}
 function cineHTML(){
   const pop = SERIES.filter(s=>s.popularity).sort((a,b)=>b.popularity-a.popularity).slice(0,56);
   const cols = Array.from({length:7}, (_,c)=>pop.filter((_,i)=>i%7===c));
@@ -188,11 +200,11 @@ function cineHTML(){
   return `<section class="cine" style="${top ? toneVars(top) : ""}">
     <div class="cwall" aria-hidden="true">${cols.map((l,c)=>`<div class="col" data-dir="${c%2?1:-1}"><div class="lane">${l.map(img).join("")}${l.map(img).join("")}</div></div>`).join("")}</div>
     <div class="cine-in">
-      <h1><span>Where people</span> <span>stop watching</span></h1>
-      <p class="lede">${nf(SERIES.length)} anime, ranked. For each one: the episode viewers quit, the filler to skip, and the chapter where the manga picks up.</p>
+      <h1><span>Finished the anime?</span> <span>Here’s where the manga picks up.</span></h1>
+      <p class="lede">${nf(SERIES.length)} anime, each with the chapter to read next, the filler to skip and every season in order.</p>
       <div class="finder" role="search">
         <label class="vh" for="find">Find an anime</label>
-        <input id="find" type="search" autocomplete="off" placeholder="Type an anime, like Frieren or One Piece" aria-controls="found">
+        <span class="fi">${SEARCH_ICON}</span><input id="find" type="search" autocomplete="off" placeholder="Search ${nf(SERIES.length)} anime, like Frieren or One Piece" aria-controls="found">
         <ul id="found" class="found" aria-live="polite"></ul>
       </div>
       <div class="acts"><a class="btn" href="#rankings" data-jump>See the rankings</a><a class="more" href="#top" data-jump>The top ten</a></div>
@@ -285,28 +297,23 @@ function chars(el, type="chars"){
 function motionHome(){
   const c = document.querySelector(".cine");
   if (c){
-    // the opening: the wall of covers settles out of the dark, the question rises line by line, then the finder
-    const lines = SplitText.create(c.querySelector("h1"), {type:"lines", mask:"lines", linesClass:"sl"}).lines;
-    gsap.timeline()
-      .fromTo(".cwall", {opacity:0, scale:1.14}, {opacity:1, scale:1, duration:2.2, ease:"expo.out"})
-      .from(lines, {yPercent:105, duration:1.2, stagger:.09, ease:"expo.out"}, .15)
-      .from(".cine .lede, .cine .finder, .cine .acts", {y:24, opacity:0, duration:.9, stagger:.07, clearProps:"transform,opacity"}, .5);
+    // the opening: the wall of covers settles into place behind the question; the text is there from the first frame
+    gsap.fromTo(".cwall", {scale:1.06}, {scale:1, duration:1.2, ease:"expo.out"});
     coverWall();
   }
   topTen();
   story();
   // "Rankings": letters float up into place once the section arrives (React Bits ScrollFloat, played on arrival rather than scrubbed)
   const g = document.querySelector("#rankings .giant");
-  if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:120, scaleY:2.3, scaleX:.7, transformOrigin:"50% 0%", opacity:0},
-    {yPercent:0, scaleY:1, scaleX:1, opacity:1, stagger:.03, duration:1, ease:"expo.out",
-     scrollTrigger:{trigger:g, start:"top 85%", once:true}});
+  if (g) gsap.fromTo(SplitText.create(g, {type:"chars"}).chars, {yPercent:30, scaleY:1.4, transformOrigin:"50% 100%"},
+    {yPercent:0, scaleY:1, stagger:.02, duration:.6, ease:"expo.out",
+     scrollTrigger:{trigger:g, start:"top bottom", once:true}});
   rise(".rk-title, .rk-tools", .08);
   arrive("#rankings .row, #rankings .card", .04);
   // the hand-off wall: each book cover opens from the bottom edge as its row arrives, the chapter counts in beside it
   rise(".ho-head", 0);
-  ScrollTrigger.batch(".ho-card", {start:"top 88%", once:true, onEnter: b=>{
-    gsap.fromTo(b, {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.07, clearProps:"clipPath"});
-    gsap.fromTo(b.map(x=>x.querySelector("img")), {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.07, clearProps:"transform"});
+  ScrollTrigger.batch(".ho-card", {start:"top bottom", once:true, onEnter: b=>{
+    gsap.fromTo(b.map(x=>x.querySelector("img")), {scale:1.1}, {scale:1, duration:.6, ease:"expo.out", stagger:.04, clearProps:"transform"});
   }});
   // figures: the tiles step in one after another and the numbers count up (React Bits CountUp, ported)
   rise(".st-a, .st-r h2, .st-b, .st-c, .st-p", .09);
@@ -318,21 +325,18 @@ function motionHome(){
 function motionSeries(){
   const sh = document.querySelector(".sh"); if (!sh) return;
   const tl = gsap.timeline({delay:.05});
-  tl.fromTo(".sh-cov .t", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.1, clearProps:"clipPath"})
-    .fromTo(".sh-cov img", {scale:1.12}, {scale:1, duration:1.4, ease:"expo.out", stagger:.1, clearProps:"transform"}, "<.1")
-    .from(".sh-r > .t", {opacity:0, scale:.97, duration:.7, stagger:.06, clearProps:"transform,opacity"}, .05)
-    .from(chars(sh.querySelector("h1"), "words"), {yPercent:110, stagger:.04, duration:.8}, .15)
-    .from(".sh .tabs", {y:16, opacity:0, duration:.6, clearProps:"transform,opacity"}, .35);
+  tl.fromTo(".sh-cov img", {scale:1.08}, {scale:1, duration:.6, ease:"expo.out", stagger:.06, clearProps:"transform"})
+    .from(".sh-r > .t", {scale:.98, duration:.5, stagger:.04, clearProps:"transform"}, 0);
   rise(".sh .pane", 0);
   arrive(".pane .arc, .related .card", .05);
   const rh = document.querySelector(".related h2");
-  if (rh) gsap.from(chars(rh, "words"), {yPercent:110, stagger:.05, duration:1, scrollTrigger:{trigger:rh, start:"top 88%", once:true}});
+  if (rh) gsap.from(rh, {y:20, duration:.6, scrollTrigger:{trigger:rh, start:"top bottom", once:true}, clearProps:"transform"});
 }
 function motionCommon(){
   // the closing tiles step in; the name rises out of its tile once the footer arrives
   rise("footer > *", .06);
   const nm = document.querySelector("footer .name");
-  if (nm) gsap.fromTo(nm, {yPercent:40}, {yPercent:0, duration:1.2, ease:"expo.out", scrollTrigger:{trigger:"footer .f-name", start:"top 90%", once:true}});
+  if (nm) gsap.fromTo(nm, {yPercent:20}, {yPercent:0, duration:.6, ease:"expo.out", scrollTrigger:{trigger:"footer .f-name", start:"top bottom", once:true}});
 }
 /* the cover wall: columns drift up and down on their own at a steady pace (React Bits ScrollVelocity, ported to columns, without the scroll link) */
 function coverWall(){
@@ -352,27 +356,20 @@ function coverWall(){
 /* the top ten: the heading rises and the covers open one after another once the section arrives */
 function topTen(){
   const sec = document.querySelector(".top10"); if (!sec) return;
-  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top 70%", once:true}});
-  tl.from(".t10-head > *", {y:28, opacity:0, stagger:.08, duration:.9, clearProps:"transform,opacity"})
-    .fromTo(".t10-card .cover", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.06, clearProps:"clipPath"}, .1)
-    .fromTo(".t10-card img", {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.06, clearProps:"transform"}, .2)
-    .from(".t10-n, .t10-meta", {y:20, opacity:0, duration:.7, stagger:.03, clearProps:"transform,opacity"}, .45);
+  // everything is visible before this plays: it only moves things the last few pixels into place
+  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top bottom", once:true}});
+  tl.from(".t10-head > *", {y:20, stagger:.05, duration:.5, clearProps:"transform"})
+    .fromTo(".t10-card img", {scale:1.08}, {scale:1, duration:.6, ease:"expo.out", stagger:.04, clearProps:"transform"}, .05)
+    .from(".t10-n", {y:16, duration:.5, stagger:.03, clearProps:"transform"}, .1);
 }
 /* the story plays once when it arrives: the anime steps aside, the book opens and the chapter counts up */
 function story(){
   const sec = document.querySelector(".story"); if (!sec) return;
   const n = sec.querySelector(".story-n"), end = Number(n.dataset.n) || 0, o = {v:0};
-  gsap.set(".story .st2, .story .st3, .story .btn", {opacity:.4});
-  gsap.set(".sa-book .cover", {clipPath:"inset(100% 0% 0% 0%)"});
-  n.textContent = "0";
-  gsap.timeline({scrollTrigger:{trigger:sec, start:"top 55%", once:true}})
-    .fromTo(".sa-anime", {xPercent:24, rotate:-2}, {xPercent:0, rotate:-4, duration:1.1, ease:"expo.out"}, 0)
-    .to(".story .st2", {opacity:1, duration:.5, ease:"power2.out"}, .5)
-    .to(".sa-book .cover", {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", clearProps:"clipPath"}, .6)
-    .fromTo(".sa-book .cover img", {scale:1.2}, {scale:1, duration:1.4, ease:"expo.out", clearProps:"transform"}, .7)
-    .to(".story .st3, .story .btn", {opacity:1, duration:.5, ease:"power2.out", clearProps:"opacity"}, 1.2)
-    .to(o, {v:end, duration:1.2, ease:"expo.out", onUpdate:()=>{ n.textContent = Math.round(o.v); }, onComplete:()=>{ n.textContent = end; }}, 1.2)
-    .set(".story .st2", {clearProps:"opacity"});
+  gsap.timeline({scrollTrigger:{trigger:sec, start:"top 80%", once:true}})
+    .fromTo(".sa-anime", {xPercent:12, rotate:-2}, {xPercent:0, rotate:-4, duration:.6, ease:"expo.out"}, 0)
+    .fromTo(".sa-book .cover img", {scale:1.1}, {scale:1, duration:.6, ease:"expo.out", clearProps:"transform"}, .1)
+    .fromTo(o, {v:Math.max(0, end-30)}, {v:end, duration:.6, ease:"expo.out", onUpdate:()=>{ n.textContent = Math.round(o.v); }, onComplete:()=>{ n.textContent = end; }}, .1);
 }
 /* smooth scrolling (Lenis) drives ScrollTrigger from GSAP's own clock; wheel only, touch keeps native scrolling */
 let lenis = null;
@@ -387,23 +384,23 @@ function smooth(){
 function rise(sel, stagger){
   const els = gsap.utils.toArray(sel).filter(e=>e.getBoundingClientRect().top > innerHeight*.9);
   if (!els.length) return;
-  gsap.set(els, {y:28, opacity:0});
-  ScrollTrigger.batch(els, {start:"top 90%", once:true,
-    onEnter: b => gsap.to(b, {y:0, opacity:1, stagger, duration:.8, ease:"expo.out", overwrite:true, clearProps:"transform,opacity"})});
+  gsap.set(els, {y:20});                            // moved, never hidden: the content reads even if this never plays
+  ScrollTrigger.batch(els, {start:"top bottom", once:true,
+    onEnter: b => gsap.to(b, {y:0, stagger, duration:.5, ease:"expo.out", overwrite:true, clearProps:"transform"})});
 }
 /* items below the fold wait out of sight and rise in small groups as they arrive */
 function arrive(sel, stagger){
   const els = gsap.utils.toArray(sel).filter(e=>e.getBoundingClientRect().top > innerHeight*.92);
   if (!els.length) return;
-  gsap.set(els, {y:16, opacity:0});                 // opacity, not visibility: rows stay focusable and clickable
-  ScrollTrigger.batch(els, {start:"top 94%", once:true,
-    onEnter: b => gsap.to(b, {y:0, opacity:1, stagger, duration:.5, overwrite:true, clearProps:"transform,opacity"})});
+  gsap.set(els, {y:12});
+  ScrollTrigger.batch(els, {start:"top bottom", once:true,
+    onEnter: b => gsap.to(b, {y:0, stagger, duration:.4, overwrite:true, clearProps:"transform"})});
 }
 /* count a figure up from zero when it arrives (React Bits CountUp, ported); the real number is already in the HTML */
 function countUp(el){
   const end = Number(el.textContent.replace(/[^\d.]/g,"")); if (!end) return;
   const o = {v:0};
-  gsap.to(o, {v:end, duration:1.4, ease:"expo.out", scrollTrigger:{trigger:el, start:"top 90%", once:true},
+  gsap.to(o, {v:end, duration:.8, ease:"expo.out", scrollTrigger:{trigger:el, start:"top bottom", once:true},
     onUpdate:()=>{ el.textContent = Math.round(o.v).toLocaleString("en"); }, onComplete:()=>{ el.textContent = end.toLocaleString("en"); }});
   el.textContent = "0";
 }
@@ -413,10 +410,13 @@ function marquee(){
   const st = rows.map((r,i)=>({r, track:r.firstElementChild, x:0, dir:i%2?1:-1, w:r.firstElementChild.scrollWidth/2}));
   let last = performance.now(), visible = false;
   const io = new IntersectionObserver(es=>{ visible = es[0].isIntersecting; }); io.observe(rows[0].parentElement);
+  // a row holds still under the pointer or keyboard focus, and a focused title is brought into view
+  st.forEach(o=>o.r.addEventListener("focusin", e=>{ o.x = -Math.max(0, e.target.offsetLeft - 24); o.r.scrollLeft = 0; o.track.style.transform = `translate3d(${o.x}px,0,0)`; }));
   const tick = now=>{
     marqueeRAF = requestAnimationFrame(tick);
     const dt = Math.min(64, now-last)/1000; last = now; if (!visible) return;
-    st.forEach(o=>{ o.x += o.dir * 38 * dt; o.x = ((o.x % o.w) - o.w) % o.w; o.track.style.transform = `translate3d(${o.x}px,0,0)`; });
+    st.forEach(o=>{ if (o.r.matches(":hover,:focus-within")) return;
+      o.x += o.dir * 38 * dt; o.x = ((o.x % o.w) - o.w) % o.w; o.track.style.transform = `translate3d(${o.x}px,0,0)`; });
   };
   marqueeRAF = requestAnimationFrame(tick);
 }
@@ -432,9 +432,10 @@ function spark(btn){
 }
 function marqueeHTML(){
   const xs = SERIES.filter(s=>s.next && s.score!=null).sort((a,b)=>(b.popularity||0)-(a.popularity||0)).slice(8,32);
-  const item = s => `<a href="${seriesHref(s.id,"manga")}" tabindex="-1">${esc(s.title)} <b>${esc(handoffShort(s))}</b></a>`;
-  const row = list => `<div class="mq-row"><div class="mq-track">${list.map(item).join("")}${list.map(item).join("")}</div></div>`;
-  return `<div class="t mq" aria-hidden="true">${row(xs.slice(0,12))}${row(xs.slice(12))}</div>`;
+  // the second copy of each row only closes the loop, so screen readers and the Tab key skip it
+  const item = (s, dup) => `<a href="${seriesHref(s.id,"manga")}"${dup ? ' aria-hidden="true" tabindex="-1"' : ""}>${esc(s.title)} <b>${hoAbbr(s)}</b></a>`;
+  const row = list => `<div class="mq-row"><div class="mq-track">${list.map(s=>item(s)).join("")}${list.map(s=>item(s,true)).join("")}</div></div>`;
+  return `<div class="t mq">${row(xs.slice(0,12))}${row(xs.slice(12))}</div>`;
 }
 const COUNTS = STATIC ? (window.ANIMETER.counts||{}) : (()=>{ const ds = Object.values(DETAILS||{}).filter(Boolean);
   return {guides: ds.length, arcs: ds.reduce((t,d)=>t+(d.arcs||[]).length,0), events: ds.reduce((t,d)=>t+(d.arcs||[]).reduce((u,a)=>u+(a.events||[]).length,0),0),
@@ -449,7 +450,7 @@ function handoffHTML(){
       <div><p>${nf(hand)} anime stop partway through the book they adapt. Each one comes with the chapter to start from, so you can keep reading the story without starting over.</p></div></div>
     ${xs.map((s,i)=>`<a class="t ho-card" data-r style="--i:${i%4};--tone:${esc(s.tone||"#3a3834")}" href="${seriesHref(s.id,"manga")}">
       <div class="cover"><img src="${ROOT}covers/${s.id}-manga.jpg" alt="${esc(s.title)} ${s.kind==="novel"?"light novel":"manga"} cover" loading="lazy" width="460" height="649" onerror="this.src='${ROOT}covers/${s.id}-anime.jpg'"></div>
-      <span class="lab"><b>${esc(handoffShort(s))}</b><span>${esc(s.title)}</span></span></a>`).join("")}
+      <span class="lab"><b>${hoAbbr(s)}</b><span>${esc(s.title)}</span></span></a>`).join("")}
     ${marqueeHTML()}
   </section>`;
 }
@@ -481,7 +482,7 @@ function renderHome(){
   if (!homeWired || !document.getElementById("rk")){
     homeWired = true;
     patch(app).html = `
-      <header class="mast"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="#rankings" data-jump>Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a><a class="back opt" href="${ROOT}genre/">Genres</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
+      ${mastHTML(true)}
       ${route().missing ? `<p class="missing"><b>Page not found.</b> That address isn't a page on Animeter. Here are the rankings instead.</p>` : ""}
       ${cineHTML()}${top10HTML()}${storyHTML()}
       <section id="rankings" class="board rk" aria-labelledby="rk-h">
@@ -559,7 +560,7 @@ function renderRankings(){
   document.querySelectorAll("[data-view]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.view===view));
   const box = document.getElementById("rk");
   if (!items.length){ box.innerHTML = `<div class="none">No series matches ${query.trim() ? `"${esc(query)}"` : ""}${query.trim() && tags.size ? " with " : ""}${tags.size ? "all of these tags" : ""}.</div>`; document.getElementById("pager").innerHTML=""; return; }
-  const chip = s => `<span class="chip ${s.next?'b':'k'}">${esc(handoffShort(s))}</span>`;
+  const chip = s => `<span class="chip ${s.next?'b':'k'}">${hoAbbr(s)}</span>`;
   if (view==="list"){
     patch(box).html = `<div class="list">` + items.map(({s,site,rank})=>`
       <a class="row" href="${seriesHref(s.id)}">
@@ -768,8 +769,9 @@ function renderSeries(id, tab){
       ${mine.rating?`<button type="button" class="clear" data-rate="0">Clear</button>`:""}</div><div class="note" id="rnote"></div>`
     + `<details class="wl"><summary class="${mine.status ? "on "+mine.status : ""}">${mine.status ? "✓ "+esc(STATUSES.find(([k])=>k===mine.status)[1]) : "+ Add to list"}</summary><div class="menu" role="group" aria-label="Add ${esc(s.title)} to your list">${STATUSES.map(([k,l])=>`<button type="button" data-st="${k}" aria-pressed="${mine.status===k}">${l}</button>`).join("")}${mine.status ? `<button type="button" class="rm" data-st="${mine.status}">Remove from list</button>` : ""}</div></details><div class="note" id="wnote"></div>`
     + (STATIC && myId ? `<div class="who">Signed in as ${esc(sbEmail())}<button type="button" id="signout">Sign out</button></div>` : "");
-  const gate = STATIC && SB.supabaseUrl && !myId ? `<form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
-      <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div>` : "";
+  // the sign-in form stays folded until someone asks to rate or report, so the page opens on the answer
+  const gate = STATIC && SB.supabaseUrl && !myId ? `<details class="gate"><summary class="btn">Rate it or report where you stopped</summary><form class="signin" id="signin"><span class="label">Sign in first. We email you a link and a code, no password.</span>
+      <input type="email" id="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></details>` : "";
   const pane = {overview:()=>paneOverview(s), seasons:()=>paneSeasons(s), arcs:()=>paneArcs(s,d), events:()=>paneEvents(s,d), filler:()=>paneFiller(s,d), manga:()=>paneManga(s)}[tab]();
   const book = s.kind==="novel" ? "light novel" : "manga";
   const answer = s.next ? `<p class="answer">After the anime, read the ${book} from <span class="ch">${esc((s.unit||"Chapter")+" "+s.next)}</span>.</p>`
@@ -781,7 +783,7 @@ function renderSeries(id, tab){
   const bookTile = s.kind==="original"||s.kind==="vn" ? "" : `<div class="t pic">${coverHTML(s,"manga","","",true)}<span class="cap">${s.kind==="novel"?"Light novel":"Manga"}${s.next ? `, from ${esc((s.unit||"chapter").toLowerCase()+" "+s.next)}` : ""}</span></div>`;
   patch(document.getElementById("app")).html = `
     <div class="series" style="${toneVars(s)}">
-    <header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${homeHref()}">Rankings</a>${STATIC ? `<a class="back opt" href="${ROOT}anime/">A to Z</a>` : ""}<a class="back melink" href="${profileHref()}">My list</a></nav></header>
+    ${mastHTML(false, "compact")}
     <section class="board sh">
       <div class="sh-cov"><div class="t pic">${coverHTML(s,"anime","","",true)}<span class="cap">Anime, ${s.eps} episode${s.eps===1?"":"s"}</span></div>${bookTile}</div>
       <div class="sh-r">
@@ -883,7 +885,7 @@ function renderProfile(){
        ${STATUSES.map(([k,l])=>{ const xs = by(k); return xs.length ? `<h3>${l} <span class="label">${xs.length}</span></h3><div class="wall">${xs.map(card).join("")}</div>` : ""; }).join("")}
        ${rated.length ? `<h3>Your ratings <span class="label">${rated.length}</span></h3><div class="wall">${rated.map(card).join("")}</div>` : ""}`;
   patch(document.getElementById("app")).html = `
-    <div class="chap c-ground" data-chap><header class="mast compact"><a class="wm" href="${homeHref()}">Animeter</a><nav class="mastnav"><a class="back" href="${homeHref()}">Rankings</a></nav></header>
+    <div class="chap c-ground" data-chap>${mastHTML(false, "compact")}
     <section class="prof in-w"><h2>My list</h2><p class="sub">What you're watching, what you finished, what you dropped, and your ratings.</p>${body}</section></div>`;
   document.getElementById("signin")?.addEventListener("submit", sendLink);
   document.getElementById("signout")?.addEventListener("click", signOut);
@@ -1026,7 +1028,8 @@ function navTo(url, push){
       if (a && b) a.replaceWith(b.cloneNode()); else if (a) a.remove(); else if (b) document.head.appendChild(b.cloneNode()); });
   }).catch(()=>{});
   const now = route();
-  if (url.hash==="#rankings"){ const el=document.getElementById("rankings"); if (el) el.scrollIntoView(); }
+  if (url.hash==="#find") focusFinder();
+  else if (url.hash==="#rankings"){ const el=document.getElementById("rankings"); if (el) el.scrollIntoView(); }
   else if (!(prev.id && prev.id===now.id)) window.scrollTo({top:0, behavior:"auto"});
   return true;
 }
@@ -1042,8 +1045,21 @@ if (STATIC){
   window.addEventListener("popstate", ()=>navTo(new URL(location.href), false));
 }
 
+/* header: the search link goes to the finder on the home page; the phone menu closes once used or clicked away from */
+document.addEventListener("toggle", e=>{ if (e.target.matches?.(".gate") && e.target.open) e.target.querySelector("input")?.focus(); }, true);
+function focusFinder(){
+  const f = document.getElementById("find"); if (!f) return false;
+  f.scrollIntoView({block:"center", behavior:"auto"}); f.focus({preventScroll:true}); return true;
+}
+document.addEventListener("click", e=>{
+  const m = document.querySelector(".navmenu[open]");
+  if (m && (!m.contains(e.target) || e.target.closest(".navpanel a"))) m.open = false;
+  if (e.target.closest("[data-find]") && focusFinder()) e.preventDefault();
+});
+document.addEventListener("keydown", e=>{ if (e.key==="Escape"){ const m = document.querySelector(".navmenu[open]"); if (m){ m.open = false; m.querySelector("summary").focus(); } } });
 (function init(){
   render();
+  if (location.hash==="#find") setTimeout(focusFinder, 0);
   setTimeout(()=>document.documentElement.classList.add("calm"), 1600);   // entrance motion plays once per visit, not on every re-render
   if (STATIC){ bootStatic(); return; }
   const boot = async () => {

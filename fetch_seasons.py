@@ -111,7 +111,7 @@ for sid, st in state.items():
     seasons, extras = [], []
     for m in ms:
         if m["status"] == "NOT_YET_RELEASED": continue
-        t = m["title"].get("english") or m["title"].get("romaji")
+        t = re.sub(r"(?<=\w)\u2018(?=\w)", "\u2019", m["title"].get("english") or m["title"].get("romaji"))   # AniList has "Howl‘s"
         total, done = aired(m)
         row = {"id": m["id"], "title": t, "format": m["format"], "year": (m.get("startDate") or {}).get("year"), "status": m["status"], "url": m["siteUrl"]}
         if m["format"] in SEASON_FMT:

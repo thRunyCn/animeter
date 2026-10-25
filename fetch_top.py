@@ -183,7 +183,7 @@ for g in order:
         if e["relationType"] == "SOURCE" and n["type"] == "MANGA": src = n; break
     out.append({
         "id": slug(t.get("english") or t.get("romaji")),
-        "title": t.get("english") or t.get("romaji"), "romaji": t.get("romaji"), "jp": t.get("native") or "",
+        "title": re.sub(r"(?<=\w)\u2018(?=\w)", "\u2019", t.get("english") or t.get("romaji")),   # AniList has "Howl‘s" "romaji": t.get("romaji"), "jp": t.get("native") or "",
         "kind": SRC.get(m.get("source") or "", "manga" if src else "original"),
         "format": m["format"], "eps": m.get("episodes"), "status": m["status"],
         "year": m.get("seasonYear") or (m.get("startDate") or {}).get("year"),

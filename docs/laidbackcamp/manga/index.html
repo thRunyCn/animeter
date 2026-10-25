@@ -28,7 +28,7 @@
 <div class="wrap">
   <div id="app">
     <div class="series" style="--tone:#f1a64b;--tone-ink:#1c1c1c;--deep:#281b0b">
-    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav"><a class="back" href="../../">Rankings</a><a class="back opt" href="../../anime/">A to Z</a><a class="back melink" href="../../profile/">My list</a></nav></header>
+    <header class="mast compact"><a class="wm" href="../../">Animeter</a><nav class="mastnav" aria-label="Main"><span class="navlinks"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></span><details class="navmenu"><summary>Menu</summary><div class="navpanel"><a href="../../#rankings">Rankings</a><a href="../../anime/">A to Z</a><a href="../../genre/">Genres</a></div></details><a class="srch" href="../../#find" data-find=""><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"></circle><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg><span>Search</span></a><a class="melink" href="../../profile/">My list</a></nav></header>
     <section class="board sh">
       <div class="sh-cov"><div class="t pic"><div class="cover" style="--tone:#f1ae5d">
     <img src="../../covers/laidbackcamp-anime.jpg" alt="Laid-Back Camp anime cover" fetchpriority="high" width="460" height="649">
@@ -44,8 +44,8 @@
         <div class="t fact"><b>8.1</b><span class="label">AniList score</span></div>
         <div class="t fact"><b>—</b><span class="label">Animeter, no votes yet</span></div>
         <div class="t fact"><b>37</b><span class="label">episodes, 3 seasons</span></div>
-        <div class="t deep sh-me"><form class="signin" id="signin"><span class="label">Sign in to rate and report. We email you a link and a code, no password.</span>
-      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></div>
+        <div class="t deep sh-me"><details class="gate"><summary class="btn">Rate it or report where you stopped</summary><form class="signin" id="signin"><span class="label">Sign in first. We email you a link and a code, no password.</span>
+      <input type="email" id="email" required="" placeholder="you@example.com" autocomplete="email" aria-label="Email address"><button class="btn" type="submit" id="sendlink">Email me a link</button></form><div class="note" id="snote"></div></details></div>
       </div>
       <nav class="t tabs" aria-label="Laid-Back Camp sections"><a href="../../laidbackcamp/">Overview</a><a href="../../laidbackcamp/seasons/">Seasons<span class="n">3</span></a><a href="../../laidbackcamp/manga/" aria-current="page">Manga</a></nav>
       <section class="t pane"><h2>Anime finished. Where does the manga pick up?</h2>
@@ -57,13 +57,13 @@
     </section>
     <section class="board related" aria-labelledby="rel-h"><h2 id="rel-h">More like Laid-Back Camp</h2><div class="wall"><a class="card" href="../../mono/"><div class="cover" style="--tone:#50bbe4">
     <img src="../../covers/mono-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>mono</b></div><span class="obi"><span>Manga Ch. 33</span><b>7.6</b></span>
+    <div class="ph" aria-hidden="true"><b>mono</b></div><span class="obi"><span>Manga <abbr title="Chapter 33">Ch. 33</abbr></span><b>7.6</b></span>
     </div><span class="t">mono</span></a><a class="card" href="../../hidamarisketch/"><div class="cover" style="--tone:#5d86e4">
     <img src="../../covers/hidamarisketch-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Hidamari Sketch</b></div><span class="obi"><span>Manga Ch. 104</span><b>7.4</b></span>
+    <div class="ph" aria-hidden="true"><b>Hidamari Sketch</b></div><span class="obi"><span>Manga <abbr title="Chapter 104">Ch. 104</abbr></span><b>7.4</b></span>
     </div><span class="t">Hidamari Sketch</span></a><a class="card" href="../../yuyushiki/"><div class="cover" style="--tone:#e4c91a">
     <img src="../../covers/yuyushiki-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Yuyushiki</b></div><span class="obi"><span>Manga Ch. 53</span><b>7.2</b></span>
+    <div class="ph" aria-hidden="true"><b>Yuyushiki</b></div><span class="obi"><span>Manga <abbr title="Chapter 53">Ch. 53</abbr></span><b>7.2</b></span>
     </div><span class="t">Yuyushiki</span></a><a class="card" href="../../nonnonbiyori/"><div class="cover" style="--tone:#50e4bb">
     <img src="../../covers/nonnonbiyori-anime.jpg" alt="" loading="lazy" width="460" height="649">
     <div class="ph" aria-hidden="true"><b>Non Non Biyori</b></div><span class="obi ink"><span>Unclear</span><b>7.8</b></span>
@@ -72,7 +72,7 @@
     <div class="ph" aria-hidden="true"><b>Ruri Rocks</b></div><span class="obi ink"><span>Unclear</span><b>7.9</b></span>
     </div><span class="t">Ruri Rocks</span></a><a class="card" href="../../encouragementofclimb/"><div class="cover" style="--tone:#4393e4">
     <img src="../../covers/encouragementofclimb-anime.jpg" alt="" loading="lazy" width="460" height="649">
-    <div class="ph" aria-hidden="true"><b>Encouragement of Climb</b></div><span class="obi"><span>Manga Ch. 125</span><b>6.7</b></span>
+    <div class="ph" aria-hidden="true"><b>Encouragement of Climb</b></div><span class="obi"><span>Manga <abbr title="Chapter 125">Ch. 125</abbr></span><b>6.7</b></span>
     </div><span class="t">Encouragement of Climb</span></a></div></section></div></div>
   <footer>
     <div class="f-say"><p>Every anime here comes with the episode people quit, the filler worth skipping and the chapter where the manga picks up.</p>
