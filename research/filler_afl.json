@@ -41,6 +41,20 @@
   ],
   "anime_canon": []
  },
+ "acertainmagicalindex": {
+  "pages": [
+   {
+    "slug": "certain-magical-index",
+    "title": "A Certain Magical Index (Toaru Majutsu No Index)",
+    "eps": 74,
+    "from": 1
+   }
+  ],
+  "total": 74,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
  "ajindemihuman": {
   "pages": [
    {
@@ -115,43 +129,37 @@
  "bakemonogatari": {
   "pages": [
    {
-    "slug": "bakemonogatari",
-    "title": "Food Wars! OVAs",
-    "eps": 5,
-    "from": 1
-   },
-   {
     "slug": "nisemonogatari",
     "title": "Nisemonogatari",
     "eps": 11,
-    "from": 6
+    "from": 1
    },
    {
     "slug": "monogatari-series-second-season",
     "title": "Monogatari Series Second Season",
     "eps": 23,
-    "from": 17
+    "from": 12
    },
    {
     "slug": "hanamonogatari",
     "title": "Hanamonogatari",
     "eps": 5,
-    "from": 40
+    "from": 35
    },
    {
     "slug": "tsukimonogatari",
     "title": "Tsukimonogatari",
     "eps": 4,
-    "from": 45
+    "from": 40
    },
    {
     "slug": "owarimonogatari",
     "title": "Owarimonogatari",
     "eps": 9,
-    "from": 49
+    "from": 44
    }
   ],
-  "total": 57,
+  "total": 52,
   "filler": [],
   "mixed": [],
   "anime_canon": []
@@ -305,25 +313,6 @@
   ],
   "total": 29,
   "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
- "bladedanceoftheelemental": {
-  "pages": [
-   {
-    "slug": "seirei-tsukai-no-blade-dance",
-    "title": "Gintama Films",
-    "eps": 3,
-    "from": 1
-   }
-  ],
-  "total": 3,
-  "filler": [
-   [
-    1,
-    2
-   ]
-  ],
   "mixed": [],
   "anime_canon": []
  },
@@ -515,34 +504,6 @@
     13
    ]
   ]
- },
- "chronocrusade": {
-  "pages": [
-   {
-    "slug": "chrono-crusade",
-    "title": "Thus Spoke Rohan Kishibe",
-    "eps": 4,
-    "from": 1
-   }
-  ],
-  "total": 4,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
- "cityhunter": {
-  "pages": [
-   {
-    "slug": "city-hunter",
-    "title": "Noragami OVAs",
-    "eps": 4,
-    "from": 1
-   }
-  ],
-  "total": 4,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
  },
  "classroomoftheelite": {
   "pages": [
@@ -789,23 +750,12 @@
     "title": "Digimon Adventure:",
     "eps": 23,
     "from": 55
-   },
-   {
-    "slug": "digimon-adventure-02",
-    "title": "Code Geass: Akito the Exiled",
-    "eps": 5,
-    "from": 78
    }
   ],
-  "total": 82,
+  "total": 77,
   "filler": [],
   "mixed": [],
-  "anime_canon": [
-   [
-    78,
-    82
-   ]
-  ]
+  "anime_canon": []
  },
  "dororo": {
   "pages": [
@@ -817,6 +767,20 @@
    }
   ],
   "total": 15,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "dragonquesttheadventureo": {
+  "pages": [
+   {
+    "slug": "dragon-quest-adventure-dai",
+    "title": "DRAGON QUEST The Adventure of Dai (2020)",
+    "eps": 17,
+    "from": 1
+   }
+  ],
+  "total": 17,
   "filler": [],
   "mixed": [],
   "anime_canon": []
@@ -885,6 +849,20 @@
     13
    ]
   ],
+  "anime_canon": []
+ },
+ "emmaavictorianromance": {
+  "pages": [
+   {
+    "slug": "emma-victorian-romance",
+    "title": "Emma: A Victorian Romance (Eikoku Koi Monogatari Emma)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
   "anime_canon": []
  },
  "excelsaga": {
@@ -1004,29 +982,14 @@
  "foodwars": {
   "pages": [
    {
-    "slug": "food-wars-fourth-plate",
-    "title": "Bleach OVAs",
-    "eps": 2,
+    "slug": "shokugeki-no-soma",
+    "title": "Food Wars! (Shokugeki no Souma)",
+    "eps": 86,
     "from": 1
-   },
-   {
-    "slug": "food-wars-fifth-plate",
-    "title": "Black Clover OVAs",
-    "eps": 2,
-    "from": 3
    }
   ],
-  "total": 4,
-  "filler": [
-   [
-    2,
-    2
-   ],
-   [
-    4,
-    4
-   ]
-  ],
+  "total": 86,
+  "filler": [],
   "mixed": [],
   "anime_canon": []
  },
@@ -1417,6 +1380,20 @@
   "mixed": [],
   "anime_canon": []
  },
+ "isitwrongtotrytopickupgi": {
+  "pages": [
+   {
+    "slug": "it-wrong-try-pick-girls-dungeon",
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? (Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka)",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
  "kabanerioftheironfortres": {
   "pages": [
    {
@@ -1433,35 +1410,6 @@
    [
     1,
     12
-   ]
-  ]
- },
- "kakegurui": {
-  "pages": [
-   {
-    "slug": "kakegurui",
-    "title": "Dragon Ball Films",
-    "eps": 19,
-    "from": 1
-   }
-  ],
-  "total": 19,
-  "filler": [
-   [
-    1,
-    16
-   ]
-  ],
-  "mixed": [
-   [
-    17,
-    17
-   ]
-  ],
-  "anime_canon": [
-   [
-    18,
-    19
    ]
   ]
  },
@@ -1521,6 +1469,34 @@
     12
    ]
   ]
+ },
+ "landofthelustrous": {
+  "pages": [
+   {
+    "slug": "land-lustrous",
+    "title": "Land of the Lustrous (Houseki no Kuni)",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "lordmarksmanandvanadis": {
+  "pages": [
+   {
+    "slug": "madan-no-ou-vanadis-lord-marksman-and-vanadis",
+    "title": "Lord Marksman and Vanadis (Madan No Ou to Vanadis)",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
  },
  "magicknightrayearth": {
   "pages": [
@@ -1718,75 +1694,17 @@
     "title": "Mobile Suit Gundam (Kidou Senshi Gundam)",
     "eps": 43,
     "from": 1
-   },
-   {
-    "slug": "mobile-suit-zeta-gundam",
-    "title": "One Piece Specials",
-    "eps": 26,
-    "from": 44
-   },
-   {
-    "slug": "mobile-suit-gundam-zz",
-    "title": "Naruto OVAs",
-    "eps": 13,
-    "from": 70
    }
   ],
-  "total": 82,
+  "total": 43,
   "filler": [
    [
     15,
     15
-   ],
-   [
-    45,
-    49
-   ],
-   [
-    51,
-    51
-   ],
-   [
-    56,
-    57
-   ],
-   [
-    70,
-    76
-   ],
-   [
-    80,
-    81
    ]
   ],
-  "mixed": [
-   [
-    44,
-    44
-   ],
-   [
-    59,
-    59
-   ],
-   [
-    77,
-    77
-   ],
-   [
-    79,
-    79
-   ]
-  ],
-  "anime_canon": [
-   [
-    53,
-    53
-   ],
-   [
-    78,
-    78
-   ]
-  ]
+  "mixed": [],
+  "anime_canon": []
  },
  "mottotoloveru": {
   "pages": [
@@ -1800,6 +1718,129 @@
   "total": 26,
   "filler": [],
   "mixed": [],
+  "anime_canon": []
+ },
+ "mynextlifeasavillainessa": {
+  "pages": [
+   {
+    "slug": "my-next-life-villainess-all-routes-lead-doom",
+    "title": "My Next Life as a Villainess: All Routes Lead to Doom! (Bakarina)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    7,
+    9
+   ],
+   [
+    18,
+    20
+   ]
+  ],
+  "mixed": [
+   [
+    14,
+    14
+   ],
+   [
+    17,
+    17
+   ]
+  ],
+  "anime_canon": []
+ },
+ "nadiathesecretofbluewate": {
+  "pages": [
+   {
+    "slug": "nadia-secret-blue-water",
+    "title": "Nadia: The Secret of Blue Water (Fushigi no Umi no Nadia)",
+    "eps": 39,
+    "from": 1
+   }
+  ],
+  "total": 39,
+  "filler": [
+   [
+    24,
+    24
+   ],
+   [
+    26,
+    26
+   ],
+   [
+    29,
+    29
+   ],
+   [
+    32,
+    34
+   ]
+  ],
+  "mixed": [
+   [
+    27,
+    28
+   ],
+   [
+    30,
+    30
+   ]
+  ],
+  "anime_canon": [
+   [
+    1,
+    23
+   ],
+   [
+    25,
+    25
+   ],
+   [
+    31,
+    31
+   ],
+   [
+    35,
+    39
+   ]
+  ]
+ },
+ "negima": {
+  "pages": [
+   {
+    "slug": "magister-negi-magi",
+    "title": "Negima! (Mahou Sensei Negima!)",
+    "eps": 26,
+    "from": 1
+   },
+   {
+    "slug": "noragami-aragoto",
+    "title": "Negima!? (Mahou Sensei Negima?!)",
+    "eps": 26,
+    "from": 27
+   }
+  ],
+  "total": 52,
+  "filler": [
+   [
+    23,
+    26
+   ]
+  ],
+  "mixed": [
+   [
+    2,
+    2
+   ],
+   [
+    22,
+    22
+   ]
+  ],
   "anime_canon": []
  },
  "nogamenolife": {
@@ -2608,6 +2649,96 @@
    ]
   ]
  },
+ "reborn": {
+  "pages": [
+   {
+    "slug": "katekyo-hitman-reborn",
+    "title": "Reborn! (Katekyō Hitman Reborn!)",
+    "eps": 203,
+    "from": 1
+   }
+  ],
+  "total": 203,
+  "filler": [
+   [
+    56,
+    56
+   ],
+   [
+    84,
+    85
+   ],
+   [
+    97,
+    97
+   ],
+   [
+    120,
+    121
+   ],
+   [
+    142,
+    154
+   ],
+   [
+    158,
+    158
+   ],
+   [
+    179,
+    188
+   ]
+  ],
+  "mixed": [
+   [
+    10,
+    10
+   ],
+   [
+    29,
+    29
+   ],
+   [
+    73,
+    73
+   ],
+   [
+    119,
+    119
+   ],
+   [
+    141,
+    141
+   ],
+   [
+    159,
+    159
+   ],
+   [
+    178,
+    178
+   ],
+   [
+    189,
+    189
+   ]
+  ],
+  "anime_canon": []
+ },
+ "recordofragnarok": {
+  "pages": [
+   {
+    "slug": "record-ragnarok",
+    "title": "Record of Ragnarok (Shuumatsu no Walküre)",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
  "relife": {
   "pages": [
    {
@@ -2618,6 +2749,20 @@
    }
   ],
   "total": 17,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "rentagirlfriend": {
+  "pages": [
+   {
+    "slug": "rent-girlfriend",
+    "title": "Rent-A-Girlfriend (Kanojo, Okarishimasu)",
+    "eps": 36,
+    "from": 1
+   }
+  ],
+  "total": 36,
   "filler": [],
   "mixed": [],
   "anime_canon": []
@@ -3010,18 +3155,23 @@
   ],
   "anime_canon": []
  },
- "schoolrumble": {
+ "seraphoftheendvampirerei": {
   "pages": [
    {
-    "slug": "school-days",
-    "title": "School Rumble",
-    "eps": 54,
+    "slug": "seraph-end",
+    "title": "Seraph of the End: Vampire Reign (Owari no Seraph)",
+    "eps": 25,
     "from": 1
    }
   ],
-  "total": 54,
+  "total": 25,
   "filler": [],
-  "mixed": [],
+  "mixed": [
+   [
+    25,
+    25
+   ]
+  ],
   "anime_canon": []
  },
  "serialexperimentslain": {
@@ -3037,6 +3187,343 @@
   "filler": [],
   "mixed": [],
   "anime_canon": []
+ },
+ "sgtfrog": {
+  "pages": [
+   {
+    "slug": "keroro-gunsou-sgtfrog",
+    "title": "Sgt. Frog (Keroro Gunsou)",
+    "eps": 358,
+    "from": 1
+   }
+  ],
+  "total": 358,
+  "filler": [
+   [
+    23,
+    23
+   ],
+   [
+    33,
+    33
+   ],
+   [
+    37,
+    38
+   ],
+   [
+    44,
+    44
+   ],
+   [
+    47,
+    47
+   ],
+   [
+    52,
+    54
+   ],
+   [
+    57,
+    57
+   ],
+   [
+    59,
+    70
+   ],
+   [
+    72,
+    79
+   ],
+   [
+    83,
+    84
+   ],
+   [
+    86,
+    93
+   ],
+   [
+    95,
+    96
+   ],
+   [
+    99,
+    100
+   ],
+   [
+    104,
+    108
+   ],
+   [
+    111,
+    111
+   ],
+   [
+    114,
+    115
+   ],
+   [
+    117,
+    121
+   ],
+   [
+    123,
+    126
+   ],
+   [
+    128,
+    131
+   ],
+   [
+    134,
+    135
+   ],
+   [
+    137,
+    140
+   ],
+   [
+    143,
+    148
+   ],
+   [
+    150,
+    150
+   ],
+   [
+    152,
+    155
+   ],
+   [
+    157,
+    159
+   ],
+   [
+    161,
+    172
+   ],
+   [
+    174,
+    174
+   ],
+   [
+    176,
+    177
+   ],
+   [
+    179,
+    179
+   ],
+   [
+    181,
+    182
+   ],
+   [
+    184,
+    190
+   ],
+   [
+    192,
+    194
+   ],
+   [
+    196,
+    227
+   ],
+   [
+    229,
+    235
+   ],
+   [
+    237,
+    239
+   ],
+   [
+    241,
+    242
+   ],
+   [
+    244,
+    255
+   ],
+   [
+    258,
+    273
+   ],
+   [
+    275,
+    281
+   ],
+   [
+    283,
+    322
+   ],
+   [
+    324,
+    333
+   ],
+   [
+    343,
+    344
+   ],
+   [
+    346,
+    356
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    4
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    15,
+    22
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    26,
+    32
+   ],
+   [
+    36,
+    36
+   ],
+   [
+    39,
+    43
+   ],
+   [
+    45,
+    45
+   ],
+   [
+    49,
+    51
+   ],
+   [
+    55,
+    56
+   ],
+   [
+    58,
+    58
+   ],
+   [
+    81,
+    82
+   ],
+   [
+    85,
+    85
+   ],
+   [
+    94,
+    94
+   ],
+   [
+    97,
+    98
+   ],
+   [
+    109,
+    110
+   ],
+   [
+    112,
+    113
+   ],
+   [
+    116,
+    116
+   ],
+   [
+    122,
+    122
+   ],
+   [
+    127,
+    127
+   ],
+   [
+    132,
+    132
+   ],
+   [
+    136,
+    136
+   ],
+   [
+    141,
+    142
+   ],
+   [
+    151,
+    151
+   ],
+   [
+    156,
+    156
+   ],
+   [
+    173,
+    173
+   ],
+   [
+    191,
+    191
+   ],
+   [
+    195,
+    195
+   ],
+   [
+    228,
+    228
+   ],
+   [
+    236,
+    236
+   ],
+   [
+    240,
+    240
+   ],
+   [
+    256,
+    257
+   ],
+   [
+    282,
+    282
+   ],
+   [
+    338,
+    342
+   ],
+   [
+    345,
+    345
+   ]
+  ],
+  "anime_canon": [
+   [
+    180,
+    180
+   ],
+   [
+    357,
+    357
+   ]
+  ]
  },
  "shadowshouse": {
   "pages": [
@@ -3060,6 +3547,20 @@
     11
    ]
   ],
+  "anime_canon": []
+ },
+ "shamanking": {
+  "pages": [
+   {
+    "slug": "shaman-king-2021",
+    "title": "Shaman King (2021)",
+    "eps": 52,
+    "from": 1
+   }
+  ],
+  "total": 52,
+  "filler": [],
+  "mixed": [],
   "anime_canon": []
  },
  "shugochara": {
@@ -3276,6 +3777,49 @@
    ]
   ]
  },
+ "terrorinresonance": {
+  "pages": [
+   {
+    "slug": "terror-resonance",
+    "title": "Terror in Resonance (Zankyou no Terror)",
+    "eps": 11,
+    "from": 1
+   }
+  ],
+  "total": 11,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    11
+   ]
+  ]
+ },
+ "thattimeigotreincarnated": {
+  "pages": [
+   {
+    "slug": "time-i-got-reincarnated-slime",
+    "title": "That Time I Got Reincarnated as a Slime (Tensei shitara Slime Datta Ken)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    24,
+    24
+   ]
+  ],
+  "mixed": [
+   [
+    4,
+    4
+   ]
+  ],
+  "anime_canon": []
+ },
  "theancientmagusbride": {
   "pages": [
    {
@@ -3309,6 +3853,34 @@
   "mixed": [],
   "anime_canon": []
  },
+ "thedevilisaparttimer": {
+  "pages": [
+   {
+    "slug": "devil-part-timer",
+    "title": "The Devil Is a Part-Timer! (Hataraku Maou-Sama!)",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "thefamiliarofzero": {
+  "pages": [
+   {
+    "slug": "familiar-zero",
+    "title": "The Familiar Of Zero (Zero No Tsukaima)",
+    "eps": 49,
+    "from": 1
+   }
+  ],
+  "total": 49,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
  "thefuturediary": {
   "pages": [
    {
@@ -3323,6 +3895,117 @@
   "mixed": [],
   "anime_canon": []
  },
+ "thegodofhighschool": {
+  "pages": [
+   {
+    "slug": "god-high-school",
+    "title": "The God of High School (Gat Obeu Hai Seukul)",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "theheroiclegendofarslan": {
+  "pages": [
+   {
+    "slug": "heroic-legend-arslan",
+    "title": "The Heroic Legend of Arslan (Arslan Senki)",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "theprinceoftennis": {
+  "pages": [
+   {
+    "slug": "prince-tennis-0",
+    "title": "The Prince of Tennis (Tenisu no Ōjisama)",
+    "eps": 178,
+    "from": 1
+   }
+  ],
+  "total": 178,
+  "filler": [
+   [
+    21,
+    21
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    64,
+    64
+   ],
+   [
+    70,
+    75
+   ],
+   [
+    87,
+    90
+   ],
+   [
+    98,
+    104
+   ],
+   [
+    106,
+    116
+   ],
+   [
+    129,
+    176
+   ]
+  ],
+  "mixed": [
+   [
+    10,
+    10
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    27,
+    27
+   ],
+   [
+    76,
+    85
+   ]
+  ],
+  "anime_canon": []
+ },
+ "therisingoftheshieldhero": {
+  "pages": [
+   {
+    "slug": "rising-shield-hero",
+    "title": "The Rising of the Shield Hero (Tate no Yuusha no Nariagari)",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [],
+  "mixed": [
+   [
+    7,
+    7
+   ]
+  ],
+  "anime_canon": []
+ },
  "thesevendeadlysins": {
   "pages": [
    {
@@ -3330,9 +4013,15 @@
     "title": "The Seven Deadly Sins (Nanatsu no Taizai)",
     "eps": 100,
     "from": 1
+   },
+   {
+    "slug": "seven-deadly-sins-four-knights-apocalypse",
+    "title": "The Seven Deadly Sins: Four Knights of the Apocalypse  (Mokushiroku no Yonkishi)",
+    "eps": 24,
+    "from": 101
    }
   ],
-  "total": 100,
+  "total": 124,
   "filler": [
    [
     25,
@@ -3357,6 +4046,20 @@
     30
    ]
   ],
+  "anime_canon": []
+ },
+ "toyoureternity": {
+  "pages": [
+   {
+    "slug": "your-eternity",
+    "title": "To Your Eternity (Fumetsu no Anata e)",
+    "eps": 21,
+    "from": 1
+   }
+  ],
+  "total": 21,
+  "filler": [],
+  "mixed": [],
   "anime_canon": []
  },
  "trigun": {
@@ -3641,59 +4344,83 @@
  "yugioh": {
   "pages": [
    {
-    "slug": "yu-gi-oh",
-    "title": "Yu-Gi-Oh!",
-    "eps": 27,
+    "slug": "yu-gi-oh-duel-monsters",
+    "title": "Yu-Gi-Oh! Duel Monsters",
+    "eps": 225,
     "from": 1
    }
   ],
-  "total": 27,
+  "total": 225,
   "filler": [
    [
-    4,
-    4
+    13,
+    13
    ],
    [
-    8,
-    8
+    25,
+    25
    ],
    [
-    12,
-    12
+    33,
+    33
    ],
    [
-    15,
-    17
+    41,
+    45
    ],
    [
-    19,
-    20
+    74,
+    74
+   ],
+   [
+    80,
+    80
+   ],
+   [
+    98,
+    121
+   ],
+   [
+    136,
+    136
+   ],
+   [
+    144,
+    198
+   ],
+   [
+    225,
+    225
    ]
   ],
   "mixed": [
    [
     1,
-    3
+    1
    ],
    [
-    5,
-    7
+    34,
+    34
    ],
    [
-    9,
-    11
+    53,
+    53
    ],
    [
-    13,
-    14
+    70,
+    70
    ],
    [
-    18,
-    18
+    79,
+    79
    ],
    [
-    21,
-    27
+    135,
+    135
+   ],
+   [
+    137,
+    137
    ]
   ],
   "anime_canon": []

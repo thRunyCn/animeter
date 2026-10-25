@@ -1,18 +1,162 @@
 357 AFL shows
-115 series matched
+match 'certain-magical-index' (A Certain Magical Index (Toaru Majutsu No Index)) -> acertainmagicalindex season 0
+match 'ace-diamond' (Ace of the Diamond) -> aceofthediamond season 0
+match 'ace-diamond-act-ii' (Ace of the Diamond: Act II) -> aceofthediamond season 2
+match 'ajin-demi-human' (AJIN: Demi-Human) -> ajindemihuman season 0
+match 'angel-beats' (Angel Beats!) -> angelbeats season 0
+match 'another' (Another) -> another season 0
+match 'aoashi' (Aoashi) -> aoashi season 0
+match 'beastars' (Beastars) -> beastars season 0
+match 'beelzebub' (Beelzebub) -> beelzebub season 0
+match 'berserk' (Berserk (Berserk Kenpuden)) -> berserk2016 season 0
+match 'berserk-2016' (Berserk (2016)) -> berserk2016 season 0
+match 'black-butler' (Black Butler (Kuroshitsuji)) -> blackbutler season 0
+match 'black-cat' (Black Cat) -> blackcat season 0
+match 'black-lagoon' (Black Lagoon) -> blacklagoon season 0
+match 'blood-blockade-battlefront' (Blood Blockade Battlefront (Kekkai Sensen)) -> bloodblockadebattlefront season 0
+match 'bobobo-bo-bobo' (Bobobo-bo Bo-bobo) -> bobobobobobobo season 0
+match 'btooom' (BTOOOM!) -> btooom season 0
+match 'burn-witch' (BURN THE WITCH) -> burnthewitch season 0
+match 'campione' (Campione!) -> campione season 0
+match 'cardcaptor-sakura' (Cardcaptor Sakura) -> cardcaptorsakura season 0
+match 'carnival-phantasm' (Carnival Phantasm) -> carnivalphantasm season 0
+match 'charlotte' (Charlotte) -> charlotte season 0
+match 'classroom-elite' (Classroom of the Elite) -> classroomoftheelite season 0
+match 'claymore' (Claymore) -> claymore season 0
+match 'd-frag' (D-Frag!) -> dfrag season 0
+match 'd-gray-man' (D.Gray-man) -> dgrayman season 0
+match 'dagashi-kashi' (Dagashi Kashi) -> dagashikashi season 0
+match 'darling-franxx' (Darling in the FranXX) -> darlinginthefranxx season 0
+match 'darwins-game' (Darwin's Game) -> darwinsgame season 0
+match 'deadman-wonderland' (Deadman Wonderland) -> deadmanwonderland season 0
+match 'death-parade' (Death Parade) -> deathparade season 0
+match 'dennou-coil' (Den-noh Coil) -> dennohcoil season 0
+match 'devilman-crybaby' (Devilman Crybaby) -> devilmancrybaby season 0
+match 'digimon-adventure' (Digimon Adventure) -> digimondigitalmonsters season 0
+match 'digimon-adventure-2020' (Digimon Adventure:) -> digimondigitalmonsters season 0
+match 'dororo' (Dororo (2019)) -> dororo season 0
+match 'dragon-quest-adventure-dai' (DRAGON QUEST The Adventure of Dai (2020)) -> dragonquesttheadventureo season 0
+match 'drifters' (Drifters) -> drifters season 0
+match 'durarara' (DURARARA!!) -> durarara season 0
+match 'edens-zero' (EDENS ZERO) -> edenszero season 0
+match 'elfen-lied' (Elfen Lied) -> elfenlied season 0
+match 'emma-victorian-romance' (Emma: A Victorian Romance (Eikoku Koi Monogatari Emma)) -> emmaavictorianromance season 0
+match 'excel-saga' (Excel Saga) -> excelsaga season 0
+match 'fatestay-night' (Fate/stay night) -> fatestaynight season 0
+match 'hokuto-no-ken' (Fist of the North Star) -> fistofthenorthstar season 0
+match 'shokugeki-no-soma' (Food Wars! (Shokugeki no Souma)) -> foodwars season 0
+match 'full-metal-panic' (Full Metal Panic!) -> fullmetalpanic season 0
+match 'gangsta' (GANGSTA.) -> gangsta season 0
+match 'digimon-tamers' (Ghost in the Shell: SAC_2045) -> ghostintheshellstandalon season 2
+match 'ghost-shell-stand-alone-complex' (Ghost In the Shell: Stand Alone Complex) -> ghostintheshellstandalon season 0
+match 'girlfriend-girlfriend' (Girlfriend, Girlfriend (Kanojo mo Kanojo)) -> girlfriendgirlfriend season 0
+match 'girls-last-tour' (Girls' Last Tour (Shoujo Shuumatsu Ryokou)) -> girlslasttour season 0
+match 'goblin-slayer' (Goblin Slayer) -> goblinslayer season 0
+match 'gosick' (Gosick) -> gosick season 0
+match 'hanamonogatari' (Hanamonogatari) -> bakemonogatari season 3
+match 'hayate-combat-butler' (Hayate the Combat Butler (Hayate no Gotoku!)) -> hayatethecombatbutler season 0
+match 'heavens-lost-property' (Heaven's Lost Property) -> heavenslostproperty season 0
+match 'hell-girl' (Hell Girl (Jigoku Shōjo Girl)) -> hellgirl season 0
+match 'hellsing' (Hellsing) -> hellsing season 0
+match 'high-school-dxd' (Highschool DxD) -> highschooldxd season 0
+match 'highschoool-dead' (Highschool of the Dead) -> highschoolofthedead season 0
+match 'when-they-cry' (Higurashi: When They Cry (Higurashi no naku koro ni)) -> whentheycry season 0
+match 'hikaru-no-go' (Hikaru no Go) -> hikarunogo season 0
+match 'initial-d' (Initial D) -> initiald1ststage season 0
+match 'inuyashiki-last-hero' (Inuyashiki Last Hero) -> inuyashikilasthero season 0
+match 'it-wrong-try-pick-girls-dungeon' (Is It Wrong to Try to Pick Up Girls in a Dungeon? (Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka)) -> isitwrongtotrytopickupgi season 0
+match 'kabaneri-iron-fortress' (Kabaneri of the Iron Fortress) -> kabanerioftheironfortres season 0
+match 'kamisama-kiss' (Kamisama Kiss (Kamisama Hajimemashita)) -> kamisamakiss season 0
+match 'kill-la-kill' (KILL la KILL) -> killlakill season 0
+match 'kiznaiver' (Kiznaiver) -> kiznaiver season 0
+match 'land-lustrous' (Land of the Lustrous (Houseki no Kuni)) -> landofthelustrous season 0
+match 'madan-no-ou-vanadis-lord-marksman-and-vanadis' (Lord Marksman and Vanadis (Madan No Ou to Vanadis)) -> lordmarksmanandvanadis season 0
+match 'magic-knight-rayearth' (Magic Knight Rayearth) -> magicknightrayearth season 0
+match 'maid-sama' (Maid-Sama! (Kaichou wa maid sama)) -> maidsama season 0
+match 'maken-ki-battling-venus' (Maken-ki! Battling Venus (Maken-ki!)) -> makenkibattlingvenus season 0
+match 'masamune-kuns-revenge' (Masamune-kun's Revenge (Masamune-kun no Revenge)) -> masamunekunsrevenge season 0
+match 'michiko-hatchin' (Michiko & Hatchin) -> michikohatchin season 0
+match 'miss-kobayashis-dragon-maid' (Miss Kobayashi's Dragon Maid) -> misskobayashisdragonmaid season 0
+match 'mobile-suit-gundam' (Mobile Suit Gundam (Kidou Senshi Gundam)) -> mobilesuitgundam season 0
+match 'monogatari-series-second-season' (Monogatari Series Second Season) -> bakemonogatari season 2
+match 'my-next-life-villainess-all-routes-lead-doom' (My Next Life as a Villainess: All Routes Lead to Doom! (Bakarina)) -> mynextlifeasavillainessa season 0
+match 'nadia-secret-blue-water' (Nadia: The Secret of Blue Water (Fushigi no Umi no Nadia)) -> nadiathesecretofbluewate season 0
+match 'magister-negi-magi' (Negima! (Mahou Sensei Negima!)) -> negima season 0
+match 'noragami-aragoto' (Negima!? (Mahou Sensei Negima?!)) -> negima season 0
+match 'nisemonogatari' (Nisemonogatari) -> bakemonogatari season 1
+match 'no-game-no-life' (No Game, No Life) -> nogamenolife season 0
+match 'orange' (Orange) -> orange season 0
+match 'ouran-high-school-host-club' (Ouran High School Host Club) -> ouranhighschoolhostclub season 0
+match 'outlaw-star' (Outlaw Star) -> outlawstar season 0
+match 'overlord' (Overlord) -> overlord season 0
+match 'owarimonogatari' (Owarimonogatari) -> bakemonogatari season 5
+match 'platinum-end' (Platinum End) -> platinumend season 0
+match 'pokemon' (Pokémon) -> pokmon season 0
+match 'prison-school' (Prison School) -> prisonschool season 0
+match 'psycho-pass' (PSYCHO-PASS) -> psychopass season 0
+match 'katekyo-hitman-reborn' (Reborn! (Katekyō Hitman Reborn!)) -> reborn season 0
+match 'record-ragnarok' (Record of Ragnarok (Shuumatsu no Walküre)) -> recordofragnarok season 0
+match 'relife' (ReLIFE) -> relife season 0
+match 'rent-girlfriend' (Rent-A-Girlfriend (Kanojo, Okarishimasu)) -> rentagirlfriend season 0
+match 'revolutionary-girl-utena' (Revolutionary Girl Utena (Shoujo Kakumei Utena)) -> revolutionarygirlutena season 0
+match 'ron-kamonohashis-forbidden-deductions' (Ron Kamonohashi's Forbidden Deductions (Kamonohashi Ron no Kindan Suiri)) -> ronkamonohashisforbidden season 0
+match 'rosario-vampire' (Rosario + Vampire) -> rosariovampire season 0
+match 'sage-tanya-evil' (Saga of Tanya the Evil) -> sagaoftanyatheevil season 0
+match 'sailor-moon' (Sailor Moon (Bishoujo Senshi Sailor Moon)) -> sailormoon season 0
+match 'saint-seiya' (Saint Seiya) -> saintseiyaknightsofthezo season 0
+match 'seraph-end' (Seraph of the End: Vampire Reign (Owari no Seraph)) -> seraphoftheendvampirerei season 0
+match 'serial-experiments-lain' (Serial Experiments Lain) -> serialexperimentslain season 0
+match 'keroro-gunsou-sgtfrog' (Sgt. Frog (Keroro Gunsou)) -> sgtfrog season 0
+match 'shadows-house' (SHADOWS HOUSE) -> shadowshouse season 0
+match 'shaman-king' (Shaman King) -> shamanking season 0
+match 'shaman-king-2021' (Shaman King (2021)) -> shamanking season 0
+match 'shugo-chara' (Shugo Chara) -> shugochara season 0
+match 'silver-spoon' (Silver Spoon) -> silverspoon season 0
+match 'sket-dance' (SKET Dance) -> sketdance season 0
+match 'skip-beat' (Skip Beat!) -> skipbeat season 0
+match 'space-patrol-luloco' (SPACE PATROL LULUCO) -> spacepatrolluluco season 0
+match 'summertime-render' (Summer Time Rendering) -> summertimerendering season 0
+match 'sword-art-online' (Sword Art Online) -> swordartonline season 0
+match 'sword-art-online-alicization' (Sword Art Online: Alicization) -> swordartonline season 2
+match 'terror-resonance' (Terror in Resonance (Zankyou no Terror)) -> terrorinresonance season 0
+match 'time-i-got-reincarnated-slime' (That Time I Got Reincarnated as a Slime (Tensei shitara Slime Datta Ken)) -> thattimeigotreincarnated season 0
+match 'ancient-magus-bride' (The Ancient Magus' Bride (Mahoutsukai no Yome)) -> theancientmagusbride season 0
+match 'asterisk-war' (The Asterisk War (Gakusen no Asterisk)) -> theasteriskwar season 0
+match 'devil-part-timer' (The Devil Is a Part-Timer! (Hataraku Maou-Sama!)) -> thedevilisaparttimer season 0
+match 'familiar-zero' (The Familiar Of Zero (Zero No Tsukaima)) -> thefamiliarofzero season 0
+match 'future-diary' (The Future Diary (Mirai Nikki)) -> thefuturediary season 0
+match 'god-high-school' (The God of High School (Gat Obeu Hai Seukul)) -> thegodofhighschool season 0
+match 'heroic-legend-arslan' (The Heroic Legend of Arslan (Arslan Senki)) -> theheroiclegendofarslan season 0
+match 'prince-tennis-0' (The Prince of Tennis (Tenisu no Ōjisama)) -> theprinceoftennis season 0
+match 'rising-shield-hero' (The Rising of the Shield Hero (Tate no Yuusha no Nariagari)) -> therisingoftheshieldhero season 0
+match 'nanatsu-no-taizai' (The Seven Deadly Sins (Nanatsu no Taizai)) -> thesevendeadlysins season 0
+match 'seven-deadly-sins-four-knights-apocalypse' (The Seven Deadly Sins: Four Knights of the Apocalypse  (Mokushiroku no Yonkishi)) -> thesevendeadlysins season 5
+match 'love-ru-darkness' (To Love Ru: Darkness) -> mottotoloveru season 1
+match 'your-eternity' (To Your Eternity (Fumetsu no Anata e)) -> toyoureternity season 0
+match 'trigun' (Trigun) -> trigun season 0
+match 'tsugumomo' (Tsugumomo) -> tsugumomo season 0
+match 'tsukimonogatari' (Tsukimonogatari) -> bakemonogatari season 4
+match 'urusei-yatsura' (Urusei Yatsura (1981)) -> uruseiyatsura season 0
+match 'vampire-knight' (Vampire Knight) -> vampireknight season 0
+match 'we-never-learn-bokuben' (We Never Learn!: BOKUBEN (Bokutachi wa Benkyou ga Dekinai)) -> weneverlearnbokuben season 0
+match 'akatsuki-no-yona' (Yona of the Dawn (Akatsuki no Yona)) -> yonaofthedawn season 0
+match 'yowamushi-pedal' (Yowamushi Pedal) -> yowamushipedal season 0
+match 'yu-no-girl-who-chants-love-bound-world' (YU-NO: A Girl Who Chants Love at the Bound of This World) -> yunoagirlwhochantsloveat season 0
+match 'zatch-bell' (Zatch Bell! (Konjiki no Gash Bell!!)) -> zatchbell season 0
+133 series matched
 aceofthediamond: ace-diamond, ace-diamond-act-ii: 178 episodes, 5 filler
+acertainmagicalindex: certain-magical-index: 74 episodes, 0 filler
 ajindemihuman: ajin-demi-human: 26 episodes, 0 filler
 angelbeats: angel-beats: 16 episodes, 0 filler
 another: another: 12 episodes, 1 filler
 aoashi: aoashi: 24 episodes, 0 filler
-bakemonogatari: bakemonogatari, nisemonogatari, monogatari-series-second-season, hanamonogatari, tsukimonogatari, owarimonogatari: 57 episodes, 0 filler
+bakemonogatari: nisemonogatari, monogatari-series-second-season, hanamonogatari, tsukimonogatari, owarimonogatari: 52 episodes, 0 filler
 beastars: beastars: 24 episodes, 0 filler
 beelzebub: beelzebub: 60 episodes, 13 filler
 berserk2016: berserk, berserk-2016: 49 episodes, 0 filler
 blackbutler: black-butler: 46 episodes, 27 filler
 blackcat: black-cat: 24 episodes, 4 filler
 blacklagoon: black-lagoon: 29 episodes, 0 filler
-bladedanceoftheelemental: seirei-tsukai-no-blade-dance: 3 episodes, 2 filler
 bloodblockadebattlefront: blood-blockade-battlefront: 24 episodes, 0 filler
 bobobobobobobo: bobobo-bo-bobo: 76 episodes, 0 filler
 btooom: btooom: 12 episodes, 0 filler
@@ -21,8 +165,6 @@ campione: campione: 13 episodes, 3 filler
 cardcaptorsakura: cardcaptor-sakura: 93 episodes, 33 filler
 carnivalphantasm: carnival-phantasm: 12 episodes, 0 filler
 charlotte: charlotte: 13 episodes, 0 filler
-chronocrusade: chrono-crusade: 4 episodes, 0 filler
-cityhunter: city-hunter: 4 episodes, 0 filler
 classroomoftheelite: classroom-elite: 38 episodes, 0 filler
 claymore: claymore: 26 episodes, 3 filler
 dagashikashi: dagashi-kashi: 24 episodes, 0 filler
@@ -34,16 +176,18 @@ dennohcoil: dennou-coil: 13 episodes, 0 filler
 devilmancrybaby: devilman-crybaby: 10 episodes, 4 filler
 dfrag: d-frag: 12 episodes, 0 filler
 dgrayman: d-gray-man: 116 episodes, 25 filler
-digimondigitalmonsters: digimon-adventure, digimon-adventure-2020, digimon-adventure-02: 82 episodes, 0 filler
+digimondigitalmonsters: digimon-adventure, digimon-adventure-2020: 77 episodes, 0 filler
 dororo: dororo: 15 episodes, 0 filler
+dragonquesttheadventureo: dragon-quest-adventure-dai: 17 episodes, 0 filler
 drifters: drifters: 12 episodes, 0 filler
 durarara: durarara: 61 episodes, 0 filler
 edenszero: edens-zero: 50 episodes, 0 filler
 elfenlied: elfen-lied: 13 episodes, 0 filler
+emmaavictorianromance: emma-victorian-romance: 24 episodes, 0 filler
 excelsaga: excel-saga: 26 episodes, 26 filler
 fatestaynight: fatestay-night: 24 episodes, 3 filler
 fistofthenorthstar: hokuto-no-ken: 152 episodes, 20 filler
-foodwars: food-wars-fourth-plate, food-wars-fifth-plate: 4 episodes, 2 filler
+foodwars: shokugeki-no-soma: 86 episodes, 0 filler
 fullmetalpanic: full-metal-panic: 49 episodes, 16 filler
 gangsta: gangsta: 12 episodes, 0 filler
 no episodes: ghostintheshellstandalon digimon-tamers
@@ -61,19 +205,24 @@ highschoolofthedead: highschoool-dead: 13 episodes, 0 filler
 hikarunogo: hikaru-no-go: 75 episodes, 2 filler
 initiald1ststage: initial-d: 82 episodes, 0 filler
 inuyashikilasthero: inuyashiki-last-hero: 11 episodes, 0 filler
+isitwrongtotrytopickupgi: it-wrong-try-pick-girls-dungeon: 25 episodes, 0 filler
 kabanerioftheironfortres: kabaneri-iron-fortress: 12 episodes, 0 filler
-kakegurui: kakegurui: 19 episodes, 16 filler
 kamisamakiss: kamisama-kiss: 30 episodes, 0 filler
 killlakill: kill-la-kill: 25 episodes, 0 filler
 kiznaiver: kiznaiver: 12 episodes, 0 filler
+landofthelustrous: land-lustrous: 12 episodes, 0 filler
+lordmarksmanandvanadis: madan-no-ou-vanadis-lord-marksman-and-vanadis: 13 episodes, 0 filler
 magicknightrayearth: magic-knight-rayearth: 49 episodes, 20 filler
 maidsama: maid-sama: 26 episodes, 0 filler
 makenkibattlingvenus: maken-ki-battling-venus: 22 episodes, 10 filler
 masamunekunsrevenge: masamune-kuns-revenge: 12 episodes, 0 filler
 michikohatchin: michiko-hatchin: 22 episodes, 0 filler
 misskobayashisdragonmaid: miss-kobayashis-dragon-maid: 20 episodes, 3 filler
-mobilesuitgundam: mobile-suit-gundam, mobile-suit-zeta-gundam, mobile-suit-gundam-zz: 82 episodes, 18 filler
+mobilesuitgundam: mobile-suit-gundam: 43 episodes, 1 filler
 mottotoloveru: love-ru-darkness: 26 episodes, 0 filler
+mynextlifeasavillainessa: my-next-life-villainess-all-routes-lead-doom: 24 episodes, 6 filler
+nadiathesecretofbluewate: nadia-secret-blue-water: 39 episodes, 6 filler
+negima: magister-negi-magi, noragami-aragoto: 52 episodes, 4 filler
 nogamenolife: no-game-no-life: 12 episodes, 0 filler
 orange: orange: 13 episodes, 0 filler
 ouranhighschoolhostclub: ouran-high-school-host-club: 24 episodes, 1 filler
@@ -83,17 +232,22 @@ platinumend: platinum-end: 24 episodes, 0 filler
 pokmon: pokemon: 1140 episodes, 235 filler
 prisonschool: prison-school: 13 episodes, 0 filler
 psychopass: psycho-pass: 44 episodes, 0 filler
+reborn: katekyo-hitman-reborn: 203 episodes, 30 filler
+recordofragnarok: record-ragnarok: 12 episodes, 0 filler
 relife: relife: 17 episodes, 0 filler
+rentagirlfriend: rent-girlfriend: 36 episodes, 0 filler
 revolutionarygirlutena: revolutionary-girl-utena: 39 episodes, 0 filler
 ronkamonohashisforbidden: ron-kamonohashis-forbidden-deductions: 18 episodes, 0 filler
 rosariovampire: rosario-vampire: 26 episodes, 11 filler
 sagaoftanyatheevil: sage-tanya-evil: 12 episodes, 0 filler
 sailormoon: sailor-moon: 200 episodes, 98 filler
 saintseiyaknightsofthezo: saint-seiya: 114 episodes, 40 filler
-schoolrumble: school-days: 54 episodes, 0 filler
+seraphoftheendvampirerei: seraph-end: 25 episodes, 0 filler
 serialexperimentslain: serial-experiments-lain: 13 episodes, 0 filler
+sgtfrog: keroro-gunsou-sgtfrog: 358 episodes, 255 filler
 shadowshouse: shadows-house: 25 episodes, 2 filler
 no episodes: shamanking shaman-king
+shamanking: shaman-king-2021: 52 episodes, 0 filler
 shugochara: shugo-chara: 127 episodes, 45 filler
 silverspoon: silver-spoon: 22 episodes, 0 filler
 sketdance: sket-dance: 54 episodes, 2 filler
@@ -101,10 +255,19 @@ skipbeat: skip-beat: 25 episodes, 0 filler
 spacepatrolluluco: space-patrol-luloco: 13 episodes, 0 filler
 summertimerendering: summertime-render: 12 episodes, 0 filler
 swordartonline: sword-art-online, sword-art-online-alicization: 97 episodes, 0 filler
+terrorinresonance: terror-resonance: 11 episodes, 0 filler
+thattimeigotreincarnated: time-i-got-reincarnated-slime: 24 episodes, 1 filler
 theancientmagusbride: ancient-magus-bride: 24 episodes, 0 filler
 theasteriskwar: asterisk-war: 24 episodes, 1 filler
+thedevilisaparttimer: devil-part-timer: 13 episodes, 0 filler
+thefamiliarofzero: familiar-zero: 49 episodes, 0 filler
 thefuturediary: future-diary: 27 episodes, 0 filler
-thesevendeadlysins: nanatsu-no-taizai: 100 episodes, 4 filler
+thegodofhighschool: god-high-school: 13 episodes, 0 filler
+theheroiclegendofarslan: heroic-legend-arslan: 25 episodes, 0 filler
+theprinceoftennis: prince-tennis-0: 178 episodes, 79 filler
+therisingoftheshieldhero: rising-shield-hero: 25 episodes, 0 filler
+thesevendeadlysins: nanatsu-no-taizai, seven-deadly-sins-four-knights-apocalypse: 124 episodes, 4 filler
+toyoureternity: your-eternity: 21 episodes, 0 filler
 trigun: trigun: 26 episodes, 17 filler
 tsugumomo: tsugumomo: 12 episodes, 0 filler
 uruseiyatsura: urusei-yatsura: 167 episodes, 20 filler
@@ -113,13 +276,12 @@ weneverlearnbokuben: we-never-learn-bokuben: 17 episodes, 0 filler
 whentheycry: when-they-cry: 62 episodes, 0 filler
 yonaofthedawn: akatsuki-no-yona: 24 episodes, 0 filler
 yowamushipedal: yowamushi-pedal: 14 episodes, 0 filler
-yugioh: yu-gi-oh: 27 episodes, 8 filler
+yugioh: yu-gi-oh-duel-monsters: 225 episodes, 91 filler
 yunoagirlwhochantsloveat: yu-no-girl-who-chants-love-bound-world: 26 episodes, 0 filler
 zatchbell: zatch-bell: 150 episodes, 29 filler
-wrote filler for 114 series
-228 AFL shows unmatched:
+wrote filler for 133 series
+212 AFL shows unmatched:
 86-eighty-six	86 EIGHTY-SIX
-certain-magical-index	A Certain Magical Index (Toaru Majutsu No Index)
 a-certain-scientific-railgun	A Certain Scientific Railgun (Toaru Kagaku No Railgun)
 ace-attorney	Ace Attorney (Gyakuten Saiban)
 akame-ga-kill	Akame ga Kill!
@@ -138,8 +300,10 @@ beyblade-x	Beyblade X
 beyblade-burst-all-seasons	Black Butler OVAs
 black-clover	Black Clover
 blue-lock	Black Clover Film
+food-wars-fifth-plate	Black Clover OVAs
 blade-immortal-2019	Blade of the Immortal (2019)
 bleach	Bleach
+food-wars-fourth-plate	Bleach OVAs
 bleach-thousand-year-blood-war	Bleach: Thousand-Year Blood War (Bleach: Sennen Kessen-hen)
 blue-exorcist	Blue Exorcist (Ao no Exorcist)
 blue-lock-0	BLUE LOCK
@@ -151,6 +315,7 @@ chainsaw-man	Chainsaw Man
 clannad	Clannad
 clannad-after-story	Clannad: After Story
 cobra-animation	Cobra: The Animation
+digimon-adventure-02	Code Geass: Akito the Exiled
 code-geass	Code Geass: Lelouch of the Rebellion
 cells-work-code-black	Code Geass: Lelouch of the Rebellion Films
 cells-work	Code Geass: Lelouch of the Rebellion Special Edition
@@ -166,6 +331,7 @@ digimon-adventure-tri	Digimon Adventure tri. Films
 dragon-ball-super-broly	Dorohedoro
 dr-stone	Dr. STONE
 dragon-ball	Dragon Ball
+kakegurui	Dragon Ball Films
 dragon-ball-gt	Dragon Ball GT
 blue-period-0	Dragon Ball OVAs
 ranking-kings	Dragon Ball Specials
@@ -173,9 +339,7 @@ dragon-ball-super	Dragon Ball Super
 dragon-ball-super-broly-0	Dragon Ball Super Films
 dragon-ball-z	Dragon Ball Z
 dragon-ball-z-kai	Dragon Ball Z Kai
-dragon-quest-adventure-dai	DRAGON QUEST The Adventure of Dai (2020)
 happy-go-lucky-days	DURARARA!! OADs
-emma-victorian-romance	Emma: A Victorian Romance (Eikoku Koi Monogatari Emma)
 erased	ERASED (Boku Dake ga Inai Machi)
 f-zero-legend-falcon	F-Zero Legend of Falcon (F-Zero Farukon Densetsu)
 fairy-tail	Fairy Tail
@@ -189,7 +353,7 @@ fate-zero	Fate/Zero
 fire-force	Fire Force (Enen no Shouboutai)
 fist-of-the-blue-sky	Fist of the Blue Sky
 fist-of-the-blue-sky-regenesis	Fist of the Blue Sky: Regenesis
-shokugeki-no-soma	Food Wars! (Shokugeki no Souma)
+bakemonogatari	Food Wars! OVAs
 boruto-naruto-next-generations-manga-canon	Fractale
 fruits-basket-2001	Fruits Basket (Furuba)
 fruits-basket-2019	Fruits Basket (2019)
@@ -201,6 +365,7 @@ nekomonogatari-kuro	Ghost In the Shell Films
 ghost-shell-arise	Ghost in the Shell: Arise
 devilman-birth	Ghost In the Shell: Stand Alone Complex Films
 gintama	Gintama
+seirei-tsukai-no-blade-dance	Gintama Films
 golden-kamuy	Golden Kamuy
 great-teacher-onizuka	Great Teacher Onizuka
 gurren-lagann	GURREN LAGANN
@@ -218,7 +383,6 @@ initial-d-extra-stage	Initial D Extra Stage
 initial-d-extra-stage-2	Initial D Extra Stage 2
 initial-d-third-stage	Initial D Third Stage
 inuyasha	Inuyasha
-it-wrong-try-pick-girls-dungeon	Is It Wrong to Try to Pick Up Girls in a Dungeon? (Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka)
 it-wrong-try-pick-girls-dungeon-side-sword-oratoria	Is It Wrong to Try to Pick Up Girls In a Dungeon? On the Side: Sword Oratoria
 jojos-bizarre-adventure-tv	JoJo's Bizarre Adventure
 jojos-biarre-adenture-ova	JoJo's Bizarre Adventure (1993)
@@ -235,8 +399,6 @@ kirby-right-back-ya	Kirby: Right Back at Ya! (Hoshi no Kābī)
 kizumonogatari	Kizumonogatari
 komi-cant-communicate	Komi Can't Communicate (Komi-san wa Komyushou Desu)
 konosuba-gods-blessing-wonderful-world	KONOSUBA -God's blessing on this wonderful world!
-land-lustrous	Land of the Lustrous (Houseki no Kuni)
-madan-no-ou-vanadis-lord-marksman-and-vanadis	Lord Marksman and Vanadis (Madan No Ou to Vanadis)
 made-abyss	Made in Abyss
 magi-labyrinth-magic	Magi
 magi-adventure-sinbad-tv	Magi: Adventure of Sinbad
@@ -250,23 +412,22 @@ my-dress-darling	My Dress-Up Darling (Sono Bisque Doll wa Koi wo Suru)
 my-hero-academia	My Hero Academia (Boku no Hero Academia)
 my-hero-academia-movies	My Hero Academia Films
 my-hero-academia-vigilantes	My Hero Academia: Vigilantes (Vigilante: Boku no Hero Academia Illegals)
-my-next-life-villainess-all-routes-lead-doom	My Next Life as a Villainess: All Routes Lead to Doom! (Bakarina)
-nadia-secret-blue-water	Nadia: The Secret of Blue Water (Fushigi no Umi no Nadia)
 naruto	Naruto
 boruto-naruto-movie	Naruto Films
+mobile-suit-gundam-zz	Naruto OVAs
 naruto-shippuden	Naruto Shippuden
-magister-negi-magi	Negima! (Mahou Sensei Negima!)
 negima-ovaoad	Negima! OVAs
-noragami-aragoto	Negima!? (Mahou Sensei Negima?!)
 neon-genesis-evangelion	Neon Genesis Evangelion
 neon-genesis-evangelion-films	Neon Genesis Evangelion Films
 nisekoi-false-love	Nisekoi: False Love
 noragami	Noragami
+city-hunter	Noragami OVAs
 one-pace	One Pace (One Piece)
 one-piece	One Piece
 one-piece-movies	One Piece Films
 one-piece-log-fish-man-island-saga	One Piece Log: Fish-Man Island Saga
 your-eternity-0	One Piece OVAs
+mobile-suit-zeta-gundam	One Piece Specials
 one-punch-man	One-Punch Man
 parasyte-maxim	Parasyte: The Maxim (Kiseijuu)
 pluto	PLUTO
@@ -278,11 +439,8 @@ puella-magi-madoka-magica	Puella Magi Madoka Magica
 puella-magi-madoka-magica-films	Puella Magi Madoka Magica Films
 rave-master	Rave Master (Groove Adventure Rave)
 re-zero-starting-life-another-world	Re:ZERO -Starting Life in Another World- (Re: Zero- Kara Hajimeru Isekai Seikatsu)
-katekyo-hitman-reborn	Reborn! (Katekyō Hitman Reborn!)
 miraculous-ladybug	Rebuild of Evangelion
-record-ragnarok	Record of Ragnarok (Shuumatsu no Walküre)
 redo-healer	Redo of Healer (Kaifuku Jutsushi no Yarinaoshi)
-rent-girlfriend	Rent-A-Girlfriend (Kanojo, Okarishimasu)
 rurouni-kenshin	Rurouni Kenshin
 rurouni-kenshin-2023	Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))
 rwby	RWBY
@@ -291,10 +449,8 @@ sailor-moon-crystal	Sailor Moon Crystal
 naruto-movie-ninja-clash-land-snow	Sailor Moon Films
 naruto-movie-legend-stone-gelel	Sailor Moon Specials
 samurai-champloo	Samurai Champloo
+school-days	School Rumble
 orient	School Rumble: Extra Class
-seraph-end	Seraph of the End: Vampire Reign (Owari no Seraph)
-keroro-gunsou-sgtfrog	Sgt. Frog (Keroro Gunsou)
-shaman-king-2021	Shaman King (2021)
 shaman-kingflowers	Shaman King: Flowers
 shy	SHY
 slam-dunk-0	Slam Dunk
@@ -307,21 +463,12 @@ steinsgate	Steins;Gate
 steins-gate-0	Steins;Gate 0
 dragon-ball-heroes	Super Dragon Ball Heroes
 sword-art-online-alternative-ggo	Sword Art Online Alternative: Gun Gale Online
-terror-resonance	Terror in Resonance (Zankyou no Terror)
-time-i-got-reincarnated-slime	That Time I Got Reincarnated as a Slime (Tensei shitara Slime Datta Ken)
-devil-part-timer	The Devil Is a Part-Timer! (Hataraku Maou-Sama!)
-familiar-zero	The Familiar Of Zero (Zero No Tsukaima)
-god-high-school	The God of High School (Gat Obeu Hai Seukul)
-heroic-legend-arslan	The Heroic Legend of Arslan (Arslan Senki)
 melancholy-haruhi-suzumiya	The Melancholy of Haruhi Suzumiya (Suzumiya Haruhi no Yuuutsu)
 one-piece-0	The One Piece
-prince-tennis-0	The Prince of Tennis (Tenisu no Ōjisama)
 promised-neverland	The Promised Neverland (Yakusoku no Neverland)
-rising-shield-hero	The Rising of the Shield Hero (Tate no Yuusha no Nariagari)
-seven-deadly-sins-four-knights-apocalypse	The Seven Deadly Sins: Four Knights of the Apocalypse  (Mokushiroku no Yonkishi)
+chrono-crusade	Thus Spoke Rohan Kishibe
 love-ru	To Love Ru
 abandoned-sacred-beasts	To the Abandoned Sacred Beasts (Katsute Kami Datta Kemono-tachi e)
-your-eternity	To Your Eternity (Fumetsu no Anata e)
 tokyo-ghoul	Tokyo Ghoul
 tokyo-ghoul-re-0	Tokyo Ghoul:re
 tokyo-mew-mew	Tokyo Mew Mew
@@ -335,10 +482,10 @@ x	X
 yashahime-princess-half-demon	Yashahime: Princess Half-Demon
 your-lie-april	Your lie in April (Shigatsu wa Kimi no Uso)
 yuyu-hakusho	Yu Yu Hakusho
+yu-gi-oh	Yu-Gi-Oh!
 yu-gi-oh-5ds	Yu-Gi-Oh! 5D's
 yu-gi-oh-arc-v	Yu-Gi-Oh! ARC-V
 yu-gi-oh-capsule-monsters	Yu-Gi-Oh! Capsule Monsters
-yu-gi-oh-duel-monsters	Yu-Gi-Oh! Duel Monsters
 yu-gi-oh-films	Yu-Gi-Oh! Films
 yu-gi-oh-gx	Yu-Gi-Oh! GX
 yu-gi-oh-sevens	Yu-Gi-Oh! SEVENS
