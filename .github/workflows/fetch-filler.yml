@@ -1,0 +1,21 @@
+name: Fetch filler lists
+on:
+  workflow_dispatch:
+  push:
+    branches: [filler]
+    paths: [fetch_filler.py, research/afl_map.json, .github/workflows/fetch-filler.yml]
+permissions:
+  contents: write
+jobs:
+  filler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 fetch_seasons.py 2>&1 | tail -3 || true   # fills research/anilist_media.json with every season's titles
+      - run: git checkout -- seasons.json
+      - run: python3 fetch_filler.py 2>&1 | tee fetch_filler.log
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add -f fetch_filler.log research/filler_afl.json research/afl_shows.json
+          git diff --cached --quiet || (git commit -m "Fetch filler lists from Anime Filler List" && git push)
