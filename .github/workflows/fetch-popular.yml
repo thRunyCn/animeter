@@ -1,0 +1,23 @@
+name: Add AniList's most popular anime
+on:
+  workflow_dispatch:
+  push:
+    branches: [more-anime]
+    paths: [fetch_top.py, .github/workflows/fetch-popular.yml]
+permissions:
+  contents: write
+jobs:
+  popular:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python3 fetch_top.py --popular 2>&1 | tee fetch_popular.log
+      - run: python3 fetch_seasons.py 2>&1 | tail -20 | tee -a fetch_popular.log || true
+      - run: python3 fetch_tags.py 2>&1 | tail -20 | tee -a fetch_popular.log || true
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add -f fetch_popular.log top.json seasons.json web/covers research/anilist_popular.json
+          if [ -f tags.json ]; then git add tags.json; fi
+          git diff --cached --quiet || (git commit -m "Add AniList's most popular anime" && git push)

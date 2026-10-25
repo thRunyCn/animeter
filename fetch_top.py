@@ -12,6 +12,8 @@ Needs network access to graphql.anilist.co and s4.anilist.co.
 
   python3 fetch_top.py            # full run
   python3 fetch_top.py --no-covers
+  python3 fetch_top.py --popular  # add AniList's most popular franchises (top POP_TARGET by popularity) to top.json,
+                                  # keeping the series already there; covers go straight to web/covers at 460px
 """
 import json, os, re, sys, time, urllib.request, urllib.error
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -37,16 +39,20 @@ def get(url, data=None, tries=6):
 # The user chose AniList's ranking over MyAnimeList's (Jikan is blocked where this runs).
 # MIN_POP keeps out obscure entries whose score rests on a handful of votes.
 MIN_POP = 15000
+POPULAR = "--popular" in sys.argv     # rank by popularity instead of score
+POP_TARGET = 1000                     # the most popular franchises on AniList, counting ones the site already has
 Q = """query($page:Int){Page(page:$page,perPage:50){pageInfo{hasNextPage}
- media(type:ANIME,sort:SCORE_DESC,isAdult:false,popularity_greater:%d){
+ media(type:ANIME,sort:%s,isAdult:false,popularity_greater:%d){
  id idMal format status episodes seasonYear startDate{year month} source averageScore meanScore popularity genres
  title{romaji english native} coverImage{extraLarge large color} siteUrl
- relations{edges{relationType(version:2) node{id idMal type format status chapters volumes title{romaji english} coverImage{extraLarge large} siteUrl}}}}}}""" % MIN_POP
+ relations{edges{relationType(version:2) node{id idMal type format status chapters volumes title{romaji english} coverImage{extraLarge large} siteUrl}}}}}}""" % (("POPULARITY_DESC", 1000) if POPULAR else ("SCORE_DESC", MIN_POP))
 os.makedirs(os.path.join(HERE, "research"), exist_ok=True)
-cache_al = os.path.join(HERE, "research", "anilist_top.json")
+cache_al = os.path.join(HERE, "research", "anilist_popular.json" if POPULAR else "anilist_top.json")
 try: pages = json.load(open(cache_al))
 except Exception: pages = []
 existing = json.load(open(os.path.join(HERE, "series.json")))
+try: prev_top = json.load(open(os.path.join(HERE, "top.json")))
+except FileNotFoundError: prev_top = []
 meta = json.load(open(os.path.join(HERE, "meta.json")))
 while len(pages) < MAX_PAGES and sum(len(p) for p in pages) < 2600:
     res = json.loads(get("https://graphql.anilist.co", json.dumps({"query": Q, "variables": {"page": len(pages) + 1}}).encode()))
@@ -57,7 +63,7 @@ while len(pages) < MAX_PAGES and sum(len(p) for p in pages) < 2600:
     time.sleep(2.2)
 ranked, al = [], {}
 for m in (m for p in pages for m in p):
-    if m["format"] in ("MUSIC", "SPECIAL"): continue
+    if m["format"] in ("MUSIC", "SPECIAL") or m["status"] in ("NOT_YET_RELEASED", "CANCELLED"): continue
     ranked.append({"key": str(m["id"]), "rank": len(ranked) + 1, "score": m.get("averageScore")})
     al[str(m["id"])] = m
 
@@ -81,6 +87,9 @@ heads = []                                     # (normalised romaji, anilist id)
 for s in existing:
     a = (meta.get(s["id"]) or {}).get("anime") or {}
     if a.get("id"): find(a["id"]); heads.append((norm((a.get("title") or {}).get("romaji")), a["id"]))
+if POPULAR:                                   # series added by earlier runs head their franchise too
+    for t in prev_top:
+        if t.get("anilist"): find(t["anilist"]); heads.append((norm(t.get("romaji")), t["anilist"]))
 for m in al.values():
     if m and m["format"] in ("TV", "ONA", "TV_SHORT"): heads.append((norm(m["title"]["romaji"]), m["id"]))
 heads = sorted({h for h in heads if len(h[0]) >= 5}, key=lambda h: len(h[0]))
@@ -112,6 +121,9 @@ have_ids = {}
 for s in existing:
     a = (meta.get(s["id"]) or {}).get("anime") or {}
     if a.get("id"): have_ids[find(a["id"])] = s["id"]
+if POPULAR:
+    for t in prev_top:
+        if t.get("anilist"): have_ids[find(t["anilist"])] = t["id"]
 groups, order = {}, []
 for r in ranked:
     m = al.get(r["key"])
@@ -141,7 +153,7 @@ def earliest(m):
         if not cands: return m
         m = min(cands, key=sd)
     return m
-taken = {s["id"] for s in existing}
+taken = {s["id"] for s in existing} | {t["id"] for t in prev_top}
 def slug(t):
     s = re.sub(r"[^a-z0-9]+", "", (t or "").lower())[:24] or "anime"
     base, n = s, 2
@@ -149,8 +161,12 @@ def slug(t):
     taken.add(s); return s
 SRC = {"MANGA": "manga", "WEB_MANGA": "manga", "LIGHT_NOVEL": "novel", "NOVEL": "novel", "WEB_NOVEL": "novel", "VISUAL_NOVEL": "vn", "VIDEO_GAME": "vn", "ORIGINAL": "original"}
 out, total = [], len(existing)
+seen = 0                                                     # --popular: franchises walked, in popularity order
 for g in order:
-    if total >= TARGET: break
+    if POPULAR:
+        seen += 1
+        if seen > POP_TARGET: break
+    elif total >= TARGET: break
     if g in have_ids: continue
     entries = groups[g]
     best = entries[0]                                        # best-ranked entry of the franchise
@@ -184,15 +200,23 @@ for g in order:
 print(f"{len(out)} new franchises (total {total}) from {len(ranked)} ranked AniList entries", flush=True)
 
 # ---------- 4. covers ----------
+if POPULAR: COVERS = os.path.join(HERE, "web", "covers")      # the site's own 460px copies; no root covers/ in the repo
+def save(path, data):
+    if not POPULAR: open(path, "wb").write(data); return
+    from PIL import Image
+    import io
+    im = Image.open(io.BytesIO(data)).convert("RGB")
+    if im.width > 460: im = im.resize((460, round(im.height * 460 / im.width)), Image.LANCZOS)
+    im.save(path, "JPEG", quality=82, optimize=True, progressive=True)
 if "--no-covers" not in sys.argv:
     for i, s in enumerate(out):
         for key, suffix in (("_cover", "anime"), ("_srcCover", "manga")):
             url, path = s.get(key), os.path.join(COVERS, f"{s['id']}-{suffix}.jpg")
             if not url or os.path.exists(path): continue
-            try: open(path, "wb").write(get(url))
+            try: save(path, get(url))
             except Exception as e: print("cover failed", s["id"], suffix, e, flush=True)
             time.sleep(0.15)
         if i % 50 == 0: print(f"covers {i}/{len(out)}", flush=True)
 for s in out: s.pop("_cover", None); s.pop("_srcCover", None)
-json.dump(out, open(os.path.join(HERE, "top.json"), "w"), ensure_ascii=False, indent=1)
+json.dump(prev_top + out if POPULAR else out, open(os.path.join(HERE, "top.json"), "w"), ensure_ascii=False, indent=1)
 print("wrote top.json")
