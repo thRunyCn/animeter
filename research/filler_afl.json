@@ -1,0 +1,3742 @@
+{
+ "aceofthediamond": {
+  "pages": [
+   {
+    "slug": "ace-diamond",
+    "title": "Ace of the Diamond",
+    "eps": 126,
+    "from": 1
+   },
+   {
+    "slug": "ace-diamond-act-ii",
+    "title": "Ace of the Diamond: Act II",
+    "eps": 52,
+    "from": 127
+   }
+  ],
+  "total": 178,
+  "filler": [
+   [
+    28,
+    28
+   ],
+   [
+    76,
+    78
+   ],
+   [
+    155,
+    155
+   ]
+  ],
+  "mixed": [
+   [
+    127,
+    127
+   ],
+   [
+    130,
+    130
+   ]
+  ],
+  "anime_canon": []
+ },
+ "ajindemihuman": {
+  "pages": [
+   {
+    "slug": "ajin-demi-human",
+    "title": "AJIN: Demi-Human",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [],
+  "mixed": [
+   [
+    10,
+    13
+   ]
+  ],
+  "anime_canon": []
+ },
+ "angelbeats": {
+  "pages": [
+   {
+    "slug": "angel-beats",
+    "title": "Angel Beats!",
+    "eps": 16,
+    "from": 1
+   }
+  ],
+  "total": 16,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    16
+   ]
+  ]
+ },
+ "another": {
+  "pages": [
+   {
+    "slug": "another",
+    "title": "Another",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [
+   [
+    8,
+    8
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "aoashi": {
+  "pages": [
+   {
+    "slug": "aoashi",
+    "title": "Aoashi",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "bakemonogatari": {
+  "pages": [
+   {
+    "slug": "bakemonogatari",
+    "title": "Food Wars! OVAs",
+    "eps": 5,
+    "from": 1
+   },
+   {
+    "slug": "nisemonogatari",
+    "title": "Nisemonogatari",
+    "eps": 11,
+    "from": 6
+   },
+   {
+    "slug": "monogatari-series-second-season",
+    "title": "Monogatari Series Second Season",
+    "eps": 23,
+    "from": 17
+   },
+   {
+    "slug": "hanamonogatari",
+    "title": "Hanamonogatari",
+    "eps": 5,
+    "from": 40
+   },
+   {
+    "slug": "tsukimonogatari",
+    "title": "Tsukimonogatari",
+    "eps": 4,
+    "from": 45
+   },
+   {
+    "slug": "owarimonogatari",
+    "title": "Owarimonogatari",
+    "eps": 9,
+    "from": 49
+   }
+  ],
+  "total": 57,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "beastars": {
+  "pages": [
+   {
+    "slug": "beastars",
+    "title": "Beastars",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "beelzebub": {
+  "pages": [
+   {
+    "slug": "beelzebub",
+    "title": "Beelzebub",
+    "eps": 60,
+    "from": 1
+   }
+  ],
+  "total": 60,
+  "filler": [
+   [
+    11,
+    14
+   ],
+   [
+    27,
+    28
+   ],
+   [
+    52,
+    57
+   ],
+   [
+    60,
+    60
+   ]
+  ],
+  "mixed": [
+   [
+    15,
+    15
+   ],
+   [
+    17,
+    17
+   ]
+  ],
+  "anime_canon": []
+ },
+ "berserk2016": {
+  "pages": [
+   {
+    "slug": "berserk",
+    "title": "Berserk (Berserk Kenpuden)",
+    "eps": 25,
+    "from": 1
+   },
+   {
+    "slug": "berserk-2016",
+    "title": "Berserk (2016)",
+    "eps": 24,
+    "from": 26
+   }
+  ],
+  "total": 49,
+  "filler": [],
+  "mixed": [
+   [
+    1,
+    1
+   ],
+   [
+    26,
+    26
+   ],
+   [
+    28,
+    28
+   ]
+  ],
+  "anime_canon": []
+ },
+ "blackbutler": {
+  "pages": [
+   {
+    "slug": "black-butler",
+    "title": "Black Butler (Kuroshitsuji)",
+    "eps": 46,
+    "from": 1
+   }
+  ],
+  "total": 46,
+  "filler": [
+   [
+    7,
+    12
+   ],
+   [
+    16,
+    36
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    1
+   ],
+   [
+    37,
+    37
+   ]
+  ],
+  "anime_canon": []
+ },
+ "blackcat": {
+  "pages": [
+   {
+    "slug": "black-cat",
+    "title": "Black Cat",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    21,
+    24
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "blacklagoon": {
+  "pages": [
+   {
+    "slug": "black-lagoon",
+    "title": "Black Lagoon",
+    "eps": 29,
+    "from": 1
+   }
+  ],
+  "total": 29,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "bladedanceoftheelemental": {
+  "pages": [
+   {
+    "slug": "seirei-tsukai-no-blade-dance",
+    "title": "Gintama Films",
+    "eps": 3,
+    "from": 1
+   }
+  ],
+  "total": 3,
+  "filler": [
+   [
+    1,
+    2
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "bloodblockadebattlefront": {
+  "pages": [
+   {
+    "slug": "blood-blockade-battlefront",
+    "title": "Blood Blockade Battlefront (Kekkai Sensen)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    11,
+    12
+   ]
+  ]
+ },
+ "bobobobobobobo": {
+  "pages": [
+   {
+    "slug": "bobobo-bo-bobo",
+    "title": "Bobobo-bo Bo-bobo",
+    "eps": 76,
+    "from": 1
+   }
+  ],
+  "total": 76,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "btooom": {
+  "pages": [
+   {
+    "slug": "btooom",
+    "title": "BTOOOM!",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "burnthewitch": {
+  "pages": [
+   {
+    "slug": "burn-witch",
+    "title": "BURN THE WITCH",
+    "eps": 3,
+    "from": 1
+   }
+  ],
+  "total": 3,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "campione": {
+  "pages": [
+   {
+    "slug": "campione",
+    "title": "Campione!",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [
+   [
+    2,
+    2
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    13,
+    13
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    11,
+    12
+   ]
+  ],
+  "anime_canon": []
+ },
+ "cardcaptorsakura": {
+  "pages": [
+   {
+    "slug": "cardcaptor-sakura",
+    "title": "Cardcaptor Sakura",
+    "eps": 93,
+    "from": 1
+   }
+  ],
+  "total": 93,
+  "filler": [
+   [
+    12,
+    15
+   ],
+   [
+    19,
+    24
+   ],
+   [
+    27,
+    34
+   ],
+   [
+    36,
+    38
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    43,
+    43
+   ],
+   [
+    53,
+    53
+   ],
+   [
+    55,
+    58
+   ],
+   [
+    60,
+    64
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "carnivalphantasm": {
+  "pages": [
+   {
+    "slug": "carnival-phantasm",
+    "title": "Carnival Phantasm",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "charlotte": {
+  "pages": [
+   {
+    "slug": "charlotte",
+    "title": "Charlotte",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    13
+   ]
+  ]
+ },
+ "chronocrusade": {
+  "pages": [
+   {
+    "slug": "chrono-crusade",
+    "title": "Thus Spoke Rohan Kishibe",
+    "eps": 4,
+    "from": 1
+   }
+  ],
+  "total": 4,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "cityhunter": {
+  "pages": [
+   {
+    "slug": "city-hunter",
+    "title": "Noragami OVAs",
+    "eps": 4,
+    "from": 1
+   }
+  ],
+  "total": 4,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "classroomoftheelite": {
+  "pages": [
+   {
+    "slug": "classroom-elite",
+    "title": "Classroom of the Elite",
+    "eps": 38,
+    "from": 1
+   }
+  ],
+  "total": 38,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "claymore": {
+  "pages": [
+   {
+    "slug": "claymore",
+    "title": "Claymore",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [
+   [
+    24,
+    26
+   ]
+  ],
+  "mixed": [
+   [
+    21,
+    23
+   ]
+  ],
+  "anime_canon": []
+ },
+ "dagashikashi": {
+  "pages": [
+   {
+    "slug": "dagashi-kashi",
+    "title": "Dagashi Kashi",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "darlinginthefranxx": {
+  "pages": [
+   {
+    "slug": "darling-franxx",
+    "title": "Darling in the FranXX",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    24
+   ]
+  ]
+ },
+ "darwinsgame": {
+  "pages": [
+   {
+    "slug": "darwins-game",
+    "title": "Darwin's Game",
+    "eps": 10,
+    "from": 1
+   }
+  ],
+  "total": 10,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "deadmanwonderland": {
+  "pages": [
+   {
+    "slug": "deadman-wonderland",
+    "title": "Deadman Wonderland",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [
+   [
+    0,
+    0
+   ]
+  ],
+  "anime_canon": []
+ },
+ "deathparade": {
+  "pages": [
+   {
+    "slug": "death-parade",
+    "title": "Death Parade",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    12
+   ]
+  ]
+ },
+ "dennohcoil": {
+  "pages": [
+   {
+    "slug": "dennou-coil",
+    "title": "Den-noh Coil",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "devilmancrybaby": {
+  "pages": [
+   {
+    "slug": "devilman-crybaby",
+    "title": "Devilman Crybaby",
+    "eps": 10,
+    "from": 1
+   }
+  ],
+  "total": 10,
+  "filler": [
+   [
+    3,
+    6
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    2
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "anime_canon": []
+ },
+ "dfrag": {
+  "pages": [
+   {
+    "slug": "d-frag",
+    "title": "D-Frag!",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [
+   [
+    4,
+    4
+   ],
+   [
+    9,
+    9
+   ]
+  ],
+  "anime_canon": []
+ },
+ "dgrayman": {
+  "pages": [
+   {
+    "slug": "d-gray-man",
+    "title": "D.Gray-man",
+    "eps": 116,
+    "from": 1
+   }
+  ],
+  "total": 116,
+  "filler": [
+   [
+    14,
+    18
+   ],
+   [
+    25,
+    25
+   ],
+   [
+    27,
+    27
+   ],
+   [
+    29,
+    36
+   ],
+   [
+    41,
+    50
+   ]
+  ],
+  "mixed": [
+   [
+    26,
+    26
+   ],
+   [
+    63,
+    64
+   ]
+  ],
+  "anime_canon": []
+ },
+ "digimondigitalmonsters": {
+  "pages": [
+   {
+    "slug": "digimon-adventure",
+    "title": "Digimon Adventure",
+    "eps": 54,
+    "from": 1
+   },
+   {
+    "slug": "digimon-adventure-2020",
+    "title": "Digimon Adventure:",
+    "eps": 23,
+    "from": 55
+   },
+   {
+    "slug": "digimon-adventure-02",
+    "title": "Code Geass: Akito the Exiled",
+    "eps": 5,
+    "from": 78
+   }
+  ],
+  "total": 82,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    78,
+    82
+   ]
+  ]
+ },
+ "dororo": {
+  "pages": [
+   {
+    "slug": "dororo",
+    "title": "Dororo (2019)",
+    "eps": 15,
+    "from": 1
+   }
+  ],
+  "total": 15,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "drifters": {
+  "pages": [
+   {
+    "slug": "drifters",
+    "title": "Drifters",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "durarara": {
+  "pages": [
+   {
+    "slug": "durarara",
+    "title": "DURARARA!!",
+    "eps": 61,
+    "from": 1
+   }
+  ],
+  "total": 61,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    25,
+    25
+   ]
+  ]
+ },
+ "edenszero": {
+  "pages": [
+   {
+    "slug": "edens-zero",
+    "title": "EDENS ZERO",
+    "eps": 50,
+    "from": 1
+   }
+  ],
+  "total": 50,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "elfenlied": {
+  "pages": [
+   {
+    "slug": "elfen-lied",
+    "title": "Elfen Lied",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [
+   [
+    13,
+    13
+   ]
+  ],
+  "anime_canon": []
+ },
+ "excelsaga": {
+  "pages": [
+   {
+    "slug": "excel-saga",
+    "title": "Excel Saga",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [
+   [
+    1,
+    26
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "fatestaynight": {
+  "pages": [
+   {
+    "slug": "fatestay-night",
+    "title": "Fate/stay night",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    6,
+    6
+   ],
+   [
+    17,
+    18
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "fistofthenorthstar": {
+  "pages": [
+   {
+    "slug": "hokuto-no-ken",
+    "title": "Fist of the North Star",
+    "eps": 152,
+    "from": 1
+   }
+  ],
+  "total": 152,
+  "filler": [
+   [
+    9,
+    10
+   ],
+   [
+    14,
+    21
+   ],
+   [
+    38,
+    38
+   ],
+   [
+    41,
+    41
+   ],
+   [
+    79,
+    82
+   ],
+   [
+    98,
+    98
+   ],
+   [
+    105,
+    105
+   ],
+   [
+    109,
+    109
+   ],
+   [
+    111,
+    111
+   ]
+  ],
+  "mixed": [
+   [
+    2,
+    2
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    22,
+    27
+   ],
+   [
+    29,
+    29
+   ]
+  ],
+  "anime_canon": []
+ },
+ "foodwars": {
+  "pages": [
+   {
+    "slug": "food-wars-fourth-plate",
+    "title": "Bleach OVAs",
+    "eps": 2,
+    "from": 1
+   },
+   {
+    "slug": "food-wars-fifth-plate",
+    "title": "Black Clover OVAs",
+    "eps": 2,
+    "from": 3
+   }
+  ],
+  "total": 4,
+  "filler": [
+   [
+    2,
+    2
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "fullmetalpanic": {
+  "pages": [
+   {
+    "slug": "full-metal-panic",
+    "title": "Full Metal Panic!",
+    "eps": 49,
+    "from": 1
+   }
+  ],
+  "total": 49,
+  "filler": [
+   [
+    13,
+    15
+   ],
+   [
+    19,
+    19
+   ],
+   [
+    25,
+    36
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    12
+   ],
+   [
+    16,
+    18
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    22,
+    24
+   ]
+  ],
+  "anime_canon": []
+ },
+ "gangsta": {
+  "pages": [
+   {
+    "slug": "gangsta",
+    "title": "GANGSTA.",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "ghostintheshellstandalon": {
+  "pages": [
+   {
+    "slug": "ghost-shell-stand-alone-complex",
+    "title": "Ghost In the Shell: Stand Alone Complex",
+    "eps": 53,
+    "from": 1
+   }
+  ],
+  "total": 53,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "girlfriendgirlfriend": {
+  "pages": [
+   {
+    "slug": "girlfriend-girlfriend",
+    "title": "Girlfriend, Girlfriend (Kanojo mo Kanojo)",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "girlslasttour": {
+  "pages": [
+   {
+    "slug": "girls-last-tour",
+    "title": "Girls' Last Tour (Shoujo Shuumatsu Ryokou)",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    4,
+    4
+   ]
+  ]
+ },
+ "goblinslayer": {
+  "pages": [
+   {
+    "slug": "goblin-slayer",
+    "title": "Goblin Slayer",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [
+   [
+    5,
+    5
+   ],
+   [
+    10,
+    10
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "gosick": {
+  "pages": [
+   {
+    "slug": "gosick",
+    "title": "Gosick",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [
+   [
+    12,
+    12
+   ]
+  ],
+  "anime_canon": []
+ },
+ "hayatethecombatbutler": {
+  "pages": [
+   {
+    "slug": "hayate-combat-butler",
+    "title": "Hayate the Combat Butler (Hayate no Gotoku!)",
+    "eps": 101,
+    "from": 1
+   }
+  ],
+  "total": 101,
+  "filler": [
+   [
+    18,
+    19
+   ],
+   [
+    26,
+    28
+   ],
+   [
+    30,
+    31
+   ],
+   [
+    33,
+    39
+   ],
+   [
+    41,
+    41
+   ],
+   [
+    45,
+    46
+   ],
+   [
+    48,
+    48
+   ],
+   [
+    50,
+    51
+   ],
+   [
+    77,
+    77
+   ]
+  ],
+  "mixed": [
+   [
+    29,
+    29
+   ],
+   [
+    32,
+    32
+   ]
+  ],
+  "anime_canon": []
+ },
+ "heavenslostproperty": {
+  "pages": [
+   {
+    "slug": "heavens-lost-property",
+    "title": "Heaven's Lost Property",
+    "eps": 28,
+    "from": 1
+   }
+  ],
+  "total": 28,
+  "filler": [],
+  "mixed": [
+   [
+    1,
+    4
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    15,
+    27
+   ]
+  ],
+  "anime_canon": []
+ },
+ "hellgirl": {
+  "pages": [
+   {
+    "slug": "hell-girl",
+    "title": "Hell Girl (Jigoku Shōjo Girl)",
+    "eps": 90,
+    "from": 1
+   }
+  ],
+  "total": 90,
+  "filler": [],
+  "mixed": [
+   [
+    85,
+    90
+   ]
+  ],
+  "anime_canon": []
+ },
+ "hellsing": {
+  "pages": [
+   {
+    "slug": "hellsing",
+    "title": "Hellsing",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [
+   [
+    4,
+    4
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    11,
+    13
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "highschooldxd": {
+  "pages": [
+   {
+    "slug": "high-school-dxd",
+    "title": "Highschool DxD",
+    "eps": 48,
+    "from": 1
+   }
+  ],
+  "total": 48,
+  "filler": [
+   [
+    34,
+    36
+   ]
+  ],
+  "mixed": [
+   [
+    29,
+    29
+   ],
+   [
+    33,
+    33
+   ]
+  ],
+  "anime_canon": []
+ },
+ "highschoolofthedead": {
+  "pages": [
+   {
+    "slug": "highschoool-dead",
+    "title": "Highschool of the Dead",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    13,
+    13
+   ]
+  ]
+ },
+ "hikarunogo": {
+  "pages": [
+   {
+    "slug": "hikaru-no-go",
+    "title": "Hikaru no Go",
+    "eps": 75,
+    "from": 1
+   }
+  ],
+  "total": 75,
+  "filler": [
+   [
+    64,
+    64
+   ],
+   [
+    66,
+    66
+   ]
+  ],
+  "mixed": [
+   [
+    65,
+    65
+   ],
+   [
+    67,
+    67
+   ]
+  ],
+  "anime_canon": []
+ },
+ "initiald1ststage": {
+  "pages": [
+   {
+    "slug": "initial-d",
+    "title": "Initial D",
+    "eps": 82,
+    "from": 1
+   }
+  ],
+  "total": 82,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "inuyashikilasthero": {
+  "pages": [
+   {
+    "slug": "inuyashiki-last-hero",
+    "title": "Inuyashiki Last Hero",
+    "eps": 11,
+    "from": 1
+   }
+  ],
+  "total": 11,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "kabanerioftheironfortres": {
+  "pages": [
+   {
+    "slug": "kabaneri-iron-fortress",
+    "title": "Kabaneri of the Iron Fortress",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    12
+   ]
+  ]
+ },
+ "kakegurui": {
+  "pages": [
+   {
+    "slug": "kakegurui",
+    "title": "Dragon Ball Films",
+    "eps": 19,
+    "from": 1
+   }
+  ],
+  "total": 19,
+  "filler": [
+   [
+    1,
+    16
+   ]
+  ],
+  "mixed": [
+   [
+    17,
+    17
+   ]
+  ],
+  "anime_canon": [
+   [
+    18,
+    19
+   ]
+  ]
+ },
+ "kamisamakiss": {
+  "pages": [
+   {
+    "slug": "kamisama-kiss",
+    "title": "Kamisama Kiss (Kamisama Hajimemashita)",
+    "eps": 30,
+    "from": 1
+   }
+  ],
+  "total": 30,
+  "filler": [],
+  "mixed": [
+   [
+    13,
+    13
+   ]
+  ],
+  "anime_canon": []
+ },
+ "killlakill": {
+  "pages": [
+   {
+    "slug": "kill-la-kill",
+    "title": "KILL la KILL",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    25
+   ]
+  ]
+ },
+ "kiznaiver": {
+  "pages": [
+   {
+    "slug": "kiznaiver",
+    "title": "Kiznaiver",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    12
+   ]
+  ]
+ },
+ "magicknightrayearth": {
+  "pages": [
+   {
+    "slug": "magic-knight-rayearth",
+    "title": "Magic Knight Rayearth",
+    "eps": 49,
+    "from": 1
+   }
+  ],
+  "total": 49,
+  "filler": [
+   [
+    7,
+    9
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    17,
+    17
+   ],
+   [
+    24,
+    25
+   ],
+   [
+    28,
+    31
+   ],
+   [
+    33,
+    37
+   ],
+   [
+    41,
+    41
+   ],
+   [
+    46,
+    46
+   ],
+   [
+    48,
+    48
+   ]
+  ],
+  "mixed": [
+   [
+    2,
+    3
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    27,
+    27
+   ],
+   [
+    32,
+    32
+   ],
+   [
+    39,
+    39
+   ],
+   [
+    43,
+    43
+   ],
+   [
+    45,
+    45
+   ],
+   [
+    49,
+    49
+   ]
+  ],
+  "anime_canon": []
+ },
+ "maidsama": {
+  "pages": [
+   {
+    "slug": "maid-sama",
+    "title": "Maid-Sama! (Kaichou wa maid sama)",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "makenkibattlingvenus": {
+  "pages": [
+   {
+    "slug": "maken-ki-battling-venus",
+    "title": "Maken-ki! Battling Venus (Maken-ki!)",
+    "eps": 22,
+    "from": 1
+   }
+  ],
+  "total": 22,
+  "filler": [
+   [
+    13,
+    22
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "masamunekunsrevenge": {
+  "pages": [
+   {
+    "slug": "masamune-kuns-revenge",
+    "title": "Masamune-kun's Revenge (Masamune-kun no Revenge)",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "michikohatchin": {
+  "pages": [
+   {
+    "slug": "michiko-hatchin",
+    "title": "Michiko & Hatchin",
+    "eps": 22,
+    "from": 1
+   }
+  ],
+  "total": 22,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "misskobayashisdragonmaid": {
+  "pages": [
+   {
+    "slug": "miss-kobayashis-dragon-maid",
+    "title": "Miss Kobayashi's Dragon Maid",
+    "eps": 20,
+    "from": 1
+   }
+  ],
+  "total": 20,
+  "filler": [
+   [
+    9,
+    11
+   ]
+  ],
+  "mixed": [
+   [
+    3,
+    4
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    13,
+    14
+   ]
+  ],
+  "anime_canon": []
+ },
+ "mobilesuitgundam": {
+  "pages": [
+   {
+    "slug": "mobile-suit-gundam",
+    "title": "Mobile Suit Gundam (Kidou Senshi Gundam)",
+    "eps": 43,
+    "from": 1
+   },
+   {
+    "slug": "mobile-suit-zeta-gundam",
+    "title": "One Piece Specials",
+    "eps": 26,
+    "from": 44
+   },
+   {
+    "slug": "mobile-suit-gundam-zz",
+    "title": "Naruto OVAs",
+    "eps": 13,
+    "from": 70
+   }
+  ],
+  "total": 82,
+  "filler": [
+   [
+    15,
+    15
+   ],
+   [
+    45,
+    49
+   ],
+   [
+    51,
+    51
+   ],
+   [
+    56,
+    57
+   ],
+   [
+    70,
+    76
+   ],
+   [
+    80,
+    81
+   ]
+  ],
+  "mixed": [
+   [
+    44,
+    44
+   ],
+   [
+    59,
+    59
+   ],
+   [
+    77,
+    77
+   ],
+   [
+    79,
+    79
+   ]
+  ],
+  "anime_canon": [
+   [
+    53,
+    53
+   ],
+   [
+    78,
+    78
+   ]
+  ]
+ },
+ "mottotoloveru": {
+  "pages": [
+   {
+    "slug": "love-ru-darkness",
+    "title": "To Love Ru: Darkness",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "nogamenolife": {
+  "pages": [
+   {
+    "slug": "no-game-no-life",
+    "title": "No Game, No Life",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "orange": {
+  "pages": [
+   {
+    "slug": "orange",
+    "title": "Orange",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "ouranhighschoolhostclub": {
+  "pages": [
+   {
+    "slug": "ouran-high-school-host-club",
+    "title": "Ouran High School Host Club",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    13,
+    13
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "outlawstar": {
+  "pages": [
+   {
+    "slug": "outlaw-star",
+    "title": "Outlaw Star",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [
+   [
+    13,
+    14
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    18,
+    20
+   ]
+  ],
+  "mixed": [
+   [
+    9,
+    9
+   ],
+   [
+    21,
+    26
+   ]
+  ],
+  "anime_canon": [
+   [
+    1,
+    8
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    17,
+    17
+   ]
+  ]
+ },
+ "overlord": {
+  "pages": [
+   {
+    "slug": "overlord",
+    "title": "Overlord",
+    "eps": 52,
+    "from": 1
+   }
+  ],
+  "total": 52,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "platinumend": {
+  "pages": [
+   {
+    "slug": "platinum-end",
+    "title": "Platinum End",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "pokmon": {
+  "pages": [
+   {
+    "slug": "pokemon",
+    "title": "Pokémon",
+    "eps": 1140,
+    "from": 1
+   }
+  ],
+  "total": 1140,
+  "filler": [
+   [
+    8,
+    9
+   ],
+   [
+    19,
+    19
+   ],
+   [
+    32,
+    33
+   ],
+   [
+    37,
+    39
+   ],
+   [
+    44,
+    44
+   ],
+   [
+    46,
+    46
+   ],
+   [
+    49,
+    49
+   ],
+   [
+    51,
+    51
+   ],
+   [
+    54,
+    54
+   ],
+   [
+    57,
+    57
+   ],
+   [
+    59,
+    59
+   ],
+   [
+    62,
+    62
+   ],
+   [
+    64,
+    67
+   ],
+   [
+    69,
+    70
+   ],
+   [
+    84,
+    89
+   ],
+   [
+    93,
+    93
+   ],
+   [
+    95,
+    97
+   ],
+   [
+    100,
+    100
+   ],
+   [
+    103,
+    103
+   ],
+   [
+    105,
+    105
+   ],
+   [
+    116,
+    116
+   ],
+   [
+    118,
+    119
+   ],
+   [
+    123,
+    124
+   ],
+   [
+    129,
+    129
+   ],
+   [
+    131,
+    131
+   ],
+   [
+    133,
+    136
+   ],
+   [
+    144,
+    146
+   ],
+   [
+    148,
+    149
+   ],
+   [
+    151,
+    152
+   ],
+   [
+    158,
+    160
+   ],
+   [
+    162,
+    164
+   ],
+   [
+    166,
+    166
+   ],
+   [
+    168,
+    169
+   ],
+   [
+    173,
+    176
+   ],
+   [
+    180,
+    182
+   ],
+   [
+    184,
+    184
+   ],
+   [
+    186,
+    189
+   ],
+   [
+    191,
+    191
+   ],
+   [
+    193,
+    194
+   ],
+   [
+    196,
+    203
+   ],
+   [
+    207,
+    208
+   ],
+   [
+    210,
+    210
+   ],
+   [
+    214,
+    215
+   ],
+   [
+    225,
+    225
+   ],
+   [
+    228,
+    230
+   ],
+   [
+    235,
+    242
+   ],
+   [
+    244,
+    245
+   ],
+   [
+    251,
+    251
+   ],
+   [
+    255,
+    255
+   ],
+   [
+    257,
+    257
+   ],
+   [
+    278,
+    280
+   ],
+   [
+    290,
+    290
+   ],
+   [
+    295,
+    295
+   ],
+   [
+    298,
+    298
+   ],
+   [
+    306,
+    306
+   ],
+   [
+    311,
+    311
+   ],
+   [
+    314,
+    315
+   ],
+   [
+    318,
+    318
+   ],
+   [
+    322,
+    322
+   ],
+   [
+    326,
+    326
+   ],
+   [
+    329,
+    329
+   ],
+   [
+    333,
+    334
+   ],
+   [
+    336,
+    336
+   ],
+   [
+    344,
+    345
+   ],
+   [
+    355,
+    355
+   ],
+   [
+    357,
+    358
+   ],
+   [
+    361,
+    361
+   ],
+   [
+    363,
+    363
+   ],
+   [
+    365,
+    365
+   ],
+   [
+    371,
+    371
+   ],
+   [
+    373,
+    373
+   ],
+   [
+    375,
+    376
+   ],
+   [
+    378,
+    378
+   ],
+   [
+    381,
+    381
+   ],
+   [
+    405,
+    406
+   ],
+   [
+    408,
+    410
+   ],
+   [
+    413,
+    414
+   ],
+   [
+    420,
+    420
+   ],
+   [
+    433,
+    434
+   ],
+   [
+    436,
+    436
+   ],
+   [
+    441,
+    441
+   ],
+   [
+    444,
+    444
+   ],
+   [
+    451,
+    453
+   ],
+   [
+    456,
+    456
+   ],
+   [
+    467,
+    467
+   ],
+   [
+    483,
+    484
+   ],
+   [
+    499,
+    499
+   ],
+   [
+    502,
+    503
+   ],
+   [
+    515,
+    518
+   ],
+   [
+    529,
+    529
+   ],
+   [
+    574,
+    575
+   ],
+   [
+    583,
+    583
+   ],
+   [
+    593,
+    593
+   ],
+   [
+    606,
+    607
+   ],
+   [
+    616,
+    616
+   ],
+   [
+    631,
+    631
+   ],
+   [
+    657,
+    657
+   ],
+   [
+    675,
+    675
+   ],
+   [
+    678,
+    679
+   ],
+   [
+    684,
+    684
+   ],
+   [
+    702,
+    704
+   ],
+   [
+    715,
+    715
+   ],
+   [
+    737,
+    737
+   ],
+   [
+    744,
+    744
+   ],
+   [
+    747,
+    748
+   ],
+   [
+    774,
+    774
+   ],
+   [
+    776,
+    776
+   ],
+   [
+    778,
+    778
+   ],
+   [
+    781,
+    782
+   ],
+   [
+    787,
+    787
+   ],
+   [
+    799,
+    799
+   ],
+   [
+    805,
+    807
+   ],
+   [
+    809,
+    809
+   ],
+   [
+    817,
+    817
+   ],
+   [
+    819,
+    819
+   ],
+   [
+    836,
+    836
+   ],
+   [
+    839,
+    839
+   ],
+   [
+    841,
+    841
+   ],
+   [
+    862,
+    862
+   ],
+   [
+    873,
+    874
+   ],
+   [
+    877,
+    877
+   ],
+   [
+    880,
+    880
+   ],
+   [
+    886,
+    889
+   ],
+   [
+    899,
+    899
+   ],
+   [
+    902,
+    902
+   ],
+   [
+    908,
+    908
+   ],
+   [
+    914,
+    915
+   ],
+   [
+    938,
+    938
+   ],
+   [
+    943,
+    943
+   ],
+   [
+    948,
+    948
+   ],
+   [
+    955,
+    955
+   ],
+   [
+    960,
+    961
+   ],
+   [
+    989,
+    989
+   ],
+   [
+    1002,
+    1002
+   ],
+   [
+    1014,
+    1014
+   ],
+   [
+    1017,
+    1017
+   ],
+   [
+    1024,
+    1024
+   ],
+   [
+    1044,
+    1044
+   ],
+   [
+    1057,
+    1057
+   ],
+   [
+    1100,
+    1100
+   ],
+   [
+    1103,
+    1103
+   ],
+   [
+    1118,
+    1118
+   ],
+   [
+    1135,
+    1135
+   ],
+   [
+    1138,
+    1138
+   ]
+  ],
+  "mixed": [
+   [
+    6,
+    6
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    40,
+    41
+   ],
+   [
+    68,
+    68
+   ],
+   [
+    1085,
+    1085
+   ],
+   [
+    1101,
+    1101
+   ]
+  ],
+  "anime_canon": [
+   [
+    562,
+    562
+   ],
+   [
+    1092,
+    1099
+   ],
+   [
+    1102,
+    1102
+   ],
+   [
+    1104,
+    1117
+   ],
+   [
+    1119,
+    1134
+   ],
+   [
+    1136,
+    1137
+   ],
+   [
+    1139,
+    1140
+   ]
+  ]
+ },
+ "prisonschool": {
+  "pages": [
+   {
+    "slug": "prison-school",
+    "title": "Prison School",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "psychopass": {
+  "pages": [
+   {
+    "slug": "psycho-pass",
+    "title": "PSYCHO-PASS",
+    "eps": 44,
+    "from": 1
+   }
+  ],
+  "total": 44,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    44
+   ]
+  ]
+ },
+ "relife": {
+  "pages": [
+   {
+    "slug": "relife",
+    "title": "ReLIFE",
+    "eps": 17,
+    "from": 1
+   }
+  ],
+  "total": 17,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "revolutionarygirlutena": {
+  "pages": [
+   {
+    "slug": "revolutionary-girl-utena",
+    "title": "Revolutionary Girl Utena (Shoujo Kakumei Utena)",
+    "eps": 39,
+    "from": 1
+   }
+  ],
+  "total": 39,
+  "filler": [],
+  "mixed": [
+   [
+    8,
+    8
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    27,
+    27
+   ]
+  ],
+  "anime_canon": [
+   [
+    1,
+    7
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    17,
+    23
+   ],
+   [
+    25,
+    26
+   ],
+   [
+    28,
+    39
+   ]
+  ]
+ },
+ "ronkamonohashisforbidden": {
+  "pages": [
+   {
+    "slug": "ron-kamonohashis-forbidden-deductions",
+    "title": "Ron Kamonohashi's Forbidden Deductions (Kamonohashi Ron no Kindan Suiri)",
+    "eps": 18,
+    "from": 1
+   }
+  ],
+  "total": 18,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "rosariovampire": {
+  "pages": [
+   {
+    "slug": "rosario-vampire",
+    "title": "Rosario + Vampire",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [
+   [
+    4,
+    4
+   ],
+   [
+    15,
+    19
+   ],
+   [
+    21,
+    23
+   ],
+   [
+    25,
+    26
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    1
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    24,
+    24
+   ]
+  ],
+  "anime_canon": []
+ },
+ "sagaoftanyatheevil": {
+  "pages": [
+   {
+    "slug": "sage-tanya-evil",
+    "title": "Saga of Tanya the Evil",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "sailormoon": {
+  "pages": [
+   {
+    "slug": "sailor-moon",
+    "title": "Sailor Moon (Bishoujo Senshi Sailor Moon)",
+    "eps": 200,
+    "from": 1
+   }
+  ],
+  "total": 200,
+  "filler": [
+   [
+    2,
+    7
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    15,
+    18
+   ],
+   [
+    20,
+    21
+   ],
+   [
+    26,
+    32
+   ],
+   [
+    37,
+    41
+   ],
+   [
+    43,
+    43
+   ],
+   [
+    47,
+    59
+   ],
+   [
+    63,
+    67
+   ],
+   [
+    69,
+    69
+   ],
+   [
+    78,
+    80
+   ],
+   [
+    89,
+    89
+   ],
+   [
+    94,
+    100
+   ],
+   [
+    104,
+    104
+   ],
+   [
+    107,
+    108
+   ],
+   [
+    114,
+    114
+   ],
+   [
+    116,
+    118
+   ],
+   [
+    127,
+    127
+   ],
+   [
+    129,
+    129
+   ],
+   [
+    131,
+    132
+   ],
+   [
+    134,
+    134
+   ],
+   [
+    136,
+    142
+   ],
+   [
+    144,
+    147
+   ],
+   [
+    151,
+    157
+   ],
+   [
+    159,
+    159
+   ],
+   [
+    175,
+    178
+   ],
+   [
+    183,
+    186
+   ],
+   [
+    192,
+    192
+   ]
+  ],
+  "mixed": [
+   [
+    13,
+    14
+   ],
+   [
+    23,
+    24
+   ],
+   [
+    36,
+    36
+   ],
+   [
+    42,
+    42
+   ],
+   [
+    62,
+    62
+   ],
+   [
+    70,
+    71
+   ],
+   [
+    76,
+    76
+   ],
+   [
+    81,
+    81
+   ],
+   [
+    91,
+    91
+   ],
+   [
+    93,
+    93
+   ],
+   [
+    101,
+    102
+   ],
+   [
+    109,
+    109
+   ],
+   [
+    115,
+    115
+   ]
+  ],
+  "anime_canon": []
+ },
+ "saintseiyaknightsofthezo": {
+  "pages": [
+   {
+    "slug": "saint-seiya",
+    "title": "Saint Seiya",
+    "eps": 114,
+    "from": 1
+   }
+  ],
+  "total": 114,
+  "filler": [
+   [
+    16,
+    22
+   ],
+   [
+    26,
+    26
+   ],
+   [
+    33,
+    35
+   ],
+   [
+    54,
+    55
+   ],
+   [
+    64,
+    64
+   ],
+   [
+    74,
+    99
+   ]
+  ],
+  "mixed": [
+   [
+    15,
+    15
+   ],
+   [
+    25,
+    25
+   ],
+   [
+    28,
+    28
+   ],
+   [
+    32,
+    32
+   ],
+   [
+    51,
+    51
+   ],
+   [
+    100,
+    101
+   ]
+  ],
+  "anime_canon": []
+ },
+ "schoolrumble": {
+  "pages": [
+   {
+    "slug": "school-days",
+    "title": "School Rumble",
+    "eps": 54,
+    "from": 1
+   }
+  ],
+  "total": 54,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "serialexperimentslain": {
+  "pages": [
+   {
+    "slug": "serial-experiments-lain",
+    "title": "Serial Experiments Lain",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "shadowshouse": {
+  "pages": [
+   {
+    "slug": "shadows-house",
+    "title": "SHADOWS HOUSE",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [
+   [
+    12,
+    13
+   ]
+  ],
+  "mixed": [
+   [
+    11,
+    11
+   ]
+  ],
+  "anime_canon": []
+ },
+ "shugochara": {
+  "pages": [
+   {
+    "slug": "shugo-chara",
+    "title": "Shugo Chara",
+    "eps": 127,
+    "from": 1
+   }
+  ],
+  "total": 127,
+  "filler": [
+   [
+    14,
+    16
+   ],
+   [
+    19,
+    20
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    46,
+    48
+   ],
+   [
+    57,
+    58
+   ],
+   [
+    60,
+    60
+   ],
+   [
+    63,
+    63
+   ],
+   [
+    66,
+    66
+   ],
+   [
+    68,
+    68
+   ],
+   [
+    72,
+    72
+   ],
+   [
+    84,
+    86
+   ],
+   [
+    103,
+    127
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    4
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    27,
+    27
+   ],
+   [
+    33,
+    33
+   ],
+   [
+    59,
+    59
+   ],
+   [
+    61,
+    62
+   ]
+  ],
+  "anime_canon": []
+ },
+ "silverspoon": {
+  "pages": [
+   {
+    "slug": "silver-spoon",
+    "title": "Silver Spoon",
+    "eps": 22,
+    "from": 1
+   }
+  ],
+  "total": 22,
+  "filler": [],
+  "mixed": [
+   [
+    5,
+    5
+   ]
+  ],
+  "anime_canon": []
+ },
+ "sketdance": {
+  "pages": [
+   {
+    "slug": "sket-dance",
+    "title": "SKET Dance",
+    "eps": 54,
+    "from": 1
+   }
+  ],
+  "total": 54,
+  "filler": [
+   [
+    26,
+    26
+   ],
+   [
+    32,
+    32
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "skipbeat": {
+  "pages": [
+   {
+    "slug": "skip-beat",
+    "title": "Skip Beat!",
+    "eps": 25,
+    "from": 1
+   }
+  ],
+  "total": 25,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "spacepatrolluluco": {
+  "pages": [
+   {
+    "slug": "space-patrol-luloco",
+    "title": "SPACE PATROL LULUCO",
+    "eps": 13,
+    "from": 1
+   }
+  ],
+  "total": 13,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    1,
+    13
+   ]
+  ]
+ },
+ "summertimerendering": {
+  "pages": [
+   {
+    "slug": "summertime-render",
+    "title": "Summer Time Rendering",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "swordartonline": {
+  "pages": [
+   {
+    "slug": "sword-art-online",
+    "title": "Sword Art Online",
+    "eps": 50,
+    "from": 1
+   },
+   {
+    "slug": "sword-art-online-alicization",
+    "title": "Sword Art Online: Alicization",
+    "eps": 47,
+    "from": 51
+   }
+  ],
+  "total": 97,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": [
+   [
+    50,
+    50
+   ]
+  ]
+ },
+ "theancientmagusbride": {
+  "pages": [
+   {
+    "slug": "ancient-magus-bride",
+    "title": "The Ancient Magus' Bride (Mahoutsukai no Yome)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "theasteriskwar": {
+  "pages": [
+   {
+    "slug": "asterisk-war",
+    "title": "The Asterisk War (Gakusen no Asterisk)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [
+   [
+    8,
+    8
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "thefuturediary": {
+  "pages": [
+   {
+    "slug": "future-diary",
+    "title": "The Future Diary (Mirai Nikki)",
+    "eps": 27,
+    "from": 1
+   }
+  ],
+  "total": 27,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "thesevendeadlysins": {
+  "pages": [
+   {
+    "slug": "nanatsu-no-taizai",
+    "title": "The Seven Deadly Sins (Nanatsu no Taizai)",
+    "eps": 100,
+    "from": 1
+   }
+  ],
+  "total": 100,
+  "filler": [
+   [
+    25,
+    28
+   ]
+  ],
+  "mixed": [
+   [
+    20,
+    20
+   ],
+   [
+    22,
+    22
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    29,
+    30
+   ]
+  ],
+  "anime_canon": []
+ },
+ "trigun": {
+  "pages": [
+   {
+    "slug": "trigun",
+    "title": "Trigun",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [
+   [
+    1,
+    3
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    16,
+    17
+   ],
+   [
+    19,
+    26
+   ]
+  ],
+  "mixed": [
+   [
+    4,
+    4
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    18,
+    18
+   ]
+  ],
+  "anime_canon": []
+ },
+ "tsugumomo": {
+  "pages": [
+   {
+    "slug": "tsugumomo",
+    "title": "Tsugumomo",
+    "eps": 12,
+    "from": 1
+   }
+  ],
+  "total": 12,
+  "filler": [],
+  "mixed": [
+   [
+    4,
+    4
+   ]
+  ],
+  "anime_canon": []
+ },
+ "uruseiyatsura": {
+  "pages": [
+   {
+    "slug": "urusei-yatsura",
+    "title": "Urusei Yatsura (1981)",
+    "eps": 167,
+    "from": 1
+   }
+  ],
+  "total": 167,
+  "filler": [
+   [
+    71,
+    71
+   ],
+   [
+    75,
+    75
+   ],
+   [
+    78,
+    78
+   ],
+   [
+    84,
+    84
+   ],
+   [
+    93,
+    93
+   ],
+   [
+    95,
+    95
+   ],
+   [
+    98,
+    101
+   ],
+   [
+    103,
+    107
+   ],
+   [
+    112,
+    112
+   ],
+   [
+    118,
+    118
+   ],
+   [
+    126,
+    126
+   ],
+   [
+    138,
+    138
+   ],
+   [
+    143,
+    143
+   ]
+  ],
+  "mixed": [
+   [
+    11,
+    11
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    53,
+    53
+   ],
+   [
+    85,
+    85
+   ],
+   [
+    91,
+    91
+   ],
+   [
+    116,
+    116
+   ],
+   [
+    120,
+    120
+   ],
+   [
+    139,
+    139
+   ],
+   [
+    141,
+    141
+   ],
+   [
+    146,
+    146
+   ],
+   [
+    151,
+    151
+   ],
+   [
+    159,
+    159
+   ],
+   [
+    162,
+    162
+   ]
+  ],
+  "anime_canon": []
+ },
+ "vampireknight": {
+  "pages": [
+   {
+    "slug": "vampire-knight",
+    "title": "Vampire Knight",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "weneverlearnbokuben": {
+  "pages": [
+   {
+    "slug": "we-never-learn-bokuben",
+    "title": "We Never Learn!: BOKUBEN (Bokutachi wa Benkyou ga Dekinai)",
+    "eps": 17,
+    "from": 1
+   }
+  ],
+  "total": 17,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "whentheycry": {
+  "pages": [
+   {
+    "slug": "when-they-cry",
+    "title": "Higurashi: When They Cry (Higurashi no naku koro ni)",
+    "eps": 62,
+    "from": 1
+   }
+  ],
+  "total": 62,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "yonaofthedawn": {
+  "pages": [
+   {
+    "slug": "akatsuki-no-yona",
+    "title": "Yona of the Dawn (Akatsuki no Yona)",
+    "eps": 24,
+    "from": 1
+   }
+  ],
+  "total": 24,
+  "filler": [],
+  "mixed": [
+   [
+    2,
+    2
+   ]
+  ],
+  "anime_canon": []
+ },
+ "yowamushipedal": {
+  "pages": [
+   {
+    "slug": "yowamushi-pedal",
+    "title": "Yowamushi Pedal",
+    "eps": 14,
+    "from": 1
+   }
+  ],
+  "total": 14,
+  "filler": [],
+  "mixed": [
+   [
+    13,
+    14
+   ]
+  ],
+  "anime_canon": []
+ },
+ "yugioh": {
+  "pages": [
+   {
+    "slug": "yu-gi-oh",
+    "title": "Yu-Gi-Oh!",
+    "eps": 27,
+    "from": 1
+   }
+  ],
+  "total": 27,
+  "filler": [
+   [
+    4,
+    4
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    19,
+    20
+   ]
+  ],
+  "mixed": [
+   [
+    1,
+    3
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    18,
+    18
+   ],
+   [
+    21,
+    27
+   ]
+  ],
+  "anime_canon": []
+ },
+ "yunoagirlwhochantsloveat": {
+  "pages": [
+   {
+    "slug": "yu-no-girl-who-chants-love-bound-world",
+    "title": "YU-NO: A Girl Who Chants Love at the Bound of This World",
+    "eps": 26,
+    "from": 1
+   }
+  ],
+  "total": 26,
+  "filler": [],
+  "mixed": [],
+  "anime_canon": []
+ },
+ "zatchbell": {
+  "pages": [
+   {
+    "slug": "zatch-bell",
+    "title": "Zatch Bell! (Konjiki no Gash Bell!!)",
+    "eps": 150,
+    "from": 1
+   }
+  ],
+  "total": 150,
+  "filler": [
+   [
+    31,
+    35
+   ],
+   [
+    89,
+    100
+   ],
+   [
+    139,
+    150
+   ]
+  ],
+  "mixed": [],
+  "anime_canon": []
+ }
+}
