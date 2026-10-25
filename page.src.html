@@ -820,7 +820,7 @@ function top10HTML(){
     <div class="t10-head"><h2 id="t10-h">The top ten</h2><p>The ten best-rated anime on AniList right now, and where each story goes after the last episode.</p></div>
     <div class="t10-track">${top.map((s,i)=>`<a class="t10-card" href="${seriesHref(s.id)}" style="${toneVars(s)}" data-deep="${deepOf(s.tone)}">
       <span class="t10-n" aria-hidden="true">${i+1}</span>
-      <span class="cover"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="${esc(s.title)} anime cover" loading="lazy" width="460" height="649"></span>
+      <span class="cover"><img src="${ROOT}covers/${s.id}-anime.jpg" alt="" loading="lazy" width="460" height="649"></span>
       <span class="t10-meta"><b>${esc(s.title)}</b><span>No. ${i+1} at ${fmt10(s.score/10)}, ${s.year||""}</span><span class="t10-a">${answerOf(s)}</span></span>
     </a>`).join("")}</div></div></section>`;
 }
@@ -1031,7 +1031,7 @@ function handoffHTML(){
     <div class="t stone ho-head" data-r><h2 id="ho-h">Where the manga picks up</h2>
       <div><p>${nf(hand)} anime stop partway through the book they adapt. Each one comes with the chapter to start from, so you can keep reading the story without starting over.</p></div></div>
     ${xs.map((s,i)=>`<a class="t ho-card" data-r style="--i:${i%4};--tone:${esc(s.tone||"#3a3834")}" href="${seriesHref(s.id,"manga")}">
-      <div class="cover"><img src="${ROOT}covers/${s.id}-manga.jpg" alt="${esc(s.title)} ${s.kind==="novel"?"light novel":"manga"} cover" loading="lazy" width="460" height="649" onerror="this.src='${ROOT}covers/${s.id}-anime.jpg'"></div>
+      <div class="cover"><img src="${ROOT}covers/${s.id}-manga.jpg" alt="" loading="lazy" width="460" height="649" onerror="this.src='${ROOT}covers/${s.id}-anime.jpg'"></div>
       <span class="lab"><b>${hoAbbr(s)}</b><span>${esc(s.title)}</span></span></a>`).join("")}
     ${marqueeHTML()}
   </section>`;
