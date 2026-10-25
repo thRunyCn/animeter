@@ -13,9 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: python3 fetch_seasons.py 2>&1 | tail -3 || true   # fills research/anilist_media.json with every season's titles
       - run: git checkout -- seasons.json
-      - env:
-          AFL_SAMPLES: chrono-crusade city-hunter yowamushi-pedal relife bakemonogatari naruto
-        run: python3 fetch_filler.py 2>&1 | tee fetch_filler.log
+      - run: python3 fetch_filler.py 2>&1 | tee fetch_filler.log
       - uses: actions/upload-artifact@v4
         with:
           name: afl-pages
@@ -25,5 +23,5 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add -f fetch_filler.log research/filler_afl.json research/afl_shows.json research/afl_sample
+          git add -f fetch_filler.log research/filler_afl.json research/afl_shows.json
           git diff --cached --quiet || (git commit -m "Fetch filler lists from Anime Filler List" && git push)

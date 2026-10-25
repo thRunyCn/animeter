@@ -96,8 +96,12 @@ def main():
     out = {}
     for sid, pages in sorted(matched.items()):
         pages = sorted(set(pages))
+        idx = [i for i, _, _ in pages]
+        # two AFL shows claiming the same season (a remake, a retelling) or none for the first season: numbering would be wrong
+        if len(set(idx)) < len(idx) or idx[0] != 0:
+            print(f"ambiguous or partial: {sid}: {pages}", flush=True); continue
         offset, kinds, info = 0, {}, []
-        for _, slug, title in pages:
+        for si, slug, title in pages:
             page = get(f"{BASE}/shows/{slug}")
             os.makedirs(os.path.join(HERE, "afl_pages"), exist_ok=True)
             open(os.path.join(HERE, "afl_pages", slug + ".html"), "w").write(page or "")
@@ -111,7 +115,7 @@ def main():
             if not eps: print("no episodes:", sid, slug, flush=True); continue
             for n, k in eps: kinds[offset + n] = k
             last = max(n for n, _ in eps)
-            info.append({"slug": slug, "title": title, "eps": last, "from": offset + 1})
+            info.append({"slug": slug, "title": title, "eps": last, "from": offset + 1, "season": si})
             offset += last
         if not info: continue
         out[sid] = {"pages": info, "total": offset,
