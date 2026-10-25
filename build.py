@@ -46,6 +46,9 @@ def load():
       if not s.get("eps"):
           print("skip (no episode count):", s["id"], file=sys.stderr); continue
       s.setdefault("kind", "manga")
+      # no chapter to continue from: either the anime adapts the whole source, or the source runs ahead with no single hand-off point
+      if s.get("end") == "fully": s.update(endWord="Fully adapted", endShort="Done")
+      elif s.get("end") == "ahead": s.update(endWord="Source continues", endShort="Novel ahead" if s["kind"] == "novel" else "Manga ahead")
       s.setdefault("epsLabel", "Season 1")
       apply_seasons(s, runs)
       out.append(s)

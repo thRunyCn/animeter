@@ -323,7 +323,8 @@
     "Anime Corner",
     "https://animecorner.me/attack-on-titan-anime-officially-ends/"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "fmab",
@@ -350,7 +351,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist:_Brotherhood_episodes"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "deathnote",
@@ -407,7 +409,8 @@
     "Anime Filler Guide",
     "https://www.animefillerguide.com/2019/06/naruto-shippuden-filler-list.html"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "mob",
@@ -432,7 +435,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Mob_Psycho_100"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "mha",
@@ -457,7 +461,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/My_Hero_Academia_season_8"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "bleach",
@@ -719,7 +724,8 @@
     "Mangashed",
     "https://mangashed.com/where-does-the-dr-stone-anime-leave-off-in-the-manga/"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "sakamoto",
@@ -777,7 +783,8 @@
     "Soap Central",
     "https://www.soapcentral.com/anime/how-many-chapters-will-fire-force-final-season-adapt-episode-structure-breakdown"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "mashle",
@@ -970,7 +977,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "mushoku",
@@ -981,7 +989,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "apothecary",
@@ -992,7 +1001,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues. There are also two separate manga versions.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "spicewolf",
@@ -1003,7 +1013,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "konosuba",
@@ -1014,7 +1025,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "eightysix",
@@ -1025,7 +1037,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "violet",
@@ -1036,7 +1049,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel. The series and the 2020 film together finish the story.",
-  "src": []
+  "src": [],
+  "end": "fully"
  },
  {
   "id": "toradora",
@@ -1047,7 +1061,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel. The anime adapts the whole main story.",
-  "src": []
+  "src": [],
+  "end": "fully"
  },
  {
   "id": "haruhi",
@@ -1058,7 +1073,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel series. The novels run ahead of the anime, so that's where the story continues. The Disappearance film comes after the 2009 broadcast.",
-  "src": []
+  "src": [],
+  "end": "ahead"
  },
  {
   "id": "oregairu",
@@ -1069,7 +1085,8 @@
   "nextNum": null,
   "total": null,
   "note": "Based on a light novel. Season 3 finishes the main story, and a sequel novel series continues it.",
-  "src": []
+  "src": [],
+  "end": "fully"
  },
  {
   "id": "onepiece",
@@ -1169,7 +1186,8 @@
     "Anime Filler Guide",
     "https://www.animefillerguide.com/anime/fairy-tail/"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "parasyte",
@@ -1189,7 +1207,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Parasyte"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "monster",
@@ -1209,7 +1228,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/List_of_Monster_episodes"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "berserk",
@@ -1254,7 +1274,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Gintama:_The_Very_Final"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "assclass",
@@ -1274,7 +1295,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Assassination_Classroom"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "fruitsbasket",
@@ -1294,7 +1316,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "nana",
@@ -1423,7 +1446,8 @@
     "Mushishi Wiki",
     "https://mushishi.fandom.com/wiki/Mushishi_(manga)"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "bocchi",
@@ -1491,7 +1515,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Horimiya"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "blueperiod",
@@ -1580,7 +1605,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Ping_Pong_(manga)"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "dorohedoro",
@@ -1824,7 +1850,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Inuyasha:_The_Final_Act"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "yyh",
@@ -1844,7 +1871,8 @@
     "Anime Filler Guide",
     "https://www.animefillerguide.com/?p=297"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "kenshin",
@@ -1968,7 +1996,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Orb:_On_the_Movements_of_the_Earth"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "pluto",
@@ -1993,7 +2022,8 @@
     "What's on Netflix",
     "https://whats-on-netflix.com/news/why-pluto-wont-be-returning-for-a-second-season-on-netflix"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "dressup",
@@ -2110,7 +2140,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Takopi%27s_Original_Sin"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "shangrila",
@@ -2254,7 +2285,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Your_Lie_in_April"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "dbz",
@@ -2282,7 +2314,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/List_of_Dragon_Ball_Z_chapters"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "bananafish",
@@ -2302,7 +2335,8 @@
     "Wikipedia",
     "https://en.wikipedia.org/wiki/Banana_Fish"
    ]
-  ]
+  ],
+  "end": "fully"
  },
  {
   "id": "rankingkings",

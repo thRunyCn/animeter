@@ -603,7 +603,7 @@ const STATUSES = [["watching","Watching"],["completed","Completed"],["planned","
 const seriesHref = (id, tab) => { const t = tab && tab!=="overview" ? tab : "";
   return STATIC ? `${ROOT}${id}/${t ? t+"/" : ""}` : `#${id}${t ? "."+t : ""}`; };
 const byId = Object.fromEntries(SERIES.map(s=>[s.id,s]));
-const M_MIN = 5, PER_PAGE = 25;
+const M_MIN = 5, MIN_VOTES = 5, PER_PAGE = 25;   // an Animeter score shows (and ranks) only from MIN_VOTES ratings
 const TABS = [["overview","Overview"],["seasons","Seasons"],["arcs","Arcs"],["events","Key events"],["filler","Filler"],["manga","Manga"]];
 let sortBy = "anilist", view = "list", query = "", page = 1, spoilers = false;
 const tags = new Set();                     // selected genre tags; a series must have all of them
@@ -669,7 +669,8 @@ function siteScores(){
   const all = SERIES.map(s=>({id:s.id, ...stats(s.id)}));
   const total = all.reduce((t,a)=>t+a.votes,0), sum = all.reduce((t,a)=>t+(a.votes?a.avg*a.votes:0),0);
   const C = total ? sum/total : 0, out = {};
-  all.forEach(a=>{ out[a.id] = {votes:a.votes, avg:a.avg, wr: a.votes ? (a.votes/(a.votes+M_MIN))*a.avg + (M_MIN/(a.votes+M_MIN))*C : null}; });
+  all.forEach(a=>{ const shown = a.votes >= MIN_VOTES;
+    out[a.id] = {votes:a.votes, avg:a.avg, shown, wr: shown ? (a.votes/(a.votes+M_MIN))*a.avg + (M_MIN/(a.votes+M_MIN))*C : null}; });
   return _site = out;
 }
 
@@ -686,12 +687,14 @@ function allTags(){
   });
   return Object.entries(groups).filter(([,l])=>l.length);
 }
+/* AniList order used everywhere (top ten, rankings, story): score, then popularity, then title */
+const byScore = (a,b) => (b.score??-1)-(a.score??-1) || (b.popularity??0)-(a.popularity??0) || a.title.localeCompare(b.title);
 function ranked(){
   const site = siteScores();
   const items = SERIES.map(s=>({s, site:site[s.id]}));
   const key = {anilist: x => x.s.score ?? -1, site: x => x.site.wr ?? -1, popular: x => x.s.popularity ?? -1,
     new: x => x.s.year ?? -1, old: x => -(x.s.year ?? 9999), az: () => 0}[sortBy];
-  items.sort((a,b)=> key(b)-key(a) || (sortBy==="az" ? 0 : (b.s.score??0)-(a.s.score??0)) || a.s.title.localeCompare(b.s.title));
+  items.sort((a,b)=> key(b)-key(a) || (sortBy==="az" ? a.s.title.localeCompare(b.s.title) : byScore(a.s,b.s)));
   const q = query.trim().toLowerCase();
   if (!q && !tags.size){ items.forEach((x,i)=>x.rank=i+1); return items; }
   const all = items; all.forEach((x,i)=>x.rank=i+1);
@@ -732,13 +735,20 @@ const deepOf = t => { const [h,s] = hsl(t); return hex(h, Math.min(.55, Math.max
 const toneVars = s => { const t = toneInk(vivid(s.tone)); return `--tone:${t.bg};--tone-ink:${t.ink};--deep:${deepOf(s.tone)}`; };
 const kindWord = s => s.kind==="novel" ? "light novel" : "manga";
 /* ---------- the first screen: a wall of covers drifting behind the question everyone asks ---------- */
-const answerOf = s => s.next ? `Read the ${kindWord(s)} from ${esc(handoffShort(s).replace(/^Ch\. ?/,"chapter ").replace(/^Vol\. ?/,"volume "))}`
-  : s.kind==="original" ? "Original anime, no book to read on with" : s.kind==="vn" ? "Began as a visual novel"
-  : handoffShort(s)==="Not checked" ? "Where the book picks up isn't checked yet" : "The anime tells the whole story";
+/* where the story stands after the anime: one answer shared by cards, lists and series pages (endShort ships with every series, endWord only on its own page) */
+const endState = s => s.next ? "next" : s.kind==="original" ? "original" : s.kind==="vn" ? "vn"
+  : s.endShort==="Done" ? "fully" : s.endShort==="Own end" ? "own" : / ahead$/.test(s.endShort||"") ? "ahead"
+  : s.unchecked && !s.mangaChecked ? "unchecked" : "unknown";
+const answerOf = s => ({
+  next: () => `Read the ${kindWord(s)} from ${esc(handoffShort(s).replace(/^Ch\. ?/,"chapter ").replace(/^Vol\. ?/,"volume "))}`,
+  original: () => "Original anime, no book to read on with", vn: () => "Began as a visual novel",
+  fully: () => "The anime tells the whole story", own: () => `The anime ends its own way, apart from the ${kindWord(s)}`,
+  ahead: () => `The ${kindWord(s)} goes on past the anime`,
+  unchecked: () => "Where the book picks up isn't checked yet", unknown: () => `Where the ${kindWord(s)} picks up isn't known yet`})[endState(s)]();
 function cineHTML(){
   const pop = SERIES.filter(s=>s.popularity).sort((a,b)=>b.popularity-a.popularity).slice(0,56);
   const cols = Array.from({length:7}, (_,c)=>pop.filter((_,i)=>i%7===c));
-  const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score)[0];
+  const top = SERIES.filter(s=>s.score!=null).sort(byScore)[0];
   const img = s => `<img src="${ROOT}covers/w/${s.id}.jpg" alt="" width="200" height="282" decoding="async" style="background:${esc(s.tone||"#222")}" onerror="this.onerror=null;this.src='${ROOT}covers/${s.id}-anime.jpg'">`;
   return `<section class="cine" style="${top ? toneVars(top) : ""}">
     <div class="cwall" aria-hidden="true">${cols.map((l,c)=>`<div class="col" data-dir="${c%2?1:-1}"><div class="lane">${l.map(img).join("")}${l.map(img).join("")}</div></div>`).join("")}</div>
@@ -776,7 +786,7 @@ function wireFinder(){
 }
 /* ---------- the top ten: a row of big covers that runs sideways as you scroll ---------- */
 function top10HTML(){
-  const top = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score).slice(0,10);
+  const top = SERIES.filter(s=>s.score!=null).sort(byScore).slice(0,10);
   return `<section class="top10" id="top" aria-labelledby="t10-h"><div class="t10-pin">
     <div class="t10-head"><h2 id="t10-h">The top ten</h2><p>The ten best-rated anime on AniList right now, and where each story goes after the last episode.</p></div>
     <div class="t10-track">${top.map((s,i)=>`<a class="t10-card" href="${seriesHref(s.id)}" style="${toneVars(s)}" data-deep="${deepOf(s.tone)}">
@@ -787,7 +797,7 @@ function top10HTML(){
 }
 /* ---------- the hand-off, told as a short scroll story with the No. 1 show ---------- */
 function storyHTML(){
-  const s = SERIES.filter(x=>x.score!=null && x.next && (x.unit||"Chapter")==="Chapter").sort((a,b)=>b.score-a.score)[0]; if (!s) return "";
+  const s = SERIES.filter(x=>x.score!=null && x.next && (x.unit||"Chapter")==="Chapter").sort(byScore)[0]; if (!s) return "";
   const n = parseInt(s.next,10) || s.next;
   return `<section class="story" aria-labelledby="story-h" style="${toneVars(s)}"><div class="story-pin">
     <div class="story-txt">
@@ -1010,7 +1020,7 @@ function handoffHTML(){
 }
 /* three figures on three tiles that refuse to line up */
 function figuresHTML(){
-  const pic = SERIES.filter(s=>s.score!=null).sort((a,b)=>b.score-a.score)[0];
+  const pic = SERIES.filter(s=>s.score!=null).sort(byScore)[0];
   return `<section class="board st" aria-labelledby="st-h">
     <div class="t tone st-a" data-r style="${pic ? toneVars(pic) : ""}"><b>${nf(COUNTS.guides)}</b><span>series with a full guide: arcs, key events, filler and the chapter to read next</span></div>
     <div class="st-r"><h2 id="st-h" data-r>Inside every guide</h2>
@@ -1025,7 +1035,7 @@ function faqHTML(){
     ["Where do the drop numbers come from?", "From visitors. Signed-in readers report the episode where they stopped and the episode where the show clicked for them. Each chart says how many people reported, and a series nobody has reported on yet says so instead of guessing."],
     ["How is the manga chapter worked out?", `${nf(SERIES.filter(s=>s.next).length)} series have a chapter or volume to start from, each with its source linked on the Manga tab. Series that are original anime, or that haven't been checked yet, are labelled that way rather than given a number.`],
     ["What counts as filler?", "Episodes that aren't adapted from the source. Episodes that mix source and new material are marked mixed, recaps are marked recap, and the filler tab lists the source for every range."],
-    ["Which score is the ranking?", "By default the list follows AniList's average user score. Switch the sort to Animeter score to rank by ratings left here, weighted so a series needs about five votes before it can reach the top."],
+    ["Which score is the ranking?", "By default the list follows AniList's average user score. Switch the sort to Animeter score to rank by ratings left here. A series needs five ratings before it gets an Animeter score."],
     ["Do I need an account?", "Not to read anything. To rate a series, report where you stopped or keep a list, sign in with your email: we send a link and a six-digit code, and there is no password."]];
   return `<section class="board faq" aria-labelledby="faq-h"><div class="faq-h"><h2 id="faq-h" data-r>Before you ask</h2></div>
     <div class="faq-l">${qs.map(([q,a],i)=>`<details name="faq" data-r style="--i:${i}"${i===0?" open":""}><summary>${q}<i aria-hidden="true"></i></summary><p>${a}</p></details>`).join("")}</div></section>`;
@@ -1096,10 +1106,10 @@ function renderRankings(){
   const pages = Math.max(1, Math.ceil(all.length / PER_PAGE));
   page = Math.min(Math.max(1, page), pages);
   const items = all.slice((page-1)*PER_PAGE, page*PER_PAGE);
-  const anyVotes = Object.values(site).some(v=>v.votes);
+  const anyVotes = Object.values(site).some(v=>v.shown);
   document.getElementById("basis").textContent = {
     anilist: "Ordered by AniList's average user score.",
-    site: anyVotes ? `Ordered by Animeter ratings from visitors, weighted so a series needs about ${M_MIN} votes before it can top the list (the IMDb method). Unrated series sit at the bottom.` : "No Animeter ratings yet. Open a series and rate it 1 to 10 to start this list.",
+    site: anyVotes ? `Ordered by Animeter ratings from visitors. A series needs ${MIN_VOTES} ratings before it gets a score here. Series with fewer sit at the bottom.` : `No series has enough Animeter ratings yet. Open a series and rate it 1 to 10; a score shows once it has ${MIN_VOTES}.`,
     popular: "Ordered by how many AniList users have the series on their list.",
     new: "Newest first, by the year the anime started.",
     old: "Oldest first, by the year the anime started.",
@@ -1122,13 +1132,13 @@ function renderRankings(){
         ${coverHTML(s,"anime")}
         <span style="min-width:0"><span class="t">${esc(s.title)}</span><br><span class="meta">${[s.year, (s.genres||[]).slice(0,2).join(", ")].filter(Boolean).map(esc).join(" · ")}</span></span>
         <span class="sc gold"><b>${s.score?fmt10(s.score/10):"—"}</b><small>AniList</small></span>
-        <span class="sc site"><b>${site.votes?fmt10(site.avg):"—"}</b><small>${site.votes ? site.votes+" vote"+(site.votes===1?"":"s") : "Animeter"}</small></span>
+        <span class="sc site"><b>${site.shown?fmt10(site.avg):"—"}</b><small>${site.shown ? site.votes+" votes" : site.votes ? "Not enough votes yet" : "Animeter"}</small></span>
         <span class="ch">${chip(s)}</span>
       </a>`).join("") + `</div>`;
   } else {
     patch(box).html = `<div class="wall">` + items.map(({s,site,rank})=>`
       <a class="card" href="${seriesHref(s.id)}">
-        ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>${obiHTML(s, sortBy==="site" ? (site.votes?fmt10(site.avg):"") : (s.score?fmt10(s.score/10):""))}`)}
+        ${coverHTML(s,"anime","",`<span class="rk">${rank}</span>${obiHTML(s, sortBy==="site" ? (site.shown?fmt10(site.avg):"") : (s.score?fmt10(s.score/10):""))}`)}
         <span class="t">${esc(s.title)}</span>
         <span class="m"><span>${esc([s.year,(s.genres||[])[0]].filter(Boolean).join(" · "))}</span></span>
       </a>`).join("") + `</div>`;
@@ -1329,8 +1339,9 @@ function renderSeries(id, tab){
   const book = s.kind==="novel" ? "light novel" : "manga";
   const answer = s.next ? `<p class="answer">After the anime, read the ${book} from <span class="ch">${esc((s.unit||"Chapter")+" "+s.next)}</span>.</p>`
     : s.kind==="original"||s.kind==="vn" ? `<p class="answer">An <span class="ch">original anime</span>, so there's no book to continue with.</p>`
-    : s.endWord==="Own ending" ? `<p class="answer">The anime ends the story its own way, apart from the ${book}.</p>`
-    : s.endWord==="Fully adapted" || (!s.unchecked && !s.endWord) ? `<p class="answer">The anime covers the <span class="ch">whole ${book}</span>.</p>`
+    : endState(s)==="own" ? `<p class="answer">The anime ends the story its own way, apart from the ${book}.</p>`
+    : endState(s)==="fully" ? `<p class="answer">The anime covers the <span class="ch">whole ${book}</span>.</p>`
+    : endState(s)==="ahead" ? `<p class="answer">The ${book} goes on past the anime.</p>`
     : `<p class="answer">We haven't found where the anime ends in the ${book} yet.</p>`;
   const bookTile = s.kind==="original"||s.kind==="vn" ? "" : `<div class="t pic">${coverHTML(s,"manga","","",true)}<span class="cap">${s.kind==="novel"?"Light novel":"Manga"}${s.next ? `, from ${esc((s.unit||"chapter").toLowerCase()+" "+s.next)}` : ""}</span></div>`;
   patch(document.getElementById("app")).html = `
@@ -1343,7 +1354,7 @@ function renderSeries(id, tab){
           <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div></div>
         <div class="t tone sh-ans">${answer}</div>
         ${s.score?`<div class="t fact"><b>${fmt10(s.score/10)}</b><span class="label">AniList score</span></div>`:""}
-        <div class="t fact"><b>${ss.votes ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.votes ? `, ${ss.votes} vote${ss.votes===1?"":"s"}` : ", no votes yet"}</span></div>
+        <div class="t fact"><b>${ss.shown ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.shown ? `, ${ss.votes} votes` : ss.votes ? `, not enough votes yet (${ss.votes} of ${MIN_VOTES})` : ", no votes yet"}</span></div>
         <div class="t fact"${s.score?"":' style="grid-column:span 2"'}><b>${s.eps}</b><span class="label">${esc(s.epsLabel==="Movie" ? "film" : s.epsLabel==="Episodes" ? (s.eps===1?"episode":"episodes") : "episodes, "+s.epsLabel.toLowerCase())}</span></div>
         ${rateRow||gate ? `<div class="t deep sh-me">${rateRow}${gate}</div>` : ""}
       </div>
