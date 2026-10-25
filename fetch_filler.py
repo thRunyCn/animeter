@@ -85,8 +85,12 @@ def main():
         if slug in manual:
             if manual[slug]: matched.setdefault(manual[slug], []).append((0, slug, title))
             continue
-        hit = key.get(norm(title)) or key.get(norm(slug.replace("-", " ")))
-        if hit: matched.setdefault(hit[0], []).append((hit[1], slug, title))
+        # "Attack on Titan (Shingeki no Kyojin)": try the whole title, the part before the brackets and the part inside
+        tries = [title, re.sub(r"\s*\(.*?\)\s*", " ", title)] + re.findall(r"\((.*?)\)", title)
+        hit = next((key[norm(x)] for x in tries if norm(x) in key), None)
+        if hit:
+            matched.setdefault(hit[0], []).append((hit[1], slug, title))
+            print(f"match {slug!r} ({title}) -> {hit[0]} season {hit[1]}", flush=True)
     print(f"{len(matched)} series matched", flush=True)
 
     out = {}
@@ -95,6 +99,8 @@ def main():
         offset, kinds, info = 0, {}, []
         for _, slug, title in pages:
             page = get(f"{BASE}/shows/{slug}")
+            os.makedirs(os.path.join(HERE, "afl_pages"), exist_ok=True)
+            open(os.path.join(HERE, "afl_pages", slug + ".html"), "w").write(page or "")
             time.sleep(1.2)
             eps = episodes(page or "")
             if not eps: print("no episodes:", sid, slug, flush=True); continue
