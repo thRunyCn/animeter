@@ -116,23 +116,21 @@ p,li,summary{text-wrap:pretty}
 .cine::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:linear-gradient(to top,var(--ground) 0%,rgb(9 9 10/.94) 30%,rgb(9 9 10/.62) 62%,rgb(9 9 10/.5) 100%),
              radial-gradient(120% 80% at 20% 100%,color-mix(in srgb,var(--deep) 80%,transparent),transparent 70%)}
-.cine-in{position:absolute;inset:auto 0 0;padding:0 var(--gut) clamp(32px,6vh,72px);display:grid;grid-template-columns:minmax(0,1fr);row-gap:clamp(18px,3vh,32px);align-items:end}
-.cine h1{grid-column:1/-1;font-weight:600;font-stretch:76%;font-size:clamp(52px,6.6vw,128px);line-height:.9;max-width:13ch;letter-spacing:-.055em;margin:0 0 0 -.05em;color:#fff}
+.cine-in{position:absolute;inset:auto 0 0;padding:0 var(--gut) clamp(32px,6vh,72px);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,1fr);column-gap:clamp(24px,5vw,96px);row-gap:clamp(20px,3.4vh,40px);align-items:end}
+.cine h1{grid-column:1/-1;font-weight:600;font-stretch:76%;font-size:clamp(60px,11.2vw,208px);line-height:.84;letter-spacing:-.055em;margin:0 0 0 -.05em;color:#fff}
 .cine h1>span{display:block}
 .cine h1 .sl{padding-bottom:.14em;margin-bottom:-.14em}
 .cine .lede{margin:0;font-size:clamp(1.125rem,.95rem + .6vw,1.5rem);line-height:1.38;letter-spacing:-.012em;max-width:40ch;color:#f3f2ef}
 .cine .acts{grid-column:1;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
 .cine .more{font-weight:600;font-size:var(--step-small);padding:12px 0}
-/* the search sits right under the question, light on the dark wall so it reads first */
-.finder{position:relative;width:min(100%,640px)}
-.finder .fi{position:absolute;left:20px;top:50%;translate:0 -50%;color:#3a3a40;pointer-events:none;display:flex}
-.finder input[type=search]{width:100%;min-height:64px;padding:0 22px 0 52px;border-radius:12px;border:2px solid transparent;background:#f3f2ef;
-  color:#0c0c0e;font-family:var(--f);font-weight:500;font-size:clamp(1.0625rem,1rem + .3vw,1.25rem);transition:border-color .2s ease,background-color .2s ease}
-.finder input[type=search]::placeholder{color:#55555c;opacity:1}
-.finder input[type=search]:hover{background:#fff}
-.finder input[type=search]:focus{outline:none;border-color:var(--tone);background:#fff}
-.finder input[type=search]:focus-visible{outline:3px solid var(--tone);outline-offset:2px}
-.found{list-style:none;margin:0;padding:6px;position:absolute;left:0;right:0;top:calc(100% + 8px);z-index:3;border-radius:12px;background:#141416;
+.cine .lede{grid-column:1;grid-row:2}
+.finder{grid-column:2;grid-row:2/4;position:relative;align-self:end}
+.finder input{width:100%;min-height:68px;padding:0 22px;border-radius:12px;border:1px solid rgb(255 255 255/.16);background:rgb(22 22 25/.72);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+  color:#fff;font-family:var(--f);font-weight:500;font-size:clamp(1.0625rem,1rem + .3vw,1.25rem);transition:border-color .2s ease,background-color .2s ease}
+.finder input:hover{background:rgb(30 30 34/.8)}
+.finder input:focus{outline:none;border-color:var(--tone);background:rgb(18 18 20/.92)}
+.finder input:focus-visible{outline:3px solid var(--tone);outline-offset:2px}
+.found{list-style:none;margin:0;padding:6px;position:absolute;left:0;right:0;bottom:calc(100% + 8px);z-index:3;border-radius:12px;background:#141416;
   border:1px solid rgb(255 255 255/.1);box-shadow:0 30px 60px rgb(0 0 0/.5);display:none;transform-origin:50% 100%}
 .found.on{display:block}
 @media (prefers-reduced-motion:no-preference){.found.on{animation:pop .18s var(--ease-out)}}
@@ -145,7 +143,9 @@ p,li,summary{text-wrap:pretty}
 @media (max-width:900px){
   .cine{min-height:600px}
   .cine-in{grid-template-columns:1fr}
-  .cine h1{font-size:clamp(44px,12.4vw,72px)}
+  .cine h1{font-size:clamp(52px,17vw,140px)}
+  .finder{grid-column:1;grid-row:auto}
+  .cine .acts{grid-row:auto}
   .cwall{inset:-20% -40%}
 }
 
@@ -782,11 +782,11 @@ function cineHTML(){
   return `<section class="cine" style="${top ? toneVars(top) : ""}">
     <div class="cwall" aria-hidden="true">${cols.map((l,c)=>`<div class="col" data-dir="${c%2?1:-1}"><div class="lane">${l.map(img).join("")}${l.map(img).join("")}</div></div>`).join("")}</div>
     <div class="cine-in">
-      <h1><span>Finished the anime?</span> <span>Here’s where the manga picks up.</span></h1>
-      <p class="lede">${nf(SERIES.length)} anime, each with the chapter to read next, the filler to skip and every season in order.</p>
+      <h1><span>Where people</span> <span>stop watching</span></h1>
+      <p class="lede">${nf(SERIES.length)} anime, ranked. For each one: the episode viewers quit, the filler to skip, and the chapter where the manga picks up.</p>
       <div class="finder" role="search">
         <label class="vh" for="find">Find an anime</label>
-        <span class="fi">${SEARCH_ICON}</span><input id="find" type="search" autocomplete="off" placeholder="Search ${nf(SERIES.length)} anime, like Frieren or One Piece" aria-controls="found">
+        <input id="find" type="search" autocomplete="off" placeholder="Type an anime, like Frieren or One Piece" aria-controls="found">
         <ul id="found" class="found" aria-live="polite"></ul>
       </div>
       <div class="acts"><a class="btn" href="#rankings" data-jump>See the rankings</a><a class="more" href="#top" data-jump>The top ten</a></div>
@@ -879,8 +879,12 @@ function chars(el, type="chars"){
 function motionHome(){
   const c = document.querySelector(".cine");
   if (c){
-    // the opening: the wall of covers settles into place behind the question; the text is there from the first frame
-    gsap.fromTo(".cwall", {scale:1.06}, {scale:1, duration:1.2, ease:"expo.out"});
+    // the opening: the wall of covers settles out of the dark, the question rises line by line, then the finder
+    const lines = SplitText.create(c.querySelector("h1"), {type:"lines", mask:"lines", linesClass:"sl"}).lines;
+    gsap.timeline()
+      .fromTo(".cwall", {opacity:0, scale:1.14}, {opacity:1, scale:1, duration:2.2, ease:"expo.out"})
+      .from(lines, {yPercent:105, duration:1.2, stagger:.09, ease:"expo.out"}, .15)
+      .from(".cine .lede, .cine .finder, .cine .acts", {y:24, opacity:0, duration:.9, stagger:.07, clearProps:"transform,opacity"}, .5);
     coverWall();
   }
   topTen();
@@ -938,11 +942,11 @@ function coverWall(){
 /* the top ten: the heading rises and the covers open one after another once the section arrives */
 function topTen(){
   const sec = document.querySelector(".top10"); if (!sec) return;
-  // everything is visible before this plays: it only moves things the last few pixels into place
-  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top bottom", once:true}});
-  tl.from(".t10-head > *", {y:20, stagger:.05, duration:.5, clearProps:"transform"})
-    .fromTo(".t10-card img", {scale:1.08}, {scale:1, duration:.6, ease:"expo.out", stagger:.04, clearProps:"transform"}, .05)
-    .from(".t10-n", {y:16, duration:.5, stagger:.03, clearProps:"transform"}, .1);
+  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top 70%", once:true}});
+  tl.from(".t10-head > *", {y:28, opacity:0, stagger:.08, duration:.9, clearProps:"transform,opacity"})
+    .fromTo(".t10-card .cover", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.06, clearProps:"clipPath"}, .1)
+    .fromTo(".t10-card img", {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.06, clearProps:"transform"}, .2)
+    .from(".t10-n, .t10-meta", {y:20, opacity:0, duration:.7, stagger:.03, clearProps:"transform,opacity"}, .45);
 }
 /* the story plays once when it arrives: the anime steps aside, the book opens and the chapter counts up */
 function story(){

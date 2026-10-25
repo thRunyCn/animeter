@@ -200,11 +200,11 @@ function cineHTML(){
   return `<section class="cine" style="${top ? toneVars(top) : ""}">
     <div class="cwall" aria-hidden="true">${cols.map((l,c)=>`<div class="col" data-dir="${c%2?1:-1}"><div class="lane">${l.map(img).join("")}${l.map(img).join("")}</div></div>`).join("")}</div>
     <div class="cine-in">
-      <h1><span>Finished the anime?</span> <span>Here’s where the manga picks up.</span></h1>
-      <p class="lede">${nf(SERIES.length)} anime, each with the chapter to read next, the filler to skip and every season in order.</p>
+      <h1><span>Where people</span> <span>stop watching</span></h1>
+      <p class="lede">${nf(SERIES.length)} anime, ranked. For each one: the episode viewers quit, the filler to skip, and the chapter where the manga picks up.</p>
       <div class="finder" role="search">
         <label class="vh" for="find">Find an anime</label>
-        <span class="fi">${SEARCH_ICON}</span><input id="find" type="search" autocomplete="off" placeholder="Search ${nf(SERIES.length)} anime, like Frieren or One Piece" aria-controls="found">
+        <input id="find" type="search" autocomplete="off" placeholder="Type an anime, like Frieren or One Piece" aria-controls="found">
         <ul id="found" class="found" aria-live="polite"></ul>
       </div>
       <div class="acts"><a class="btn" href="#rankings" data-jump>See the rankings</a><a class="more" href="#top" data-jump>The top ten</a></div>
@@ -297,8 +297,12 @@ function chars(el, type="chars"){
 function motionHome(){
   const c = document.querySelector(".cine");
   if (c){
-    // the opening: the wall of covers settles into place behind the question; the text is there from the first frame
-    gsap.fromTo(".cwall", {scale:1.06}, {scale:1, duration:1.2, ease:"expo.out"});
+    // the opening: the wall of covers settles out of the dark, the question rises line by line, then the finder
+    const lines = SplitText.create(c.querySelector("h1"), {type:"lines", mask:"lines", linesClass:"sl"}).lines;
+    gsap.timeline()
+      .fromTo(".cwall", {opacity:0, scale:1.14}, {opacity:1, scale:1, duration:2.2, ease:"expo.out"})
+      .from(lines, {yPercent:105, duration:1.2, stagger:.09, ease:"expo.out"}, .15)
+      .from(".cine .lede, .cine .finder, .cine .acts", {y:24, opacity:0, duration:.9, stagger:.07, clearProps:"transform,opacity"}, .5);
     coverWall();
   }
   topTen();
@@ -356,11 +360,11 @@ function coverWall(){
 /* the top ten: the heading rises and the covers open one after another once the section arrives */
 function topTen(){
   const sec = document.querySelector(".top10"); if (!sec) return;
-  // everything is visible before this plays: it only moves things the last few pixels into place
-  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top bottom", once:true}});
-  tl.from(".t10-head > *", {y:20, stagger:.05, duration:.5, clearProps:"transform"})
-    .fromTo(".t10-card img", {scale:1.08}, {scale:1, duration:.6, ease:"expo.out", stagger:.04, clearProps:"transform"}, .05)
-    .from(".t10-n", {y:16, duration:.5, stagger:.03, clearProps:"transform"}, .1);
+  const tl = gsap.timeline({scrollTrigger:{trigger:sec, start:"top 70%", once:true}});
+  tl.from(".t10-head > *", {y:28, opacity:0, stagger:.08, duration:.9, clearProps:"transform,opacity"})
+    .fromTo(".t10-card .cover", {clipPath:"inset(100% 0% 0% 0%)"}, {clipPath:"inset(0% 0% 0% 0%)", duration:1, ease:"expo.inOut", stagger:.06, clearProps:"clipPath"}, .1)
+    .fromTo(".t10-card img", {scale:1.15}, {scale:1, duration:1.4, ease:"expo.out", stagger:.06, clearProps:"transform"}, .2)
+    .from(".t10-n, .t10-meta", {y:20, opacity:0, duration:.7, stagger:.03, clearProps:"transform,opacity"}, .45);
 }
 /* the story plays once when it arrives: the anime steps aside, the book opens and the chapter counts up */
 function story(){
