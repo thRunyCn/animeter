@@ -102,6 +102,11 @@ def main():
             os.makedirs(os.path.join(HERE, "afl_pages"), exist_ok=True)
             open(os.path.join(HERE, "afl_pages", slug + ".html"), "w").write(page or "")
             time.sleep(1.2)
+            h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page or "", re.S)
+            h1 = html.unescape(re.sub(r"<[^>]+>", "", h1.group(1))).strip() if h1 else ""
+            h1 = re.sub(r"\s*filler list\s*$", "", h1, flags=re.I)
+            if slug not in manual and not any(key.get(norm(x), (None,))[0] == sid for x in [h1, re.sub(r"\s*\(.*?\)\s*", " ", h1)] + re.findall(r"\((.*?)\)", h1)):
+                print(f"page title {h1!r} doesn't match {sid}, skipping {slug}", flush=True); continue
             eps = episodes(page or "")
             if not eps: print("no episodes:", sid, slug, flush=True); continue
             for n, k in eps: kinds[offset + n] = k
@@ -113,6 +118,10 @@ def main():
                     **{k: ranges(n for n, v in kinds.items() if v == k) for k in ("filler", "mixed", "anime_canon")}}
         f = sum(b - a + 1 for a, b in out[sid]["filler"])
         print(f"{sid}: {', '.join(p['slug'] for p in info)}: {offset} episodes, {f} filler", flush=True)
+    for slug in os.environ.get("AFL_SAMPLES", "").split():      # raw pages kept for checking the parser
+        os.makedirs(os.path.join(HERE, "research", "afl_sample"), exist_ok=True)
+        open(os.path.join(HERE, "research", "afl_sample", slug + ".html"), "w").write(get(f"{BASE}/shows/{slug}") or "")
+    open(os.path.join(HERE, "research", "afl_sample", "shows.html"), "w").write(shows_html) if os.environ.get("AFL_SAMPLES") else None
     json.dump(out, open(os.path.join(HERE, "research", "filler_afl.json"), "w"), ensure_ascii=False, indent=1)
     print(f"wrote filler for {len(out)} series", flush=True)
     unmatched = [f"{s}\t{t}" for s, t in shows.items() if not any(s == p[1] for v in matched.values() for p in v)]
