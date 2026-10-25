@@ -36,7 +36,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "research", "handoff", "*.json"))):
     if os.path.basename(f) == "todo.json" or os.path.basename(f).startswith("in_"): continue
     try:
         rows = [h for h in json.load(open(f)) if isinstance(h, dict) and h.get("id")]
-        TRIED.update(h["id"] for h in rows if h.get("src") or re.search(r"out_r[245]_", f))   # rounds 2, 4, 5 searched every item
+        TRIED.update(h["id"] for h in rows if h.get("src") or re.search(r"out_r([245]|9z)_", f))   # rounds 2, 4, 5 and 9z searched every item
         HANDOFF.update({h["id"]: h for h in rows if h.get("confidence") in ("high", "medium") and h.get("src")})
     except Exception as e: print("skipping", f, e)
 END = {"fully_adapted": ("Fully adapted", "Done"), "anime_original_ending": ("Own ending", "Own end"), "unknown": ("Unclear", "Unclear")}
@@ -79,6 +79,32 @@ for t in top:
     if fmt != "MOVIE": apply_seasons(series[-1], RUNS)
     if t["id"] in HANDOFF: apply_handoff(series[-1], HANDOFF[t["id"]])
     elif t["id"] in TRIED and t["kind"] in KIND_WORD: series[-1].update(mangaChecked=True, endWord="No source yet", endShort="Unclear")
+# Filler lists from Anime Filler List for series without a hand-written guide (fetch_filler.py, run in GitHub Actions).
+try: AFL = json.load(open(os.path.join(HERE, "research", "filler_afl.json")))
+except FileNotFoundError: AFL = {}
+def afl_details(sid, a):
+    n = lambda k: sum(b - x + 1 for x, b in a.get(k) or [])
+    nf, nm, nc, tot = n("filler"), n("mixed"), n("anime_canon"), a["total"]
+    note = (f"{nf} of {tot} episodes are filler" + (f" and {nm} mix canon with filler" if nm else "") + "." if nf or nm
+            else f"No filler: all {tot} episodes are canon.")
+    if nc: note += f" {nc} anime-original episode{'s' if nc > 1 else ''} count{'' if nc > 1 else 's'} as canon."
+    if len(a["pages"]) > 1:
+        note += " Episodes are numbered straight through: " + ", ".join(f'{p["title"]} {p["from"]}–{p["from"] + p["eps"] - 1}' for p in a["pages"]) + "."
+    return {"id": sid, "arcs": [], "filler": {"filler": a.get("filler") or [], "mixed": a.get("mixed") or [], "recap": [], "total": tot, "note": note},
+            "src": [["Anime Filler List", f'https://www.animefillerlist.com/shows/{p["slug"]}'] for p in a["pages"]][:3]}
+try: SEASONS = json.load(open(os.path.join(HERE, "seasons.json")))
+except FileNotFoundError: SEASONS = {}
+for s_ in series:
+    a = AFL.get(s_["id"])
+    if not a or details.get(s_["id"]): continue
+    eps = [x.get("aired") or x.get("eps") or 0 for x in (SEASONS.get(s_["id"]) or {}).get("seasons") or []]
+    if eps and a["total"] < eps[0]:       # AFL's list stops partway through the first season: too partial to show
+        print("filler list too short, skipped:", s_["id"], a["total"], "of", eps[0]); continue
+    d = afl_details(s_["id"], a)
+    if eps and a["total"] < sum(eps) * 0.9:
+        d["filler"]["note"] += f' Anime Filler List covers the first {a["total"]} of {sum(eps)} episodes so far.'
+    details[s_["id"]] = d
+    s_["hf"] = 1          # has a filler tab even without a full guide
 for s_ in series:
     tg = sorted((x for x in TAGS.get(s_["id"], []) if tag_group(x) and x[0] not in (s_.get("genres") or [])), key=lambda x: (x[2] != "Demographic", -(x[1] or 0)))
     s_["tags"] = [x[0] for x in tg][:15]
@@ -140,9 +166,11 @@ def meta_for(s, tab):
         title = f"{st} key events by arc, spoiler-free"
         desc = f"The important moments of every {t} arc, blurred until you tap them so you can check without spoilers."
     elif tab == "filler":
-        title = f"{st} filler list: {fc} episodes to skip" if fc else f"Does {st} have filler? No"
+        fd = ((d or {}).get("filler") or {})
+        te = fd.get("total") or te
+        title = (f"{st} filler list: {fc} episodes to skip" if fc else f"Does {st} have filler? No" if fd else f"{st} filler list")
         desc = (f"{t} has {fc} filler episodes out of {te}. Every filler, mixed and canon episode, plus a copyable skip list." if fc
-                else f"{t} has no filler episodes. All {te} episodes are canon.")
+                else f"{t} has no filler episodes. All {te} episodes are canon." if fd else f"Filler episodes in {t}.")
     else:
         title = f"Where does the {st} anime end? {ho[0].upper()+ho[1:]}" if ho else f"Where does the {st} anime end?"
         desc = (f"The {t} anime ends around {ho}. Here is where to start reading after the anime, season by season." if ho
@@ -153,6 +181,7 @@ def meta_for(s, tab):
 def thin(s, tab):
     """Pages with no real answer yet: kept for visitors, hidden from search."""
     if tab == "manga": return bool(s.get("unchecked")) and not handoff(s) and not s.get("endWord") in ("Fully adapted", "Own ending")
+    if tab == "filler": return not (details.get(s["id"]) or {}).get("filler")
     return False
 
 def jsonld(s, tab, url, title, desc):
@@ -219,7 +248,7 @@ w("style.css", fontface + css.strip() + "\n")
 shutil.copytree(os.path.join(WEB, "fonts"), os.path.join(DIST, "fonts"))
 shutil.copytree(os.path.join(WEB, "vendor"), os.path.join(DIST, "vendor"))
 w("app.js", js.strip() + "\n")
-COUNTS = {"guides": sum(1 for x in series if details.get(x["id"])), "arcs": sum(len((details.get(x["id"]) or {}).get("arcs") or []) for x in series),
+COUNTS = {"guides": sum(1 for x in series if (details.get(x["id"]) or {}).get("arcs")), "arcs": sum(len((details.get(x["id"]) or {}).get("arcs") or []) for x in series),
           "events": sum(len(a.get("events") or []) for x in series for a in (details.get(x["id"]) or {}).get("arcs") or []),
           "filler": sum(filler_count(details.get(x["id"])) for x in series)}
 HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
@@ -249,7 +278,7 @@ for s in series:
         rel = f'{s["id"]}/' + ("" if k == "overview" else f"{k}/")
         root = "../" * rel.count("/")
         title, desc = meta_for(s, k)
-        if s.get("unchecked") and k in ("arcs", "events", "filler"): continue     # nothing to show yet
+        if s.get("unchecked") and (k in ("arcs", "events") or k == "filler" and not s.get("hf")): continue     # nothing to show yet
         if k == "seasons" and not has_seasons(s): continue
         img = f'covers/{s["id"]}-anime.jpg' if os.path.exists(os.path.join(COVERS, f'{s["id"]}-anime.jpg')) else None
         head = "\n" + jsonld(s, k, SITE + rel, title, desc) + ('\n<meta name="robots" content="noindex,follow">' if thin(s, k) else "")

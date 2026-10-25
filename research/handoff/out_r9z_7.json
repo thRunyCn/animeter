@@ -1,0 +1,567 @@
+[
+ {
+  "id": "saki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The sources checked do not say which chapter the Nationals anime stops at. The 2014 anime ends with the Nationals tournament still underway, and the manga is still running.",
+  "src": [
+   [
+    "Wikipedia: List of Saki episodes",
+    "https://en.wikipedia.org/wiki/List_of_Saki_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "withyouandtherain",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source states the chapter where the anime ends. One reviewer says the finale mostly follows the manga's ending, and the manga is still ongoing.",
+  "src": [
+   [
+    "Lost in Anime review",
+    "https://lostinanime.com/?p=302339"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kayachanisntscary",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source maps the 12 episodes to chapters; the manga is still running with 9 volumes as of April 2026. Some episode titles reuse chapter titles from volumes 1 to 5.",
+  "src": [
+   [
+    "Wikipedia: Kaya-chan Isn't Scary",
+    "https://en.wikipedia.org/wiki/Kaya-chan_Isn%27t_Scary"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mynewbossisgoofy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the manga could not be confirmed.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "helloiamawitchandmycrush",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Coverage is not stated. The source series is listed as ongoing with six volumes as of February 2026, and the anime premiered in October 2026.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hello,_I_am_a_Witch,_and_My_Crush_Wants_Me_to_Make_a_Love_Potion!"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gantzo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nialistonthemercilessmai",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Light novel coverage is not stated. The light novel had 11 volumes as of June 2026 and the anime runs two consecutive cours from October 2026.",
+  "src": [
+   [
+    "Wikipedia: Nia Liston",
+    "https://en.wikipedia.org/wiki/Nia_Liston:_The_Merciless_Maiden"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "alwaysacatch",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Light novel coverage is not stated. The 12-episode anime ends at the royal ball; the novel had seven volumes as of April 2026.",
+  "src": [
+   [
+    "Wikipedia: Always a Catch!",
+    "https://en.wikipedia.org/wiki/Always_a_Catch!"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theworldisdancing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Chapter coverage is not stated. The manga ran in Morning from March 2021 to October 2022 in six volumes.",
+  "src": [
+   [
+    "Wikipedia: The World Is Dancing",
+    "https://en.wikipedia.org/wiki/The_World_Is_Dancing"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "magicknightrayearth",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 1 stays mostly faithful to the first manga arc. Season 2 departs heavily from the manga with anime-only villains. The manga has two parts of three volumes each.",
+  "src": [
+   [
+    "Manga Wiki: Magic Knight Rayearth",
+    "https://manga.fandom.com/wiki/Magic_Knight_Rayearth"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kodocha",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "A specific ending chapter could not be found. The source says the anime's first season ends at episode 51 and continues further.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "badgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Chapter coverage is not stated. The 12-episode anime ended in September 2025 and the manga is ongoing at six volumes.",
+  "src": [
+   [
+    "Wikipedia: Bad Girl",
+    "https://en.wikipedia.org/wiki/Bad_Girl_(manga)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "getbackers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The sources do not give an ending chapter. The 49-episode anime skips some manga arcs, and the manga ran 39 volumes, so check the volumes for where to resume.",
+  "src": [
+   [
+    "Wikipedia: GetBackers",
+    "https://en.wikipedia.org/wiki/GetBackers"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "seeyoutomorrowatthefoodc",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yakitatejapan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime ended about ten months before the manga did, but no source gives the chapter. The manga has 26 volumes.",
+  "src": [
+   [
+    "Wikipedia: Yakitate!! Japan",
+    "https://en.wikipedia.org/wiki/Yakitate!!_Japan"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "shinchan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "astarbrighterthanthesun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "psychicprincess",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ifmyfavoritepopidolmadei",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kusunokisgardenofgods",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mermaidmelodypichipichip",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The manga is 32 chapters plus side stories in seven volumes. The author treated the anime as a separate work, so it does not match the manga's storyline.",
+  "src": [
+   [
+    "Wikipedia: Mermaid Melody",
+    "https://en.wikipedia.org/wiki/Mermaid_Melody_Pichi_Pichi_Pitch"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theprincessandthepilot",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found. The film has a related light novel series, The Pilot's Love Song, set in the same universe.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Princess_and_the_Pilot"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "biaoren",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "captaintsubasa",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yumeiropatissiere",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "paniponidash",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source does not say where the anime stops. The manga ran in G Fantasy until October 2011 in 17 volumes.",
+  "src": [
+   [
+    "Wikipedia: Pani Poni",
+    "https://en.wikipedia.org/wiki/Pani_Poni"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "yourebeingsummonedazazel",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source does not say where the anime stops. The manga is finished at 16 volumes.",
+  "src": [
+   [
+    "Wikipedia: You're Being Summoned, Azazel",
+    "https://en.wikipedia.org/wiki/You%27re_Being_Summoned,_Azazel"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "sgtfrog",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestoryofsaiunkoku",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yourlightkasesanandmorni",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The film likely covers the first volume, but the source does not confirm it. The story continues in the sequel series Kase-san and Yamada.",
+  "src": [
+   [
+    "Wikipedia: Kase-san",
+    "https://en.wikipedia.org/wiki/Kase-san"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "barefootgen",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source does not say which manga volumes the film covers. A sequel film, Barefoot Gen 2, continues the story.",
+  "src": [
+   [
+    "Wikipedia: Barefoot Gen (1983 film)",
+    "https://en.wikipedia.org/wiki/Barefoot_Gen_(1983_film)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kimagureorangeroad",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The TV anime omits some manga storylines and reportedly ends without a resolution, with the film I Want to Return to That Day cited for closure. No source gives an ending chapter.",
+  "src": [
+   [
+    "Wikipedia: Kimagure Orange Road",
+    "https://en.wikipedia.org/wiki/Kimagure_Orange_Road"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "victoriaofmanyfaces",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galaxyexpress999",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source says the manga and TV series share much of their story but differ in details. No ending chapter is given.",
+  "src": [
+   [
+    "Wikipedia: Galaxy Express 999",
+    "https://en.wikipedia.org/wiki/Galaxy_Express_999"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "isekaiizakayajapanesefoo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "brokenblade",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tadaimaokaeri",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "moyashimon",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theirresponsiblecaptaint",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source says the anime partly adapts the novels, which at the time were three trilogies plus side stories, but gives no volume range.",
+  "src": [
+   [
+    "Wikipedia: The Irresponsible Captain Tylor",
+    "https://en.wikipedia.org/wiki/The_Irresponsible_Captain_Tylor"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "darasanofthereiwaera",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Chapter coverage is not stated. The manga is ongoing with 8 volumes as of June 2026.",
+  "src": [
+   [
+    "Wikipedia: Dara-san of Reiwa",
+    "https://en.wikipedia.org/wiki/Dara-san_of_Reiwa"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "youreunderarrest",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "emmaavictorianromance",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source does not map the anime to manga chapters. Season 2 ends with the leads engaged and then shows them years later married.",
+  "src": [
+   [
+    "Wikipedia: List of Emma episodes",
+    "https://en.wikipedia.org/wiki/List_of_Emma_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thealldevouringwhalehome",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "loveyoubaby",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Not found.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "osomatsukun1988",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Mr. Osomatsu is a new story with the characters as adults and does not adapt the original manga's chapters.",
+  "src": [
+   [
+    "Wikipedia: Mr. Osomatsu",
+    "https://en.wikipedia.org/wiki/Mr._Osomatsu"
+   ]
+  ],
+  "confidence": "low"
+ }
+]

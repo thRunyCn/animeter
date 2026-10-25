@@ -1,0 +1,437 @@
+[
+ {
+  "id": "supercub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gareizero",
+  "unit": "Chapter",
+  "next": "4",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime is a prequel set about two years before the manga's main story. The manga recommends starting at volume 1, chapter 4; chapters 1-3 are an introductory arc you can read later.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ga-rei-zero-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "citytheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tamonsbside",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thosesnowwhitenotes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jaadugarawitchinmongolia",
+  "unit": "Chapter",
+  "next": "26",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 26
+   }
+  ],
+  "status": "continue",
+  "note": "Episode 12 of season 1 corresponds to chapter 26 (volume 4) of the manga, so continue from around chapter 26. The anime reportedly changes the plot very little.",
+  "src": [
+   [
+    "Dexerto FR",
+    "https://www.dexerto.fr/anime/comment-lire-le-manga-jaadugar-avant-saison-2-1658851/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "konohanakitan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dropkickonmydevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blackcat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "overgeared",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "genshiken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akanebanashi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "howtokeepamummy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "eventhestudentcouncilhas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gugurekokkurisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rozenmaiden",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rockisaladysmodesty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shugochara",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theklutzyclassmonitorand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bakithegrappler",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "horizoninthemiddleofnowh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "endoandkobayashilivethel",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lovechunibyootherdelusio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chiosschoolroad",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "botankamiinafullyblossom",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "skullfacebooksellerhonda",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "strawberrymarshmallow",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "minamike",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "outlawstar",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetooperfectsainttossed",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tistimefortortureprinces",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theprinceoftennis",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mitsuboshicolors",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kagekishojo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tekkonkinkreet",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ladyoscartheroseofversai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found stating where the anime ends in the original.",
+  "src": [],
+  "confidence": "low"
+ }
+]

@@ -1,0 +1,557 @@
+[
+ {
+  "id": "bigorder",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found states where the anime ends. It aired in 2016 while the manga was still running; the manga is now finished at 55 chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Big_Order"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theryuosworkisneverdone",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalwarfare",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first six light novel volumes, so start at volume 7. The light novel is finished at 12 volumes.",
+  "src": [
+   [
+    "ANN/EpicDope",
+    "https://www.epicdope.com/magical-warfare-season-2-release-info-visuals-staff-updates/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lovestage",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kokkoku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "drugstoreinanotherworldt",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "plasticeldersister",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dragonaracademy",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "therewasacutegirlinthehe",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedailylifeofamiddleage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themosthereticallastboss",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mistresskananisdevilishl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "superhxeros",
+  "unit": "Chapter",
+  "next": "23",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 22
+   }
+  ],
+  "status": "continue",
+  "note": "One source says the 12 episodes end at the close of chapter 23 (volume 5), so start around chapter 23. The manga is finished; the source's chapter totals conflict with AniList's 61 chapters, so double-check.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-super-hxeros-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "norin",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themaidihiredrecentlyism",
+  "unit": "Chapter",
+  "next": "27",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 26
+   }
+  ],
+  "status": "continue",
+  "note": "One source says the anime covers up to chapter 26 (the finale also draws on later material), so start at chapter 27 (volume 3). The manga is finished at 77 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/?p=99"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tawawaonmonday",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "One source says the anime and manga are alternate continuities of the original webcomic, so there is no chapter to continue from; read the manga from chapter 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-tawawa-on-monday-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "railwars",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "365daystothewedding",
+  "unit": "Chapter",
+  "next": "53",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 52
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 50 and part of chapter 52, skipping chapter 51, so continue from chapter 53 (read 51 if you want the skipped chapter). The manga is finished at 110 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-365-days-to-the-wedding-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kanokonthegirlwhocriedfo",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to the end of volume 3, so continue at volume 4, though the anime changes and cuts a lot, so starting at volume 1 is suggested. The novels are finished at 15 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kanokon-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "magicalgirlraisingprojec",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 adapts volume 1 and the Restart arc spans volumes 2 and 3, but the source does not state where the restart anime ends, so check which volume you have reached.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-magical-girl-raising-project-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hanebado",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "noblesseawakening",
+  "unit": "Chapter",
+  "next": "200",
+  "seasons": [
+   {
+    "l": "Noblesse (2020)",
+    "end": 199
+   }
+  ],
+  "status": "continue",
+  "note": "The 13-episode 2020 anime ends around chapter 199 and skips the early chapters, so continue at chapter 200. The webtoon is finished at 544 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-noblesse-anime-end-in-the-manhwa/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "negima",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "From episode 22 the 2005 anime uses original material to give itself a conclusion, so it does not lead into a specific manga chapter. The manga is finished at 355 chapters; start from the beginning to read the real story.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Negima!_Magister_Negi_Magi"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "suzuka",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "beyondtheboundary",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "goldentime",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "toiletboundhanakokun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "loghorizon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandbluedreaming",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends at chapter 21, but no source found states where the latest season ends.",
+  "src": [
+   [
+    "Soap Central",
+    "https://ww4.soapcentral.com/anime/where-pick-grand-blue-manga-anime"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bloodblockadebattlefront",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gate",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wistoriawandandsword",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sentencedtobeahero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wanderingwitchthejourney",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mynextlifeasavillainessa",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myhappymarriage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "oresukiareyoutheonlyonew",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "recordofragnarok",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 19
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 covers up to chapter 19, but no source found states where the latest season ends.",
+  "src": [
+   [
+    "Critical Hits",
+    "https://criticalhits.com.br/anime/onde-comecar-o-manga-apos-o-final-da-temporada-de-record-of-ragnarok/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "trappedinadatingsimthewo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedetectiveisalreadydea",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "youandiarepolaropposites",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gosick",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The source does not say which volume the anime stops at, but the anime's ending differs from the novels, which continue the couple's story after the anime.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Gosick"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "howheavyarethedumbbellsy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nonnonbiyori",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found maps the seasons to chapters. The manga is finished at 120+ chapters in 16 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Non_Non_Biyori"
+   ]
+  ],
+  "confidence": "low"
+ }
+]

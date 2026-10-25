@@ -1,0 +1,571 @@
+[
+ {
+  "id": "theshiunjifamilychildren",
+  "unit": "Chapter",
+  "next": "35",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 34
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 34 (end of volume 5), so start at chapter 35, the first chapter of volume 6. The manga is still ongoing.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/where-the-shiunji-family-children-anime-leave-manga-explained"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thewarriorprincessandthe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "skywizardsacademy",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "talesofweddingrings",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "classroomforheroes",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "junjiitocollection",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themasterofragnarkblesse",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fromovershadowedtooverpo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "apocalypsebringermynoghr",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ileftmyarankpartytohelpm",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bigorder",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thevexationsofashutinvam",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime appears to cover volumes 1-3 of the light novel (inferred from episode and chapter titles), so volume 4 is the likely place to continue. The novel is ongoing.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Vexations_of_a_Shut-In_Vampire_Princess"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thegreatcleric",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 2, so start at volume 3. Manga readers should start at chapter 41, as the anime covers up to chapter 40.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-great-cleric-anime-end-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theryuosworkisneverdone",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kmpfer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The anime covers roughly the first 5-6 of the 15 light novel volumes, then ends with an original open-ended conclusion that differs from the novels. Reading from volume 1 is recommended because the anime changes and skips material.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kampfer-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalwarfare",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nananasburiedtreasure",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the plot through the end of volume 4, so continue from volume 5 (the source suggests volume 4 for a smoother pickup). The light novel is complete at 12 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-nananas-buried-treasure-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mytinysenpai",
+  "unit": "Chapter",
+  "next": "50",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 49
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends around chapter 49, though the anime reorders and skips some chapters, so starting a few chapters earlier (around chapter 45) avoids missing scenes. The manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-tiny-senpai-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mysweettyrant",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 58
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime adapts the entire manga through its final chapter (58.5), so there is nothing left to continue with. Reading the manga still offers bonus material the anime omits.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-sweet-tyrant-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lovestage",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ishura",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   },
+   {
+    "l": "Season 2",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts volume 1 and season 2 was expected to adapt volume 2 (based on pre-broadcast reporting), so volume 3 is the likely next volume. This was not confirmed after season 2 aired.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://sportskeeda.com/anime/will-ishura-season-2-everything-know-far"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "rainbowdays",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 24, so start at chapter 25. The manga is complete at 80 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-rainbow-days-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "okamisanandhersevencompa",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers roughly the first three light novel volumes, but jumps around and adds original content, so starting from volume 1 is recommended. The novel is complete at 13 volumes with no official English release.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-okami-san-and-her-seven-companions-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kokkoku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "drugstoreinanotherworldt",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myfriendslittlesisterhas",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 2, so start at volume 3. The novel is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-friends-little-sister-has-it-in-for-me-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "plasticeldersister",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dragonaracademy",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myhomehero",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga up to chapter 28, so start at chapter 29. The source's details about the manga's finish are slightly inconsistent, but AniList lists the manga as finished at 224 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-home-hero-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "therewasacutegirlinthehe",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thedailylifeofamiddleage",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themosthereticallastboss",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mistresskananisdevilishl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "superhxeros",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "norin",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "themaidihiredrecentlyism",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tawawaonmonday",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "railwars",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "365daystothewedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kanokonthegirlwhocriedfo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalgirlraisingprojec",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hanebado",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "noblesseawakening",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "negima",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "suzuka",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ }
+]

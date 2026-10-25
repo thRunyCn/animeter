@@ -1,0 +1,684 @@
+[
+ {
+  "id": "tabootattoo",
+  "unit": "Chapter",
+  "next": "45",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 44
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 44, so start at chapter 45 (volume 8). The manga is finished at 80 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-taboo-tattoo-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "koikimo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imaybeaguildreceptionist",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the story up to the end of volume 3, so start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-i-may-be-a-guild-receptionist-but-ill-solo-any-boss-to-clock-out-on-time-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "spyclassroom",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "Season 2",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers up to volume 3 and season 2 ends at the end of volume 5, so start at volume 6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-spy-classroom-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "makenkibattlingvenus",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends around chapter 28, so start at chapter 29. Season 2 is almost entirely anime-original episodic content and does not advance the manga.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-maken-ki-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "loveofkill",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of chapter 28, so start at chapter 29 (volume 7 in the English release). The manga is finished at 102 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-love-of-kill-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lifewithanordinaryguywho",
+  "unit": "Chapter",
+  "next": "70",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 69
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the manga up to the end of chapter 69, so start at chapter 70. The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "codebreaker",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 33, so start at chapter 34 (the beginning of volume 7). The manga is finished at 230 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-codebreaker-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "watatenanangelflewdownto",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mygiftlvl9999unlimitedga",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first two light novel volumes, so start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-gift-lvl-9999-unlimited-gacha-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dimensionw",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "The anime concludes its adaptation around chapter 31 (volume 4), so continue from there. The manga is finished at 16 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-dimension-w-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thedemonswordmasterofexc",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to the end of volume 6 (chapter 39), so start at volume 7. The light novel is finished at 16 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-demon-sword-master-of-excalibur-academy-anime-end-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "theqwaserofstigmata",
+  "unit": "Chapter",
+  "next": "60",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 40
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends around chapter 40 and season 2 reaches roughly chapter 59, so continue around chapter 60 (volume 11). The source is somewhat inconsistent on exact chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-qwaser-of-stigmata-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "honeylemonsoda",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 28, so start at chapter 29 (the start of volume 8). The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-honey-lemon-soda-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "evengiventheworthlessapp",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts all of light novel volume 1, so start at volume 2.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-even-given-the-worthless-appraiser-class-im-actually-the-strongest-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "loveislikeacocktail",
+  "unit": "Chapter",
+  "next": "1",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts chapters out of order (its final episode covers an early chapter), so there is no clean stopping point. Read the finished 144-chapter manga from chapter 1 to get everything.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-love-is-like-a-cocktail-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "reborntomasterthebladefr",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first three light novel volumes, so start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-reborn-to-master-the-blade-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "riddlestoryofdevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "petergrillandthephilosop",
+  "unit": "Chapter",
+  "next": "24",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 11
+   },
+   {
+    "l": "Super Extra",
+    "end": 23
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 11 and Super Extra at chapter 23, so start at chapter 24 (volume 5). The manga is finished at 72 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-peter-grill-and-the-philosophers-time-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whenwillayumumakehismove",
+  "unit": "Chapter",
+  "next": "113",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 112
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 112, so start at chapter 113. The manga is finished at 240 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-when-will-ayumu-make-his-move-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "peachboyriverside",
+  "unit": "Chapter",
+  "next": "26",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 25
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's main storyline ends around chapter 25, but it airs out of chronological order and the source gives conflicting numbers, so reading from about chapter 21 gives full context.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-peach-boy-riverside-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "possiblythegreatestalche",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [],
+  "status": "continue",
+  "note": "One source says the anime covers the light novel up to volume 4 and suggests continuing with volume 4; check that volume's start if you notice overlap.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-possibly-the-greatest-alchemist-of-all-time-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "youaremsservant",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 33, so start at chapter 34 (volume 4).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-you-are-ms-servant-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thenewgate",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "nogunslife",
+  "unit": "Chapter",
+  "next": "41",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   },
+   {
+    "l": "Season 2",
+    "end": 40
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 21 and season 2 at chapter 40, so start at chapter 41 (volume 7). The manga is finished at 81-82 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-no-guns-life-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thefoolishangeldanceswit",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's first season covers up to chapter 33, so start at chapter 34.",
+  "src": [
+   [
+    "Epicstream",
+    "https://epicstream.com/article/where-to-start-reading-foolish-angel-dances-with-the-devil-after-anime"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "inthelandofleadale",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "unnamedmemory",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ahirunosora",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theambitionofodanobuna",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thecomicartisthisassista",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "carnivalphantasm",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelegendaryheroisdead",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "cleanfreakaoyamakun",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "flowersofevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "whydoesnobodyremembermei",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "infinitedendrogram",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestrongestmagicianinth",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "medakakuroiwaisimperviou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "setonacademyjointhepack",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "freezing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kemonomichiriseup",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myuniqueskillmakesmeopev",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pleaseputthemontakamines",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ivesomehowgottenstronger",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aconditioncalledlove",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a reliable source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

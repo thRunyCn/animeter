@@ -1,0 +1,597 @@
+[
+ {
+  "id": "supposeakidfromthelastdu",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hentaiprincethestonycat",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts the main events of volume 6, so start at volume 7. Volume 4 (a body-swap arc) is mostly skipped by the anime.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-hentai-prince-and-the-stony-cat-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "myisekailifeigainedaseco",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "highschoolprodigieshavei",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chaikathecoffinprincess",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "doyouloveyourmomandhertw",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first two light novel volumes, so start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-do-you-love-your-mom-and-her-two-hit-multi-target-attacks-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "outbreakcompany",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mysteriousgirlfriendx",
+  "unit": "Chapter",
+  "next": "37",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 36
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers roughly the first 36 chapters, so start at chapter 37 (the start of volume 6). The anime skips and rearranges some chapters. The manga is finished at 101 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-mysterious-girlfriend-x-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fulldivethisultimatenext",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aochancantstudy",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends after chapter 28, so start at chapter 29. The anime skips several earlier chapters. The manga is finished at 39 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ao-chan-cant-study-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "the8thsonareyoukiddingme",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thekingdomsofruin",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at the end of chapter 33 (mid volume 7), so start at chapter 34. The manga is finished at 66 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kingdoms-of-ruin-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "recordofgrancrestwar",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theicebladesorcerershall",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 covers volumes 1 and 2 of the light novel. We could not find where Season 2 (currently airing) stops, so check back once it finishes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-the-iceblade-sorcerer-shall-rule-the-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "devilsline",
+  "unit": "Chapter",
+  "next": "38",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime ends around chapter 38 of the manga, so start there. The manga is finished at 80 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-devils-line-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "bythegraceofthegods",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalsempai",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends on chapter 39, so start at chapter 40 (volume 7). The manga is finished at 134 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-magical-sempai-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thisartclubhasaproblem",
+  "unit": "Chapter",
+  "next": "35",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts content up to about chapter 35 (volume 7), so start around chapter 35 to be safe.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-this-art-club-has-a-problem-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "beasttamer",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first two light novel volumes, so start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-beast-tamer-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thetroubledlifeofmisskot",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "demonlordretry",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 1 covers volumes 1-2 and part of 3 of the light novel (start at volume 4, or 3 for skipped material). Season R reportedly adapts the manga rather than the novels, so no clear stopping point is known for it.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-demon-lord-retry-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "imgettingmarriedtoagirli",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime ends around the start of volume 6, so start at volume 6, since it skips some material. The light novel is finished at 10 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-im-getting-married-to-a-girl-i-hate-in-my-class-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "myinstantdeathabilityiso",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the light novel through volume 4, so start at volume 5. The light novel is finished at 14 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-instant-death-ability-is-so-overpowered-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bladedanceoftheelemental",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "adachiandshimamura",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thebrillianthealersnewli",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalgirlsite",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blacktorch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kazenostigma",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "reignofthesevenspellblad",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "antimagicacademythe35tht",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "icouldntbecomeaherosoire",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "jackofalltradespartyofno",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theexiledheavyknightknow",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mywifeisthestudentcounci",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "worldbreakariaofcursefor",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rebornasavendingmachinei",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bento",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around the close of volume 4, so start at volume 5. The light novel is finished at 15 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-ben-to-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "groundcontroltopsychoele",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grimoireofzero",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The anime fully adapts volume 1 only, so start at volume 2. The light novel is finished at 11 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-grimoire-of-zero-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "agalaxynextdoor",
+  "unit": "Chapter",
+  "next": "16",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 15
+   }
+  ],
+  "status": "continue",
+  "note": "The anime appears to end at chapter 15 (the last chapter of volume 3, matching the final episode title), so start at chapter 16. This is inferred from matching titles.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/A_Galaxy_Next_Door"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "didntisaytomakemyabiliti",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through the end of volume 3 (the elder dragon fight), so start at volume 4. Some volume 4 events appear in the final episodes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-didnt-i-say-to-make-my-abilities-average-in-the-next-life-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ningenfushinadventurersw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "servamp",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [],
+  "status": "continue",
+  "note": "The finale loosely corresponds to chapter 40 (start of volume 8), but the last episode is largely anime-original and the anime skips the Alicein arc, so reading from chapter 1 is recommended. The manga is finished at 155 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-servamp-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ }
+]

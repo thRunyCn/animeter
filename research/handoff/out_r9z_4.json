@@ -1,0 +1,552 @@
+[
+ {
+  "id": "reincarnatedasasword",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chainedsoldier",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 44
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends on chapter 44 (start of that volume 6 area), but I could not find where Season 2 ends. Check Season 2 episode guides before continuing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-chained-soldier-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "keepyourhandsoffeizouken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isthisazombie",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "azumangadaioh",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime selectively adapts the whole manga, skipping some jokes and adding a few original scenes; both end with the girls' graduation. The manga is finished.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://tvtropes.org:443/pmwiki/pmwiki.php/Anime/AzumangaDaioh"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "omaidensinyoursavageseas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "seitokaiyakuindomo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwasreincarnatedasthe7th",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imadefriendswiththesecon",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The light novel is finished at volume 10 (plus side story 7.5); I could not find which volume the anime reaches.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/I_Made_Friends_with_the_Second_Prettiest_Girl_in_My_Class"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "cardcaptorsakura",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The Clear Card manga ended with chapter 80 in December 2023; I could not find where the anime stops.",
+  "src": [
+   [
+    "Siliconera",
+    "https://www.siliconera.com/cardcaptor-sakura-clear-card-manga-to-end-with-episode-80/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "somaliandtheforestspirit",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The manga was cancelled after about 6 volumes; I could not find where the anime ends.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/somali-and-the-forest-spirit-manga-cancelled/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "realgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "heavenslostproperty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Season 1 reaches the Nymph/Harpies storyline and Forte covers the Astraea through Chaos arcs, with the Hiyori arc left for the movie. No chapter numbers found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Heaven%27s_Lost_Property_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "marriagetoxin",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theelusivesamurai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 covered the first 30 chapters; no source found for where Season 2 ends. The manga is finished at 239 chapters.",
+  "src": [
+   [
+    "Soap Central",
+    "https://usa.soapcentral.com/anime/the-elusive-samurai-manga-ends-with-238-chapters-everything-you-need-to-know"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "clevatess",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No confirmed chapter mapping found; one unofficial guide estimates season 1 covers about volumes 1-4.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "afrosamurai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fromoldcountrybumpkintom",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sweetnesslightning",
+  "unit": "Chapter",
+  "next": "19",
+  "seasons": [],
+  "status": "continue",
+  "note": "One guide says the anime ends around chapter 19 (start of volume 5) and skips a few earlier chapters, though its own table is slightly inconsistent. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sweetness-and-lightning-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "icantunderstandwhatmyhus",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chainsmokercat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "anarchdemonsdilemmahowto",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime has no found mapping to light novel volumes (one wiki says it covers the first 24 manga chapters with an original finale).",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/An_Archdemon%27s_Dilemma:_How_to_Love_Your_Elf_Bride"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "tougenanki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 1 ends at chapter 28 (Nerima arc); the Nikko Kegon Falls arc season is still airing and I found no end point. That arc begins at chapter 78.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-tougen-anki-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "missionyozakurafamily",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The manga ended in January 2025 at about 259 chapters; I could not find where the anime seasons end.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/news/2026-06-28/mission-yozakura-family-anime-2nd-season-continues-with-2nd-part-in-october/.239053"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theheroiclegendofarslan",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime ends on a cliffhanger and was never continued; no chapter mapping found.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Heroic_Legend_of_Arslan:_Dust_Storm_Dance"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hitoribocchinomarumaruse",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hiscoregirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "galscantbekindtootaku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "popteamepic",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime is mostly original skits rather than a chapter-by-chapter adaptation of the manga, so there is no clear stopping point.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Pop_Team_Epic"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "aceofthediamond",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "inthiscorneroftheworld",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwanttoendthislovegame",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mybrideisamermaid",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first 28 chapters, then its remaining episodes are an original story, so start at chapter 29. The manga is finished.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_My_Bride_Is_a_Mermaid_episodes"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "demonlord2099",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime appears to adapt volumes 1-2 (Shinjuku and Akihabara), so volume 3 (Yokohama) is likely next; this is inferred from episode titles.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Demon_Lord_2099"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "saspeciala",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tsurune",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "joshiraku",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "airgear",
+  "unit": "Chapter",
+  "next": "105",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime loosely adapts the manga up to about chapter 104 and then has an anime-original ending, so start at chapter 105. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-air-gear-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thelegendofthelegendaryh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "honeyandclover",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "iwanttoloveyoutillyourdy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myroommateisacat",
+  "unit": "Chapter",
+  "next": "16",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime covers through volume 5 with anime-original final episodes; in the official English volumes start at chapter 16 (volume 6). The manga continues online.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-roommate-is-a-cat-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "humanityhasdeclined",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime adapts volumes 1-6 out of order and skips volumes 5-6 material; start at volume 7, which begins the conclusion (volumes 7-9). The light novel is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-humanity-has-declined-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hellmodethehardcoregamer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

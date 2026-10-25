@@ -1,0 +1,656 @@
+[
+ {
+  "id": "inuxbokusecretservice",
+  "unit": "Chapter",
+  "next": "10",
+  "seasons": [],
+  "status": "continue",
+  "note": "MangaShed says the anime's main story ends around chapter 10, so pick up there; the manga is finished at 61 chapters. The anime may rearrange material, so starting from chapter 1 is also reasonable.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-inu-x-boku-ss-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "lovetyrant",
+  "unit": "Chapter",
+  "next": "34",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 33
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 33, with some rearranged and omitted content, so start at chapter 34 (volume 8). The manga is finished at 61 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-love-tyrant-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hokkaidogalsaresuperador",
+  "unit": "Chapter",
+  "next": "33",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 32
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 adapts up to chapter 32, so start at chapter 33 (volume 4). The manga is finished, ending in September 2024.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/dosanko-gal-wa-namara-menkoi/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Hokkaido_Gals_Are_Super_Adorable!"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "iparryeverything",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 appears to cover through volume 2 of the light novel, so start at volume 3. This is inferred from episode summaries rather than stated outright.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/I_Parry_Everything"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "aestheticaofaroguehero",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapted volumes 1-3 of the light novels, so continue with volume 4.",
+  "src": [
+   [
+    "EpicDope",
+    "https://www.epicdope.com/aesthetica-of-a-rogue-hero-season-2-release-info-rumors-updates/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thegirlilikeforgothergla",
+  "unit": "Chapter",
+  "next": "69",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 68
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 68, so start at chapter 69 (volume 7). The manga is finished at 120 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-girl-i-like-forgot-her-glasses-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "mymentalchoicesarecomple",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Noucome"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thedreamingboyisarealist",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the light novel up to the end of volume 3, with some anime-original scenes in the final episode, so continue with volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-dreaming-boy-is-a-realist-anime-end-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ourdatingstorytheexperie",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 4, so start at volume 5. The light novel is finished at 10 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-our-dating-story-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "osamakeromcomwherethechi",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/osamake-light-novel-ends/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "myisekailifeigainedaseco",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends in the light novel, which is still ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kamikatsuworkingforgodin",
+  "unit": "Chapter",
+  "next": "38",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 37
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to the end of chapter 37, so start at chapter 38. The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-kamikatsu-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "soicantplayh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "MyAnimeList News",
+    "https://myanimelist.net/news/50026817"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "highschoolprodigieshavei",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 10 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thearistocratsotherworld",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 4, so start at volume 5. The light novel has been on hiatus since volume 8 (2019), so the web novel is recommended for continuing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-chronicles-of-an-aristocrat-reborn-in-another-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "chaikathecoffinprincess",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 12 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "uzumaki",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "The finale adapts roughly chapters 14-19 of the 20-chapter manga but skips some material and adds an anime-original closing scene. Reading the manga is the best way to get the full story.",
+  "src": [
+   [
+    "Sportskeeda",
+    "https://www.sportskeeda.com/anime/uzumaki-episode-4-anime-vs-manga-comparison"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "doyouloveyourmomandhertw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 11 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mystatusasanassassinobvi",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode anime covers the first two volumes, so start at volume 3. The light novel is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-my-status-as-an-assassin-obviously-exceeds-the-heros-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "outbreakcompany",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 18 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thegreatjahywillnotbedef",
+  "unit": "Chapter",
+  "next": "68",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 67
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends after chapter 67 (chapters 38 and 56 were skipped), so start at chapter 68 (volume 9). The manga is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-great-jahy-wont-be-defeated-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lordmarksmanandvanadis",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "Wikipedia states the anime adapts the first five volumes of the light novel, so start at volume 6. The light novel is finished at 18 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Lord_Marksman_and_Vanadis_episodes"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "witchcraftworks",
+  "unit": "Chapter",
+  "next": "28",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 27
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 27 (volume 6), so start at chapter 28. The manga is finished at 119 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-witch-craft-works-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "yuunaandthehauntedhotspr",
+  "unit": "Chapter",
+  "next": "48",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 47
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts roughly up to chapter 47 in a non-linear order, so start at chapter 48 (volume 6). The manga is finished at 222 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-yuuna-and-the-haunted-hot-springs-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "amiactuallythestrongest",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode anime covers the first two light novel volumes, so start at volume 3. The light novel is still ongoing.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-am-i-actually-the-strongest-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sabikuibisco",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "I could not find a source stating where the anime ends. The light novel is finished at 10 volumes.",
+  "src": [
+   [
+    "Lost in Anime",
+    "https://lostinanime.com/2022/03/sabikui-bisco-12-end-and-series-review"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "hundred",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "One source states the season ends at volume 4 of the light novel, so start at volume 5. The light novel is finished at 16 volumes.",
+  "src": [
+   [
+    "EpicDope",
+    "https://www.epicdope.com/hundred-season-2-release-info-storyline-cast-news/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "mysteriousgirlfriendx",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fulldivethisultimatenext",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aochancantstudy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "the8thsonareyoukiddingme",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thekingdomsofruin",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "recordofgrancrestwar",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theicebladesorcerershall",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "devilsline",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bythegraceofthegods",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "magicalsempai",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thisartclubhasaproblem",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "beasttamer",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thetroubledlifeofmisskot",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "demonlordretry",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imgettingmarriedtoagirli",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myinstantdeathabilityiso",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bladedanceoftheelemental",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "adachiandshimamura",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thebrillianthealersnewli",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Where the anime ends in the source could not be determined.",
+  "src": [],
+  "confidence": "low"
+ }
+]

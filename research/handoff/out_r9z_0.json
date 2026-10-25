@@ -1,0 +1,592 @@
+[
+ {
+  "id": "scumswish",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "haganai",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thefamiliarofzero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "citrus",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "seireigensoukispiritchro",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ivebeenkillingslimesfor3",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myriadcolorsphantomworld",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "deathmarchtotheparallelw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "highriseinvasion",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends after chapter 39, the last chapter of volume 4, so start at chapter 40 (volume 5). The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-high-rise-invasion-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sankareaundyinglove",
+  "unit": "Chapter",
+  "next": "22",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 21, so start at chapter 22 (volume 5). The anime's final episode adds an anime-only cliffhanger, and the manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-sankarea-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rokkabravesofthesixflowe",
+  "unit": "Volume",
+  "next": "2",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 1
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts all of light novel volume 1, so start at volume 2. The light novel has been on hiatus since volume 6, which ends on a cliffhanger.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-rokka-braves-of-the-six-flowers-anime-end-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "infinitestratos",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "girlfriendgirlfriend",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "accelworld",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime faithfully adapts volumes 1 to 4, so start at volume 5. It leaves out a volume 10 Sword Art Online crossover story.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-accel-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "oreshura",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "platinumend",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thehiddendungeononlyican",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 5 (Olivia Liberation arc), so start at volume 6. The matching manga starting point is chapter 38.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-hidden-dungeon-only-i-can-enter-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ahogirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "skeletonknightinanotherw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imquittingheroing",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "keijo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mystepmomsdaughterismyex",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kisssistv",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The TV anime covers roughly chapters 1 to 24, so start at chapter 25, though the anime rearranges some events. The OVAs adapt later standalone chapters. The source page is slightly inconsistent.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-kiss-x-sis-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kisshimnotme",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chillininanotherworldwit",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "asistersallyouneed",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first three light novel volumes, so start at volume 4. The light novel is finished at 14 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-a-sisters-all-you-need-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "burnthewitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mayochiki",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "berserkofgluttony",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime ends at chapter 30 of light novel volume 6, so start at volume 6 chapter 31 (also the suggested manga starting point).",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-berserk-of-gluttony-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "isekaicheatmagician",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "happysugarlife",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The anime appears to cover the whole story, ending on the manga's final chapter in volume 10; only an extra volume 11 epilogue release is not clearly adapted.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Happy_Sugar_Life"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "demonkingdaimao",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [],
+  "status": "continue",
+  "note": "One guide says the anime ends during the Demon King War arc of volume 5 and suggests restarting at volume 5 arc 3, because the anime condenses and alters that arc. Treat the exact point as approximate.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-demon-king-daimao-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "imstandingonamillionlive",
+  "unit": "Chapter",
+  "next": "26",
+  "seasons": [],
+  "status": "continue",
+  "note": "One source says the anime adapted up to about chapter 25, so start around chapter 26 (volume 12). The anime offers a mission choice the manga does not, and the source's episode mapping is confusing.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/im-standing-on-a-million-lives/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thereincarnationofthestr",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the light novel up to volume 6 chapter 39 (end of the Imperial Capital arc), so start at volume 7. The manga is behind the anime.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-reincarnation-of-the-strongest-exorcist-in-another-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "vampireknight",
+  "unit": "Chapter",
+  "next": "47",
+  "seasons": [
+   {
+    "l": "Vampire Knight + Guilty",
+    "end": 46
+   }
+  ],
+  "status": "continue",
+  "note": "The anime, including Guilty, ends at chapter 46, so start at chapter 47 (volume 10). The anime only covers about the first half of the manga.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-vampire-knight-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "wolfgirlandblackprince",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hensukiareyouwillingtofa",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The 12-episode anime covers up to the end of volume 3, so start at volume 4. The light novel is finished at 14 volumes and has no official English release.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-hensuki-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "undefeatedbahamutchronic",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "armedgirlsmachiavellism",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to about chapter 28, and the most common starting point is chapter 30 (chapter 29 covers the aftermath of the Amou fight). The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-armed-girls-machiavellism-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "singyesterdayforme",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestrongestsagewiththew",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blacksummoner",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 4, so start at volume 5 (Beast Nation of Toraj arc). The manga equivalent is chapter 37.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-black-summoner-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "failureframeibecamethest",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through the end of volume 4, so start at volume 5 chapter 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-failure-frame-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thewatermagician",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ }
+]

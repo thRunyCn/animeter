@@ -624,7 +624,7 @@ function coverHTML(s, kind, tag, extra="", eager=false){
 }
 const obiHTML = (s, score) => `<span class="obi${s.next?"":" ink"}"><span>${s.next ? "Manga " : ""}${esc(handoffShort(s))}</span><b>${score||""}</b></span>`;
 const hasSeasons = s => (s.run?.length||0) > 1 || !!s.extras?.length;
-const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga";
+const tabShown = (s, k) => k==="seasons" ? hasSeasons(s) : !s.unchecked || k==="overview" || k==="manga" || k==="filler" && !!s.hf;
 const handoffShort = s => s.format==="MOVIE" && s.unchecked ? "Film" : s.unchecked && !s.mangaChecked && (s.kind==="manga"||s.kind==="novel") ? "Not checked" : s.next ? (s.unitShort||"Ch. ")+s.next : (s.endShort||{original:"Original",vn:"VN",novel:"Novel"}[s.kind]||"Adapted");
 
 /* ---------- routing: "" = rankings, "#id" = series overview, "#id.tab" = series tab ---------- */
@@ -1214,7 +1214,7 @@ function epKinds(d){
   const kinds = {}, f = d?.filler || {};
   const mark = (rs, k) => (rs||[]).forEach(([a,b])=>{ if (!Number.isInteger(a) || !Number.isInteger(b)) return; for (let e=a;e<=b;e++) kinds[e]=k; });
   mark(f.mixed,"m"); mark(f.recap,"r"); mark(f.filler,"f");
-  let total = 0;
+  let total = f.total || 0;
   (d?.arcs||[]).forEach(a=>{ if (a.eps && a.eps[1]!=null) total = Math.max(total, a.eps[1]); });
   ["filler","mixed","recap"].forEach(k=>(f[k]||[]).forEach(([,b])=>{ total = Math.max(total,b); }));
   return {total, kinds};
@@ -1329,7 +1329,9 @@ function renderSeries(id, tab){
   const book = s.kind==="novel" ? "light novel" : "manga";
   const answer = s.next ? `<p class="answer">After the anime, read the ${book} from <span class="ch">${esc((s.unit||"Chapter")+" "+s.next)}</span>.</p>`
     : s.kind==="original"||s.kind==="vn" ? `<p class="answer">An <span class="ch">original anime</span>, so there's no book to continue with.</p>`
-    : `<p class="answer">The anime takes the story to <span class="ch">${esc(handoffShort(s).replace("VN","the visual novel").replace("Novel","the light novel"))}</span>.</p>`;
+    : s.endWord==="Own ending" ? `<p class="answer">The anime ends the story its own way, apart from the ${book}.</p>`
+    : s.endWord==="Fully adapted" || (!s.unchecked && !s.endWord) ? `<p class="answer">The anime covers the <span class="ch">whole ${book}</span>.</p>`
+    : `<p class="answer">We haven't found where the anime ends in the ${book} yet.</p>`;
   const bookTile = s.kind==="original"||s.kind==="vn" ? "" : `<div class="t pic">${coverHTML(s,"manga","","",true)}<span class="cap">${s.kind==="novel"?"Light novel":"Manga"}${s.next ? `, from ${esc((s.unit||"chapter").toLowerCase()+" "+s.next)}` : ""}</span></div>`;
   patch(document.getElementById("app")).html = `
     <div class="series" style="${toneVars(s)}">

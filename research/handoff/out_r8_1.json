@@ -1,0 +1,646 @@
+[
+ {
+  "id": "striketheblood",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "fully_adapted",
+  "note": "The final season, Strike the Blood Final, adapts volume 22, the last main volume of the light novel, so the main story is fully adapted. The light novel also has side-story volumes.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/strike-the-blood-anime-officially-ends-after-9-years/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ahogirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops. The manga is finished at 155 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "banishedfromtheherospart",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 2 starts",
+    "end": 5
+   }
+  ],
+  "status": "unknown",
+  "note": "Season 2 begins with volume 5 (Yarandrala's return). The source did not say where Season 2 ends.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/banished-from-the-heros-party-season-2-premieres-in-january-2024-reveals-trailer/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "rosariovampire",
+  "unit": "Chapter",
+  "next": "26",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 25
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 loosely follows the manga to about chapter 25, so continue from chapter 26. Season 2 (Capu2) is almost entirely anime-original; the manga's direct sequel is the separate Rosario + Vampire: Season II series.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-rosario-vampire-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "twinstarexorcists",
+  "unit": "Chapter",
+  "next": "16",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 15
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga through chapter 15 (episode 20); read chapter 15 first as it differs, then continue at chapter 16. Episodes 21-50 are anime-original filler and the manga was later finished at 142 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/twin-star-exorcists/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "combatantswillbedispatch",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The 12 episodes adapt light novel volumes 1 to 3, so continue at volume 4. The manga ends at chapter 66, covering up to volume 7.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-combatants-will-be-dispatched-anime-leave-off-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "skeletonknightinanotherw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating which volumes each season adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "talentlessnana",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga faithfully through chapter 28 (end of volume 6), so start at chapter 29, the first chapter of volume 7. The manga is finished at 122 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-talentless-nana-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "problemchildrenarecoming",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first two light novel volumes, so continue at volume 3. The series is finished at 12 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-problem-children-are-coming-from-another-world-arent-they-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "absoluteduo",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first four light novel volumes, so continue at volume 5.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-absolute-duo-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dagashikashi",
+  "unit": "Chapter",
+  "next": "127",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 56
+   },
+   {
+    "l": "Season 2",
+    "end": 126
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers chapters 1-56 and Season 2 covers chapters 57-126, so start at chapter 127. The manga finishes at chapter 186; Season 2 skips some small comedic skits.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-dagashi-kashi-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "loveandlies",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops. The manga has two alternative endings, so the anime ends well before the manga does.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Love_and_Lies_(manga)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "thegreatestdemonlordisre",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the first three light novel volumes, so continue at volume 4 (the school field trip). The light novel is preferred over the manga, which stops early.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-greatest-demon-lord-is-reborn-as-a-typical-nobody-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "acoupleofcuckoos",
+  "unit": "Chapter",
+  "next": "113",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 112
+   }
+  ],
+  "status": "continue",
+  "note": "Season 2 adapts the manga up to about chapter 112, so continue at chapter 113 (volume 13). The anime follows the manga closely with no filler.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/2024/02/kakkou-no-iinazuke.html"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "vermeilingold",
+  "unit": "Chapter",
+  "next": "18",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 17
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga up to chapter 17, so continue at chapter 18 (reading from chapter 15 gives fuller context). The manga was cancelled at 41 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-vermeil-in-gold-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "assassinspride",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime's main story wraps up around the end of volume 4 (with a side story from volume 5), so continue at volume 5. The anime skips the volume 2 arc, so some readers start from volume 1.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-assassins-pride-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "maoyuarchenemyhero",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the novels up to the start of volume 5 and then uses an original, simplified ending for the final conflict. The light novel has 5 volumes in total; the manga adaptation is also recommended as the most complete version.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-maoyu-archenemy-and-hero-anime-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whythehellareyouhereteac",
+  "unit": "Chapter",
+  "next": "31",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 30
+   }
+  ],
+  "status": "continue",
+  "note": "The anime concludes after about chapter 30, so continue at chapter 31 (volume 4); it rearranges some events and adapts roughly the first third of the manga. The source is internally inconsistent about the exact chapter.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-why-are-you-here-sensei-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "imquittingheroing",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating which volumes the anime adapts. The light novel is complete at 3 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "keijo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops. The manga is finished at 177 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mystepmomsdaughterismyex",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating which volumes the anime adapts.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mydeerfriendnokotan",
+  "unit": "Chapter",
+  "next": "40",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 39
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the manga up to chapter 39 (volume 6). Because the anime rearranges some events, starting at chapter 31 gives the fullest context; the final episode also adds some anime-original elements.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-my-deer-friend-nokotan-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whensupernaturalbattlesb",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the light novels through the end of volume 6, so continue at volume 7. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-when-supernatural-battles-became-commonplace-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kisssistv",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kisshimnotme",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chillininanotherworldwit",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "asistersallyouneed",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "burnthewitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "mayochiki",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "berserkofgluttony",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "isekaicheatmagician",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "happysugarlife",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "demonkingdaimao",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "imstandingonamillionlive",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thereincarnationofthestr",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "vampireknight",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "wolfgirlandblackprince",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hensukiareyouwillingtofa",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "undefeatedbahamutchronic",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "armedgirlsmachiavellism",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "singyesterdayforme",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thestrongestsagewiththew",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blacksummoner",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "failureframeibecamethest",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewatermagician",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "supposeakidfromthelastdu",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "hentaiprincethestonycat",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Could not find a source stating where the anime stops (research search limit reached).",
+  "src": [],
+  "confidence": "low"
+ }
+]

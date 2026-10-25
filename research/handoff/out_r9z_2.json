@@ -1,0 +1,607 @@
+[
+ {
+  "id": "motherofthegoddessdormit",
+  "unit": "Chapter",
+  "next": "25",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 24
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 24, the last chapter of volume 3, so start at chapter 25 (volume 4). The manga is finished at 55 chapters.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-mother-of-the-goddess-dormitory-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "unbreakablemachinedoll",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers the first three light novels, so continue with volume 4.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Unbreakable_Machine-Doll"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "canaboygirlfriendshipsur",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lonerlifeinanotherworld",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 4, so start at volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-loner-life-in-another-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ifitsformydaughterideven",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "summonedtoanotherworldfo",
+  "unit": "Volume",
+  "next": "4",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 3, so start at volume 4.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-summoned-to-another-world-for-a-second-time-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "shominsample",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the light novel through volume 4, so start at volume 5.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-shomin-sample-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "actuallyiam",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 28, so continue from chapter 29. The anime rearranges and skips some content, and the manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-actually-i-am-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "liarliar",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts the light novels up to the end of volume 4, so start at volume 5. The light novel is finished at 15 volumes.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-liar-liar-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "kingsgame",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chillininmy30saftergetti",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "koikimo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No reliable source found. A forum user claims the anime covers nearly all of the manga and ends the same way, but this is unconfirmed.",
+  "src": [
+   [
+    "MyAnimeList forum",
+    "https://myanimelist.net/forum/message/63488684?goto=topic"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "watatenanangelflewdownto",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "riddlestoryofdevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thenewgate",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "inthelandofleadale",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 2, so start at volume 3.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-in-the-land-of-leadale-leave-off-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "unnamedmemory",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ahirunosora",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theambitionofodanobuna",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime is based on volumes 1 to 4 of the light novels; start at volume 5. The exact stopping point inside volume 4 is not stated.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/The_Ambition_of_Oda_Nobuna"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thecomicartisthisassista",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "carnivalphantasm",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thelegendaryheroisdead",
+  "unit": "Chapter",
+  "next": "64",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 63
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 63, the end of volume 5, so start at chapter 64 (volume 6). The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-legendary-hero-is-dead-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cleanfreakaoyamakun",
+  "unit": "Chapter",
+  "next": "39",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 38
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts up to chapter 38 (volume 7 starts at 39). It skipped a few comedic chapters (30, 34, 35). The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-clean-freak-aoyama-kun-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "flowersofevil",
+  "unit": "Chapter",
+  "next": "37",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 36
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapters 36 to 38, at the close of the middle school arc ('Part 1 Complete'); chapter 37 is the suggested place to continue. The manga is finished.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-flower-of-evil-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whydoesnobodyremembermei",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at light novel volume 4, so start at volume 5. The light novel is complete at 9 volumes; the manga has an original ending.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-why-does-nobody-remember-me-in-this-world-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "infinitedendrogram",
+  "unit": "Volume",
+  "next": "6",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 5
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of light novel volume 5 (the Franklin's Game arc), so start at volume 6.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-infinite-dendrogram-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thestrongestmagicianinth",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime covers roughly the first two to three volumes, ending after the Battle of Ivalias; volume 3 is the likely place to continue, but the exact point is unclear.",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-strongest-magician-in-the-demon-lords-army-was-a-human-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "medakakuroiwaisimperviou",
+  "unit": "Chapter",
+  "next": "17",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 16
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends at chapter 16, so start at chapter 17 (the start of volume 3).",
+  "src": [
+   [
+    "MangaShed",
+    "https://mangashed.com/where-does-the-medaka-kuroiwa-is-impervious-to-my-charms-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "setonacademyjointhepack",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "freezing",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kemonomichiriseup",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myuniqueskillmakesmeopev",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "pleaseputthemontakamines",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ivesomehowgottenstronger",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "aconditioncalledlove",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thewarriorprincessandthe",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "skywizardsacademy",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "talesofweddingrings",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "classroomforheroes",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "junjiitocollection",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime adapts stand-alone stories from the Junji Ito Masterpiece Collection and Fragments of Horror; there is no single place to continue.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Junji_Ito_Collection"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "themasterofragnarkblesse",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fromovershadowedtooverpo",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the manga.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "apocalypsebringermynoghr",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ileftmyarankpartytohelpm",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source found stating where the anime ends in the light novel.",
+  "src": [],
+  "confidence": "low"
+ }
+]

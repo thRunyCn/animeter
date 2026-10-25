@@ -1,0 +1,491 @@
+[
+ {
+  "id": "hitorinoshitatheoutcast",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dealingwithmikadonosiste",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "childrenofthesea",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "yugioh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "This 1998 anime adapts roughly the first 7 volumes of the manga, ending with the Monster World arc. The exact chapter where it stops was not found, so check an arc guide before continuing.",
+  "src": [
+   [
+    "YGOPRODeck",
+    "https://ygoprodeck.com/yu-gi-oh-anime-and-manga-breakdown-shadow-games-and-the-millennium-puzzle"
+   ],
+   [
+    "Yugipedia",
+    "https://yugipedia.com/wiki/Yu-Gi-Oh!_(Toei_anime)"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "loveunseenbeneaththeclea",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "acca13territoryinspectio",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "journalwithwitch",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "goodluckgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kenichithemightiestdisci",
+  "unit": "Chapter",
+  "next": "198",
+  "seasons": [],
+  "status": "continue",
+  "note": "The anime's final OVA adapts chapters up to 197 (skipping some chapters between 189 and 195), so start at chapter 198, which opens volume 23. The manga is finished at 584 chapters.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/kenichi/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "squidgirl",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "grandpaandgrandmaturnyou",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "kinmoza",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thoughiamanineptvillaine",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "killblue",
+  "unit": "Chapter",
+  "next": "29",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 28
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1's episodes appear to line up with roughly chapters 1 to 28, so try starting around chapter 29. This is based on matching episode titles to chapter titles, not an explicit statement. The manga is finished at 115 chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Kill_Blue"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "spacebrothers",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "supercub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "citytheanimation",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "tamonsbside",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thosesnowwhitenotes",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime covers only the early part of the story, ending after Setsu places third in the Matsugorou Cup. The exact chapter was not found. The manga is finished at 123 chapters.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Those_Snow_White_Notes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "konohanakitan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "dropkickonmydevil",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The anime started around chapter 58, and season 3 ends on a cliffhanger partway through a dropkick scene. The exact ending chapter was not found. The manga is still ongoing.",
+  "src": [
+   [
+    "TV Tropes",
+    "https://www.tvtropes.org/pmwiki/pmwiki.php/Manga/DropkickOnMyDevil"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "kaijugirlcaramelise",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rurirocks",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blackcat",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "anime_original_ending",
+  "note": "Episodes 21 to 24 of the anime are an original story arc not found in the manga, and the early episodes also change the story's origin. The sources did not say which chapter the adapted part reaches, so check a chapter list before continuing.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Black_Cat_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "overgeared",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "genshiken",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gjclub",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "intheclearmoonlitdusk",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sabagebusurvivalgameclub",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "akanebanashi",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "fireflywedding",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "howtokeepamummy",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "eventhestudentcouncilhas",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "gugurekokkurisan",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rozenmaiden",
+  "unit": "Tale",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "Zurückspulen follows the second Rozen Maiden manga and reportedly covers up to about Tale 25, touching events up to Tale 43 in its last episode, but this was not clearly confirmed. The earlier seasons follow the first manga.",
+  "src": [
+   [
+    "Rozen Maiden Wiki",
+    "https://rozenmaiden.fandom.com/wiki/Rozen_Maiden/Zur%C3%BCckspulen?oldid=8255"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "rockisaladysmodesty",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "shugochara",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "theklutzyclassmonitorand",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bakithegrappler",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "The latest anime, BAKI-DOU, adapts the separate Baki-Dou manga (first 99 of 198 chapters per one article), not the original Baki the Grappler manga. A clear continuation point for the whole franchise was not found.",
+  "src": [
+   [
+    "What's on Netflix",
+    "https://www.whats-on-netflix.com/news/anime/baki-dou-season-1-part-2-netflix-release-date/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "horizoninthemiddleofnowh",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "endoandkobayashilivethel",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "lovechunibyootherdelusio",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "chiosschoolroad",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "botankamiinafullyblossom",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "No source was found that states where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]

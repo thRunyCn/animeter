@@ -1,0 +1,756 @@
+[
+ {
+  "id": "thefuturediary",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 59
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The anime adapts the manga through chapter 59, its final chapter, so the story is fully covered. The last episode skips the final part of chapter 59, which is worth reading after the anime.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/mirai-nikki/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rentagirlfriend",
+  "unit": "Chapter",
+  "next": "256",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 50
+   },
+   {
+    "l": "Season 2",
+    "end": 103
+   },
+   {
+    "l": "Season 3",
+    "end": 134
+   },
+   {
+    "l": "Season 5",
+    "end": 255
+   }
+  ],
+  "status": "continue",
+  "note": "Season 5 ends with chapters 253 to 255, so start at chapter 256 (the start of volume 30). The manga is still ongoing.",
+  "src": [
+   [
+    "Dexerto FR",
+    "https://www.dexerto.fr/anime/ou-reprendre-manga-rent-a-girlfriend-apres-saison-5-anime-1651903/"
+   ],
+   [
+    "MyAnimePulse",
+    "https://myanimepulse.com/manga-after-anime/rent-a-girlfriend"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thegodofhighschool",
+  "unit": "Chapter",
+  "next": "113",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 112
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 ends with chapter 112 (the National Tournament arc), so start at chapter 113, the Sage Realm arc. This is a Korean webtoon (manhwa) and it is complete at 569 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-god-of-high-school-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "highschoolofthedead",
+  "unit": "Chapter",
+  "next": "18",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 17
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers only about the first 17 chapters and ends on a cliffhanger at a shopping mall. The manga was left unfinished after its author died in 2017.",
+  "src": [
+   [
+    "FandomWire",
+    "https://fandomwire.com/highschool-of-the-dead-ending-explained-why-the-most-shameless-fan-service-anime-was-canceled-before-catching-up-to-the-manga/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "elfenlied",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 60
+   }
+  ],
+  "status": "anime_original_ending",
+  "note": "The anime follows the manga up to about chapter 60 (volume 6), then diverges and has an anime-original ending. The manga is finished and is best read from chapter 1, since the anime condenses a lot.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-elfen-lied-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "deadmanwonderland",
+  "unit": "Chapter",
+  "next": "21",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 21
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 21, so start at chapter 21 or 22. The anime condenses and softens material, and the manga is finished at 58 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-did-the-deadman-wonderland-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "domesticgirlfriend",
+  "unit": "Chapter",
+  "next": "73",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 72
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 72, so start at chapter 73 (volume 8). The manga is finished.",
+  "src": [
+   [
+    "Anime Filler Guide",
+    "https://www.animefillerguide.com/anime/domestic-na-kanojo/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "shikimorisnotjustacutie",
+  "unit": "Chapter",
+  "next": "63",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 62
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at chapter 62 (the amusement park date), so start at chapter 63, the School Trip arc. The manga is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-shikimoris-not-just-a-cutie-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "shimonetaaboringworldwhe",
+  "unit": "Volume",
+  "next": "3",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 2
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the end of volume 2, so start at volume 3. The novels are finished at 11 main volumes, but have no official English release.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-shimoneta-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hownottosummonademonlord",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the second season ends in the light novels. The novels are ongoing, with about 14 volumes published.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://www.animenewsnetwork.com/.236148"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "akashicrecordsofbastardm",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through the end of volume 4, so start at volume 5 (the Queen's Calendar arc). The main novel series is complete at 24 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-akashic-records-of-bastard-magic-instructor-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "blackbullet",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime covers volumes 1 to 4, so start at volume 5. The novels have been on indefinite hiatus since volume 7 (2014), with a cliffhanger ending.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-black-bullet-anime-end-in-the-light-novels/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "higehiroafterbeingreject",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The light novel is finished at 5 volumes.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/higehiro-hige-o-soru-soshite-joshi-kosei-o-hirou-light-novel-ending-date-revealed/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "eromangasensei",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The light novel is finished at 13 volumes.",
+  "src": [
+   [
+    "Anime Corner",
+    "https://animecorner.me/eromanga-sensei-light-novel-to-end-on-august-10-with-volume-13/"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "wisemansgrandchild",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not find a source stating where the anime ends; the 12 episodes seem to cover roughly volumes 1 to 3 or 4. The novels are finished at 17 main volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Wise_Man%27s_Grandchild"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "scumswish",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the manga. The manga is finished.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "blends",
+  "unit": "Chapter",
+  "next": "42",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 41
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts through chapter 41, so start at chapter 42 (the start of volume 4). The anime's final scene is original, and the manga is complete.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-blend-s-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gamers",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The light novels are finished at 12 volumes.",
+  "src": [
+   [
+    "Anime News Network",
+    "https://cdn.animenewsnetwork.com/news/2019-10-21/sekina-aoi-gamers-light-novel-series-ends-with-12th-volume/.152439"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "darwinsgame",
+  "unit": "Chapter",
+  "next": "30",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 29
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends with chapter 29, so start at chapter 30 (volume 8), which opens the Police Investigation arc. The manga is finished at 125 chapters.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/darwins-game-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "haganai",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where Haganai NEXT ends in the light novels. The novels are finished at 11 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "btooom",
+  "unit": "Volume",
+  "next": "10",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 9
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts roughly the first 50 chapters (volumes 1 to 9), so start at volume 10. The manga has two endings, a Light and a Dark one.",
+  "src": [
+   [
+    "SKDesu",
+    "https://skdesu.com/en/btooom-final-spoilers-end-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thetestamentofsisternewd",
+  "unit": "Volume",
+  "next": "8",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "BURST",
+    "end": 7
+   }
+  ],
+  "status": "continue",
+  "note": "The two seasons cover volumes 1 to 7, and the Departures OVA loosely adapts volume 8 while changing it. Start at volume 8 for the skipped events (one source says volume 9 is the strict starting point). The novels are finished at 13 volumes, with no official English release.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-testament-of-sister-new-devil-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "inanotherworldwithmysmar",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where season 2 ends. The light novels are still ongoing, with over 30 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/In_Another_World_with_My_Smartphone"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "theasteriskwar",
+  "unit": "Volume",
+  "next": "7",
+  "seasons": [
+   {
+    "l": "Season 2",
+    "end": 6
+   }
+  ],
+  "status": "continue",
+  "note": "The two seasons adapt volumes 1 to 6, so start at volume 7, though volume 6 is worth reading first because the anime changes it. The novels are finished at 17 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-asterisk-war-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "thefamiliarofzero",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the final season ends. The light novels are finished at 22 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "watamotenomatterhowilook",
+  "unit": "Chapter",
+  "next": "35",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 34
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 34, so start at chapter 35 (volume 4), though the anime skips and rearranges some chapters, so reading from chapter 1 is safest. The manga is still ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-watamote-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gleipnir",
+  "unit": "Chapter",
+  "next": "37",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 36
+   }
+  ],
+  "status": "continue",
+  "note": "The anime adapts to about chapter 36, so start at chapter 37. Episode 13's finale is anime-original and differs from the manga, which is finished.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-gleipnir-anime-leave-off-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "igotacheatskillinanother",
+  "unit": "Volume",
+  "next": "5",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 4
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends in the middle of volume 4, so start at volume 5 (reading volume 4 first for context is suggested). The novels are ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "myfirstgirlfriendisagal",
+  "unit": "Chapter",
+  "next": "37",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 36
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends at the first kiss, chapter 36, so start at chapter 37. The anime rearranges and skips material, and the manga is ongoing.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/my-first-girlfriend-is-a-gal-manga-after-anime/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "oreimo",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where Oreimo 2 ends in the light novels. The novels are finished at 12 volumes, and the ONA episodes offer an alternate ending.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/List_of_Oreimo_episodes"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "andyouthoughtthereisneve",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The light novel series runs to about 23 or 24 volumes.",
+  "src": [
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/And_You_Thought_There_Is_Never_a_Girl_Online%3F"
+   ]
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "citrus",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the manga. The manga is finished at 50 chapters.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "bottomtiercharactertomoz",
+  "unit": "Volume",
+  "next": "8",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 3
+   },
+   {
+    "l": "2nd Stage",
+    "end": 7
+   }
+  ],
+  "status": "continue",
+  "note": "Season 1 covers volumes 1 to 3 and 2nd Stage covers volumes 4 to 7, so start at volume 8. The novel series has continued well past that point.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-bottom-tier-character-tomozaki-kun-anime-end-in-the-light-novel/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "plunderer",
+  "unit": "Chapter",
+  "next": "36",
+  "seasons": [
+   {
+    "l": "Season 1",
+    "end": 35
+   }
+  ],
+  "status": "continue",
+  "note": "The anime ends around chapter 35 (the gravity well scene), so start at chapter 36, the Last War arc. The anime reorders some events, and the manga is finished at 21 volumes.",
+  "src": [
+   [
+    "Mangashed",
+    "https://mangashed.com/where-does-the-plunderer-anime-end-in-the-manga/"
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "seireigensoukispiritchro",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where season 2 ends in the light novels. The novels are still ongoing.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "ivebeenkillingslimesfor3",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where season 2 ends in the light novels. The novels are finished at 30 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "myriadcolorsphantomworld",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The light novel is finished at 3 volumes.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "deathmarchtotheparallelw",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm which volume the anime covers. The novels are ongoing, and the print version has a different ending from the web novel.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "highriseinvasion",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "sankareaundyinglove",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "rokkabravesofthesixflowe",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "infinitestratos",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "girlfriendgirlfriend",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "accelworld",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "oreshura",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "platinumend",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ },
+ {
+  "id": "thehiddendungeononlyican",
+  "unit": "Volume",
+  "next": null,
+  "seasons": [],
+  "status": "unknown",
+  "note": "We could not confirm where the anime ends in the source material.",
+  "src": [],
+  "confidence": "low"
+ }
+]
