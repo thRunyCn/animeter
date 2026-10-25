@@ -5,13 +5,15 @@
     "slug": "ace-diamond",
     "title": "Ace of the Diamond",
     "eps": 126,
-    "from": 1
+    "from": 1,
+    "season": 0
    },
    {
     "slug": "ace-diamond-act-ii",
     "title": "Ace of the Diamond: Act II",
     "eps": 52,
-    "from": 127
+    "from": 127,
+    "season": 2
    }
   ],
   "total": 178,
@@ -47,7 +49,8 @@
     "slug": "certain-magical-index",
     "title": "A Certain Magical Index (Toaru Majutsu No Index)",
     "eps": 74,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 74,
@@ -61,7 +64,8 @@
     "slug": "ajin-demi-human",
     "title": "AJIN: Demi-Human",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -80,7 +84,8 @@
     "slug": "angel-beats",
     "title": "Angel Beats!",
     "eps": 16,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 16,
@@ -99,7 +104,8 @@
     "slug": "another",
     "title": "Another",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -118,48 +124,11 @@
     "slug": "aoashi",
     "title": "Aoashi",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
- "bakemonogatari": {
-  "pages": [
-   {
-    "slug": "nisemonogatari",
-    "title": "Nisemonogatari",
-    "eps": 11,
-    "from": 1
-   },
-   {
-    "slug": "monogatari-series-second-season",
-    "title": "Monogatari Series Second Season",
-    "eps": 23,
-    "from": 12
-   },
-   {
-    "slug": "hanamonogatari",
-    "title": "Hanamonogatari",
-    "eps": 5,
-    "from": 35
-   },
-   {
-    "slug": "tsukimonogatari",
-    "title": "Tsukimonogatari",
-    "eps": 4,
-    "from": 40
-   },
-   {
-    "slug": "owarimonogatari",
-    "title": "Owarimonogatari",
-    "eps": 9,
-    "from": 44
-   }
-  ],
-  "total": 52,
   "filler": [],
   "mixed": [],
   "anime_canon": []
@@ -170,7 +139,8 @@
     "slug": "beastars",
     "title": "Beastars",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -184,7 +154,8 @@
     "slug": "beelzebub",
     "title": "Beelzebub",
     "eps": 60,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 60,
@@ -224,7 +195,8 @@
     "slug": "berserk-2016",
     "title": "Berserk (2016)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -247,7 +219,8 @@
     "slug": "black-butler",
     "title": "Black Butler (Kuroshitsuji)",
     "eps": 46,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 46,
@@ -279,7 +252,8 @@
     "slug": "black-cat",
     "title": "Black Cat",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -298,7 +272,8 @@
     "slug": "black-lagoon",
     "title": "Black Lagoon",
     "eps": 29,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 29,
@@ -312,7 +287,8 @@
     "slug": "blood-blockade-battlefront",
     "title": "Blood Blockade Battlefront (Kekkai Sensen)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -331,7 +307,8 @@
     "slug": "bobobo-bo-bobo",
     "title": "Bobobo-bo Bo-bobo",
     "eps": 76,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 76,
@@ -345,7 +322,8 @@
     "slug": "btooom",
     "title": "BTOOOM!",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -359,7 +337,8 @@
     "slug": "burn-witch",
     "title": "BURN THE WITCH",
     "eps": 3,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 3,
@@ -373,7 +352,8 @@
     "slug": "campione",
     "title": "Campione!",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -417,7 +397,8 @@
     "slug": "cardcaptor-sakura",
     "title": "Cardcaptor Sakura",
     "eps": 93,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 93,
@@ -468,7 +449,8 @@
     "slug": "carnival-phantasm",
     "title": "Carnival Phantasm",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -482,7 +464,8 @@
     "slug": "charlotte",
     "title": "Charlotte",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -501,7 +484,8 @@
     "slug": "classroom-elite",
     "title": "Classroom of the Elite",
     "eps": 38,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 38,
@@ -515,7 +499,8 @@
     "slug": "claymore",
     "title": "Claymore",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -539,7 +524,8 @@
     "slug": "dagashi-kashi",
     "title": "Dagashi Kashi",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -553,7 +539,8 @@
     "slug": "darling-franxx",
     "title": "Darling in the FranXX",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -572,7 +559,8 @@
     "slug": "darwins-game",
     "title": "Darwin's Game",
     "eps": 10,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 10,
@@ -586,7 +574,8 @@
     "slug": "deadman-wonderland",
     "title": "Deadman Wonderland",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -605,7 +594,8 @@
     "slug": "death-parade",
     "title": "Death Parade",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -624,7 +614,8 @@
     "slug": "dennou-coil",
     "title": "Den-noh Coil",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -638,7 +629,8 @@
     "slug": "devilman-crybaby",
     "title": "Devilman Crybaby",
     "eps": 10,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 10,
@@ -666,7 +658,8 @@
     "slug": "d-frag",
     "title": "D-Frag!",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -689,7 +682,8 @@
     "slug": "d-gray-man",
     "title": "D.Gray-man",
     "eps": 116,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 116,
@@ -727,33 +721,14 @@
   ],
   "anime_canon": []
  },
- "digimondigitalmonsters": {
-  "pages": [
-   {
-    "slug": "digimon-adventure",
-    "title": "Digimon Adventure",
-    "eps": 54,
-    "from": 1
-   },
-   {
-    "slug": "digimon-adventure-2020",
-    "title": "Digimon Adventure:",
-    "eps": 23,
-    "from": 55
-   }
-  ],
-  "total": 77,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
  "dororo": {
   "pages": [
    {
     "slug": "dororo",
     "title": "Dororo (2019)",
     "eps": 15,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 15,
@@ -767,7 +742,8 @@
     "slug": "dragon-quest-adventure-dai",
     "title": "DRAGON QUEST The Adventure of Dai (2020)",
     "eps": 17,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 17,
@@ -781,7 +757,8 @@
     "slug": "drifters",
     "title": "Drifters",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -795,7 +772,8 @@
     "slug": "durarara",
     "title": "DURARARA!!",
     "eps": 61,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 61,
@@ -814,7 +792,8 @@
     "slug": "edens-zero",
     "title": "EDENS ZERO",
     "eps": 50,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 50,
@@ -828,7 +807,8 @@
     "slug": "elfen-lied",
     "title": "Elfen Lied",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -847,7 +827,8 @@
     "slug": "emma-victorian-romance",
     "title": "Emma: A Victorian Romance (Eikoku Koi Monogatari Emma)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -861,7 +842,8 @@
     "slug": "excel-saga",
     "title": "Excel Saga",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -880,7 +862,8 @@
     "slug": "fatestay-night",
     "title": "Fate/stay night",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -903,7 +886,8 @@
     "slug": "hokuto-no-ken",
     "title": "Fist of the North Star",
     "eps": 152,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 152,
@@ -975,7 +959,8 @@
     "slug": "shokugeki-no-soma",
     "title": "Food Wars! (Shokugeki no Souma)",
     "eps": 86,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 86,
@@ -989,7 +974,8 @@
     "slug": "full-metal-panic",
     "title": "Full Metal Panic!",
     "eps": 49,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 49,
@@ -1033,7 +1019,8 @@
     "slug": "gangsta",
     "title": "GANGSTA.",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1047,7 +1034,8 @@
     "slug": "ghost-shell-stand-alone-complex",
     "title": "Ghost In the Shell: Stand Alone Complex",
     "eps": 53,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 53,
@@ -1061,7 +1049,8 @@
     "slug": "girlfriend-girlfriend",
     "title": "Girlfriend, Girlfriend (Kanojo mo Kanojo)",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1075,7 +1064,8 @@
     "slug": "girls-last-tour",
     "title": "Girls' Last Tour (Shoujo Shuumatsu Ryokou)",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1094,7 +1084,8 @@
     "slug": "goblin-slayer",
     "title": "Goblin Slayer",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1117,7 +1108,8 @@
     "slug": "gosick",
     "title": "Gosick",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -1136,7 +1128,8 @@
     "slug": "hayate-combat-butler",
     "title": "Hayate the Combat Butler (Hayate no Gotoku!)",
     "eps": 101,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 101,
@@ -1196,7 +1189,8 @@
     "slug": "heavens-lost-property",
     "title": "Heaven's Lost Property",
     "eps": 28,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 28,
@@ -1223,7 +1217,8 @@
     "slug": "hell-girl",
     "title": "Hell Girl (Jigoku Shōjo Girl)",
     "eps": 90,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 90,
@@ -1242,7 +1237,8 @@
     "slug": "hellsing",
     "title": "Hellsing",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -1269,7 +1265,8 @@
     "slug": "high-school-dxd",
     "title": "Highschool DxD",
     "eps": 48,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 48,
@@ -1297,7 +1294,8 @@
     "slug": "highschoool-dead",
     "title": "Highschool of the Dead",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -1316,7 +1314,8 @@
     "slug": "hikaru-no-go",
     "title": "Hikaru no Go",
     "eps": 75,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 75,
@@ -1348,7 +1347,8 @@
     "slug": "initial-d",
     "title": "Initial D",
     "eps": 82,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 82,
@@ -1362,7 +1362,8 @@
     "slug": "inuyashiki-last-hero",
     "title": "Inuyashiki Last Hero",
     "eps": 11,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 11,
@@ -1376,7 +1377,8 @@
     "slug": "it-wrong-try-pick-girls-dungeon",
     "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? (Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka)",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -1390,7 +1392,8 @@
     "slug": "kabaneri-iron-fortress",
     "title": "Kabaneri of the Iron Fortress",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1409,7 +1412,8 @@
     "slug": "kamisama-kiss",
     "title": "Kamisama Kiss (Kamisama Hajimemashita)",
     "eps": 30,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 30,
@@ -1428,7 +1432,8 @@
     "slug": "kill-la-kill",
     "title": "KILL la KILL",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -1447,7 +1452,8 @@
     "slug": "kiznaiver",
     "title": "Kiznaiver",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1466,7 +1472,8 @@
     "slug": "land-lustrous",
     "title": "Land of the Lustrous (Houseki no Kuni)",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1480,7 +1487,8 @@
     "slug": "madan-no-ou-vanadis-lord-marksman-and-vanadis",
     "title": "Lord Marksman and Vanadis (Madan No Ou to Vanadis)",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -1494,7 +1502,8 @@
     "slug": "magic-knight-rayearth",
     "title": "Magic Knight Rayearth",
     "eps": 49,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 49,
@@ -1590,7 +1599,8 @@
     "slug": "maid-sama",
     "title": "Maid-Sama! (Kaichou wa maid sama)",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -1604,7 +1614,8 @@
     "slug": "maken-ki-battling-venus",
     "title": "Maken-ki! Battling Venus (Maken-ki!)",
     "eps": 22,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 22,
@@ -1623,7 +1634,8 @@
     "slug": "masamune-kuns-revenge",
     "title": "Masamune-kun's Revenge (Masamune-kun no Revenge)",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1637,7 +1649,8 @@
     "slug": "michiko-hatchin",
     "title": "Michiko & Hatchin",
     "eps": 22,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 22,
@@ -1651,7 +1664,8 @@
     "slug": "miss-kobayashis-dragon-maid",
     "title": "Miss Kobayashi's Dragon Maid",
     "eps": 20,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 20,
@@ -1683,7 +1697,8 @@
     "slug": "mobile-suit-gundam",
     "title": "Mobile Suit Gundam (Kidou Senshi Gundam)",
     "eps": 43,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 43,
@@ -1696,27 +1711,14 @@
   "mixed": [],
   "anime_canon": []
  },
- "mottotoloveru": {
-  "pages": [
-   {
-    "slug": "love-ru-darkness",
-    "title": "To Love Ru: Darkness",
-    "eps": 26,
-    "from": 1
-   }
-  ],
-  "total": 26,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
  "mynextlifeasavillainessa": {
   "pages": [
    {
     "slug": "my-next-life-villainess-all-routes-lead-doom",
     "title": "My Next Life as a Villainess: All Routes Lead to Doom! (Bakarina)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -1748,7 +1750,8 @@
     "slug": "nadia-secret-blue-water",
     "title": "Nadia: The Secret of Blue Water (Fushigi no Umi no Nadia)",
     "eps": 39,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 39,
@@ -1799,47 +1802,14 @@
    ]
   ]
  },
- "negima": {
-  "pages": [
-   {
-    "slug": "magister-negi-magi",
-    "title": "Negima! (Mahou Sensei Negima!)",
-    "eps": 26,
-    "from": 1
-   },
-   {
-    "slug": "noragami-aragoto",
-    "title": "Negima!? (Mahou Sensei Negima?!)",
-    "eps": 26,
-    "from": 27
-   }
-  ],
-  "total": 52,
-  "filler": [
-   [
-    23,
-    26
-   ]
-  ],
-  "mixed": [
-   [
-    2,
-    2
-   ],
-   [
-    22,
-    22
-   ]
-  ],
-  "anime_canon": []
- },
  "nogamenolife": {
   "pages": [
    {
     "slug": "no-game-no-life",
     "title": "No Game, No Life",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -1853,7 +1823,8 @@
     "slug": "orange",
     "title": "Orange",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -1867,7 +1838,8 @@
     "slug": "ouran-high-school-host-club",
     "title": "Ouran High School Host Club",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -1886,7 +1858,8 @@
     "slug": "outlaw-star",
     "title": "Outlaw Star",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -1939,7 +1912,8 @@
     "slug": "overlord",
     "title": "Overlord",
     "eps": 52,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 52,
@@ -1953,7 +1927,8 @@
     "slug": "platinum-end",
     "title": "Platinum End",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -1967,7 +1942,8 @@
     "slug": "pokemon",
     "title": "Pokémon",
     "eps": 1140,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 1140,
@@ -2612,7 +2588,8 @@
     "slug": "prison-school",
     "title": "Prison School",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -2626,7 +2603,8 @@
     "slug": "psycho-pass",
     "title": "PSYCHO-PASS",
     "eps": 44,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 44,
@@ -2645,7 +2623,8 @@
     "slug": "katekyo-hitman-reborn",
     "title": "Reborn! (Katekyō Hitman Reborn!)",
     "eps": 203,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 203,
@@ -2721,7 +2700,8 @@
     "slug": "record-ragnarok",
     "title": "Record of Ragnarok (Shuumatsu no Walküre)",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -2735,7 +2715,8 @@
     "slug": "relife",
     "title": "ReLIFE",
     "eps": 17,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 17,
@@ -2749,7 +2730,8 @@
     "slug": "rent-girlfriend",
     "title": "Rent-A-Girlfriend (Kanojo, Okarishimasu)",
     "eps": 36,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 36,
@@ -2763,7 +2745,8 @@
     "slug": "revolutionary-girl-utena",
     "title": "Revolutionary Girl Utena (Shoujo Kakumei Utena)",
     "eps": 39,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 39,
@@ -2823,7 +2806,8 @@
     "slug": "ron-kamonohashis-forbidden-deductions",
     "title": "Ron Kamonohashi's Forbidden Deductions (Kamonohashi Ron no Kindan Suiri)",
     "eps": 18,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 18,
@@ -2837,7 +2821,8 @@
     "slug": "rosario-vampire",
     "title": "Rosario + Vampire",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -2889,7 +2874,8 @@
     "slug": "sage-tanya-evil",
     "title": "Saga of Tanya the Evil",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -2903,7 +2889,8 @@
     "slug": "sailor-moon",
     "title": "Sailor Moon (Bishoujo Senshi Sailor Moon)",
     "eps": 200,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 200,
@@ -3087,7 +3074,8 @@
     "slug": "saint-seiya",
     "title": "Saint Seiya",
     "eps": 114,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 114,
@@ -3151,7 +3139,8 @@
     "slug": "seraph-end",
     "title": "Seraph of the End: Vampire Reign (Owari no Seraph)",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -3170,7 +3159,8 @@
     "slug": "serial-experiments-lain",
     "title": "Serial Experiments Lain",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -3184,7 +3174,8 @@
     "slug": "keroro-gunsou-sgtfrog",
     "title": "Sgt. Frog (Keroro Gunsou)",
     "eps": 358,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 358,
@@ -3521,7 +3512,8 @@
     "slug": "shadows-house",
     "title": "SHADOWS HOUSE",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -3545,7 +3537,8 @@
     "slug": "shaman-king-2021",
     "title": "Shaman King (2021)",
     "eps": 52,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 52,
@@ -3559,7 +3552,8 @@
     "slug": "shugo-chara",
     "title": "Shugo Chara",
     "eps": 127,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 127,
@@ -3659,7 +3653,8 @@
     "slug": "silver-spoon",
     "title": "Silver Spoon",
     "eps": 22,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 22,
@@ -3678,7 +3673,8 @@
     "slug": "sket-dance",
     "title": "SKET Dance",
     "eps": 54,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 54,
@@ -3701,7 +3697,8 @@
     "slug": "skip-beat",
     "title": "Skip Beat!",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -3715,7 +3712,8 @@
     "slug": "space-patrol-luloco",
     "title": "SPACE PATROL LULUCO",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -3734,7 +3732,8 @@
     "slug": "summertime-render",
     "title": "Summer Time Rendering",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -3748,13 +3747,15 @@
     "slug": "sword-art-online",
     "title": "Sword Art Online",
     "eps": 50,
-    "from": 1
+    "from": 1,
+    "season": 0
    },
    {
     "slug": "sword-art-online-alicization",
     "title": "Sword Art Online: Alicization",
     "eps": 47,
-    "from": 51
+    "from": 51,
+    "season": 2
    }
   ],
   "total": 97,
@@ -3773,7 +3774,8 @@
     "slug": "terror-resonance",
     "title": "Terror in Resonance (Zankyou no Terror)",
     "eps": 11,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 11,
@@ -3792,7 +3794,8 @@
     "slug": "time-i-got-reincarnated-slime",
     "title": "That Time I Got Reincarnated as a Slime (Tensei shitara Slime Datta Ken)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -3816,7 +3819,8 @@
     "slug": "ancient-magus-bride",
     "title": "The Ancient Magus' Bride (Mahoutsukai no Yome)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -3830,7 +3834,8 @@
     "slug": "asterisk-war",
     "title": "The Asterisk War (Gakusen no Asterisk)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -3849,7 +3854,8 @@
     "slug": "devil-part-timer",
     "title": "The Devil Is a Part-Timer! (Hataraku Maou-Sama!)",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -3863,7 +3869,8 @@
     "slug": "familiar-zero",
     "title": "The Familiar Of Zero (Zero No Tsukaima)",
     "eps": 49,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 49,
@@ -3877,7 +3884,8 @@
     "slug": "future-diary",
     "title": "The Future Diary (Mirai Nikki)",
     "eps": 27,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 27,
@@ -3891,7 +3899,8 @@
     "slug": "god-high-school",
     "title": "The God of High School (Gat Obeu Hai Seukul)",
     "eps": 13,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 13,
@@ -3905,7 +3914,8 @@
     "slug": "heroic-legend-arslan",
     "title": "The Heroic Legend of Arslan (Arslan Senki)",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -3919,7 +3929,8 @@
     "slug": "prince-tennis-0",
     "title": "The Prince of Tennis (Tenisu no Ōjisama)",
     "eps": 178,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 178,
@@ -3983,7 +3994,8 @@
     "slug": "rising-shield-hero",
     "title": "The Rising of the Shield Hero (Tate no Yuusha no Nariagari)",
     "eps": 25,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 25,
@@ -4002,13 +4014,15 @@
     "slug": "nanatsu-no-taizai",
     "title": "The Seven Deadly Sins (Nanatsu no Taizai)",
     "eps": 100,
-    "from": 1
+    "from": 1,
+    "season": 0
    },
    {
     "slug": "seven-deadly-sins-four-knights-apocalypse",
     "title": "The Seven Deadly Sins: Four Knights of the Apocalypse  (Mokushiroku no Yonkishi)",
     "eps": 24,
-    "from": 101
+    "from": 101,
+    "season": 5
    }
   ],
   "total": 124,
@@ -4044,7 +4058,8 @@
     "slug": "your-eternity",
     "title": "To Your Eternity (Fumetsu no Anata e)",
     "eps": 21,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 21,
@@ -4058,7 +4073,8 @@
     "slug": "trigun",
     "title": "Trigun",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -4118,7 +4134,8 @@
     "slug": "tsugumomo",
     "title": "Tsugumomo",
     "eps": 12,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 12,
@@ -4137,7 +4154,8 @@
     "slug": "urusei-yatsura",
     "title": "Urusei Yatsura (1981)",
     "eps": 167,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 167,
@@ -4257,7 +4275,8 @@
     "slug": "vampire-knight",
     "title": "Vampire Knight",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -4271,7 +4290,8 @@
     "slug": "we-never-learn-bokuben",
     "title": "We Never Learn!: BOKUBEN (Bokutachi wa Benkyou ga Dekinai)",
     "eps": 17,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 17,
@@ -4285,7 +4305,8 @@
     "slug": "akatsuki-no-yona",
     "title": "Yona of the Dawn (Akatsuki no Yona)",
     "eps": 24,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 24,
@@ -4304,7 +4325,8 @@
     "slug": "yowamushi-pedal",
     "title": "Yowamushi Pedal",
     "eps": 14,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 14,
@@ -4323,7 +4345,8 @@
     "slug": "yu-gi-oh-duel-monsters",
     "title": "Yu-Gi-Oh! Duel Monsters",
     "eps": 225,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 225,
@@ -4407,7 +4430,8 @@
     "slug": "yu-no-girl-who-chants-love-bound-world",
     "title": "YU-NO: A Girl Who Chants Love at the Bound of This World",
     "eps": 26,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 26,
@@ -4421,7 +4445,8 @@
     "slug": "zatch-bell",
     "title": "Zatch Bell! (Konjiki no Gash Bell!!)",
     "eps": 150,
-    "from": 1
+    "from": 1,
+    "season": 0
    }
   ],
   "total": 150,

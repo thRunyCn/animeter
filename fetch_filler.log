@@ -148,7 +148,7 @@ ajindemihuman: ajin-demi-human: 26 episodes, 0 filler
 angelbeats: angel-beats: 16 episodes, 0 filler
 another: another: 12 episodes, 1 filler
 aoashi: aoashi: 24 episodes, 0 filler
-bakemonogatari: nisemonogatari, monogatari-series-second-season, hanamonogatari, tsukimonogatari, owarimonogatari: 52 episodes, 0 filler
+ambiguous or partial: bakemonogatari: [(1, 'nisemonogatari', 'Nisemonogatari'), (2, 'monogatari-series-second-season', 'Monogatari Series Second Season'), (3, 'hanamonogatari', 'Hanamonogatari'), (4, 'tsukimonogatari', 'Tsukimonogatari'), (5, 'owarimonogatari', 'Owarimonogatari')]
 beastars: beastars: 24 episodes, 0 filler
 beelzebub: beelzebub: 60 episodes, 13 filler
 berserk2016: berserk-2016: 24 episodes, 0 filler
@@ -174,7 +174,7 @@ dennohcoil: dennou-coil: 13 episodes, 0 filler
 devilmancrybaby: devilman-crybaby: 10 episodes, 4 filler
 dfrag: d-frag: 12 episodes, 0 filler
 dgrayman: d-gray-man: 116 episodes, 25 filler
-digimondigitalmonsters: digimon-adventure, digimon-adventure-2020: 77 episodes, 0 filler
+ambiguous or partial: digimondigitalmonsters: [(0, 'digimon-adventure', 'Digimon Adventure'), (0, 'digimon-adventure-2020', 'Digimon Adventure:')]
 dororo: dororo: 15 episodes, 0 filler
 dragonquesttheadventureo: dragon-quest-adventure-dai: 17 episodes, 0 filler
 drifters: drifters: 12 episodes, 0 filler
@@ -217,10 +217,10 @@ masamunekunsrevenge: masamune-kuns-revenge: 12 episodes, 0 filler
 michikohatchin: michiko-hatchin: 22 episodes, 0 filler
 misskobayashisdragonmaid: miss-kobayashis-dragon-maid: 20 episodes, 3 filler
 mobilesuitgundam: mobile-suit-gundam: 43 episodes, 1 filler
-mottotoloveru: love-ru-darkness: 26 episodes, 0 filler
+ambiguous or partial: mottotoloveru: [(1, 'love-ru-darkness', 'To Love Ru: Darkness')]
 mynextlifeasavillainessa: my-next-life-villainess-all-routes-lead-doom: 24 episodes, 6 filler
 nadiathesecretofbluewate: nadia-secret-blue-water: 39 episodes, 6 filler
-negima: magister-negi-magi, noragami-aragoto: 52 episodes, 4 filler
+ambiguous or partial: negima: [(0, 'magister-negi-magi', 'Negima! (Mahou Sensei Negima!)'), (0, 'noragami-aragoto', 'Negima!? (Mahou Sensei Negima?!)')]
 nogamenolife: no-game-no-life: 12 episodes, 0 filler
 orange: orange: 13 episodes, 0 filler
 ouranhighschoolhostclub: ouran-high-school-host-club: 24 episodes, 1 filler
@@ -276,7 +276,7 @@ yowamushipedal: yowamushi-pedal: 14 episodes, 0 filler
 yugioh: yu-gi-oh-duel-monsters: 225 episodes, 91 filler
 yunoagirlwhochantsloveat: yu-no-girl-who-chants-love-bound-world: 26 episodes, 0 filler
 zatchbell: zatch-bell: 150 episodes, 29 filler
-wrote filler for 132 series
+wrote filler for 128 series
 214 AFL shows unmatched:
 86-eighty-six	86 EIGHTY-SIX
 a-certain-scientific-railgun	A Certain Scientific Railgun (Toaru Kagaku No Railgun)
