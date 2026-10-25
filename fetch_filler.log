@@ -59,7 +59,6 @@ match 'hell-girl' (Hell Girl (Jigoku Shōjo Girl)) -> hellgirl season 0
 match 'hellsing' (Hellsing) -> hellsing season 0
 match 'high-school-dxd' (Highschool DxD) -> highschooldxd season 0
 match 'highschoool-dead' (Highschool of the Dead) -> highschoolofthedead season 0
-match 'when-they-cry' (Higurashi: When They Cry (Higurashi no naku koro ni)) -> whentheycry season 0
 match 'hikaru-no-go' (Hikaru no Go) -> hikarunogo season 0
 match 'initial-d' (Initial D) -> initiald1ststage season 0
 match 'inuyashiki-last-hero' (Inuyashiki Last Hero) -> inuyashikilasthero season 0
@@ -270,13 +269,13 @@ tsugumomo: tsugumomo: 12 episodes, 0 filler
 uruseiyatsura: urusei-yatsura: 167 episodes, 20 filler
 vampireknight: vampire-knight: 26 episodes, 0 filler
 weneverlearnbokuben: we-never-learn-bokuben: 17 episodes, 0 filler
-page title 'Higurashi: When They Cry' doesn't match whentheycry, skipping when-they-cry
+whentheycry: when-they-cry: 62 episodes, 0 filler
 yonaofthedawn: akatsuki-no-yona: 24 episodes, 0 filler
 yowamushipedal: yowamushi-pedal: 14 episodes, 0 filler
 yugioh: yu-gi-oh-duel-monsters: 225 episodes, 91 filler
 yunoagirlwhochantsloveat: yu-no-girl-who-chants-love-bound-world: 26 episodes, 0 filler
 zatchbell: zatch-bell: 150 episodes, 29 filler
-wrote filler for 128 series
+wrote filler for 129 series
 214 AFL shows unmatched:
 86-eighty-six	86 EIGHTY-SIX
 a-certain-scientific-railgun	A Certain Scientific Railgun (Toaru Kagaku No Railgun)
