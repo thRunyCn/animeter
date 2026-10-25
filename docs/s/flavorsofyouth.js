@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"flavorsofyouth","series":{"src":[["AniList","https://anilist.co/anime/101231"],["MyAnimeList","https://myanimelist.net/anime/37396"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

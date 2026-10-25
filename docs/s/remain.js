@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"remain","series":{"run":[{"t":"RE-MAIN","y":2021,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/130549"}],"extras":[],"src":[["AniList","https://anilist.co/anime/130549"],["MyAnimeList","https://myanimelist.net/anime/48406"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

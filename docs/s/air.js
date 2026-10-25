@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"air","series":{"run":[{"t":"Air","y":2005,"f":"TV","e":13,"from":1,"airing":false,"url":"https://anilist.co/anime/101"}],"extras":[],"src":[["AniList","https://anilist.co/anime/101"],["MyAnimeList","https://myanimelist.net/anime/101"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

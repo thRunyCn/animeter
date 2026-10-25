@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"carnivalphantasm","series":{"src":[["AniList","https://anilist.co/anime/10012"],["MyAnimeList","https://myanimelist.net/anime/10012"],["Source on AniList","https://anilist.co/manga/30780"]],"note":"We haven't checked where the anime ends in the manga yet. The manga is 29 chapters, finished.","seasons":[]},"details":null};

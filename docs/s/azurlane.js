@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"azurlane","series":{"run":[{"t":"AZUR LANE","y":2019,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/104159"}],"extras":[],"src":[["AniList","https://anilist.co/anime/104159"],["MyAnimeList","https://myanimelist.net/anime/38328"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

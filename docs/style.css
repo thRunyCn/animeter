@@ -91,7 +91,8 @@ p,li,summary{text-wrap:pretty}
 .cover .tag{display:none}
 
 /* ---------- home, first screen: a tilted wall of covers drifting in the dark behind the question ---------- */
-.cine{position:relative;isolation:isolate;height:100svh;min-height:640px;margin-top:-72px;overflow:hidden;background:#000;--gut:clamp(16px,4vw,64px)}
+.cine{position:relative;isolation:isolate;height:100svh;min-height:640px;overflow:hidden;background:#000;--gut:clamp(16px,4vw,64px)}
+.mast + .cine{margin-top:-72px}
 .cwall{position:absolute;z-index:-2;inset:-30% -12%;display:flex;gap:clamp(8px,1vw,16px);transform:rotate(-9deg);transform-origin:50% 50%;pointer-events:none}
 .cwall .col{flex:1;min-width:0}
 .cwall .lane{display:flex;flex-direction:column;gap:clamp(8px,1vw,16px);will-change:transform}
@@ -477,11 +478,11 @@ form.vote label{display:flex;flex-direction:column;gap:8px;font-weight:500;font-
 .hub h2{font-size:clamp(32px,3vw,52px);margin:52px 0 16px;scroll-margin-top:84px}
 .hub ul,.hub ol.hubrank{list-style:none;padding:0;margin:0;columns:3 260px;column-gap:32px}
 .hub ol.hubrank{counter-reset:r}
-.hub ol.hubrank li{counter-increment:r}
-.hub ol.hubrank li::before{content:counter(r);display:inline-block;min-width:2.4em;font-weight:600;color:var(--muted)}
+.hub ol.hubrank li{counter-increment:r;position:relative;padding-left:2.6em}
+.hub ol.hubrank li::before{content:counter(r);position:absolute;left:0;font-weight:600;color:var(--muted)}
 .hub li{padding:6px 0;break-inside:avoid}
 .hub li a{font-weight:500}
-.hub li small{color:var(--muted);margin-left:6px;font-size:var(--step-small)}
+.hub li small{color:var(--muted);margin-left:6px;white-space:nowrap;font-size:var(--step-small)}
 .hub .prose{max-width:66ch}
 .hub .prose h2{margin-top:44px}
 .hub .prose p{line-height:1.55}

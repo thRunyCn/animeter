@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"lazarus","series":{"run":[{"t":"LAZARUS","y":2025,"f":"TV","e":13,"from":1,"airing":false,"url":"https://anilist.co/anime/167336"}],"extras":[],"src":[["AniList","https://anilist.co/anime/167336"],["MyAnimeList","https://myanimelist.net/anime/56038"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

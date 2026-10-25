@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"fireworks","series":{"src":[["AniList","https://anilist.co/anime/97908"],["MyAnimeList","https://myanimelist.net/anime/34498"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

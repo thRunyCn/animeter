@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"nekopara","series":{"run":[{"t":"Nekopara","y":2020,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/106863"}],"extras":[],"src":[["AniList","https://anilist.co/anime/106863"],["MyAnimeList","https://myanimelist.net/anime/38924"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

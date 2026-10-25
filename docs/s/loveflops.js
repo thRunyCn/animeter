@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"loveflops","series":{"run":[{"t":"LOVE FLOPS","y":2022,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/146676"}],"extras":[],"src":[["AniList","https://anilist.co/anime/146676"],["MyAnimeList","https://myanimelist.net/anime/51403"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};

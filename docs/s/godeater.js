@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"godeater","series":{"run":[{"t":"God Eater","y":2015,"f":"TV","e":13,"from":1,"airing":false,"url":"https://anilist.co/anime/20849"}],"extras":[],"src":[["AniList","https://anilist.co/anime/20849"],["MyAnimeList","https://myanimelist.net/anime/27631"]],"note":"Adapted from a game, so there is no manga to pick up from.","seasons":[]},"details":null};

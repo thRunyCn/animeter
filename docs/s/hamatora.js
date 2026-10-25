@@ -1,0 +1,1 @@
+window.ANIMETER_FULL={"id":"hamatora","series":{"run":[{"t":"Hamatora","y":2014,"f":"TV","e":12,"from":1,"airing":false,"url":"https://anilist.co/anime/20521"}],"extras":[],"src":[["AniList","https://anilist.co/anime/20521"],["MyAnimeList","https://myanimelist.net/anime/20689"]],"note":"An anime original, so there is no manga to pick up from.","seasons":[]},"details":null};
