@@ -221,19 +221,13 @@
  "berserk2016": {
   "pages": [
    {
-    "slug": "berserk",
-    "title": "Berserk (Berserk Kenpuden)",
-    "eps": 25,
-    "from": 1
-   },
-   {
     "slug": "berserk-2016",
     "title": "Berserk (2016)",
     "eps": 24,
-    "from": 26
+    "from": 1
    }
   ],
-  "total": 49,
+  "total": 24,
   "filler": [],
   "mixed": [
    [
@@ -241,12 +235,8 @@
     1
    ],
    [
-    26,
-    26
-   ],
-   [
-    28,
-    28
+    3,
+    3
    ]
   ],
   "anime_canon": []
@@ -4285,20 +4275,6 @@
    }
   ],
   "total": 17,
-  "filler": [],
-  "mixed": [],
-  "anime_canon": []
- },
- "whentheycry": {
-  "pages": [
-   {
-    "slug": "when-they-cry",
-    "title": "Higurashi: When They Cry (Higurashi no naku koro ni)",
-    "eps": 62,
-    "from": 1
-   }
-  ],
-  "total": 62,
   "filler": [],
   "mixed": [],
   "anime_canon": []

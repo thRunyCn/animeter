@@ -8,7 +8,6 @@ match 'another' (Another) -> another season 0
 match 'aoashi' (Aoashi) -> aoashi season 0
 match 'beastars' (Beastars) -> beastars season 0
 match 'beelzebub' (Beelzebub) -> beelzebub season 0
-match 'berserk' (Berserk (Berserk Kenpuden)) -> berserk2016 season 0
 match 'berserk-2016' (Berserk (2016)) -> berserk2016 season 0
 match 'black-butler' (Black Butler (Kuroshitsuji)) -> blackbutler season 0
 match 'black-cat' (Black Cat) -> blackcat season 0
@@ -108,7 +107,6 @@ match 'seraph-end' (Seraph of the End: Vampire Reign (Owari no Seraph)) -> serap
 match 'serial-experiments-lain' (Serial Experiments Lain) -> serialexperimentslain season 0
 match 'keroro-gunsou-sgtfrog' (Sgt. Frog (Keroro Gunsou)) -> sgtfrog season 0
 match 'shadows-house' (SHADOWS HOUSE) -> shadowshouse season 0
-match 'shaman-king' (Shaman King) -> shamanking season 0
 match 'shaman-king-2021' (Shaman King (2021)) -> shamanking season 0
 match 'shugo-chara' (Shugo Chara) -> shugochara season 0
 match 'silver-spoon' (Silver Spoon) -> silverspoon season 0
@@ -153,7 +151,7 @@ aoashi: aoashi: 24 episodes, 0 filler
 bakemonogatari: nisemonogatari, monogatari-series-second-season, hanamonogatari, tsukimonogatari, owarimonogatari: 52 episodes, 0 filler
 beastars: beastars: 24 episodes, 0 filler
 beelzebub: beelzebub: 60 episodes, 13 filler
-berserk2016: berserk, berserk-2016: 49 episodes, 0 filler
+berserk2016: berserk-2016: 24 episodes, 0 filler
 blackbutler: black-butler: 46 episodes, 27 filler
 blackcat: black-cat: 24 episodes, 4 filler
 blacklagoon: black-lagoon: 29 episodes, 0 filler
@@ -246,7 +244,6 @@ seraphoftheendvampirerei: seraph-end: 25 episodes, 0 filler
 serialexperimentslain: serial-experiments-lain: 13 episodes, 0 filler
 sgtfrog: keroro-gunsou-sgtfrog: 358 episodes, 255 filler
 shadowshouse: shadows-house: 25 episodes, 2 filler
-no episodes: shamanking shaman-king
 shamanking: shaman-king-2021: 52 episodes, 0 filler
 shugochara: shugo-chara: 127 episodes, 45 filler
 silverspoon: silver-spoon: 22 episodes, 0 filler
@@ -273,14 +270,14 @@ tsugumomo: tsugumomo: 12 episodes, 0 filler
 uruseiyatsura: urusei-yatsura: 167 episodes, 20 filler
 vampireknight: vampire-knight: 26 episodes, 0 filler
 weneverlearnbokuben: we-never-learn-bokuben: 17 episodes, 0 filler
-whentheycry: when-they-cry: 62 episodes, 0 filler
+page title 'Higurashi: When They Cry' doesn't match whentheycry, skipping when-they-cry
 yonaofthedawn: akatsuki-no-yona: 24 episodes, 0 filler
 yowamushipedal: yowamushi-pedal: 14 episodes, 0 filler
 yugioh: yu-gi-oh-duel-monsters: 225 episodes, 91 filler
 yunoagirlwhochantsloveat: yu-no-girl-who-chants-love-bound-world: 26 episodes, 0 filler
 zatchbell: zatch-bell: 150 episodes, 29 filler
-wrote filler for 133 series
-212 AFL shows unmatched:
+wrote filler for 132 series
+214 AFL shows unmatched:
 86-eighty-six	86 EIGHTY-SIX
 a-certain-scientific-railgun	A Certain Scientific Railgun (Toaru Kagaku No Railgun)
 ace-attorney	Ace Attorney (Gyakuten Saiban)
@@ -291,6 +288,7 @@ attack-titan	Attack on Titan (Shingeki no Kyojin)
 digimon-frontier	Attack on Titan Films
 attack-titan-ova-0	Attack on Titan OADs
 attack-on-titan-junior-high	Attack on Titan: Junior High
+berserk	Berserk (Berserk Kenpuden)
 berserk-golden-age-arc	Berserk: The Golden Age Arc
 berserk-golden-age-arc-memorial-edition	Berserk: The Golden Age Arc - Memorial Edition
 beyblade-burst-god	Beyblade Burst Evolution
@@ -451,6 +449,7 @@ naruto-movie-legend-stone-gelel	Sailor Moon Specials
 samurai-champloo	Samurai Champloo
 school-days	School Rumble
 orient	School Rumble: Extra Class
+shaman-king	Shaman King
 shaman-kingflowers	Shaman King: Flowers
 shy	SHY
 slam-dunk-0	Slam Dunk
