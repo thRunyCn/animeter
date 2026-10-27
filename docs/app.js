@@ -792,7 +792,7 @@ function renderSeries(id, tab){
       <div class="sh-cov"><div class="t pic">${coverHTML(s,"anime","","",true)}<span class="cap">Anime, ${s.eps} episode${s.eps===1?"":"s"}</span></div>${bookTile}</div>
       <div class="sh-r">
         <div class="t sh-title"><h1>${esc(s.title)}</h1>${s.jp ? `<div class="jp" lang="ja">${esc(s.jp)}</div>` : ""}
-          <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div></div>
+          <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div>${s.about ? `<p class="about">${esc(s.about)}</p>` : ""}</div>
         <div class="t tone sh-ans">${answer}</div>
         ${s.score?`<div class="t fact"><b>${fmt10(s.score/10)}</b><span class="label">AniList score</span></div>`:""}
         <div class="t fact"><b>${ss.shown ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.shown ? `, ${ss.votes} votes` : ss.votes ? `, not enough votes yet (${ss.votes} of ${MIN_VOTES})` : ", no votes yet"}</span></div>

@@ -28,6 +28,8 @@ TAGCAT = {x[0]: tag_group(x) for l in TAGS.values() for x in l if tag_group(x)}
 # AniList top-rated franchises (fetch_top.py). Hand-off, arcs and filler aren't researched for these yet.
 try: top = json.load(open(os.path.join(HERE, "top.json")))
 except FileNotFoundError: top = []
+try: ABOUT = json.load(open(os.path.join(HERE, "synopsis.json")))
+except FileNotFoundError: ABOUT = {}
 KIND_WORD = {"manga": "manga", "novel": "light novel"}
 # Where each anime ends in its source, researched per series (research/handoff/out_*.json).
 HANDOFF, TRIED = {}, set()
@@ -79,6 +81,7 @@ for t in top:
     if fmt != "MOVIE": apply_seasons(series[-1], RUNS)
     if t["id"] in HANDOFF: apply_handoff(series[-1], HANDOFF[t["id"]])
     elif t["id"] in TRIED and t["kind"] in KIND_WORD: series[-1].update(mangaChecked=True, endWord="No source yet", endShort="Unclear")
+    if ABOUT.get(t["id"]): series[-1]["about"] = ABOUT[t["id"]]
 # Filler lists from Anime Filler List for series without a hand-written guide (fetch_filler.py, run in GitHub Actions).
 try: AFL = json.load(open(os.path.join(HERE, "research", "filler_afl.json")))
 except FileNotFoundError: AFL = {}
@@ -255,7 +258,7 @@ for x in series:     # the hand-off point spelled out, for tooltips and sentence
     if x.get("next"):
         u = x.get("unit") or ("Volume" if x.get("kind") == "novel" and not x.get("unitShort") else "Chapter")
         x["hoLong"] = f'{u} {x["next"]}'
-HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord")
+HEAVY = ("run", "extras", "src", "note", "seasons", "nextNum", "total", "unit", "endWord", "about")
 tagnames = sorted({t for x in series for t in x.get("tags") or []})
 tix = {t: i for i, t in enumerate(tagnames)}
 slim = [{**{k: v for k, v in x.items() if k not in HEAVY and k != "tags"}, "tg": [tix[t] for t in x.get("tags") or []]} for x in series]

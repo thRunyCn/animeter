@@ -352,6 +352,7 @@ input::placeholder{color:var(--muted)}
 .sh-r{grid-column:7/13;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--g)}
 .sh-r>.t{grid-column:1/-1}
 .sh-title{background:var(--deep);color:#fff;min-height:clamp(240px,24vw,360px);display:flex;flex-direction:column;justify-content:flex-end}
+.sh-title .about{margin:18px 0 0;max-width:60ch;font-size:var(--step-body);line-height:1.5;color:#f3f2ef}
 .sh h1{font-size:clamp(2.6rem,1rem + 4vw,5.6rem);letter-spacing:-.045em;line-height:.9;font-stretch:82%}
 .sh .jp{font-family:var(--f-jp);font-size:var(--step-lead);margin-top:16px;letter-spacing:0;font-weight:500}
 .sh .meta{font-size:var(--step-small);margin-top:10px;color:var(--muted)}
@@ -1374,7 +1375,7 @@ function renderSeries(id, tab){
       <div class="sh-cov"><div class="t pic">${coverHTML(s,"anime","","",true)}<span class="cap">Anime, ${s.eps} episode${s.eps===1?"":"s"}</span></div>${bookTile}</div>
       <div class="sh-r">
         <div class="t sh-title"><h1>${esc(s.title)}</h1>${s.jp ? `<div class="jp" lang="ja">${esc(s.jp)}</div>` : ""}
-          <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div></div>
+          <div class="meta">${[s.year, (s.genres||[]).join(", ")].filter(Boolean).map(esc).join(", ")}</div>${s.about ? `<p class="about">${esc(s.about)}</p>` : ""}</div>
         <div class="t tone sh-ans">${answer}</div>
         ${s.score?`<div class="t fact"><b>${fmt10(s.score/10)}</b><span class="label">AniList score</span></div>`:""}
         <div class="t fact"><b>${ss.shown ? fmt10(ss.avg) : "—"}</b><span class="label">Animeter${ss.shown ? `, ${ss.votes} votes` : ss.votes ? `, not enough votes yet (${ss.votes} of ${MIN_VOTES})` : ", no votes yet"}</span></div>

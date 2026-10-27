@@ -26,6 +26,9 @@ def load_runs():
 def load():
   """Return (series list merged with AniList meta, details by id, fetched date)."""
   series = json.load(open(os.path.join(HERE, "series.json")))
+  # a one or two sentence, spoiler-free summary of what each series is about, written for this site
+  try: about = json.load(open(os.path.join(HERE, "synopsis.json")))
+  except FileNotFoundError: about = {}
   runs = load_runs()
   try: meta = json.load(open(os.path.join(HERE, "meta.json")))
   except FileNotFoundError: meta = {}
@@ -50,6 +53,7 @@ def load():
       if s.get("end") == "fully": s.update(endWord="Fully adapted", endShort="Done")
       elif s.get("end") == "ahead": s.update(endWord="Source continues", endShort="Novel ahead" if s["kind"] == "novel" else "Manga ahead")
       s.setdefault("epsLabel", "Season 1")
+      if about.get(s["id"]): s["about"] = about[s["id"]]
       apply_seasons(s, runs)
       out.append(s)
   details = {}

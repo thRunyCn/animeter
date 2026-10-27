@@ -348,6 +348,7 @@ input::placeholder{color:var(--muted)}
 .sh-r{grid-column:7/13;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--g)}
 .sh-r>.t{grid-column:1/-1}
 .sh-title{background:var(--deep);color:#fff;min-height:clamp(240px,24vw,360px);display:flex;flex-direction:column;justify-content:flex-end}
+.sh-title .about{margin:18px 0 0;max-width:60ch;font-size:var(--step-body);line-height:1.5;color:#f3f2ef}
 .sh h1{font-size:clamp(2.6rem,1rem + 4vw,5.6rem);letter-spacing:-.045em;line-height:.9;font-stretch:82%}
 .sh .jp{font-family:var(--f-jp);font-size:var(--step-lead);margin-top:16px;letter-spacing:0;font-weight:500}
 .sh .meta{font-size:var(--step-small);margin-top:10px;color:var(--muted)}
