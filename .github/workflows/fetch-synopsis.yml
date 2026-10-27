@@ -1,0 +1,19 @@
+name: Fetch AniList descriptions
+on:
+  workflow_dispatch:
+  push:
+    branches: [synopsis]
+    paths: [fetch_synopsis.py, .github/workflows/fetch-synopsis.yml]
+permissions:
+  contents: write
+jobs:
+  synopsis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 fetch_synopsis.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add research/synopsis_src.json
+          git diff --cached --quiet || (git commit -m "AniList descriptions for writing summaries" && git push)
