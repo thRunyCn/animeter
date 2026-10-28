@@ -6,14 +6,35 @@ on:
     paths: [fetch_tags.py, .github/workflows/fetch-tags.yml]
 permissions:
   contents: write
+concurrency:
+  group: fetch-tags
+  cancel-in-progress: false
 jobs:
   tags:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - run: python3 fetch_tags.py 2>&1 | tee fetch_tags.log || true
-      - run: |
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      # the script retries 429/5xx itself; a real failure fails the job, after its log is shown and kept
+      - id: fetch
+        run: |
+          set -o pipefail
+          python3 -u fetch_tags.py 2>&1 | tee fetch_tags.log
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fetch-tags-log
+          path: fetch_tags.log
+          if-no-files-found: ignore
+      - if: steps.fetch.outcome == 'success'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add -f fetch_tags.log; if [ -f tags.json ]; then git add tags.json; fi
-          git diff --cached --quiet || (git commit -m "Update AniList tags" && git push)
+          git add tags.json
+          if git diff --cached --quiet; then echo "tags.json unchanged"; exit 0; fi
+          git commit -m "Update AniList tags"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep $((i * 10)); done
+          echo "::error::Couldn't push tags.json after 3 tries"; exit 1

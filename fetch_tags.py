@@ -15,23 +15,39 @@ for t in json.load(open(os.path.join(HERE, "top.json"))):
     if t.get("anilist"): ids[t["anilist"]] = t["id"]
 Q = "query($ids:[Int],$p:Int){Page(page:$p,perPage:50){media(id_in:$ids,type:ANIME){id tags{name rank category isAdult isMediaSpoiler isGeneralSpoiler}}}}"
 def post(body):
+    """POST to AniList, retrying rate limits, server errors and network drops; GraphQL errors are printed in full."""
     for i in range(8):
+        wait = 5 * (i + 1)
         try:
             req = urllib.request.Request("https://graphql.anilist.co", data=json.dumps(body).encode(),
                 headers={"Content-Type": "application/json", "Accept": "application/json", "User-Agent": "animeter tags"})
-            with urllib.request.urlopen(req, timeout=40) as r: return json.load(r)
+            with urllib.request.urlopen(req, timeout=40) as r: d = json.load(r)
+            if d.get("errors"):
+                print("GraphQL errors:", json.dumps(d["errors"])[:600], flush=True)
+                if not (d.get("data") or {}).get("Page"): time.sleep(wait); continue
+            return d
         except urllib.error.HTTPError as e:
             print("HTTP", e.code, e.read()[:300], flush=True)
-            if e.code in (429, 500, 502, 503): time.sleep(int(e.headers.get("Retry-After") or 0) or 5 * (i + 1)); continue
+            if e.code in (429, 500, 502, 503, 504):
+                time.sleep(int(e.headers.get("Retry-After") or 0) or wait); continue
             raise
-    raise SystemExit("AniList kept failing")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            print("network error:", e, flush=True); time.sleep(wait); continue
+    raise SystemExit("AniList kept failing after 8 tries")
 out, keys = {}, list(ids)
+print(len(keys), "AniList ids to tag", flush=True)
 for i in range(0, len(keys), 50):
     chunk = keys[i:i+50]
     d = post({"query": Q, "variables": {"ids": chunk, "p": 1}})
     for m in d["data"]["Page"]["media"]:
         out[ids[m["id"]]] = [[t["name"], t["rank"], t["category"]] for t in m["tags"]
                              if not t["isAdult"] and not t["isMediaSpoiler"] and not t["isGeneralSpoiler"] and (t["rank"] or 0) >= 50]
+    print(f"batch {i // 50 + 1}: {len(out)} tagged so far", flush=True)
     time.sleep(2.5)
-json.dump(out, open(os.path.join(HERE, "tags.json"), "w"), ensure_ascii=False, indent=0, sort_keys=True)
+# never replace a good file with a much smaller one (a half-failed run)
+path = os.path.join(HERE, "tags.json")
+try: before = len(json.load(open(path)))
+except (FileNotFoundError, ValueError): before = 0
+if len(out) < 0.9 * before: raise SystemExit(f"only {len(out)} series tagged, the current tags.json has {before}; keeping it")
+json.dump(out, open(path, "w"), ensure_ascii=False, indent=0, sort_keys=True)
 print(len(out), "series tagged of", len(ids))
