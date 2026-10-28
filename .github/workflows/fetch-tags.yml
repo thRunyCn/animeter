@@ -18,16 +18,17 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      # the log goes to the runner temp dir: a changed tracked file would stop `git pull --rebase` below
       # the script retries 429/5xx itself; a real failure fails the job, after its log is shown and kept
       - id: fetch
         run: |
           set -o pipefail
-          python3 -u fetch_tags.py 2>&1 | tee fetch_tags.log
+          python3 -u fetch_tags.py 2>&1 | tee "$RUNNER_TEMP/fetch_tags.log"
       - if: always()
         uses: actions/upload-artifact@v4
         with:
           name: fetch-tags-log
-          path: fetch_tags.log
+          path: ${{ runner.temp }}/fetch_tags.log
           if-no-files-found: ignore
       - if: steps.fetch.outcome == 'success'
         run: |
