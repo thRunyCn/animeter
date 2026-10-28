@@ -1070,14 +1070,14 @@
 "Cast-Main Cast"
 ],
 [
-"Philosophy",
-73,
-"Theme-Other"
-],
-[
 "Battle Royale",
 71,
 "Theme-Action"
+],
+[
+"Philosophy",
+62,
+"Theme-Other"
 ],
 [
 "Achronological Order",
@@ -3360,14 +3360,29 @@
 "Setting-Universe"
 ],
 [
+"Female Protagonist",
+72,
+"Cast-Main Cast"
+],
+[
 "Angels",
 72,
 "Cast-Traits"
 ],
 [
-"Female Protagonist",
-71,
-"Cast-Main Cast"
+"Urban Fantasy",
+61,
+"Setting-Universe"
+],
+[
+"Survival",
+60,
+"Theme-Other"
+],
+[
+"Body Horror",
+60,
+"Theme-Other"
 ],
 [
 "No Dialogue",
@@ -3375,14 +3390,14 @@
 "Technical"
 ],
 [
-"Urban Fantasy",
-58,
-"Setting-Universe"
+"Foreign",
+56,
+"Setting-Scene"
 ],
 [
-"Survival",
-52,
-"Theme-Other"
+"Fairy Tale",
+50,
+"Theme-Fantasy"
 ]
 ],
 "angelsofdeath": [
@@ -8400,6 +8415,11 @@
 "Theme-Fantasy"
 ],
 [
+"Coming of Age",
+60,
+"Theme-Drama"
+],
+[
 "Henshin",
 60,
 "Theme-Fantasy"
@@ -8407,6 +8427,11 @@
 [
 "Tsundere",
 59,
+"Cast-Traits"
+],
+[
+"Nun",
+58,
 "Cast-Traits"
 ],
 [
@@ -8420,19 +8445,9 @@
 "Theme-Other"
 ],
 [
-"Nun",
-55,
-"Cast-Traits"
-],
-[
 "Espionage",
-52,
+55,
 "Theme-Action"
-],
-[
-"Coming of Age",
-50,
-"Theme-Drama"
 ]
 ],
 "blacklagoon": [
@@ -15745,8 +15760,13 @@
 "Cast-Traits"
 ],
 [
+"Ensemble Cast",
+79,
+"Cast-Main Cast"
+],
+[
 "Shounen",
-67,
+71,
 "Demographic"
 ],
 [
@@ -15770,14 +15790,14 @@
 "Theme-Other"
 ],
 [
-"Guns",
-59,
-"Theme-Action"
-],
-[
 "Gore",
 57,
 "Theme-Other"
+],
+[
+"Guns",
+56,
+"Theme-Action"
 ],
 [
 "Martial Arts",
@@ -17864,6 +17884,11 @@
 "Cast-Main Cast"
 ],
 [
+"Crafts",
+80,
+"Theme-Arts"
+],
+[
 "School",
 79,
 "Setting-Scene"
@@ -17882,11 +17907,6 @@
 "Tomboy",
 62,
 "Cast-Traits"
-],
-[
-"Crafts",
-60,
-"Theme-Arts"
 ]
 ],
 "domesticgirlfriend": [
@@ -18731,6 +18751,11 @@
 "Swordplay",
 79,
 "Theme-Action"
+],
+[
+"Kingdom Management",
+79,
+"Theme-Drama"
 ],
 [
 "Seinen",
@@ -21036,6 +21061,11 @@
 "Primarily Teen Cast",
 56,
 "Cast-Main Cast"
+],
+[
+"Nudity",
+52,
+"Cast-Traits"
 ]
 ],
 "falsememory": [
@@ -21118,7 +21148,7 @@
 ],
 [
 "Kingdom Management",
-75,
+77,
 "Theme-Drama"
 ],
 [
@@ -22591,7 +22621,7 @@
 ],
 [
 "Asexual",
-55,
+54,
 "Cast-Traits"
 ],
 [
@@ -23671,6 +23701,11 @@
 "CGI",
 60,
 "Technical"
+],
+[
+"Primarily Male Cast",
+60,
+"Cast-Main Cast"
 ],
 [
 "Urban",
@@ -26046,11 +26081,6 @@
 "Theme-Fantasy"
 ],
 [
-"Yuri",
-84,
-"Theme-Romance"
-],
-[
 "Coastal",
 81,
 "Setting-Scene"
@@ -26074,6 +26104,11 @@
 "LGBTQ+ Themes",
 75,
 "Theme-Other"
+],
+[
+"Yuri",
+73,
+"Theme-Romance"
 ],
 [
 "Magic",
@@ -29338,6 +29373,11 @@
 "Setting-Scene"
 ],
 [
+"Nudity",
+55,
+"Cast-Traits"
+],
+[
 "Office",
 55,
 "Setting-Scene"
@@ -29349,11 +29389,6 @@
 ],
 [
 "Tsundere",
-50,
-"Cast-Traits"
-],
-[
-"Nudity",
 50,
 "Cast-Traits"
 ]
@@ -29515,7 +29550,7 @@
 "highschooldxd": [
 [
 "Nudity",
-94,
+93,
 "Cast-Traits"
 ],
 [
@@ -34707,12 +34742,12 @@
 ],
 [
 "Primarily Teen Cast",
-88,
+89,
 "Cast-Main Cast"
 ],
 [
 "School",
-85,
+84,
 "Setting-Scene"
 ],
 [
@@ -34758,11 +34793,6 @@
 "Cast-Traits"
 ],
 [
-"Creature Taming",
-79,
-"Theme-Other"
-],
-[
 "Slapstick",
 79,
 "Theme-Comedy"
@@ -34771,6 +34801,11 @@
 "Demons",
 76,
 "Cast-Traits"
+],
+[
+"Creature Taming",
+73,
+"Theme-Other"
 ],
 [
 "Chibi",
@@ -34788,14 +34823,14 @@
 "Theme-Action"
 ],
 [
-"Female Harem",
-67,
-"Theme-Romance"
-],
-[
 "Swordplay",
 66,
 "Theme-Action"
+],
+[
+"Female Harem",
+65,
+"Theme-Romance"
 ],
 [
 "Maids",
@@ -34808,6 +34843,11 @@
 "Cast-Traits"
 ],
 [
+"Cute Boys Doing Cute Things",
+53,
+"Theme-Slice of Life"
+],
+[
 "Angels",
 50,
 "Cast-Traits"
@@ -34816,11 +34856,6 @@
 "Skeleton",
 50,
 "Cast-Traits"
-],
-[
-"Cute Boys Doing Cute Things",
-50,
-"Theme-Slice of Life"
 ]
 ],
 "jaadugarawitchinmongolia": [
@@ -34880,11 +34915,6 @@
 "Theme-Drama"
 ],
 [
-"Middle East",
-74,
-"Setting-Scene"
-],
-[
 "Kingdom Management",
 73,
 "Theme-Drama"
@@ -34893,6 +34923,11 @@
 "Religion",
 73,
 "Theme-Other"
+],
+[
+"Middle East",
+73,
+"Setting-Scene"
 ],
 [
 "Philosophy",
@@ -36641,13 +36676,13 @@
 "Theme-Drama"
 ],
 [
-"Shapeshifting",
+"Kaiju",
 95,
 "Theme-Fantasy"
 ],
 [
-"Kaiju",
-94,
+"Shapeshifting",
+95,
 "Theme-Fantasy"
 ],
 [
@@ -36662,7 +36697,7 @@
 ],
 [
 "Body Image",
-92,
+93,
 "Theme-Other"
 ],
 [
@@ -37079,7 +37114,7 @@
 ],
 [
 "Parody",
-94,
+93,
 "Theme-Comedy"
 ],
 [
@@ -40181,6 +40216,11 @@
 "Dullahan",
 60,
 "Cast-Traits"
+],
+[
+"Nudity",
+50,
+"Cast-Traits"
 ]
 ],
 "kotarolivesalone": [
@@ -40568,7 +40608,7 @@
 ],
 [
 "Iyashikei",
-83,
+80,
 "Theme-Slice of Life"
 ],
 [
@@ -43288,7 +43328,7 @@
 ],
 [
 "Yuri",
-68,
+69,
 "Theme-Romance"
 ],
 [
@@ -43606,8 +43646,13 @@
 ],
 [
 "LGBTQ+ Themes",
-57,
+62,
 "Theme-Other"
+],
+[
+"Yuri",
+55,
+"Theme-Romance"
 ],
 [
 "Swordplay",
@@ -45080,7 +45125,7 @@
 ],
 [
 "Shounen",
-90,
+89,
 "Demographic"
 ],
 [
@@ -45095,68 +45140,73 @@
 ],
 [
 "Fitness",
-87,
+86,
 "Theme-Game-Sport"
 ],
 [
 "Slapstick",
-84,
+83,
 "Theme-Comedy"
 ],
 [
-"Primarily Teen Cast",
-82,
-"Cast-Main Cast"
-],
-[
 "Super Power",
-81,
+80,
 "Theme-Fantasy"
 ],
 [
-"Primarily Male Cast",
+"Primarily Teen Cast",
 80,
+"Cast-Main Cast"
+],
+[
+"Primarily Male Cast",
+78,
 "Cast-Main Cast"
 ],
 [
 "Kuudere",
-80,
+76,
 "Cast-Traits"
 ],
 [
 "Aromantic",
-68,
+73,
 "Cast-Traits"
 ],
 [
-"Adoption",
-63,
-"Theme-Other"
-],
-[
 "Food",
-62,
+66,
 "Theme-Arts"
 ],
 [
+"Adoption",
+65,
+"Theme-Other"
+],
+[
 "Battle Royale",
-60,
+64,
 "Theme-Action"
 ],
 [
 "Asexual",
-56,
+62,
 "Cast-Traits"
 ],
 [
+"Medieval",
+60,
+"Setting-Time"
+],
+[
 "Bullying",
-55,
+58,
 "Theme-Drama"
 ],
 [
-"Medieval",
-53,
-"Setting-Time"
+"Unrequited Love",
+52,
+"Theme-Romance"
 ]
 ],
 "mayiaskforonefinalthing": [
@@ -45451,14 +45501,14 @@
 "Cast-Main Cast"
 ],
 [
-"Rehabilitation",
-66,
-"Theme-Drama"
-],
-[
 "Work",
 65,
 "Setting-Scene"
+],
+[
+"Rehabilitation",
+63,
+"Theme-Drama"
 ],
 [
 "Urban",
@@ -50512,7 +50562,7 @@
 "nialistonthemercilessmai": [
 [
 "Female Protagonist",
-86,
+88,
 "Cast-Main Cast"
 ],
 [
@@ -50531,6 +50581,11 @@
 "Theme-Fantasy"
 ],
 [
+"Martial Arts",
+70,
+"Theme-Action"
+],
+[
 "Maids",
 66,
 "Cast-Traits"
@@ -50544,11 +50599,6 @@
 "Acting",
 60,
 "Theme-Arts"
-],
-[
-"Martial Arts",
-60,
-"Theme-Action"
 ]
 ],
 "nichijoumyordinarylife": [
@@ -53637,7 +53687,7 @@
 ],
 [
 "Gyaru",
-83,
+84,
 "Cast-Traits"
 ],
 [
@@ -53855,17 +53905,17 @@
 "overgeared": [
 [
 "Virtual World",
-86,
+90,
 "Setting-Universe"
 ],
 [
 "Male Protagonist",
-83,
+85,
 "Cast-Main Cast"
 ],
 [
 "Video Games",
-80,
+83,
 "Theme-Game"
 ],
 [
@@ -71726,24 +71776,39 @@
 ],
 "thecomicartisthisassista": [
 [
+"Slapstick",
+95,
+"Theme-Comedy"
+],
+[
 "Female Harem",
-90,
+91,
 "Theme-Romance"
 ],
 [
 "Episodic",
-82,
+84,
 "Technical"
 ],
 [
 "Drawing",
-82,
+84,
 "Theme-Arts"
 ],
 [
-"Slapstick",
-79,
-"Theme-Comedy"
+"Seinen",
+80,
+"Demographic"
+],
+[
+"Work",
+80,
+"Setting-Scene"
+],
+[
+"Tsundere",
+80,
+"Cast-Traits"
 ],
 [
 "Male Protagonist",
@@ -71751,33 +71816,18 @@
 "Cast-Main Cast"
 ],
 [
-"Seinen",
-77,
-"Demographic"
-],
-[
-"Work",
-75,
-"Setting-Scene"
-],
-[
-"Tsundere",
-73,
-"Cast-Traits"
-],
-[
 "Heterosexual",
-70,
+76,
 "Theme-Romance"
 ],
 [
 "Primarily Adult Cast",
-63,
+68,
 "Cast-Main Cast"
 ],
 [
 "Primarily Female Cast",
-60,
+68,
 "Cast-Main Cast"
 ]
 ],
@@ -75237,13 +75287,8 @@
 "thelaidoffcheatgrantingm": [
 [
 "Surreal Comedy",
-92,
+93,
 "Theme-Comedy"
-],
-[
-"Urban Fantasy",
-79,
-"Setting-Universe"
 ],
 [
 "Found Family",
@@ -75254,6 +75299,11 @@
 "Slapstick",
 73,
 "Theme-Comedy"
+],
+[
+"Urban Fantasy",
+70,
+"Setting-Universe"
 ],
 [
 "Magic",
@@ -75274,6 +75324,11 @@
 "Male Protagonist",
 60,
 "Cast-Main Cast"
+],
+[
+"Parody",
+50,
+"Theme-Comedy"
 ]
 ],
 "thelawofueki": [
@@ -77851,14 +77906,14 @@
 ],
 "thetunneltosummertheexit": [
 [
-"Coming of Age",
-90,
-"Theme-Drama"
+"Rural",
+91,
+"Setting-Scene"
 ],
 [
-"Rural",
-90,
-"Setting-Scene"
+"Coming of Age",
+87,
+"Theme-Drama"
 ],
 [
 "Male Protagonist",
@@ -83368,7 +83423,7 @@
 "wanderingson": [
 [
 "LGBTQ+ Themes",
-97,
+96,
 "Theme-Other"
 ],
 [
@@ -84094,14 +84149,14 @@
 "Theme-Drama"
 ],
 [
+"Male Protagonist",
+83,
+"Cast-Main Cast"
+],
+[
 "Otaku Culture",
 83,
 "Theme-Other"
-],
-[
-"Male Protagonist",
-82,
-"Cast-Main Cast"
 ],
 [
 "Denpa",
@@ -84125,37 +84180,37 @@
 ],
 [
 "Coming of Age",
-72,
+73,
 "Theme-Drama"
 ],
 [
-"Psychosexual",
-64,
-"Theme-Other"
-],
-[
 "Satire",
-60,
+65,
 "Theme-Comedy"
 ],
 [
+"Psychosexual",
+62,
+"Theme-Other"
+],
+[
+"Female Protagonist",
+62,
+"Cast-Main Cast"
+],
+[
 "Video Games",
-57,
+58,
 "Theme-Game"
 ],
 [
 "Heterosexual",
-57,
+58,
 "Theme-Romance"
 ],
 [
-"Female Protagonist",
-57,
-"Cast-Main Cast"
-],
-[
 "Software Development",
-56,
+57,
 "Theme-Other"
 ]
 ],
@@ -84392,23 +84447,28 @@
 "Cast-Main Cast"
 ],
 [
+"Primarily Teen Cast",
+63,
+"Cast-Main Cast"
+],
+[
+"Shrine Maiden",
+62,
+"Cast-Traits"
+],
+[
 "School Club",
 61,
 "Setting-Scene"
 ],
 [
-"Shrine Maiden",
+"Surreal Comedy",
 60,
-"Cast-Traits"
-],
-[
-"Primarily Teen Cast",
-60,
-"Cast-Main Cast"
+"Theme-Comedy"
 ],
 [
 "Police",
-58,
+59,
 "Theme-Other-Organisations"
 ],
 [
@@ -86065,34 +86125,39 @@
 "Theme-Arts"
 ],
 [
+"Surreal Comedy",
+90,
+"Theme-Comedy"
+],
+[
+"Shounen",
+80,
+"Demographic"
+],
+[
+"Parody",
+80,
+"Theme-Comedy"
+],
+[
 "Meta",
 79,
 "Theme-Other"
 ],
 [
-"Surreal Comedy",
+"Ensemble Cast",
 79,
-"Theme-Comedy"
-],
-[
-"Parody",
-77,
-"Theme-Comedy"
-],
-[
-"Shounen",
-76,
-"Demographic"
+"Cast-Main Cast"
 ],
 [
 "Male Protagonist",
-64,
+70,
 "Cast-Main Cast"
 ],
 [
-"Ensemble Cast",
+"Educational",
 60,
-"Cast-Main Cast"
+"Theme-Other"
 ]
 ],
 "yakuzafiancraisewataning": [
