@@ -452,9 +452,9 @@ function handoffHTML(){
   return `<section class="board ho" aria-labelledby="ho-h">
     <div class="t stone ho-head" data-r><h2 id="ho-h">Where the manga picks up</h2>
       <div><p>${nf(hand)} anime stop partway through the book they adapt. Each one comes with the chapter to start from, so you can keep reading the story without starting over.</p></div></div>
-    ${xs.map((s,i)=>`<a class="t ho-card" data-r style="--i:${i%4};--tone:${esc(s.tone||"#3a3834")}" href="${seriesHref(s.id,"manga")}">
+    <div class="ho-row">${xs.map((s,i)=>`<a class="t ho-card" data-r style="--i:${i%4};--tone:${esc(s.tone||"#3a3834")}" href="${seriesHref(s.id,"manga")}">
       <div class="cover"><img src="${ROOT}covers/${s.id}-manga.jpg" alt="" loading="lazy" width="460" height="649" onerror="this.src='${ROOT}covers/${s.id}-anime.jpg'"></div>
-      <span class="lab"><b>${hoAbbr(s)}</b><span>${esc(s.title)}</span></span></a>`).join("")}
+      <span class="lab"><b>${hoAbbr(s)}</b><span>${esc(s.title)}</span></span></a>`).join("")}</div>
     ${marqueeHTML()}
   </section>`;
 }
@@ -760,7 +760,7 @@ function relatedHTML(s){
   const top = SERIES.filter(x=>x.id!==s.id).map(x=>{
     let n = 0; (x.genres||[]).forEach(g=>mine.has(g)&&n++); (x.tags||[]).slice(0,6).forEach(g=>mine.has(g)&&(n+=1.5));
     return [n + (x.score||0)/12 + Math.log10(x.popularity||10)/2, x];
-  }).sort((a,b)=>b[0]-a[0]).slice(0,6).map(([,x])=>x);
+  }).sort((a,b)=>b[0]-a[0]).slice(0,12).map(([,x])=>x);
   return `<section class="board related" aria-labelledby="rel-h"><h2 id="rel-h">More like ${esc(s.title)}</h2><div class="wall">${top.map(x=>`<a class="card" href="${seriesHref(x.id)}">${coverHTML(x,"anime","",obiHTML(x, x.score?fmt10(x.score/10):""))}<span class="t">${esc(x.title)}</span></a>`).join("")}</div></section>`;
 }
 function renderSeries(id, tab){

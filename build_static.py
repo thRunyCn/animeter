@@ -304,6 +304,13 @@ def hub(rel, title, desc, inner):
             f'<a class="srch" href="{home}#find" data-find>{icon}<span>Search</span></a><a class="melink" href="{root}profile/">My list</a></nav></header><main class="hub">{inner}</main>')
     w(rel + "index.html", page("static", root, title, desc, SITE + rel, body=body))
     urls.append(SITE + rel)
+# long lists show their first n rows; the rest stay in the page behind a toggle that needs no script
+def more(tag, rows, n, label):
+    if len(rows) <= n + 4: return f"<{tag}>" + "".join(rows) + f"</{tag}>"
+    cont = f' start="{n + 1}" style="counter-reset:r {n}"' if tag == "ol" else ""
+    cls = ' class="hubrank"' if tag == "ol" else ""
+    return (f"<{tag}{cls}>" + "".join(rows[:n]) + f"</{tag}>"
+            + f'<details class="more"><summary>{label}</summary><{tag}{cls}{cont}>' + "".join(rows[n:]) + f"</{tag}></details>")
 def li(x, root):
     sc = f'{x["score"] / 10:.1f}' if x.get("score") else ""
     return f'<li><a href="{root}{x["id"]}/">{html.escape(x["title"])}</a><small>{x.get("year") or ""}{" · " + sc if sc else ""}</small></li>'
@@ -314,7 +321,7 @@ for x in sorted(series, key=lambda x: x["title"].lower()):
 hub("anime/", "All anime A–Z · Animeter", f"Every one of the {len(series)} anime on Animeter, A to Z, with filler lists, watch order and where the manga continues.",
     f'<h1>All anime, A to Z</h1><p class="lede">{len(series)} series. Each has where viewers drop it, its seasons in order and, where we have it, the filler list and the chapter to read after the anime.</p>'
     + '<nav class="letters" aria-label="Letters">' + "".join(f'<a href="#l-{c}">{c}</a>' for c in by_letter) + "</nav>"
-    + "".join(f'<h2 id="l-{c}">{c}</h2><ul>' + "".join(li(x, "../") for x in xs) + "</ul>" for c, xs in by_letter.items()))
+    + "".join(f'<h2 id="l-{c}">{c}</h2>' + more("ul", [li(x, "../") for x in xs], 12, f"All {len(xs)} under {c}") for c, xs in by_letter.items()))
 slug = lambda g: re.sub(r"[^a-z0-9]+", "-", g.lower()).strip("-")
 groups = {}
 for x in series:
@@ -324,10 +331,10 @@ groups = {g: xs for g, xs in groups.items() if len(xs) >= 12}
 for g, xs in groups.items():
     xs = sorted(xs, key=lambda x: -(x.get("score") or 0))
     hub(f"genre/{slug(g)}/", f"Best {g} anime, ranked · Animeter", f"The {len(xs)} best-rated {g} anime by AniList score, with filler lists and where the manga continues.",
-        f'<h1>Best {html.escape(g)} anime</h1><p class="lede">{len(xs)} {html.escape(g)} anime ranked by AniList score.</p><ol class="hubrank">' + "".join(li(x, "../../") for x in xs) + "</ol>")
+        f'<h1>Best {html.escape(g)} anime</h1><p class="lede">{len(xs)} {html.escape(g)} anime ranked by AniList score.</p>' + more("ol", [li(x, "../../") for x in xs], 30, f"Show all {len(xs)}"))
 hub("genre/", "Anime by genre and theme · Animeter", "Browse anime by genre, audience and theme: shounen, seinen, isekai, romance, action and more.",
-    '<h1>Anime by genre and theme</h1><p class="lede">Pick a genre, an audience such as Shounen, or a theme such as Isekai.</p><ul>'
-    + "".join(f'<li><a href="{slug(g)}/">{html.escape(g)}</a><small>{len(xs)}</small></li>' for g, xs in sorted(groups.items(), key=lambda kv: -len(kv[1]))) + "</ul>")
+    '<h1>Anime by genre and theme</h1><p class="lede">Pick a genre, an audience such as Shounen, or a theme such as Isekai.</p><ul class="chips">'
+    + "".join(f'<li><a href="{slug(g)}/">{html.escape(g)}<small>{len(xs)}</small></a></li>' for g, xs in sorted(groups.items(), key=lambda kv: -len(kv[1]))) + "</ul>")
 hub("about/", "About Animeter", "What Animeter is, where its data comes from and how to get in touch.",
     '<div class="prose"><h1>About Animeter</h1><p>Animeter is a fan-made guide to anime. It ranks about a thousand series and answers the questions people ask before and after watching: is it worth pushing through, which episodes are filler, what order to watch in, and which chapter of the manga or light novel to read once the anime ends.</p>'
     '<h2>Where the data comes from</h2><p>Scores, popularity, genres, tags, covers and season lists come from <a href="https://anilist.co">AniList</a>. Filler and arc data and the manga hand-off points are researched per series, and each series page links its sources. Drop points and Animeter ratings come from visitors who sign in and report.</p>'
