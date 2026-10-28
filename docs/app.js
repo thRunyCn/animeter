@@ -114,6 +114,7 @@ function siteScores(){
 /* ---------- rankings (home) ---------- */
 const TAGCAT = STATIC ? (window.ANIMETER.tagcat||{}) : {};   // AniList tag -> group (Audience, Themes, Setting, Cast)
 const hasTag = (s, t) => t==="Film" ? s.format==="MOVIE" : (s.genres||[]).includes(t) || (s.tags||[]).includes(t);
+const TAG_FIRST = 12;   // tags shown per group before "Show all"; groups of up to 24 show whole
 function allTags(){
   const n = {};
   SERIES.forEach(s=>{ new Set([...(s.genres||[]), ...(s.tags||[]), ...(s.format==="MOVIE"?["Film"]:[])]).forEach(g=>n[g]=(n[g]||0)+1); });
@@ -504,7 +505,9 @@ function renderHome(){
         </div>
         <div class="t tagpanel" id="tagpanel" hidden>
           <div class="tp-top"><input type="search" id="tagq" placeholder="Find a tag, e.g. Shounen, Isekai" aria-label="Find a tag"><button type="button" class="ghost" id="tagdone">Done</button></div>
-          ${allTags().map(([g,l])=>`<div class="tg" data-group="${g}"><h3>${g}</h3><div class="tags" role="group" aria-label="${g}">${l.map(([t,n])=>`<button type="button" data-tag="${esc(t)}" aria-pressed="false">${esc(t)}<span class="n">${n}</span></button>`).join("")}</div></div>`).join("")}
+          ${(()=>{ const gs = allTags(), first = (gs.find(([g])=>g==="Genre")||gs[0])[0];
+            return `<div class="seg tg-seg" role="group" aria-label="Tag groups">${gs.map(([g,l])=>`<button type="button" data-g="${g}" aria-pressed="${g===first}">${g}<span class="n">${l.length}</span></button>`).join("")}</div>`
+              + gs.map(([g,l])=>`<div class="tg${g===first?" on":""}" data-group="${g}"><h3>${g}</h3><div class="tags" role="group" aria-label="${g}">${l.map(([t,n],i)=>`<button type="button" data-tag="${esc(t)}" aria-pressed="false"${i>=TAG_FIRST && l.length>24?' class="x"':""}>${esc(t)}<span class="n">${n}</span></button>`).join("")}${l.length>24?`<button type="button" class="tmore">Show all ${l.length}</button>`:""}</div></div>`).join(""); })()}
         </div>
         <div id="rk"></div>
         <nav class="pager" id="pager" aria-label="Pages"></nav>
@@ -519,12 +522,15 @@ function renderHome(){
     document.getElementById("tagdone").addEventListener("click", ()=>{ openPanel(false); tbtn.focus(); });
     document.getElementById("tagq").addEventListener("input", e=>{
       const v = e.target.value.trim().toLowerCase();
+      panel.classList.toggle("searching", !!v);
       panel.querySelectorAll(".tg").forEach(g=>{ let any=false;
         g.querySelectorAll("[data-tag]").forEach(b=>{ const m = !v || b.dataset.tag.toLowerCase().includes(v); b.hidden = !m; any = any || m; });
         g.hidden = !any; });
     });
     const toggleTag = e=>{
       const b = e.target.closest("button"); if (!b) return;
+      if (b.dataset.g){ panel.querySelectorAll(".tg-seg button").forEach(x=>x.setAttribute("aria-pressed", x===b)); panel.querySelectorAll(".tg").forEach(g=>g.classList.toggle("on", g.dataset.group===b.dataset.g)); return; }
+      if (b.classList.contains("tmore")){ b.closest(".tg").classList.add("all"); b.remove(); return; }
       if (b.id==="clrtags") tags.clear(); else if (b.dataset.tag) tags.has(b.dataset.tag) ? tags.delete(b.dataset.tag) : tags.add(b.dataset.tag); else return;
       page=1; renderRankings();
     };

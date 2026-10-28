@@ -219,10 +219,18 @@ input::placeholder{color:var(--muted)}
 @media (hover:hover){.picked button:hover{background:var(--hot)}}
 .picked .clr{background:none;color:var(--ink);text-decoration:underline}
 .picked button:focus-visible{outline:3px solid var(--paper);outline-offset:2px}
-.tagpanel{grid-column:1/-1;display:flex;flex-direction:column;gap:22px}
+.tagpanel{grid-column:1/-1;display:flex;flex-direction:column;gap:16px}
 .tp-top{display:flex;gap:6px}
 .tp-top input{max-width:420px}
 .tg h3{font-size:clamp(20px,1.6vw,24px);margin:0 0 12px;letter-spacing:-.02em}
+/* one group at a time, its most used tags first; a search looks through every group */
+.tg-seg{flex-wrap:wrap;align-self:flex-start;max-width:100%}
+.tg-seg button{display:inline-flex;align-items:center}
+.tg-seg .n{margin-left:8px;opacity:.6;font-size:13px}
+.tagpanel:not(.searching) .tg:not(.on),.tagpanel:not(.searching) .tg h3,.tagpanel.searching .tg-seg,.tagpanel.searching .tmore{display:none}
+.tagpanel:not(.searching) .tg:not(.all) .tags button.x:not([aria-pressed="true"]){display:none}
+.tags button[hidden]{display:none}
+.tags .tmore{background:none;text-decoration:underline;text-underline-offset:3px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tags button{all:unset;cursor:pointer;padding:9px 12px;border-radius:var(--r);background:var(--ground-3);font-weight:500;font-size:var(--step-small);display:inline-flex;gap:8px;align-items:baseline;transition:background-color .2s ease}
 .tags button .n{font-size:13px;color:var(--muted)}
