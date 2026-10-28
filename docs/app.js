@@ -531,7 +531,12 @@ function renderHome(){
       const b = e.target.closest("button"); if (!b) return;
       if (b.dataset.g){ panel.querySelectorAll(".tg-seg button").forEach(x=>x.setAttribute("aria-pressed", x===b)); panel.querySelectorAll(".tg").forEach(g=>g.classList.toggle("on", g.dataset.group===b.dataset.g)); return; }
       if (b.classList.contains("tmore")){ b.closest(".tg").classList.add("all"); b.remove(); return; }
-      if (b.id==="clrtags") tags.clear(); else if (b.dataset.tag) tags.has(b.dataset.tag) ? tags.delete(b.dataset.tag) : tags.add(b.dataset.tag); else return;
+      const t = b.dataset.tag;
+      if (b.id==="clrtags") tags.clear();
+      else if (t){ if (tags.has(t)) tags.delete(t); else {
+        if (TAGCAT[t]==="Audience") tags.forEach(x=>{ if (TAGCAT[x]==="Audience") tags.delete(x); });   // one audience at a time: a show is Shounen or Josei, not both
+        tags.add(t); } }
+      else return;
       page=1; renderRankings();
     };
     panel.addEventListener("click", toggleTag);
