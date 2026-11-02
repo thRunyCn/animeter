@@ -1,0 +1,30 @@
+[
+ {
+  "id": "bleach",
+  "unit": "Chapter",
+  "next": null,
+  "seasons": [
+   {
+    "l": "Bleach (2004)",
+    "end": 479
+   },
+   {
+    "l": "Thousand-Year Blood War",
+    "end": 686
+   }
+  ],
+  "status": "fully_adapted",
+  "note": "The Thousand-Year Blood War anime adapts the rest of the manga through its final Chapter 686, epilogue included, so there is nothing left to continue.",
+  "src": [
+   [
+    "ComicBook.com",
+    "https://comicbook.com/anime/feature/bleach-officially-ends-the-animes-final-fight-after-22-years-with-epic-finale/"
+   ],
+   [
+    "Wikipedia",
+    "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War"
+   ]
+  ],
+  "confidence": "medium"
+ }
+]
