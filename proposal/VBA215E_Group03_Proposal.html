@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VBA215E Group03 Proposal</title>
+<style>
+  @page { size: A4; margin: 10mm 13mm 8mm 13mm; }
+  body { font-family: "Carlito", "Calibri", sans-serif; font-size: 9.3pt; line-height: 1.16; color: #000; margin: 0; }
+  h1 { font-size: 13.5pt; text-align: center; margin: 0 0 2px 0; }
+  .sub { text-align: center; font-size: 9.6pt; margin-bottom: 5px; }
+  table.members { width: 100%; border-collapse: collapse; margin-bottom: 4px; font-size: 9.2pt; }
+  table.members td { padding: 0 4px; }
+  h2 { font-size: 10.4pt; margin: 4px 0 2px 0; border-bottom: 0.6pt solid #000; padding-bottom: 1px; }
+  p { margin: 0 0 3px 0; text-align: justify; }
+  .two p { text-align: left; }
+  ul, ol { margin: 0 0 3px 0; padding-left: 16px; }
+  li { margin: 0 0 1px 0; }
+  .two { display: flex; gap: 14px; }
+  .two > div { flex: 1; }
+  table.ent { width: 100%; border-collapse: collapse; font-size: 9.2pt; }
+  table.ent td { border: 0.5pt solid #777; padding: 1px 4px; vertical-align: top; }
+  table.ent td.n { font-weight: bold; white-space: nowrap; width: 1%; }
+  .rules { columns: 2; column-gap: 14px; font-size: 9pt; line-height: 1.15; }
+  .rules ol { padding-left: 18px; margin: 0; }
+  .rules li { break-inside: avoid; }
+  .rules .grp { font-weight: bold; font-style: italic; break-after: avoid; margin-top: 2px; }
+  .note { font-size: 9pt; font-style: italic; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<h1>Course Scheduling and Classroom Allocation Database for a University</h1>
+<div class="sub">VBA 215E Term Project &ndash; Topic Proposal &nbsp;|&nbsp; Sector: Education &nbsp;|&nbsp; Group 03</div>
+<table class="members">
+  <tr>
+    <td>070230106 Cansu Ergöz</td>
+    <td>070230044 Sıla Başaran</td>
+    <td>070250501 Ali Bulut</td>
+    <td>070240517 Didem Uzun</td>
+    <td>070250503 Melih Okumuş</td>
+  </tr>
+</table>
+
+<h2>1. Problem Definition</h2>
+<p>In a large university with many faculties, the weekly timetable is usually built in pieces: each department prepares its own
+sections and rooms are then matched on spreadsheets passed between departments and the planning office. Because these
+files are not linked, a room can be given to two sections at the same hour, an instructor can end up in two places at once,
+or a 120-student course is put in a 60-seat room. Changes made during the term are hard to trace, and nobody can easily say
+how much of the classroom capacity is really used.</p>
+<p>We will design a database for the <b>Academic Planning Office</b> of a university modelled on ITU: several faculties, each
+with its own buildings, plus one central lecture-hall building that does not belong to any faculty and is used for common
+(pool) courses such as Mathematics, Physics and English. The database will keep rooms, courses, sections and weekly sessions
+together, block clashes and unsuitable rooms through constraints, and report on room usage.</p>
+
+<div class="two">
+<div>
+<h2>2. Users</h2>
+<ul>
+  <li><b>Planning office staff:</b> place sections into rooms and slots, decide on room requests, follow changes.</li>
+  <li><b>Department secretaries:</b> enter courses and each term's sections (quota, instructor, room needs).</li>
+  <li><b>Instructors:</b> view their timetable, request rooms for make-up classes, seminars or club events.</li>
+  <li><b>Deans:</b> use utilization and peak-hour reports for space planning.</li>
+</ul>
+</div>
+<div>
+<h2>3. Scope</h2>
+<p><b>Included:</b> faculties, departments, courses and prerequisites, buildings, rooms and their equipment, terms, sections and
+instructors, weekly session&ndash;room&ndash;time assignments, clash and suitability checks, room reservations with approval,
+a change log and reports, plus the data warehouse and MongoDB parts.</p>
+<p><b>Not included:</b> automatic timetable generation, student registration and grades (we only keep the number of enrolled
+students), exam scheduling, maintenance and any user interface.</p>
+</div>
+</div>
+
+<h2>4. Main Entities</h2>
+<table class="ent">
+  <tr><td class="n">Faculty / Department</td><td>A faculty has departments; each department belongs to one faculty and owns courses and instructors.</td>
+      <td class="n">Equipment</td><td>Projector, smart board, etc. Linked to rooms through a bridge table that holds the quantity.</td></tr>
+  <tr><td class="n">Course</td><td>Catalog course, either regular or pool. Prerequisites are stored as a recursive relationship on Course.</td>
+      <td class="n">Term</td><td>Academic term with start and end dates, e.g. 2026-2027 Fall.</td></tr>
+  <tr><td class="n">Building</td><td>Belongs to one faculty, or to none (the central building).</td>
+      <td class="n">Section</td><td>A course opened in a term (weak entity on Course + Term), with quota and enrolled count.</td></tr>
+  <tr><td class="n">Room</td><td>Weak entity of Building. Supertype of Classroom, Computer Lab and Amphitheater.</td>
+      <td class="n">Class Session</td><td>One weekly block of a section: day, start slot, length, room.</td></tr>
+  <tr><td class="n">Instructor</td><td>Academic staff with a title, in one department. Linked to sections through a bridge table.</td>
+      <td class="n">Reservation</td><td>One-off room request with date, time, purpose and status; planning staff decide on it.</td></tr>
+</table>
+
+<h2>5. Example Business Questions</h2>
+<ol>
+  <li>Which rooms are used the most and the least during the week, and which sections fill less than half of the room they are in?</li>
+  <li>Which days and hours are the busiest, and when are most rooms empty?</li>
+  <li>How many hours does each instructor teach per week, and who is close to the 20-hour limit?</li>
+  <li>Which computer labs (or rooms of a given type and size) are free on a given day and hour?</li>
+  <li>How does utilization compare between faculties and the central building?</li>
+  <li>Which rooms receive the most reservation requests, and what share of requests are rejected?</li>
+</ol>
+
+<h2>6. Initial Business Rules</h2>
+<div class="rules">
+<ol>
+  <div class="grp" style="margin-left:-18px">Organization and courses</div>
+  <li>Each department belongs to exactly one faculty. Each instructor works in one department and has an academic title.</li>
+  <li>Each course is owned by one department and is either a regular course or a pool course offered to all faculties.</li>
+  <li>A course may have several prerequisite courses, but it cannot be its own prerequisite.</li>
+  <div class="grp" style="margin-left:-18px">Buildings and rooms</div>
+  <li>A building belongs to one faculty or to none; the building with no faculty is the central lecture-hall building.</li>
+  <li>Room numbers repeat between buildings, so a room is identified by its building and room number together.</li>
+  <li>Every room is a classroom, a computer lab or an amphitheater. Labs also store the number of computers, amphitheaters the sound system.</li>
+  <li>Room capacity must be greater than zero. A room can have many equipment types, each with a quantity.</li>
+  <div class="grp" style="margin-left:-18px">Terms, sections and sessions</div>
+  <li>A course can be opened as one or more sections in a term (Section 1, 2, ...). The enrolled count can never exceed the quota.</li>
+  <li>A section can have more than one instructor, but exactly one is responsible. A section may require a room type and equipment.</li>
+  <li>Classes run Monday to Friday in eight one-hour slots (08:30&ndash;12:30 and 13:30&ndash;17:30), i.e. 40 slots per room per week. Room utilization = used slots / 40.</li>
+  <li>A session takes 2 or 3 consecutive slots in a single room and cannot run over the lunch break. A section can have several sessions a week, but they cannot overlap.</li>
+  <div class="grp" style="margin-left:-18px">Assignment checks</div>
+  <li>A room cannot have two sessions in the same slot, and an instructor cannot teach two sessions in the same slot.</li>
+  <li>The room's capacity must be at least the section quota, and the room must have the type and equipment the section needs.</li>
+  <li>Regular courses go to buildings of their own faculty; pool courses go to the central building.</li>
+  <li>An instructor cannot teach more than 20 hours per week.</li>
+  <div class="grp" style="margin-left:-18px">Reservations and tracking</div>
+  <li>Instructors and staff can request any room for a one-off event on a date, with the same slot rules. A request stays Pending until planning staff approve or reject it; it can also be cancelled.</li>
+  <li>An approved reservation cannot overlap another approved one, or a regular session in the same room on that weekday of the term.</li>
+  <li>Each change to a session's room or time is logged (old/new value, who, when, why).</li>
+</ol>
+</div>
+<div class="note">Not decided yet: whether two sessions of one section on the same day need an empty slot between them (to be settled before Week 9).</div>
+
+</body>
+</html>
