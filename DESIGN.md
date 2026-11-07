@@ -54,6 +54,10 @@ Hover, `:active`, `:focus-visible` (3px paper ring), disabled (pager, send), loa
 
 design-taste inspector: **0 FAIL** on home and a series page at 1440 / 768 / 390. `impeccable detect` on the rendered pages at 1440 and 390: only the advisory "one typeface on everything", by intent. Functional tests pass (navigation, tag filter, rating, OTP sign-in, cover images, spoiler reveal). Remaining inspector WARNs are defended: no video (no honest footage source), size count (a data-dense catalogue), the hero 'void' (the cover wall fills it; the inspector reads background images as empty), and the snap row of the top ten on phones (cut on purpose to show it scrolls).
 
+## Backgrounds
+
+`vendor/pattern.min.css` (pattern.css 1.0.0, MIT): pure-CSS background patterns (dots, grid, cross-dots, diagonal/horizontal/vertical lines and stripes, checks, triangles, zigzag) in `-sm/-md/-lg/-xl`. Colour comes from `currentColor`, so set `color` on the element (e.g. a step colour like `#1c1c1f` on the ground) to keep patterns quiet. Not linked from pages yet; add `<link rel="stylesheet" href="{root}vendor/pattern.min.css">` only where a pattern is used. File is byte-identical to the npm package (sha256 57089c87…); no JS, no `url()`, no `@import`.
+
 ## Known gaps
 
 - The drop-map chart, arc bars and filler grid keep their earlier data visualisation, recoloured for the dark board.
